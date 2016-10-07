@@ -1,0 +1,268 @@
+#
+# (Hopefully) HIGH PRECISION RULES
+#
+
+taxonomy:
+  - Entity:
+    - TransparentChunk
+    - NP
+    - CM:
+      - CM_NP
+      - CM_event
+    - VP
+    - Predicate
+  - Event:
+    - Causal
+
+#      triggers: activat|caus|contribut|convert|driv|elev|elicit|enabl|enhanc|exacerbat|generat|increas|produc|result|signal|stimul|synthes|trigger
+
+rules:
+
+#
+#  Rules for Grammatical Primatives (e.g. noun phrases, prepositional phrases, etc)
+#
+
+  # this rule captures all noun phrases, but the action
+  # filters out the ones that are not transparent
+  # ==> SO - returns ONLY transparent NPs
+  - name: entity_rule
+    label: Entity
+    priority: 1
+    type: token
+    pattern: |
+      [word=/.+/]
+
+  #- name: TransparentChunk
+  #  label: TransparentChunk
+  #  keep: no
+  #  priority: 1
+  #  type: token
+  #  action: handleTransparent
+  #  pattern: |
+  #    [chunk='B-NP'][chunk='I-NP']*
+
+  #- name: np_rule
+  #  label: NP
+  #  priority: 2
+  #  action: filterNounPhrases
+  #  type: token
+  #  pattern: |
+  #    (@TransparentChunk (of|to|like|such as|with))? # optional transparent noun
+  #    [chunk='B-NP' & !mention=TransparentChunk] # don't capture if transparent
+  #    [chunk='I-NP']*
+ 
+  - name: np_rule_2
+    label: NP
+    priority: 2
+    type: token
+    unit: "tag"
+    pattern: |
+      /^NN/
+
+  - name: vp_rule_1
+    label: VP
+    priority: 2
+    type: token
+    unit: "tag"
+    pattern: |
+      /^VB/  # verb
+      
+#  - name: CM_expansion
+#    label: CM_event
+#    priority: 4
+#    pattern: |
+#      trigger = [mention=VP & !lemma=/(cause|result|lead)/]
+#      deps:Entity* = /^((?!(advcl|mark|parataxis|dep|prep_due_to|prep_because_of|prep_after|conj_but|punct)).)+$/{1,3}   #+ 
+
+  - name: CM_expansion
+    label: CM_event
+    priority: 4
+    pattern: |
+      trigger = [mention=VP & !lemma=/(cause|result|lead|create)/]
+      deps:Entity* = /^(nsubj|nn|amod|advmod|ccmod|prep_(with|for|into|on|to)|dobj|xcomp|ccomp|agent|vmod)/{1,2}   #+ 
+
+
+  - name: CM_expansion_2
+    label: CM_NP
+    priority: 3
+    pattern: |
+      trigger = [mention=NP & !lemma=/(cause|result)/]
+      #deps:Entity* = /^((?!(conj_.+|mark|parataxis|dep|punct)).)+$/{1,3}   #+ 
+      deps:Entity* = /^(nn|amod|advmod|ccmod|prep_(of|with|for|into|on|to|in)|dobj)/{1,2}   #+ 
+
+  - name: CM_expansion_3_copular
+    label: CM_event
+    priority: 3
+    pattern: |
+      trigger = [lemma=be]
+      deps:Entity* = /^(nsubj|prep_(in|on|with|for|of)|dobj|nn|amod)/+ 
+
+
+  - name: nounphrase_with_property_3
+    label: CM_NP
+    priority: 5
+    example: "... will cause huge <np> damage to the reef <\np>."
+    pattern: |
+      trigger = [tag=/^NN/ & !lemma=/(cause|result|lead|create)/]
+      modifier:CM = <dobj [lemma=cause & tag=/^VB/] >/(prep_(to|for|of))|xcomp/
+
+#
+#  Rules for Causal Relations
+#
+
+  - name: PosReg_syntax_1_verb
+    label: Causal    
+    priority: 9
+    example: ""
+    pattern: |
+      trigger = [lemma=cause] 
+      controlled:CM+ = prepc_by? (dobj | xcomp | ccomp) # /conj|dep|dobj|cc|nn|prep_of|prep_in|amod/{,2} (>> [word=by]){,2}
+      controller:CM+ = <xcomp? (nsubj | agent | <vmod) /appos|nn|conj_|cc|prep_of|prep_in/{,2}
+      #ex:NP? = dobj? prep_such_as  
+
+  - name: causal_2
+    label: Causal
+    priority: 9
+    example: "X will cause huge <np> damage to the reef <\np>."
+    pattern: |
+      trigger = [lemma=cause & tag=/^VB/]
+      controlled:CM+ = dobj 
+      controller:CM+ = nsubj (?! <nsubj >neg)
+
+  - name: causal_3
+    label: Causal
+    priority: 9
+    example: "X cause Y to Z"
+    pattern: |
+      trigger = [lemma=cause & tag=/^VB/]
+      controlled:CM_event+ = xcomp 
+      controller:CM+ = nsubj (?! <nsubj >neg)
+
+  - name: causal_4
+    label: Causal
+    priority: 9
+    example: "X was the cause of Y"
+    pattern: |
+      trigger = [lemma=cause & tag=/^NN/]
+      controlled:CM+ = prep_of
+      controller:CM+ = nsubj (?! <nsubj >neg)
+
+  - name: causal_5
+    label: Causal
+    priority: 9
+    example: "X was caused by Y"
+    pattern: |
+      trigger = [lemma=cause & tag=/^VB/]
+      controlled:CM+ = nsubjpass
+      controller:CM+ = agent (?! <agent >neg)
+
+  - name: causal_6
+    label: Causal
+    priority: 9
+    example: "They did not provide a motive for the alleged crime , which caused the city 's first fire-related deaths in more than a decade ."
+    pattern: |
+      trigger = [lemma=cause & tag=/^VB/]
+      controlled:CM_NP = <rcmod (?= >rcmod >nsubj [tag=WDT])
+      controller:CM+ = dobj (?! <dobj >neg)
+
+  - name: causal_7
+    label: Causal
+    priority: 9
+    example: "After the exam grades begin to count , students often start taking them more seriously , which causes passage rates to increase , Jennings said ."
+    pattern: |
+      trigger = [lemma=cause & tag=/^VB/]
+      controlled:CM_NP = <advcl (?= >advcl >nsubj [tag=WDT])
+      controller:CM+ = dobj
+
+
+  - name: result_1
+    label: Causal
+    priority: 9
+    example: "X resulted in Y"
+    pattern: |
+      trigger = [lemma=result & tag=/^VB/]
+      controlled:CM+ = prep_in
+      controller:CM+ = nsubj (?! <nsubj >neg)
+
+  - name: result_2
+    label: Causal
+    priority: 9
+    example: "X as a result of Y"
+    pattern: |
+      trigger = [lemma=result & tag=/^NN/]
+      controlled:CM+ = <prep_as
+      controller:CM+ = prep_of
+
+  - name: result_3
+    label: Causal
+    priority: 9
+    example: "X was the result of Y"
+    pattern: |
+      trigger = [lemma=result & tag=/^NN/]
+      controlled:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = prep_of
+
+  - name: result_4
+    label: Causal
+    priority: 9
+    example: "Jet lag results when the body 's internal clock is out of sync with daily life , making people sleepy when they want to be awake and wakeful when they want to sleep."
+    pattern: |
+      trigger = [lemma=result & tag=/^VB/]
+      controlled:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = /(advcl|prep_from)/
+
+  - name: led_to_1
+    label: Causal
+    priority: 9
+    example: "X led to Y"
+    pattern: |
+      trigger = [lemma=lead & tag=/^(VB|NN)/] to
+      controller:CM+ = nsubj (?! <nsubj >neg)
+      controlled:CM+ = prep_to
+
+  - name: create_1
+    label: Causal
+    priority: 9
+    example: "X was created by Y"
+    pattern: |
+      trigger = [lemma=create & tag=/^VB/]  # do I need to add "create" to the other "stop list"?
+      controlled:CM+ = nsubjpass (?! <nsubjpass >neg)
+      controller:CM+ = agent
+
+#  - name: after_1
+#    label: Causal
+#    priority: 9
+#    example: "After X, Y"
+#    pattern: |
+#      #trigger = [tag=/^VB/]  
+#      controlled:CM_event
+#      controller:CM_event = prep_after
+
+#  - name: because_of_1
+#    label: Causal
+#    priority: 10
+#    example: ""
+#    pattern: |
+#      #trigger = [mention=CM_event] #[tag=/^VB/]
+#      #trigger = @CM_event #[tag=/^VB/]  
+#      controlled:CM_event
+#      controller:CM = prep_because_of
+
+#  - name: because_of_2
+#    label: Causal
+#    priority: 9
+#    example: ""
+#    pattern: |
+#      #trigger = [tag=/^VB/]  
+#      controlled:CM_event
+#      #controller:CM = advcl (?= mark [lemma=/(because|since|after|once)/])
+#      controller:CM = advcl (?= mark [lemma=/(because)/])
+
+#Is this too broad?
+#  - name: when_rule
+#    label: Causal
+#    priority: 9
+#    example: ""
+#    type: token
+#    pattern: |
+#      @controlled:CM_event when @controller:CM_event
