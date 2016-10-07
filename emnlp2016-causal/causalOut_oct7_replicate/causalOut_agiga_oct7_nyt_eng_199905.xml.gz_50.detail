@@ -1,0 +1,375 @@
+List(Causal, Event) => dozen have caused civilian deaths
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => civilian deaths
+	controller (CM_NP, CM, Entity) => dozen
+	------------------------------
+
+
+List(Causal, Event) => dozen have caused civilian deaths
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => civilian deaths
+	controller (CM_NP, CM, Entity) => dozen
+	------------------------------
+
+
+List(Causal, Event) => Space leads to opportunities
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Space
+	controlled (CM_NP, CM, Entity) => opportunities
+	------------------------------
+
+
+List(Causal, Event) => Short-circuiting the long-established principles of patient negotiation leads to war
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Short-circuiting
+	controller (CM_NP, CM, Entity) => long-established principles of patient negotiation
+	controlled (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => Short-circuiting the long-established principles of patient negotiation leads to war
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Short-circuiting
+	controller (CM_NP, CM, Entity) => long-established principles of patient negotiation
+	controlled (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => he was greeted by rainy skies which caused a one-hour delay in the start of time trials
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => one-hour delay in the start of time trials
+	controller (CM_NP, CM, Entity) => rainy skies
+	controller (CM_event, CM, Entity) => he was greeted by rainy skies
+	------------------------------
+
+
+List(Causal, Event) => often drawn-out negotiations and industry-rocking demands cause scouts to warn players
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => scouts to warn players
+	controller (CM_NP, CM, Entity) => often drawn-out negotiations
+	controller (CM_NP, CM, Entity) => industry-rocking demands
+	------------------------------
+
+
+List(Causal, Event) => hit `` Livin ' La Vida Loca '' has led to a parody version
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => hit
+	controlled (CM_NP, CM, Entity) => parody version
+	------------------------------
+
+
+List(Causal, Event) => especially if he 's going to stay sober and avoid the violence that caused him to leave
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to leave
+	controller (CM_NP, CM, Entity) => violence
+	controller (CM_event, CM, Entity) => especially if he 's going to stay sober and avoid the violence
+	controller (CM_event, CM, Entity) => avoid the violence
+	------------------------------
+
+
+List(Causal, Event) => handicaps have caused owners to shy
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => owners to shy
+	controller (CM_NP, CM, Entity) => handicaps
+	------------------------------
+
+
+List(Causal, Event) => result of the policies of the past , black people come to the city
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => black people come to the city
+	controller (CM_NP, CM, Entity) => policies of the past
+	------------------------------
+
+
+List(Causal, Event) => result of the policies of the past , black people come to the city
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => black people come to the city
+	controller (CM_NP, CM, Entity) => policies of the past
+	------------------------------
+
+
+List(Causal, Event) => Brigadier General Daniel Montgomery said the March 29 failure was possibly due to debris on a plug that caused disruptions so small
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => disruptions so small
+	controller (CM_NP, CM, Entity) => debris on a plug
+	controller (CM_NP, CM, Entity) => plug
+	controller (CM_event, CM, Entity) => Brigadier General Daniel Montgomery said the March 29 failure was possibly due to debris on a plug
+	------------------------------
+
+
+List(Causal, Event) => disruptions cause the failure of a thruster
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => failure of a thruster
+	controller (CM_NP, CM, Entity) => disruptions
+	------------------------------
+
+
+List(Causal, Event) => challenger Ehud Barak , who has vowed to jumpstart negotiations that might ultimately lead to Palestinian statehood
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => negotiations
+	controller (CM_event, CM, Entity) => challenger Ehud Barak , who has vowed to jumpstart negotiations
+	controller (CM_event, CM, Entity) => jumpstart negotiations
+	controlled (CM_NP, CM, Entity) => Palestinian statehood
+	------------------------------
+
+
+List(Causal, Event) => mysterious-looking scars on his cheeks are the result of a childhood bout with lupus
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => mysterious-looking scars on his cheeks
+	controller (CM_NP, CM, Entity) => childhood bout with lupus
+	------------------------------
+
+
+List(Causal, Event) => boom has been created in part by the growing number of lines
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => boom
+	controller (CM_NP, CM, Entity) => growing number of lines
+	------------------------------
+
+
+List(Causal, Event) => chosen for closure as the result of political games , rather than merit
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => chosen for closure
+	controller (CM_NP, CM, Entity) => political games
+	controller (CM_NP, CM, Entity) => merit
+	------------------------------
+
+
+List(Causal, Event) => Efforts by some Democrats to broaden the scope of the Senate initiatives could cause problems for some of their own colleagues who generally favor tougher gun-control measures , but only up to a point
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => problems for some of their own colleagues who generally favor tougher gun-control measures , but only up to a point
+	controller (CM_NP, CM, Entity) => Efforts
+	------------------------------
+
+
+List(Causal, Event) => chosen for closure as the result of political games , rather than merit
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => chosen for closure
+	controller (CM_NP, CM, Entity) => political games
+	controller (CM_NP, CM, Entity) => merit
+	------------------------------
+
+
+List(Causal, Event) => Tuleh , a collection of luxurious and romantic clothes , including 1950s-style beaded dresses , lavishly printed cocktail pajamas and sable stoles , was created by Patner and Bradley
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => Tuleh
+	controlled (CM_NP, CM, Entity) => collection of luxurious and romantic clothes , including 1950s-style beaded dresses , lavishly printed cocktail pajamas and sable stoles
+	controller (CM_NP, CM, Entity) => Patner
+	controller (CM_NP, CM, Entity) => Bradley
+	------------------------------
+
+
+List(Causal, Event) => emphasis on cultural anthropology will also lead to the remapping of more familiar territory
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => emphasis on cultural anthropology
+	controlled (CM_NP, CM, Entity) => remapping of more familiar territory
+	------------------------------
+
+
+List(Causal, Event) => Katie wears braces as the result of a congenital leg deformity
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Katie wears braces
+	controller (CM_NP, CM, Entity) => congenital leg deformity
+	------------------------------
+
+
+List(Causal, Event) => widespread mismanagement in the agency caused the federal government to take it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => federal government to take it
+	controller (CM_NP, CM, Entity) => widespread mismanagement in the agency
+	controller (CM_NP, CM, Entity) => widespread mismanagement in the agency
+	controller (CM_NP, CM, Entity) => agency
+	------------------------------
+
+
+List(Causal, Event) => policy that caused thousands of working families to leave public housing rather than see their rents continually increase
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => thousands of working families to leave public housing
+	controlled (CM_event, CM, Entity) => thousands of working families to leave public housing rather than see their rents continually increase
+	controlled (CM_event, CM, Entity) => thousands of working families to leave public housing rather than see their rents continually increase
+	controller (CM_NP, CM, Entity) => policy
+	------------------------------
+
+
+List(Causal, Event) => inherited condition that causes excessive muscle growth in the interventricular septum
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => excessive muscle growth in the interventricular septum
+	controller (CM_NP, CM, Entity) => inherited condition
+	------------------------------
+
+
+List(Causal, Event) => patients experience abnormal heart rhythms that can lead to death
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => abnormal heart rhythms
+	controller (CM_event, CM, Entity) => patients experience abnormal heart rhythms
+	controlled (CM_NP, CM, Entity) => death
+	------------------------------
+
+
+List(Causal, Event) => search eventually leads to a `` discovery '' of a strategy that has worked wonderfully
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => search
+	controlled (CM_NP, CM, Entity) => discovery '' of a strategy
+	controlled (CM_event, CM, Entity) => discovery '' of a strategy that has worked wonderfully
+	------------------------------
+
+
+List(Causal, Event) => combination of shrunken recruiting and retirement will result in the elimination of 6,000 jobs , he said , while another 3,000 jobs will disappear as the company sells off or merges unwanted businesses
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => combination of shrunken recruiting and retirement
+	controller (CM_event, CM, Entity) => jobs will disappear
+	controller (CM_event, CM, Entity) => jobs will disappear as the company sells off or merges unwanted businesses
+	controller (CM_event, CM, Entity) => jobs will disappear as the company sells off or merges unwanted businesses
+	------------------------------
+
+
+List(Causal, Event) => Japan , a combination of shrunken recruiting and retirement will result in the elimination of 6,000 jobs
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => Japan
+	controlled (CM_NP, CM, Entity) => elimination of 6,000 jobs
+	controller (CM_NP, CM, Entity) => combination of shrunken recruiting and retirement
+	------------------------------
+
+

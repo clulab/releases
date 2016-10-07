@@ -1,0 +1,11 @@
+many_JJ step_NNS	-->	house_NN
+many_JJ step_NNS	-->	house_NN
+many_JJ step_NNS	-->	house_NN
+increase_VBG commercialization_NN fire_NN department_NN	-->	concern_NNS
+percent_NN journey_NNS	-->	expenditure_NNS least_JJS
+passage_NN initiative_NN	-->	relation_NNS LOCATION_NER grow_VB
+connection_NN	-->	couple_NN
+DATE_NER earthquake_NN activity_NN	-->	renew_VBN volcanic_JJ activity_NN
+dust_NN	-->	explosion_NN cancer_NNS
+dust_NN	-->	explosion_NN cancer_NNS
+way_NN	-->	steep_JJ drop_NN

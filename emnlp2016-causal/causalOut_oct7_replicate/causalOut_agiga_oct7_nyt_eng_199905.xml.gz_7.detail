@@ -1,0 +1,269 @@
+List(Causal, Event) => percent of people in the United States suffer hyperhydrosis , a condition that usually strikes at puberty and causes profuse sweating
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => profuse sweating
+	controller (CM_NP, CM, Entity) => condition
+	controller (CM_event, CM, Entity) => percent of people in the United States suffer hyperhydrosis , a condition
+	controller (CM_event, CM, Entity) => condition that usually strikes
+	------------------------------
+
+
+List(Causal, Event) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead to stricter building codes
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => earthquakes
+	controller (CM_event, CM, Entity) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead
+	controlled (CM_NP, CM, Entity) => stricter building codes
+	------------------------------
+
+
+List(Causal, Event) => computer problems lead to widespread lawsuits
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => computer problems
+	controlled (CM_NP, CM, Entity) => widespread lawsuits
+	------------------------------
+
+
+List(Causal, Event) => lot of time and videotape was spent trying to find something to blame , some outside influence that could have caused two teen-age girls to end their lives
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => teen-age girls to end their lives
+	controller (CM_NP, CM, Entity) => outside influence
+	controller (CM_event, CM, Entity) => lot of time and videotape was spent trying to find something to blame , some outside influence
+	------------------------------
+
+
+List(Causal, Event) => months led to tensions on the job
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => months
+	controlled (CM_NP, CM, Entity) => tensions on the job
+	------------------------------
+
+
+List(Causal, Event) => assignment to cover the Juan Corona mass-murder trial in California led to his first book
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => assignment
+	controlled (CM_NP, CM, Entity) => first book
+	------------------------------
+
+
+List(Causal, Event) => Noodles were created from pasta dough by rolling the dough
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => Noodles
+	controller (CM_event, CM, Entity) => rolling the dough
+	------------------------------
+
+
+List(Causal, Event) => very bad , inexplicable event is leading to some bad , useless proposals
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_NP, CM, Entity) => very bad , inexplicable event
+	controlled (CM_NP, CM, Entity) => bad , useless proposals
+	------------------------------
+
+
+List(Causal, Event) => kids that do n't are in more trouble than a video game could cause
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => more trouble
+	controlled (CM_event, CM, Entity) => kids that do n't are in more trouble
+	controller (CM_NP, CM, Entity) => video game
+	controller (CM_NP, CM, Entity) => video
+	controller (CM_NP, CM, Entity) => video game
+	------------------------------
+
+
+List(Causal, Event) => presentation by Kailash in 1991 before a U.N. human rights subcommission in Geneva resulted in U.N. endorsement of the label
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => U.N. endorsement of the label
+	controller (CM_NP, CM, Entity) => presentation
+	------------------------------
+
+
+List(Causal, Event) => presentation by Kailash in 1991 before a U.N. human rights subcommission in Geneva resulted in U.N. endorsement of the label
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => U.N. endorsement of the label
+	controller (CM_NP, CM, Entity) => presentation
+	------------------------------
+
+
+List(Causal, Event) => Prohibition leads to an increase in sales of coffee , soft drinks and ice-cream sodas
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Prohibition
+	controlled (CM_NP, CM, Entity) => increase in sales of coffee , soft drinks and ice-cream sodas
+	------------------------------
+
+
+List(Causal, Event) => drinking will continue and lead to the establishment of secret speak-easies
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => drinking
+	controller (CM_event, CM, Entity) => drinking will continue
+	controlled (CM_NP, CM, Entity) => establishment of secret speak-easies
+	------------------------------
+
+
+List(Causal, Event) => large site , with fascinating illustrations , plenty of side pages and links , was created by Kharlena Maria Ramanan
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => large site
+	controller (CM_NP, CM, Entity) => Kharlena Maria Ramanan
+	------------------------------
+
+
+List(Causal, Event) => degeneration of brain cells that causes Parkinson
+	------------------------------
+	Rule => causal_6
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => degeneration of brain cells
+	controller (CM_NP, CM, Entity) => Parkinson
+	------------------------------
+
+
+List(Causal, Event) => isolations of larger lots and a car-based culture may lead to disassociation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => isolations of larger lots and a car-based culture
+	controlled (CM_NP, CM, Entity) => disassociation
+	------------------------------
+
+
+List(Causal, Event) => desire for larger , cheaper lots that has pushed suburbs to rural exurbia results in teen-agers who are alone for large parts of the day , or an alternative
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => teen-agers
+	controlled (CM_event, CM, Entity) => teen-agers who are alone for large parts of the day , or an alternative
+	controller (CM_NP, CM, Entity) => desire for larger , cheaper lots
+	controller (CM_event, CM, Entity) => desire for larger , cheaper lots that has pushed suburbs to rural exurbia
+	------------------------------
+
+
+List(Causal, Event) => isolations of larger lots and a car-based culture may lead to disassociation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => isolations of larger lots and a car-based culture
+	controlled (CM_NP, CM, Entity) => disassociation
+	------------------------------
+
+
+List(Causal, Event) => desire for larger , cheaper lots that has pushed suburbs to rural exurbia results in teen-agers who are alone for large parts of the day , or an alternative
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => teen-agers
+	controlled (CM_event, CM, Entity) => teen-agers who are alone for large parts of the day , or an alternative
+	controller (CM_NP, CM, Entity) => desire for larger , cheaper lots
+	controller (CM_event, CM, Entity) => desire for larger , cheaper lots that has pushed suburbs to rural exurbia
+	------------------------------
+
+
+List(Causal, Event) => severance led to not only an onslaught of complaints from roaming partners , but opportunity for certain Albanians
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => severance
+	controlled (CM_NP, CM, Entity) => only an onslaught of complaints
+	controlled (CM_NP, CM, Entity) => opportunity for certain Albanians
+	------------------------------
+
+
+List(Causal, Event) => insurance companies see a reduction in claims as a result of the parachute
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => reduction in claims
+	controlled (CM_NP, CM, Entity) => claims
+	controlled (CM_event, CM, Entity) => insurance companies see a reduction in claims
+	controller (CM_NP, CM, Entity) => parachute
+	------------------------------
+
+
+List(Causal, Event) => only McCourt caused a flap
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => flap
+	controller (CM_NP, CM, Entity) => only McCourt
+	------------------------------
+
+
+List(Causal, Event) => potential for listeria contamination , which can cause serious illness to adults or even
+	------------------------------
+	Rule => causal_6
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => potential for listeria contamination
+	controller (CM_NP, CM, Entity) => serious illness
+	controller (CM_NP, CM, Entity) => illness to adults or even
+	------------------------------
+
+

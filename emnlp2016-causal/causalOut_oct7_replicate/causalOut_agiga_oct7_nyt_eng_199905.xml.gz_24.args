@@ -1,0 +1,23 @@
+government-wide_JJ intelligence_NN assessment_NN damage_NN	-->	other_JJ report_NN
+ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER	-->	foundation_NN
+defection_NNS	-->	revise_VBN list_NN early_JJ odds_NNS present_VBN PERSON_NER PERSON_NER
+kiss_NN	-->	other_JJ milestone_NNS
+ORDINAL_NER earthquake_NN many_JJ year_NNS	-->	noticeable_JJ tremor_NNS LOCATION_NER LOCATION_NER area_NN
+collapse_NN mine_NN	-->	earthquake_NN
+financial_JJ collapse_NN DATE_NER DATE_NER set_VBD train_NN event_NNS	-->	damage_NN
+financial_JJ collapse_NN DATE_NER DATE_NER set_VBD train_NN event_NNS	-->	damage_NN
+earlier_RBR week_NN	-->	White_NNP House_NNP website_NN close_VBN
+earlier_RBR week_NN	-->	White_NNP House_NNP website_NN close_VBN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+PERSON_NER PERSON_NER work_NN	-->	unique_JJ adhesive_NNS 3M_NNP post-it_JJ notepad_NNS
+LOCATION_NER stop_NN	-->	fine_NN
+lowest_JJS bullion_NN price_NNS NUMBER_NER	-->	Pioneer_NNP rework_VB production_NN cost_NN forecast_NNS
+order_VBD new_JJ ore-hauling_JJ truck_NNS replace_VB old_JJ fleet_NN scrap_VBD old_JJ one_NNS	-->	production_NN delay_NNS
+teratoma_NNS	-->	highly_RB invasive_JJ nature_NN many_JJ surgery_NNS follow_VB

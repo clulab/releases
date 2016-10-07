@@ -1,0 +1,248 @@
+List(Causal, Event) => guns , not people , cause the violence
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => violence
+	controller (CM_NP, CM, Entity) => guns
+	------------------------------
+
+
+List(Causal, Event) => Continued high demand for housing and workers , if it keeps pushing up prices and wages , would cause precipitous declines in key industries
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => precipitous declines in key industries
+	controller (CM_NP, CM, Entity) => Continued high demand for housing and workers
+	------------------------------
+
+
+List(Causal, Event) => Sabres that led to Boston 's ouster
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Sabres
+	controlled (CM_NP, CM, Entity) => ouster
+	------------------------------
+
+
+List(Causal, Event) => reporters began picking up live and spent bullet casings on the access road that leads to the adjacent military facility
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => access road
+	controller (CM_event, CM, Entity) => reporters began picking up live and spent bullet casings on the access road
+	controlled (CM_NP, CM, Entity) => adjacent military facility
+	------------------------------
+
+
+List(Causal, Event) => Djindjic , whose comments calling for Milosevic 's replacement have endeared him to the West , has caused the biggest uproar
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => biggest uproar
+	controller (CM_NP, CM, Entity) => Djindjic
+	------------------------------
+
+
+List(Causal, Event) => investigation ultimately led to a $ 100 million fine
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => investigation
+	controlled (CM_NP, CM, Entity) => fine
+	------------------------------
+
+
+List(Causal, Event) => announcement by the Federal Reserve on Tuesday that it would tilt in the future toward higher interest rates could lead to a further strengthening of the dollar
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => announcement by the Federal Reserve on Tuesday
+	controlled (CM_NP, CM, Entity) => further strengthening of the dollar
+	------------------------------
+
+
+List(Causal, Event) => trip ultimately led to an agreement
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => trip
+	controlled (CM_NP, CM, Entity) => agreement
+	------------------------------
+
+
+List(Causal, Event) => move North Korea had hinted could lead to military reprisals
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => move
+	controller (CM_event, CM, Entity) => move North Korea had hinted
+	controlled (CM_NP, CM, Entity) => military reprisals
+	------------------------------
+
+
+List(Causal, Event) => He made the breakthrough that ultimately led to a freeze of construction of North Korea 's Yongbyon nuclear reprocessing facility
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => breakthrough
+	controller (CM_event, CM, Entity) => He made the breakthrough
+	controlled (CM_NP, CM, Entity) => freeze of construction of North Korea 's Yongbyon nuclear reprocessing facility
+	------------------------------
+
+
+List(Causal, Event) => revelations about its existence in mid-August led to a storm of congressional protests
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => revelations
+	controlled (CM_NP, CM, Entity) => storm of congressional protests
+	------------------------------
+
+
+List(Causal, Event) => cautious approach _ deploying ground troops as peacekeepers , and not as a threat to Milosevic _ is causing ever more frustration
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => ever more frustration
+	controller (CM_NP, CM, Entity) => cautious approach
+	------------------------------
+
+
+List(Causal, Event) => air campaign has already caused serious demoralization
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => serious demoralization
+	controller (CM_NP, CM, Entity) => air campaign
+	controller (CM_NP, CM, Entity) => air
+	controller (CM_NP, CM, Entity) => air campaign
+	------------------------------
+
+
+List(Causal, Event) => inventory crunch at Revlon and problems abroad have led to a string of disappointing financial results and a sagging stock price
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => inventory crunch
+	controlled (CM_NP, CM, Entity) => string of disappointing financial results
+	controlled (CM_NP, CM, Entity) => sagging stock price
+	------------------------------
+
+
+List(Causal, Event) => obsession with physical play in the first two games led to a string of untimely penalties
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => obsession with physical play in the first two games
+	controlled (CM_NP, CM, Entity) => string of untimely penalties
+	------------------------------
+
+
+List(Causal, Event) => unceremonious removal last year from his post as House Democratic leader caused a deep rift within the party
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => deep rift within the party
+	controller (CM_NP, CM, Entity) => unceremonious removal
+	------------------------------
+
+
+List(Causal, Event) => failure to securely lock away their guns results in violence
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => violence
+	controller (CM_NP, CM, Entity) => failure
+	------------------------------
+
+
+List(Causal, Event) => harder Regents exam that leads to a Regents diploma
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => harder Regents exam
+	controlled (CM_NP, CM, Entity) => Regents diploma
+	------------------------------
+
+
+List(Causal, Event) => small mechanical changes have led to large gains in surefootedness
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => small mechanical changes
+	controlled (CM_NP, CM, Entity) => large gains in surefootedness
+	------------------------------
+
+
+List(Causal, Event) => investigation ultimately led to a $ 100 million fine
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => investigation
+	controlled (CM_NP, CM, Entity) => fine
+	------------------------------
+
+
+List(Causal, Event) => newfound appreciation for Iverson 's ability to improve the play of his teammates is a direct result of the 76ers ' success
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => newfound appreciation for Iverson 's ability
+	controller (CM_NP, CM, Entity) => success
+	------------------------------
+
+
+List(Causal, Event) => investigation ultimately led to a $ 100 million fine
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => investigation
+	controlled (CM_NP, CM, Entity) => fine
+	------------------------------
+
+

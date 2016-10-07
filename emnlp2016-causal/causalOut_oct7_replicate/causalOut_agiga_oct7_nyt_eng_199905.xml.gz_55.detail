@@ -1,0 +1,138 @@
+List(Causal, Event) => dispute , which resulted in the dish
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => dish
+	controller (CM_NP, CM, Entity) => dispute
+	------------------------------
+
+
+List(Causal, Event) => neighbor , which led to a dispute
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => neighbor
+	controlled (CM_NP, CM, Entity) => dispute
+	------------------------------
+
+
+List(Causal, Event) => result of the Balanced Budget Act of 1997 , Medicare began using a fee schedule
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Medicare began using a fee schedule
+	controller (CM_NP, CM, Entity) => Balanced Budget Act of 1997
+	------------------------------
+
+
+List(Causal, Event) => drugs could cause serious heart disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => serious heart disease
+	controller (CM_NP, CM, Entity) => drugs
+	------------------------------
+
+
+List(Causal, Event) => Monday those questions weighed on the minds of mourners and caused tension
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => tension
+	controller (CM_NP, CM, Entity) => questions
+	controller (CM_event, CM, Entity) => Monday those questions weighed on the minds of mourners
+	------------------------------
+
+
+List(Causal, Event) => devaluation has caused sales of textiles , wool and grains to Brazil to sag by 20 percent , a blow
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => sales of textiles , wool and grains
+	controlled (CM_NP, CM, Entity) => sales of textiles , wool and grains to Brazil
+	controlled (CM_NP, CM, Entity) => sales of textiles , wool and grains to Brazil to sag by 20 percent , a blow
+	controlled (CM_event, CM, Entity) => sag by 20 percent , a blow
+	controlled (CM_NP, CM, Entity) => sales of textiles , wool and grains to Brazil to sag by 20 percent , a blow
+	controller (CM_NP, CM, Entity) => devaluation
+	------------------------------
+
+
+List(Causal, Event) => Back in 1946 , the killings made national headlines and led to a six-month FBI investigation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => killings
+	controller (CM_event, CM, Entity) => Back in 1946 , the killings made national headlines
+	controlled (CM_NP, CM, Entity) => six-month FBI investigation
+	------------------------------
+
+
+List(Causal, Event) => pair of errors led to two losses to the Dodgers
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => pair of errors
+	controlled (CM_NP, CM, Entity) => losses to the Dodgers
+	------------------------------
+
+
+List(Causal, Event) => throwing errors , which led to USC 's 4-3 loss to Pepperdine
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => throwing errors
+	controlled (CM_NP, CM, Entity) => 4-3 loss to Pepperdine
+	------------------------------
+
+
+List(Causal, Event) => neighbor , which led to a dispute
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => neighbor
+	controlled (CM_NP, CM, Entity) => dispute
+	------------------------------
+
+
+List(Causal, Event) => dispute , which resulted in the dish
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => dish
+	controller (CM_NP, CM, Entity) => dispute
+	------------------------------
+
+
+List(Causal, Event) => few rocky innings are no cause for him to panic
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => him to panic
+	controller (CM_NP, CM, Entity) => few rocky innings
+	------------------------------
+
+

@@ -1,0 +1,18 @@
+demand_NNS husband_NN career_NN,fact_NN	-->	number_NN job_NNS
+paperless_JJ book_NNS	-->	cost_NN savings_NNS
+quest_NN Moby_NNP PERSON_NER	-->	miserable_JJ outcome_NN
+thing_NNS people_NNS impulse_NN	-->	dtc-5000_NN sometimes_RB deride_VBN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+such_JJ nerve_NN damage_NN	-->	permanent_JJ paralysis_NN
+LOCATION_NER LOCATION_NER LOCATION_NER together_RB several_JJ arab_JJ country_NNS call_VBN new_JJ approach_NNS	-->	sanction_NNS
+ORGANIZATION_NER sanction_NNS	-->	mother_NN explain_VBD situation_NN blame_VBD poor_JJ economic_JJ condition_NNS
+clearing_NN forest_NNS	-->	olive_JJ grove_NNS,plant_VBN wheat_NN
+sanction_NNS	-->	medical_JJ catastrophe_NN
+sanction_NNS	-->	uproar_NN
+six-week_JJ LOCATION_NER LOCATION_NER War_NNP	-->	large-scale_JJ destruction_NN military_JJ civilian_JJ infrastructure_NNS

@@ -1,0 +1,292 @@
+List(Causal, Event) => even a two-year associate degree in computer science routinely leads to offers of between $ 32,900 and $
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => even a two-year associate degree in computer science
+	controlled (CM_NP, CM, Entity) => offers of between $ 32,900 and $
+	------------------------------
+
+
+List(Causal, Event) => exposure to solvents may cause congenital deformities
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => congenital deformities
+	controller (CM_NP, CM, Entity) => exposure to solvents
+	------------------------------
+
+
+List(Causal, Event) => Salmonella enteritidis , which causes severe food poisoning
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => severe food poisoning
+	controller (CM_NP, CM, Entity) => Salmonella enteritidis
+	controller (CM_NP, CM, Entity) => Salmonella
+	controller (CM_NP, CM, Entity) => Salmonella enteritidis
+	------------------------------
+
+
+List(Causal, Event) => they are assessing whether the newest psychological drugs are so good that they are leading to shortcuts in mental health care
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_event, CM, Entity) => they are assessing whether the newest psychological drugs are so good that they are leading
+	controlled (CM_NP, CM, Entity) => shortcuts in mental health care
+	------------------------------
+
+
+List(Causal, Event) => such discoveries are leading to lots of sad , frustrated and angry kids
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_NP, CM, Entity) => such discoveries
+	controlled (CM_NP, CM, Entity) => lots of sad , frustrated and angry kids
+	------------------------------
+
+
+List(Causal, Event) => Tampa will cause renewed interest in a technology that can really address the 21st century 's water problems
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => renewed interest in a technology
+	controlled (CM_event, CM, Entity) => renewed interest in a technology that can really address the 21st century 's water problems
+	controller (CM_NP, CM, Entity) => Tampa
+	------------------------------
+
+
+List(Causal, Event) => volatile meeting that will likely result in severe thunderstorms
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => severe thunderstorms
+	controller (CM_NP, CM, Entity) => volatile meeting
+	------------------------------
+
+
+List(Causal, Event) => studio frustration that led to his smashing
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => studio frustration
+	controlled (CM_NP, CM, Entity) => smashing
+	------------------------------
+
+
+List(Causal, Event) => trail leads to the survivors of 701
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => trail
+	controlled (CM_NP, CM, Entity) => survivors of 701
+	------------------------------
+
+
+List(Causal, Event) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense over an interest rate rise , and causing the stock market to tumble more than 200 points
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => stock market to tumble more than 200 points
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_NP, CM, Entity) => eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	------------------------------
+
+
+List(Causal, Event) => popularity of the campus radio program led to appearances on CNN and MTV
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => popularity of the campus radio program
+	controlled (CM_NP, CM, Entity) => appearances on CNN and MTV
+	------------------------------
+
+
+List(Causal, Event) => majority trustees contend that they have managed the estate 's investments wisely , and point to the $ 600 million the trust made last week , just days before their ouster , as a result of the initial public stock offering of Goldman , Sachs
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => majority trustees contend that they have managed the estate 's investments wisely , and point to the $ 600 million the trust made last week , just days before their ouster , as
+	controlled (CM_event, CM, Entity) => they have managed the estate 's investments wisely
+	controlled (CM_event, CM, Entity) => they have managed the estate 's investments wisely , and point to the $
+	controller (CM_NP, CM, Entity) => initial public stock offering of Goldman , Sachs
+	------------------------------
+
+
+List(Causal, Event) => practice has led to the appointment of politically connected insiders
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => practice
+	controlled (CM_NP, CM, Entity) => appointment of politically connected insiders
+	------------------------------
+
+
+List(Causal, Event) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense over an interest rate rise , and causing the stock market to tumble more than 200 points
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => stock market to tumble more than 200 points
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_NP, CM, Entity) => eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	------------------------------
+
+
+List(Causal, Event) => NATO bombs have resulted in civilian casualties in at least a dozen separate instances since the air campaign against Yugoslavia began
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => NATO bombs
+	controller (CM_event, CM, Entity) => air campaign against Yugoslavia began
+	------------------------------
+
+
+List(Causal, Event) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense over an interest rate rise , and causing the stock market to tumble more than 200 points
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => stock market to tumble more than 200 points
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_NP, CM, Entity) => eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	------------------------------
+
+
+List(Causal, Event) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense over an interest rate rise , and causing the stock market to tumble more than 200 points
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => stock market to tumble more than 200 points
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	controller (CM_NP, CM, Entity) => rate of the eight-year economic expansion
+	controller (CM_NP, CM, Entity) => eight-year economic expansion
+	controller (CM_event, CM, Entity) => rate of the eight-year economic expansion , marring a near-perfect inflation picture , heightening suspense
+	------------------------------
+
+
+List(Causal, Event) => Yield management has resulted in a big spread
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => big spread
+	controller (CM_NP, CM, Entity) => Yield management
+	------------------------------
+
+
+List(Causal, Event) => deaths were caused by NATO bombing
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => deaths
+	controller (CM_NP, CM, Entity) => NATO bombing
+	------------------------------
+
+
+List(Causal, Event) => lack of marketing skill and financial savvy has nearly caused some venerable brands to disappear
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => venerable brands to disappear
+	controller (CM_NP, CM, Entity) => lack of marketing skill and financial savvy
+	controller (CM_NP, CM, Entity) => lack of marketing skill and financial savvy
+	controller (CM_NP, CM, Entity) => marketing skill
+	controller (CM_NP, CM, Entity) => lack of marketing skill and financial savvy
+	controller (CM_NP, CM, Entity) => financial savvy
+	controller (CM_NP, CM, Entity) => lack of marketing skill and financial savvy
+	controller (CM_NP, CM, Entity) => marketing
+	controller (CM_NP, CM, Entity) => marketing skill
+	------------------------------
+
+
+List(Causal, Event) => mistake led to NATO bombs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => mistake
+	controlled (CM_NP, CM, Entity) => NATO bombs
+	------------------------------
+
+
+List(Causal, Event) => visit to Clinton at the White House by the Chinese ambassador on Thursday night led to Friday 's phone conversation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => visit to Clinton
+	controlled (CM_NP, CM, Entity) => phone conversation
+	------------------------------
+
+
+List(Causal, Event) => such cases had been caused by the Ebola virus
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => such cases
+	controller (CM_NP, CM, Entity) => Ebola virus
+	------------------------------
+
+
+List(Causal, Event) => suffered as a result of the Year 2000 computer bug
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => suffered
+	controller (CM_NP, CM, Entity) => Year 2000 computer bug
+	------------------------------
+
+

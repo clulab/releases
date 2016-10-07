@@ -1,0 +1,32 @@
+voluntary_JJ closure_NN	-->	court_NN single_VBD PERSON_NER PERSON_NER state_VBD decision_NN not_RB substantiate_VB claim_NN economic_JJ injury_NN
+coup_NN d'etat_NN	-->	mass_JJ murder_NN government_NN official_NNS
+nothing_NN more_JJR	-->	Acid_NNP reflux_NNP
+spicy_JJ food_NNS	-->	acid_NN reflux_NN
+too_RB much_JJ acid_NN get_VBG too_RB far_RB esophagus_NN actually_RB get_VB trachea_NN	-->	asthma-like_JJ symptom_NNS,voice_NN problem_NNS,cough_VBG
+thing_NNS	-->	resignation_NN
+condition_NN	-->	hospital_NN stay_NNS include_VBG many_JJ repeat_NN visit_NNS
+heart_NN failure_NN	-->	hospitalization_NN
+condition_NN	-->	hospital_NN stay_NNS include_VBG many_JJ repeat_NN visit_NNS
+heart_NN failure_NN	-->	hospitalization_NN
+loss_NNS	-->	acute_JJ distress_NN
+moratorium_NN cattle_NNS grazing_NN	-->	rapid_JJ recovery_NN understory_JJ riparian_NN forest_NN
+condition_NN	-->	hospital_NN stay_NNS include_VBG many_JJ repeat_NN visit_NNS
+heart_NN failure_NN	-->	hospitalization_NN
+other_JJ condition_NNS	-->	heart_NN failure_NN
+condition_NNS	-->	heart_NN failure_NN
+scarring_NN	-->	tire_NN sometimes_RB form_VBP wall_NNS heart_NN
+doctor_NNS management_NN position_NNS have_VB training_NN business_NN make_VB decision_NNS	-->	best_JJS care_NN
+silent_JJ epidemic_NN	-->	exacerbate_VBG bone_NN loss_NN osteoporosis_NN risk_NN fracture_NNS,painful_JJ bone_NN disease_NN osteomalacium_NN
+powerful_JJ jet_NN stream_NN disturbance_NN	-->	potent_JJ thunderstorm_NNS high_JJ wind_NN gust_NNS sweep_VB northeastern_JJ LOCATION_NER eastern_JJ part_NNS LOCATION_NER LOCATION_NER early_JJ DATE_NER LOCATION_NER LOCATION_NER LOCATION_NER
+hard_JJ line_NN	-->	deepen_VBG diplomatic_JJ stalemate_NN economic_JJ recession_NN cost_VB immigrant_NNS job_NNS
+employee_NNS try_VB disrupt_VB department_NN	-->	anything_NN
+condition_NN	-->	PERSON_NER sometimes_RB not_RB relate_VB people_NNS lose_VBZ touch_NN reality_NN
+interview_NN soldier_NNS	-->	so_RB far_RB PERSON_NER say_VBD be_VBD convinced_JJ be_VBD definitely_RB LOCATION_NER not_RB LOCATION_NER territory_NN
+so_RB many_JJ different_JJ viral_JJ strain_NNS	-->	AIDS_NNP
+infectious_NN disease_NN	-->	mortality_NN
+crisis_NN	-->	looting_NN LOCATION_NER military_JJ arsenal_NNS weaponry_NN,mass_NN riot_NNS
+soul-stirring_JJ mountain_NNS	-->	LOCATION_NER
+chilly_JJ dampness_NN	-->	outbreak_NN respiratory_JJ infection_NNS easily_RB turn_VB pneumonia_NN
+neurological_JJ disorder_NN	-->	fainting_NN spell_NNS
+virus_NN	-->	inflammation_NN heart_NN
+PERSON_NER co-defendants_NNS LOCATION_NER Women_NNP Hospital_NNP make_VBD misjudgment_NNS	-->	death_NN

@@ -1,0 +1,32 @@
+dozen_NN	-->	civilian_JJ death_NNS
+dozen_NN	-->	civilian_JJ death_NNS
+Space_NNP	-->	opportunity_NNS
+long-established_JJ principle_NNS patient_JJ negotiation_NN,Short-circuiting_NNP	-->	war_NN
+long-established_JJ principle_NNS patient_JJ negotiation_NN,Short-circuiting_NNP	-->	war_NN
+decadelong_JJ campaign_NN	-->	intolerable_JJ condition_NNS
+decadelong_JJ campaign_NN	-->	intolerable_JJ condition_NNS
+greet_VBN rainy_JJ sky_NNS	-->	one-hour_JJ delay_NN start_NN time_NN trial_NNS
+often_RB drawn-out_JJ negotiation_NNS,industry-rocking_JJ demand_NNS	-->	scout_NNS warn_VB player_NNS
+hit_NN	-->	parody_NN version_NN
+especially_RB go_VBG stay_VB sober_JJ avoid_VB violence_NN	-->	leave_VB
+handicap_NNS	-->	owner_NNS shy_VB
+policy_NNS past_NN	-->	black_JJ people_NNS come_VB city_NN
+policy_NNS past_NN	-->	black_JJ people_NNS come_VB city_NN
+Brigadier_NNP General_NNP PERSON_NER PERSON_NER say_VBD DATE_NER failure_NN be_VBD possibly_RB due_JJ debris_NN plug_NN	-->	disruption_NNS so_RB small_JJ
+disruption_NNS	-->	failure_NN thruster_NN
+challenger_NN PERSON_NER PERSON_NER vow_VBD jumpstart_VB negotiation_NNS	-->	LOCATION_NER statehood_NN
+childhood_NN bout_NN lupus_NNP	-->	mysterious-looking_JJ scar_NNS cheek_NNS
+grow_VBG number_NN line_NNS	-->	boom_NN
+political_JJ game_NNS,merit_NN	-->	choose_VBN closure_NN
+effort_NNS	-->	problem_NNS own_JJ colleague_NNS generally_RB favor_VBP tougher_JJR gun-control_JJ measure_NNS only_RB point_NN
+political_JJ game_NNS,merit_NN	-->	choose_VBN closure_NN
+PERSON_NER,PERSON_NER	-->	collection_NN luxurious_JJ romantic_JJ clothes_NNS include_VBG 1950s-style_JJ beaded_JJ dress_NNS lavishly_RB print_VBN cocktail_NN pajamas_NNS sable_JJ stole_NNS,PERSON_NER
+emphasis_NN cultural_JJ anthropology_NN	-->	remapping_NN more_JJR familiar_JJ territory_NN
+congenital_JJ leg_NN deformity_NN	-->	PERSON_NER wear_VBZ brace_NNS
+widespread_JJ mismanagement_NN agency_NN	-->	federal_JJ government_NN take_VB
+policy_NN	-->	thousand_NNS work_VBG family_NNS leave_VB public_JJ housing_NN rather_RB see_VB rent_NNS continually_RB increase_VB
+inherit_VBN condition_NN	-->	excessive_JJ muscle_NN growth_NN interventricular_JJ septum_NN
+patient_NNS experience_VBP abnormal_JJ heart_NN rhythm_NNS	-->	death_NN
+search_NN	-->	discovery_NN strategy_NN work_VBN wonderfully_RB
+job_NNS disappear_VB company_NN sell_VBZ merge_VBZ unwanted_JJ business_NNS	-->	combination_NN shrunken_JJ recruiting_NN retirement_NN
+combination_NN shrunken_JJ recruiting_NN retirement_NN	-->	elimination_NN job_NNS,LOCATION_NER

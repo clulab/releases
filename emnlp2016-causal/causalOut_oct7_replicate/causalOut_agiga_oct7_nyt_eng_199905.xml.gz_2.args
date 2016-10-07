@@ -1,0 +1,13 @@
+set_VBG kind_NN ball_NN movement_NN	-->	open_JJ shot_NNS
+big_JJ earthquake_NN	-->	stronger_JJR building_NN code_NNS
+way_NN	-->	dislike_VBP dislike_VB even_RB more_RBR
+alkyl_JJ catechol_NNS	-->	allergic_JJ response_NNS most_JJS people_NNS
+union_NN buffet_VBN federal_JJ investigation_NN,federal_JJ investigation_NN produce_VBN indictment_NNS	-->	page_NN
+ORGANIZATION_NER be_VBD forwards_RB PERSON_NER PERSON_NER have_VBZ groin_JJ injury_NN penalty_NN killer_NN PERSON_NER PERSON_NER	-->	PERSON_NER shake_VB line_NNS
+action_NNS	-->	again_RB find_VBN natural_JJ enemy_NN say_VBD
+action_NNS	-->	again_RB find_VBN natural_JJ enemy_NN say_VBD
+rumor_NNS	-->	chaos_NN
+false_JJ overdrawn_JJ fear_NNS	-->	hardship_NN
+tv_NN violence_NN	-->	violence_NN
+lot_NN time_NN videotape_NN spend_VBN try_VBG find_VB something_NN blame_VB outside_JJ influence_NN	-->	teen-age_JJ girl_NNS end_VB life_NNS
+lot_NN time_NN videotape_NN spend_VBN try_VBG find_VB something_NN blame_VB outside_JJ influence_NN	-->	teen-age_JJ girl_NNS end_VB life_NNS

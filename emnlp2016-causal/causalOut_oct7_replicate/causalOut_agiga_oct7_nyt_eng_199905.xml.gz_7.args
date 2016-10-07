@@ -1,0 +1,23 @@
+PERCENT_NER people_NNS LOCATION_NER LOCATION_NER suffer_VBP hyperhydrosis_NN condition_NN,condition_NN usually_RB strike_VBZ	-->	profuse_NN sweating_NN
+expert_NNS say_VBP year_NN problem_NN lead_VB change_NNS way_NN program_NNS write_VBN just_RB earthquake_NNS lead_VB	-->	stricter_JJR building_NN code_NNS
+computer_NN problem_NNS	-->	widespread_JJ lawsuit_NNS
+lot_NN time_NN videotape_NN spend_VBN try_VBG find_VB something_NN blame_VB outside_JJ influence_NN	-->	teen-age_JJ girl_NNS end_VB life_NNS
+DURATION_NER	-->	tension_NNS job_NN
+assignment_NN	-->	ORDINAL_NER book_NN
+roll_VBG dough_NN	-->	Noodles_NNP
+very_RB bad_JJ inexplicable_JJ event_NN	-->	bad_JJ useless_JJ proposal_NNS
+video_NN game_NN	-->	kid_NNS not_RB be_VBP more_JJR trouble_NN
+presentation_NN	-->	ORGANIZATION_NER endorsement_NN label_NN
+presentation_NN	-->	ORGANIZATION_NER endorsement_NN label_NN
+Prohibition_NNP	-->	increase_NN sale_NNS coffee_NN soft_JJ drink_NNS ice-cream_JJ soda_NNS
+drinking_NN continue_VB	-->	establishment_NN secret_JJ speak-easies_NNS
+PERSON_NER PERSON_NER PERSON_NER	-->	large_JJ site_NN
+ORGANIZATION_NER	-->	degeneration_NN brain_NN cell_NNS
+isolation_NNS larger_JJR lot_NNS car-based_JJ culture_NN	-->	disassociation_NN
+desire_NN larger_JJR cheaper_JJR lot_NNS push_VBN suburb_NNS rural_JJ exurbium_NN	-->	teen-agers_NNS be_VBP alone_RB large_JJ part_NNS TIME_NER alternative_NN
+isolation_NNS larger_JJR lot_NNS car-based_JJ culture_NN	-->	disassociation_NN
+desire_NN larger_JJR cheaper_JJR lot_NNS push_VBN suburb_NNS rural_JJ exurbium_NN	-->	teen-agers_NNS be_VBP alone_RB large_JJ part_NNS TIME_NER alternative_NN
+severance_NN	-->	only_RB onslaught_NN complaint_NNS,opportunity_NN certain_JJ albanian_NNS
+parachute_NN	-->	insurance_NN company_NNS see_VBP reduction_NN claim_NNS
+only_RB PERSON_NER	-->	flap_NN
+illness_NN adult_NNS even_RB,serious_JJ illness_NN	-->	potential_NN listeria_JJ contamination_NN

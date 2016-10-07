@@ -1,0 +1,490 @@
+List(Causal, Event) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak '' -LRB- 1995 -RRB- led to an audition for `` Jerry Maguire
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak
+	controlled (CM_NP, CM, Entity) => audition for `` Jerry Maguire
+	------------------------------
+
+
+List(Causal, Event) => study of the Amendment 's language and historical context , he said , caused him to believe that the provision had been cast aside too easily
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to believe that the provision had been cast aside too easily
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => language
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => historical context
+	------------------------------
+
+
+List(Causal, Event) => study of the Amendment 's language and historical context , he said , caused him to believe that the provision had been cast aside too easily
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to believe that the provision had been cast aside too easily
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => language
+	controller (CM_NP, CM, Entity) => study of the Amendment 's language and historical context
+	controller (CM_NP, CM, Entity) => historical context
+	------------------------------
+
+
+List(Causal, Event) => legislative action was the result of a confluence of factors , from the enormously high stakes of next year 's presidential and congressional elections to the location of the violence , and from the vulnerability of the National Rifle Association to the growing discomfort of some Republicans
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => legislative action
+	controller (CM_NP, CM, Entity) => confluence of factors , from the enormously high stakes of next year 's presidential and congressional elections to the location of the violence , and from the vulnerability of the National Rifle Association to the growing discomfort of some Republicans
+	------------------------------
+
+
+List(Causal, Event) => legislative action was the result of a confluence of factors , from the enormously high stakes of next year 's presidential and congressional elections to the location of the violence , and from the vulnerability of the National Rifle Association to the growing discomfort of some Republicans
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => legislative action
+	controller (CM_NP, CM, Entity) => confluence of factors , from the enormously high stakes of next year 's presidential and congressional elections to the location of the violence , and from the vulnerability of the National Rifle Association to the growing discomfort of some Republicans
+	------------------------------
+
+
+List(Causal, Event) => cases that cause my parents ' friends to ask how I could defend those people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => friends to ask how I could defend those people
+	controller (CM_NP, CM, Entity) => cases
+	------------------------------
+
+
+List(Causal, Event) => cases that cause my parents ' friends to ask how I could defend those people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => friends to ask how I could defend those people
+	controller (CM_NP, CM, Entity) => cases
+	------------------------------
+
+
+List(Causal, Event) => Interruptions in power may cause you to lose the food
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => you to lose the food
+	controller (CM_NP, CM, Entity) => Interruptions in power
+	controller (CM_NP, CM, Entity) => Interruptions in power
+	controller (CM_NP, CM, Entity) => power
+	------------------------------
+
+
+List(Causal, Event) => However , even `` harmless '' animals like deer can cross the road unexpectedly and cause traffic accidents
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => traffic accidents
+	controller (CM_NP, CM, Entity) => harmless '' animals
+	controller (CM_event, CM, Entity) => However , even `` harmless '' animals like deer can cross the road unexpectedly
+	------------------------------
+
+
+List(Causal, Event) => Animals and their manure can cause objectionable odors
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => objectionable odors
+	controller (CM_NP, CM, Entity) => Animals
+	controller (CM_NP, CM, Entity) => manure
+	------------------------------
+
+
+List(Causal, Event) => Interruptions in power may cause you to lose the food
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => you to lose the food
+	controller (CM_NP, CM, Entity) => Interruptions in power
+	controller (CM_NP, CM, Entity) => Interruptions in power
+	controller (CM_NP, CM, Entity) => power
+	------------------------------
+
+
+List(Causal, Event) => However , even `` harmless '' animals like deer can cross the road unexpectedly and cause traffic accidents
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => traffic accidents
+	controller (CM_NP, CM, Entity) => harmless '' animals
+	controller (CM_event, CM, Entity) => However , even `` harmless '' animals like deer can cross the road unexpectedly
+	------------------------------
+
+
+List(Causal, Event) => Animals and their manure can cause objectionable odors
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => objectionable odors
+	controller (CM_NP, CM, Entity) => Animals
+	controller (CM_NP, CM, Entity) => manure
+	------------------------------
+
+
+List(Causal, Event) => result of a bitterly fought 5-4 ruling , school districts are on notice
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => school districts are on notice
+	controller (CM_NP, CM, Entity) => bitterly fought 5-4 ruling
+	------------------------------
+
+
+List(Causal, Event) => result of a bitterly fought 5-4 ruling , school districts are on notice
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => school districts are on notice
+	controller (CM_NP, CM, Entity) => bitterly fought 5-4 ruling
+	------------------------------
+
+
+List(Causal, Event) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes led to a state Martin
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes
+	controlled (CM_NP, CM, Entity) => state Martin
+	------------------------------
+
+
+List(Causal, Event) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes led to a state Martin
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes
+	controlled (CM_NP, CM, Entity) => state Martin
+	------------------------------
+
+
+List(Causal, Event) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes led to a state Martin
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes
+	controlled (CM_NP, CM, Entity) => state Martin
+	------------------------------
+
+
+List(Causal, Event) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes led to a state Martin
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes
+	controlled (CM_NP, CM, Entity) => state Martin
+	------------------------------
+
+
+List(Causal, Event) => case of Thiemann , discovery of the pornographic images on his Harvard-owned computer resulted in not only the loss of his deanship , but also great personal and professional discomfort for the Lutheran minister who is married and the father of two girls
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => case of Thiemann
+	controlled (CM_NP, CM, Entity) => loss of his deanship
+	controlled (CM_NP, CM, Entity) => great personal and professional discomfort for the Lutheran minister who is married and the father of two girls
+	controller (CM_NP, CM, Entity) => discovery of the pornographic images on his Harvard-owned computer
+	------------------------------
+
+
+List(Causal, Event) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes led to a state Martin
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => JORDAN-COLUMN -LRB- Undated -RRB- _ Social changes
+	controlled (CM_NP, CM, Entity) => state Martin
+	------------------------------
+
+
+List(Causal, Event) => Eutrophication can cause massive fish kills
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => massive fish kills
+	controller (CM_NP, CM, Entity) => Eutrophication
+	------------------------------
+
+
+List(Causal, Event) => Too much fertilizer on a plant that is n't well-watered causes that burning
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => burning
+	controller (CM_NP, CM, Entity) => Too much fertilizer on a plant
+	------------------------------
+
+
+List(Causal, Event) => Excess nitrogen from organic fertilizers that washes into aquatic ecosystems does n't cause eutrophication
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => eutrophication
+	controller (CM_NP, CM, Entity) => Excess nitrogen
+	controller (CM_event, CM, Entity) => Excess nitrogen from organic fertilizers that washes into aquatic ecosystems
+	------------------------------
+
+
+List(Causal, Event) => Arduous negotiations , begun when Japan was enjoying an economic boom and concluded after recession had hit , resulted in a deal with Nagoya
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => deal with Nagoya
+	controller (CM_NP, CM, Entity) => Arduous negotiations
+	------------------------------
+
+
+List(Causal, Event) => recession that has resulted in art galleries closing , in sales slipping -LRB- especially in the fragile contemporary market -RRB- , and in the likelihood
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => art galleries
+	controlled (CM_NP, CM, Entity) => likelihood
+	controller (CM_NP, CM, Entity) => recession
+	------------------------------
+
+
+List(Causal, Event) => museum is the result of the city
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => museum
+	controller (CM_NP, CM, Entity) => city
+	------------------------------
+
+
+List(Causal, Event) => one that put them over with fashion editors and led to their New York invitation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_event, CM, Entity) => one that put them over with fashion editors
+	controlled (CM_NP, CM, Entity) => New York invitation
+	------------------------------
+
+
+List(Causal, Event) => result of these efforts , according to the new study and others , the wolf population of the United States outside Alaska has doubled
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => wolf population of the United States outside Alaska has doubled
+	controller (CM_NP, CM, Entity) => efforts
+	------------------------------
+
+
+List(Causal, Event) => tourism throughout the Balkans suffering as a result of the air war
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => tourism throughout the Balkans suffering
+	controller (CM_NP, CM, Entity) => air war
+	------------------------------
+
+
+List(Causal, Event) => packs with about 60 adults and some 50 pups now inhabit northwestern Montana as a result of natural southward expansion of wolves
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => packs with about 60 adults and some 50 pups now inhabit northwestern Montana
+	controller (CM_NP, CM, Entity) => natural southward expansion of wolves
+	------------------------------
+
+
+List(Causal, Event) => Women place a greater premium on a mate 's financial capacity , as well as the qualities that lead to resources
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => qualities
+	controller (CM_event, CM, Entity) => Women place a greater premium on a mate 's financial capacity , as well as the qualities
+	controlled (CM_NP, CM, Entity) => resources
+	------------------------------
+
+
+List(Causal, Event) => jolts can cause fatally irregular heart rhythms
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => fatally irregular heart rhythms
+	controller (CM_NP, CM, Entity) => jolts
+	------------------------------
+
+
+List(Causal, Event) => Heart attacks are the leading cause of death
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => Heart attacks
+	------------------------------
+
+
+List(Causal, Event) => Most heart attacks result from blood clots that form
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => Most heart attacks
+	controller (CM_NP, CM, Entity) => blood clots
+	controller (CM_event, CM, Entity) => blood clots that form
+	------------------------------
+
+
+List(Causal, Event) => daytime chill was caused by low clouds and drizzle
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => daytime chill
+	controller (CM_NP, CM, Entity) => low clouds
+	controller (CM_NP, CM, Entity) => drizzle
+	------------------------------
+
+
+List(Causal, Event) => former Chilean dictator , that led to his detention
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => former Chilean dictator
+	controlled (CM_NP, CM, Entity) => detention
+	------------------------------
+
+
+List(Causal, Event) => eBay site was created in 1995 by Pierre Omidyar
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => eBay site
+	controller (CM_NP, CM, Entity) => Pierre Omidyar
+	------------------------------
+
+
+List(Causal, Event) => when Detroit and Cleveland got into a `` beanball '' war that led to ejections and suspensions
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => beanball '' war
+	controller (CM_event, CM, Entity) => when Detroit and Cleveland got into a `` beanball '' war
+	controlled (CM_NP, CM, Entity) => ejections
+	controlled (CM_NP, CM, Entity) => suspensions
+	------------------------------
+
+
+List(Causal, Event) => Games in a futuristic arcade called the Airtight Garage were created by Sony
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => Games in a futuristic arcade
+	controller (CM_NP, CM, Entity) => Sony
+	------------------------------
+
+
+List(Causal, Event) => White House official , speaking on condition of anonymity , said that Stepashin initiated the call to Clinton and that the president on Monday was `` cautiously optimistic '' that the talks in Europe this week could lead to some progress
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => talks in Europe
+	controller (CM_event, CM, Entity) => White House official , speaking on condition of anonymity , said that Stepashin initiated the call to Clinton and that the president on Monday was `` cautiously optimistic '' that the talks in Europe this week could lead
+	controller (CM_NP, CM, Entity) => week
+	controller (CM_event, CM, Entity) => White House official , speaking on condition of anonymity , said that Stepashin initiated the call to Clinton and that the president on Monday was `` cautiously optimistic '' that the talks in Europe this week could lead
+	controlled (CM_NP, CM, Entity) => progress
+	------------------------------
+
+
+List(Causal, Event) => one that put them over with fashion editors and led to their New York invitation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_event, CM, Entity) => one that put them over with fashion editors
+	controlled (CM_NP, CM, Entity) => New York invitation
+	------------------------------
+
+

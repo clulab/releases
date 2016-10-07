@@ -1,0 +1,22 @@
+oil_NN company_NNS agree_VBD gas-out_NN not_RB have_VB impact_NN business_NN not_RB likely_RB produce_VB oversupply_NN fuel_NN	-->	lower_JJR price_NNS
+fact_NN	-->	speculation_NN PERSON_NER other_NNS PERSON_NER manage_VB
+double_JJ bogey_NN	-->	5-under_JJ total_NN
+conscious_JJ effort_NN	-->	patience_NN
+absence_NNS	-->	ORGANIZATION_NER ORGANIZATION_NER adjourn_VB time_NNS year_NN alone_RB lack_NN quorum_NN
+action_NNS	-->	again_RB find_VBN natural_JJ enemy_NN say_VBD
+action_NNS	-->	again_RB find_VBN natural_JJ enemy_NN say_VBD
+anger_NN	-->	cut_NNS oil_NN gas_NN supplies_NNS come_VBP mainly_RB LOCATION_NER cost_VB more_JJR
+cable_NN sever_VBD esophagus_NN	-->	serious_JJ internal_JJ bleeding_NN
+life-threatening_JJ staphylococcal_JJ infection_NN	-->	amputation_NN leg_NNS
+female_JJ deputy_NN,PERSON_NER PERSON_NER	-->	pandemonium_NN
+relate_VBN sprawling_JJ sex_NN perjury_NN investigation_NN	-->	impeachment_NN
+long-simmering_JJ dispute_NN ORGANIZATION_NER ORGANIZATION_NER	-->	financial_JJ trouble_NNS
+record_NN high_NN	-->	monthly_JJ revenue_NN drop_VB
+effort_NN	-->	pend_VBG part-ownership_NN ORGANIZATION_NER ORGANIZATION_NER
+government_NN threaten_VBD bring_VB criminal_JJ contempt_NN proceedings_NNS	-->	disbarment_NN
+apologize_VBD	-->	apologize_VBG conduct_NN reflect_VBZ poorly_RB office_NN,morale_NN office_NN deteriorate_VB
+incident_NN	-->	resignation_NN PERSON_NER PERSON_NER
+Bizarro_NNP World_NNP internet_NN stock_NNS	-->	paradox_NN
+wreck_NN	-->	restart_NN
+one_NN hit_VBD double_JJ	-->	ORDINAL_NER run_NN
+Testing_NNP	-->	part_NN pool_NN preparation_NN maintenance_NN

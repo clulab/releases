@@ -1,0 +1,416 @@
+List(Causal, Event) => crusade on the ice did result in a change of plans
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => change of plans
+	controller (CM_NP, CM, Entity) => crusade on the ice
+	------------------------------
+
+
+List(Causal, Event) => high blood pressure can lead to injury or even death in the mother and the fetus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => high blood pressure
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	------------------------------
+
+
+List(Causal, Event) => high blood pressure can lead to injury or even death in the mother and the fetus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => high blood pressure
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	------------------------------
+
+
+List(Causal, Event) => high blood pressure can lead to injury or even death in the mother and the fetus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => high blood pressure
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	------------------------------
+
+
+List(Causal, Event) => deaths per year _ or any number remotely close to 400,000 _ are caused by tobacco
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => deaths
+	controller (CM_NP, CM, Entity) => tobacco
+	------------------------------
+
+
+List(Causal, Event) => Tsunamis are caused by submarine earthquakes , landslips or volcanic activity
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => Tsunamis
+	controller (CM_NP, CM, Entity) => submarine earthquakes
+	controller (CM_NP, CM, Entity) => landslips
+	controller (CM_NP, CM, Entity) => volcanic activity
+	------------------------------
+
+
+List(Causal, Event) => powerful earthquake 100 miles off the coast of Chile in 1960 caused a tsunami that inundated the Japanese coastline , killing 119
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => tsunami
+	controlled (CM_event, CM, Entity) => tsunami that inundated the Japanese coastline
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controlled (CM_event, CM, Entity) => killing 119
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => Chile
+	------------------------------
+
+
+List(Causal, Event) => Tsunamis are caused by submarine earthquakes , landslips or volcanic activity
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => Tsunamis
+	controller (CM_NP, CM, Entity) => submarine earthquakes
+	controller (CM_NP, CM, Entity) => landslips
+	controller (CM_NP, CM, Entity) => volcanic activity
+	------------------------------
+
+
+List(Causal, Event) => powerful earthquake 100 miles off the coast of Chile in 1960 caused a tsunami that inundated the Japanese coastline , killing 119
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => tsunami
+	controlled (CM_event, CM, Entity) => tsunami that inundated the Japanese coastline
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controlled (CM_event, CM, Entity) => killing 119
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => Chile
+	------------------------------
+
+
+List(Causal, Event) => Tsunamis are caused by submarine earthquakes , landslips or volcanic activity
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => Tsunamis
+	controller (CM_NP, CM, Entity) => submarine earthquakes
+	controller (CM_NP, CM, Entity) => landslips
+	controller (CM_NP, CM, Entity) => volcanic activity
+	------------------------------
+
+
+List(Causal, Event) => powerful earthquake 100 miles off the coast of Chile in 1960 caused a tsunami that inundated the Japanese coastline , killing 119
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => tsunami
+	controlled (CM_event, CM, Entity) => tsunami that inundated the Japanese coastline
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controlled (CM_event, CM, Entity) => killing 119
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => Chile
+	------------------------------
+
+
+List(Causal, Event) => Tsunamis are caused by submarine earthquakes , landslips or volcanic activity
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => Tsunamis
+	controller (CM_NP, CM, Entity) => submarine earthquakes
+	controller (CM_NP, CM, Entity) => landslips
+	controller (CM_NP, CM, Entity) => volcanic activity
+	------------------------------
+
+
+List(Causal, Event) => powerful earthquake 100 miles off the coast of Chile in 1960 caused a tsunami that inundated the Japanese coastline , killing 119
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => tsunami
+	controlled (CM_event, CM, Entity) => tsunami that inundated the Japanese coastline
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controlled (CM_event, CM, Entity) => killing 119
+	controlled (CM_NP, CM, Entity) => tsunami that inundated the Japanese coastline , killing 119
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => powerful earthquake 100 miles off the coast of Chile in 1960
+	controller (CM_NP, CM, Entity) => coast of Chile
+	controller (CM_NP, CM, Entity) => Chile
+	------------------------------
+
+
+List(Causal, Event) => high blood pressure can lead to injury or even death in the mother and the fetus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => high blood pressure
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	------------------------------
+
+
+List(Causal, Event) => important phenomenon that causes their condition
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => condition
+	controller (CM_NP, CM, Entity) => important phenomenon
+	------------------------------
+
+
+List(Causal, Event) => high blood pressure can lead to injury or even death in the mother and the fetus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => high blood pressure
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	controlled (CM_NP, CM, Entity) => injury or even death in the mother and the fetus
+	------------------------------
+
+
+List(Causal, Event) => important phenomenon that causes their condition
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => condition
+	controller (CM_NP, CM, Entity) => important phenomenon
+	------------------------------
+
+
+List(Causal, Event) => disagreement on how to handle the negotiations , after they were well under way , almost resulted in a major international embarrassment
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => major international embarrassment
+	controller (CM_NP, CM, Entity) => disagreement
+	------------------------------
+
+
+List(Causal, Event) => tamoxifen does not kill cells and does not cause nausea and hair loss
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => nausea and hair loss
+	controller (CM_NP, CM, Entity) => tamoxifen
+	controller (CM_event, CM, Entity) => tamoxifen does not kill cells
+	------------------------------
+
+
+List(Causal, Event) => tamoxifen also causes hot flashes
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => hot flashes
+	controller (CM_NP, CM, Entity) => tamoxifen
+	------------------------------
+
+
+List(Causal, Event) => news reports led to a sharp drop in both the use of aspirin among children and the incidence of Reye 's syndrome in the United States
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => news reports
+	controlled (CM_NP, CM, Entity) => sharp drop in both the use of aspirin among children and the incidence of Reye 's syndrome in the United States
+	------------------------------
+
+
+List(Causal, Event) => unknowingly , the composer helped to found a branch of chemistry that has unfortunately led to depletion of the global ozone layer
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => branch of chemistry
+	controller (CM_event, CM, Entity) => unknowingly , the composer helped to found a branch of chemistry
+	controller (CM_event, CM, Entity) => found a branch of chemistry
+	controlled (CM_NP, CM, Entity) => depletion of the global ozone layer
+	------------------------------
+
+
+List(Causal, Event) => pioneered a field of carbon-fluorine chemistry that ultimately led to nonstick cookware and freon refrigerants
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => field of carbon-fluorine chemistry
+	controller (CM_event, CM, Entity) => pioneered a field of carbon-fluorine chemistry
+	controlled (CM_NP, CM, Entity) => nonstick cookware
+	controlled (CM_NP, CM, Entity) => freon refrigerants
+	------------------------------
+
+
+List(Causal, Event) => roundup near Toulouse in March resulted in 20 arrests and the recovery of a vast array of goods
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => arrests
+	controlled (CM_NP, CM, Entity) => recovery of a vast array of goods
+	controller (CM_NP, CM, Entity) => roundup near Toulouse in March
+	------------------------------
+
+
+List(Causal, Event) => fear losing control of a volatile political issue that could lead to widespread recriminations and possible violence
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => control of a volatile political issue
+	controller (CM_NP, CM, Entity) => volatile political issue
+	controller (CM_event, CM, Entity) => fear losing control of a volatile political issue
+	controller (CM_event, CM, Entity) => losing control of a volatile political issue
+	controlled (CM_NP, CM, Entity) => widespread recriminations
+	controlled (CM_NP, CM, Entity) => possible violence
+	------------------------------
+
+
+List(Causal, Event) => massacre in Littleton , Colo. , like the other school shootings before it , resulted from a lethal cocktail of mental illness , parental neglect , and a culture
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => massacre in Littleton
+	controller (CM_NP, CM, Entity) => lethal cocktail of mental illness
+	controller (CM_NP, CM, Entity) => parental neglect
+	controller (CM_NP, CM, Entity) => culture
+	------------------------------
+
+
+List(Causal, Event) => problem results from the reliance of many programs on only the last two digits of a year
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => problem
+	controller (CM_NP, CM, Entity) => reliance of many programs on only the last two digits of a year
+	------------------------------
+
+
+List(Causal, Event) => general , the problem results
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => general
+	controller (CM_NP, CM, Entity) => problem
+	------------------------------
+
+
+List(Causal, Event) => Year 2000-related glitches lead to costly interruptions in services
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Year 2000-related glitches
+	controlled (CM_NP, CM, Entity) => costly interruptions in services
+	------------------------------
+
+
+List(Causal, Event) => series of dates that could cause electronic glitches
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => electronic glitches
+	controller (CM_NP, CM, Entity) => series of dates
+	controller (CM_NP, CM, Entity) => dates
+	------------------------------
+
+
+List(Causal, Event) => dimming prospects caused shares in Lycos to surge 18 percent
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => shares in Lycos to surge 18 percent
+	controller (CM_NP, CM, Entity) => dimming prospects
+	------------------------------
+
+
+List(Causal, Event) => ethnic cleansing of Kosovo , which has led to the killing of thousands of people and the relocation of hundreds
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => ethnic cleansing of Kosovo
+	controller (CM_NP, CM, Entity) => Kosovo
+	controlled (CM_NP, CM, Entity) => killing of thousands of people and the relocation of hundreds
+	------------------------------
+
+

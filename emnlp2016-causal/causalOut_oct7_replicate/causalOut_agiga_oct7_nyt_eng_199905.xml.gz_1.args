@@ -1,0 +1,22 @@
+millimeter_NN variation_NN	-->	load_NN
+PERSON_NER mound_NN ORGANIZATION_NER lead_NN DATE_NER LOCATION_NER ORGANIZATION_NER drop_VBD leadoff_NN soft_JJ liner_NN ORDINAL_NER inning_NN	-->	PERSON_NER ORDINAL_NER,victory_NN
+arrangement_NN	-->	Winston_NNP Cup_NNP team_NN
+kind_NN production_NN	-->	3-1_JJ win_NN DATE_NER TIME_NER series_NN opener_NN,back-to-back_JJ victory_NNS
+ORGANIZATION_NER turnover_NNS	-->	point_NNS ORGANIZATION_NER,halftime_NN lead_NN
+evident_JJ lack_NN remorse_NN several_JJ collision_NNS	-->	injury_NNS oppose_VBG player_NNS
+big_JJ earthquake_NN	-->	stronger_JJR building_NN code_NNS
+put_VB papers_NNS proper_JJ historical_JJ context_NN	-->	greater_JJR financial_JJ reward_NNS PERSON_NER
+westward_JJ migration_NN LOCATION_NER moisture_NN	-->	cloud_NNS light_NN sprinkle_NNS reach_VB as_RB far_RB west_RB
+online_JJ order_NN	-->	Gateway_NNP assert_VBZ none_NN ten_NNS thousand_NNS people_NNS make_VBN purchase_NNS Gateway_NNP Web_NNP site_NN use_VBG SSL_NNP secure_VB socket_NN layer_NN technology_NN report_VBN fraudulent_JJ use_NN credit_NN card_NN
+other_JJ artist_NNS	-->	headline-making_JJ conflict_NNS
+expert_NNS say_VBP year_NN problem_NN lead_VB change_NNS way_NN program_NNS write_VBN just_RB earthquake_NNS lead_VB	-->	stricter_JJR building_NN code_NNS
+computer_NN problem_NNS	-->	widespread_JJ lawsuit_NNS
+ORGANIZATION_NER bombing_NNS	-->	ORGANIZATION_NER high_JJ commissioner_NN human_JJ rights_NNS PERSON_NER PERSON_NER say_VBD LOCATION_NER government_NN estimate_VBD civilian_NNS die_VBN
+expert_NNS say_VBP year_NN problem_NN lead_VB change_NNS way_NN program_NNS write_VBN just_RB earthquake_NNS lead_VB	-->	stricter_JJR building_NN code_NNS
+computer_NN problem_NNS	-->	widespread_JJ lawsuit_NNS
+attempt_NN	-->	lawsuit_NN PERSON_NER win_VB easily_RB
+insistence_NN purse_NNS exceed_VBP fight_NNS value_NN	-->	miss_VB several_JJ opportunity_NNS cement_VB greatness_NN
+disallow_VB ice_VBG puck_NN penalty-killing_JJ situation_NNS rule_NN change_NN	-->	faceoff_NN defensive_JJ end_NN,immediate_JJ whistle_NN
+surprisingly_RB strong_JJ showing_NN	-->	anxiety_NN TIME_NER establishment_JJ ORGANIZATION_NER leader_NNS fear_VBD ORGANIZATION_NER victory_NN even_RB place_NN runoff_NN deeply_RB embarrass_VB party_NN
+global_JJ trade_NN agreement_NNS	-->	foreign_JJ phone_NN fee_NNS come_VBG down_RB partly_RB
+breakdown_NN peace_NN negotiation_NNS	-->	new_JJ more_JJR intense_JJ violence_NN protracted_JJ internal_JJ conflict_NN kill_VBN more_JJR Colombians_NNPS

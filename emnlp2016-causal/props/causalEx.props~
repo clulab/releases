@@ -1,0 +1,22 @@
+####
+#  Properties for Causal Extraction
+####
+
+DATE = oct7
+SOURCE = agiga
+#FILES = afp
+
+rules_file = /grammars/causal/CMBasedRules.yml
+
+data_dir = /data/nlp/corpora/agiga/data/xml/
+
+output_prefix = causalOut_oct7_replicate/causalOut_${SOURCE}_${DATE}_
+
+num_docs_per_output_file = 5000
+
+#timer_filename = ${SOURCE}CausalTimer_${FILES}_${DATE}.txt
+
+view = lemmasWithTags
+
+nthreads = 2
+

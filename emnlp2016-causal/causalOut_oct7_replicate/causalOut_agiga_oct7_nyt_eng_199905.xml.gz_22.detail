@@ -1,0 +1,247 @@
+List(Causal, Event) => outing that led to the string of eight-run starts
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => outing
+	controlled (CM_NP, CM, Entity) => string of eight-run starts
+	------------------------------
+
+
+List(Causal, Event) => drive resulted in a sacrifice fly
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => sacrifice fly
+	controller (CM_NP, CM, Entity) => drive
+	------------------------------
+
+
+List(Causal, Event) => investigation that resulted in the five arrests
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => arrests
+	controller (CM_NP, CM, Entity) => investigation
+	------------------------------
+
+
+List(Causal, Event) => criminal misdemeanor charges that could result in a maximum year in jail
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => maximum year in jail
+	controller (CM_NP, CM, Entity) => criminal misdemeanor charges
+	------------------------------
+
+
+List(Causal, Event) => comments could lead to a fight with members of the Legislature
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => comments
+	controlled (CM_NP, CM, Entity) => fight with members of the Legislature
+	------------------------------
+
+
+List(Causal, Event) => Wednesday night , which eventually resulted in misery , which left the Dallas Stars with a nagging question
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => misery
+	controlled (CM_event, CM, Entity) => misery , which left the Dallas Stars with a nagging question
+	controller (CM_NP, CM, Entity) => Wednesday night
+	------------------------------
+
+
+List(Causal, Event) => strong first period resulted in a 1-0 Stars lead
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => 1-0 Stars lead
+	controller (CM_NP, CM, Entity) => strong first period
+	------------------------------
+
+
+List(Causal, Event) => one-night stand with a prominent investment banker results in his `` death
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => one-night stand with a prominent investment banker
+	------------------------------
+
+
+List(Causal, Event) => excessive heat applied to a closed container can cause chemical gases to contaminate the food
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => chemical gases to contaminate the food
+	controller (CM_NP, CM, Entity) => excessive heat
+	------------------------------
+
+
+List(Causal, Event) => who-am-I question is not causing anxiety
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => anxiety
+	controller (CM_NP, CM, Entity) => who-am-I question
+	------------------------------
+
+
+List(Causal, Event) => difficult pregnancy led to a premature labor
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => difficult pregnancy
+	controlled (CM_NP, CM, Entity) => premature labor
+	------------------------------
+
+
+List(Causal, Event) => mostly copies _ a good Guido Remi but a bad Raphael _ was no cause
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => mostly copies
+	controller (CM_NP, CM, Entity) => good Guido Remi
+	controller (CM_NP, CM, Entity) => Guido
+	controller (CM_NP, CM, Entity) => good Guido Remi
+	controller (CM_NP, CM, Entity) => bad Raphael
+	------------------------------
+
+
+List(Causal, Event) => party vote against Germany 's Kosovo policy could lead to fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => party vote
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => defects in its Thick Film Ignition -LRB- TFI -RRB- module that could cause potentially dangerous stalling in millions of 1983-1995 cars and trucks
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => potentially dangerous stalling in millions of 1983-1995 cars and trucks
+	controller (CM_NP, CM, Entity) => defects in its Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => defects in its Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => Thick
+	controller (CM_NP, CM, Entity) => Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => defects in its Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => Film
+	controller (CM_NP, CM, Entity) => Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => defects in its Thick Film Ignition -LRB- TFI -RRB- module
+	controller (CM_NP, CM, Entity) => Ignition
+	controller (CM_NP, CM, Entity) => Thick Film Ignition -LRB- TFI -RRB- module
+	------------------------------
+
+
+List(Causal, Event) => how many people have lost health insurance as a result of welfare reform
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => how many people have lost health insurance
+	controller (CM_NP, CM, Entity) => welfare reform
+	------------------------------
+
+
+List(Causal, Event) => party vote against Germany 's Kosovo policy could lead to fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => party vote
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => party vote against Germany 's Kosovo policy could lead to fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => party vote
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => extensive corrections of British navigational tables led to his 1802 book
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => extensive corrections of British navigational tables
+	controlled (CM_NP, CM, Entity) => 1802 book
+	------------------------------
+
+
+List(Causal, Event) => Happenstance also caused that train to collide with actual news events
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => train to collide with actual news events
+	controller (CM_NP, CM, Entity) => Happenstance
+	------------------------------
+
+
+List(Causal, Event) => evacuation leads to panic , looting and general social chaos
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => evacuation
+	controlled (CM_NP, CM, Entity) => panic
+	controlled (CM_NP, CM, Entity) => looting
+	controlled (CM_NP, CM, Entity) => general social chaos
+	------------------------------
+
+
+List(Causal, Event) => How many CDs will be sold as a result of this joint promotion for Diana Ross and Brandy
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => How many CDs will be sold
+	controller (CM_NP, CM, Entity) => joint promotion for Diana Ross and Brandy
+	------------------------------
+
+

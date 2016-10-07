@@ -1,0 +1,253 @@
+List(Causal, Event) => case that resulted in a nine-month jail sentence
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => nine-month jail sentence
+	controller (CM_NP, CM, Entity) => case
+	------------------------------
+
+
+List(Causal, Event) => acknowledge the hardship such a step would cause
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hardship
+	controlled (CM_event, CM, Entity) => acknowledge the hardship
+	controller (CM_NP, CM, Entity) => step
+	------------------------------
+
+
+List(Causal, Event) => overthrow of the Tokugawa shogunate that led to the establishment of modern Japan
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => overthrow of the Tokugawa shogunate
+	controller (CM_NP, CM, Entity) => Tokugawa shogunate
+	controlled (CM_NP, CM, Entity) => establishment of modern Japan
+	------------------------------
+
+
+List(Causal, Event) => failure that in Konishiki 's case led to charges of discrimination
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => failure
+	controlled (CM_NP, CM, Entity) => charges of discrimination
+	------------------------------
+
+
+List(Causal, Event) => states that had weak gun laws , which led to illegal sales in states with stricter regulations
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => weak gun laws
+	controller (CM_event, CM, Entity) => states that had weak gun laws
+	controlled (CM_NP, CM, Entity) => illegal sales in states with stricter regulations
+	------------------------------
+
+
+List(Causal, Event) => series of high-profile , disputed calls last season led to an outcry for instant replay 's return in a modern form
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => series of high-profile , disputed calls
+	controller (CM_NP, CM, Entity) => last season
+	controlled (CM_NP, CM, Entity) => outcry for instant replay 's return in a modern form
+	------------------------------
+
+
+List(Causal, Event) => trip that led to talk
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => trip
+	controlled (CM_NP, CM, Entity) => talk
+	------------------------------
+
+
+List(Causal, Event) => territory of Jammu and Kashmir , which borders India and Pakistan , has been the chief cause of two of the three wars that the two nations have fought
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => nations have fought
+	controller (CM_NP, CM, Entity) => territory of Jammu and Kashmir
+	controller (CM_event, CM, Entity) => territory of Jammu and Kashmir , which borders India and Pakistan
+	controller (CM_NP, CM, Entity) => territory of Jammu and Kashmir
+	controller (CM_NP, CM, Entity) => Jammu
+	controller (CM_event, CM, Entity) => territory of Jammu and Kashmir , which borders India and Pakistan
+	controller (CM_NP, CM, Entity) => territory of Jammu and Kashmir
+	controller (CM_NP, CM, Entity) => Kashmir
+	controller (CM_event, CM, Entity) => territory of Jammu and Kashmir , which borders India and Pakistan
+	------------------------------
+
+
+List(Causal, Event) => luck came as a result of hard work
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => luck came
+	controller (CM_NP, CM, Entity) => hard work
+	------------------------------
+
+
+List(Causal, Event) => one-goal lead caused the Stars to play the old way
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Stars to play the old way
+	controller (CM_NP, CM, Entity) => one-goal lead
+	------------------------------
+
+
+List(Causal, Event) => when Rosenbloom had his dispute with the L.A. politicians that led to Rosenbloom
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => dispute with the L.A. politicians
+	controller (CM_event, CM, Entity) => when Rosenbloom had his dispute with the L.A. politicians
+	controlled (CM_NP, CM, Entity) => Rosenbloom
+	------------------------------
+
+
+List(Causal, Event) => Sort-circuiting the long-established principles of patient negotiation leads to war
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Sort-circuiting
+	controller (CM_NP, CM, Entity) => long-established principles of patient negotiation
+	controlled (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => Short-circuiting the long-established principles of patient negotiation leads to war
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Short-circuiting
+	controller (CM_NP, CM, Entity) => long-established principles of patient negotiation
+	controlled (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => bacterium that causes Lyme disease
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => Lyme disease
+	controller (CM_NP, CM, Entity) => bacterium
+	------------------------------
+
+
+List(Causal, Event) => development program , which is designed to help graduate students acquire skills not normally associated with the Ivory Tower , was created by a partnership of UT 's Office of Graduate Studies , the provost 's office and the Center for Teaching Effectiveness
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => development program
+	controlled (CM_event, CM, Entity) => development program , which is designed to help graduate students acquire
+	controller (CM_NP, CM, Entity) => partnership of UT 's Office of Graduate Studies
+	controller (CM_NP, CM, Entity) => office
+	controller (CM_NP, CM, Entity) => Center for Teaching Effectiveness
+	------------------------------
+
+
+List(Causal, Event) => B. -RRB- Education policies in Texas would cause Pavlov 's dogs to stop salivating
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => dogs to stop salivating
+	controller (CM_NP, CM, Entity) => Education policies in Texas
+	controller (CM_NP, CM, Entity) => B.
+	controller (CM_NP, CM, Entity) => Education
+	controller (CM_NP, CM, Entity) => Education policies in Texas
+	controller (CM_NP, CM, Entity) => Education policies in Texas
+	controller (CM_NP, CM, Entity) => Texas
+	------------------------------
+
+

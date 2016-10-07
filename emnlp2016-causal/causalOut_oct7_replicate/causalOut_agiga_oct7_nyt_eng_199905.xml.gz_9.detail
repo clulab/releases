@@ -1,0 +1,129 @@
+List(Causal, Event) => taking a `` substantial step '' that results in the infant 's death
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => substantial step
+	controller (CM_event, CM, Entity) => taking a `` substantial step
+	------------------------------
+
+
+List(Causal, Event) => failures which have resulted in the loss of several billion dollars worth of military and commercial satellites
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => loss of several billion dollars worth of military and commercial satellites
+	controller (CM_NP, CM, Entity) => failures
+	------------------------------
+
+
+List(Causal, Event) => result of the back-to-back Delta 3 failures , Boeing has lost a significant opportunity to establish itself in a market that desperately needs more powerful rockets to launch today 's new generation of heavier communication satellites such as Orion 3 , said Caceres
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Boeing has lost a significant opportunity
+	controlled (CM_event, CM, Entity) => Boeing has lost a significant opportunity to establish itself in a market that desperately needs more powerful rockets to launch today 's new generation of heavier communication satellites such as Orion 3 , said Caceres
+	controller (CM_NP, CM, Entity) => back-to-back Delta 3 failures
+	------------------------------
+
+
+List(Causal, Event) => car developed a malfunction that led to a carburetor fire
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => malfunction
+	controller (CM_event, CM, Entity) => car developed a malfunction
+	controlled (CM_NP, CM, Entity) => carburetor fire
+	------------------------------
+
+
+List(Causal, Event) => Sequencing leads to an understanding of structure
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Sequencing
+	controlled (CM_NP, CM, Entity) => understanding of structure
+	------------------------------
+
+
+List(Causal, Event) => Structure leads to an understanding of function
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Structure
+	controlled (CM_NP, CM, Entity) => understanding of function
+	------------------------------
+
+
+List(Causal, Event) => research will lead to a whole new world of medicine , pharmacology , agriculture , chemical treatments , and compounds
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => research
+	controlled (CM_NP, CM, Entity) => whole new world of medicine , pharmacology , agriculture , chemical treatments , and compounds
+	------------------------------
+
+
+List(Causal, Event) => Subjecting a Pap smear sample to a simultaneous second test for the papilloma virus that causes most cervical cancer
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => most cervical cancer
+	controller (CM_NP, CM, Entity) => simultaneous second test for the papilloma virus
+	controller (CM_NP, CM, Entity) => papilloma virus
+	controller (CM_event, CM, Entity) => Subjecting a Pap smear sample to a simultaneous second test for the papilloma virus
+	------------------------------
+
+
+List(Causal, Event) => absorbing vitamin C , which could lead to treatments for diseases
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => vitamin C
+	controller (CM_event, CM, Entity) => absorbing vitamin C
+	controlled (CM_NP, CM, Entity) => treatments for diseases
+	------------------------------
+
+
+List(Causal, Event) => Dreamlife of Angels '' caused quite a stir
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => quite a stir
+	controller (CM_NP, CM, Entity) => Dreamlife of Angels
+	controller (CM_NP, CM, Entity) => Dreamlife of Angels
+	controller (CM_NP, CM, Entity) => Angels
+	------------------------------
+
+
+List(Causal, Event) => sparks can certainly be created by the right man
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => sparks
+	controller (CM_NP, CM, Entity) => right man
+	------------------------------
+
+

@@ -1,0 +1,207 @@
+List(Causal, Event) => presentation by Kailash in 1991 before a U.N. human rights subcommission in Geneva resulted in U.N. endorsement of the label
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => U.N. endorsement of the label
+	controller (CM_NP, CM, Entity) => presentation
+	------------------------------
+
+
+List(Causal, Event) => presentation by Kailash in 1991 before a U.N. human rights subcommission in Geneva resulted in U.N. endorsement of the label
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => U.N. endorsement of the label
+	controller (CM_NP, CM, Entity) => presentation
+	------------------------------
+
+
+List(Causal, Event) => that women now face as the result of their revolutionary change in status
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => that women now face
+	controller (CM_NP, CM, Entity) => revolutionary change in status
+	------------------------------
+
+
+List(Causal, Event) => that women now face as the result of their revolutionary change in status
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => that women now face
+	controller (CM_NP, CM, Entity) => revolutionary change in status
+	------------------------------
+
+
+List(Causal, Event) => it is not only Kosovars who have suffered as a result of Milosevic 's murderous drive for a Greater Serbia
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => it is not only Kosovars who have suffered
+	controller (CM_NP, CM, Entity) => murderous drive for a Greater Serbia
+	------------------------------
+
+
+List(Causal, Event) => it is not only Kosovars who have suffered as a result of Milosevic 's murderous drive for a Greater Serbia
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => it is not only Kosovars who have suffered
+	controller (CM_NP, CM, Entity) => murderous drive for a Greater Serbia
+	------------------------------
+
+
+List(Causal, Event) => crisis led to mass riots and the looting of Albania 's military arsenals for weaponry
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => crisis
+	controlled (CM_NP, CM, Entity) => mass riots
+	controlled (CM_NP, CM, Entity) => looting of Albania 's military arsenals for weaponry
+	------------------------------
+
+
+List(Causal, Event) => law journal writings can cause discomfort , among friends as well as other judges , because they can be sustained , strongly worded critiques , including , in one case , criticism of a ruling by the appellate court that oversees her
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => discomfort
+	controlled (CM_NP, CM, Entity) => strongly worded critiques , including , in one case , criticism of a ruling
+	controlled (CM_event, CM, Entity) => strongly worded critiques , including , in one case , criticism of a ruling by the appellate court that oversees her
+	controller (CM_NP, CM, Entity) => law journal writings
+	controller (CM_NP, CM, Entity) => law
+	controller (CM_NP, CM, Entity) => law journal writings
+	controller (CM_NP, CM, Entity) => journal
+	controller (CM_NP, CM, Entity) => law journal writings
+	------------------------------
+
+
+List(Causal, Event) => Several factors led to the assault on Waikiki 's onetime serenity
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Several factors
+	controlled (CM_NP, CM, Entity) => assault on Waikiki 's onetime serenity
+	------------------------------
+
+
+List(Causal, Event) => performance in this series _ making hard plays look easy _ was the result of two years of NHL experience
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => performance in this series
+	controller (CM_NP, CM, Entity) => years of NHL experience
+	------------------------------
+
+
+List(Causal, Event) => only delay was caused by a last-minute appeal to the Supreme Court , which denied Babbitt 's motion for a hearing
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => only delay
+	controller (CM_NP, CM, Entity) => last-minute appeal to the Supreme Court
+	controller (CM_event, CM, Entity) => last-minute appeal to the Supreme Court , which denied Babbitt 's motion for a hearing
+	------------------------------
+
+
+List(Causal, Event) => winter blizzards result in snowdrifts as deep
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => snowdrifts as deep
+	controller (CM_NP, CM, Entity) => winter blizzards
+	------------------------------
+
+
+List(Causal, Event) => thin air can cause dizziness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => dizziness
+	controller (CM_NP, CM, Entity) => thin air
+	------------------------------
+
+
+List(Causal, Event) => salute to a noxious fetish that can cause cancer
+	------------------------------
+	Rule => causal_6
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => salute to a noxious fetish
+	controller (CM_NP, CM, Entity) => cancer
+	------------------------------
+
+
+List(Causal, Event) => MSG can cause adverse reactions in some people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => adverse reactions in some people
+	controller (CM_NP, CM, Entity) => MSG
+	------------------------------
+
+
+List(Causal, Event) => theatrical dance careers lead to Broadway
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => theatrical dance careers
+	controlled (CM_NP, CM, Entity) => Broadway
+	------------------------------
+
+
+List(Causal, Event) => suggestion of the use of ground troops could lead to the fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => suggestion of the use of ground troops
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => Donated medical supplies , which are desperately needed in crises like Kosovo , can cause their own problems for aid groups
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => own problems for aid groups
+	controller (CM_NP, CM, Entity) => Donated medical supplies
+	controller (CM_event, CM, Entity) => Donated medical supplies , which are desperately needed
+	------------------------------
+
+

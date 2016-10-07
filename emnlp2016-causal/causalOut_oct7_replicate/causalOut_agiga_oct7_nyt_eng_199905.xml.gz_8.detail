@@ -1,0 +1,139 @@
+List(Causal, Event) => constitutional provision written more than 200 years ago is causing all this trouble
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => trouble
+	controller (CM_NP, CM, Entity) => constitutional provision
+	------------------------------
+
+
+List(Causal, Event) => National executives said that the PC processor business was unprofitable as a result of the price wars
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => National executives said that the PC processor business was unprofitable
+	controller (CM_NP, CM, Entity) => price wars
+	------------------------------
+
+
+List(Causal, Event) => sale of the plant , and the write-off of the Cyrix business , should no buyer materialize , could lead to further charges
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => sale of the plant
+	controller (CM_NP, CM, Entity) => write-off of the Cyrix business
+	controlled (CM_NP, CM, Entity) => further charges
+	------------------------------
+
+
+List(Causal, Event) => second label , Imago , folded before her second record came out , and , just after Ms. Mann completed her third album for her third label , Geffen , the company was consolidated into Interscope as a result of the merger of both labels ' parent company , Universal Music , with Polygram
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => second label , Imago , folded before her second record came out , and , just after Ms. Mann completed her third album for her third label , Geffen , the company was consolidated into Interscope
+	controlled (CM_event, CM, Entity) => company was consolidated into Interscope
+	controller (CM_NP, CM, Entity) => merger of both labels ' parent company , Universal Music , with Polygram
+	------------------------------
+
+
+List(Causal, Event) => suggestion of the use of ground troops could lead to the fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => suggestion of the use of ground troops
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => lengthy investigation of Clinton 's affair with Monica Lewinsky that led to the president 's impeachment and subsequent acquittal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => lengthy investigation of Clinton 's affair with Monica Lewinsky
+	controller (CM_NP, CM, Entity) => affair with Monica Lewinsky
+	controlled (CM_NP, CM, Entity) => impeachment
+	controlled (CM_NP, CM, Entity) => subsequent acquittal
+	------------------------------
+
+
+List(Causal, Event) => looting or gas leaks that could lead to fires and explosions
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => looting or gas leaks
+	controlled (CM_NP, CM, Entity) => fires
+	controlled (CM_NP, CM, Entity) => explosions
+	------------------------------
+
+
+List(Causal, Event) => scientist from Lawrence Livermore National Laboratory in California , who had been fired as a result of an investigation into evidence
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => scientist from Lawrence Livermore National Laboratory in California , who had been fired
+	controller (CM_NP, CM, Entity) => investigation into evidence
+	------------------------------
+
+
+List(Causal, Event) => conciliatory call from an AT&T executive to Roberts that ultimately led to Tuesday 's settlement
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => conciliatory call from an AT&T executive to Roberts
+	controlled (CM_NP, CM, Entity) => settlement
+	------------------------------
+
+
+List(Causal, Event) => scientist from Lawrence Livermore National Laboratory in California , who had been fired as a result of an investigation into evidence
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => scientist from Lawrence Livermore National Laboratory in California , who had been fired
+	controller (CM_NP, CM, Entity) => investigation into evidence
+	------------------------------
+
+
+List(Causal, Event) => overall number of new classroom seats would be reduced , as a result of a more conservative estimate of financing
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => overall number of new classroom seats would be reduced
+	controller (CM_NP, CM, Entity) => more conservative estimate of financing
+	------------------------------
+
+
+List(Causal, Event) => They had hoped for a fight that would establish an undisputed heavyweight champion and lead to a rebirth of big-time boxing in the state
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => fight
+	controller (CM_event, CM, Entity) => They had hoped for a fight
+	controller (CM_event, CM, Entity) => fight that would establish an undisputed heavyweight champion
+	controlled (CM_NP, CM, Entity) => rebirth of big-time boxing in the state
+	------------------------------
+
+

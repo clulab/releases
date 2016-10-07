@@ -1,0 +1,280 @@
+List(Causal, Event) => ultimatums can lead to disasters
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => ultimatums
+	controlled (CM_NP, CM, Entity) => disasters
+	------------------------------
+
+
+List(Causal, Event) => concern is causing scientists and policy-makers around the world to finally speak out on the issue
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => scientists and policy-makers around the world to finally speak out on the issue
+	controller (CM_NP, CM, Entity) => concern
+	------------------------------
+
+
+List(Causal, Event) => control a problem which , according to U.S. Department of Transportation estimates , causes 260,000 collisions and 750 deaths
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => 260,000 collisions
+	controlled (CM_NP, CM, Entity) => deaths
+	controller (CM_NP, CM, Entity) => problem
+	controller (CM_event, CM, Entity) => control a problem
+	------------------------------
+
+
+List(Causal, Event) => red-light running is the most common cause of injury accidents
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => injury accidents
+	controller (CM_NP, CM, Entity) => red-light running
+	------------------------------
+
+
+List(Causal, Event) => Moore had no tally of the tickets that have resulted from the program
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => tally of the tickets
+	controlled (CM_NP, CM, Entity) => tickets
+	controlled (CM_event, CM, Entity) => Moore had no tally of the tickets
+	controller (CM_NP, CM, Entity) => program
+	------------------------------
+
+
+List(Causal, Event) => doctors claim Serb forces have used chemical weapons and nerve gas , which resulted in the deaths of two young boys
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => deaths of two young boys
+	controller (CM_NP, CM, Entity) => chemical weapons
+	controller (CM_event, CM, Entity) => doctors claim Serb forces have used chemical weapons and nerve gas
+	controller (CM_event, CM, Entity) => Serb forces have used chemical weapons and nerve gas
+	controller (CM_NP, CM, Entity) => nerve gas
+	controller (CM_event, CM, Entity) => doctors claim Serb forces have used chemical weapons and nerve gas
+	controller (CM_event, CM, Entity) => Serb forces have used chemical weapons and nerve gas
+	------------------------------
+
+
+List(Causal, Event) => Residual moisture behind departing low pressure will cause clouds and spotty showers to linger
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => clouds and spotty showers to linger
+	controller (CM_NP, CM, Entity) => Residual moisture
+	------------------------------
+
+
+List(Causal, Event) => fast-moving system will cause any precipitation that occurs to be brief
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => precipitation
+	controlled (CM_event, CM, Entity) => precipitation that occurs to be brief
+	controller (CM_NP, CM, Entity) => fast-moving system
+	------------------------------
+
+
+List(Causal, Event) => meeting of the Atlantic and Gulf breezes near Orlando resulted in potent thunderstorms
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => potent thunderstorms
+	controller (CM_NP, CM, Entity) => meeting of the Atlantic and Gulf breezes
+	------------------------------
+
+
+List(Causal, Event) => IMF produced a $ 17 billion rescue package for Thailand that like the packages for other nations has resulted in painful economic austerity
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => painful economic austerity
+	controller (CM_NP, CM, Entity) => rescue package for Thailand
+	controller (CM_event, CM, Entity) => IMF produced a $ 17 billion rescue package for Thailand
+	------------------------------
+
+
+List(Causal, Event) => situation the agency admitted last year may have caused thousands of `` unnecessary exposures
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => thousands of `` unnecessary exposures
+	controller (CM_NP, CM, Entity) => situation
+	------------------------------
+
+
+List(Causal, Event) => Repeated frustrations finally led to his call for Parcells in 1997
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Repeated frustrations
+	controlled (CM_NP, CM, Entity) => call for Parcells in 1997
+	------------------------------
+
+
+List(Causal, Event) => Repeated frustrations finally led to his call for Parcells in 1997
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Repeated frustrations
+	controlled (CM_NP, CM, Entity) => call for Parcells in 1997
+	------------------------------
+
+
+List(Causal, Event) => opinion on the case that led to the ruling
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => opinion on the case
+	controller (CM_NP, CM, Entity) => case
+	controlled (CM_NP, CM, Entity) => ruling
+	------------------------------
+
+
+List(Causal, Event) => controversies that caused the Rambouillet peace talks to fail
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Rambouillet peace talks to fail
+	controller (CM_NP, CM, Entity) => controversies
+	------------------------------
+
+
+List(Causal, Event) => show , which still relies heavily on confrontational topics that lead to fistfights
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => confrontational topics
+	controller (CM_event, CM, Entity) => show , which still relies heavily on confrontational topics
+	controlled (CM_NP, CM, Entity) => fistfights
+	------------------------------
+
+
+List(Causal, Event) => flights have caused clear concern
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => clear concern
+	controller (CM_NP, CM, Entity) => flights
+	------------------------------
+
+
+List(Causal, Event) => several incidents resulted in dozens of deaths _ from the bombing of a train crossing the Juzna Morava River in mid-April to the destruction of a neighborhood
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => dozens of deaths
+	controlled (CM_NP, CM, Entity) => mid-April to the destruction of a neighborhood
+	controller (CM_NP, CM, Entity) => several incidents
+	------------------------------
+
+
+List(Causal, Event) => blow caused a microscopic tear in an artery
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => microscopic tear in an artery
+	controller (CM_NP, CM, Entity) => blow
+	------------------------------
+
+
+List(Causal, Event) => several incidents resulted in dozens of deaths _ from the bombing of a train crossing the Juzna Morava River in mid-April to the destruction of a neighborhood
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => dozens of deaths
+	controlled (CM_NP, CM, Entity) => mid-April to the destruction of a neighborhood
+	controller (CM_NP, CM, Entity) => several incidents
+	------------------------------
+
+
+List(Causal, Event) => Lawyers for Paula Jones told a federal judge in Arkansas Friday that President Clinton owed them more than $ 496,000 as a result of extra work
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Lawyers for Paula Jones told a federal judge in Arkansas Friday that President Clinton owed them more than $
+	controlled (CM_event, CM, Entity) => President Clinton owed them more than $
+	controller (CM_NP, CM, Entity) => extra work
+	------------------------------
+
+
+List(Causal, Event) => ruling that led to the filing
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => ruling
+	controlled (CM_NP, CM, Entity) => filing
+	------------------------------
+
+
+List(Causal, Event) => Panitchpakdi of Thailand to lead the World Trade Organization has led to a surge of anti-Americanism in Thailand
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Panitchpakdi of Thailand
+	controlled (CM_NP, CM, Entity) => surge of anti-Americanism in Thailand
+	------------------------------
+
+
+List(Causal, Event) => result of a 1998 sweep led by Bush , the GOP now holds all statewide offices in Texas
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => GOP now holds all statewide offices in Texas
+	controller (CM_NP, CM, Entity) => sweep
+	------------------------------
+
+

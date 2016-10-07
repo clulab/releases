@@ -1,0 +1,32 @@
+selloff_NN	-->	worst_JJS percentage_NN decline_NN DURATION_NER NUMBER_NER
+challenger_NN PERSON_NER PERSON_NER vow_VBD jumpstart_VB negotiation_NNS	-->	LOCATION_NER statehood_NN
+exchange_NNS	-->	untold_JJ change_NNS life_NNS thousand_NNS trader_NNS clerk_NNS other_NNS work_VBP,extend_VBG hour_NNS
+failure_NN effort_NNS	-->	greater_JJR pressure_NN ground_NN invasion_NN LOCATION_NER
+government_NN report_NNS as_RB well_RB desultory_JJ bidding_NN ORGANIZATION_NER note_NN auction_NN DATE_NER contribute_VBN further_JJ unease_NN	-->	investor_NNS focus_VB again_RB ORGANIZATION_NER ORGANIZATION_NER state_VBN inclination_NN
+disagreement_NNS	-->	ORDINAL_NER conflict_NNS
+cord_NN injury_NN	-->	loss_NN sensation_NN,permanent_JJ paralysis_NN
+interest_NN company_NNS install_VB maintain_VB complex_JJ information_NN network_NNS	-->	speculation_NN
+threat_NN	-->	warning_NNS
+snit_NN baseball_NN	-->	ORGANIZATION_NER
+snit_NN	-->	leave_VBD ORGANIZATION_NER work_VB CART_NNP event_NNS
+connection_NN payment_NN	-->	arrest_NN former_JJ employee_NN
+attack_NN	-->	victim_NN lose_VBD eye_NN
+connection_NN payment_NN	-->	arrest_NN former_JJ employee_NN
+threaten_VBN boycott_NN race_NN	-->	more_RBR bad_JJ publicity_NN irrational_JJ IRL_NNP ring_NN leader_NN
+open-wheel_JJ car_NNS	-->	spectator_NNS kill_VBN
+be_VBD shot_NN tie_VBD score_NN	-->	overtime_NN victory_NN
+experiment_NN	-->	3-point_JJ binge_NN
+guilty_JJ plea_NNS	-->	PERSON_NER face_VBZ total_NN NUMBER_NER prison_NN fine_NNS
+propose_VBN union_NN	-->	too_RB much_JJ concentration_NN military_JJ shipbuilding_NN business_NN
+illness_NN	-->	step_VB state_NN ORGANIZATION_NER ORGANIZATION_NER as_RB well_RB
+exchange_NNS	-->	extend_VBG hour_NNS
+payment_NN	-->	arrest_NN former_JJ employee_NN
+all-star_JJ ORDINAL_NER baseman_NN PERSON_NER PERSON_NER go_VBD 0-for-5_JJ commit_VBD first-inning_JJ error_NN	-->	unearned_JJ run_NNS
+err_VBG routine_JJ play_NN	-->	pair_NN unearned_JJ LOCATION_NER run_NNS
+enhanced_JJ production_NN scheme_NN	-->	retention_NN LOCATION_NER
+LOCATION_NER LOCATION_NER baserunner_NNS steal_VBD basis_NNS hurry_VBN rookie_NN catcher_NN PERSON_NER PERSON_NER throw_VBG error_NN	-->	go-ahead_NN run_NN
+talk_NNS	-->	reconciliation_NN
+Talking_NNP	-->	something_NN
+recovery_NN	-->	policymaker_NNS company_NNS conclude_VB not_RB need_VB make_VB
+recovery_NN	-->	policymaker_NNS company_NNS conclude_VB not_RB need_VB make_VB
+recovery_NN	-->	policymaker_NNS company_NNS conclude_VB not_RB need_VB make_VB

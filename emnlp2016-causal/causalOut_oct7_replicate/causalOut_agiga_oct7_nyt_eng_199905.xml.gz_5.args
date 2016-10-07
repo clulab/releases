@@ -1,0 +1,18 @@
+presentation_NN	-->	ORGANIZATION_NER endorsement_NN label_NN
+presentation_NN	-->	ORGANIZATION_NER endorsement_NN label_NN
+revolutionary_JJ change_NN status_NN	-->	woman_NNS now_RB face_VBP
+revolutionary_JJ change_NN status_NN	-->	woman_NNS now_RB face_VBP
+murderous_JJ drive_NN Greater_NNP LOCATION_NER	-->	be_VBZ not_RB only_RB kosovar_NNS suffer_VBN
+murderous_JJ drive_NN Greater_NNP LOCATION_NER	-->	be_VBZ not_RB only_RB kosovar_NNS suffer_VBN
+crisis_NN	-->	looting_NN LOCATION_NER military_JJ arsenal_NNS weaponry_NN,mass_NN riot_NNS
+law_NN journal_NN writings_NNS	-->	strongly_RB word_VBN critique_NNS include_VBG case_NN criticism_NN ruling_NN appellate_JJ court_NN oversee_VBZ,discomfort_NN
+several_JJ factor_NNS	-->	assault_NN LOCATION_NER onetime_JJ serenity_NN
+NUMBER_NER ORGANIZATION_NER experience_NN	-->	performance_NN series_NN
+last-minute_JJ appeal_NN ORGANIZATION_NER ORGANIZATION_NER deny_VBD PERSON_NER motion_NN hearing_NN	-->	only_JJ delay_NN
+winter_NN blizzard_NNS	-->	snowdrift_NNS as_RB deep_JJ
+thin_JJ air_NN	-->	dizziness_NN
+cancer_NN	-->	salute_NN noxious_JJ fetish_NN
+ORGANIZATION_NER	-->	adverse_JJ reaction_NNS people_NNS
+theatrical_JJ dance_NN career_NNS	-->	Broadway_NNP
+suggestion_NN use_NN ground_NN troops_NNS	-->	fall_NN government_NN
+donated_JJ medical_JJ supplies_NNS desperately_RB need_VBN	-->	own_JJ problem_NNS aid_NN group_NNS

@@ -1,0 +1,368 @@
+List(Causal, Event) => Spanish officials caused a scare Tuesday by saying the president had come down with acute bronchitis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => scare
+	controlled (CM_event, CM, Entity) => saying the president had come down with acute bronchitis
+	controlled (CM_event, CM, Entity) => president had come down with acute bronchitis
+	controller (CM_NP, CM, Entity) => Spanish officials
+	------------------------------
+
+
+List(Causal, Event) => public inquiry into Milgaard 's case is almost certain to cause major embarrassment to Saskatoon police
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => major embarrassment
+	controlled (CM_NP, CM, Entity) => embarrassment to Saskatoon police
+	controller (CM_NP, CM, Entity) => public inquiry into Milgaard 's case
+	controller (CM_NP, CM, Entity) => public inquiry into Milgaard 's case
+	controller (CM_NP, CM, Entity) => case
+	------------------------------
+
+
+List(Causal, Event) => civil complaint that could lead to Demjanjuk 's deportation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => civil complaint
+	controlled (CM_NP, CM, Entity) => deportation
+	------------------------------
+
+
+List(Causal, Event) => Sanders proposal could lead to the sale of potentially unsafe drugs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Sanders proposal
+	controlled (CM_NP, CM, Entity) => sale of potentially unsafe drugs
+	------------------------------
+
+
+List(Causal, Event) => pointed of whom was Anson Carter , who had his own contract squabbles with the team that led to a holdout
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => team
+	controller (CM_event, CM, Entity) => pointed of whom was Anson Carter , who had his own contract squabbles with the team
+	controlled (CM_NP, CM, Entity) => holdout
+	------------------------------
+
+
+List(Causal, Event) => investigation will result in sanctions that will affect Providian 's profits
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => sanctions
+	controlled (CM_event, CM, Entity) => sanctions that will affect Providian 's profits
+	controller (CM_NP, CM, Entity) => investigation
+	------------------------------
+
+
+List(Causal, Event) => MCC Behavioral Care , which covers 10 million members , United Behavioral Health , with 13 million , and Managed Health Network , with 9 million , each said Wednesday that they were conducting investigations of Charter as a result of the `` 60 Minutes II '' program
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => MCC Behavioral Care , which covers 10 million members , United Behavioral Health , with 13 million , and Managed Health Network , with 9 million , each said Wednesday that they were conducting investigations of Charter
+	controlled (CM_event, CM, Entity) => they were conducting investigations of Charter
+	controller (CM_NP, CM, Entity) => 60 Minutes II '' program
+	------------------------------
+
+
+List(Causal, Event) => present Congress with a list of recommendations in two years that could lead to legislation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => list of recommendations in two years
+	controller (CM_NP, CM, Entity) => recommendations in two years
+	controller (CM_event, CM, Entity) => present Congress with a list of recommendations in two years
+	controlled (CM_NP, CM, Entity) => legislation
+	------------------------------
+
+
+List(Causal, Event) => Wernick said that Volpe , who is 27 , also gave him a report on the street melee that had led to the arrest of Louima and a second Haitian immigrant
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => report on the street melee
+	controller (CM_NP, CM, Entity) => street melee
+	controller (CM_event, CM, Entity) => Wernick said that Volpe , who is 27 , also gave him a report on the street melee
+	controller (CM_event, CM, Entity) => Volpe , who is 27 , also gave him a report on the street melee
+	controlled (CM_NP, CM, Entity) => arrest of Louima and a second Haitian immigrant
+	------------------------------
+
+
+List(Causal, Event) => bad offense can lead to bad defense
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => bad offense
+	controlled (CM_NP, CM, Entity) => bad defense
+	------------------------------
+
+
+List(Causal, Event) => bearing toys that caused near-riotous excitement
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => near-riotous excitement
+	controller (CM_NP, CM, Entity) => toys
+	controller (CM_event, CM, Entity) => bearing toys
+	------------------------------
+
+
+List(Causal, Event) => bearing toys that caused near-riotous excitement
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => near-riotous excitement
+	controller (CM_NP, CM, Entity) => toys
+	controller (CM_event, CM, Entity) => bearing toys
+	------------------------------
+
+
+List(Causal, Event) => they worked closely together , drawing back Philadelphia from a fiscal abyss in the early 1990s with programs of economic austerity that led to budget surpluses and urban renewal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => programs of economic austerity
+	controller (CM_event, CM, Entity) => they worked closely together , drawing back Philadelphia from a fiscal abyss in the early 1990s with programs of economic austerity
+	controller (CM_event, CM, Entity) => drawing back Philadelphia from a fiscal abyss in the early 1990s with programs of economic austerity
+	controlled (CM_NP, CM, Entity) => budget surpluses
+	controlled (CM_NP, CM, Entity) => urban renewal
+	------------------------------
+
+
+List(Causal, Event) => Wernick said that Volpe , 27 , also gave him a report on the street fight that had led to the arrest of Louima and a second Haitian immigrant
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => report on the street fight
+	controller (CM_NP, CM, Entity) => street fight
+	controller (CM_event, CM, Entity) => Wernick said that Volpe , 27 , also gave him a report on the street fight
+	controller (CM_event, CM, Entity) => Volpe , 27 , also gave him a report on the street fight
+	controlled (CM_NP, CM, Entity) => arrest of Louima and a second Haitian immigrant
+	------------------------------
+
+
+List(Causal, Event) => prospect of such a prison term caused defense lawyers to reconsider their plea agreements
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => defense lawyers to reconsider their plea agreements
+	controller (CM_NP, CM, Entity) => prospect of such a prison term
+	controller (CM_NP, CM, Entity) => prospect of such a prison term
+	controller (CM_NP, CM, Entity) => prison term
+	controller (CM_NP, CM, Entity) => prospect of such a prison term
+	controller (CM_NP, CM, Entity) => prison
+	controller (CM_NP, CM, Entity) => prison term
+	------------------------------
+
+
+List(Causal, Event) => Cars in recent years have caused congestion , pollution and noise
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => congestion
+	controlled (CM_NP, CM, Entity) => pollution
+	controlled (CM_NP, CM, Entity) => noise
+	controller (CM_NP, CM, Entity) => Cars in recent years
+	controller (CM_NP, CM, Entity) => Cars in recent years
+	controller (CM_NP, CM, Entity) => recent years
+	------------------------------
+
+
+List(Causal, Event) => Early in the fourth quarter , the player entrusted to kick-start the Atlanta Hawks ' offense committed a turnover that led to a jump
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => turnover
+	controller (CM_event, CM, Entity) => Early in the fourth quarter , the player entrusted to kick-start the Atlanta Hawks ' offense committed a turnover
+	controlled (CM_NP, CM, Entity) => jump
+	------------------------------
+
+
+List(Causal, Event) => laws have caused New York 's prison population to swell with nonviolent , often first-time , drug offenders
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => prison population
+	controlled (CM_NP, CM, Entity) => population to swell with nonviolent , often first-time , drug offenders
+	controlled (CM_event, CM, Entity) => swell with nonviolent , often first-time , drug offenders
+	controlled (CM_NP, CM, Entity) => population to swell with nonviolent , often first-time , drug offenders
+	controller (CM_NP, CM, Entity) => laws
+	------------------------------
+
+
+List(Causal, Event) => though , such an announcement would be seen in New York as approaching a definite decision and would almost certainly lead to Ms. Lowey
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => such an announcement
+	controller (CM_event, CM, Entity) => though , such an announcement would be seen
+	controlled (CM_NP, CM, Entity) => Ms. Lowey
+	------------------------------
+
+
+List(Causal, Event) => disagreement over several amendments to be voted on Thursday would result in the collapse of the overriding $ 5 billion Juvenile Justice Bill
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => collapse of the overriding $ 5 billion Juvenile Justice Bill
+	controller (CM_NP, CM, Entity) => disagreement
+	------------------------------
+
+
+List(Causal, Event) => disparity between the best teams and the rest could result in some less-than-entertaining mismatches
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => less-than-entertaining mismatches
+	controller (CM_NP, CM, Entity) => disparity
+	------------------------------
+
+
+List(Causal, Event) => unlikely early exit by the United States could result in largely empty stadiums and vacant interest
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => largely empty stadiums
+	controlled (CM_NP, CM, Entity) => vacant interest
+	controller (CM_NP, CM, Entity) => unlikely early exit
+	------------------------------
+
+
+List(Causal, Event) => earlier this month _ the carnage was caused by speeding wheels and suspension parts that had become detached from the cars ' chassis during a crash and were then catapulted into the stands
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => earlier this month
+	controlled (CM_NP, CM, Entity) => carnage
+	controller (CM_NP, CM, Entity) => speeding wheels
+	controller (CM_event, CM, Entity) => speeding wheels and suspension parts that had become detached
+	controller (CM_event, CM, Entity) => speeding wheels and suspension parts that had become detached from the cars ' chassis during a crash and were then catapulted into the stands
+	controller (CM_NP, CM, Entity) => suspension parts
+	controller (CM_event, CM, Entity) => speeding wheels and suspension parts that had become detached
+	controller (CM_event, CM, Entity) => speeding wheels and suspension parts that had become detached from the cars ' chassis during a crash and were then catapulted into the stands
+	------------------------------
+
+
+List(Causal, Event) => none caused injury
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => injury
+	controller (CM_NP, CM, Entity) => none
+	------------------------------
+
+
+List(Causal, Event) => science standards are causing much discussion
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => much discussion
+	controller (CM_NP, CM, Entity) => science standards
+	controller (CM_NP, CM, Entity) => science
+	controller (CM_NP, CM, Entity) => science standards
+	------------------------------
+
+
+List(Causal, Event) => part of a process that would still take some time and should eventually lead to a U.N. Security Council resolution on Kosovo
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => part of a process
+	controller (CM_NP, CM, Entity) => process
+	controller (CM_event, CM, Entity) => part of a process that would still take some time
+	controlled (CM_NP, CM, Entity) => U.N. Security Council resolution on Kosovo
+	------------------------------
+
+
+List(Causal, Event) => Wernick said that Volpe , 27 , also gave him a report on the street fight that had led to the arrest of Louima and a second Haitian immigrant
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => report on the street fight
+	controller (CM_NP, CM, Entity) => street fight
+	controller (CM_event, CM, Entity) => Wernick said that Volpe , 27 , also gave him a report on the street fight
+	controller (CM_event, CM, Entity) => Volpe , 27 , also gave him a report on the street fight
+	controlled (CM_NP, CM, Entity) => arrest of Louima and a second Haitian immigrant
+	------------------------------
+
+
+List(Causal, Event) => Zimmerman has actually been too good , causing a concern
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => concern
+	controller (CM_NP, CM, Entity) => Zimmerman
+	------------------------------
+
+
+List(Causal, Event) => support for it that led to a chill in relations
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => support for it
+	controlled (CM_NP, CM, Entity) => chill in relations
+	------------------------------
+
+

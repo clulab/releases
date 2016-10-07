@@ -1,0 +1,33 @@
+theatrical_JJ dance_NN career_NNS	-->	Broadway_NNP
+series_NN compromise_NNS	-->	federal_JJ budget_NN
+effort_NNS	-->	speculation_NN
+be_VBD plenty_NN advance_NN watch_NN warning_NN	-->	possibility_NN significant_JJ savings_NN life_NNS
+condition_NNS	-->	ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER issue_VB high-risk_JJ forecast_NNS
+tornado_NN outbreak_NN LOCATION_NER,last_JJ year_NN	-->	death_NNS
+LOCATION_NER conflict_NN	-->	LOCATION_NER military_NN stretch_VBN thin_RB distract_VBD
+shattered_JJ glass_NN lacerate_NNS,other_JJ object_NNS	-->	wound_NNS similar_JJ gunshot_NN wound_NNS stab_NN wound_NNS
+military_JJ logic_NN most_JJS officer_NNS understand_VBP dictate_VBN strategy_NN	-->	clear_JJ military_JJ end_NN
+exercise_NN	-->	loose_JJ chin_NNS,sag_VBG breast_NNS,flabby_JJ bottom_NNS
+exercise_NN	-->	loose_JJ chin_NNS,sag_VBG breast_NNS,flabby_JJ bottom_NNS
+irritation_NN lung_NNS	-->	chronic_JJ breathing_NN impairment_NN even_RB
+new_JJ law_NN	-->	financial_JJ giant_NNS arise_VB
+intensification_NN ORGANIZATION_NER air_NN war_NN	-->	increase_VBN report_NNS civilian_JJ death_NNS include_VBG
+case_NN prompt_VBD series_NN angry_JJ march_NNS protest_NNS	-->	federal_JJ investigation_NN
+tornado_NN outbreak_NN LOCATION_NER,last_JJ year_NN	-->	death_NNS
+visit_NNS	-->	ORDINAL_NER short_JJ film_NN
+brutal_JJ recession_NN	-->	industrial_JJ base_NN falter_VB
+donated_JJ medical_JJ supplies_NNS desperately_RB need_VBN	-->	own_JJ problem_NNS aid_NN group_NNS
+LOCATION_NER conflict_NN	-->	deplore_VBD loss_NN life_NN
+better_JJR loss_NN ratio_NN property_NN casualty_NN insurance_NN	-->	improved_JJ earnings_NNS
+big_JJ cut_NNS supply_NN oil_NN	-->	one_NN predict_VBG return_NN gas_NN line_NNS
+Overcapacity_NNP	-->	year_NNS shrink_VBG profit_NNS
+collapse_NN price_NN crude_NN oil_NN cut_VBD profit_NNS oil_NN company_NNS independent_JJ refiner_NNS alike_RB	-->	low_JJ capital_NN spending_NN,belt_NN tightening_NN
+uncertainty_NN	-->	spot_NN price_NNS gasoline_NN LOCATION_NER LOCATION_NER run_VB even_RB more_RBR
+left_JJ knee_NN stick_VBD	-->	land_VB awkwardly_RB left_JJ wrist_NN
+tornado_NN outbreak_NN LOCATION_NER,last_JJ year_NN	-->	death_NNS
+one-third_NN LOCATION_NER LOCATION_NER divorce_NN case_NNS	-->	joint-custody_JJ agreement_NNS
+fifth-inning_JJ at-bat_NN	-->	double-play_JJ ground_NN ball_NN
+ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER	-->	campaign_NN
+failure_NN	-->	across-the-board_JJ cut_NNS domestic_JJ defense_NN outlay_NNS
+failure_NN	-->	across-the-board_JJ cut_NNS domestic_JJ defense_NN outlay_NNS
+swing_NN	-->	share_NN double-takes_NNS

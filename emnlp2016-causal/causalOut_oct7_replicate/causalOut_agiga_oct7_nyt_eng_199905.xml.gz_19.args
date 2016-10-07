@@ -1,0 +1,31 @@
+also_RB seek_VBG limit_VB number_NN issue_NNS	-->	destructive_JJ division_NNS
+appearance_NN	-->	exciting_JJ buzz_NN
+ORDINAL_NER time_NN LOCATION_NER high_JJ school_NN shooting_NNS ORGANIZATION_NER begin_VBD debate_NN DATE_NER youth_NN violence_NN legislation_NN	-->	new_JJ gun_NN control_NN provision_NNS,tougher_JJR law_NN enforcement_NN measure_NNS
+trouble_NNS	-->	apprehension_NN rocket_NN user_NNS as_RB well_RB flight_NN delay_NNS
+dearth_NN hire_VBG industry_NN early_JJ DATE_NER	-->	cadre_NN well-educated_JJ new_JJ engineer_NNS 20_NNS early_JJ 30_NNS,seasoned_JJ group_NN age_NN approach_VBG retirement_NN
+help_VB identify_VB market_NNS american_JJ investor_NNS	-->	new_JJ job_NNS,economic_JJ development_NN
+very_RB intricate_JJ system_NN	-->	ease_NN use_NN
+protracted_JJ war_NN	-->	even_RB greater_JJR economic_JJ human_JJ damage_NN
+tell_VBD newspaper_NN staff_NN have_VBD brain_NN tumor_NN	-->	death_NN
+inquiry_NNS	-->	far-reaching_JJ change_NNS
+attire_NN	-->	raucous_NN
+attire_NN	-->	raucous_NN
+attire_NN	-->	raucous_NN
+meeting_NN	-->	surprise_NN,consternation_NN
+attire_NN	-->	raucous_NN
+attire_NN	-->	raucous_NN
+police_NN affidavit_NN	-->	search_NN LOCATION_NER home_NN
+police_NN search_NN PERSON_NER home_NN	-->	seizure_NN pipe_NN,marijuana_JJ cigarette_NN,ecstasy_JJ pill_NN
+overarching_JJ speculation_NN	-->	new_JJ freedom_NN
+ORGANIZATION_NER ORGANIZATION_NER help_VBD finance_VB merger_NNS acquisition_NNS	-->	layoff_NNS worker_NNS
+scandal_NN	-->	prison_NN term_NNS police_NN officer_NNS
+ORDINAL_NER error_NN season_NN	-->	ORGANIZATION_NER run_NN
+unsettled_JJ pitching_NN need_NNS accented_JJ	-->	slow_JJ start_NN
+tailpipe_NNS	-->	PERSON_NER PERSON_NER assistant_NN director_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER LOCATION_NER say_VBD additive_NNS reduce_VBD level_NN more-toxic_JJ chemical_NNS include_VBG benzene_NN
+offense_NN	-->	more_JJR run_NNS
+even_RB way_NN thinking_NN	-->	more_RBR intolerable_JJ thought_NNS
+even_RB way_NN thinking_NN	-->	more_RBR intolerable_JJ thought_NNS
+trail_NN	-->	ORGANIZATION_NER
+trail_NN	-->	ORGANIZATION_NER
+outpouring_NN support_NN	-->	reflect_VB humble_JJ beginning_NNS
+outpouring_NN support_NN	-->	reflect_VB humble_JJ beginning_NNS

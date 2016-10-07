@@ -1,0 +1,335 @@
+List(Causal, Event) => agreement led to some changes in Japanese regulations
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => agreement
+	controlled (CM_NP, CM, Entity) => changes in Japanese regulations
+	------------------------------
+
+
+List(Causal, Event) => prolonged pain has result in a rethinking
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => rethinking
+	controller (CM_NP, CM, Entity) => prolonged pain
+	------------------------------
+
+
+List(Causal, Event) => flood of low-cost foreign steel has already resulted in some job losses in the steel industry
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => job losses in the steel industry
+	controller (CM_NP, CM, Entity) => flood of low-cost foreign steel
+	------------------------------
+
+
+List(Causal, Event) => errors and additional medical claims that result from overly long hours
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => errors
+	controlled (CM_NP, CM, Entity) => additional medical claims
+	controller (CM_NP, CM, Entity) => overly long hours
+	------------------------------
+
+
+List(Causal, Event) => neurological disorder that caused fainting spells
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => fainting spells
+	controller (CM_NP, CM, Entity) => neurological disorder
+	------------------------------
+
+
+List(Causal, Event) => virus that could have caused inflammation of the heart
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => inflammation of the heart
+	controller (CM_NP, CM, Entity) => virus
+	------------------------------
+
+
+List(Causal, Event) => Mudge and his two co-defendants at Brigham and Women 's Hospital made misjudgments that resulted in Lewis 's death
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => misjudgments
+	controller (CM_event, CM, Entity) => Mudge and his two co-defendants at Brigham and Women 's Hospital made misjudgments
+	------------------------------
+
+
+List(Causal, Event) => result of the cuts , they contend , patients have less access to some types of care
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => patients have less access to some types of care
+	controller (CM_NP, CM, Entity) => cuts
+	------------------------------
+
+
+List(Causal, Event) => MCI Worldcom and America Online already have a close relationship as a result of their cooperation
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => close relationship
+	controlled (CM_event, CM, Entity) => MCI Worldcom and America Online already have a close relationship
+	controller (CM_NP, CM, Entity) => cooperation
+	------------------------------
+
+
+List(Causal, Event) => Fear leads to anger
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Fear
+	controlled (CM_NP, CM, Entity) => anger
+	------------------------------
+
+
+List(Causal, Event) => conversation , he said , could lead to further talks
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => conversation
+	controlled (CM_NP, CM, Entity) => further talks
+	------------------------------
+
+
+List(Causal, Event) => attack on the Belgrade power grid caused a massive blackout
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => massive blackout
+	controller (CM_NP, CM, Entity) => attack on the Belgrade power grid
+	------------------------------
+
+
+List(Causal, Event) => soul-stirring mountains that lead to Montenegro
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => soul-stirring mountains
+	controlled (CM_NP, CM, Entity) => Montenegro
+	------------------------------
+
+
+List(Causal, Event) => Entertainment executives find themselves in an uncomfortable position as a result of President Clinton 's call
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Entertainment executives find themselves
+	controller (CM_NP, CM, Entity) => call
+	------------------------------
+
+
+List(Causal, Event) => Punitive damages are designed to punish reckless behavior and , by their severity , to deter future calamities that can cause widespread harm
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => widespread harm
+	controller (CM_NP, CM, Entity) => future calamities
+	controller (CM_event, CM, Entity) => Punitive damages are designed to punish reckless behavior and , by their severity , to deter future calamities
+	controller (CM_event, CM, Entity) => deter future calamities
+	------------------------------
+
+
+List(Causal, Event) => drinking was a direct cause of the accident
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => accident
+	controller (CM_NP, CM, Entity) => drinking
+	------------------------------
+
+
+List(Causal, Event) => phrase that just might lead to something better
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => phrase
+	controlled (CM_NP, CM, Entity) => something better
+	------------------------------
+
+
+List(Causal, Event) => witnesses to the entire sequence of events that led to the Feb. 4 shooting of Diallo
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => witnesses to the entire sequence of events
+	controller (CM_NP, CM, Entity) => entire sequence of events
+	controller (CM_NP, CM, Entity) => events
+	controlled (CM_NP, CM, Entity) => Feb. 4 shooting of Diallo
+	------------------------------
+
+
+List(Causal, Event) => Beaudry said there should not be any layoffs as a result of the acquisition
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => layoffs
+	controlled (CM_event, CM, Entity) => Beaudry said there should not be any layoffs
+	controller (CM_NP, CM, Entity) => acquisition
+	------------------------------
+
+
+List(Causal, Event) => loosen the stringent Rockefeller-era drug laws , which have caused New York 's prison population to swell over the last two decades with drug offenders
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => prison population
+	controlled (CM_NP, CM, Entity) => population to swell over the last two decades with drug offenders
+	controlled (CM_event, CM, Entity) => swell over the last two decades with drug offenders
+	controlled (CM_NP, CM, Entity) => population to swell over the last two decades with drug offenders
+	controller (CM_NP, CM, Entity) => stringent Rockefeller-era drug laws
+	controller (CM_event, CM, Entity) => loosen the stringent Rockefeller-era drug laws
+	controller (CM_NP, CM, Entity) => drug
+	controller (CM_NP, CM, Entity) => stringent Rockefeller-era drug laws
+	controller (CM_event, CM, Entity) => loosen the stringent Rockefeller-era drug laws
+	------------------------------
+
+
+List(Causal, Event) => death , induced by cocaine , resulted in myriad investigations into the basketball program
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => myriad investigations into the basketball program
+	controller (CM_NP, CM, Entity) => death
+	------------------------------
+
+
+List(Causal, Event) => phrase that just might lead to something better
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => phrase
+	controlled (CM_NP, CM, Entity) => something better
+	------------------------------
+
+
+List(Causal, Event) => presence in New York caused great controversy
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => great controversy
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => New York
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => New
+	controller (CM_NP, CM, Entity) => New York
+	------------------------------
+
+
+List(Causal, Event) => court singled out Andy Petefish and stated in its decision that he `` did not substantiate his claim of economic injury as a result of the voluntary closure
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => court singled out Andy Petefish and stated in its decision that he `` did not substantiate his claim of economic injury
+	controlled (CM_event, CM, Entity) => he `` did not substantiate his claim of economic injury
+	controller (CM_NP, CM, Entity) => voluntary closure
+	------------------------------
+
+
+List(Causal, Event) => they amassed the arsenal that led to the tragic standoff
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => arsenal
+	controller (CM_event, CM, Entity) => they amassed the arsenal
+	controlled (CM_NP, CM, Entity) => tragic standoff
+	------------------------------
+
+
+List(Causal, Event) => presence in New York caused great controversy
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => great controversy
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => New York
+	controller (CM_NP, CM, Entity) => presence in New York
+	controller (CM_NP, CM, Entity) => New
+	controller (CM_NP, CM, Entity) => New York
+	------------------------------
+
+
+List(Causal, Event) => Weeds , such as ragweed -LRB- Ambrosia -RRB- , cause lots
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => lots
+	controller (CM_NP, CM, Entity) => Weeds
+	------------------------------
+
+
+List(Causal, Event) => Weeds , such as ragweed -LRB- Ambrosia -RRB- , cause lots
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => lots
+	controller (CM_NP, CM, Entity) => Weeds
+	------------------------------
+
+

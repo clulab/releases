@@ -1,0 +1,265 @@
+List(Causal, Event) => millimeter of variation at floor level can result in a load
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => load
+	controller (CM_NP, CM, Entity) => millimeter of variation
+	------------------------------
+
+
+List(Causal, Event) => Olson on the mound and the Diamondbacks in the lead April 11 in Atlanta , Bell dropped a leadoff soft liner in the ninth inning that led to a Braves ' victory and Olson 's third
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => leadoff soft liner in the ninth inning
+	controller (CM_event, CM, Entity) => Olson on the mound and the Diamondbacks in the lead April 11 in Atlanta , Bell dropped a leadoff soft liner in the ninth inning
+	controlled (CM_NP, CM, Entity) => victory
+	controlled (CM_NP, CM, Entity) => Olson 's third
+	------------------------------
+
+
+List(Causal, Event) => arrangement eventually will lead to a Winston Cup team
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => arrangement
+	controlled (CM_NP, CM, Entity) => Winston Cup team
+	------------------------------
+
+
+List(Causal, Event) => kind of production that led to back-to-back victories over Toronto and a 3-1 win Friday night in the series opener
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => kind of production
+	controlled (CM_NP, CM, Entity) => back-to-back victories
+	controlled (CM_NP, CM, Entity) => 3-1 win Friday night in the series opener
+	------------------------------
+
+
+List(Causal, Event) => Phoenix turnovers that led to 14 points for the Grizzlies and the halftime lead
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Phoenix turnovers
+	controlled (CM_NP, CM, Entity) => points for the Grizzlies
+	controlled (CM_NP, CM, Entity) => halftime lead
+	------------------------------
+
+
+List(Causal, Event) => evident lack of remorse for several collisions that have resulted in injuries to opposing players
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => injuries to opposing players
+	controller (CM_NP, CM, Entity) => evident lack of remorse for several collisions
+	controller (CM_NP, CM, Entity) => several collisions
+	------------------------------
+
+
+List(Causal, Event) => big earthquake often leads to stronger building codes
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => big earthquake
+	controlled (CM_NP, CM, Entity) => stronger building codes
+	------------------------------
+
+
+List(Causal, Event) => put the papers into the proper historical context , which in turn could lead to greater financial rewards for Cusack
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => proper historical context
+	controller (CM_event, CM, Entity) => put the papers into the proper historical context
+	controlled (CM_NP, CM, Entity) => greater financial rewards for Cusack
+	------------------------------
+
+
+List(Causal, Event) => westward migration of the Atlantic moisture will cause clouds and light sprinkles to reach as far west
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => clouds and light sprinkles to reach as far west
+	controller (CM_NP, CM, Entity) => westward migration of the Atlantic moisture
+	controller (CM_NP, CM, Entity) => westward migration of the Atlantic moisture
+	controller (CM_NP, CM, Entity) => Atlantic moisture
+	controller (CM_NP, CM, Entity) => westward migration of the Atlantic moisture
+	controller (CM_NP, CM, Entity) => Atlantic
+	controller (CM_NP, CM, Entity) => Atlantic moisture
+	------------------------------
+
+
+List(Causal, Event) => Gateway asserts that `` none of the tens of thousands of people who have made purchases through Gateway 's Web site using SSL '' _ secure sockets layer technology _ `` have reported fraudulent use of their credit card as a result of their online order
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Gateway asserts that `` none of the tens of thousands of people who have made purchases through Gateway 's Web site using SSL '' _ secure sockets layer technology _ `` have reported fraudulent use of their credit card
+	controlled (CM_event, CM, Entity) => none of the tens of thousands of people who have made purchases through Gateway 's Web site using SSL '' _ secure sockets layer technology _ `` have reported fraudulent use of their credit card
+	controller (CM_NP, CM, Entity) => online order
+	------------------------------
+
+
+List(Causal, Event) => other artists who caused headline-making conflicts
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => headline-making conflicts
+	controller (CM_NP, CM, Entity) => other artists
+	------------------------------
+
+
+List(Causal, Event) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead to stricter building codes
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => earthquakes
+	controller (CM_event, CM, Entity) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead
+	controlled (CM_NP, CM, Entity) => stricter building codes
+	------------------------------
+
+
+List(Causal, Event) => computer problems lead to widespread lawsuits
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => computer problems
+	controlled (CM_NP, CM, Entity) => widespread lawsuits
+	------------------------------
+
+
+List(Causal, Event) => UN high commissioner for human rights , Mary Robinson , said the Yugoslav government estimated that 500 civilians have died as a result of the NATO bombings
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => UN high commissioner for human rights , Mary Robinson , said the Yugoslav government estimated that 500 civilians have died
+	controlled (CM_event, CM, Entity) => Yugoslav government estimated that 500 civilians have died
+	controlled (CM_event, CM, Entity) => civilians have died
+	controller (CM_NP, CM, Entity) => NATO bombings
+	------------------------------
+
+
+List(Causal, Event) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead to stricter building codes
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => earthquakes
+	controller (CM_event, CM, Entity) => experts say the year 2000 problem could lead to changes in the way programs are written , just as earthquakes can lead
+	controlled (CM_NP, CM, Entity) => stricter building codes
+	------------------------------
+
+
+List(Causal, Event) => computer problems lead to widespread lawsuits
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => computer problems
+	controlled (CM_NP, CM, Entity) => widespread lawsuits
+	------------------------------
+
+
+List(Causal, Event) => attempt to move the team would result in a lawsuit that Kraft would win easily
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => lawsuit
+	controlled (CM_event, CM, Entity) => lawsuit that Kraft would win easily
+	controller (CM_NP, CM, Entity) => attempt
+	------------------------------
+
+
+List(Causal, Event) => insistence on purses that exceed his fights ' value has caused him to miss several opportunities to cement his greatness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to miss several opportunities to cement his greatness
+	controller (CM_NP, CM, Entity) => insistence on purses
+	controller (CM_event, CM, Entity) => insistence on purses that exceed his fights ' value
+	------------------------------
+
+
+List(Causal, Event) => disallow icing the puck during penalty-killing situations , a rule change that would result in an immediate whistle and a faceoff in the defensive end
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => immediate whistle
+	controlled (CM_NP, CM, Entity) => faceoff in the defensive end
+	controller (CM_NP, CM, Entity) => rule change
+	controller (CM_event, CM, Entity) => disallow icing the puck during penalty-killing situations , a rule change
+	------------------------------
+
+
+List(Causal, Event) => surprisingly strong showing caused some anxiety during the night for establishment Republican leaders who feared that a Duke victory , or even a place in the runoff , would deeply embarrass a party
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => anxiety
+	controlled (CM_NP, CM, Entity) => anxiety during the night for establishment Republican leaders
+	controlled (CM_NP, CM, Entity) => anxiety during the night for establishment Republican leaders who feared that a Duke victory , or even a place in the runoff , would deeply embarrass a party
+	controller (CM_NP, CM, Entity) => surprisingly strong showing
+	------------------------------
+
+
+List(Causal, Event) => foreign phone fees are coming down , partly as a result of global trade agreements
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => foreign phone fees are coming down , partly
+	controller (CM_NP, CM, Entity) => global trade agreements
+	------------------------------
+
+
+List(Causal, Event) => breakdown of peace negotiations would probably lead to new and more intense violence in the protracted internal conflict that has killed more than 35,000 Colombians
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => breakdown of peace negotiations
+	controlled (CM_NP, CM, Entity) => new and more intense violence in the protracted internal conflict
+	controlled (CM_event, CM, Entity) => new and more intense violence in the protracted internal conflict that has killed more than 35,000 Colombians
+	------------------------------
+
+

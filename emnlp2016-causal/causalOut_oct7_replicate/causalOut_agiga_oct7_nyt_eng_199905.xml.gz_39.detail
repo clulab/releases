@@ -1,0 +1,350 @@
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => fiscal crisis , which led to a 40 percent devaluation of its currency
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => fiscal crisis
+	controlled (CM_NP, CM, Entity) => percent devaluation of its currency
+	------------------------------
+
+
+List(Causal, Event) => dismissal of Prime Minister Yevgeny Primakov in Russia caused barely a ripple
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => barely a ripple
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Minister
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Yevgeny
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	------------------------------
+
+
+List(Causal, Event) => fiscal crisis , which led to a 40 percent devaluation of its currency
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => fiscal crisis
+	controlled (CM_NP, CM, Entity) => percent devaluation of its currency
+	------------------------------
+
+
+List(Causal, Event) => dismissal of Prime Minister Yevgeny Primakov in Russia caused barely a ripple
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => barely a ripple
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Minister
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Yevgeny
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from American nuclear weapons laboratories led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from American nuclear weapons laboratories led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => Melting leads to snow slides
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Melting
+	controlled (CM_NP, CM, Entity) => snow slides
+	------------------------------
+
+
+List(Causal, Event) => Cox committee was created in late May 1998 by Newt Gingrich , then
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => Cox committee
+	controller (CM_NP, CM, Entity) => Newt Gingrich , then
+	------------------------------
+
+
+List(Causal, Event) => high strike , that is still causing some trouble for some umpires
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => trouble for some umpires
+	controller (CM_NP, CM, Entity) => high strike
+	------------------------------
+
+
+List(Causal, Event) => effort caused mechanical problems
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => mechanical problems
+	controller (CM_NP, CM, Entity) => effort
+	------------------------------
+
+
+List(Causal, Event) => Melting leads to snow slides
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Melting
+	controlled (CM_NP, CM, Entity) => snow slides
+	------------------------------
+
+
+List(Causal, Event) => conflict is the cause of the Littleton tragedy
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => Littleton tragedy
+	controller (CM_NP, CM, Entity) => conflict
+	------------------------------
+
+
+List(Causal, Event) => Half of that work was the result of a major league-leading 15 complete games
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => Half of that work
+	controller (CM_NP, CM, Entity) => major league-leading 15 complete games
+	------------------------------
+
+
+List(Causal, Event) => panel was created by Gingrich , then
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => panel
+	controller (CM_NP, CM, Entity) => Gingrich , then
+	------------------------------
+
+
+List(Causal, Event) => playing favorites has caused Giuliani to lose cases
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Giuliani to lose cases
+	controller (CM_NP, CM, Entity) => playing favorites
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => appearance Saturday after the Georgia school shootings had caused an internal party dispute
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => appearance
+	controlled (CM_NP, CM, Entity) => internal party dispute
+	controller (CM_NP, CM, Entity) => Saturday
+	------------------------------
+
+
+List(Causal, Event) => brief appearance _ the result of a 4-month old invitation by party leaders _ had caused some division
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => division
+	controller (CM_NP, CM, Entity) => brief appearance
+	------------------------------
+
+
+List(Causal, Event) => mere appearance that the three have an ongoing poor relationship caused Miller to try to clear the record
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Miller to try to clear the record
+	controller (CM_NP, CM, Entity) => mere appearance
+	------------------------------
+
+
+List(Causal, Event) => result of the surgery , Laird is looking forward
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Laird is looking forward
+	controller (CM_NP, CM, Entity) => surgery
+	------------------------------
+
+
+List(Causal, Event) => word transplant might cause fear in some people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => fear in some people
+	controller (CM_NP, CM, Entity) => word transplant
+	controller (CM_NP, CM, Entity) => word
+	controller (CM_NP, CM, Entity) => word transplant
+	------------------------------
+
+
+List(Causal, Event) => result of the surgery , Laird is looking forward
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Laird is looking forward
+	controller (CM_NP, CM, Entity) => surgery
+	------------------------------
+
+
+List(Causal, Event) => word transplant might cause fear in some people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => fear in some people
+	controller (CM_NP, CM, Entity) => word transplant
+	controller (CM_NP, CM, Entity) => word
+	controller (CM_NP, CM, Entity) => word transplant
+	------------------------------
+
+
+List(Causal, Event) => law was created by former Assemblywoman Paula Boland
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => law
+	controller (CM_NP, CM, Entity) => former Assemblywoman Paula Boland
+	------------------------------
+
+

@@ -1,0 +1,407 @@
+List(Causal, Event) => embassy had been hit by bombs that caused damage and casualties
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => damage
+	controlled (CM_NP, CM, Entity) => casualties
+	controller (CM_NP, CM, Entity) => bombs
+	controller (CM_event, CM, Entity) => embassy had been hit by bombs
+	------------------------------
+
+
+List(Causal, Event) => horrendous start led to a demotion , elbow surgery and ultimately
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => horrendous start
+	controlled (CM_NP, CM, Entity) => demotion , elbow surgery and ultimately
+	controlled (CM_NP, CM, Entity) => demotion , elbow surgery and ultimately
+	controlled (CM_NP, CM, Entity) => elbow surgery
+	controlled (CM_NP, CM, Entity) => demotion , elbow surgery and ultimately
+	------------------------------
+
+
+List(Causal, Event) => hate that leads to bad things happening like the Holocaust or the ethnic cleansing _ I hate those words _ in Kosovo
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => hate
+	controlled (CM_NP, CM, Entity) => bad things
+	controlled (CM_NP, CM, Entity) => ethnic cleansing _ I hate those words _ in Kosovo
+	------------------------------
+
+
+List(Causal, Event) => several incidents resulted in dozens of deaths _ from the bombing of a train crossing the Juzna Morava River in mid-April to the destruction of a neighborhood
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => dozens of deaths
+	controlled (CM_NP, CM, Entity) => mid-April to the destruction of a neighborhood
+	controller (CM_NP, CM, Entity) => several incidents
+	------------------------------
+
+
+List(Causal, Event) => Lawyers for Paula Jones told a federal judge in Arkansas Friday that President Clinton owed them more than $ 496,000 as a result of extra work
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Lawyers for Paula Jones told a federal judge in Arkansas Friday that President Clinton owed them more than $
+	controlled (CM_event, CM, Entity) => President Clinton owed them more than $
+	controller (CM_NP, CM, Entity) => extra work
+	------------------------------
+
+
+List(Causal, Event) => ruling that led to the filing
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => ruling
+	controlled (CM_NP, CM, Entity) => filing
+	------------------------------
+
+
+List(Causal, Event) => last season that led to his suspension for Game
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => last season
+	controlled (CM_NP, CM, Entity) => suspension for Game
+	------------------------------
+
+
+List(Causal, Event) => greatest defensive football player of the century , the troubled Lawrence Taylor , caused havoc
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => havoc
+	controller (CM_NP, CM, Entity) => greatest defensive football player of the century
+	controller (CM_NP, CM, Entity) => football
+	controller (CM_NP, CM, Entity) => greatest defensive football player of the century
+	controller (CM_NP, CM, Entity) => greatest defensive football player of the century
+	controller (CM_NP, CM, Entity) => century
+	controller (CM_NP, CM, Entity) => troubled Lawrence Taylor
+	controller (CM_NP, CM, Entity) => Lawrence
+	controller (CM_NP, CM, Entity) => troubled Lawrence Taylor
+	------------------------------
+
+
+List(Causal, Event) => genocidal killer who has caused the murders of many tens of thousands
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => murders of many tens of thousands
+	controller (CM_NP, CM, Entity) => genocidal killer
+	------------------------------
+
+
+List(Causal, Event) => genocidal killer who has caused the murders of many tens of thousands
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => murders of many tens of thousands
+	controller (CM_NP, CM, Entity) => genocidal killer
+	------------------------------
+
+
+List(Causal, Event) => it takes into account a half-century of interest , inflation and currency devaluations , and thus could lead to payments
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_event, CM, Entity) => it takes into account a half-century of interest , inflation and currency devaluations , and thus
+	controlled (CM_NP, CM, Entity) => payments
+	------------------------------
+
+
+List(Causal, Event) => it takes into account a half-century of interest , inflation and currency devaluations , and thus could lead to payments
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_event, CM, Entity) => it takes into account a half-century of interest , inflation and currency devaluations , and thus
+	controlled (CM_NP, CM, Entity) => payments
+	------------------------------
+
+
+List(Causal, Event) => stagnation was initially caused by a financial meltdown
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stagnation
+	controller (CM_NP, CM, Entity) => financial meltdown
+	------------------------------
+
+
+List(Causal, Event) => stagnation was initially caused by a financial meltdown
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stagnation
+	controller (CM_NP, CM, Entity) => financial meltdown
+	------------------------------
+
+
+List(Causal, Event) => Homicide is the second-leading cause of death
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => Homicide
+	------------------------------
+
+
+List(Causal, Event) => Homicide is the second-leading cause of death
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => Homicide
+	------------------------------
+
+
+List(Causal, Event) => result of an intelligence failure , the CIA had overlooked indications that civilians were also using
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => CIA had overlooked indications that civilians were also using
+	controller (CM_NP, CM, Entity) => intelligence failure
+	------------------------------
+
+
+List(Causal, Event) => offer led to a contentious debate
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => offer
+	controlled (CM_NP, CM, Entity) => contentious debate
+	------------------------------
+
+
+List(Causal, Event) => United States sent a strategic challenge to the world community which can result in a global apocalypse
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => global apocalypse
+	controller (CM_NP, CM, Entity) => world community
+	controller (CM_event, CM, Entity) => United States sent a strategic challenge to the world community
+	------------------------------
+
+
+List(Causal, Event) => man seemed hurried by , of all things , backed-up traffic that had been caused by the drama on the span
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => backed-up traffic
+	controlled (CM_event, CM, Entity) => man seemed hurried by , of all things , backed-up traffic
+	controller (CM_NP, CM, Entity) => drama on the span
+	------------------------------
+
+
+List(Causal, Event) => relationship with Paul Westphal , who replaced George Karl as coach after last season , could lead to Payton 's departure
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => relationship with Paul Westphal
+	controller (CM_event, CM, Entity) => relationship with Paul Westphal , who replaced George Karl
+	controlled (CM_NP, CM, Entity) => departure
+	------------------------------
+
+
+List(Causal, Event) => fact that may ultimately lead to the team
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => fact
+	controlled (CM_NP, CM, Entity) => team
+	------------------------------
+
+
+List(Causal, Event) => contentious labor negotiations that led to the shortened season
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => contentious labor negotiations
+	controlled (CM_NP, CM, Entity) => shortened season
+	------------------------------
+
+
+List(Causal, Event) => Louis Sullivan , former Secretary of Health and Human Services in the Bush administration , compared the massacre to an airplane crash that leads to reforms in air safety
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => airplane crash
+	controller (CM_event, CM, Entity) => Louis Sullivan , former Secretary of Health and Human Services in the Bush administration , compared the massacre to an airplane crash
+	controlled (CM_NP, CM, Entity) => reforms in air safety
+	------------------------------
+
+
+List(Causal, Event) => Louis Sullivan , former Secretary of Health and Human Services in the Bush administration , compared the massacre to an airplane crash that leads to reforms in air safety
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => airplane crash
+	controller (CM_event, CM, Entity) => Louis Sullivan , former Secretary of Health and Human Services in the Bush administration , compared the massacre to an airplane crash
+	controlled (CM_NP, CM, Entity) => reforms in air safety
+	------------------------------
+
+
+List(Causal, Event) => game that would have caused the certain demotion of his boyhood club
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => certain demotion of his boyhood club
+	controller (CM_NP, CM, Entity) => game
+	------------------------------
+
+
+List(Causal, Event) => Similarities between conservatives ' efforts across the country have caused groups such as the liberal People for the American Way and the Mainstream Coalition in Johnson County , Kan. , to suggest that there is a concerted effort
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => groups such as the liberal People for the American Way and the Mainstream Coalition in Johnson County , Kan. , to suggest that there is a concerted effort
+	controller (CM_NP, CM, Entity) => Similarities
+	------------------------------
+
+
+List(Causal, Event) => Peaceful open-air courtyards lead to private rooms
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Peaceful open-air courtyards
+	controlled (CM_NP, CM, Entity) => private rooms
+	------------------------------
+
+
+List(Causal, Event) => move that not only created a Chinese revolution in her own family but also resulted in breathtaking opportunities for her progeny
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => breathtaking opportunities for her progeny
+	controller (CM_NP, CM, Entity) => move
+	------------------------------
+
+
+List(Causal, Event) => appetite for self-mortification would prove one of the saint 's most enduring traits , and would lead to her death , at 33 , of starvation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => appetite for self-mortification
+	controller (CM_event, CM, Entity) => appetite for self-mortification would prove one
+	controlled (CM_NP, CM, Entity) => death , at 33 , of starvation
+	------------------------------
+
+
+List(Causal, Event) => ability to detect the sex of a fetus can result in higher abortion rates for female infants
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => higher abortion rates for female infants
+	controller (CM_NP, CM, Entity) => ability
+	------------------------------
+
+
+List(Causal, Event) => contrasting expectations about the meaning of closeness still cause confusion and disappointment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => confusion
+	controlled (CM_NP, CM, Entity) => disappointment
+	controller (CM_NP, CM, Entity) => contrasting expectations
+	------------------------------
+
+
+List(Causal, Event) => holes in the top of the red ski hat Diallo wore that night were created by bullets
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => holes in the top of the red ski hat
+	controller (CM_NP, CM, Entity) => bullets
+	------------------------------
+
+
+List(Causal, Event) => savings result because the value of property in a Qualified Personal Residence Trust is discounted , for tax purposes , to an amount significantly lower
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => savings
+	controller (CM_event, CM, Entity) => value of property in a Qualified Personal Residence Trust is discounted , for tax purposes , to an amount significantly lower
+	------------------------------
+
+
+List(Causal, Event) => guarantee may be a cause of concern for the board if the original shareholder has divested himself of all assets by transferring them to a revocable living trust
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => transferring them to a revocable living trust
+	controller (CM_NP, CM, Entity) => guarantee
+	------------------------------
+
+

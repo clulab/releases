@@ -1,0 +1,12 @@
+constitutional_JJ provision_NN	-->	trouble_NN
+price_NN war_NNS	-->	National_NNP executive_NNS say_VBD pc_NN processor_NN business_NN be_VBD unprofitable_JJ
+write-off_NN ORGANIZATION_NER business_NN,sale_NN plant_NN	-->	further_JJ charge_NNS
+merger_NN label_NNS parent_NN company_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER	-->	ORDINAL_NER label_NN Imago_NNP fold_VBD ORDINAL_NER record_NN come_VBD just_RB PERSON_NER PERSON_NER complete_VBD ORDINAL_NER album_NN ORDINAL_NER label_NN PERSON_NER company_NN consolidate_VBN ORGANIZATION_NER
+suggestion_NN use_NN ground_NN troops_NNS	-->	fall_NN government_NN
+lengthy_JJ investigation_NN PERSON_NER affair_NN PERSON_NER PERSON_NER	-->	subsequent_JJ acquittal_NN,impeachment_NN
+looting_NN gas_NN leak_NNS	-->	fire_NNS,explosion_NNS
+investigation_NN evidence_NN	-->	scientist_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER LOCATION_NER fire_VBN
+conciliatory_JJ call_NN AT&T_NNP executive_NN PERSON_NER	-->	settlement_NN
+investigation_NN evidence_NN	-->	scientist_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER LOCATION_NER fire_VBN
+more_RBR conservative_JJ estimate_NN financing_NN	-->	overall_JJ number_NN new_JJ classroom_NN seat_NNS reduce_VBN
+fight_NN establish_VB undisputed_JJ heavyweight_JJ champion_NN,hope_VBN fight_NN	-->	rebirth_NN big-time_JJ boxing_NN state_NN

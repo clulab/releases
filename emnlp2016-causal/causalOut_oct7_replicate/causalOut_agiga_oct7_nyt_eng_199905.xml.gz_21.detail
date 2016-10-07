@@ -1,0 +1,208 @@
+List(Causal, Event) => door leads to a tiny closet
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => door
+	controlled (CM_NP, CM, Entity) => tiny closet
+	------------------------------
+
+
+List(Causal, Event) => door leads to a tiny closet
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => door
+	controlled (CM_NP, CM, Entity) => tiny closet
+	------------------------------
+
+
+List(Causal, Event) => mammoth success of those shows led to a series of international tours and a recording deal with PolyGram
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => mammoth success of those shows
+	controlled (CM_NP, CM, Entity) => series of international tours
+	controlled (CM_NP, CM, Entity) => recording deal with PolyGram
+	------------------------------
+
+
+List(Causal, Event) => site was created by a Pennsylvania author
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => site
+	controller (CM_NP, CM, Entity) => Pennsylvania author
+	------------------------------
+
+
+List(Causal, Event) => site was created by Yasui Sadao
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => site
+	controller (CM_NP, CM, Entity) => Yasui Sadao
+	------------------------------
+
+
+List(Causal, Event) => lack of `` improvement '' that 's causing the problem
+	------------------------------
+	Rule => causal_6
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => lack of `` improvement
+	controller (CM_NP, CM, Entity) => problem
+	------------------------------
+
+
+List(Causal, Event) => extra heat that would normally have caused the computer to malfunction
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => computer to malfunction
+	controller (CM_NP, CM, Entity) => extra heat
+	------------------------------
+
+
+List(Causal, Event) => height of the English Civil War , which had caused Walton , as an Anglican persecuted by the Puritans , to depart London , probably for his birthplace
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Walton , as an Anglican persecuted by the Puritans , to depart London , probably for his birthplace
+	controller (CM_NP, CM, Entity) => height of the English Civil War
+	controller (CM_NP, CM, Entity) => English Civil War
+	controller (CM_NP, CM, Entity) => height of the English Civil War
+	controller (CM_NP, CM, Entity) => English
+	controller (CM_NP, CM, Entity) => English Civil War
+	controller (CM_NP, CM, Entity) => height of the English Civil War
+	controller (CM_NP, CM, Entity) => Civil
+	controller (CM_NP, CM, Entity) => English Civil War
+	------------------------------
+
+
+List(Causal, Event) => mother explained their situation , which she blamed on poor economic conditions as a result of the U.N. sanctions
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => mother explained their situation , which she blamed on poor economic conditions
+	controlled (CM_event, CM, Entity) => which she blamed on poor economic conditions
+	controller (CM_NP, CM, Entity) => U.N. sanctions
+	------------------------------
+
+
+List(Causal, Event) => issue could result in an effort
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => effort
+	controller (CM_NP, CM, Entity) => issue
+	------------------------------
+
+
+List(Causal, Event) => deputy speaker , Sergei Baburin , a frequent critic of Yeltsin , caused a stir
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stir
+	controller (CM_NP, CM, Entity) => deputy speaker
+	controller (CM_NP, CM, Entity) => deputy
+	controller (CM_NP, CM, Entity) => deputy speaker
+	controller (CM_NP, CM, Entity) => Sergei Baburin
+	controller (CM_NP, CM, Entity) => frequent critic of Yeltsin
+	controller (CM_NP, CM, Entity) => Sergei
+	controller (CM_NP, CM, Entity) => Sergei Baburin
+	controller (CM_NP, CM, Entity) => frequent critic of Yeltsin
+	controller (CM_NP, CM, Entity) => Yeltsin
+	------------------------------
+
+
+List(Causal, Event) => incident that sparked international outrage and led to furious debate
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => incident
+	controller (CM_event, CM, Entity) => incident that sparked international outrage
+	controlled (CM_NP, CM, Entity) => furious debate
+	------------------------------
+
+
+List(Causal, Event) => proposal , unlike the $ 1-per-month proposal , could result in more increases down the road because it also would recategorize inside wiring
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => proposal
+	controller (CM_event, CM, Entity) => it also would recategorize inside wiring
+	------------------------------
+
+
+List(Causal, Event) => policies , many in Asia argued , led to high unemployment and a more severe recession
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => policies
+	controlled (CM_NP, CM, Entity) => high unemployment
+	controlled (CM_NP, CM, Entity) => more severe recession
+	------------------------------
+
+
+List(Causal, Event) => problems have led to similar cutbacks
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => problems
+	controlled (CM_NP, CM, Entity) => similar cutbacks
+	------------------------------
+
+
+List(Causal, Event) => incident that sparked international outrage and led to furious debate
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => incident
+	controller (CM_event, CM, Entity) => incident that sparked international outrage
+	controlled (CM_NP, CM, Entity) => furious debate
+	------------------------------
+
+
+List(Causal, Event) => are two more ` Star Wars ' movies to do , another in Sweden and a show in London that could lead to other things
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => show in London
+	controller (CM_event, CM, Entity) => are two more ` Star Wars ' movies to do , another in Sweden and a show in London
+	controlled (CM_NP, CM, Entity) => other things
+	------------------------------
+
+

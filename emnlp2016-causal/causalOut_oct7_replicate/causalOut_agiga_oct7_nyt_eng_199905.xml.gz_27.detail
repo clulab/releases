@@ -1,0 +1,208 @@
+List(Causal, Event) => taxes as a result of the unified credit
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => taxes
+	controller (CM_NP, CM, Entity) => unified credit
+	------------------------------
+
+
+List(Causal, Event) => arrangement of shared space resulted from years of hard-fought negotiations
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => arrangement of shared space
+	controller (CM_NP, CM, Entity) => years of hard-fought negotiations
+	------------------------------
+
+
+List(Causal, Event) => Revelations about Ms. Kavakci 's citizenship led to speculation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Revelations
+	controlled (CM_NP, CM, Entity) => speculation
+	------------------------------
+
+
+List(Causal, Event) => Bush style has caused Sen. Rodney Ellis -LRB- D-Houston -RRB- to lose sleep
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Sen. Rodney Ellis -LRB- D-Houston -RRB- to lose sleep
+	controller (CM_NP, CM, Entity) => Bush style
+	controller (CM_NP, CM, Entity) => Bush
+	controller (CM_NP, CM, Entity) => Bush style
+	------------------------------
+
+
+List(Causal, Event) => raid apparently caused the most civilian deaths , as many as 87 , of any attack in NATO 's 54-day air campaign
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => most civilian deaths , as many as 87 , of any attack in NATO 's 54-day air campaign
+	controller (CM_NP, CM, Entity) => raid
+	------------------------------
+
+
+List(Causal, Event) => Decades of political strife caused many of its people to scatter to places
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => many of its people to scatter to places
+	controller (CM_NP, CM, Entity) => Decades of political strife
+	controller (CM_NP, CM, Entity) => Decades of political strife
+	controller (CM_NP, CM, Entity) => political strife
+	------------------------------
+
+
+List(Causal, Event) => paperless books will result in cost savings
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => cost savings
+	controller (CM_NP, CM, Entity) => paperless books
+	------------------------------
+
+
+List(Causal, Event) => weight caused more water to enter , swamping the boat
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => more water
+	controlled (CM_NP, CM, Entity) => water to enter , swamping the boat
+	controlled (CM_event, CM, Entity) => swamping the boat
+	controlled (CM_NP, CM, Entity) => water to enter , swamping the boat
+	controller (CM_NP, CM, Entity) => weight
+	------------------------------
+
+
+List(Causal, Event) => Water Patrol officials say some boaters have surprisingly little regard for the damage their vehicles can cause
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => surprisingly little regard for the damage
+	controlled (CM_NP, CM, Entity) => damage
+	controlled (CM_event, CM, Entity) => Water Patrol officials say some boaters have surprisingly little regard for the damage
+	controlled (CM_event, CM, Entity) => boaters have surprisingly little regard for the damage
+	controller (CM_NP, CM, Entity) => vehicles
+	------------------------------
+
+
+List(Causal, Event) => Alzheimer 's is a progressively degenerative disease that destroys the brain cells and causes memory loss , impaired judgment and the loss of language abilities
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => memory loss
+	controlled (CM_NP, CM, Entity) => impaired judgment
+	controlled (CM_NP, CM, Entity) => loss of language abilities
+	controller (CM_NP, CM, Entity) => progressively degenerative disease
+	controller (CM_event, CM, Entity) => Alzheimer 's is a progressively degenerative disease that destroys the brain cells
+	------------------------------
+
+
+List(Causal, Event) => Rice , who averaged 18.7 points in the first three games , had a sore elbow that caused him to miss the game
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to miss the game
+	controller (CM_NP, CM, Entity) => sore elbow
+	controller (CM_event, CM, Entity) => Rice , who averaged 18.7 points in the first three games , had a sore elbow
+	------------------------------
+
+
+List(Causal, Event) => Jim Lemon ladder shot confused Ted Williams and Jimmy Piersall and led to an inside-the-park-home run
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Jim Lemon ladder shot
+	controller (CM_event, CM, Entity) => Jim Lemon ladder shot confused Ted Williams and Jimmy Piersall
+	controlled (CM_NP, CM, Entity) => inside-the-park-home run
+	------------------------------
+
+
+List(Causal, Event) => being half-paralyzed either from birth or as the result of a stroke
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => being half-paralyzed
+	controller (CM_NP, CM, Entity) => stroke
+	------------------------------
+
+
+List(Causal, Event) => being half-paralyzed either from birth or as the result of a stroke
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => being half-paralyzed
+	controller (CM_NP, CM, Entity) => stroke
+	------------------------------
+
+
+List(Causal, Event) => way , which has led to this stalemate
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => way
+	controlled (CM_NP, CM, Entity) => stalemate
+	------------------------------
+
+
+List(Causal, Event) => bombing of Yugoslavia and the deadly attack on China 's embassy in Belgrade have caused some Chinese to question the sincerity of American ideals
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Chinese to question the sincerity of American ideals
+	controller (CM_NP, CM, Entity) => bombing of Yugoslavia
+	controller (CM_NP, CM, Entity) => bombing of Yugoslavia
+	controller (CM_NP, CM, Entity) => Yugoslavia
+	controller (CM_NP, CM, Entity) => deadly attack on China 's embassy in Belgrade
+	------------------------------
+
+
+List(Causal, Event) => bombing of Yugoslavia and the deadly attack on China 's embassy in Belgrade have caused some Chinese to question the sincerity of American ideals
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => Chinese to question the sincerity of American ideals
+	controller (CM_NP, CM, Entity) => bombing of Yugoslavia
+	controller (CM_NP, CM, Entity) => bombing of Yugoslavia
+	controller (CM_NP, CM, Entity) => Yugoslavia
+	controller (CM_NP, CM, Entity) => deadly attack on China 's embassy in Belgrade
+	------------------------------
+
+

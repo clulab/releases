@@ -1,0 +1,265 @@
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => bleach -LRB- sodium hypochlorite -RRB- takes oils out of the wood and causes it to deteriorate prematurely
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_event, CM, Entity) => it to deteriorate prematurely
+	controller (CM_NP, CM, Entity) => bleach
+	controller (CM_event, CM, Entity) => bleach -LRB- sodium hypochlorite -RRB- takes oils
+	controller (CM_NP, CM, Entity) => sodium hypochlorite
+	controller (CM_event, CM, Entity) => bleach -LRB- sodium hypochlorite -RRB- takes oils
+	controller (CM_NP, CM, Entity) => sodium
+	controller (CM_NP, CM, Entity) => sodium hypochlorite
+	controller (CM_event, CM, Entity) => bleach -LRB- sodium hypochlorite -RRB- takes oils
+	------------------------------
+
+
+List(Causal, Event) => public inquiry into Milgaard 's case is almost certain to cause major embarrassment to Saskatoon police
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => major embarrassment
+	controlled (CM_NP, CM, Entity) => embarrassment to Saskatoon police
+	controller (CM_NP, CM, Entity) => public inquiry into Milgaard 's case
+	controller (CM_NP, CM, Entity) => public inquiry into Milgaard 's case
+	controller (CM_NP, CM, Entity) => case
+	------------------------------
+
+
+List(Causal, Event) => intensity of the traffic may cause our blood pressure to go up
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => blood pressure to go up
+	controller (CM_NP, CM, Entity) => intensity of the traffic
+	controller (CM_NP, CM, Entity) => intensity of the traffic
+	controller (CM_NP, CM, Entity) => traffic
+	------------------------------
+
+
+List(Causal, Event) => dust from spent depleted uranium shells has caused an explosion of cancers
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => explosion of cancers
+	controller (CM_NP, CM, Entity) => dust
+	------------------------------
+
+
+List(Causal, Event) => willfulness probably led to the movie
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => willfulness
+	controlled (CM_NP, CM, Entity) => movie
+	------------------------------
+
+
+List(Causal, Event) => contrasting expectations about the meaning of closeness still cause confusion and disappointment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => confusion
+	controlled (CM_NP, CM, Entity) => disappointment
+	controller (CM_NP, CM, Entity) => contrasting expectations
+	------------------------------
+
+
+List(Causal, Event) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead to a compromise peace deal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => desire
+	controller (CM_event, CM, Entity) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead
+	controlled (CM_NP, CM, Entity) => compromise peace deal
+	------------------------------
+
+
+List(Causal, Event) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead to a compromise peace deal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => desire
+	controller (CM_event, CM, Entity) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead
+	controlled (CM_NP, CM, Entity) => compromise peace deal
+	------------------------------
+
+
+List(Causal, Event) => contrasting expectations about the meaning of closeness still cause confusion and disappointment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => confusion
+	controlled (CM_NP, CM, Entity) => disappointment
+	controller (CM_NP, CM, Entity) => contrasting expectations
+	------------------------------
+
+
+List(Causal, Event) => enormous amount of music each week which in turn causes a surge in album sales
+	------------------------------
+	Rule => causal_6
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => enormous amount of music
+	controller (CM_NP, CM, Entity) => surge in album sales
+	------------------------------
+
+
+List(Causal, Event) => treating symptoms of the disease , which causes pain , swelling and eventual deterioration of joints and connective tissue
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => pain , swelling and eventual deterioration of joints and connective tissue
+	controller (CM_NP, CM, Entity) => symptoms of the disease
+	controller (CM_event, CM, Entity) => treating symptoms of the disease
+	controller (CM_NP, CM, Entity) => symptoms of the disease
+	controller (CM_NP, CM, Entity) => disease
+	controller (CM_event, CM, Entity) => treating symptoms of the disease
+	------------------------------
+
+
+List(Causal, Event) => economy has led to the creation of wealth and a desire
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => economy
+	controlled (CM_NP, CM, Entity) => creation of wealth
+	controlled (CM_NP, CM, Entity) => desire
+	------------------------------
+
+
+List(Causal, Event) => downpors from storms could result in a quick inch
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => quick inch
+	controller (CM_NP, CM, Entity) => downpors
+	------------------------------
+
+
+List(Causal, Event) => site of endless experimentation and invention that result in its self-sufficiency
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => self-sufficiency
+	controller (CM_NP, CM, Entity) => site of endless experimentation and invention
+	controller (CM_NP, CM, Entity) => endless experimentation
+	controller (CM_NP, CM, Entity) => site of endless experimentation and invention
+	controller (CM_NP, CM, Entity) => invention
+	------------------------------
+
+

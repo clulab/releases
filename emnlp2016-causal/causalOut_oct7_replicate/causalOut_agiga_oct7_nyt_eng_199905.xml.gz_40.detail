@@ -1,0 +1,278 @@
+List(Causal, Event) => one was sure what he was talking about but Tony Daly , the Los Angeles Lakers ' team physician , was dispatched to De La Hoya 's locker room after the fight , causing speculation
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => speculation
+	controller (CM_NP, CM, Entity) => one
+	------------------------------
+
+
+List(Causal, Event) => decision to revoke Hinton 's credential , which George made against the counsel of his own publicity people , seemed largely the result of a personal vendetta
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => decision
+	controlled (CM_event, CM, Entity) => decision to revoke Hinton 's credential , which George made
+	controller (CM_NP, CM, Entity) => personal vendetta
+	------------------------------
+
+
+List(Causal, Event) => leadoff double by second baseman Mandy Galas , followed by a sinlge by center fielder Teri Rooney , resulted in UMass 's first run
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => first run
+	controller (CM_NP, CM, Entity) => leadoff
+	------------------------------
+
+
+List(Causal, Event) => move would likely lead to higher pay
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => move
+	controlled (CM_NP, CM, Entity) => higher pay
+	------------------------------
+
+
+List(Causal, Event) => dwindling number of available `` . com '' and `` . org '' addresses is leading to the introduction of new suffixes including `` . info , '' `` . firm '' and `` . store
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_NP, CM, Entity) => dwindling number of available `` . com '' and `` . org '' addresses
+	controlled (CM_NP, CM, Entity) => introduction of new suffixes including `` . info , '' `` . firm '' and `` . store
+	------------------------------
+
+
+List(Causal, Event) => addition of these may lead to even more confusion
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => addition of these
+	controlled (CM_NP, CM, Entity) => even more confusion
+	------------------------------
+
+
+List(Causal, Event) => death of `` Real Time '' leads to a serious rift in their marriage
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => death of `` Real Time
+	controlled (CM_NP, CM, Entity) => serious rift in their marriage
+	------------------------------
+
+
+List(Causal, Event) => move would likely lead to higher pay
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => move
+	controlled (CM_NP, CM, Entity) => higher pay
+	------------------------------
+
+
+List(Causal, Event) => shootings also have led to legislation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => shootings
+	controlled (CM_NP, CM, Entity) => legislation
+	------------------------------
+
+
+List(Causal, Event) => he could earn as much as $ 2 billion of profit as a result of his royalties
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => he could earn as much as $
+	controller (CM_NP, CM, Entity) => royalties
+	------------------------------
+
+
+List(Causal, Event) => Offshore breezes will cause unseasonably warm and sunny conditions to persist
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => unseasonably warm and sunny conditions to persist
+	controller (CM_NP, CM, Entity) => Offshore breezes
+	controller (CM_NP, CM, Entity) => Offshore
+	controller (CM_NP, CM, Entity) => Offshore breezes
+	------------------------------
+
+
+List(Causal, Event) => instability that results when air temperature decreases rapidly
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => instability
+	controller (CM_event, CM, Entity) => when air temperature decreases rapidly
+	------------------------------
+
+
+List(Causal, Event) => move that has led to some scattered political protests and demonstrations
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => move
+	controlled (CM_NP, CM, Entity) => scattered political protests
+	controlled (CM_NP, CM, Entity) => demonstrations
+	------------------------------
+
+
+List(Causal, Event) => defensive play by center Rik Smits on Iverson which , Iverson believed , should have resulted in a whistle
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => whistle
+	controller (CM_NP, CM, Entity) => defensive play
+	------------------------------
+
+
+List(Causal, Event) => tapes show that Leiter has lost the exaggerated kick of his back leg on his follow-through , which might be causing Leiter to overcompensate with his arm
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => Leiter to overcompensate with his arm
+	controller (CM_NP, CM, Entity) => exaggerated kick of his back leg on his follow-through
+	controller (CM_NP, CM, Entity) => back leg on his follow-through
+	controller (CM_NP, CM, Entity) => follow-through
+	controller (CM_event, CM, Entity) => tapes show that Leiter has lost the exaggerated kick of his back leg on his follow-through
+	controller (CM_event, CM, Entity) => Leiter has lost the exaggerated kick of his back leg on his follow-through
+	------------------------------
+
+
+List(Causal, Event) => conventional bombs , however , cause material damage that requires more extensive repair work
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => material damage
+	controlled (CM_event, CM, Entity) => material damage that requires more extensive repair work
+	controller (CM_NP, CM, Entity) => conventional bombs
+	------------------------------
+
+
+List(Causal, Event) => move will almost certainly lead to pressure on private industry
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => move
+	controlled (CM_NP, CM, Entity) => pressure on private industry
+	------------------------------
+
+
+List(Causal, Event) => One-time charges of $ 176.4 million related to the spin-off of Momentum Business Applications Inc. and $ 4.4 million related to layoffs resulted in a net loss for the quarter of $
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => net loss for the quarter of $
+	controller (CM_NP, CM, Entity) => One-time charges of $
+	------------------------------
+
+
+List(Causal, Event) => cuts that caused some soul-searching
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => soul-searching
+	controller (CM_NP, CM, Entity) => cuts
+	------------------------------
+
+
+List(Causal, Event) => internal injuries , Kornberg said , could have been the result of consensual sex
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => internal injuries
+	controller (CM_NP, CM, Entity) => consensual sex
+	------------------------------
+
+
+List(Causal, Event) => One of them has to do with a word that will cause any coach to rant
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => coach to rant
+	controller (CM_NP, CM, Entity) => word
+	controller (CM_event, CM, Entity) => One of them has to do with a word
+	controller (CM_event, CM, Entity) => do with a word
+	------------------------------
+
+
+List(Causal, Event) => Buhl attempted Saturday to bring his tire temperatures up to speed on the first of two warmup laps when he bobbled it in Turn 1 , did a half-spin , and hit the outside retaining wall , causing heavy damage to the left side of his car
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => heavy damage to the left side of his car
+	controller (CM_NP, CM, Entity) => Buhl
+	controller (CM_event, CM, Entity) => Buhl attempted Saturday to bring his tire temperatures up to speed
+	controller (CM_event, CM, Entity) => Buhl attempted Saturday to bring his tire temperatures up to speed on the first of two warmup laps when he bobbled it in Turn 1 , did a half-spin
+	controller (CM_event, CM, Entity) => Buhl attempted Saturday to bring his tire temperatures up to speed on the first of two warmup laps when he bobbled it in Turn 1 , did a half-spin , and hit the outside retaining wall
+	------------------------------
+
+
+List(Causal, Event) => reluctance to move his feet at all once he staked out a spot in the paint led to three illegal defense calls
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => reluctance
+	controlled (CM_NP, CM, Entity) => illegal defense calls
+	------------------------------
+
+
+List(Causal, Event) => reluctance to move his feet at all once he staked out a spot in the paint led to three illegal defense calls
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => reluctance
+	controlled (CM_NP, CM, Entity) => illegal defense calls
+	------------------------------
+
+

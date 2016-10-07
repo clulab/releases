@@ -1,0 +1,37 @@
+Substances_NNP call_VBD ketone_NNS accumulate_VB	-->	bad_JJ breath_NN,constipation_NN,nausea_NN,lightheadedness_NN
+excess_NN protein_NN	-->	body_NN lose_VB little_JJ calcium_NN get_VBZ
+biochemist_NNS point_VBP be_VBZ obesity_NN	-->	insulin_NN insensitivity_NN
+acid_NN bacterium_NNS irritate_VBP lining_NN	-->	ulcer_NN
+dinitrophenol_NN	-->	blindness_NN even_RB
+excess_JJ hormone_NN disrupt_VBD heart_NN rhythm_NN	-->	muscle_NN weakness_NN
+Xenical_NNP	-->	diarrhea_NN even_RB
+shuttle_NN crew_NN replace_VB faulty_JJ ampere_NN meter_NNS	-->	half-dozen_JJ storage_NN battery_NNS station_NN electrical_JJ power_NN system_NN slowly_RB degrade_VB
+different_JJ herpesvirus_NN	-->	disease_NN
+light_NN	-->	fabric_NN deteriorate_VB
+suture_NNS	-->	postoperative_JJ infection_NNS lawsuit_NNS allege_VBD
+investigation_NNS	-->	tell_VB action_NN office_NN take_VB
+accusation_NNS	-->	lynching_NN PERSON_NER brother_NN
+accusation_NNS	-->	lynching_NN PERSON_NER brother_NN
+PERSON_NER PERSON_NER legal_JJ director_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER gay_JJ rights_NNS organization_NN file_VBD brief_NN case_NN say_VBD decision_NN be_VB particularly_RB beneficial_JJ people_NNS virus_NN	-->	AIDS_NNP
+earlier_JJR ruling_NNS	-->	adjust_VB procedure_NNS
+entanglement_NNS fishing_NN gear_NN	-->	death_NN
+school_NN shooting_NNS LOCATION_NER,last_JJ month_NN,LOCATION_NER	-->	further_JJ strain_NNS
+legal_JJ constraint_NNS disciplinary_JJ authority_NN	-->	acknowledge_VBP school_NN administrator_NNS shoulder_VB substantial_JJ burden_NNS
+legal_JJ constraint_NNS disciplinary_JJ authority_NN	-->	acknowledge_VBP school_NN administrator_NNS shoulder_VB substantial_JJ burden_NNS
+merger_NN	-->	client_NN conflict_NNS
+such_JJ detail_NNS	-->	call_NNS key_JJ member_NNS ORGANIZATION_NER head_NNS roll_VB include_VBG Attorney_NNP General_NNP PERSON_NER PERSON_NER
+series_NN ever-larger_JJ trial_NNS	-->	death_NN sentence_NNS
+designate_VBN role_NN	-->	come_VBP understand_VB legacy_NN pollution_NN
+share_VB defense_NN lawyer_NNS new_JJ evidence_NN discriminatory_JJ stop_NNS	-->	conviction_NN black_JJ hispanic_JJ motorist_NNS
+open-wheel_JJ car_NN crash_NN	-->	fan_NNS kill_VBN
+10-day_JJ sickout_NN DATE_NER affect_VBD traveler_NNS	-->	many_JJ people_NNS miss_VB connection_NNS cruise_NNS tour_NNS
+exist_VBG medical_JJ problem_NN	-->	change_NN plan_NNS
+natural_JJ disaster_NNS,bad_JJ weather_NN,strike_NNS	-->	complete_JJ cessation_NN service_NNS airline_NN tour_NN operator_NN DURATION_NER NUMBER_NER
+ORGANIZATION_NER sickout_NN	-->	none_NN expert_NNS remember_VBD pay_VBG claim_NNS
+downturn_NN	-->	growth_NN plummet_VB as_RB high_JJ PERCENT_NER only_RB PERCENT_NER,revenue_NN growth_NN
+Y2K_NNP problem_NN	-->	many_JJ corporate_JJ technology_NN manager_NNS halt_VB new_JJ spending_NN
+audit_NN	-->	district_NN need_VBZ do_VB
+power_NN rating_NN	-->	be_VBP tournament_NN
+charge_VBN smuggling_NN immigrant_NNS smuggling_NN financial_JJ gain_NN smuggling_NN	-->	death_NN
+charge_VBN smuggling_NN immigrant_NNS smuggling_NN financial_JJ gain_NN smuggling_NN	-->	death_NN
+PERSON_NER partner_NNS turn_VBD steals_NNP dunk_NNS miss_VBZ fast-break_JJ opportunity_NNS	-->	48-37_JJ halftime_NN lead_NN

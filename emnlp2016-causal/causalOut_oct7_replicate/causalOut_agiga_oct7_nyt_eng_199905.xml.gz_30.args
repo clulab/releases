@@ -1,0 +1,16 @@
+recount_VBD LOCATION_NER LOCATION_NER LOCATION_NER connection_NN	-->	invitation_NN
+change_NN	-->	ORGANIZATION_NER say_VBD DATE_NER get_VBG resident_NN DURATION_NER less_JJR
+inflammation_NN heart_NN muscle_NN	-->	scar_NN tissue_NN
+war_NN LOCATION_NER	-->	slight_JJ slowdown_NN reservation_NNS
+risky_JJ global_JJ financial_JJ bet_NNS PERSON_NER fund_NNS	-->	sometimes-volatile_JJ performance_NN
+lawsuit_NN hinge_VBZ LOCATION_NER LOCATION_NER businessman_NN PERSON_NER PERSON_NER PERSON_NER contention_NN introduction_NN PERSON_NER LOCATION_NER LOCATION_NER businessman_NNS lead_VBD	-->	lucrative_JJ license_NN
+incident_NNS	-->	LOCATION_NER official_NNS consider_VB warn_VBG citizen_NNS not_RB travel_VB
+incident_NNS	-->	LOCATION_NER official_NNS consider_VB warn_VBG citizen_NNS not_RB travel_VB
+combination_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER Global_NNP Crossing_NNP closely_RB scrutinize_VBN regulator_NNS,concern_NN	-->	price_NNS company_NNS DATE_NER
+investor_NN frenzy_NN	-->	stunning_JJ rise_NN PERSON_NER Global_NNP Crossing_NNP
+farm_NN economy_NN	-->	PERSON_NER PERSON_NER food_NN industry_NN analyst_NN ORGANIZATION_NER ORGANIZATION_NER say_VBD deal_NN Case_NNP LOCATION_NER LOCATION_NER see_VBN
+current_JJ rivalry_NN base_VBN litany_NN grind-it-out_JJ halfcourt_JJ game_NNS	-->	viewer_NNS channel-surf_VB PERSON_NER PERSON_NER PERSON_NER PERSON_NER
+light_JJ airy_JJ tune_NN	-->	cheerful_JJ pew_NN chatter_NN
+Bond_NNP say_VBD federal_JJ agency_NNS not_RB need_VB highway_NN sanction_NNS	-->	too_RB great_JJ burden_NN business_NNS deliver_VB goods_NNS pose_VB too_RB great_JJ safety_NN hazard_NN
+expulsion_NN	-->	uproar_NN
+pass_VBD other_JJ stair_NNS	-->	bedroom_NNS 14-room_JJ house_NN

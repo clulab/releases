@@ -1,0 +1,27 @@
+leak_NNS report_NN discovery_NN,discovery_NN LOCATION_NER nuclear_JJ espionage_NN,report_NN	-->	furor_NN ORGANIZATION_NER
+accuse_VBP manage_VBN care_NN restrict_VBG access_NN mental_JJ health_NN service_NNS drug_NN rehabilitation_NN contend_VBP be_VBZ cruel_JJ irony_NN	-->	situation_NN persist_VB
+change_NN	-->	open_JJ boarding_NN LOCATION_NER boat_NNS
+incident_NNS,other_NNS	-->	investigation_NNS police_NN conduct_NN state_NN Attorney_NNP General_NNP PERSON_NER PERSON_NER ORGANIZATION_NER ORGANIZATION_NER federal_JJ prosecutor_NNS LOCATION_NER LOCATION_NER
+new_JJ product_NNS	-->	local_JJ union_NN official_NNS say_VBD several_JJ job_NNS add_VBN
+dispute_NN	-->	lesser_JJR sentence_NN,case_NN
+political_JJ blunder_NNS	-->	removal_NN
+wide_JJ difference_NNS expansion-rate_JJ estimate_NNS	-->	range_NN cosmic_JJ age_NNS
+now_RB estimate_NNS rival_JJ team_NNS begin_VBG converge_VB number_NNS	-->	age_NNS universe_NN similar_JJ greater_JJR
+observation_NNS distance_NNS certain_JJ type_NNS	-->	lower_JJR value_NNS Hubble_NNP constant_JJ usually_RB less_JJR thus_RB
+cosmic_JJ dark_JJ energy_NN exist_VBZ oppose_VBZ self-attraction_NN matter_NN	-->	expansion_NN universe_NN accelerate_VB
+solo_NN homer_NN	-->	still_RB 1-0_RB enter_VBG ORDINAL_NER inning_NN
+closure_NN	-->	customer_NNS supplier_NNS stick_VBN
+closure_NN	-->	customer_NNS supplier_NNS stick_VBN
+probe_NN	-->	seizure_NN additional_JJ MONEY_NER cocaine_NN cash_NN
+crucial_JJ instance_NNS	-->	pair_NN unearned_JJ run_NNS
+cosmic_JJ dark_JJ energy_NN exist_VBZ oppose_VBZ self-attraction_NN matter_NN	-->	expansion_NN universe_NN accelerate_VB
+spread_VB other_JJ organ_NNS	-->	death_NN
+spread_VB other_JJ organ_NNS	-->	death_NN
+cut_NNS	-->	soul-searching_NN
+dwindle_VBG number_NN available_JJ com_NN org_NN address_NNS	-->	introduction_NN new_JJ suffix_NNS include_VBG info_JJ firm_NN store_NN
+addition_NN	-->	even_RB more_JJR confusion_NN
+PERSON_NER PERSON_NER student_NN ORGANIZATION_NER ORGANIZATION_NER decide_VBD beer_NN industry_NN microbrew_NN process_NN apply_VBN ice_NN cream_NN	-->	upstart_JJ company_NN
+now_RB tell_VBN dirty_JJ little_JJ secret_NN	-->	drumbeater_NNS '50_NNS '60_NNS choke_VB wishbone_NNS,pro_JJ basketball_NN drumbeater_NNS '50_NNS '60_NNS
+nothing_NN	-->	seismic_JJ shift_NN
+numerous_JJ problem_NNS	-->	upset_JJ stomach_NNS
+Celebrex_NNP	-->	help_VB stem_VB financial_JJ bleeding_NN

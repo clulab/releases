@@ -1,0 +1,363 @@
+List(Causal, Event) => sporting events cause normally law-abiding fans
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => normally law-abiding fans
+	controller (CM_NP, CM, Entity) => sporting events
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from U.S. nuclear weapons labs had led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from U.S. nuclear weapons labs had led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => rise in bond yields at a time when stocks are under pressure could lead to the next stock market correction
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => rise in bond yields
+	controlled (CM_NP, CM, Entity) => next stock market correction
+	------------------------------
+
+
+List(Causal, Event) => believe he should run for Congress , which led to the nation 's only Republican victory
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Congress
+	controller (CM_event, CM, Entity) => believe he should run for Congress
+	controller (CM_event, CM, Entity) => he should run for Congress
+	controlled (CM_NP, CM, Entity) => only Republican victory
+	------------------------------
+
+
+List(Causal, Event) => recounting of his effort to abolish the B-2 , which led to a reduction in the number
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => recounting of his effort
+	controller (CM_NP, CM, Entity) => effort
+	controlled (CM_NP, CM, Entity) => reduction in the number
+	------------------------------
+
+
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => Low trade barriers led to an explosion of trade
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Low trade barriers
+	controlled (CM_NP, CM, Entity) => explosion of trade
+	------------------------------
+
+
+List(Causal, Event) => fiscal crisis , which led to a 40 percent devaluation of its currency
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => fiscal crisis
+	controlled (CM_NP, CM, Entity) => percent devaluation of its currency
+	------------------------------
+
+
+List(Causal, Event) => dismissal of Prime Minister Yevgeny Primakov in Russia caused barely a ripple
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => barely a ripple
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Minister
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Yevgeny
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	------------------------------
+
+
+List(Causal, Event) => fiscal crisis , which led to a 40 percent devaluation of its currency
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => fiscal crisis
+	controlled (CM_NP, CM, Entity) => percent devaluation of its currency
+	------------------------------
+
+
+List(Causal, Event) => dismissal of Prime Minister Yevgeny Primakov in Russia caused barely a ripple
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => barely a ripple
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Russia
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Prime
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Minister
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	controller (CM_NP, CM, Entity) => dismissal of Prime Minister Yevgeny Primakov in Russia
+	controller (CM_NP, CM, Entity) => Yevgeny
+	controller (CM_NP, CM, Entity) => Prime Minister Yevgeny Primakov
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from American nuclear weapons laboratories led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from American nuclear weapons laboratories led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => shaking knees , Morrison said , were the result of aftereffects of his childhood polio
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => shaking knees
+	controller (CM_NP, CM, Entity) => aftereffects of his childhood polio
+	------------------------------
+
+
+List(Causal, Event) => shaking knees , Morrison said , were the result of aftereffects of his childhood polio
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => shaking knees
+	controller (CM_NP, CM, Entity) => aftereffects of his childhood polio
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => high-frequency sounds can cause permanent deafness
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent deafness
+	controller (CM_NP, CM, Entity) => high-frequency sounds
+	------------------------------
+
+
+List(Causal, Event) => shaking knees , Morrison said , were the result of aftereffects of his childhood polio
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => shaking knees
+	controller (CM_NP, CM, Entity) => aftereffects of his childhood polio
+	------------------------------
+
+
+List(Causal, Event) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak '' -LRB- 1995 -RRB- led to an audition for `` Jerry Maguire
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak
+	controlled (CM_NP, CM, Entity) => audition for `` Jerry Maguire
+	------------------------------
+
+
+List(Causal, Event) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak '' -LRB- 1995 -RRB- led to an audition for `` Jerry Maguire
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Roles in `` Lightning Jack '' -LRB- 1994 -RRB- and `` Outbreak
+	controlled (CM_NP, CM, Entity) => audition for `` Jerry Maguire
+	------------------------------
+
+
+List(Causal, Event) => kind of music simply causes much more harm
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => much more harm
+	controller (CM_NP, CM, Entity) => kind of music
+	controller (CM_NP, CM, Entity) => kind of music
+	controller (CM_NP, CM, Entity) => music
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => intolerable conditions the region finds itself in today are the result of a decadelong campaign
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => intolerable conditions
+	controller (CM_NP, CM, Entity) => decadelong campaign
+	------------------------------
+
+
+List(Causal, Event) => brain activity causes the release of chemicals including hydrogen ions , potassium , serotonin , histamines , and arichidonic acid
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => release of chemicals including hydrogen ions , potassium , serotonin , histamines , and arichidonic acid
+	controller (CM_NP, CM, Entity) => brain activity
+	controller (CM_NP, CM, Entity) => brain
+	controller (CM_NP, CM, Entity) => brain activity
+	------------------------------
+
+
+List(Causal, Event) => shaking knees , Morrison said , were the result of aftereffects of his childhood polio
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => shaking knees
+	controller (CM_NP, CM, Entity) => aftereffects of his childhood polio
+	------------------------------
+
+
+List(Causal, Event) => Non-compete clauses were initially created by businesses
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => Non-compete clauses
+	controller (CM_NP, CM, Entity) => businesses
+	------------------------------
+
+
+List(Causal, Event) => effects in `` Gump '' were created by slicing old footage together
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => effects in `` Gump
+	controller (CM_event, CM, Entity) => slicing old footage together
+	------------------------------
+
+

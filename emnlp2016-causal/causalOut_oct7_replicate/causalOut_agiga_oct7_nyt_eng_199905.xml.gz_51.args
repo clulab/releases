@@ -1,0 +1,46 @@
+transaction_NN	-->	ORGANIZATION_NER say_VBD gain_VB new_JJ client_NNS
+failure_NN bid_NNS	-->	debate_NN
+hear_VBD PERSON_NER kill_VBN say_VBD refer_VBG rumor_NNS,rumor_NNS suddenly_RB sweep_VBD country_NN	-->	riot_NNS LOCATION_NER
+last_JJ year_NN,strike_NN	-->	special_JJ charge_NN ORGANIZATION_NER
+hear_VBD PERSON_NER kill_VBN say_VBD refer_VBG rumor_NNS,rumor_NNS suddenly_RB sweep_VBD country_NN	-->	riot_NNS LOCATION_NER
+sure_RB always_RB go_VBG have_VB jerk_NNS	-->	accident_NNS
+noise_NN wake_NN wildlife_NN impact_NNS personal_JJ watercraft_NN	-->	grow_VBG move_NNS
+attack_NNS	-->	site_NNS almost_RB immediately_RB shut_VBN
+street_NN battle_NNS DATE_NER cost_VBD more_JJR life_NNS	-->	such_JJ chaos_NN
+bank_NN say_VBD be_VBD exit_NN interview_NN	-->	begin_VB internal_JJ investigation_NN unclaimed_JJ fund_NNS alert_VB federal_JJ authority_NNS problem_NN
+decision_NN	-->	benefit_VBN
+decision_NN	-->	benefit_VBN
+decision_NN	-->	benefit_VBN
+cigarette_NNS	-->	fatal_JJ disease_NN
+Galaxy_NNP	-->	lackluster_JJ play_NN
+PERSON_NER,PERSON_NER	-->	collection_NN luxurious_JJ romantic_JJ clothes_NNS include_VBG 1950s-style_JJ beaded_JJ dress_NNS lavishly_RB print_VBN cocktail_NN pajamas_NNS sable_JJ stole_NNS,PERSON_NER
+bonus_NN	-->	foothold_NN middle_JJ class_NN,purchase_NN house_NN
+PERSON_NER,PERSON_NER	-->	collection_NN luxurious_JJ romantic_JJ clothes_NNS include_VBG 1950s-style_JJ beaded_JJ dress_NNS lavishly_RB print_VBN cocktail_NN pajamas_NNS sable_JJ stole_NNS,PERSON_NER
+bonus_NN	-->	foothold_NN middle_JJ class_NN,purchase_NN house_NN
+PERSON_NER,PERSON_NER	-->	collection_NN luxurious_JJ romantic_JJ clothes_NNS include_VBG 1950s-style_JJ beaded_JJ dress_NNS lavishly_RB print_VBN cocktail_NN pajamas_NNS sable_JJ stole_NNS,PERSON_NER
+bonus_NN	-->	foothold_NN middle_JJ class_NN,purchase_NN house_NN
+relationship_NN other_JJ case_NN	-->	disclosure_NN
+unacceptable_JJ care_NN	-->	people_NNS die_VBD
+ORGANIZATION_NER starter_NNP PERSON_NER PERSON_NER pitch_VBD well_RB make_VBD throw_VBG error_NNS bunt_NNS	-->	unearned_JJ run_NNS
+veterinary_JJ surgeon_NN	-->	Mission_NNP MedVet_NNP
+condition_NN	-->	severe_JJ brain_NN liver_NN damage_NN then_RB
+look_VBG construction_NN other_JJ activity_NN	-->	trouble_NN
+chickenpox_NN virus_NN enter_VB central_JJ nervous_JJ system_NN	-->	brain_NN inflammation_NN encephalitis_NN
+fever_NN	-->	dehydration_NN serious_JJ enough_RB
+chickenpox_NNP	-->	serious_JJ birth_NN defect_NNS
+fallout_NN	-->	silver_NN
+study_NN Amendment_NNP language_NN historical_JJ context_NN	-->	believe_VB provision_NN cast_VBN too_RB easily_RB
+study_NN Amendment_NNP language_NN historical_JJ context_NN	-->	believe_VB provision_NN cast_VBN too_RB easily_RB
+confluence_NN factor_NNS enormously_RB high_JJ stake_NNS next_JJ year_NN presidential_JJ congressional_JJ election_NNS location_NN violence_NN vulnerability_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER grow_VBG discomfort_NN republican_NNS	-->	legislative_JJ action_NN
+confluence_NN factor_NNS enormously_RB high_JJ stake_NNS next_JJ year_NN presidential_JJ congressional_JJ election_NNS location_NN violence_NN vulnerability_NN ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER grow_VBG discomfort_NN republican_NNS	-->	legislative_JJ action_NN
+case_NNS	-->	friend_NNS ask_VB defend_VB people_NNS
+case_NNS	-->	friend_NNS ask_VB defend_VB people_NNS
+interruption_NNS power_NN	-->	lose_VB food_NN
+however_RB even_RB harmless_JJ animal_NNS deer_NN cross_VB road_NN unexpectedly_RB	-->	traffic_NN accident_NNS
+animal_NNS,manure_NN	-->	objectionable_JJ odor_NNS
+interruption_NNS power_NN	-->	lose_VB food_NN
+however_RB even_RB harmless_JJ animal_NNS deer_NN cross_VB road_NN unexpectedly_RB	-->	traffic_NN accident_NNS
+animal_NNS,manure_NN	-->	objectionable_JJ odor_NNS
+bitterly_RB fight_VBN 5-4_JJ ruling_NN	-->	school_NN district_NNS be_VBP notice_NN
+bitterly_RB fight_VBN 5-4_JJ ruling_NN	-->	school_NN district_NNS be_VBP notice_NN
+PERSON_NER stick_VBZ operational_JJ detail_NNS	-->	frustration_NN,criticism_NN

@@ -1,0 +1,218 @@
+List(Causal, Event) => demands of her husband 's career -LRB- they moved to Boston in 1992 when he became director of the brain tumor program at Massachusetts General Hospital -RRB- and the fact that headhunters called every time a new job surfaced , led to a number of jobs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => demands of her husband 's career
+	controller (CM_NP, CM, Entity) => fact
+	controlled (CM_NP, CM, Entity) => number of jobs
+	------------------------------
+
+
+List(Causal, Event) => paperless books will result in cost savings
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => cost savings
+	controller (CM_NP, CM, Entity) => paperless books
+	------------------------------
+
+
+List(Causal, Event) => quest for Moby Dick led to a miserable outcome
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => quest for Moby Dick
+	controlled (CM_NP, CM, Entity) => miserable outcome
+	------------------------------
+
+
+List(Causal, Event) => result of this `` all things to all people '' impulse , the DTC-5000 has sometimes been derided
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => DTC-5000 has sometimes been derided
+	controller (CM_NP, CM, Entity) => things to all people '' impulse
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Such nerve damage invariably causes permanent paralysis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	controller (CM_NP, CM, Entity) => nerve
+	controller (CM_NP, CM, Entity) => Such nerve damage
+	------------------------------
+
+
+List(Causal, Event) => Russia , France and China , together with several Arab countries , have called for new approaches that could lead to the sanctions
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => new approaches
+	controller (CM_event, CM, Entity) => Russia , France and China , together with several Arab countries , have called for new approaches
+	controlled (CM_NP, CM, Entity) => sanctions
+	------------------------------
+
+
+List(Causal, Event) => mother explained their situation , which she blamed on poor economic conditions as a result of the U.N. sanctions
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => mother explained their situation , which she blamed on poor economic conditions
+	controlled (CM_event, CM, Entity) => which she blamed on poor economic conditions
+	controller (CM_NP, CM, Entity) => U.N. sanctions
+	------------------------------
+
+
+List(Causal, Event) => clearing of forests lead to olive groves and planted wheat
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => clearing of forests
+	controlled (CM_NP, CM, Entity) => olive groves
+	controlled (CM_NP, CM, Entity) => planted wheat
+	------------------------------
+
+
+List(Causal, Event) => medical catastrophe which has been created by the sanctions
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => medical catastrophe
+	controller (CM_NP, CM, Entity) => sanctions
+	------------------------------
+
+
+List(Causal, Event) => sanctions caused an uproar
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => uproar
+	controller (CM_NP, CM, Entity) => sanctions
+	------------------------------
+
+
+List(Causal, Event) => six-week Persian Gulf War in 1991 resulted in the large-scale destruction of military and civilian infrastructures
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => large-scale destruction of military and civilian infrastructures
+	controller (CM_NP, CM, Entity) => six-week Persian Gulf War in 1991
+	------------------------------
+
+

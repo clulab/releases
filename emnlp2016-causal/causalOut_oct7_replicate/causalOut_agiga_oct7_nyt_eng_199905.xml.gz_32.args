@@ -1,0 +1,30 @@
+move_NN	-->	untold_JJ damage_NN rule_NN law_NN independence_NN judiciary_NN country-two_JJ system_NNS arrangement_NN so-called_JJ high_JJ degree_NN autonomy_NN
+other_NNS remember_VBD standoff_NN	-->	government_NN shutdown_NN
+radical_JJ portrait_NN Madame_NNP PERSON_NER	-->	sting_VBN scandal_NN
+ORGANIZATION_NER recall_VBD ambulance_NNS correct_VB safety-related_JJ fuel_NN problem_NNS	-->	fire_NNS,injury_NNS
+series_NN financial_JJ improprity_NNS	-->	conviction_NN office_NN manager_NN treasurer-collector_NN office_NN data-processing_NN official_NN serve_VBD NUMBER_NER sentence_NN
+encourage_VBG PERSON_NER pull_VB East_NNP Is_NNP East_NNP drawer_NN submit_VB series_NN workshop_NNS draft_NNS	-->	full_JJ production_NN
+camera_NN interact_VBZ aberrant_JJ light_NN	-->	aura_NNS,corona_NNS
+accident_NN scene_NN	-->	gridlock_NN interstate_NN
+close_VBD far_RB right_JJ lane_NN about_RB NUMBER_NER ORDINAL_NER lane_NN NUMBER_NER	-->	delay_NN rushhor_JJ commuter_NNS
+ORGANIZATION_NER recall_VBD ambulance_NNS correct_VB safety-related_JJ fuel_NN problem_NNS	-->	fire_NNS,injury_NNS
+proposal_NNS	-->	end_NN bombing_NN campaign_NN,withdrawal_NN LOCATION_NER force_NNS
+boast_VB play_VBD key_JJ role_NN negotiation_NNS LOCATION_NER	-->	peace_NN deal_NN
+battle_NN	-->	loophole_NNS
+member_NNS LOCATION_NER LOCATION_NER Anti-Whaling_NNP Society_NNP echo_VBG concern_NNS other_JJ protester_NNS say_VBD fear_VBD ORGANIZATION_NER hunt_NN open_VB Pandora_NNP box_NN petition_NNS other_JJ group_NNS right_NN hunt_VB whale_NNS more_RBR broadly_RB	-->	relaxation_NN ban_NNS
+work_NN site_NNS prompt_VBN palestinian_JJ demonstration_NNS	-->	breakdown_NN peace_NN negotiation_NNS
+be_VBP exceptional_JJ individual_JJ part_NNS PERSON_NER PERSON_NER PERSON_NER PERSON_NER PERSON_NER PERSON_NER other_JJ part_NNS	-->	anyone_NN
+erratic_JJ play_NN ORGANIZATION_NER	-->	severe_JJ discomfort_NN
+PERSON_NER LOCATION_NER try_VBG end_VB debate_NN bill_NN	-->	ORGANIZATION_NER considerable_JJ embarrassment_NN
+ORGANIZATION_NER reversal_NN	-->	uproar_NN party_NN
+deal_VBG cultural_JJ problem_NNS	-->	violence_NN
+product_NNS	-->	claim_VBG gun_NN company_NNS be_VBP legally_RB responsible_JJ harm_NN
+ignore_VBN ethnic_JJ purging_NNS	-->	bombing_NN
+competition_NN	-->	port_NNS
+proposal_NNS	-->	end_NN bombing_NN campaign_NN,withdrawal_NN LOCATION_NER force_NNS
+PERSON_NER PERSON_NER have_VBZ PERSON_NER total_JJ loyalty_NN respect_NN	-->	courageous_JJ stand_NN
+other_NNS remember_VBD standoff_NN	-->	partial_JJ shutdown_NN government_NN
+isolate_VBG unique_JJ protein_NN	-->	vaccine_NN
+isolate_VBG unique_JJ protein_NN	-->	vaccine_NN
+further_JJ research_NN	-->	different_JJ conclusion_NNS
+Bleach_NNP	-->	eventual_JJ breakage_NN LOCATION_NER,discoloration_NN,growth_NN

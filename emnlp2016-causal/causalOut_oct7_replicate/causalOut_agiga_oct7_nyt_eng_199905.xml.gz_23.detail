@@ -1,0 +1,266 @@
+List(Causal, Event) => Sunshine causes sunburn and skin cancer , so if we want to be truthful , we should probably rename Florida the `` Melanoma State
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => sunburn
+	controlled (CM_NP, CM, Entity) => skin cancer
+	controlled (CM_event, CM, Entity) => we should probably rename Florida the `` Melanoma State
+	controller (CM_NP, CM, Entity) => Sunshine
+	------------------------------
+
+
+List(Causal, Event) => Sunshine can also lead to cataracts
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Sunshine
+	controlled (CM_NP, CM, Entity) => cataracts
+	------------------------------
+
+
+List(Causal, Event) => winds cause coastal waters to initially move south
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => coastal waters to initially move south
+	controller (CM_NP, CM, Entity) => winds
+	------------------------------
+
+
+List(Causal, Event) => mix of purity and mischief leads to surprises
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => mix of purity and mischief
+	controlled (CM_NP, CM, Entity) => surprises
+	------------------------------
+
+
+List(Causal, Event) => how many people have lost health insurance as a result of welfare reform
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => how many people have lost health insurance
+	controller (CM_NP, CM, Entity) => welfare reform
+	------------------------------
+
+
+List(Causal, Event) => Many steps led to the house
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Many steps
+	controlled (CM_NP, CM, Entity) => house
+	------------------------------
+
+
+List(Causal, Event) => party vote against Germany 's Kosovo policy could lead to fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => party vote
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => outburst led to licensing requirements and tests for lifesaving and water skills
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => outburst
+	controlled (CM_NP, CM, Entity) => licensing requirements
+	controlled (CM_NP, CM, Entity) => tests for lifesaving and water skills
+	------------------------------
+
+
+List(Causal, Event) => He does not know what he said 15 minutes ago , '' remarked Communist leader Gennady Zyuganov , who has led the drive to impeach Yeltsin that resulted in Thursday 's hearing and could lead to a vote
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Communist leader Gennady Zyuganov
+	controller (CM_event, CM, Entity) => He does not know what he said 15 minutes ago , '' remarked Communist leader Gennady Zyuganov
+	controlled (CM_NP, CM, Entity) => vote
+	------------------------------
+
+
+List(Causal, Event) => political turmoil caused the ruble to fall 3.9 percent against the dollar in foreign-exchange trading Thursday , its second consecutive big drop
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => second consecutive big drop
+	controlled (CM_NP, CM, Entity) => ruble to fall 3.9 percent against the dollar in foreign-exchange trading Thursday , its second consecutive big drop
+	controlled (CM_event, CM, Entity) => ruble to fall 3.9 percent
+	controlled (CM_NP, CM, Entity) => ruble to fall 3.9 percent against the dollar in foreign-exchange trading Thursday , its second consecutive big drop
+	controller (CM_NP, CM, Entity) => political turmoil
+	------------------------------
+
+
+List(Causal, Event) => growing setbacks to the Menem government has led to rising speculation in the press
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => growing setbacks to the Menem government
+	controlled (CM_NP, CM, Entity) => rising speculation in the press
+	------------------------------
+
+
+List(Causal, Event) => party vote against Germany 's Kosovo policy could lead to fall of the government
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => party vote
+	controlled (CM_NP, CM, Entity) => fall of the government
+	------------------------------
+
+
+List(Causal, Event) => outburst led to licensing requirements and tests for lifesaving and water skills
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => outburst
+	controlled (CM_NP, CM, Entity) => licensing requirements
+	controlled (CM_NP, CM, Entity) => tests for lifesaving and water skills
+	------------------------------
+
+
+List(Causal, Event) => poorly understood '' neurological disorder that caused him to faint
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to faint
+	controller (CM_NP, CM, Entity) => poorly understood '' neurological disorder
+	------------------------------
+
+
+List(Causal, Event) => However , owner James Tafel and trainer Carl Nafzger were so horrified by Vicar 's six-wide trip in the Derby , which led to an 18th place finish
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => six-wide trip in the Derby
+	controller (CM_event, CM, Entity) => However , owner James Tafel and trainer Carl Nafzger were so horrified by Vicar 's six-wide trip in the Derby
+	controlled (CM_NP, CM, Entity) => 18th place finish
+	------------------------------
+
+
+List(Causal, Event) => poorly understood '' neurological disorder that caused him to faint
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to faint
+	controller (CM_NP, CM, Entity) => poorly understood '' neurological disorder
+	------------------------------
+
+
+List(Causal, Event) => other report is the result of a government-wide intelligence assessment of the damage
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => other report
+	controller (CM_NP, CM, Entity) => government-wide intelligence assessment of the damage
+	------------------------------
+
+
+List(Causal, Event) => decision could lead to more cases
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => decision
+	controlled (CM_NP, CM, Entity) => more cases
+	------------------------------
+
+
+List(Causal, Event) => pass to a charging Ward that resulted in the one-timer that beat Dafoe
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => one-timer
+	controlled (CM_event, CM, Entity) => one-timer that beat Dafoe
+	controller (CM_NP, CM, Entity) => pass to a charging Ward
+	controller (CM_NP, CM, Entity) => charging Ward
+	------------------------------
+
+
+List(Causal, Event) => ruling , which came over the strong objections of the government , could lead to the release of grand jury testimony in 1947 and 1948
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => ruling
+	controller (CM_event, CM, Entity) => ruling , which came
+	controlled (CM_NP, CM, Entity) => release of grand jury testimony in 1947 and 1948
+	------------------------------
+
+
+List(Causal, Event) => risk the genetic instability that leads to cancer
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => genetic instability
+	controller (CM_event, CM, Entity) => risk the genetic instability
+	controlled (CM_NP, CM, Entity) => cancer
+	------------------------------
+
+
+List(Causal, Event) => discovery could lead to important insights
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => discovery
+	controlled (CM_NP, CM, Entity) => important insights
+	------------------------------
+
+
+List(Causal, Event) => other report is the result of a government-wide intelligence assessment of the damage
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => other report
+	controller (CM_NP, CM, Entity) => government-wide intelligence assessment of the damage
+	------------------------------
+
+

@@ -1,0 +1,233 @@
+List(Causal, Event) => Now Congress and the Justice Department are examining how the Wen Ho Lee case was handled as a result of recent assertions
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Now Congress and the Justice Department are examining how the Wen Ho Lee case was handled
+	controlled (CM_event, CM, Entity) => how the Wen Ho Lee case was handled
+	controller (CM_NP, CM, Entity) => recent assertions
+	------------------------------
+
+
+List(Causal, Event) => intelligence failure led to a deadly case of mistaken identity that killed at least three people and wounded 20
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => intelligence failure
+	controlled (CM_NP, CM, Entity) => deadly case of mistaken identity
+	controlled (CM_event, CM, Entity) => deadly case of mistaken identity that killed at least three people
+	controlled (CM_event, CM, Entity) => deadly case of mistaken identity that killed at least three people and wounded 20
+	------------------------------
+
+
+List(Causal, Event) => recent excitement has been created by the media
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => recent excitement
+	controller (CM_NP, CM, Entity) => media
+	------------------------------
+
+
+List(Causal, Event) => intelligence failure led to a deadly case of mistaken identity that killed at least three people and wounded 20
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => intelligence failure
+	controlled (CM_NP, CM, Entity) => deadly case of mistaken identity
+	controlled (CM_event, CM, Entity) => deadly case of mistaken identity that killed at least three people
+	controlled (CM_event, CM, Entity) => deadly case of mistaken identity that killed at least three people and wounded 20
+	------------------------------
+
+
+List(Causal, Event) => recent excitement has been created by the media
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => recent excitement
+	controller (CM_NP, CM, Entity) => media
+	------------------------------
+
+
+List(Causal, Event) => possession change led to a pair of go-ahead free
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => possession change
+	controlled (CM_NP, CM, Entity) => pair of go-ahead free
+	------------------------------
+
+
+List(Causal, Event) => INTELLIGENCE FAILURE CAUSED ` MISTAKEN IDENTITY ' IN EMBASSY
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => CAUSED
+	controlled (CM_NP, CM, Entity) => MISTAKEN IDENTITY ' IN EMBASSY
+	controller (CM_NP, CM, Entity) => INTELLIGENCE FAILURE
+	controller (CM_NP, CM, Entity) => INTELLIGENCE
+	controller (CM_NP, CM, Entity) => INTELLIGENCE FAILURE
+	------------------------------
+
+
+List(Causal, Event) => INTELLIGENCE FAILURE CAUSED ` MISTAKEN IDENTITY ' IN EMBASSY
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => CAUSED
+	controlled (CM_NP, CM, Entity) => MISTAKEN IDENTITY ' IN EMBASSY
+	controller (CM_NP, CM, Entity) => INTELLIGENCE FAILURE
+	controller (CM_NP, CM, Entity) => INTELLIGENCE
+	controller (CM_NP, CM, Entity) => INTELLIGENCE FAILURE
+	------------------------------
+
+
+List(Causal, Event) => genocidal killer who has caused the murders of many tens of thousands
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => murders of many tens of thousands
+	controller (CM_NP, CM, Entity) => genocidal killer
+	------------------------------
+
+
+List(Causal, Event) => genocidal killer who has caused the murders of many tens of thousands
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => murders of many tens of thousands
+	controller (CM_NP, CM, Entity) => genocidal killer
+	------------------------------
+
+
+List(Causal, Event) => it takes into account a half-century of interest , inflation and currency devaluations , and thus could lead to payments
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_event, CM, Entity) => it takes into account a half-century of interest , inflation and currency devaluations , and thus
+	controlled (CM_NP, CM, Entity) => payments
+	------------------------------
+
+
+List(Causal, Event) => it takes into account a half-century of interest , inflation and currency devaluations , and thus could lead to payments
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_event, CM, Entity) => it takes into account a half-century of interest , inflation and currency devaluations , and thus
+	controlled (CM_NP, CM, Entity) => payments
+	------------------------------
+
+
+List(Causal, Event) => stagnation was initially caused by a financial meltdown
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stagnation
+	controller (CM_NP, CM, Entity) => financial meltdown
+	------------------------------
+
+
+List(Causal, Event) => stagnation was initially caused by a financial meltdown
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stagnation
+	controller (CM_NP, CM, Entity) => financial meltdown
+	------------------------------
+
+
+List(Causal, Event) => Homicide is the second-leading cause of death
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => Homicide
+	------------------------------
+
+
+List(Causal, Event) => Homicide is the second-leading cause of death
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => Homicide
+	------------------------------
+
+
+List(Causal, Event) => sound can cause the listener to `` hear '' a helicopter circling , or a twig crack behind you , doing it so realistically that sometimes you ca n't help but turn
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => listener to `` hear '' a helicopter circling , or a twig crack
+	controlled (CM_event, CM, Entity) => doing it so realistically that sometimes you ca n't help but turn
+	controller (CM_NP, CM, Entity) => sound
+	------------------------------
+
+
+List(Causal, Event) => Microsoft signed agreements that may lead to AT&T
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => agreements
+	controller (CM_event, CM, Entity) => Microsoft signed agreements
+	controlled (CM_NP, CM, Entity) => AT&T
+	------------------------------
+
+
+List(Causal, Event) => sound can cause the listener to `` hear '' a helicopter circling , or a twig crack behind you , doing it so realistically that sometimes you ca n't help but turn
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => listener to `` hear '' a helicopter circling , or a twig crack
+	controlled (CM_event, CM, Entity) => doing it so realistically that sometimes you ca n't help but turn
+	controller (CM_NP, CM, Entity) => sound
+	------------------------------
+
+
+List(Causal, Event) => Microsoft signed agreements that may lead to AT&T
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => agreements
+	controller (CM_event, CM, Entity) => Microsoft signed agreements
+	controlled (CM_NP, CM, Entity) => AT&T
+	------------------------------
+
+

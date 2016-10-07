@@ -1,0 +1,306 @@
+List(Causal, Event) => Fears of Japanese subversives led to the roundup of thousands of West Coast residents of Japanese descent who were shipped inland to at least three dozen detention camps nationwide
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Fears of Japanese subversives
+	controlled (CM_NP, CM, Entity) => roundup of thousands of West Coast residents
+	controlled (CM_event, CM, Entity) => roundup of thousands of West Coast residents of Japanese descent who were shipped inland to at least three dozen detention camps nationwide
+	------------------------------
+
+
+List(Causal, Event) => outbreak that occurred either naturally or as a result of bioterrorism
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => outbreak that occurred either naturally
+	controller (CM_NP, CM, Entity) => bioterrorism
+	------------------------------
+
+
+List(Causal, Event) => explosion of outrageous programming is a direct result of the economic stability and growth
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => explosion of outrageous programming
+	controller (CM_NP, CM, Entity) => economic stability
+	controller (CM_NP, CM, Entity) => growth
+	------------------------------
+
+
+List(Causal, Event) => Ratinho phenomenon causes perplexity
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => perplexity
+	controller (CM_NP, CM, Entity) => Ratinho phenomenon
+	controller (CM_NP, CM, Entity) => Ratinho
+	controller (CM_NP, CM, Entity) => Ratinho phenomenon
+	------------------------------
+
+
+List(Causal, Event) => slight rise in the jobless rate was caused by an expansion of the labor force
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => slight rise in the jobless rate
+	controller (CM_NP, CM, Entity) => expansion of the labor force
+	------------------------------
+
+
+List(Causal, Event) => knowledge of the genome 's precise sequence of DNA units should lead to fundamental advances in many branches of medicine
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => knowledge of the genome 's precise sequence of DNA units
+	controlled (CM_NP, CM, Entity) => fundamental advances in many branches of medicine
+	------------------------------
+
+
+List(Causal, Event) => fishing pressure caused a collapse
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => collapse
+	controller (CM_NP, CM, Entity) => fishing pressure
+	controller (CM_NP, CM, Entity) => fishing
+	controller (CM_NP, CM, Entity) => fishing pressure
+	------------------------------
+
+
+List(Causal, Event) => leak out '' as a result of an inadvertent question
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => leak
+	controller (CM_NP, CM, Entity) => inadvertent question
+	------------------------------
+
+
+List(Causal, Event) => charges could have resulted in a sentence of up to five years in prison and a $ 250,000 fine
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => sentence of up to five years in prison and a $ 250,000 fine
+	controller (CM_NP, CM, Entity) => charges
+	------------------------------
+
+
+List(Causal, Event) => Lung cancer became the leading cause of cancer deaths of American women
+	------------------------------
+	Rule => causal_4
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => cancer deaths of American women
+	controller (CM_NP, CM, Entity) => Lung cancer
+	------------------------------
+
+
+List(Causal, Event) => force of blasts at army barracks and a petroleum facility blew out windows and caused other damage to the homes of ambassadors
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => other damage to the homes of ambassadors
+	controller (CM_NP, CM, Entity) => force of blasts
+	controller (CM_event, CM, Entity) => force of blasts at army barracks and a petroleum facility blew out windows
+	controller (CM_NP, CM, Entity) => force of blasts
+	controller (CM_NP, CM, Entity) => blasts
+	controller (CM_event, CM, Entity) => force of blasts at army barracks and a petroleum facility blew out windows
+	------------------------------
+
+
+List(Causal, Event) => move on gun control will lead to even tougher restrictions
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => move on gun control
+	controlled (CM_NP, CM, Entity) => even tougher restrictions
+	------------------------------
+
+
+List(Causal, Event) => tougher gun laws would lead to lower crime rates
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => tougher gun laws
+	controlled (CM_NP, CM, Entity) => lower crime rates
+	------------------------------
+
+
+List(Causal, Event) => owning the Nets ' choice as a result of the Stephon Marbury trade
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => choice
+	controlled (CM_event, CM, Entity) => owning the Nets ' choice
+	controller (CM_NP, CM, Entity) => Stephon Marbury trade
+	------------------------------
+
+
+List(Causal, Event) => younger focus is probably the result of Lucas ' newfound role
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => younger focus
+	controller (CM_NP, CM, Entity) => newfound role
+	------------------------------
+
+
+List(Causal, Event) => No. 8 , which led to another birdie
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => No.
+	controlled (CM_NP, CM, Entity) => birdie
+	------------------------------
+
+
+List(Causal, Event) => jitters about emerging markets caused flight-to-quality buying
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => flight-to-quality buying
+	controller (CM_NP, CM, Entity) => jitters
+	------------------------------
+
+
+List(Causal, Event) => Communications Commission to review part of a 1997 decision that resulted in lower long-distance phone bills for millions of Americans
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => lower long-distance phone bills for millions of Americans
+	controller (CM_NP, CM, Entity) => part of a 1997 decision
+	controller (CM_NP, CM, Entity) => decision
+	controller (CM_event, CM, Entity) => Communications Commission to review part of a 1997 decision
+	------------------------------
+
+
+List(Causal, Event) => talks that led to the Dayton Peace Accords
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => talks
+	controlled (CM_NP, CM, Entity) => Dayton Peace Accords
+	------------------------------
+
+
+List(Causal, Event) => small mechanical changes have led to large gains in surefootedness
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => small mechanical changes
+	controlled (CM_NP, CM, Entity) => large gains in surefootedness
+	------------------------------
+
+
+List(Causal, Event) => bill fails to adequately address the problems that led to the school shootings that have troubled the country for the past year
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => problems
+	controller (CM_event, CM, Entity) => bill fails to adequately address the problems
+	controller (CM_event, CM, Entity) => adequately address the problems
+	controlled (CM_NP, CM, Entity) => school shootings
+	controlled (CM_event, CM, Entity) => school shootings that have troubled the country for the past year
+	------------------------------
+
+
+List(Causal, Event) => bill fails to adequately address the problems that led to the school shootings that have troubled the country for the past year
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => problems
+	controller (CM_event, CM, Entity) => bill fails to adequately address the problems
+	controller (CM_event, CM, Entity) => adequately address the problems
+	controlled (CM_NP, CM, Entity) => school shootings
+	controlled (CM_event, CM, Entity) => school shootings that have troubled the country for the past year
+	------------------------------
+
+
+List(Causal, Event) => paper trail on all immigrants in the United States will lead to Lee 's Summit
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => paper trail on all immigrants in the United States
+	controlled (CM_NP, CM, Entity) => Summit
+	------------------------------
+
+
+List(Causal, Event) => outbreak that occurred either naturally or as a result of bioterrorism
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => outbreak that occurred either naturally
+	controller (CM_NP, CM, Entity) => bioterrorism
+	------------------------------
+
+
+List(Causal, Event) => He also walked two and was hurt by three errors that led to a pair of unearned runs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => errors
+	controller (CM_event, CM, Entity) => He also walked two and was hurt by three errors
+	controlled (CM_NP, CM, Entity) => pair of unearned runs
+	------------------------------
+
+
+List(Causal, Event) => other two errors led to a pair of unearned runs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => other two errors
+	controlled (CM_NP, CM, Entity) => pair of unearned runs
+	------------------------------
+
+

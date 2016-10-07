@@ -1,0 +1,182 @@
+List(Causal, Event) => bacterial infection caused his kidneys to shut
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => kidneys to shut
+	controller (CM_NP, CM, Entity) => bacterial infection
+	------------------------------
+
+
+List(Causal, Event) => bacterial infection caused his kidneys to shut
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => kidneys to shut
+	controller (CM_NP, CM, Entity) => bacterial infection
+	------------------------------
+
+
+List(Causal, Event) => arrangement could eventually lead to a far-reaching relaxation of tensions in northeast Asia
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => arrangement
+	controlled (CM_NP, CM, Entity) => far-reaching relaxation of tensions in northeast Asia
+	------------------------------
+
+
+List(Causal, Event) => walkout that lasts even a week or two could cause shortages of the hottest-selling cars
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => shortages of the hottest-selling cars
+	controller (CM_NP, CM, Entity) => walkout
+	controller (CM_event, CM, Entity) => walkout that lasts
+	------------------------------
+
+
+List(Causal, Event) => Shelton sticks to the operational details , which has led to frustration and criticism
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => operational details
+	controller (CM_event, CM, Entity) => Shelton sticks to the operational details
+	controlled (CM_NP, CM, Entity) => frustration
+	controlled (CM_NP, CM, Entity) => criticism
+	------------------------------
+
+
+List(Causal, Event) => stir is being caused by leaks
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => stir
+	controller (CM_NP, CM, Entity) => leaks
+	------------------------------
+
+
+List(Causal, Event) => library that 'd cause damaging vibrations
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => damaging vibrations
+	controller (CM_NP, CM, Entity) => library
+	------------------------------
+
+
+List(Causal, Event) => nature , and under God , all men are created
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => men
+	controller (CM_NP, CM, Entity) => nature
+	------------------------------
+
+
+List(Causal, Event) => it would have had it been an elected official owning property near a site that was about to be significantly increased in value as a result of a decision he would make
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => it would have had it
+	controller (CM_NP, CM, Entity) => decision
+	controller (CM_event, CM, Entity) => decision he would make
+	------------------------------
+
+
+List(Causal, Event) => it would have had it been an elected official owning property near a site that was about to be significantly increased in value as a result of a decision he would make
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => it would have had it
+	controller (CM_NP, CM, Entity) => decision
+	controller (CM_event, CM, Entity) => decision he would make
+	------------------------------
+
+
+List(Causal, Event) => Talking may lead to something
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Talking
+	controlled (CM_NP, CM, Entity) => something
+	------------------------------
+
+
+List(Causal, Event) => confusing mish-mash that cause problems for employer and employee
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => problems for employer and employee
+	controller (CM_NP, CM, Entity) => confusing mish-mash
+	------------------------------
+
+
+List(Causal, Event) => tortuous month that finally resulted in his benching
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => benching
+	controller (CM_NP, CM, Entity) => tortuous month
+	------------------------------
+
+
+List(Causal, Event) => tortuous month that finally resulted in his benching
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => benching
+	controller (CM_NP, CM, Entity) => tortuous month
+	------------------------------
+
+
+List(Causal, Event) => authorities call it a band of terrorists , and blame Ocalan for the more than 30,000 deaths the war has caused
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => deaths
+	controlled (CM_event, CM, Entity) => authorities call it a band of terrorists , and blame Ocalan for the more than 30,000 deaths
+	controller (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => When you lose your social and sexual partner as a result of a disability
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => When you lose your social and sexual partner
+	controller (CM_NP, CM, Entity) => disability
+	------------------------------
+
+

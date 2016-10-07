@@ -1,0 +1,29 @@
+LOCATION_NER official_NNS	-->	say_VBG president_NN come_VBN acute_JJ bronchitis_NN,scare_NN
+public_JJ inquiry_NN PERSON_NER case_NN	-->	embarrassment_NN LOCATION_NER police_NNS,major_JJ embarrassment_NN
+civil_JJ complaint_NN	-->	deportation_NN
+ORGANIZATION_NER proposal_NN	-->	sale_NN potentially_RB unsafe_JJ drug_NNS
+pointed_JJ be_VBD PERSON_NER PERSON_NER have_VBD own_JJ contract_NN squabble_NNS team_NN	-->	holdout_NN
+investigation_NN	-->	sanction_NNS affect_VB ORGANIZATION_NER profit_NNS
+60_NNP Minutes_NNPS II_NNP program_NN	-->	ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER cover_VBZ member_NNS ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER say_VBD DATE_NER conduct_VBG investigation_NNS Charter_NNP
+present_VB ORGANIZATION_NER list_NN recommendation_NNS NUMBER_NER	-->	legislation_NN
+PERSON_NER say_VBD PERSON_NER be_VBZ also_RB give_VBD report_NN street_NN melee_NN	-->	arrest_NN PERSON_NER ORDINAL_NER Haitian_NNP immigrant_NN
+bad_JJ offense_NN	-->	bad_JJ defense_NN
+bear_VBG toy_NNS	-->	near-riotous_JJ excitement_NN
+bear_VBG toy_NNS	-->	near-riotous_JJ excitement_NN
+work_VBD closely_RB together_RB draw_VBG LOCATION_NER fiscal_JJ abyss_NN early_JJ DATE_NER program_NNS economic_JJ austerity_NN	-->	budget_NN surplus_NNS,urban_JJ renewal_NN
+PERSON_NER say_VBD PERSON_NER also_RB give_VBD report_NN street_NN fight_NN	-->	arrest_NN PERSON_NER ORDINAL_NER Haitian_NNP immigrant_NN
+prospect_NN prison_NN term_NN	-->	defense_NN lawyer_NNS reconsider_VB plea_NN agreement_NNS
+car_NNS recent_JJ year_NNS	-->	congestion_NN,pollution_NN,noise_NN
+early_RB DATE_NER DATE_NER player_NN entrust_VBN kick-start_VB ORGANIZATION_NER ORGANIZATION_NER offense_NN commit_VBD turnover_NN	-->	jump_NN
+law_NNS	-->	population_NN swell_VB nonviolent_JJ often_RB first-time_JJ drug_NN offender_NNS,prison_NN population_NN
+though_RB such_JJ announcement_NN see_VBN	-->	PERSON_NER PERSON_NER
+disagreement_NN	-->	collapse_NN overriding_JJ ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER
+disparity_NN	-->	less-than-entertaining_JJ mismatch_NNS
+unlikely_JJ early_JJ exit_NN	-->	largely_RB empty_JJ stadium_NNS,vacant_JJ interest_NN
+speeding_JJ wheel_NNS suspension_NN part_NNS become_VBN detach_VBN car_NNS chassis_NN crash_NN then_RB catapult_VBN stand_NNS	-->	earlier_RBR month_NN,carnage_NN
+none_NN	-->	injury_NN
+science_NN standard_NNS	-->	much_JJ discussion_NN
+part_NN process_NN still_RB take_VB time_NN	-->	ORGANIZATION_NER ORGANIZATION_NER ORGANIZATION_NER resolution_NN LOCATION_NER
+PERSON_NER say_VBD PERSON_NER also_RB give_VBD report_NN street_NN fight_NN	-->	arrest_NN PERSON_NER ORDINAL_NER Haitian_NNP immigrant_NN
+PERSON_NER	-->	concern_NN
+support_NN	-->	chill_NN relation_NNS

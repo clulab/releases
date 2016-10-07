@@ -1,0 +1,192 @@
+List(Causal, Event) => Los Angeles Dodgers left-hander Carlos Perez lost 6 mph off his fastball and lost his control , which has led to the worst start of his four-year career
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => control
+	controller (CM_event, CM, Entity) => Los Angeles Dodgers left-hander Carlos Perez lost 6 mph off his fastball and lost his control
+	controlled (CM_NP, CM, Entity) => worst start of his four-year career
+	------------------------------
+
+
+List(Causal, Event) => armed conflict inevitably causes vast destruction and slaughter
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => vast destruction
+	controlled (CM_NP, CM, Entity) => slaughter
+	controller (CM_NP, CM, Entity) => armed conflict
+	------------------------------
+
+
+List(Causal, Event) => years of Serb discrimination of the Kosovars or weeks of NATO bombing cause the worse humanitarian catastrophe
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => worse humanitarian catastrophe
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => Serb discrimination
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => weeks
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => Serb
+	controller (CM_NP, CM, Entity) => Serb discrimination
+	controller (CM_NP, CM, Entity) => years of Serb discrimination of the Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => Kosovars or weeks of NATO bombing
+	controller (CM_NP, CM, Entity) => NATO bombing
+	------------------------------
+
+
+List(Causal, Event) => drop is largely the result of George 's decision
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => drop
+	controller (CM_NP, CM, Entity) => decision
+	------------------------------
+
+
+List(Causal, Event) => result of the investigation , Sears will check its stores to locate trouble spots and beef up its supervisory training program
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Sears will check its stores to locate trouble spots and beef up its supervisory training program
+	controller (CM_NP, CM, Entity) => investigation
+	------------------------------
+
+
+List(Causal, Event) => San Francisco teens _ several of whom spent a year researching beedies _ filed a complaint with the FTC that caused the government to step up its regulation of the import of beedies
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => government to step up its regulation of the import of beedies
+	controller (CM_NP, CM, Entity) => complaint with the FTC
+	controller (CM_event, CM, Entity) => San Francisco teens _ several of whom spent a year researching beedies _ filed a complaint with the FTC
+	------------------------------
+
+
+List(Causal, Event) => native settlements were feeling the pressure of Colonial expansion , which led to disputes over land , notably
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => pressure of Colonial expansion
+	controller (CM_event, CM, Entity) => native settlements were feeling the pressure of Colonial expansion
+	controlled (CM_NP, CM, Entity) => disputes over land , notably
+	------------------------------
+
+
+List(Causal, Event) => Eliot attempted to mediate the quarrel , but _ in the greatest of ironies _ his `` peace initiative , '' writes Cogley , `` inadvertently '' led to war
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Eliot
+	controller (CM_event, CM, Entity) => Eliot attempted to mediate the quarrel
+	controlled (CM_NP, CM, Entity) => war
+	------------------------------
+
+
+List(Causal, Event) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead to a compromise peace deal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => desire
+	controller (CM_event, CM, Entity) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead
+	controlled (CM_NP, CM, Entity) => compromise peace deal
+	------------------------------
+
+
+List(Causal, Event) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead to a compromise peace deal
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => desire
+	controller (CM_event, CM, Entity) => Fighters in the organization report a mood of creeping pessimism and worries that the West 's desire to avoid a land war may lead
+	controlled (CM_NP, CM, Entity) => compromise peace deal
+	------------------------------
+
+
+List(Causal, Event) => relying on efforts to streamline supply lines that instead led to more logjams
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => efforts
+	controller (CM_event, CM, Entity) => relying on efforts
+	controlled (CM_NP, CM, Entity) => more logjams
+	------------------------------
+
+
+List(Causal, Event) => Winds from the south in the Ohio Valley are the result of a strong high pressure system which is anchored just
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => Winds from the south in the Ohio Valley
+	controller (CM_NP, CM, Entity) => strong high pressure system
+	controller (CM_event, CM, Entity) => strong high pressure system which is anchored just
+	------------------------------
+
+
+List(Causal, Event) => Northern California and the Pacific Northwest , however , will be mostly sunny and much warmer as winds blow down the mountains toward the Coast , causing the air to warm
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_event, CM, Entity) => air to warm
+	controller (CM_NP, CM, Entity) => Northern California
+	controller (CM_NP, CM, Entity) => Northern
+	controller (CM_NP, CM, Entity) => Northern California
+	controller (CM_NP, CM, Entity) => Pacific Northwest
+	controller (CM_NP, CM, Entity) => Pacific
+	controller (CM_NP, CM, Entity) => Pacific Northwest
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from U.S. nuclear weapons labs had led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+
+List(Causal, Event) => theft of secrets from U.S. nuclear weapons labs had led to spectacular gains
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => theft of secrets
+	controlled (CM_NP, CM, Entity) => spectacular gains
+	------------------------------
+
+

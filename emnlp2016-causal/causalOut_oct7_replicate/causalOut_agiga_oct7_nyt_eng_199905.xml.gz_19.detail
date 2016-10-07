@@ -1,0 +1,369 @@
+List(Causal, Event) => He is also seeking to limit the number of issues that could lead to destructive divisions
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => number of issues
+	controller (CM_NP, CM, Entity) => issues
+	controller (CM_event, CM, Entity) => He is also seeking to limit the number of issues
+	controller (CM_event, CM, Entity) => limit the number of issues
+	controlled (CM_NP, CM, Entity) => destructive divisions
+	------------------------------
+
+
+List(Causal, Event) => appearance at the Curb Market caused an exciting buzz
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => exciting buzz
+	controller (CM_NP, CM, Entity) => appearance
+	------------------------------
+
+
+List(Causal, Event) => first time since the Colorado high school shootings , the Senate began debate Tuesday on youth violence legislation that could lead to new gun control provisions as well as tougher law enforcement measures
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => youth violence legislation
+	controller (CM_event, CM, Entity) => first time since the Colorado high school shootings , the Senate began debate Tuesday on youth violence legislation
+	controlled (CM_NP, CM, Entity) => new gun control provisions
+	controlled (CM_NP, CM, Entity) => tougher law enforcement measures
+	------------------------------
+
+
+List(Causal, Event) => troubles are causing apprehension for rocket users as well as flight delays
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => apprehension for rocket users as well as flight delays
+	controller (CM_NP, CM, Entity) => troubles
+	------------------------------
+
+
+List(Causal, Event) => dearth in hiring in the industry in the early 1980s has resulted in a cadre of well-educated new engineers in their 20s and early 30s and a seasoned group over age 55 who are approaching retirement
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => cadre of well-educated new engineers in their 20s and early 30s
+	controlled (CM_NP, CM, Entity) => seasoned group
+	controlled (CM_event, CM, Entity) => seasoned group over age 55 who are approaching retirement
+	controller (CM_NP, CM, Entity) => dearth in hiring in the industry in the early 1980s
+	------------------------------
+
+
+List(Causal, Event) => help identify markets for American investors that , through trade and commercial agreements , lead to new jobs and economic development
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => markets for American investors
+	controller (CM_event, CM, Entity) => help identify markets for American investors
+	controller (CM_event, CM, Entity) => identify markets for American investors
+	controlled (CM_NP, CM, Entity) => new jobs
+	controlled (CM_NP, CM, Entity) => economic development
+	------------------------------
+
+
+List(Causal, Event) => ease of use is the result of a very intricate system
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => ease of use
+	controller (CM_NP, CM, Entity) => very intricate system
+	------------------------------
+
+
+List(Causal, Event) => protracted war that causes even greater economic and human damage
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => even greater economic and human damage
+	controller (CM_NP, CM, Entity) => protracted war
+	------------------------------
+
+
+List(Causal, Event) => she told that newspaper 's staff that she had a brain tumor that would almost certainly result in her death
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => brain tumor
+	controller (CM_event, CM, Entity) => she told that newspaper 's staff that she had a brain tumor
+	controller (CM_event, CM, Entity) => she had a brain tumor
+	------------------------------
+
+
+List(Causal, Event) => inquiries , in turn , led to far-reaching changes
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => inquiries
+	controlled (CM_NP, CM, Entity) => far-reaching changes
+	------------------------------
+
+
+List(Causal, Event) => attire caused a raucous
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => raucous
+	controller (CM_NP, CM, Entity) => attire
+	------------------------------
+
+
+List(Causal, Event) => attire caused a raucous
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => raucous
+	controller (CM_NP, CM, Entity) => attire
+	------------------------------
+
+
+List(Causal, Event) => attire caused a raucous
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => raucous
+	controller (CM_NP, CM, Entity) => attire
+	------------------------------
+
+
+List(Causal, Event) => meeting that caused some surprise and consternation
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => surprise
+	controlled (CM_NP, CM, Entity) => consternation
+	controller (CM_NP, CM, Entity) => meeting
+	------------------------------
+
+
+List(Causal, Event) => attire caused a raucous
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => raucous
+	controller (CM_NP, CM, Entity) => attire
+	------------------------------
+
+
+List(Causal, Event) => attire caused a raucous
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => raucous
+	controller (CM_NP, CM, Entity) => attire
+	------------------------------
+
+
+List(Causal, Event) => police affidavit that led to a search of Tunei 's home
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => police affidavit
+	controlled (CM_NP, CM, Entity) => search of Tunei 's home
+	------------------------------
+
+
+List(Causal, Event) => police search of Tuinei 's home led to the seizure of a pipe , a marijuana cigarette and one ecstasy pill
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => police search of Tuinei 's home
+	controlled (CM_NP, CM, Entity) => seizure of a pipe
+	controlled (CM_NP, CM, Entity) => marijuana cigarette
+	controlled (CM_NP, CM, Entity) => ecstasy pill
+	------------------------------
+
+
+List(Causal, Event) => new freedom , a new world order for music , would result from overarching speculation
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => new freedom
+	controller (CM_NP, CM, Entity) => overarching speculation
+	------------------------------
+
+
+List(Causal, Event) => Goldman Sachs helped finance mergers and acquisitions that led to the layoffs of 74,000 workers
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => mergers
+	controller (CM_event, CM, Entity) => Goldman Sachs helped finance mergers and acquisitions
+	controller (CM_event, CM, Entity) => finance mergers and acquisitions
+	controller (CM_NP, CM, Entity) => acquisitions
+	controller (CM_event, CM, Entity) => Goldman Sachs helped finance mergers and acquisitions
+	controller (CM_event, CM, Entity) => finance mergers and acquisitions
+	controlled (CM_NP, CM, Entity) => layoffs of 74,000 workers
+	------------------------------
+
+
+List(Causal, Event) => scandal led to prison terms for 28 police officers
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => scandal
+	controlled (CM_NP, CM, Entity) => prison terms for 28 police officers
+	------------------------------
+
+
+List(Causal, Event) => second error of the season led to a Milwaukee run
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => second error of the season
+	controlled (CM_NP, CM, Entity) => Milwaukee run
+	------------------------------
+
+
+List(Causal, Event) => unsettled pitching needs , accented by Randy Johnson 's contract situation , led to a slow start
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => unsettled pitching needs , accented
+	controlled (CM_NP, CM, Entity) => slow start
+	------------------------------
+
+
+List(Causal, Event) => Don Zinger , assistant director of the Environmental Protection Agency 's Office of Mobile Sources , in Washington , said the additives reduced the level of more-toxic chemicals , including benzene , which resulted in fewer toxic emissions from tailpipes
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => level of more-toxic chemicals , including benzene
+	controlled (CM_NP, CM, Entity) => more-toxic chemicals , including benzene
+	controlled (CM_NP, CM, Entity) => benzene
+	controlled (CM_event, CM, Entity) => Don Zinger , assistant director of the Environmental Protection Agency 's Office of Mobile Sources , in Washington , said the additives reduced the level of more-toxic chemicals , including benzene
+	controlled (CM_event, CM, Entity) => additives reduced the level of more-toxic chemicals , including benzene
+	controller (CM_NP, CM, Entity) => tailpipes
+	------------------------------
+
+
+List(Causal, Event) => offense that would surely result in more runs
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => more runs
+	controller (CM_NP, CM, Entity) => offense
+	------------------------------
+
+
+List(Causal, Event) => Even this way of thinking only leads to more intolerable thoughts
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Even this way of thinking
+	controlled (CM_NP, CM, Entity) => more intolerable thoughts
+	------------------------------
+
+
+List(Causal, Event) => Even this way of thinking only leads to more intolerable thoughts
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Even this way of thinking
+	controlled (CM_NP, CM, Entity) => more intolerable thoughts
+	------------------------------
+
+
+List(Causal, Event) => trail is leading to the U.N.
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_NP, CM, Entity) => trail
+	controlled (CM_NP, CM, Entity) => U.N.
+	------------------------------
+
+
+List(Causal, Event) => trail is leading to the U.N.
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leading to
+	controller (CM_NP, CM, Entity) => trail
+	controlled (CM_NP, CM, Entity) => U.N.
+	------------------------------
+
+
+List(Causal, Event) => outpouring of support , said Franco , caused him to reflect on his humble beginnings
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to reflect on his humble beginnings
+	controller (CM_NP, CM, Entity) => outpouring of support
+	controller (CM_NP, CM, Entity) => outpouring of support
+	controller (CM_NP, CM, Entity) => support
+	------------------------------
+
+
+List(Causal, Event) => outpouring of support , said Franco , caused him to reflect on his humble beginnings
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to reflect on his humble beginnings
+	controller (CM_NP, CM, Entity) => outpouring of support
+	controller (CM_NP, CM, Entity) => outpouring of support
+	controller (CM_NP, CM, Entity) => support
+	------------------------------
+
+

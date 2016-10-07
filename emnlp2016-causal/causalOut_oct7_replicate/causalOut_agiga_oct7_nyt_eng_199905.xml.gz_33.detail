@@ -1,0 +1,343 @@
+List(Causal, Event) => claiming that the cable companies currently enjoy an unfair advantage as a result of `` disparate regulatory treatment
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => unfair advantage
+	controlled (CM_event, CM, Entity) => claiming that the cable companies currently enjoy an unfair advantage
+	controlled (CM_event, CM, Entity) => cable companies currently enjoy an unfair advantage
+	controller (CM_NP, CM, Entity) => disparate regulatory treatment
+	------------------------------
+
+
+List(Causal, Event) => many features lead to complications
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => many features
+	controlled (CM_NP, CM, Entity) => complications
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => It did go from there , '' Rooney said , referring to the mostly secret efforts that resulted in Tuesday 's legislation
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => legislation
+	controller (CM_NP, CM, Entity) => mostly secret efforts
+	controller (CM_event, CM, Entity) => It did go from there , '' Rooney said , referring to the mostly secret efforts
+	controller (CM_event, CM, Entity) => referring to the mostly secret efforts
+	------------------------------
+
+
+List(Causal, Event) => move , '' he said , `` would cause untold damage to the rule of law , the independence of the judiciary , the ` one country-two systems ' arrangement and the so-called ` high degree of autonomy
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => untold damage to the rule of law , the independence of the judiciary , the ` one country-two systems ' arrangement and the so-called ` high degree of autonomy
+	controller (CM_NP, CM, Entity) => move
+	------------------------------
+
+
+List(Causal, Event) => sight of them caused the tribal leaders to weep
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => tribal leaders to weep
+	controller (CM_NP, CM, Entity) => sight of them
+	controller (CM_NP, CM, Entity) => sight of them
+	------------------------------
+
+
+List(Causal, Event) => It did go from there , '' Rooney said , referring to the mostly secret efforts that resulted in Tuesday 's legislation
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => legislation
+	controller (CM_NP, CM, Entity) => mostly secret efforts
+	controller (CM_event, CM, Entity) => It did go from there , '' Rooney said , referring to the mostly secret efforts
+	controller (CM_event, CM, Entity) => referring to the mostly secret efforts
+	------------------------------
+
+
+List(Causal, Event) => erosion could be caused by the churning of sediments
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => erosion
+	controller (CM_NP, CM, Entity) => churning of sediments
+	------------------------------
+
+
+List(Causal, Event) => dust from spent depleted uranium shells has caused an explosion of cancers
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => explosion of cancers
+	controller (CM_NP, CM, Entity) => dust
+	------------------------------
+
+
+List(Causal, Event) => dust from spent depleted uranium shells has caused an explosion of cancers
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => explosion of cancers
+	controller (CM_NP, CM, Entity) => dust
+	------------------------------
+
+
+List(Causal, Event) => movie was created by computer
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => movie
+	controller (CM_NP, CM, Entity) => computer
+	------------------------------
+
+
+List(Causal, Event) => It allowed him time for a self-assessment that has resulted in a complete change of mind-set
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => complete change of mind-set
+	controller (CM_NP, CM, Entity) => time for a self-assessment
+	controller (CM_NP, CM, Entity) => self-assessment
+	controller (CM_event, CM, Entity) => It allowed him time for a self-assessment
+	------------------------------
+
+
+List(Causal, Event) => vast majority of service returns at Toshiba , he said , are a result of software problems
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => vast majority of service returns
+	controller (CM_NP, CM, Entity) => software problems
+	------------------------------
+
+
+List(Causal, Event) => combination of solar heating and lifting by the cold front resulted in heavy thunderstorms , which left as much as three inches of rain
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => heavy thunderstorms
+	controlled (CM_event, CM, Entity) => heavy thunderstorms , which left as much as three inches of rain
+	controller (CM_NP, CM, Entity) => combination of solar heating and lifting
+	------------------------------
+
+
+List(Causal, Event) => recording by the Albany choir led to Young 's selection
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => recording
+	controlled (CM_NP, CM, Entity) => selection
+	------------------------------
+
+
+List(Causal, Event) => success led to other performers
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => success
+	controlled (CM_NP, CM, Entity) => other performers
+	------------------------------
+
+
+List(Causal, Event) => information '' button on the Occupational Safety and Health Administration home page -LRB- www.osha.gov -RRB- leads to a directive
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => information '' button on the Occupational Safety and Health Administration home page
+	controlled (CM_NP, CM, Entity) => directive
+	------------------------------
+
+
+List(Causal, Event) => Julia Mania could cause a jealous backlash with other flavor-of-the-season celebs
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => jealous backlash with other flavor-of-the-season celebs
+	controller (CM_NP, CM, Entity) => Julia Mania
+	controller (CM_NP, CM, Entity) => Julia
+	controller (CM_NP, CM, Entity) => Julia Mania
+	------------------------------
+
+
+List(Causal, Event) => part of a process that would still take some time and should eventually lead to a U.N. Security Council resolution on Kosovo
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => part of a process
+	controller (CM_NP, CM, Entity) => process
+	controller (CM_event, CM, Entity) => part of a process that would still take some time
+	controlled (CM_NP, CM, Entity) => U.N. Security Council resolution on Kosovo
+	------------------------------
+
+
+List(Causal, Event) => dream caused the king to study many religions
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => king to study many religions
+	controller (CM_NP, CM, Entity) => dream
+	------------------------------
+
+
+List(Causal, Event) => losses they 've suffered as a result of fishing restrictions in Glacier Bay National Park
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => losses they 've suffered
+	controller (CM_NP, CM, Entity) => fishing restrictions in Glacier Bay National Park
+	------------------------------
+
+
+List(Causal, Event) => Flint strike last summer led to layoffs of nearly 200,000 workers at GM and thousands of employees
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Flint strike
+	controller (CM_NP, CM, Entity) => last summer
+	controlled (CM_NP, CM, Entity) => layoffs of nearly 200,000 workers
+	controlled (CM_NP, CM, Entity) => thousands of employees
+	------------------------------
+
+

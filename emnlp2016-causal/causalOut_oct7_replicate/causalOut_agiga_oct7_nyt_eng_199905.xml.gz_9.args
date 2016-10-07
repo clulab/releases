@@ -1,0 +1,11 @@
+take_VBG substantial_JJ step_NN	-->	death_NN
+failure_NNS	-->	loss_NN MONEY_NER MONEY_NER worth_JJ military_JJ commercial_JJ satellite_NNS
+back-to-back_JJ ORGANIZATION_NER failure_NNS	-->	ORGANIZATION_NER lose_VBN significant_JJ opportunity_NN establish_VB market_NN desperately_RB need_VBZ more_RBR powerful_JJ rocket_NNS launch_VB today_NN new_JJ generation_NN heavier_JJR communication_NN satellite_NNS such_JJ ORGANIZATION_NER say_VBD PERSON_NER
+car_NN develop_VBD malfunction_NN	-->	carburetor_JJ fire_NN
+Sequencing_NNP	-->	understanding_NN structure_NN
+Structure_NNP	-->	understanding_NN function_NN
+research_NN	-->	whole_JJ new_JJ world_NN medicine_NN pharmacology_NN agriculture_NN chemical_NN treatment_NNS compound_NNS
+subject_VBG ORGANIZATION_NER smear_NN sample_NN simultaneous_JJ ORDINAL_NER test_NN papilloma_JJ virus_NN	-->	most_JJS cervical_JJ cancer_NN
+absorb_VBG vitamin_NNP C_NNP	-->	treatment_NNS disease_NNS
+Dreamlife_NNP Angels_NNPS	-->	quite_RB stir_NN
+right_JJ man_NN	-->	spark_NNS

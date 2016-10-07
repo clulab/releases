@@ -1,0 +1,451 @@
+List(Causal, Event) => Philadelphia version results in a brighter taste
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => brighter taste
+	controller (CM_NP, CM, Entity) => Philadelphia version
+	------------------------------
+
+
+List(Causal, Event) => pleasure I derive from serving this dish remains , in part , a result of its origins , which occurred
+	------------------------------
+	Rule => result_3
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => pleasure
+	controlled (CM_event, CM, Entity) => pleasure I derive
+	controller (CM_NP, CM, Entity) => origins
+	controller (CM_event, CM, Entity) => origins , which occurred
+	------------------------------
+
+
+List(Causal, Event) => computerized systems such as ATMs , gasoline pumps and credit cards could cause a consumer crisis
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => consumer crisis
+	controller (CM_NP, CM, Entity) => computerized systems
+	------------------------------
+
+
+List(Causal, Event) => Shigellosis , which occurs within 12 to 24 hours and lasts three to five days , causes fever , serious abdominal cramps , nausea and diarrhea
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => fever , serious abdominal cramps
+	controlled (CM_NP, CM, Entity) => fever , serious abdominal cramps
+	controlled (CM_NP, CM, Entity) => nausea
+	controlled (CM_NP, CM, Entity) => diarrhea
+	controller (CM_NP, CM, Entity) => Shigellosis
+	controller (CM_event, CM, Entity) => Shigellosis , which occurs within 12 to 24 hours
+	controller (CM_event, CM, Entity) => Shigellosis , which occurs within 12 to 24 hours and lasts
+	------------------------------
+
+
+List(Causal, Event) => forms of shigella , generally found in developing countries , can cause dysentery
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => dysentery
+	controller (CM_NP, CM, Entity) => forms of shigella
+	controller (CM_NP, CM, Entity) => forms of shigella
+	controller (CM_NP, CM, Entity) => shigella
+	------------------------------
+
+
+List(Causal, Event) => dysentery , which may lead to kidney failure and death
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => dysentery
+	controlled (CM_NP, CM, Entity) => kidney failure
+	controlled (CM_NP, CM, Entity) => death
+	------------------------------
+
+
+List(Causal, Event) => percent of the cases reviewed by management resulted in no action
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => action
+	controller (CM_NP, CM, Entity) => percent of the cases
+	------------------------------
+
+
+List(Causal, Event) => percent resulted in some sort of sanction
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => sort of sanction
+	controller (CM_NP, CM, Entity) => percent
+	------------------------------
+
+
+List(Causal, Event) => plot led to a stunning season finale
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => plot
+	controlled (CM_NP, CM, Entity) => stunning season finale
+	------------------------------
+
+
+List(Causal, Event) => polls , what leads to this violence
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => polls
+	controlled (CM_NP, CM, Entity) => violence
+	------------------------------
+
+
+List(Causal, Event) => Filial resistance leads to acts of violence that would never have penetrated the universe of Lindsay and Crouse
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => Filial resistance
+	controlled (CM_NP, CM, Entity) => acts of violence
+	controlled (CM_event, CM, Entity) => acts of violence that would never have penetrated the universe of Lindsay and Crouse
+	------------------------------
+
+
+List(Causal, Event) => He visited the family of Sandra Puente , who graduated from the University of Texas at Brownsville last weekend as a result of an empowerment zone program that helped pay her tuition
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => He visited the family of Sandra Puente
+	controller (CM_NP, CM, Entity) => empowerment zone program
+	controller (CM_event, CM, Entity) => empowerment zone program that helped pay her tuition
+	------------------------------
+
+
+List(Causal, Event) => He visited the family of Sandra Puente , who graduated from the University of Texas at Brownsville last weekend as a result of an empowerment zone program that helped pay her tuition
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => He visited the family of Sandra Puente
+	controller (CM_NP, CM, Entity) => empowerment zone program
+	controller (CM_event, CM, Entity) => empowerment zone program that helped pay her tuition
+	------------------------------
+
+
+List(Causal, Event) => embarking on wars in Croatia and Bosnia that led to the loss of Serbian lands
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => wars in Croatia and Bosnia
+	controller (CM_event, CM, Entity) => embarking on wars in Croatia and Bosnia
+	controlled (CM_NP, CM, Entity) => loss of Serbian lands
+	------------------------------
+
+
+List(Causal, Event) => blanket ban would cause difficulties
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => difficulties
+	controller (CM_NP, CM, Entity) => blanket ban
+	controller (CM_NP, CM, Entity) => blanket
+	controller (CM_NP, CM, Entity) => blanket ban
+	------------------------------
+
+
+List(Causal, Event) => elderly , who often suffer balance problems that can lead to dangerous falls
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => balance problems
+	controller (CM_event, CM, Entity) => elderly , who often suffer balance problems
+	controlled (CM_NP, CM, Entity) => dangerous falls
+	------------------------------
+
+
+List(Causal, Event) => mechanisms that trigger such problems , which could then lead to methods
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => such problems
+	controller (CM_event, CM, Entity) => mechanisms that trigger such problems
+	controlled (CM_NP, CM, Entity) => methods
+	------------------------------
+
+
+List(Causal, Event) => widespread use of a vaccine that may cause serious side-effects
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => serious side-effects
+	controller (CM_NP, CM, Entity) => widespread use of a vaccine
+	controller (CM_NP, CM, Entity) => vaccine
+	------------------------------
+
+
+List(Causal, Event) => P.R.C. stole design information on the United States ' most advanced thermonuclear weapons as a result of a sustained espionage effort
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => P.R.C. stole design information on the United States ' most advanced thermonuclear weapons
+	controller (CM_NP, CM, Entity) => sustained espionage effort
+	------------------------------
+
+
+List(Causal, Event) => U.S. research and development work on electromagnetic weapons technology has been illegally obtained by the P.R.C. as a result of successful espionage
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => U.S. research and development work on electromagnetic weapons technology has been illegally obtained by the P.R.C.
+	controller (CM_NP, CM, Entity) => successful espionage
+	------------------------------
+
+
+List(Causal, Event) => recommendations led to improvements in the P.R.C. 's rockets
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => recommendations
+	controlled (CM_NP, CM, Entity) => improvements in the P.R.C. 's rockets
+	------------------------------
+
+
+List(Causal, Event) => information and assistance conveyed by Loral and Hughes led to improvements to the guidance system of the P.R.C. 's Long March 3B rocket
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => information
+	controller (CM_NP, CM, Entity) => assistance
+	controlled (CM_NP, CM, Entity) => improvements to the guidance system of the P.R.C. 's Long March 3B rocket
+	------------------------------
+
+
+List(Causal, Event) => valuable additional information that exposed the P.R.C. to Western diagnostic processes that could lead to improvements in the reliability of all P.R.C. ballistic missiles
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Western diagnostic processes
+	controller (CM_event, CM, Entity) => valuable additional information that exposed the P.R.C. to Western diagnostic processes
+	controlled (CM_NP, CM, Entity) => improvements in the reliability of all P.R.C. ballistic missiles
+	------------------------------
+
+
+List(Causal, Event) => report and the leaks of some of the report 's discovery of Chinese nuclear espionage have caused a furor in Congress
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => furor in Congress
+	controller (CM_NP, CM, Entity) => report
+	controller (CM_NP, CM, Entity) => leaks of some of the report 's discovery
+	controller (CM_NP, CM, Entity) => leaks of some of the report 's discovery
+	controller (CM_NP, CM, Entity) => leaks of some of the report 's discovery
+	controller (CM_NP, CM, Entity) => discovery of Chinese nuclear espionage
+	------------------------------
+
+
+List(Causal, Event) => report is likely to cause damage to two causes Dicks cares
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => damage
+	controlled (CM_NP, CM, Entity) => damage to two causes Dicks cares
+	controller (CM_NP, CM, Entity) => report
+	------------------------------
+
+
+List(Causal, Event) => she be given credit for effects that result from facts
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => effects
+	controlled (CM_event, CM, Entity) => she be given credit for effects
+	controller (CM_NP, CM, Entity) => facts
+	------------------------------
+
+
+List(Causal, Event) => wide differences in expansion-rate estimates , which resulted in a range of cosmic ages
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => range of cosmic ages
+	controller (CM_NP, CM, Entity) => wide differences in expansion-rate estimates
+	------------------------------
+
+
+List(Causal, Event) => Now the estimates by rival teams are beginning to converge on numbers that lead to ages of the universe similar to or greater
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => numbers
+	controller (CM_event, CM, Entity) => Now the estimates by rival teams are beginning to converge on numbers
+	controller (CM_event, CM, Entity) => converge on numbers
+	controlled (CM_NP, CM, Entity) => ages of the universe similar to or greater
+	------------------------------
+
+
+List(Causal, Event) => observations of distances to certain types of exploding stars have consistently led to lower values for the Hubble constant , usually less than 60 , and thus
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => observations of distances to certain types
+	controlled (CM_NP, CM, Entity) => lower values for the Hubble constant , usually less than 60 , and thus
+	controlled (CM_NP, CM, Entity) => lower values for the Hubble constant , usually less than 60 , and thus
+	------------------------------
+
+
+List(Causal, Event) => cosmic dark energy exists that opposes the self-attraction of matter and causes the expansion of the universe to accelerate
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_event, CM, Entity) => expansion of the universe to accelerate
+	controller (CM_NP, CM, Entity) => cosmic dark energy
+	controller (CM_event, CM, Entity) => cosmic dark energy exists that opposes the self-attraction of matter
+	------------------------------
+
+
+List(Causal, Event) => esthetic sense caused him to be widely admired
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to be widely admired
+	controller (CM_NP, CM, Entity) => esthetic sense
+	------------------------------
+
+
+List(Causal, Event) => report is likely to cause damage to two causes Dicks cares
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => damage
+	controlled (CM_NP, CM, Entity) => damage to two causes Dicks cares
+	controller (CM_NP, CM, Entity) => report
+	------------------------------
+
+
+List(Causal, Event) => profit-taking led to a 25-cent decline
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => profit-taking
+	controlled (CM_NP, CM, Entity) => 25-cent decline
+	------------------------------
+
+
+List(Causal, Event) => percent resulted in fines
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => fines
+	controller (CM_NP, CM, Entity) => percent
+	------------------------------
+
+
+List(Causal, Event) => count of smuggling that resulted in death
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => death
+	controller (CM_NP, CM, Entity) => count of smuggling
+	------------------------------
+
+
+List(Causal, Event) => questions of possible trade security lapses that have allowed U.S. technology to leak to China as a result of financial contributions to Clinton 's re-election campaign
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => questions of possible trade security lapses that have allowed U.S. technology to leak to China
+	controlled (CM_event, CM, Entity) => U.S. technology to leak to China
+	controller (CM_NP, CM, Entity) => financial contributions to Clinton 's re-election campaign
+	------------------------------
+
+
+List(Causal, Event) => possibility of a new investigation could lead to concern
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => possibility of a new investigation
+	controlled (CM_NP, CM, Entity) => concern
+	------------------------------
+
+
+List(Causal, Event) => names of the two senior military officers who were accused of dereliction of duty as a result of the bombing of Pearl Harbor in 1941
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => names of the two senior military officers who were accused
+	controller (CM_NP, CM, Entity) => bombing of Pearl Harbor in 1941
+	------------------------------
+
+

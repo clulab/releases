@@ -1,0 +1,251 @@
+List(Causal, Event) => radical change in business vision to cause equally radical personnel shifts , which can disrupt the business
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => equally radical personnel shifts
+	controlled (CM_event, CM, Entity) => equally radical personnel shifts , which can disrupt the business
+	controller (CM_NP, CM, Entity) => radical change in business vision
+	controller (CM_NP, CM, Entity) => radical change in business vision
+	controller (CM_NP, CM, Entity) => business vision
+	controller (CM_NP, CM, Entity) => radical change in business vision
+	controller (CM_NP, CM, Entity) => business
+	controller (CM_NP, CM, Entity) => business vision
+	------------------------------
+
+
+List(Causal, Event) => that will undercut the elected government and cause it to fall
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => it to fall
+	controller (CM_event, CM, Entity) => that will undercut the elected government
+	------------------------------
+
+
+List(Causal, Event) => government investigation caused him to learn
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => him to learn
+	controller (CM_NP, CM, Entity) => government investigation
+	controller (CM_NP, CM, Entity) => government
+	controller (CM_NP, CM, Entity) => government investigation
+	------------------------------
+
+
+List(Causal, Event) => Congress could force the spinners onto the Department of Defense payroll or cause agonizing layoffs in the White House basement
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => agonizing layoffs in the White House basement
+	controller (CM_NP, CM, Entity) => Congress
+	controller (CM_event, CM, Entity) => Congress could force the spinners onto the Department of Defense payroll
+	------------------------------
+
+
+List(Causal, Event) => role that has led to scores of political killings and human rights abuses
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => role
+	controlled (CM_NP, CM, Entity) => scores of political killings and human rights abuses
+	------------------------------
+
+
+List(Causal, Event) => defense resulted in a 24-second violation for Miami when Mourning gave up the ball and Terry Porter failed to get off a shot
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => defense
+	controller (CM_event, CM, Entity) => when Mourning gave up the ball
+	controller (CM_event, CM, Entity) => Terry Porter failed to get off a shot
+	------------------------------
+
+
+List(Causal, Event) => result of the contact , the front end of his car began to vibrate
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => front end of his car began to vibrate
+	controller (CM_NP, CM, Entity) => contact
+	------------------------------
+
+
+List(Causal, Event) => US Secretary of State Madeleine K. Albright and British Foreign Minister Robin Cook expressed deep regret Sunday that `` there have been perhaps hundreds of innocent casualties as a result of NATO action
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => perhaps hundreds of innocent casualties
+	controlled (CM_event, CM, Entity) => US Secretary of State Madeleine K. Albright and British Foreign Minister Robin Cook expressed deep regret Sunday that `` there have been perhaps hundreds of innocent casualties
+	controller (CM_NP, CM, Entity) => NATO action
+	------------------------------
+
+
+List(Causal, Event) => earning degrees that lead to higher-paying jobs in engineering and computer technology
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => earning degrees
+	controlled (CM_NP, CM, Entity) => higher-paying jobs in engineering and computer technology
+	------------------------------
+
+
+List(Causal, Event) => rising deficit would have caused the value of the dollar to fall
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => value of the dollar
+	controlled (CM_NP, CM, Entity) => value of the dollar to fall
+	controlled (CM_event, CM, Entity) => fall
+	controlled (CM_NP, CM, Entity) => value of the dollar to fall
+	controller (CM_NP, CM, Entity) => rising deficit
+	------------------------------
+
+
+List(Causal, Event) => Sometimes people pop in on a Saturday with stumpers like , `` How many bones are in a cat 's tail ? '' A quick check of any of the anatomy books leads to the answer
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => quick check of any of the anatomy books
+	controller (CM_event, CM, Entity) => Sometimes people pop in on a Saturday with stumpers like , `` How many bones are in a cat 's tail ? '' A quick check of any of the anatomy books leads
+	controlled (CM_NP, CM, Entity) => answer
+	------------------------------
+
+
+List(Causal, Event) => So far , they have avoided the lopsided losses that exacerbated problems and led to crises in confidence
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => lopsided losses
+	controller (CM_event, CM, Entity) => So far , they have avoided the lopsided losses
+	controller (CM_event, CM, Entity) => lopsided losses that exacerbated problems
+	controlled (CM_NP, CM, Entity) => crises in confidence
+	------------------------------
+
+
+List(Causal, Event) => incident that led to his being
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => incident
+	controlled (CM_NP, CM, Entity) => being
+	------------------------------
+
+
+List(Causal, Event) => Centers Antoine Carr and Stanley Roberts had injury problems that led to conditioning troubles
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => injury problems
+	controller (CM_event, CM, Entity) => Centers Antoine Carr and Stanley Roberts had injury problems
+	controlled (CM_NP, CM, Entity) => conditioning troubles
+	------------------------------
+
+
+List(Causal, Event) => role that has led to scores of political killings and human rights abuses
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => role
+	controlled (CM_NP, CM, Entity) => scores of political killings and human rights abuses
+	------------------------------
+
+
+List(Causal, Event) => pervasive programming flaw that could cause many computers to misread the date
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => many computers to misread the date
+	controller (CM_NP, CM, Entity) => pervasive programming flaw
+	controller (CM_NP, CM, Entity) => programming
+	controller (CM_NP, CM, Entity) => pervasive programming flaw
+	------------------------------
+
+
+List(Causal, Event) => many features lead to complications
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => many features
+	controlled (CM_NP, CM, Entity) => complications
+	------------------------------
+
+
+List(Causal, Event) => many features lead to complications
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => many features
+	controlled (CM_NP, CM, Entity) => complications
+	------------------------------
+
+
+List(Causal, Event) => double-parked cars cause a problem
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => problem
+	controller (CM_NP, CM, Entity) => double-parked cars
+	------------------------------
+
+
+List(Causal, Event) => tragic and terminal hereditary disease that causes devastating neuro-degeneration in about one in every thousand people
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => devastating neuro-degeneration in about one in every thousand people
+	controller (CM_NP, CM, Entity) => tragic and terminal hereditary disease
+	------------------------------
+
+
+List(Causal, Event) => too much nitrogen can lead to rhizome rot
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => too much nitrogen
+	controlled (CM_NP, CM, Entity) => rhizome rot
+	------------------------------
+
+

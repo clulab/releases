@@ -1,0 +1,11 @@
+revolutionary_JJ change_NN status_NN	-->	woman_NNS now_RB face_VBP
+revolutionary_JJ change_NN status_NN	-->	woman_NNS now_RB face_VBP
+disease_NN	-->	facial_JJ paralysis_NN,irregular_JJ heartbeat_NN,arthritis_NN,numbness_NN,death_NN
+longer_JJR cross_JJ time_NNS	-->	more_RBR vehicular_JJ congestion_NN
+loss_NN son_NN PERSON_NER drunken_JJ driver_NN	-->	involvement_NN
+crack_NN toilet_NN	-->	arrest_NN
+chic_JJ white_JJ suit_NN gold_JJ button_NNS	-->	problem_NN
+decision_NN	-->	ruckus_NN
+saffron-perfumed_JJ chicken_NN dish_NN eat_VBD	-->	honey-saffron_JJ Bavarian_NNP mousse_NN sliced_JJ peach_NNS
+inquiry_NNS	-->	far-reaching_JJ change_NNS
+methyl_NN tertiary_JJ butyl_NN ether_NN,ORGANIZATION_NER	-->	cancer_NN

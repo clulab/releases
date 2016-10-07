@@ -1,0 +1,128 @@
+List(Causal, Event) => Many steps led to the house
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Many steps
+	controlled (CM_NP, CM, Entity) => house
+	------------------------------
+
+
+List(Causal, Event) => Many steps led to the house
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Many steps
+	controlled (CM_NP, CM, Entity) => house
+	------------------------------
+
+
+List(Causal, Event) => Many steps led to the house
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => Many steps
+	controlled (CM_NP, CM, Entity) => house
+	------------------------------
+
+
+List(Causal, Event) => increasing commercialization of the fire department causing any concerns
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causing
+	controlled (CM_NP, CM, Entity) => concerns
+	controller (CM_NP, CM, Entity) => increasing commercialization of the fire department
+	controller (CM_NP, CM, Entity) => increasing commercialization of the fire department
+	controller (CM_NP, CM, Entity) => fire department
+	controller (CM_NP, CM, Entity) => increasing commercialization of the fire department
+	controller (CM_NP, CM, Entity) => fire
+	controller (CM_NP, CM, Entity) => fire department
+	------------------------------
+
+
+List(Causal, Event) => percent of these journeys result in expenditures of at least $
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => expenditures of at least $
+	controller (CM_NP, CM, Entity) => percent of these journeys
+	------------------------------
+
+
+List(Causal, Event) => passage of the initiative caused relations with Mexico to grow
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => relations with Mexico to grow
+	controller (CM_NP, CM, Entity) => passage of the initiative
+	controller (CM_NP, CM, Entity) => passage of the initiative
+	controller (CM_NP, CM, Entity) => initiative
+	------------------------------
+
+
+List(Causal, Event) => connection led to the couple
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => connection
+	controlled (CM_NP, CM, Entity) => couple
+	------------------------------
+
+
+List(Causal, Event) => current earthquake activity may eventually lead to renewed volcanic activity
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => current earthquake activity
+	controlled (CM_NP, CM, Entity) => renewed volcanic activity
+	------------------------------
+
+
+List(Causal, Event) => dust from spent depleted uranium shells has caused an explosion of cancers
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => explosion of cancers
+	controller (CM_NP, CM, Entity) => dust
+	------------------------------
+
+
+List(Causal, Event) => dust from spent depleted uranium shells has caused an explosion of cancers
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => explosion of cancers
+	controller (CM_NP, CM, Entity) => dust
+	------------------------------
+
+
+List(Causal, Event) => way that leads to a steep drop
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => way
+	controlled (CM_NP, CM, Entity) => steep drop
+	------------------------------
+
+

@@ -1,0 +1,391 @@
+List(Causal, Event) => advent of super-high-quality color photocopiers has led to an apparent boom in counterfeiting of money
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => advent of super-high-quality color photocopiers
+	controlled (CM_NP, CM, Entity) => apparent boom in counterfeiting of money
+	------------------------------
+
+
+List(Causal, Event) => half have eye exams to detect early disease that leads to blindness
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => early disease
+	controller (CM_event, CM, Entity) => half have eye exams to detect early disease
+	controller (CM_event, CM, Entity) => detect early disease
+	controlled (CM_NP, CM, Entity) => blindness
+	------------------------------
+
+
+List(Causal, Event) => Worldwide reports suggest that most countries , after they face a tragedy such as the one at Columbine High School , immediately take action that results in stronger handgun control laws
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => stronger handgun control laws
+	controller (CM_NP, CM, Entity) => action
+	controller (CM_event, CM, Entity) => Worldwide reports suggest that most countries , after they face a tragedy such as the one at Columbine High School , immediately take action
+	controller (CM_event, CM, Entity) => most countries , after they face a tragedy such as the one at Columbine High School , immediately take action
+	------------------------------
+
+
+List(Causal, Event) => Boteach focuses on enduring relationships as a result of his parents ' breakup
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => Boteach focuses on enduring relationships
+	controller (CM_NP, CM, Entity) => breakup
+	------------------------------
+
+
+List(Causal, Event) => Emphasis on sex results in men and women
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => results
+	controlled (CM_NP, CM, Entity) => men
+	controlled (CM_NP, CM, Entity) => women
+	controller (CM_NP, CM, Entity) => Emphasis on sex
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => Chronic infection of the middle ear can cause hearing impairment
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hearing impairment
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => Chronic infection of the middle ear
+	controller (CM_NP, CM, Entity) => middle ear
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => More pressure from you may just cause her to repeat it
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to repeat it
+	controller (CM_NP, CM, Entity) => More pressure
+	------------------------------
+
+
+List(Causal, Event) => fear leads to anger
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => leads to
+	controller (CM_NP, CM, Entity) => fear
+	controlled (CM_NP, CM, Entity) => anger
+	------------------------------
+
+
+List(Causal, Event) => previous pay range _ $ 150 to $ 175 per hour _ resulted in a torrent of criticism
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => torrent of criticism
+	controller (CM_NP, CM, Entity) => previous pay range
+	------------------------------
+
+
+List(Causal, Event) => warmer atmosphere , according to this view , causes more water
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_NP, CM, Entity) => more water
+	controller (CM_NP, CM, Entity) => warmer atmosphere
+	------------------------------
+
+
+List(Causal, Event) => foundation was created in 1972 by Sir John M. Templeton
+	------------------------------
+	Rule => create_1
+	Type => EventMention
+	------------------------------
+	trigger => created
+	controlled (CM_NP, CM, Entity) => foundation
+	controller (CM_NP, CM, Entity) => Sir John M. Templeton
+	------------------------------
+
+
+List(Causal, Event) => financial collapse last August set off a train of events that caused damage
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => damage
+	controller (CM_NP, CM, Entity) => train of events
+	controller (CM_NP, CM, Entity) => events
+	controller (CM_event, CM, Entity) => financial collapse last August set off a train of events
+	------------------------------
+
+
+List(Causal, Event) => financial collapse last August set off a train of events that caused damage
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => damage
+	controller (CM_NP, CM, Entity) => train of events
+	controller (CM_NP, CM, Entity) => events
+	controller (CM_event, CM, Entity) => financial collapse last August set off a train of events
+	------------------------------
+
+
+List(Causal, Event) => earlier this week caused the White House website to be closed
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => White House website to be closed
+	controller (CM_NP, CM, Entity) => earlier this week
+	------------------------------
+
+
+List(Causal, Event) => earlier this week caused the White House website to be closed
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => White House website to be closed
+	controller (CM_NP, CM, Entity) => earlier this week
+	------------------------------
+
+
+List(Causal, Event) => only a special pass led to the VIP room
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => only a special pass
+	controlled (CM_NP, CM, Entity) => VIP room
+	------------------------------
+
+
+List(Causal, Event) => improvement has resulted from better equipment
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => improvement
+	controller (CM_NP, CM, Entity) => better equipment
+	------------------------------
+
+
+List(Causal, Event) => liposuction , which may cause a variety of life-threatening complications
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => variety of life-threatening complications
+	controller (CM_NP, CM, Entity) => liposuction
+	------------------------------
+
+
+List(Causal, Event) => claiming that the cable companies currently enjoy an unfair advantage as a result of `` disparate regulatory treatment
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => unfair advantage
+	controlled (CM_event, CM, Entity) => claiming that the cable companies currently enjoy an unfair advantage
+	controlled (CM_event, CM, Entity) => cable companies currently enjoy an unfair advantage
+	controller (CM_NP, CM, Entity) => disparate regulatory treatment
+	------------------------------
+
+
+List(Causal, Event) => claiming that the cable companies currently enjoy an unfair advantage as a result of `` disparate regulatory treatment
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => unfair advantage
+	controlled (CM_event, CM, Entity) => claiming that the cable companies currently enjoy an unfair advantage
+	controlled (CM_event, CM, Entity) => cable companies currently enjoy an unfair advantage
+	controller (CM_NP, CM, Entity) => disparate regulatory treatment
+	------------------------------
+
+
+List(Causal, Event) => huge budget surpluses of the past two years resulted not only from rising personal incomes and corporate earnings , but also from investors ' taking some profits
+	------------------------------
+	Rule => result_4
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => huge budget surpluses of the past two years
+	controller (CM_NP, CM, Entity) => rising personal incomes
+	controller (CM_NP, CM, Entity) => corporate earnings
+	controller (CM_event, CM, Entity) => investors ' taking some profits
+	------------------------------
+
+
+List(Causal, Event) => only willful acts will result in dismissals
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => dismissals
+	controller (CM_NP, CM, Entity) => only willful acts
+	------------------------------
+
+
+List(Causal, Event) => battle with depression , which led to a 1990 suicide attempt and , finally , to treatment
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => battle with depression
+	controlled (CM_NP, CM, Entity) => suicide attempt
+	controlled (CM_NP, CM, Entity) => treatment
+	------------------------------
+
+

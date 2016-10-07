@@ -1,0 +1,379 @@
+List(Causal, Event) => selloff _ prompted by fears of rising inflation _ caused the market 's worst percentage decline in more than 10 weeks
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => worst percentage decline in more than 10 weeks
+	controller (CM_NP, CM, Entity) => selloff
+	------------------------------
+
+
+List(Causal, Event) => challenger Ehud Barak , who has vowed to jumpstart negotiations that might ultimately lead to Palestinian statehood
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => negotiations
+	controller (CM_event, CM, Entity) => challenger Ehud Barak , who has vowed to jumpstart negotiations
+	controller (CM_event, CM, Entity) => jumpstart negotiations
+	controlled (CM_NP, CM, Entity) => Palestinian statehood
+	------------------------------
+
+
+List(Causal, Event) => extending their hours beyond the current sessions , which last from 9:30 a.m. to 4 p.m. , the exchanges will cause untold changes in the lives of thousands of traders , clerks and others who work
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => untold changes in the lives of thousands of traders , clerks and others
+	controlled (CM_event, CM, Entity) => untold changes in the lives of thousands of traders , clerks and others who work
+	controlled (CM_NP, CM, Entity) => hours
+	controlled (CM_event, CM, Entity) => extending their hours
+	controller (CM_NP, CM, Entity) => exchanges
+	------------------------------
+
+
+List(Causal, Event) => failure of these efforts would inevitably lead to greater pressure for a ground invasion of Kosovo
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => failure of these efforts
+	controlled (CM_NP, CM, Entity) => greater pressure for a ground invasion of Kosovo
+	------------------------------
+
+
+List(Causal, Event) => government reports , as well as desultory bidding at the Treasury 's note auction on Wednesday , may have contributed to the further unease over rates and caused investors to focus again on the Federal Reserve 's stated inclination
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_event, CM, Entity) => investors to focus again on the Federal Reserve 's stated inclination
+	controller (CM_NP, CM, Entity) => government reports
+	controller (CM_event, CM, Entity) => government reports , as well as desultory bidding at the Treasury 's note auction on Wednesday , may have contributed to the further unease
+	controller (CM_NP, CM, Entity) => government
+	controller (CM_NP, CM, Entity) => government reports
+	controller (CM_event, CM, Entity) => government reports , as well as desultory bidding at the Treasury 's note auction on Wednesday , may have contributed to the further unease
+	controller (CM_NP, CM, Entity) => desultory bidding
+	controller (CM_event, CM, Entity) => government reports , as well as desultory bidding at the Treasury 's note auction on Wednesday , may have contributed to the further unease
+	------------------------------
+
+
+List(Causal, Event) => first two conflicts were caused by disagreements
+	------------------------------
+	Rule => causal_5
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => first two conflicts
+	controller (CM_NP, CM, Entity) => disagreements
+	------------------------------
+
+
+List(Causal, Event) => cord injury can cause permanent paralysis and loss of sensation
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => permanent paralysis
+	controlled (CM_NP, CM, Entity) => loss of sensation
+	controller (CM_NP, CM, Entity) => cord injury
+	controller (CM_NP, CM, Entity) => cord
+	controller (CM_NP, CM, Entity) => cord injury
+	------------------------------
+
+
+List(Causal, Event) => interest in companies that install and maintain complex information networks , which has led to speculation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => complex information networks
+	controller (CM_event, CM, Entity) => interest in companies that install and maintain complex information networks
+	controlled (CM_NP, CM, Entity) => speculation
+	------------------------------
+
+
+List(Causal, Event) => threat to break the agreement unless an American team was allowed to inspect the underground site led to warnings
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => threat
+	controlled (CM_NP, CM, Entity) => warnings
+	------------------------------
+
+
+List(Causal, Event) => snit with baseball over the ESPN\/MNF issue could lead to ESPN
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => snit with baseball
+	controlled (CM_NP, CM, Entity) => ESPN
+	------------------------------
+
+
+List(Causal, Event) => He left ABC to work CART events as a result of the snit
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => He left ABC to work CART events
+	controlled (CM_event, CM, Entity) => ABC to work CART events
+	controller (CM_NP, CM, Entity) => snit
+	------------------------------
+
+
+List(Causal, Event) => connection with a $ 10,000 payment that led to the arrest of a former employee
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => connection with a $ 10,000 payment
+	controller (CM_NP, CM, Entity) => $ 10,000 payment
+	controlled (CM_NP, CM, Entity) => arrest of a former employee
+	------------------------------
+
+
+List(Causal, Event) => victim lost an eye as a result of the attack
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => victim lost an eye
+	controller (CM_NP, CM, Entity) => attack
+	------------------------------
+
+
+List(Causal, Event) => connection with a $ 10,000 payment that led to the arrest of a former employee
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => connection with a $ 10,000 payment
+	controller (CM_NP, CM, Entity) => $ 10,000 payment
+	controlled (CM_NP, CM, Entity) => arrest of a former employee
+	------------------------------
+
+
+List(Causal, Event) => threatened boycott of the race by several major newspapers caused even more bad publicity for the irrational IRL ring leader
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => caused
+	controlled (CM_NP, CM, Entity) => more bad publicity for the irrational IRL ring leader
+	controller (CM_NP, CM, Entity) => threatened boycott of the race
+	controller (CM_NP, CM, Entity) => threatened boycott of the race
+	controller (CM_NP, CM, Entity) => race
+	------------------------------
+
+
+List(Causal, Event) => spectators were killed as a result of crashed open-wheel cars
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_event, CM, Entity) => spectators were killed
+	controller (CM_NP, CM, Entity) => open-wheel cars
+	------------------------------
+
+
+List(Causal, Event) => It was a shot that tied the score and led to an overtime victory
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => shot
+	controller (CM_event, CM, Entity) => It was a shot that tied the score
+	controlled (CM_NP, CM, Entity) => overtime victory
+	------------------------------
+
+
+List(Causal, Event) => experiment resulted in a 3-point binge
+	------------------------------
+	Rule => result_1
+	Type => EventMention
+	------------------------------
+	trigger => resulted
+	controlled (CM_NP, CM, Entity) => 3-point binge
+	controller (CM_NP, CM, Entity) => experiment
+	------------------------------
+
+
+List(Causal, Event) => Bernstein faces a total of 15 years in prison and fines of $ 750,000 as a result of the guilty pleas
+	------------------------------
+	Rule => result_2
+	Type => EventMention
+	------------------------------
+	trigger => result
+	controlled (CM_NP, CM, Entity) => total of 15 years in prison and fines of $
+	controlled (CM_NP, CM, Entity) => fines of $
+	controlled (CM_event, CM, Entity) => Bernstein faces a total of 15 years in prison and fines of $
+	controller (CM_NP, CM, Entity) => guilty pleas
+	------------------------------
+
+
+List(Causal, Event) => proposed union would cause too much concentration in the military shipbuilding business
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => too much concentration in the military shipbuilding business
+	controller (CM_NP, CM, Entity) => proposed union
+	------------------------------
+
+
+List(Causal, Event) => illness would cause her to step down from the state Supreme Court as well
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_event, CM, Entity) => her to step down from the state Supreme Court as well
+	controller (CM_NP, CM, Entity) => illness
+	------------------------------
+
+
+List(Causal, Event) => extending their hours , the exchanges would cause
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => cause
+	controlled (CM_NP, CM, Entity) => hours
+	controlled (CM_event, CM, Entity) => extending their hours
+	controller (CM_NP, CM, Entity) => exchanges
+	------------------------------
+
+
+List(Causal, Event) => $ 10,000 payment that led to the arrest of a former employee
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => $ 10,000 payment
+	controlled (CM_NP, CM, Entity) => arrest of a former employee
+	------------------------------
+
+
+List(Causal, Event) => All-Star second baseman Craig Biggio , who went 0-for-5 and committed a first-inning error that led to two unearned runs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => first-inning error
+	controller (CM_event, CM, Entity) => All-Star second baseman Craig Biggio , who went 0-for-5 and committed a first-inning error
+	controlled (CM_NP, CM, Entity) => unearned runs
+	------------------------------
+
+
+List(Causal, Event) => erring on a routine play that led to a pair of unearned Colorado runs
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => routine play
+	controller (CM_event, CM, Entity) => erring on a routine play
+	controlled (CM_NP, CM, Entity) => pair of unearned Colorado runs
+	------------------------------
+
+
+List(Causal, Event) => enhanced production scheme led to ABC 's retention of the Indianapolis
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => enhanced production scheme
+	controlled (CM_NP, CM, Entity) => retention of the Indianapolis
+	------------------------------
+
+
+List(Causal, Event) => New York baserunners , who stole three bases and hurried rookie catcher Creighton Gubanich into a throwing error that led to the go-ahead run
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => led to
+	controller (CM_NP, CM, Entity) => throwing error
+	controller (CM_event, CM, Entity) => New York baserunners , who stole three bases and hurried rookie catcher Creighton Gubanich into a throwing error
+	controlled (CM_NP, CM, Entity) => go-ahead run
+	------------------------------
+
+
+List(Causal, Event) => talks that could lead to a reconciliation
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => talks
+	controlled (CM_NP, CM, Entity) => reconciliation
+	------------------------------
+
+
+List(Causal, Event) => Talking may lead to something
+	------------------------------
+	Rule => led_to_1
+	Type => EventMention
+	------------------------------
+	trigger => lead to
+	controller (CM_NP, CM, Entity) => Talking
+	controlled (CM_NP, CM, Entity) => something
+	------------------------------
+
+
+List(Causal, Event) => recovery causes policymakers and companies to conclude that they do not need to make
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_event, CM, Entity) => policymakers and companies to conclude that they do not need to make
+	controller (CM_NP, CM, Entity) => recovery
+	------------------------------
+
+
+List(Causal, Event) => recovery causes policymakers and companies to conclude that they do not need to make
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_event, CM, Entity) => policymakers and companies to conclude that they do not need to make
+	controller (CM_NP, CM, Entity) => recovery
+	------------------------------
+
+
+List(Causal, Event) => recovery causes policymakers and companies to conclude that they do not need to make
+	------------------------------
+	Rule => PosReg_syntax_1_verb
+	Type => EventMention
+	------------------------------
+	trigger => causes
+	controlled (CM_event, CM, Entity) => policymakers and companies to conclude that they do not need to make
+	controller (CM_NP, CM, Entity) => recovery
+	------------------------------
+
+

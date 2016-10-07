@@ -1,0 +1,14 @@
+be_VBP scandal_NNS illness_NNS other_JJ reason_NNS	-->	pastor_NNS rabbi_NN leave_VB post_NNS abruptly_RB
+be_VBP scandal_NNS illness_NNS other_JJ reason_NNS	-->	pastor_NNS rabbi_NN leave_VB post_NNS abruptly_RB
+potent_JJ combination_NN	-->	predictable_JJ revival_NN
+potent_JJ combination_NN	-->	predictable_JJ revival_NN
+such_JJ research_NN	-->	successful_JJ optical_JJ switch_NNS,router_NNS
+success_NN	-->	late-1980s_JJ burnout_NN PERSON_NER leave_VBD PERSON_NER
+assimilation_NN,intermarriage_NN	-->	documentary_NN jewish_JJ Soul_NNP american_JJ beat_NN posit_VBZ increase_VBG number_NNS young_JJ Jews_NNPS return_VBG religion_NN
+Challenger_NNP accident_NN	-->	32-month_JJ shutdown_NN
+step_NN	-->	acknowledge_VB hardship_NN
+shedding_NN status_NN,end_NN apartheid_NN	-->	PERSON_NER believe_VBZ country_NN blossom_VBN
+something_NN see_VBD news_NN DATE_NER DATE_NER	-->	fear_NN
+inability_NN	-->	disaster_NN
+something_NN see_VBD news_NN DATE_NER DATE_NER	-->	fear_NN
+inability_NN	-->	disaster_NN
