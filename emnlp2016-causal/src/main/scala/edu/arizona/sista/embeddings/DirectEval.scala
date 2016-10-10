@@ -2,7 +2,8 @@ package edu.arizona.sista.embeddings
 
 import java.io.{BufferedReader, FileReader, PrintWriter}
 
-import _root_.extractionUtils.{CausalAlignment, TranslationMatrixLimited, Word2vec}
+import _root_.extractionUtils.{CausalAlignment, TranslationMatrixLimited}
+import edu.arizona.sista.qa.word2vec.Word2vec
 import edu.arizona.sista.struct.{Counter, Lexicon}
 import edu.arizona.sista.utils.StringUtils
 
