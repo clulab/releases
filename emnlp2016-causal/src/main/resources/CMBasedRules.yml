@@ -79,7 +79,7 @@ rules:
     priority: 4
     pattern: |
       trigger = [mention=VP & !lemma=/(cause|result|lead|create)/]
-      deps:Entity* = /^(nsubj|nn|amod|advmod|ccmod|prep_(with|for|into|on|to)|dobj|xcomp|ccomp|agent|vmod)/{1,2}   #+ 
+      deps:Entity* = /^(nsubj|nn|amod|advmod|ccmod|prep_(with|for|into|on|to)|dobj|xcomp|ccomp|agent|vmod)/{1,3}   #+ 
 
 
   - name: CM_expansion_2
@@ -88,7 +88,7 @@ rules:
     pattern: |
       trigger = [mention=NP & !lemma=/(cause|result)/]
       #deps:Entity* = /^((?!(conj_.+|mark|parataxis|dep|punct)).)+$/{1,3}   #+ 
-      deps:Entity* = /^(nn|amod|advmod|ccmod|prep_(of|with|for|into|on|to|in)|dobj)/{1,2}   #+ 
+      deps:Entity* = /^(nn|amod|advmod|ccmod|prep_(of|with|for|into|on|to|in)|dobj)/{1,3}   #+ 
 
   - name: CM_expansion_3_copular
     label: CM_event
@@ -103,7 +103,7 @@ rules:
     priority: 5
     example: "... will cause huge <np> damage to the reef <\np>."
     pattern: |
-      trigger = [tag=/^NN/ & !lemma=/(cause|result|lead|create)/]
+      trigger = [mention=CM & !lemma=/(cause|result|lead|create)/]
       modifier:CM = <dobj [lemma=cause & tag=/^VB/] >/(prep_(to|for|of))|xcomp/
 
 #
@@ -115,7 +115,7 @@ rules:
     priority: 9
     example: ""
     pattern: |
-      trigger = [lemma=cause] 
+      trigger = [lemma=cause]
       controlled:CM+ = prepc_by? (dobj | xcomp | ccomp) # /conj|dep|dobj|cc|nn|prep_of|prep_in|amod/{,2} (>> [word=by]){,2}
       controller:CM+ = <xcomp? (nsubj | agent | <vmod) /appos|nn|conj_|cc|prep_of|prep_in/{,2}
       #ex:NP? = dobj? prep_such_as  
@@ -127,7 +127,7 @@ rules:
     pattern: |
       trigger = [lemma=cause & tag=/^VB/]
       controlled:CM+ = dobj 
-      controller:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = nsubj
 
   - name: causal_3
     label: Causal
@@ -136,7 +136,7 @@ rules:
     pattern: |
       trigger = [lemma=cause & tag=/^VB/]
       controlled:CM_event+ = xcomp 
-      controller:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = nsubj
 
   - name: causal_4
     label: Causal
@@ -145,7 +145,7 @@ rules:
     pattern: |
       trigger = [lemma=cause & tag=/^NN/]
       controlled:CM+ = prep_of
-      controller:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = nsubj
 
   - name: causal_5
     label: Causal
@@ -154,7 +154,7 @@ rules:
     pattern: |
       trigger = [lemma=cause & tag=/^VB/]
       controlled:CM+ = nsubjpass
-      controller:CM+ = agent (?! <agent >neg)
+      controller:CM+ = agent
 
   - name: causal_6
     label: Causal
@@ -163,7 +163,7 @@ rules:
     pattern: |
       trigger = [lemma=cause & tag=/^VB/]
       controlled:CM_NP = <rcmod (?= >rcmod >nsubj [tag=WDT])
-      controller:CM+ = dobj (?! <dobj >neg)
+      controller:CM+ = dobj
 
   - name: causal_7
     label: Causal
@@ -182,7 +182,7 @@ rules:
     pattern: |
       trigger = [lemma=result & tag=/^VB/]
       controlled:CM+ = prep_in
-      controller:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = nsubj
 
   - name: result_2
     label: Causal
@@ -199,7 +199,7 @@ rules:
     example: "X was the result of Y"
     pattern: |
       trigger = [lemma=result & tag=/^NN/]
-      controlled:CM+ = nsubj (?! <nsubj >neg)
+      controlled:CM+ = nsubj
       controller:CM+ = prep_of
 
   - name: result_4
@@ -208,7 +208,7 @@ rules:
     example: "Jet lag results when the body 's internal clock is out of sync with daily life , making people sleepy when they want to be awake and wakeful when they want to sleep."
     pattern: |
       trigger = [lemma=result & tag=/^VB/]
-      controlled:CM+ = nsubj (?! <nsubj >neg)
+      controlled:CM+ = nsubj
       controller:CM+ = /(advcl|prep_from)/
 
   - name: led_to_1
@@ -217,7 +217,7 @@ rules:
     example: "X led to Y"
     pattern: |
       trigger = [lemma=lead & tag=/^(VB|NN)/] to
-      controller:CM+ = nsubj (?! <nsubj >neg)
+      controller:CM+ = nsubj
       controlled:CM+ = prep_to
 
   - name: create_1
@@ -226,7 +226,7 @@ rules:
     example: "X was created by Y"
     pattern: |
       trigger = [lemma=create & tag=/^VB/]  # do I need to add "create" to the other "stop list"?
-      controlled:CM+ = nsubjpass (?! <nsubjpass >neg)
+      controlled:CM+ = nsubjpass
       controller:CM+ = agent
 
 #  - name: after_1
