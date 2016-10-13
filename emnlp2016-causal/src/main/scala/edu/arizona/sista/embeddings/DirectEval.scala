@@ -511,11 +511,11 @@ object DirectEval {
     val matrixPrefix = props.getProperty("matrix.prefix")
     val translationMatrix = new TranslationMatrixLimited(s"$matrixPrefix.matrix", s"$matrixPrefix.priors")
 
-    // 1c: Load in the Vanilla Alignment Matrix
+    // 1d: Load in the Vanilla Alignment Matrix
     val matrixPrefixVanilla = props.getProperty("matrix.prefix.baseline")
     val translationMatrixVanilla = new TranslationMatrixLimited(s"$matrixPrefixVanilla.matrix", s"$matrixPrefixVanilla.priors")
 
-    // 1d: Load the extracted pairs for finding the counting baseline
+    // 1e: Load the extracted pairs for finding the counting baseline
     val extractedPairsDir = props.getProperty("extracted_pairs.directory")
     val extractedPairs = CausalAlignment.loadData(extractedPairsDir, "argsC", lenThreshold = 4)
 
@@ -524,6 +524,7 @@ object DirectEval {
     val nTagrgt = targetPairs.length
     println (s"* $nTagrgt target pairs loaded.")
     val otherPairsAll = loadPairs(props.getProperty("input.other"), label = OTHER_LABEL)
+
 
     // Create dev and test partitions of target and other pairs
     val random = new Random
