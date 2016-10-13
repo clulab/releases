@@ -142,40 +142,6 @@ object DirectEval {
     scored
   }
 
-  // Finds the tie-aware average MRR of the items with relevant label
-  def avgMRR[L](sorted:Seq[((Double, L), Int)], relevantLabel:L): (Double, Seq[Double]) = {
-
-    //val MRRs = new Array[Double](sorted.length)
-    val MRRs = new ArrayBuffer[Double]
-    var MRRSum:Double = 0.0
-    var numTarget:Double = 0.0
-
-    // Organize the scores in groups (so that all ties are together), and sorted by descending score
-    val groupedByScore: Seq[(Double, Seq[((Double, L), Int)])] = sorted.groupBy(_._1._1).toSeq.sortBy(- _._1)
-
-    // For each tie group:
-    for (i <- groupedByScore.indices) {
-      // Retrieve the scored items in that tie group
-      val itemsInGroup: Seq[((Double, L), Int)] = groupedByScore(i)._2
-      for (item <- itemsInGroup) {
-        val similarity = item._1
-        val label = similarity._2
-        val currMRR:Double = 1.0 / (i+1).toDouble
-        // Store the MRR for the item in the correct position
-        val originalIndex = item._2
-        //MRRs(originalIndex) = currMRR
-
-        // Add relevant MRRs to the running total
-        if (label == relevantLabel) {
-          MRRs.append(currMRR)
-          MRRSum += currMRR
-          numTarget += 1.0
-        }
-      }
-    }
-
-    (MRRSum / numTarget, MRRs)
-  }
 
   // Takes the sorted, scored items a Seq[((score, label), originalIndex)], also takes the label for relevant items
   // Returns the tie-aware MAP as a Double
@@ -206,56 +172,7 @@ object DirectEval {
 
     }
 
-//    for (i <- sorted.indices) {
-//      val currPair = sorted(i)._1
-//      val currLabel = currPair._2
-//      // If we're at a relevant result
-//      if (currLabel == relevantLabel) {
-//        // Find the precision for everything up to and including this result
-//        val slice = sorted.slice(0, i + 1)
-//        val slicePrecision = findPrecision(slice.unzip._1, relevantLabel)
-//        avgPrecisions.append(slicePrecision)
-//      }
-//    }
-
     // Find and return the mean
-    avgPrecisions.sum / avgPrecisions.length.toDouble
-  }
-
-  def MAPNotTieAware[L](sorted:Seq[((Double, L), Int)], relevantLabel:L): Double = {
-    val avgPrecisions = new ArrayBuffer[Double]
-
-//    // Organize the scores in groups (so that all ties are together), and sorted by descending score
-//    val groupedByScore: Seq[(Double, Seq[((Double, L), Int)])] = sorted.groupBy(_._1._1).toSeq.sortBy(- _._1)
-//
-//    // For each tie group:
-//    for (i <- groupedByScore.indices) {
-//      // Retrieve the scored items in that tie group
-//      val itemsInGroup: Seq[((Double, L), Int)] = groupedByScore(i)._2
-//      // Check to see if there are any relevant items in the group
-//      val numRelevant = itemsInGroup.unzip._1.count(scored => scored._2 == relevantLabel)
-//      if (numRelevant > 0) {
-//        // Make a slice
-//        val slice = groupedByScore.slice(0, i + 1).unzip._2.flatten.unzip._1
-//
-//        // Find the average precision for this slice
-//        val sliceAvgPrecision = findPrecision(slice, relevantLabel)
-//        avgPrecisions.append(sliceAvgPrecision)
-//      }
-//
-//    }
-
-    for (i <- sorted.indices) {
-      val currPair = sorted(i)._1
-      val currLabel = currPair._2
-      // If we're at a relevant result
-      if (currLabel == relevantLabel) {
-        // Find the precision for everything up to and including this result
-        val slice = sorted.slice(0, i + 1)
-        val slicePrecision = findPrecision(slice.unzip._1, relevantLabel)
-        avgPrecisions.append(slicePrecision)
-      }
-        }
     avgPrecisions.sum / avgPrecisions.length.toDouble
   }
 
@@ -269,7 +186,7 @@ object DirectEval {
 
   // Takes the reverse SORTED labeled cosine similarities and returns values for a precision-recall curve
   // TIE-AWARE
-  def recallPrecisionCurve[L](sorted:Seq[(Double, L)], relevantLabel:L): Seq[(Double, Double)] = {
+  def precisionRecallCurve[L](sorted:Seq[(Double, L)], relevantLabel:L): Seq[(Double, Double)] = {
     val curvePoints = new ArrayBuffer[(Double, Double)]
     val numPairs:Double = sorted.length.toDouble
     val numRelevant:Double = sorted.count(item => item._2 == relevantLabel)
@@ -301,54 +218,6 @@ object DirectEval {
         // Store the recall and precision after this item
         curvePoints.append((sliceRecall, slicePrecision))
       }
-
-    }
-
-//    for (i <- sorted.indices) {
-//      val slice = sorted.slice(0, i+1)
-//      val sliceSize:Double = slice.length
-//      val numRelevantInSlice:Double = slice.count(item => item._2 == relevantLabel)
-//
-//      // Recall
-//      val sliceRecall:Double = numRelevantInSlice / numRelevant
-//
-//      // Precision
-//      val slicePrecision:Double = numRelevantInSlice / sliceSize
-//
-//      // Store the recall and precision after this item
-//      curvePoints.append((sliceRecall, slicePrecision))
-//    }
-
-    curvePoints
-  }
-
-  // Takes the reverse SORTED labeled cosine similarities and returns values for a precision-yield curve, using thresholds
-  // TIE-AWARE
-  def precisionRecallCurveByThreshold[L](sorted:Seq[(Double, L)], relevantLabel:L, threshold:Double): Seq[(Double, Double, Double)] = {
-    val curvePoints = new ArrayBuffer[(Double, Double, Double)]
-    val numPairs:Double = sorted.length.toDouble
-    val numRelevant = sorted.filter(p => p._2 == relevantLabel).length
-
-    val cutoffs = -1.0 to 1.0 by threshold
-
-    for (cutoff <- cutoffs.reverse) {
-
-      // Keep items that are scored higher than the current cutoff
-      val slice = sorted.filter(item => item._1 >= cutoff)
-      //val slice = sorted.slice(0, cutoff)
-      val sliceSize:Double = slice.length.toDouble
-      //println (s"Number of items greater than $cutoff: $sliceSize")
-
-      // Recall
-      val relevantInSlice = slice.filter(p => p._2 == relevantLabel).length
-      val sliceRecall:Double = relevantInSlice.toDouble / numRelevant.toDouble
-
-      // Precision
-      val slicePrecision:Double = relevantInSlice.toDouble / sliceSize
-
-
-      // Store the recall and precision after this item
-      curvePoints.append((cutoff, sliceRecall, slicePrecision))
     }
 
     curvePoints
@@ -442,7 +311,6 @@ object DirectEval {
     var oovTarget = 0
     var oovOther = 0
     val padding = Array.fill[Int](30)(0)
-    // 866,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     for ((e1, e2, lab) <- pairs) {
       val e1Index = srcLex.get(e1).getOrElse(0)
       val e2Index = dstLex.get(e2).getOrElse(0)
@@ -532,32 +400,33 @@ object DirectEval {
     val targetShuffled = random.shuffle(targetPairs)
     val otherShuffled = random.shuffle(otherPairsAll)
 
-    // Create a dev and test fold
-    //val (targetDevZ, _) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
-    val (_, targetTestZ) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    // Create DEV folds
+//    val (targetDevZ, _) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
 //    val targetDev = targetDevZ.unzip._1
 //    val devLength = targetDev.length
 //    println (s"There are $devLength dev pairs loaded! First pair: ${targetDev.head}")
-    val targetTest = targetTestZ.unzip._1
-    val testLength = targetTest.length
-    println (s"There are $testLength TEST pairs loaded! First pair: ${targetTest.head}")
-
-    // Step 3: Make a randomized slice of the other pairs of equal length to the target pairs
-    //val (otherDevZ, _) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
-    val (_, otherTestZ) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    // Make a randomized slice of the other pairs of equal length to the target pairs
+//    val (otherDevZ, _) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
 //    val otherDev = otherDevZ.unzip._1.slice(0, devLength)
 //    val otherDevLength = otherDev.length
 //    println (s"There are $otherDevLength dev pairs loaded! First pair: ${otherDev.head}")
+    // Combine to make a direct eval set
+//    val pairs = targetDev ++ otherDev
+
+    // Create TEST folds
+    val (_, targetTestZ) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    val targetTest = targetTestZ.unzip._1
+    val testLength = targetTest.length
+    println (s"There are $testLength TEST pairs loaded! First pair: ${targetTest.head}")
+    // Make a randomized slice of the other pairs of equal length to the target pairs
+    val (_, otherTestZ) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
     val otherTest = otherTestZ.unzip._1.slice(0, testLength)
     val otherTestLength = otherTest.length
     println (s"There are $otherTestLength TEST pairs loaded! First pair: ${otherTest.head}")
-
-
-
-    // Step 3b: Combine to make a direct eval set
-    //val pairs = targetDev ++ otherDev
+    // Combine to make a direct eval set
     val pairs = targetTest ++ otherTest
     println (s"* ${pairs.length} TOTAL pairs.")
+
     //OPTIONAL - save to the format needed to evaluate with Keras
 //    val kerasDir = "/lhome/bsharp/keras/causal/"
 //    saveForKeras(
@@ -593,17 +462,12 @@ object DirectEval {
     println("Alignments calculated.")
 
     // Step 4c: Find the vanilla translation probability for each pair
-    //val lambda: Double = 0.5
     val assnsComparison = calculateAlignments(pairs, translationMatrixVanilla, lambda)
-    //val OOV = assns.filter(scored => scored._1 == Double.NegativeInfinity)
-    //val numOOV: Double = OOV.length
-    //val numOOVRelevant: Double = OOV.count(scored => scored._2 == TARGET_LABEL)
-    //println(s"numOOV: $numOOV\tnumOOVRelevant: $numOOVRelevant (${numOOVRelevant / numOOV}) ")
     println("Vanilla Alignments calculated.")
 
     // 4d: Find the binned counts for each pair
     val counterOut = extractedPairsDir + "/causal.counter.TEST"
-    // Making and saving a new counter
+    // Making and saving a new counter -- Expensive, so use this the first time only
 //    val pairCounter = makeBinnedCounts(extractedPairs._1, extractedPairs._2, pairs)
 //    val pairPW = new PrintWriter(counterOut)
 //    pairCounter.saveTo(pairPW)
@@ -643,7 +507,6 @@ object DirectEval {
     println ("Error Anaysis: CUSTOM")
     errorAnalysis(sortedCustom, pairs, 0.2)
 
-    //sys.exit()
     // Bidirectional Experiment:
     val sortedE2C = cosinesE2C.zipWithIndex.sortBy(- _._1._1)
     val e2cLabels = sortedE2C.unzip._1.unzip._2
@@ -707,7 +570,6 @@ object DirectEval {
     val comparisonMAP = MAP[Int](sortedComparison, relevantLabel = TARGET_LABEL)
     val transMAP = MAP[Int](sortedTrans, relevantLabel = TARGET_LABEL)
     val transMAPcomparison = MAP[Int](sortedTransComparison, relevantLabel = TARGET_LABEL)
-    //val transMAPNoTies = MAPNotTieAware[Int](sortedTrans, relevantLabel = TARGET_LABEL)
     val matchesMAP = MAP[Int](sortedMatches, relevantLabel = TARGET_LABEL)
     val kerasMAP = MAP[Int](sortedKeras, relevantLabel = TARGET_LABEL)
     val randomMAP = MAP[Int](randomized, relevantLabel = TARGET_LABEL)
@@ -720,35 +582,33 @@ object DirectEval {
     println ("MAP for Comparison (Baseline) Vectors: " + comparisonMAP)
     println(s"MAP for Translation Model with lamda of $lambda : " + transMAP)
     println(s"MAP for Vanilla Translation Model with lamda of $lambda : " + transMAPcomparison)
-    //println(s"MAPNoTies for Translation Model with lamda of $lambda : " + transMAPNoTies)
     println ("MAP for counting Matches: " + matchesMAP)
     println ("MAP for Keras: " + kerasMAP)
     println ("MAP for Random: " + randomMAP)
 
 
-    val randomRPCurve = recallPrecisionCurve[Int](randomized.unzip._1, relevantLabel = TARGET_LABEL)
-    val customRPCurve = recallPrecisionCurve[Int](sortedCustom.unzip._1, relevantLabel = TARGET_LABEL)
-    val comparisonRPCurve = recallPrecisionCurve[Int](sortedComparison.unzip._1, relevantLabel = TARGET_LABEL)
-    val transRPCurve = recallPrecisionCurve[Int](sortedTrans.unzip._1, relevantLabel = TARGET_LABEL)
-    val matchingRPCurve = recallPrecisionCurve[Int](sortedMatches.unzip._1, relevantLabel = TARGET_LABEL)
-    val e2cRPCurve = recallPrecisionCurve[Int](sortedE2C.unzip._1, relevantLabel = TARGET_LABEL)
-    val bidirRPCurve = recallPrecisionCurve[Int](sortedBidir.unzip._1, relevantLabel = TARGET_LABEL)
-    val kerasRPCurve = recallPrecisionCurve[Int](sortedKeras.unzip._1, relevantLabel = TARGET_LABEL)
-    val PMIRPCurve = recallPrecisionCurve[Int](sortedPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val e2cPMIRPCurve = recallPrecisionCurve[Int](sortedE2CPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val bidirPMIRPCurve = recallPrecisionCurve[Int](sortedBidirPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val transComparisonRPCurve = recallPrecisionCurve[Int](sortedTransComparison.unzip._1, relevantLabel = TARGET_LABEL)
+    val randomRPCurve = precisionRecallCurve[Int](randomized.unzip._1, relevantLabel = TARGET_LABEL)
+    val customRPCurve = precisionRecallCurve[Int](sortedCustom.unzip._1, relevantLabel = TARGET_LABEL)
+    val comparisonRPCurve = precisionRecallCurve[Int](sortedComparison.unzip._1, relevantLabel = TARGET_LABEL)
+    val transRPCurve = precisionRecallCurve[Int](sortedTrans.unzip._1, relevantLabel = TARGET_LABEL)
+    val matchingRPCurve = precisionRecallCurve[Int](sortedMatches.unzip._1, relevantLabel = TARGET_LABEL)
+    val e2cRPCurve = precisionRecallCurve[Int](sortedE2C.unzip._1, relevantLabel = TARGET_LABEL)
+    val bidirRPCurve = precisionRecallCurve[Int](sortedBidir.unzip._1, relevantLabel = TARGET_LABEL)
+    val kerasRPCurve = precisionRecallCurve[Int](sortedKeras.unzip._1, relevantLabel = TARGET_LABEL)
+    val PMIRPCurve = precisionRecallCurve[Int](sortedPMI.unzip._1, relevantLabel = TARGET_LABEL)
+    val e2cPMIRPCurve = precisionRecallCurve[Int](sortedE2CPMI.unzip._1, relevantLabel = TARGET_LABEL)
+    val bidirPMIRPCurve = precisionRecallCurve[Int](sortedBidirPMI.unzip._1, relevantLabel = TARGET_LABEL)
+    val transComparisonRPCurve = precisionRecallCurve[Int](sortedTransComparison.unzip._1, relevantLabel = TARGET_LABEL)
 
     //saveGraphAsTSV(customRPCurve, "/home/bsharp/causal/customRPCurve.tsv")
     //saveGraphAsTSV(comparisonRPCurve, "/home/bsharp/causal/comparisonRPCurve.tsv")
-    //zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve, matchingRPCurve, e2cRPCurve, bidirRPCurve, PMIRPCurve, e2cPMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve5.tsv")
+    zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve, matchingRPCurve, e2cRPCurve, bidirRPCurve, PMIRPCurve, e2cPMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve5.tsv")
     //zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, bidirRPCurve, PMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve6.tsv")
     //zipPointsAndSave(Seq(comparisonRPCurve, matchingRPCurve, customRPCurve, bidirRPCurve, PMIRPCurve, bidirPMIRPCurve, transRPCurve, kerasRPCurve), "/lhome/bsharp/causal/allRPCurve10Test.tsv")
-    zipPointsAndSave(Seq(transRPCurve), "/lhome/bsharp/causal/transPRCurve_Test.tsv")
-    zipPointsAndSave(Seq(randomRPCurve), "/lhome/bsharp/causal/randomPRCurve_Test.tsv")
+//    zipPointsAndSave(Seq(transRPCurve), "/lhome/bsharp/causal/transPRCurve_Test.tsv")
+//    zipPointsAndSave(Seq(randomRPCurve), "/lhome/bsharp/causal/randomPRCurve_Test.tsv")
 //    zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve), "/home/bsharp/causal/allRPCurve_noMatches.tsv")
 
-//    sys.exit()
     // Step 6b: Statistical Significance of the MAPs
     val n:Int = 10000
 //    val pValueMAP = StatsUtils.runStatsMAP(cosinesCustom, cosinesComparison, n)
