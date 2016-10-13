@@ -147,6 +147,7 @@ package object extractionUtils {
 
     val boundary = s"\t${"-" * 30}\n"
     os.append(s"${mention.labels} => ${mention.text}\n")
+    os.append(s"Sentence index: ${mention.sentence} token interval: ${mention.tokenInterval}\n")
     os.append(boundary)
     os.append(s"\tRule => ${mention.foundBy}\n")
     val mentionType = mention.getClass.toString.split("""\.""").last
