@@ -14,7 +14,6 @@ taxonomy:
   - Event:
     - Causal
 
-#      triggers: activat|caus|contribut|convert|driv|elev|elicit|enabl|enhanc|exacerbat|generat|increas|produc|result|signal|stimul|synthes|trigger
 
 rules:
 
@@ -22,9 +21,6 @@ rules:
 #  Rules for Grammatical Primatives (e.g. noun phrases, prepositional phrases, etc)
 #
 
-  # this rule captures all noun phrases, but the action
-  # filters out the ones that are not transparent
-  # ==> SO - returns ONLY transparent NPs
   - name: entity_rule
     label: Entity
     priority: 1
@@ -32,25 +28,6 @@ rules:
     pattern: |
       [word=/.+/]
 
-  #- name: TransparentChunk
-  #  label: TransparentChunk
-  #  keep: no
-  #  priority: 1
-  #  type: token
-  #  action: handleTransparent
-  #  pattern: |
-  #    [chunk='B-NP'][chunk='I-NP']*
-
-  #- name: np_rule
-  #  label: NP
-  #  priority: 2
-  #  action: filterNounPhrases
-  #  type: token
-  #  pattern: |
-  #    (@TransparentChunk (of|to|like|such as|with))? # optional transparent noun
-  #    [chunk='B-NP' & !mention=TransparentChunk] # don't capture if transparent
-  #    [chunk='I-NP']*
- 
   - name: np_rule_2
     label: NP
     priority: 2
@@ -67,19 +44,12 @@ rules:
     pattern: |
       /^VB/  # verb
       
-#  - name: CM_expansion
-#    label: CM_event
-#    priority: 4
-#    pattern: |
-#      trigger = [mention=VP & !lemma=/(cause|result|lead)/]
-#      deps:Entity* = /^((?!(advcl|mark|parataxis|dep|prep_due_to|prep_because_of|prep_after|conj_but|punct)).)+$/{1,3}   #+ 
-
   - name: CM_expansion
     label: CM_event
     priority: 4
     pattern: |
       trigger = [mention=VP & !lemma=/(cause|result|lead|create)/]
-      deps:Entity* = /^(nsubj|nn|amod|advmod|ccmod|prep_(with|for|into|on|to)|dobj|xcomp|ccomp|agent|vmod)/{1,3}   #+ 
+      deps:Entity* = /^(nsubj|nn|amod|advmod|ccmod|prep_(with|for|into|on|to)|dobj|xcomp|ccomp|agent|vmod)/{1,3}    
 
 
   - name: CM_expansion_2
@@ -87,8 +57,7 @@ rules:
     priority: 3
     pattern: |
       trigger = [mention=NP & !lemma=/(cause|result)/]
-      #deps:Entity* = /^((?!(conj_.+|mark|parataxis|dep|punct)).)+$/{1,3}   #+ 
-      deps:Entity* = /^(nn|amod|advmod|ccmod|prep_(of|with|for|into|on|to|in)|dobj)/{1,3}   #+ 
+      deps:Entity* = /^(nn|amod|advmod|ccmod|prep_(of|with|for|into|on|to|in)|dobj)/{1,3}   
 
   - name: CM_expansion_3_copular
     label: CM_event
@@ -116,9 +85,8 @@ rules:
     example: ""
     pattern: |
       trigger = [lemma=cause]
-      controlled:CM+ = prepc_by? (dobj | xcomp | ccomp) # /conj|dep|dobj|cc|nn|prep_of|prep_in|amod/{,2} (>> [word=by]){,2}
+      controlled:CM+ = prepc_by? (dobj | xcomp | ccomp) 
       controller:CM+ = <xcomp? (nsubj | agent | <vmod) /appos|nn|conj_|cc|prep_of|prep_in/{,2}
-      #ex:NP? = dobj? prep_such_as  
 
   - name: causal_2
     label: Causal
@@ -225,44 +193,7 @@ rules:
     priority: 9
     example: "X was created by Y"
     pattern: |
-      trigger = [lemma=create & tag=/^VB/]  # do I need to add "create" to the other "stop list"?
+      trigger = [lemma=create & tag=/^VB/]  
       controlled:CM+ = nsubjpass
       controller:CM+ = agent
 
-#  - name: after_1
-#    label: Causal
-#    priority: 9
-#    example: "After X, Y"
-#    pattern: |
-#      #trigger = [tag=/^VB/]  
-#      controlled:CM_event
-#      controller:CM_event = prep_after
-
-#  - name: because_of_1
-#    label: Causal
-#    priority: 10
-#    example: ""
-#    pattern: |
-#      #trigger = [mention=CM_event] #[tag=/^VB/]
-#      #trigger = @CM_event #[tag=/^VB/]  
-#      controlled:CM_event
-#      controller:CM = prep_because_of
-
-#  - name: because_of_2
-#    label: Causal
-#    priority: 9
-#    example: ""
-#    pattern: |
-#      #trigger = [tag=/^VB/]  
-#      controlled:CM_event
-#      #controller:CM = advcl (?= mark [lemma=/(because|since|after|once)/])
-#      controller:CM = advcl (?= mark [lemma=/(because)/])
-
-#Is this too broad?
-#  - name: when_rule
-#    label: Causal
-#    priority: 9
-#    example: ""
-#    type: token
-#    pattern: |
-#      @controlled:CM_event when @controller:CM_event

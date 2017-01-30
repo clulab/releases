@@ -553,6 +553,8 @@ object DirectEval {
 
     // Exact Matches Baseline
     val sortedMatches = matches.zipWithIndex.sortBy(- _._1._1)
+    println ("***ERROR ANALYSIS LOOK-UP BASELINE:***")
+    errorAnalysis(sortedMatches, pairs, 0.2)
 
     // Sorted Keras
     val sortedKeras = kerasPredictions.zipWithIndex.sortBy(- _._1._1)

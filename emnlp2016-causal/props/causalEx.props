@@ -4,17 +4,18 @@
 
 DATE = oct7
 SOURCE = agiga
-#FILES = afp
 
+# Location of the rules file
 rules_file = /grammars/causal/CMBasedRules.yml
 
+# Location of your (compressed) annotated gigaword xml files
 data_dir = /data/nlp/corpora/agiga/data/xml/
 
+# The prefix for all outputs generated
 output_prefix = causalOut_oct7_replicate/causalOut_${SOURCE}_${DATE}_
 
+# Used to break larger gigaword files into more manageable chunks
 num_docs_per_output_file = 10000
-
-#timer_filename = ${SOURCE}CausalTimer_${FILES}_${DATE}.txt
 
 view = lemmasWithTags
 
