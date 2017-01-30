@@ -16,7 +16,7 @@ import util.Random
 import java.io.{File, FileReader, PrintWriter}
 import org.slf4j.LoggerFactory
 import scala.Tuple2
-import edu.arizona.sista.qa.discourse.{DiscourseModelTreeKernel, DiscourseModelTree, DiscourseModelCusp, DiscourseModelNGram}
+import edu.arizona.sista.qa.discourse.{DiscourseModelNGram}
 import scala.collection.parallel.ForkJoinTaskSupport
 import scala.collection.mutable
 import edu.arizona.sista.qa.ranking.cache.{JSONFeatureCache, DBFeatureCache, FeatureCache}
@@ -147,16 +147,16 @@ abstract class Ranker(val props:Properties) {
 
     // Step 2: Perform model selection
     val modelSelection = props.getProperty("ranker.model", "cusp")
-    var model: RankingModel = new DiscourseModelNGram(props)
-    if (modelSelection == "cusp") {
-      model = new DiscourseModelCusp(props)
-    } else if (modelSelection == "ngram") {
-      model = new DiscourseModelNGram(props)
-    } else if (modelSelection == "tree") {
-      model = new DiscourseModelTree(props)
-    } else if (modelSelection == "treek") {
-      model = new DiscourseModelTreeKernel(props)
-    }
+    val model: RankingModel = new DiscourseModelNGram(props)
+//    if (modelSelection == "cusp") {
+//      model = new DiscourseModelCusp(props)
+//    } else if (modelSelection == "ngram") {
+//      model = new DiscourseModelNGram(props)
+//    } else if (modelSelection == "tree") {
+//      model = new DiscourseModelTree(props)
+//    } else if (modelSelection == "treek") {
+//      model = new DiscourseModelTreeKernel(props)
+//    }
 
     // Step 3: Load Training, Development, and Test questions
     logger.info ("Reading questions...  ")

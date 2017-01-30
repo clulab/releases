@@ -1,8 +1,10 @@
 package preprocessing
 
+import edu.arizona.sista.qa.word2vec.Word2vec
+
 import java.io.PrintWriter
 import edu.arizona.sista.struct.Lexicon
-import extractionUtils.Word2vec
+
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 

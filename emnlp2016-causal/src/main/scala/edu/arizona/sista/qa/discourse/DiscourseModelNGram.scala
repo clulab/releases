@@ -12,7 +12,7 @@ import edu.arizona.sista.struct.Counter
 import java.util.Properties
 import collection.mutable.ArrayBuffer
 import org.slf4j.LoggerFactory
-import DiscourseModelCusp.logger
+import DiscourseModelNGram.logger
 
 import edu.arizona.sista.utils.{Profiler, StringUtils}
 import java.io.PrintWriter
@@ -151,5 +151,5 @@ class DiscourseModelNGram(props:Properties) extends RankingModel {
 
 
 object DiscourseModelNGram {
-  val logger = LoggerFactory.getLogger(classOf[DiscourseModelCusp])
+  val logger = LoggerFactory.getLogger(classOf[DiscourseModelNGram])
 }

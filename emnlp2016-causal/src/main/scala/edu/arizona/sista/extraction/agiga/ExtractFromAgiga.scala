@@ -62,7 +62,7 @@ object ExtractFromAgiga {
     var causalCount:Int = 0
 
     // Initialize the Odin Extractor
-    val source = io.Source.fromURL(getClass.getResource(props.getProperty("rules_file", "/grammars/causal/CMBasedRules.yml")))
+    val source = io.Source.fromURL(getClass.getResource(props.getProperty("rules_file", "/CMBasedRules.yml")))
     val rules = source.mkString
     println(rules)
     source.close()
