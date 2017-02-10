@@ -24,7 +24,8 @@ If you have questions not covered by this documentation, please feel free to ema
   Becky Sharp (bsharp@email.arizona.edu).
 	
 	
-**NOTE: please extract the data/ dir before running the example code!
+**NOTE: please download and extract the [data dir](https://www.dropbox.com/sh/t59ptfbffcltyzb/AACvmxJloomL1r7Dm2_8rWpva?dl=0) into the repository before running the example code!
+
 
 --------------------------------------------------------------------------------------------
 
