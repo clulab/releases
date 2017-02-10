@@ -1,7 +1,8 @@
 *.class
 *.log
 
-data*
+emnlp2016-causal/data.tar.gz
+data.tar.gz
 
 # sbt specific
 .cache
@@ -20,3 +21,4 @@ project/plugins/project/
 .idea
 debug-features-*
 bootstrap.txt
+.DS_STORE
