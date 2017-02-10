@@ -1,0 +1,6 @@
+HOME = /Users/rebeccas
+input_dir = ${HOME}/Downloads
+input_file_extension = all-sentences.txt
+output_dir = ${HOME}/Downloads
+view = lemmasWithTags
+rules_file = src/main/resources/CMBasedRules.yml

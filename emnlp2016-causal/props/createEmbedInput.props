@@ -1,0 +1,39 @@
+#----------------------------------------
+# Properties for generating input to Levy&Goldberg word2vecf from extracted
+# cause --> effect tuples
+
+#----------------------------------------
+#		General Properties
+#----------------------------------------
+
+# The dir where your extracted tuples live
+mentions_dir = data/causalTuples
+
+# The file extension of your extracted tuples
+extension = argsC
+
+# The prefix for output files (to be used in word2vecf)
+output_prefix = data/word2vec/causal_word2vecf_input
+
+# Discard any causes/effects which AFTER filtering are longer than
+# this (0 deactivates):
+len_threshold = 0
+
+# Remove words which appear less than this number of times:
+# (0 deactivates)
+freq_threshold = 0
+
+#----------------------------------------
+#      Properties for PMI weighting
+#----------------------------------------
+use_pmi_weighting = false
+
+# The previously generated counter used to calculate PMI
+# Included is the one I generated using my rules and annotated gigaword
+# feel free to make your own!
+pmi_counter = data/pmi/pmiCounter_N.txt
+
+# The number of bins for the PMI weighting
+num_pmi_bins = 5
+
+

@@ -1,0 +1,71 @@
+#----------------------------------------------------------------------------
+#  Properties for Direct Evaluation of Vectors on SemEval2010 Task pairs
+#----------------------------------------------------------------------------
+
+# SemEval Input Entity Pairs
+input.target = data/semeval/SEMEVAL_cause_effect_pairs.txt.collapsed.tsv
+input.other = data/semeval/SEMEVAL_NON_cause_effect_pairs.txt.collapsed.tsv
+
+# set to dev or test
+test_on = test
+
+# Location to write the precision-recall curve data
+# Note that the way the file works is that the models are subsequently
+# displayed, so scroll on down!
+precision_recall_data_file = output/PRCurveData.tsv
+
+#----------------------------------------------------------------------------
+# 		Models
+# 		Each can be enabeled or not using the eval_ boolean
+#----------------------------------------------------------------------------
+
+# Causal trans
+eval_causal_trans = true
+matrix.prefix = data/trans/matrix_causal_mar30_argLenThresh0_mf10_ntos_ml1001
+
+# Vanilla trans
+eval_vanilla_trans = true
+matrix.prefix.baseline = data/trans/matrix_trans_yahoo10k_jan17_atoq
+
+# Causal w2v
+eval_causal = true
+vectors.custom_target = data/word2vec/c2e/agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200vecs
+vectors.custom_context = data/word2vec/c2e/agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200context-vecs
+
+# e2c
+eval_e2c = true
+vectors.custom_effect.e2c = data/word2vec/e2c/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.dim200vecs
+vectors.custom_cause.e2c = data/word2vec/e2c/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.dim200context-vecs
+
+# Causal_pmi
+eval_pmi = true
+vectors.pmi_target = data/word2vec/c2e/a+w_mar30_NV_causal_thr0_pmi5NF.dim200vecs
+vectors.pmi_context = data/word2vec/c2e/a+w_mar30_NV_causal_thr0_pmi5NF.dim200context-vecs
+
+# e2c_pmi
+eval_e2c_pmi = true
+vectors.pmi_effect.e2c = data/word2vec/e2c/a+w_mar30_NV_e2c_thr0_pmi5NF.dim200vecs
+vectors.pmi_cause.e2c = data/word2vec/e2c/a+w_mar30_NV_e2c_thr0_pmi5NF.dim200context-vecs
+
+# Vanilla (Baseline) Vectors
+eval_vanilla = true
+vectors.comparison = data/word2vec/vanilla/vectors.txt
+
+# CNN
+eval_cnn = true
+keras_predictions_file = data/cnn/TEST_semEval_predictions_weights.05-0.53_mergedCNN_smaller_mse.hdf5.txt
+
+# Lookup Baseline
+eval_lookup_baseline = true
+
+# If you already generated the lookup baseline, mark as true, otherwise
+# it will be generated (takes a while) in the following location:
+#		[extracted_pairs.directory]/causal.counter.TEST
+# NOTE: provided is my counter for the test partition in data/causalTuples
+load_lookup_baseline = true
+extracted_pairs.directory = data/causalTuples
+
+# Random
+eval_random = true
+
+

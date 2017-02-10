@@ -1,0 +1,225 @@
+#
+# Set OUTPUTDIR = location_of_output_dir in your environment
+#
+OUTPUTDIR = output 
+KERASDIR = keras/causal
+
+FOLD = 0
+
+#ranker.parallelize = true
+#ranker.n_threads = 20
+
+# Saving question info to serve as input to keras (run offline)
+# Note that if set to true will end the process once input is fully dumped
+ranker.dump_keras_input_enabled = false
+ranker.dump_to_directory = /lhome/bsharp/causal/yahoo/3kForCNN/
+
+#################
+
+# Things to care about for the error analysis:
+ranker.incremental_training_report = ${OUTPUTDIR}/REP_noPMI_test_filt+NoCER_CV${FOLD}_rsc0-1_lu100_bi_
+
+
+#################
+
+# 20 docs performs virtually the same as 100 docs and it's much faster
+retrieval.max_docs = 1000
+#retrieval.max_docs = 20
+retrieval.use_paragraph_expansion = false
+retrieval.candidate_sizes = 1p
+
+# best settings without syntax (old model):
+retrieval.doc_weight = 1.0
+#retrieval.doc_weight = 0.6
+retrieval.doc_syntax_weight = 0.0
+retrieval.answer_syntax_weight = 0.0
+
+
+# Ranker parameters
+ranker.svm_c = 0.1
+
+########
+ranker.randomize_question_order = false
+
+############################################################
+# Ranker Model
+############################################################
+# You can use any combination of these models:
+#	word2vecmultiset (used for vanilla w2v)
+#	word2vecrelation (used for causal w2v)
+#	translationrelation (used for causal alignment model)
+#	cnnrelation (used for the cnn model -- needs to be trained in an offline step)
+#	relationlookup (used for relation lookup baseline)
+
+#ranker.model = word2vecmultiset
+#ranker.model = word2vecrelation
+#ranker.model = translationrelation
+#ranker.model = translationrelation,word2vecmultiset
+#ranker.model = translationrelation,word2vecmultiset,word2vecrelation
+#ranker.model = translationrelation,word2vecmultiset,word2vecrelation,relationlookup
+ranker.model = word2vecrelation,word2vecmultiset
+#ranker.model = word2vecrelation,word2vecmultiset,relationlookup
+#ranker.model = word2vecmultiset,relationlookup
+#ranker.model = relationlookup
+#ranker.model = cnnrelation
+#ranker.model = cnnrelation,word2vecrelation,word2vecmultiset,relationlookup
+#ranker.model = cnnrelation,word2vecmultiset
+#ranker.model = cnnrelation,word2vecrelation
+
+ranker.enable_qsegw2v = true
+classifierClass = SVMRankingClassifier
+epochs = 10
+
+# Ranker Parameters
+# currently suppored scoring metrics: P@1, P@5, P@10, P@20
+ranker.scoring_metric = P@1
+
+# currently supported tuning metrics: sent_p1, sent_mrr
+ranker.tuning_metric = sent_p1
+
+ranker.answersfromIR = 20
+ranker.train_method = combined
+ranker.rescale_features.enabled = true
+ranker.rescale_features.lower = 0.0
+ranker.rescale_features.upper = 1.0
+
+cqa_baseline = ir
+cqa_enabled = true
+
+##------------------------------------------------------------------------
+# Yahoo Answers 3k CQA CAUSAL (min 4 answer candidates) corpus:
+YACAUSAL = data/yahoo
+index = ${YACAUSAL}/index
+cqaindex = ${YACAUSAL}/cqa_questions_yadeep_min4_causal.cqa.all.xml
+gold = ${YACAUSAL}/cqa_questions_yadeep_min4_causal.filtered.CV.5Folds.${FOLD}.q.train.xml
+#test = ${YACAUSAL}/cqa_questions_yadeep_min4_causal.filtered.CV.5Folds.${FOLD}.q.dev.xml
+test = ${YACAUSAL}/cqa_questions_yadeep_min4_causal.filtered.CV.5Folds.${FOLD}.q.test.xml
+##------------------------------------------------------------------------
+
+# Limit number of questions (for debugging)
+#ranker.limit_train_questions = 100
+#ranker.limit_dev_questions = 10
+#ranker.limit_test_questions = 200
+
+view.view = lemmas_content
+
+############################################################
+#   TRANSLATION MODEL
+############################################################
+# Not included in the release for simplicity, but feel free to request if you want!
+# Just email Becky Sharp (bsharp@email.arizona.edu)
+
+# Translation Model (use)
+translation.lambda = 0.40
+translation.self = 0.50
+
+translation.model.enable_distance_features = true
+
+translation.w2v_sanitization = true
+
+## define matrices
+translation.n_matrices = 20
+
+translation.model1.name = yahoo_jan17
+translation.model1.enable = true
+translation.model1.matrix_prefix = /data/nlp/corpora/TACL2015_higherorder/matrix_trans_yahoo10k_jan17_atoq
+translation.model1.override_view = words_content
+translation.model1.self_prob = 0.0
+#
+
+
+#######################
+# WORD2VEC MODEL
+#######################
+
+word2vec.n_matrices = 1
+
+word2vec.model1.enable = true
+word2vec.model1.name = vanilla
+word2vec.model1.vectors = data/word2vec/vanilla/vectors.txt
+word2vec.model1.override_view = words_content
+
+
+############################
+# WORD2VEC RELATION MODEL
+############################
+
+word2vec_relation.n_matrices = 5
+
+# The location of your causal w2v embeddings (cause -> effect)
+W2VRELDIR = data/word2vec/c2e
+# The location of your causal w2v embeddings (effect -> cause)
+E2CDIR = data/word2vec/e2c
+
+# Parameters for the Causal W2V model:
+word2vec_relation.model1.enable = true
+word2vec_relation.model1.vectors_target = ${W2VRELDIR}/agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200vecs
+word2vec_relation.model1.vectors_context = ${W2VRELDIR}/agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200context-vecs
+word2vec_relation.model1.vectors_e2c_target = ${E2CDIR}/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.dim200vecs
+word2vec_relation.model1.vectors_e2c_context = ${E2CDIR}/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.dim200context-vecs
+word2vec_relation.model1.name = causal_oct7_1hop
+word2vec_relation.model1.override_view = lemmas_content_noCause
+
+# If you want additional models.... enable any number of these... (not included in release)
+#word2vec_relation.model2.enable = true
+#word2vec_relation.model2.vectors_target = ${W2VRELDIR}/2_agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200vecs
+#word2vec_relation.model2.vectors_context = ${W2VRELDIR}/2_agiga+wiki_mar30_AllLemmas_causal_threshold0.dim200context-vecs
+#word2vec_relation.model2.name = causal_mar30_2hop
+#word2vec_relation.model2.override_view = lemmas_content
+
+word2vec_relation.enable_bidir = true
+
+############################
+# RELATION LOOKUP MODEL
+############################
+# To use, you need to indicate the location and extension of the found causal tuples
+# The argsC files are just the args files generated by the Extractor concatenated together to make life simpler
+relation_lookup.input_directory = data/causalTuples
+relation_lookup.input_extension = argsC 
+relation_lookup.len_threshold = 0
+
+############################
+# CNN RELATION MODEL
+############################
+# Not included in the release for dimpleicity, but feel free to request if you want!
+# Just email Becky Sharp (bsharp@email.arizona.edu)
+
+cnn_relation.n_cnns = 3
+cnn_relation.use_as_backoff = false
+
+cnn_relation.model1.enable = true
+cnn_relation.model1.keras_output_train = ${KERASDIR}/yahoo_predictions_TRAIN_weights.05-0.53_mergedCNN_smaller_mse.hdf5.txt
+cnn_relation.model1.keras_output_test = ${KERASDIR}/yahoo_predictions_DEV_weights.05-0.53_mergedCNN_smaller_mse.hdf5.txt
+cnn_relation.model1.candidateinfo_train = /lhome/bsharp/causal/yahoo/3kForCNN/A_questionInfo.train.tsv
+cnn_relation.model1.candidateinfo_test = /lhome/bsharp/causal/yahoo/3kForCNN/A_questionInfo.dev.tsv
+cnn_relation.model1.name = causal_cnn_mar30
+cnn_relation.model1.override_view = lemmas_content
+
+############################################################
+#   TRANSLATION RELATION MODEL
+############################################################
+# Not included in the release for dimpleicity, but feel free to request if you want!
+# Just email Becky Sharp (bsharp@email.arizona.edu)
+
+# Translation Model (use)
+translation.lambda = 0.40
+translation.relation.model.enable_distance_features = true
+translation.relation.w2v_sanitization = true
+
+## define matrices
+translation.relation.n_matrices = 3
+
+translation.relation.model1.name = causal_1hop_thresh0
+translation.relation.model1.enable = true
+translation.relation.model1.matrix_prefix_s2d = /lhome/bsharp/causal/matrix_causal_mar30_argLenThresh0_mf10_ntos_ml1001
+translation.relation.model1.matrix_prefix_d2s = /lhome/bsharp/causal/matrix_causal_e2c_mar30_argLenThresh0_mf10_ntos_ml1001
+translation.relation.model1.override_view = lemmas_content
+translation.relation.model1.self_prob = 0.0
+
+translation.relation.model2.name = causal_2hop_thresh0
+translation.relation.model2.enable = false
+translation.relation.model2.matrix_prefix_s2d = /lhome/bsharp/causal/2_matrix_causal_mar30_argLenThresh0_mf10_ntos_ml1001
+translation.relation.model2.matrix_prefix_d2s = /lhome/bsharp/causal/2_matrix_causal_e2c_mar30_argLenThresh0_mf10_ntos_ml1001
+translation.relation.model2.override_view = lemmas_content
+translation.relation.model2.self_prob = 0.0
+
