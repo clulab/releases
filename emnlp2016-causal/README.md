@@ -77,6 +77,7 @@ designed to specify:
 ---------------
 command to run:
 `sbt "runMain edu.arizona.sista.extraction.ExtractFromAgiga -props [path to props file]"`
+
 ---------------
 						
 --------------------------------------------------------------------------------------------
