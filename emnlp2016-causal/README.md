@@ -74,22 +74,23 @@ designed to specify:
 				view = lemmasWithTags # same as (a) above
 				
 				nthreads = 2
----------------
+
 command to run:
 `sbt "runMain edu.arizona.sista.extraction.ExtractFromAgiga -props [path to props file]"`
 
----------------
 						
 --------------------------------------------------------------------------------------------
+
 __CREATING EMBEDDINGS:__
-	NOTE:  My generated embeddings are included in data/embeddings
+NOTE:  My generated embeddings are included in data/embeddings
+
 --------------------------------------------------------------------------------------------
 __c) the tool to convert the extracted events to the word-pair format needed for the Levy&Goldberg vector training__
 The properties file here has several arguments, described in detail in the sample props file: props/createEmbedInput.props
----------------
+
 command to run:
 `sbt "runMain preprocessing.CreateGoldbergInput -props [path to props file]"`
----------------
+
 			
 This generates 6 files (3 for cause-to-effect and 3 for effect-to-cause alignment) that end with:
  - [filename].contexts : word pairs
@@ -99,6 +100,7 @@ This generates 6 files (3 for cause-to-effect and 3 for effect-to-cause alignmen
 These are to be used as explained in the word2vecf documentation (I am not including instructions for that as their tool/API could change...).  If you want more detail, please email us using the contact email above.
 
 --------------------------------------------------------------------------------------------  
+
 __EVALUATING:__
 
 --------------------------------------------------------------------------------------------  
@@ -106,10 +108,10 @@ __EVALUATING:__
 __d) the tool to run the direct evaluation__
 The direct evaluation provides two metrics: MAP and a precision-recall curve (well, it provides the data, you have to plot it...)
 The models used are able to be turned on/off to simplify the eval if desired.  Details are in the sample prperties file (props/directEval.props)
----------------
+
 command to run:
 `sbt "runMain edu.arizona.sista.embeddings.DirectEval -props [path to props file]"`
----------------
+
 	
 __e) the tool to run the causal Yahoo!CQA evaluation__
 		** NOTE: to run this you need to have svmRank installed!
@@ -118,7 +120,7 @@ __e) the tool to run the causal Yahoo!CQA evaluation__
 The questions are included in data/yahoo
 A sample properties file for running one of the Cross-validation jobs is included (props/qa.props_CV0_V+cB)
 This properties file can be modified to run any of the experiments, though not all the data is included in the release (i.e. some of the cnn files).  If you would like additional detail or data, please don't hesitate to contact Becky Sharp (bsharp@email.arizona.edu)
----------------
+
 command to run:
 `sbt "runMain edu.arizona.sista.qa.ranking.RankerEntryPoint -props [path to props file]"`
----------------
+
