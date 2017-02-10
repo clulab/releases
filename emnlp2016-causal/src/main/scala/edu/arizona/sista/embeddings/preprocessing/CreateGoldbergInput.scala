@@ -154,36 +154,42 @@ object CreateGoldbergInput {
   }
 
 
-
-
-
   def main(args:Array[String]): Unit = {
-    //val props = StringUtils.argsToProperties(args)
-    val lenThreshold:Int = 0 // Discard any causes/effects which AFTER filtering are longer than this
-    val threshold:Int = 0 // Remove words which appear less than this number of times
-    val nBins:Int = 5    // The number of bins for the PMI weighting
+    val props = StringUtils.argsToProperties(args)
+    // Discard any causes/effects which AFTER filtering are longer than this
+    val lenThreshold:Int = StringUtils.getInt(props, "len_threshold", 0)
+    // Remove words which appear less than this number of times
+    val threshold:Int = StringUtils.getInt(props, "freq_threshold", 0)
+    val usePMI = StringUtils.getBool(props, "use_pmi_weighting", false)
+    // The number of bins for the PMI weighting
+    val nBins:Int = StringUtils.getInt(props, "num_pmi_bins", 5)
 
     // Get the files which have the causal mentions in them
     //val mentionsDir = "/lhome/bsharp/causal/simpleWiki_mar19b"
     //val mentionsDir = "/lhome/bsharp/causal/agiga+wiki"
     //val mentionsDir = "/lhome/bsharp/causal/causalOut_mar30"  // Used for paper
     //val mentionsDir = "/lhome/bsharp/causal/causalOut_apr1"
-    val mentionsDir = "/lhome/bsharp/emnlp2016-replication/causalOut_oct7"
-    val mentionsFiles = findFiles(mentionsDir, ".argsC")
+    val mentionsDir = props.getProperty("mentions_dir")
+    val extension = props.getProperty("extension")
+    val mentionsFiles = findFiles(mentionsDir, extension)
 
     // Specify the output files (which will be the input to word2vecf)
     //val outputPrefix = "/lhome/bsharp/causal/agiga_mar30_nyt_eng_199407_causal"
     //val outputPrefix = s"/lhome/bsharp/causal/goldbergInput/agiga_apr1_AllTemp_causal_threshold$threshold"
     //val outputPrefix = s"/lhome/bsharp/causal/goldbergInput/DEBUG_a+w_mar30_NV_causal_thr${threshold}_pmi${nBins}NF" // last used?
-    val outputPrefix = s"/lhome/bsharp/causal/goldbergInput/replicate_oct7_c2e_noPMI"
+//    val outputPrefix = s"/lhome/bsharp/causal/goldbergInput/replicate_oct7_c2e_noPMI"
+    val outputPrefix = props.getProperty("output_prefix")
     //val outputPrefix = "/lhome/bsharp/causal/simpleWiki_mar19b_causal"
     //val outputPrefix = "/lhome/bsharp/causal/agiga_mar19b_causal"
     // a) for the words and context
     val output = new PrintWriter(outputPrefix + ".contexts")
+    val output_e2c = new PrintWriter(outputPrefix + ".c2e.contexts")
     // b) for the word vocab
     val outputWV = new PrintWriter(outputPrefix + ".wv")
+    val outputWV_e2c = new PrintWriter(outputPrefix + ".c2e.wv")
     // c) for the context vocab
     val outputCV = new PrintWriter(outputPrefix + ".cv")
+    val outputCV_e2c = new PrintWriter(outputPrefix + ".c2e.cv")
 
     val wordsCounter = new Counter[String]
     val contextCounter = new Counter[String]
@@ -207,19 +213,13 @@ object CreateGoldbergInput {
       source.close()
 
       for (line <- lines) {
-        // Process the lines
+        // Process the lines to get the word pairs
         val (pairs, currRawCount) = parseLine(line, wordsCounter, contextCounter, argRawCounter, wordsLengthTracker,
           contextLengthTracker, lenThreshold, noiseFiltering = false)
-//        for {
-//          p <- pairs
-//          if (p._1 == "the") || (p._2 == "the")
-//        } sys.exit()
         argRawCounter = currRawCount
         pairsFinal.insertAll(pairsFinal.length, pairs)
-        // Print each pair to the output file, space-delineated
+        // Keep counts on the pair and its arguments
         for (pair <- pairs) {
-          // TODO -- fix me! make me optional depending on pmi -- or better make both?
-//          output.println(s"${pair._1} ${pair._2}")      // WITHOUT PMI
           pairCounter.incrementCount(pair)
           causeWordCounter.incrementCount(pair._1)
           effectWordCounter.incrementCount(pair._2)
@@ -228,16 +228,14 @@ object CreateGoldbergInput {
       }
     }
 
-//    val nCopies:Int = 50
-//    val multipleCopies = new Array.fill[ArrayBuffer[(String, String)]]
-
     // Display the info:
     val wordsAvgLen = wordsLengthTracker.toArray.sum.toDouble / wordsLengthTracker.length.toDouble
     val contextsAvgLen = contextLengthTracker.toArray.sum.toDouble / contextLengthTracker.length.toDouble
-    println (s"A total of ${argRawCounter} raw pairs were found, with an average length of:")
+    println (s"A total of $argRawCounter raw pairs were found, with an average length of:")
     println (s"\tcauses: $wordsAvgLen")
     println (s"\teffects: $contextsAvgLen")
-    println (s"Using the (too) simple cartesian product of *individual* words, there were $argFlatCounter pairs generated.")
+    println (s"Using the (too?) simple cartesian product of *individual* words, there " +
+        s"were $argFlatCounter pairs generated.")
 
     // Display the pair counter info
     println ("-----------------------------------------------")
@@ -263,71 +261,74 @@ object CreateGoldbergInput {
 
     // Incorporate the PMI weighting
     // Load the PMI data
-    val pmiFile = "/lhome/bsharp/causal/pmi/pmiCounter_N.txt"
-    val pmi = Counter.loadFrom[String](new BufferedReader(new FileReader(pmiFile)))
-    val pmiMaxes = CalculatePMI.findQuantileValues(pmi, nBins)
-
-    // Initialize the new pairs and vocab counters for the weighted pairs
-    val pairsWithPMIWeighting = new ArrayBuffer[(String, String)]
-    val pmiContextCounter = new Counter[String]
-    val pmiWordsCounter = new Counter[String]
-    for ((c,e) <- pairsFinal) {
-      val ce = CalculatePMI.makeString(c.toLowerCase, e.toLowerCase)
-      val pmiValue = pmi.getCount(ce)
-      // Check that the key is in the counter, else default to wt = 1
-      var wt:Int = 1
-      if (pmi.contains(ce)) {
-        for (bin <- 1 until pmiMaxes.length) {
-          if (pmiValue <= pmiMaxes(bin) && pmiValue > pmiMaxes(bin - 1)) {
-            wt = bin + 1
+    if (usePMI) {
+      val pmiFile = props.getProperty("pmi_counter")
+      // /lhome/bsharp/causal/pmi/pmiCounter_N.txt
+      val pmi = Counter.loadFrom[String](new BufferedReader(new FileReader(pmiFile)))
+      val pmiMaxes = CalculatePMI.findQuantileValues(pmi, nBins)
+      // Initialize the new pairs and vocab counters for the weighted pairs
+      val pairsWithPMIWeighting = new ArrayBuffer[(String, String)]
+      val pmiContextCounter = new Counter[String]
+      val pmiWordsCounter = new Counter[String]
+      for ((c,e) <- pairsFinal) {
+        val ce = CalculatePMI.makeString(c.toLowerCase, e.toLowerCase)
+        val pmiValue = pmi.getCount(ce)
+        // Check that the key is in the counter, else default to wt = 1
+        var wt:Int = 1
+        if (pmi.contains(ce)) {
+          for (bin <- 1 until pmiMaxes.length) {
+            if (pmiValue <= pmiMaxes(bin) && pmiValue > pmiMaxes(bin - 1)) {
+              wt = bin + 1
+            }
           }
         }
+        for (j <- 0 until wt) {
+          pairsWithPMIWeighting.append((c,e))
+          pmiWordsCounter.incrementCount(c)
+          pmiContextCounter.incrementCount(e)
+        }
+
       }
-      //println ("pmiMaxes: " + pmiMaxes.mkString(", "))
-      //println ("curr pmi: " + pmiValue)
-      for (j <- 0 until wt) {
-        //println ("  Adding... ")
-        pairsWithPMIWeighting.append((c,e))
-        pmiWordsCounter.incrementCount(c)
-        pmiContextCounter.incrementCount(e)
-      }
-
-    }
-
-    // Printing to files:
-    // Print the main output file
-    // Added in the PMI 5/17/16
-    // TODO: make an option~!
-//    for ((c, e) <- pairsWithPMIWeighting) {
-//      output.println(s"$c $e")
-//    }
-//    println (s"Before PMI weighting: ${pairsFinal.length} pairs, after: ${pairsWithPMIWeighting.length} pairs")
-
-//    // Print the vocabulary files
-//    for (pair <- pmiWordsCounter.toSeq) {
-//      outputWV.println(s"${pair._1} ${pair._2}")
-//    }
-//    for (pair <- pmiContextCounter.toSeq) {
-//      outputCV.println(s"${pair._1} ${pair._2}")
-//    }
-
-    for ((c,e) <- pairsFinal) {
-      if (causeWordCounter.getCount(c) >= threshold && effectWordCounter.getCount(e) >= threshold) {
+      // Print the weighted word pairs
+      for ((c, e) <- pairsWithPMIWeighting) {
         output.println(s"$c $e")
-      } else {
-        removeSingleCauseEffectCounter += 1
+        output_e2c.println(s"$e $c")
+      }
+      println(s"Before PMI weighting: ${pairsFinal.length} pairs, after: ${pairsWithPMIWeighting.length} pairs")
+
+      // Print the vocabulary files
+      for (pair <- pmiWordsCounter.toSeq) {
+        outputWV.println(s"${pair._1} ${pair._2}")
+        outputCV_e2c.println(s"${pair._1} ${pair._2}")
+      }
+      for (pair <- pmiContextCounter.toSeq) {
+        outputCV.println(s"${pair._1} ${pair._2}")
+        outputWV_e2c.println(s"${pair._1} ${pair._2}")
       }
     }
-    println (s"Out of ${causeWordCounter.size} cause words, $numSingleMentionsCause have only one occurrence.")
-    println (s"Out of ${effectWordCounter.size} effect words, $numSingleMentionsEffect have only one occurrence.")
-    println (s"Out of ${pairsFinal.size} total pairs, removing using a threshold of $threshold for causes and effects would remove $removeSingleCauseEffectCounter pairs.")
+    // If not using PMI weighting:
+    else {
+      for ((c,e) <- pairsFinal) {
+        if (causeWordCounter.getCount(c) >= threshold && effectWordCounter.getCount(e) >= threshold) {
+          output.println(s"$c $e")
+          output_e2c.println(s"$e $c")
+        } else {
+          removeSingleCauseEffectCounter += 1
+        }
+      }
+      println (s"Out of ${causeWordCounter.size} cause words, $numSingleMentionsCause have only one occurrence.")
+      println (s"Out of ${effectWordCounter.size} effect words, $numSingleMentionsEffect have only one occurrence.")
+      println (s"Out of ${pairsFinal.size} total pairs, removing using a threshold of $threshold for causes and effects would remove $removeSingleCauseEffectCounter pairs.")
 
-    // Print the vocabulary files
-    for (pair <- wordsCounter.toSeq) {
-      outputWV.println(s"${pair._1} ${pair._2}")
-    }
-    for (pair <- contextCounter.toSeq) {
-      outputCV.println(s"${pair._1} ${pair._2}")
+      // Print the vocabulary files
+      for (pair <- wordsCounter.toSeq) {
+        outputWV.println(s"${pair._1} ${pair._2}")
+        outputCV_e2c.println(s"${pair._1} ${pair._2}")
+      }
+      for (pair <- contextCounter.toSeq) {
+        outputCV.println(s"${pair._1} ${pair._2}")
+        outputWV_e2c.println(s"${pair._1} ${pair._2}")
+      }
     }
 
     // Housekeeping
@@ -338,40 +339,40 @@ object CreateGoldbergInput {
 
 }
 
-object SwitchArgs extends App {
-
-  // Command line call
-  def exe(cmd:String) {
-    println("Running command " + cmd)
-    val exitCode = cmd.!
-    if(exitCode != 0)
-      throw new RuntimeException("ERROR: failed to execute command " + cmd)
-  }
-  val prefix = "/lhome/bsharp/causal/goldbergInput/replicate_oct7"
-  val direction = "c2e_noPMI"
-  val fn = s"${prefix}_$direction.contexts"
-  //val fn = "/lhome/bsharp/causal/goldbergInput/agiga+wiki_mar30_AllLemmas_causal_threshold0.contexts"
-  //val prefix = s"/lhome/bsharp/causal/goldbergInput/a+w_mar30_NV" // last used
-//  val prefix = s"/lhome/bsharp/causal/goldbergInput/replicate_oct7_e2c"
-//  val suffix = "thr0_pmi5NF"
-//  val fn = s"${prefix}_causal_${suffix}.contexts"
-
-  //val pw = new PrintWriter("/lhome/bsharp/causal/goldbergInput/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.contexts")
-//  val pw = new PrintWriter(s"${prefix}_e2c_${suffix}.contexts")
-  val pw = new PrintWriter("/lhome/bsharp/causal/goldbergInput/replicate_oct7_e2c_noPMI.contexts")
-  val source = scala.io.Source.fromFile(fn)
-  val lines = source.getLines()
-  for {
-    line <- lines
-    args = line.split(" ")
-    c = args(0)
-    e = args(1)
-  } pw.println(s"$e $c")
-  pw.close()
-  source.close()
-
-//  exe(s"cp ${prefix}_causal_${suffix}.cv ${prefix}_e2c_${suffix}.wv")
-//  exe(s"cp ${prefix}_causal_${suffix}.wv ${prefix}_e2c_${suffix}.cv")
-  exe(s"cp ${prefix}_$direction.cv ${prefix}_e2c_noPMI.wv")
-  exe(s"cp ${prefix}_$direction.wv ${prefix}_e2c_noPMI.cv")
-}
+//object SwitchArgs extends App {
+//
+//  // Command line call
+//  def exe(cmd:String) {
+//    println("Running command " + cmd)
+//    val exitCode = cmd.!
+//    if(exitCode != 0)
+//      throw new RuntimeException("ERROR: failed to execute command " + cmd)
+//  }
+//  val prefix = "/lhome/bsharp/causal/goldbergInput/replicate_oct7"
+//  val direction = "c2e_noPMI"
+//  val fn = s"${prefix}_$direction.contexts"
+//  //val fn = "/lhome/bsharp/causal/goldbergInput/agiga+wiki_mar30_AllLemmas_causal_threshold0.contexts"
+//  //val prefix = s"/lhome/bsharp/causal/goldbergInput/a+w_mar30_NV" // last used
+////  val prefix = s"/lhome/bsharp/causal/goldbergInput/replicate_oct7_e2c"
+////  val suffix = "thr0_pmi5NF"
+////  val fn = s"${prefix}_causal_${suffix}.contexts"
+//
+//  //val pw = new PrintWriter("/lhome/bsharp/causal/goldbergInput/agiga+wiki_mar30_AllLemmas_effectToCause_threshold0.contexts")
+////  val pw = new PrintWriter(s"${prefix}_e2c_${suffix}.contexts")
+//  val pw = new PrintWriter("/lhome/bsharp/causal/goldbergInput/replicate_oct7_e2c_noPMI.contexts")
+//  val source = scala.io.Source.fromFile(fn)
+//  val lines = source.getLines()
+//  for {
+//    line <- lines
+//    args = line.split(" ")
+//    c = args(0)
+//    e = args(1)
+//  } pw.println(s"$e $c")
+//  pw.close()
+//  source.close()
+//
+////  exe(s"cp ${prefix}_causal_${suffix}.cv ${prefix}_e2c_${suffix}.wv")
+////  exe(s"cp ${prefix}_causal_${suffix}.wv ${prefix}_e2c_${suffix}.cv")
+//  exe(s"cp ${prefix}_$direction.cv ${prefix}_e2c_noPMI.wv")
+//  exe(s"cp ${prefix}_$direction.wv ${prefix}_e2c_noPMI.cv")
+//}

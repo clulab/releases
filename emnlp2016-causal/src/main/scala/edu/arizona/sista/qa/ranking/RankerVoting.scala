@@ -6,19 +6,15 @@ import java.io.PrintWriter
 import edu.arizona.sista.utils.{VersionUtils, StringUtils}
 import collection.mutable.{ListBuffer, ArrayBuffer}
 import edu.arizona.sista.qa.scorer.{Question, Histogram, Scorer, Scores}
-//import edu.arizona.sista.qa.discourse._
 import edu.arizona.sista.utils.MathUtils.softmax
-import scala.{Array, Tuple2}
 import edu.arizona.sista.processors.{Processor, Document}
 import edu.arizona.sista.qa.retrieval._
-import edu.arizona.sista.qa.translation.{TranslationMultisetModel}
+import edu.arizona.sista.qa.translation.TranslationMultisetModel
 import org.slf4j.LoggerFactory
 import edu.arizona.sista.qa.preprocessing.yahoo.deep.{CQAQuestion, CQAQuestionParser}
 import util.control.Breaks._
 import edu.arizona.sista.qa.index.TermFilter
-import edu.arizona.sista.qa.word2vec._
 import edu.arizona.sista.processors.fastnlp.FastNLPProcessor
-import scala.Some
 import edu.arizona.sista.qa.preprocessing.yahoo.YahooKerasUtils
 
 
@@ -96,7 +92,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     val candidates = new ArrayBuffer[Array[AnswerCandidate]]
 
     // For each question
-    for (qIdx <- 0 until questions.size) {
+    for (qIdx <- questions.indices) {
       val question = questions(qIdx)
       println("qIdx: " + qIdx + " question:" + question.text)
 
@@ -108,7 +104,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       // Step 2: Use DocID to find question and answer candidates in CQA Index
       var CQAQuestion1: CQAQuestion = null
       breakable {
-        for (i <- 0 until CQAIndex.size) {
+        for (i <- CQAIndex.indices) {
           if (CQAIndex(i).docid.compareTo(queryDocid) == 0) {
             CQAQuestion1 = CQAIndex(i)
             break
@@ -119,7 +115,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
       // Step 3: Generate a list of answer candidates from the CQA Index
       val answersPreIR = new ArrayBuffer[AnswerCandidate]()
-      for (i <- 0 until CQAQuestion1.answers.size) {
+      for (i <- CQAQuestion1.answers.indices) {
         // make annotation
         val annotation = mkPartialAnnotation(CQAQuestion1.answers(i).text)
         val docCandidate = new DocumentCandidate(CQAQuestion1.answers(i).docid,
@@ -127,7 +123,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
           mkFakePids(annotation), // paragraph IDs
           0.0) // document score
 
-        val candidate = new AnswerCandidate(docCandidate, 0, annotation.sentences.size)
+        val candidate = new AnswerCandidate(docCandidate, 0, annotation.sentences.length)
         // TODO: Candidate score needs to be set to its IR score
         answersPreIR.append(candidate)
       }
@@ -148,7 +144,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
         var rand = new ArrayBuffer[AnswerCandidate]
         rand = rand ++= answers
         val answersShuffled = util.Random.shuffle(rand).toArray
-        candidates += answersShuffled.toArray
+        candidates += answersShuffled
 
       } else {
         // Unknown
@@ -165,8 +161,8 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
 
   def mkFakePids(doc: Document): Array[Int] = {
-    val pids = new Array[Int](doc.sentences.size)
-    for (i <- 0 until pids.size) {
+    val pids = new Array[Int](doc.sentences.length)
+    for (i <- pids.indices) {
       pids(i) = 1 // note: are paragraph IDs 0 or 1 indexed?
     }
     pids
@@ -202,9 +198,9 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       questions = randomizeQuestionOrder(questions)
 
     // If enabled, Limit training set size for debug purposes
-    if ((questionTrainLimit != 0) && (questionTrainLimit < (questions.size - 1)))
+    if ((questionTrainLimit != 0) && (questionTrainLimit < (questions.length - 1)))
       questions = questions.slice(0, questionTrainLimit)
-    logger.debug("Training with {} questions.", questions.size)
+    logger.debug("Training with {} questions.", questions.length)
 
     val queryAnnotations = mkAnnotations(questions)
 
@@ -223,7 +219,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     }
 
 
-    for (i <- 0 until models.size) {
+    for (i <- models.indices) {
       val model = models(i)
       val dataset = mkDataset(model, questions, queryAnnotations, candidates)
       classifiers(i).train(dataset)
@@ -250,30 +246,30 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     // Display weights in debug output
     displayMemoryUsage(pw)
 
-    logger.debug("train finished", questions.size)
+    logger.debug("train finished", questions.length)
   }
 
 
   // Combines the scores from multiple models (Model x Question x Answer Candidate) into a single set of scores (Question x Answer Candidate)
   def combineScores(scores: Array[Array[Array[Double]]]): Array[Array[Double]] = {
-    val outScores = new Array[Array[Double]](scores(0).size)
-    for (a <- 0 until scores(0).size) {
-      outScores(a) = new Array[Double](scores(0)(a).size)
+    val outScores = new Array[Array[Double]](scores(0).length)
+    for (a <- scores(0).indices) {
+      outScores(a) = new Array[Double](scores(0)(a).length)
     }
 
     // Add all the scores for a given answer candidate together
-    for (i <- 0 until scores.size) {
+    for (i <- scores.indices) {
       // Lambda model
       var weight = 1.0
-      if (scores.size == 2) {
+      if (scores.length == 2) {
         if (i == 0) weight = lambda
         if (i == 1) weight = 1 - lambda
       }
 
       // Combine scores
       val scoreSet = scores(i)
-      for (q <- 0 until scoreSet.size) {
-        for (ac <- 0 until scoreSet(q).size) {
+      for (q <- scoreSet.indices) {
+        for (ac <- scoreSet(q).indices) {
           if (i == 0) {
             outScores(q)(ac) = scoreSet(q)(ac) * weight
           } else {
@@ -290,16 +286,16 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
   // Returns an array of indicies of reranked scores.  Used to generate voting/reranking debug output in doTestProcedureV.
   def rerankIndices(scores: Array[Double]): Array[Int] = {
-    val after = new Array[Int](scores.size)
+    val after = new Array[Int](scores.length)
 
     val queryRanks = new ListBuffer[(Int, Double)]
-    for (i <- 0 until scores.size) {
+    for (i <- scores.indices) {
       queryRanks += new Tuple2(i, scores(i))
     }
     val sortedRanks = queryRanks.toList.sortBy(0 - _._2).toArray
 
-    val ranked = new Array[Double](scores.size)
-    for (i <- 0 until sortedRanks.size) {
+    val ranked = new Array[Double](scores.length)
+    for (i <- sortedRanks.indices) {
       after(sortedRanks(i)._1) = i + 1
     }
 
@@ -357,27 +353,19 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     // Step 3: Evaluate test questions on each trained classifier model in the voting ranker
     logger.info("Evaluating questions...")
 
-    for (i <- 0 until models.size) {
+    for (i <- models.indices) {
       logger.debug("Evaluating test questions (Model " + i + ") ...")
       val model = models(i) // Select one model
-      val maybeRescale = rescaleFeatures match {
-          case true => Some(scaleRanges(i))
-          case false => None
-        }
+      val maybeRescale = if (rescaleFeatures) Some(scaleRanges(i)) else None
       val testDataset = mkDataset(model, questions, queryAnnotations, candidates, maybeRescale) // Generate test dataset
-      if (maybeRescale.isDefined) {
-        val pwScaleRange = new PrintWriter("/lhome/bsharp/causal/yahoo/EA/test_scaleRange.txt")
-        val sr = maybeRescale.get
-        sr.saveTo(pwScaleRange)
-        pwScaleRange.close()
-      }
+
       val scoresModel = test(testDataset, classifiers(i)) // Evaluate model on candidates
       scores.append(scoresModel) // Store model scores
 
       // While we generate the raw scores above, here we also generate the normalized scores (or probabilities),
       // which are conceptually better to combine and give the voting system higher performance.
       val scoresProbTemp = new Array[Array[Double]](scoresModel.size)
-      for (j <- 0 until scoresProbTemp.size) scoresProbTemp(j) = softmax(scoresModel(j).toIterable).toArray
+      for (j <- scoresProbTemp.indices) scoresProbTemp(j) = softmax(scoresModel(j).toIterable).toArray
       scoresProb.append(scoresProbTemp)
     }
 
@@ -392,16 +380,16 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
     // Optional Error Analysis Output
     //val errorFilenamePrefix = "errorout"
-    if (StringUtils.getBool(props, "erroranalysis.enabled", false) == true) {
-      //val errorFilenamePrefix = props.getProperty("output_report_filename")
-      val errorFilenamePrefix = "/lhome/bsharp/causal/yahoo/EA/EA_V+cB"
-      createErrorAnalysis(models.toArray, questions, queryAnnotations, rerankedCandidates, errorFilenamePrefix)
-    }
+//    if (StringUtils.getBool(props, "erroranalysis.enabled", false) == true) {
+//      //val errorFilenamePrefix = props.getProperty("output_report_filename")
+//      val errorFilenamePrefix = "/lhome/bsharp/causal/yahoo/EA/EA_V+cB"
+//      createErrorAnalysis(models.toArray, questions, queryAnnotations, rerankedCandidates, errorFilenamePrefix)
+//    }
 
     // Step 3A: Compute statistical significance
     val scoreSetBefore = new ArrayBuffer[Scores]
     val scoreSetAfter = new ArrayBuffer[Scores]
-    for (i <- 0 until questions.size) {
+    for (i <- questions.indices) {
       val question = questions(i)
       scoreSetBefore.append(scorer.computeScores(question, candidates(i).toList))
       scoreSetAfter.append(scorer.computeScores(question, rerankedCandidates(i).toList))
@@ -434,7 +422,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
     // Generate a detailed report for each question in the test set.  Concurrently build up data to populate the
     // summary histograms appended to the bottom of the detailed report.
-    for (i <- 0 until questions.size) {
+    for (i <- questions.indices) {
       val question = questions(i)
       val scoreSetBaseline = oneScorer.computeScores(question, candidates(i).toList)
       val scoreSetExperimental = oneScorer.computeScores(question, rerankedCandidates(i).toList)
@@ -450,7 +438,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
         oneScorer.analysisTextMethodCompare(rerankedCandidates(i).toList, pw, "Experimental", scoreSetExperimental, scoreSetBaseline)
 
         // DEBUG: Include ranking information for each model, as well as combined ranking information
-        for (j <- 0 until scores.size) {
+        for (j <- scores.indices) {
 
           val scoreSet = scores(j) // Questions x Answer Candidates (raw)
           val scoresAC = scoreSet(i) // Answer Candidates
@@ -459,12 +447,12 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
           val indices = rerankIndices(scoresAC)
           val finalOrder = new Array[(Int, Int, Double, Double)](indices.size)
-          for (k <- 0 until indices.size) {
+          for (k <- indices.indices) {
             finalOrder(k) = (k + 1, indices(k), scoresAC(k), scoresACProb(k))
           }
           val sortedOrder = finalOrder.sortBy(_._2)
           pw.print("Ranking (Model " + j + ") Reordered Indices: \t")
-          for (k <- 0 until sortedOrder.size) {
+          for (k <- sortedOrder.indices) {
             pw.print(sortedOrder(k)._1.formatted("%3d") + "(" + sortedOrder(k)._3.formatted("%3.4f") + "a, " + sortedOrder(k)._4.formatted("%3.4f") + "n)")
           }
           pw.println("")
@@ -474,12 +462,12 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
         // DEBUG: Include final ranking information for the combined voting model
         val indices = rerankIndices(combinedScoresProb(i))
         val finalOrder = new Array[(Int, Int, Double, Double)](indices.size)
-        for (k <- 0 until indices.size) {
+        for (k <- indices.indices) {
           finalOrder(k) = (k + 1, indices(k), combinedScoresRaw(i)(k), combinedScoresProb(i)(k))
         }
         val sortedOrder = finalOrder.sortBy(_._2)
         pw.print("Ranking (Model C) Reordered Indices: \t")
-        for (k <- 0 until sortedOrder.size) {
+        for (k <- sortedOrder.indices) {
           pw.print(sortedOrder(k)._1.formatted("%3d") + "(" + sortedOrder(k)._3.formatted("%3.4f") + "a, " + sortedOrder(k)._4.formatted("%3.4f") + "n)")
         }
         pw.println("")
@@ -548,13 +536,11 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
     // Step 2: Generate model features for test questions, and evaluate test questions on each trained classifier model in the voting ranker
     logger.info("Evaluating test questions...")
-    for (i <- 0 until models.size) {
+    for (i <- models.indices) {
       logger.debug("Evaluating test questions (Model " + i + ")...")
       val model = models(i) // Select one model
-      val maybeRescale = rescaleFeatures match {
-          case true => Some(scaleRanges(i))
-          case false => None
-        }
+      val maybeRescale = if (rescaleFeatures) Some(scaleRanges(i)) else None
+
       val testDataset = mkDataset(model, questions, queryAnnotations, candidates, maybeRescale) // Generate test dataset
       val scoresModel = test(testDataset, classifiers(i)) // Evaluate model on candidates
       scores.append(scoresModel) // Store model scores
@@ -562,7 +548,8 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       // While we generate the raw scores above, here we also generate the normalized scores (or probabilities),
       // which are conceptually better to combine and give the voting system higher performance.
       val scoresProbTemp = new Array[Array[Double]](scoresModel.size)
-      for (j <- 0 until scoresProbTemp.size) scoresProbTemp(j) = softmax(scoresModel(j).toIterable).toArray
+      for (j <- scoresProbTemp.indices) scoresProbTemp(j) = softmax(scoresModel(j).toIterable)
+          .toArray
       scoresProb.append(scoresProbTemp)
     }
 
@@ -572,15 +559,15 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     val rerankedCandidates = rerank(combinedScoresProb, candidates) // Rerank based on combined probability scores
 
     // Step 4: Compute P@1 and MRR Scores for each question
-    for (i <- 0 until questions.size) {
+    for (i <- questions.indices) {
       val question = questions(i)
       scoresBaseline.append(oneScorer.computeScores(question, candidates(i).toList))
       scoresExperimental.append(oneScorer.computeScores(question, rerankedCandidates(i).toList))
     }
 
     logger.debug("Complete... ")
-    return (rerankedCandidates, scoresBaseline.toArray, scoresExperimental.toArray)
 
+    (rerankedCandidates, scoresBaseline.toArray, scoresExperimental.toArray)
   }
 
 
@@ -620,7 +607,9 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
                            testDatasets: Array[RankingDataset[String]],
                            pw: PrintWriter) {
 
-    val clipThresholds = Array[Double](0.75, 0.5, 0.25, 0.1, 0.075, 0.05, 0.025, 0.01, 0.0075, 0.005, 0.0025, 0.001, 0.0001, 0.0)
+    val clipThresholds = Array[Double](
+      0.75, 0.5, 0.25, 0.1, 0.075, 0.05, 0.025, 0.01, 0.0075,
+      0.005, 0.0025, 0.001, 0.0001, 0.0)
     val tuningMetric = props.getProperty("ranker.tuning_metric", "para_p1")
     val votingMethod = props.getProperty("voting.method", "UNSPECIFIED")
     var topScore: Double = 0.0
@@ -629,7 +618,8 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     var baselineScoreSet = new Array[Scores](0)
 
     var numClassifiers = models.size
-    if (votingMethod == "oneclassifier") numClassifiers = 1 // the "oneclassifier" method has many models but one classifier
+    if (votingMethod == "oneclassifier") numClassifiers = 1 // the "oneclassifier" method has many
+                                                            // models but one classifier
 
 
     for (modelIdx <- 0 until numClassifiers) {
@@ -637,7 +627,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       topThresh = 0.0
 
       // For each clipping threshold for a given model
-      for (c <- 0 until clipThresholds.size) {
+      for (c <- clipThresholds.indices) {
         // Select threshold
         val clipThresh = clipThresholds(c)
         pw.println(" ======================================================================================================================= ")
@@ -661,7 +651,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
         // Step 3D: Compute statistical significance of development performance
         val scoreSetBefore = new ArrayBuffer[Scores]
         val scoreSetAfter = new ArrayBuffer[Scores]
-        for (i <- 0 until questions.size) {
+        for (i <- questions.indices) {
           val question = questions(i)
           scoreSetBefore.append(scorer.computeScores(question, candidates(i).toList))
           scoreSetAfter.append(scorer.computeScores(question, rerankedCandidates(i).toList))
@@ -681,7 +671,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
         val histogramMRR = new Histogram("Paragraph MRR")
 
         // Histogram computation (compute across each question in the development set)
-        for (i <- 0 until questions.size) {
+        for (i <- questions.indices) {
           val question = questions(i)
           val scoreSetBaseline = oneScorer.computeScores(question, candidates(i).toList)
           val scoreSetExperimental = oneScorer.computeScores(question, rerankedCandidates(i).toList)
@@ -758,13 +748,15 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
                   candidates: Array[Array[AnswerCandidate]],
                   pw: PrintWriter) {
 
-    val lambdaValues = Array[Double](1.0, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05, 0.0)
+    val lambdaValues = Array[Double](
+      1.0, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5,
+      0.45, 0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05, 0.0)
     val tuningMetric = props.getProperty("ranker.tuning_metric", "para_p1")
     var topScore: Double = 0.0
     var topThresh: Double = 0.0
     var topScoreSetAfter = new Array[Scores](0)
 
-    for (w <- 0 until lambdaValues.size) {
+    for (w <- lambdaValues.indices) {
       // Select threshold
       val lambdaValue = lambdaValues(w)
       lambda = lambdaValue
@@ -781,20 +773,18 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       val scoresProb = new ArrayBuffer[Array[Array[Double]]]
 
       logger.debug("Generating Scores...")
-      for (i <- 0 until models.size) {
+      for (i <- models.indices) {
         logger.debug("Generating scores: Model " + i)
         val model = models(i) // Select one model
-        val maybeRescale = rescaleFeatures match {
-            case true => Some(scaleRanges(i))
-            case false => None
-          }
+        val maybeRescale = if (rescaleFeatures) Some(scaleRanges(i)) else None
         val testDataset = mkDataset(model, questions, queryAnnotations, candidates, maybeRescale) // Generate test dataset
         val scoresModel = test(testDataset, classifiers(i)) // Evaluate model on candidates
         scores.append(scoresModel) // Store model scores
 
         // Normalized scores (probabilities)
         val scoresProbTemp = new Array[Array[Double]](scoresModel.size)
-        for (j <- 0 until scoresProbTemp.size) scoresProbTemp(j) = softmax(scoresModel(j).toIterable).toArray
+        for (j <- scoresProbTemp.indices) scoresProbTemp(j) = softmax(scoresModel(j).toIterable)
+            .toArray
         scoresProb.append(scoresProbTemp)
       }
 
@@ -806,7 +796,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       // Step 3D: Compute statistical significance of development performance
       val scoreSetBefore = new ArrayBuffer[Scores]
       val scoreSetAfter = new ArrayBuffer[Scores]
-      for (i <- 0 until questions.size) {
+      for (i <- questions.indices) {
         val question = questions(i)
         scoreSetBefore.append(scorer.computeScores(question, candidates(i).toList))
         scoreSetAfter.append(scorer.computeScores(question, rerankedCandidates(i).toList))
@@ -827,7 +817,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
       val histogramMRR = new Histogram("Sentence MRR")
 
       // Histogram computation (compute across each question in the development set)
-      for (i <- 0 until questions.size) {
+      for (i <- questions.indices) {
         val question = questions(i)
         val scoreSetBaseline = oneScorer.computeScores(question, candidates(i).toList)
         val scoreSetExperimental = oneScorer.computeScores(question, rerankedCandidates(i).toList)
@@ -905,7 +895,8 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
     // If enabled, Limit development set size for debug purposes
     val questionDevLimit = StringUtils.getInt(props, "ranker.limit_dev_questions", 0)
-    if ((questionDevLimit != 0) && (questionDevLimit < (questions.size - 1))) questions = questions.slice(0, questionDevLimit)
+    if ((questionDevLimit != 0) && (questionDevLimit < (questions.length - 1))) questions = questions
+        .slice(0, questionDevLimit)
 
     // Step 2: Generate model features from development questions to use for tuning
     val queryAnnotations = mkAnnotations(questions)
@@ -920,7 +911,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
     // Step 3: Pre-generate model features
     val testDatasets = new ArrayBuffer[RankingDataset[String]]()
     // Model features distributed across different classifiers
-    for (i <- 0 until models.size) {
+    for (i <- models.indices) {
       val model = models(i) // Select one model
       val maybeRescale = rescaleFeatures match {
           case true => Some(scaleRanges(i))
@@ -1074,7 +1065,7 @@ class RankerVoting(props: Properties) extends RankerSimple(props: Properties) {
 
       // Save classifiers using default names
       logger.info("Saving classifiers...")
-      for (classifierIdx <- 0 until classifiers.size) {
+      for (classifierIdx <- classifiers.indices) {
         val prefix = incrementalTrainingFile.substring(0, incrementalTrainingFile.size - 4)
         val filename = prefix + ".classifier" + classifierIdx + ".svm"
         classifiers(classifierIdx).saveTo(filename)

@@ -57,9 +57,6 @@ class Word2VecRelationModel (props:Properties) extends RankingModel {
   // maximum number of matrices to use (used to determine number of properties to look at)
   val nMatrices = StringUtils.getInt(props, "word2vec_relation.n_matrices", 20)
 
-  val pw = new PrintWriter("/lhome/bsharp/causal/yahoo/checkMatrixSelection.txt")
-
-
   // read the properties corresponding to a given index model, and if the model's enabled, return info for it
   def vectorsForIndexFromProperties(index: Int): Option[VectorsAndInfo] = {
     val propertyPrefix = s"word2vec_relation.model${index}."

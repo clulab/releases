@@ -230,13 +230,14 @@ object DirectEval {
   }
 
 
-  def zipPointsAndSave(lines:Seq[Seq[(Double, Double)]], fn:String): Unit = {
+  def zipPointsAndSave(lines:Seq[Seq[(Double, Double)]], modelNames: Seq[String], fn:String): Unit = {
+    assert(lines.length == modelNames.length)
     val numLines = lines.length
     val out = new ArrayBuffer[Seq[Double]]
     val header = new ArrayBuffer[String]
     header.append("Recall")
     for (lineIdx <- lines.indices) {
-      header.append(s"Precision_$lineIdx")
+      header.append(s"Precision_${modelNames(lineIdx)}")
       val line = lines(lineIdx)
       for (point <- line) {
         val pointOut = Array.fill[Double](numLines + 1)(-1.0)
@@ -353,46 +354,62 @@ object DirectEval {
   def main(args:Array[String]): Unit = {
 
     val props = StringUtils.argsToProperties(args)
+    // Are you evaluating on dev or test?
+    val testFold = props.getProperty("test_on", "test")
+    val loadLookUpBaseline = StringUtils.getBool(props, "load_lookup_baseline", true)
+    val prDataFile = props.getProperty("precision_recall_data_file")
 
     // Step 1: Loading
     // Step 1a: Load in the CUSTOMIZED vectors, target for e1 and context for e2
+    val evalCustom = StringUtils.getBool(props, "eval_causal", false)
     val customTargetW2V = new Word2vec(props.getProperty("vectors.custom_target"))
     val customContextW2V = new Word2vec(props.getProperty("vectors.custom_context"))
 
     // BiDirectional Experiment: Load the vectors which were trained in the opposite direction, i.e. effect->cause
+    val evalE2C = StringUtils.getBool(props, "eval_e2c", false)
     val customE2CEffectW2V = new Word2vec(props.getProperty("vectors.custom_effect.e2c"))
     val customE2CCauseW2V = new Word2vec(props.getProperty("vectors.custom_cause.e2c"))
 
     // Step 1a: Load in the PMI vectors, target for e1 and context for e2
+    val evalPMI = StringUtils.getBool(props, "eval_pmi", false)
     val pmiTargetW2V = new Word2vec(props.getProperty("vectors.pmi_target"))
     val pmiContextW2V = new Word2vec(props.getProperty("vectors.pmi_context"))
 
     // BiDirectional Experiment: Load the vectors which were trained in the opposite direction, i.e. effect->cause
+    val evalE2C_PMI = StringUtils.getBool(props, "eval_e2c_pmi", false)
     val pmiE2CEffectW2V = new Word2vec(props.getProperty("vectors.pmi_effect.e2c"))
     val pmiE2CCauseW2V = new Word2vec(props.getProperty("vectors.pmi_cause.e2c"))
 
+    // Keras CNN
+    val evalKerasPredictions = StringUtils.getBool(props, "eval_cnn", false)
 
     // 1b: Load in the comparison vectors (i.e. vanilla w2v)
+    val evalVanilla = StringUtils.getBool(props, "eval_vanilla", false)
     val comparisonW2V = new Word2vec(props.getProperty("vectors.comparison"))
 
     // 1c: Load in an Alignment Matrix
+    val evalCausalTrans = StringUtils.getBool(props, "eval_causal_trans", false)
     val matrixPrefix = props.getProperty("matrix.prefix")
     val translationMatrix = new TranslationMatrixLimited(s"$matrixPrefix.matrix", s"$matrixPrefix.priors")
 
     // 1d: Load in the Vanilla Alignment Matrix
+    val evalVanillaTrans = StringUtils.getBool(props, "eval_vanilla_trans", false)
     val matrixPrefixVanilla = props.getProperty("matrix.prefix.baseline")
     val translationMatrixVanilla = new TranslationMatrixLimited(s"$matrixPrefixVanilla.matrix", s"$matrixPrefixVanilla.priors")
 
     // 1e: Load the extracted pairs for finding the counting baseline
+    val evalLU = StringUtils.getBool(props, "eval_lookup_baseline", false)
     val extractedPairsDir = props.getProperty("extracted_pairs.directory")
     val extractedPairs = CausalAlignment.loadData(extractedPairsDir, "argsC", lenThreshold = 4)
 
+    // Random eval
+    val evalRandom = StringUtils.getBool(props, "eval_random", false)
+
     // Step 2: Load in the pairs, keeping track of whether they are the target relation or not
     val targetPairs = loadPairs(props.getProperty("input.target"), label = TARGET_LABEL)
-    val nTagrgt = targetPairs.length
-    println (s"* $nTagrgt target pairs loaded.")
+    val nTarget = targetPairs.length
+    println (s"* $nTarget target pairs loaded.")
     val otherPairsAll = loadPairs(props.getProperty("input.other"), label = OTHER_LABEL)
-
 
     // Create dev and test partitions of target and other pairs
     val random = new Random
@@ -400,31 +417,26 @@ object DirectEval {
     val targetShuffled = random.shuffle(targetPairs)
     val otherShuffled = random.shuffle(otherPairsAll)
 
-    // Create DEV folds
-//    val (targetDevZ, _) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
-//    val targetDev = targetDevZ.unzip._1
-//    val devLength = targetDev.length
-//    println (s"There are $devLength dev pairs loaded! First pair: ${targetDev.head}")
-    // Make a randomized slice of the other pairs of equal length to the target pairs
-//    val (otherDevZ, _) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
-//    val otherDev = otherDevZ.unzip._1.slice(0, devLength)
-//    val otherDevLength = otherDev.length
-//    println (s"There are $otherDevLength dev pairs loaded! First pair: ${otherDev.head}")
-    // Combine to make a direct eval set
-//    val pairs = targetDev ++ otherDev
-
-    // Create TEST folds
-    val (_, targetTestZ) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    // Create evaluation folds
+    val (targetDevZ, targetTestZ) = targetShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    val targetDev = targetDevZ.unzip._1
     val targetTest = targetTestZ.unzip._1
+    val devLength = targetDev.length
     val testLength = targetTest.length
-    println (s"There are $testLength TEST pairs loaded! First pair: ${targetTest.head}")
+
     // Make a randomized slice of the other pairs of equal length to the target pairs
-    val (_, otherTestZ) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    val (otherDevZ, otherTestZ) = otherShuffled.zipWithIndex.partition(e => e._2 % 2 == 0)
+    val otherDev = otherDevZ.unzip._1.slice(0, devLength)
     val otherTest = otherTestZ.unzip._1.slice(0, testLength)
+    val otherDevLength = otherDev.length
     val otherTestLength = otherTest.length
-    println (s"There are $otherTestLength TEST pairs loaded! First pair: ${otherTest.head}")
+
     // Combine to make a direct eval set
-    val pairs = targetTest ++ otherTest
+    val pairs = testFold match {
+      case "dev" => targetDev ++ otherDev
+      case "test" => targetTest ++ otherTest
+      case _ => throw new RuntimeException
+    }
     println (s"* ${pairs.length} TOTAL pairs.")
 
     //OPTIONAL - save to the format needed to evaluate with Keras
@@ -437,174 +449,321 @@ object DirectEval {
 //    )
 //    sys.exit()
 
-    // Step 4a: Find the cosine similarity between e1 and e2 using CUSTOM vectors (with target and context vectors) AND comparison
-    val cosinesCustom = calculateCosineSims(pairs, customTargetW2V, customContextW2V)
-    val cosinesComparison = calculateCosineSims(pairs, comparisonW2V, comparisonW2V)
-    println ("Cosine similarities calculated.")
-
+    // W2V:
+    // Causal cosine similarities
+    val cosinesCustom = if (evalCustom) {
+      Some(calculateCosineSims(pairs, customTargetW2V, customContextW2V))
+    } else None
+    // Vanilla cosine similarities
+    val cosinesComparison = if (evalVanilla) {
+      Some(calculateCosineSims(pairs, comparisonW2V, comparisonW2V))
+    } else None
     // Bidirectional Experiment: calculate the cosine similarities for the other direction
-    val cosinesE2C = calculateCosineSims(pairs, customE2CCauseW2V, customE2CEffectW2V)
+    val cosinesE2C = if (evalE2C) {
+      Some(calculateCosineSims(pairs, customE2CCauseW2V, customE2CEffectW2V))
+    } else None
     // Also, create a linearly-interpolated mix of the two directions:
-    val cosinesCustomBidir = interpolate(cosinesCustom, cosinesE2C, lambda = 0.5)
+    val cosinesCustomBidir = if (evalCustom && evalE2C) {
+      Some(interpolate(cosinesCustom.get, cosinesE2C.get, lambda = 0.5))
+    } else None
+    // PMI cosine similarities
+    val cosinesPMI = if (evalPMI) {
+      Some(calculateCosineSims(pairs, pmiTargetW2V, pmiContextW2V))
+    } else None
+    val cosinesE2CPMI = if (evalE2C_PMI) {
+      Some (calculateCosineSims(pairs, pmiE2CCauseW2V, pmiE2CEffectW2V))
+    } else None
+    val cosinesPMIBidir = if (evalPMI && evalE2C_PMI) {
+      Some(interpolate(cosinesPMI.get, cosinesE2CPMI.get, lambda = 0.5))
+    } else None
 
-    // PMI vectors
-    val cosinesPMI = calculateCosineSims(pairs, pmiTargetW2V, pmiContextW2V)
-    val cosinesE2CPMI = calculateCosineSims(pairs, pmiE2CCauseW2V, pmiE2CEffectW2V)
-    val cosinesPMIBidir = interpolate(cosinesPMI, cosinesE2CPMI, lambda = 0.5)
-
-    // Step 4b: Find the causal translation probability for each pair
+    // Translation:
+    // Causal alignments probs
     val lambda: Double = 0.5
-    val assns = calculateAlignments(pairs, translationMatrix, lambda)
-    val OOV = assns.filter(scored => scored._1 == Double.NegativeInfinity)
-    val numOOV: Double = OOV.length
-    val numOOVRelevant: Double = OOV.count(scored => scored._2 == TARGET_LABEL)
-    println(s"numOOV: $numOOV\tnumOOVRelevant: $numOOVRelevant (${numOOVRelevant / numOOV}) ")
-    println("Alignments calculated.")
-
-    // Step 4c: Find the vanilla translation probability for each pair
-    val assnsComparison = calculateAlignments(pairs, translationMatrixVanilla, lambda)
-    println("Vanilla Alignments calculated.")
-
-    // 4d: Find the binned counts for each pair
-    val counterOut = extractedPairsDir + "/causal.counter.TEST"
-    // Making and saving a new counter -- Expensive, so use this the first time only
-//    val pairCounter = makeBinnedCounts(extractedPairs._1, extractedPairs._2, pairs)
-//    val pairPW = new PrintWriter(counterOut)
-//    pairCounter.saveTo(pairPW)
-//    pairPW.close()
-//    println ("Binning complete. Counter saved to " + counterOut)
-
-    // Loading a counter
-    val reader = new BufferedReader(new FileReader(counterOut))
-    val pairCounter = Counter.loadFrom[Int](reader)
-    println ("Counter loaded from " + counterOut)
-
-    displayCounterDistribution(pairCounter, pairs, relevantLabel = TARGET_LABEL)
-    val matches = scoreByMatching(pairCounter, pairs)
-    val numberOOVCausal = matches.filter(_._1 == 0.0).count(_._2 == TARGET_LABEL)
-    val totalOOV = matches.count(_._1 == 0.0)
-    println ("Lookup Baseline -- nOOV causal: " + numberOOVCausal)
-    println ("Lookup Baseline -- nOOV Total: " + totalOOV)
+    val assns = if (evalCausalTrans) {
+      Some(calculateAlignments(pairs, translationMatrix, lambda))
+    } else None
+    // Vanilla
+    val assnsComparison = if (evalVanillaTrans) {
+      Some(calculateAlignments(pairs, translationMatrixVanilla, lambda))
+    } else None
 
 
-    // Step 4e: Load the CNN scores for each pair
-    val kerasPredictionsFile = props.getProperty("keras_predictions_file")
-    val kerasPredictions = getKerasPredictions(kerasPredictionsFile)
-    // Check the order...
-    for (i <- kerasPredictions.indices) {
-      assert (kerasPredictions(i)._2 == pairs(i)._3)
+    // Lookup Baseline:
+    val matches = if (evalLU){
+      val counterOut = extractedPairsDir + "/causal.counter.TEST"
+      // Making and saving a new counter -- Expensive, so use this the first time only
+      if (!loadLookUpBaseline) {
+        val pairCounter = makeBinnedCounts(extractedPairs._1, extractedPairs._2, pairs)
+        val pairPW = new PrintWriter(counterOut)
+        pairCounter.saveTo(pairPW)
+        pairPW.close()
+        println("Binning complete. Counter saved to " + counterOut)
+      }
+
+      // Loading lookup baseline counter
+      val reader = new BufferedReader(new FileReader(counterOut))
+      val pairCounter = Counter.loadFrom[Int](reader)
+      println ("Counter loaded from " + counterOut)
+
+      displayCounterDistribution(pairCounter, pairs, relevantLabel = TARGET_LABEL)
+      Some(scoreByMatching(pairCounter, pairs))
+    } else None
+
+
+    // CNN scores for each pair:
+    val kerasPredictions = if (evalKerasPredictions) {
+      val kerasPredictionsFile = props.getProperty("keras_predictions_file")
+      val predictions = getKerasPredictions(kerasPredictionsFile)
+      // Check the order...
+      for (i <- predictions.indices) {
+        assert (predictions(i)._2 == pairs(i)._3)
+      }
+      Some(predictions)
+    } else None
+
+
+    // Evaluate
+    val modelsToGraph = new ArrayBuffer[Seq[(Double, Double)]]
+    val modelNames = new ArrayBuffer[String]
+
+    // W2V
+    // Causal
+    if (cosinesCustom.nonEmpty) {
+      val sortedCustom = cosinesCustom.get.zipWithIndex.sortBy(- _._1._1)
+      val customMAP = MAP[Int](sortedCustom, relevantLabel = TARGET_LABEL)
+      println ("MAP for Causal Vectors: " + customMAP)
+      val customRPCurve = precisionRecallCurve[Int](sortedCustom.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(customRPCurve)
+      modelNames.append("Causal")
     }
 
-    // Step 5: Sort
-    // W2V
-    val sortedCustom = cosinesCustom.zipWithIndex.sortBy(- _._1._1)
-    val customLabels = sortedCustom.unzip._1.unzip._2
-    val customScores = sortedCustom.unzip._1.unzip._1
-    println("customLabels: " + customLabels.mkString(", "))
-    println("CustomScores: " + customScores.mkString(", "))
-    // ERROR ANALYSIS
-    println ("-------------------------")
-    println ("Error Anaysis: CUSTOM")
-    errorAnalysis(sortedCustom, pairs, 0.2)
+    // E2C
+    if (cosinesE2C.nonEmpty) {
+      val sortedE2C = cosinesE2C.get.zipWithIndex.sortBy(-_._1._1)
+      val e2cMAP = MAP[Int](sortedE2C, relevantLabel = TARGET_LABEL)
+      println("MAP for E2C Vectors: " + e2cMAP)
+      val e2cRPCurve = precisionRecallCurve[Int](sortedE2C.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(e2cRPCurve)
+      modelNames.append("Causal_e2c")
+    }
+
+    // Bidir
+    if (cosinesCustomBidir.nonEmpty) {
+      val sortedBidir = cosinesCustomBidir.get.zipWithIndex.sortBy(-_._1._1)
+      val bidirMAP = MAP[Int](sortedBidir, relevantLabel = TARGET_LABEL)
+      println("MAP for Bidir Vectors: " + bidirMAP)
+      val bidirRPCurve = precisionRecallCurve[Int](sortedBidir.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(bidirRPCurve)
+      modelNames.append("Causal_bidir")
+    }
+
+    // PMI
+    if (cosinesPMI.nonEmpty) {
+      val sortedPMI = cosinesPMI.get.zipWithIndex.sortBy(-_._1._1)
+      val PMIMAP = MAP[Int](sortedPMI, relevantLabel = TARGET_LABEL)
+      println("MAP for Causal PMI Vectors: " + PMIMAP)
+      val PMIRPCurve = precisionRecallCurve[Int](sortedPMI.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(PMIRPCurve)
+      modelNames.append("Causal_pmi")
+    }
+
+    // E2C_PMI
+    if (cosinesE2CPMI.nonEmpty) {
+      val sortedE2CPMI = cosinesE2CPMI.get.zipWithIndex.sortBy(-_._1._1)
+      val e2cPMIMAP = MAP[Int](sortedE2CPMI, relevantLabel = TARGET_LABEL)
+      println("MAP for E2C PMI Vectors: " + e2cPMIMAP)
+      val e2cPMIRPCurve = precisionRecallCurve[Int](sortedE2CPMI.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(e2cPMIRPCurve)
+      modelNames.append("Causal_e2c_pmi")
+    }
+
+    // Bidir PMI
+    if (cosinesPMIBidir.nonEmpty) {
+      val sortedBidirPMI = cosinesPMIBidir.get.zipWithIndex.sortBy(-_._1._1)
+      val bidirPMIMAP = MAP[Int](sortedBidirPMI, relevantLabel = TARGET_LABEL)
+      println("MAP for Bidir PMI Vectors: " + bidirPMIMAP)
+      val bidirPMIRPCurve = precisionRecallCurve[Int](sortedBidirPMI.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(bidirPMIRPCurve)
+      modelNames.append("Causal_bidir_pmi")
+    }
+
+    // Vanilla
+    if (cosinesComparison.nonEmpty) {
+      val sortedComparison = cosinesComparison.get.zipWithIndex.sortBy(-_._1._1)
+      val comparisonMAP = MAP[Int](sortedComparison, relevantLabel = TARGET_LABEL)
+      println("MAP for Comparison (Baseline) Vectors: " + comparisonMAP)
+      val comparisonRPCurve = precisionRecallCurve[Int](sortedComparison.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(comparisonRPCurve)
+      modelNames.append("Vanilla")
+    }
+
+    // Causal Trans
+    if (assns.nonEmpty) {
+      val sortedTrans = assns.get.zipWithIndex.sortBy(-_._1._1)
+      val transMAP = MAP[Int](sortedTrans, relevantLabel = TARGET_LABEL)
+      println(s"MAP for Translation Model with lamda of $lambda : " + transMAP)
+      val transRPCurve = precisionRecallCurve[Int](sortedTrans.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(transRPCurve)
+      modelNames.append("Causal_trans")
+    }
+
+    // Vanilla Trans
+    if (assnsComparison.nonEmpty) {
+      val sortedTransComparison = assnsComparison.get.zipWithIndex.sortBy(-_._1._1)
+      val transMAPcomparison = MAP[Int](sortedTransComparison, relevantLabel = TARGET_LABEL)
+      println(s"MAP for Vanilla Translation Model with lamda of $lambda : " + transMAPcomparison)
+      val transComparisonRPCurve = precisionRecallCurve[Int](sortedTransComparison.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(transComparisonRPCurve)
+      modelNames.append("Vanilla_trans")
+    }
+
+    // CNN
+    if (kerasPredictions.nonEmpty) {
+      val sortedKeras = kerasPredictions.get.zipWithIndex.sortBy(-_._1._1)
+      val kerasMAP = MAP[Int](sortedKeras, relevantLabel = TARGET_LABEL)
+      println("MAP for CNN: " + kerasMAP)
+      val kerasRPCurve = precisionRecallCurve[Int](sortedKeras.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(kerasRPCurve)
+      modelNames.append("CNN")
+    }
+
+    // Random Baseline
+    if (evalRandom) {
+      val randomized = pairs.map(pair => (random.nextDouble(), pair._3)).zipWithIndex.sortBy(-_
+          ._1._1)
+      val randomMAP = MAP[Int](randomized, relevantLabel = TARGET_LABEL)
+      println("MAP for Random: " + randomMAP)
+      val randomRPCurve = precisionRecallCurve[Int](randomized.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(randomRPCurve)
+      modelNames.append("Random")
+    }
+
+    // Lookup
+    if (matches.nonEmpty) {
+      val sortedMatches = matches.get.zipWithIndex.sortBy(-_._1._1)
+      val matchesMAP = MAP[Int](sortedMatches, relevantLabel = TARGET_LABEL)
+      println("MAP for Lookup Baseline: " + matchesMAP)
+      val matchingRPCurve = precisionRecallCurve[Int](sortedMatches.unzip._1, relevantLabel = TARGET_LABEL)
+      modelsToGraph.append(matchingRPCurve)
+      modelNames.append("Lookup_baseline")
+    }
+
+    if (modelsToGraph.nonEmpty){
+      zipPointsAndSave(modelsToGraph, modelNames, prDataFile)
+    }
+
+
+
+    //    val sortedCustom = cosinesCustom.zipWithIndex.sortBy(- _._1._1)
+//    val customLabels = sortedCustom.unzip._1.unzip._2
+//    val customScores = sortedCustom.unzip._1.unzip._1
+//    println("customLabels: " + customLabels.mkString(", "))
+//    println("CustomScores: " + customScores.mkString(", "))
+//    // ERROR ANALYSIS
+//    println ("-------------------------")
+//    println ("Error Anaysis: CUSTOM")
+//    errorAnalysis(sortedCustom, pairs, 0.2)
 
     // Bidirectional Experiment:
-    val sortedE2C = cosinesE2C.zipWithIndex.sortBy(- _._1._1)
-    val e2cLabels = sortedE2C.unzip._1.unzip._2
-    val e2cScores = sortedE2C.unzip._1.unzip._1
-    println("e2cLabels: " + e2cLabels.mkString(", "))
-    println("e2cScores: " + e2cScores.mkString(", "))
-    // ERROR ANALYSIS
-    println ("-------------------------")
-    println ("Error Anaysis: E2C")
-    errorAnalysis(sortedE2C, pairs, 0.2)
+//    val sortedE2C = cosinesE2C.zipWithIndex.sortBy(- _._1._1)
+//    val e2cLabels = sortedE2C.unzip._1.unzip._2
+//    val e2cScores = sortedE2C.unzip._1.unzip._1
+//    println("e2cLabels: " + e2cLabels.mkString(", "))
+//    println("e2cScores: " + e2cScores.mkString(", "))
+//    // ERROR ANALYSIS
+//    println ("-------------------------")
+//    println ("Error Anaysis: E2C")
+//    errorAnalysis(sortedE2C, pairs, 0.2)
 
-    val sortedBidir = cosinesCustomBidir.zipWithIndex.sortBy(- _._1._1)
-    val bidirLabels = sortedBidir.unzip._1.unzip._2
-    val bidirScores = sortedBidir.unzip._1.unzip._1
-    println("bidirLabels: " + bidirLabels.mkString(", "))
-    println("bidirScores: " + bidirScores.mkString(", "))
-    // ERROR ANALYSIS
-    println ("-------------------------")
-    println ("Error Anaysis: BIDIR")
-    errorAnalysis(sortedBidir, pairs, 0.2)
+//    val sortedBidir = cosinesCustomBidir.zipWithIndex.sortBy(- _._1._1)
+//    val bidirLabels = sortedBidir.unzip._1.unzip._2
+//    val bidirScores = sortedBidir.unzip._1.unzip._1
+//    println("bidirLabels: " + bidirLabels.mkString(", "))
+//    println("bidirScores: " + bidirScores.mkString(", "))
+//    // ERROR ANALYSIS
+//    println ("-------------------------")
+//    println ("Error Anaysis: BIDIR")
+//    errorAnalysis(sortedBidir, pairs, 0.2)
 
 
     // PMI
-    val sortedPMI = cosinesPMI.zipWithIndex.sortBy(- _._1._1)
-    val sortedE2CPMI = cosinesE2CPMI.zipWithIndex.sortBy(- _._1._1)
-    val sortedBidirPMI = cosinesPMIBidir.zipWithIndex.sortBy(- _._1._1)
+//    val sortedPMI = cosinesPMI.zipWithIndex.sortBy(- _._1._1)
+//    val sortedE2CPMI = cosinesE2CPMI.zipWithIndex.sortBy(- _._1._1)
+//    val sortedBidirPMI = cosinesPMIBidir.zipWithIndex.sortBy(- _._1._1)
 
     // Vanilla
-    val sortedComparison = cosinesComparison.zipWithIndex.sortBy(- _._1._1)
-    val comparisonLabels = sortedComparison.unzip._1.unzip._2
-    val comparisonScores = sortedComparison.unzip._1.unzip._1
-    println("comparisonLabels: " + comparisonLabels.mkString(", "))
-    println("ComparisonScores: " + comparisonScores.mkString(", "))
+//    val sortedComparison = cosinesComparison.zipWithIndex.sortBy(- _._1._1)
+//    val comparisonLabels = sortedComparison.unzip._1.unzip._2
+//    val comparisonScores = sortedComparison.unzip._1.unzip._1
+//    println("comparisonLabels: " + comparisonLabels.mkString(", "))
+//    println("ComparisonScores: " + comparisonScores.mkString(", "))
 
     // Alignment
-    val sortedTrans = assns.zipWithIndex.sortBy(- _._1._1)
-    val transLabels = sortedTrans.unzip._1.unzip._2
-    val transScores = sortedTrans.unzip._1.unzip._1
-    println("transLabels: " + transLabels.mkString(", "))
-    println("transScores: " + transScores.mkString(", "))
+//    val sortedTrans = assns.zipWithIndex.sortBy(- _._1._1)
+//    val transLabels = sortedTrans.unzip._1.unzip._2
+//    val transScores = sortedTrans.unzip._1.unzip._1
+//    println("transLabels: " + transLabels.mkString(", "))
+//    println("transScores: " + transScores.mkString(", "))
 
     // Vanilla Alignment
-    val sortedTransComparison = assnsComparison.zipWithIndex.sortBy(- _._1._1)
-
-    // Exact Matches Baseline
-    val sortedMatches = matches.zipWithIndex.sortBy(- _._1._1)
-    println ("***ERROR ANALYSIS LOOK-UP BASELINE:***")
-    errorAnalysis(sortedMatches, pairs, 0.2)
-
-    // Sorted Keras
-    val sortedKeras = kerasPredictions.zipWithIndex.sortBy(- _._1._1)
-
-    // Random Baseline
-    val randomized = assns.map(scored => (random.nextDouble(), scored._2)).zipWithIndex.sortBy(-_._1._1)
+//    val sortedTransComparison = assnsComparison.zipWithIndex.sortBy(- _._1._1)
+//
+//    // Exact Matches Baseline
+//    val sortedMatches = matches.zipWithIndex.sortBy(- _._1._1)
+//    println ("***ERROR ANALYSIS LOOK-UP BASELINE:***")
+//    errorAnalysis(sortedMatches, pairs, 0.2)
+//
+//    // Sorted Keras
+//    val sortedKeras = kerasPredictions.zipWithIndex.sortBy(- _._1._1)
+//
+//    // Random Baseline
+//    val randomized = assns.map(scored => (random.nextDouble(), scored._2)).zipWithIndex.sortBy(-_._1._1)
 
     // Step 6: Evaluate
-    val customMAP = MAP[Int](sortedCustom, relevantLabel = TARGET_LABEL)
-    val e2cMAP = MAP[Int](sortedE2C, relevantLabel = TARGET_LABEL)
-    val bidirMAP = MAP[Int](sortedBidir, relevantLabel = TARGET_LABEL)
-    val PMIMAP = MAP[Int](sortedPMI, relevantLabel = TARGET_LABEL)
-    val e2cPMIMAP = MAP[Int](sortedE2CPMI, relevantLabel = TARGET_LABEL)
-    val bidirPMIMAP = MAP[Int](sortedBidirPMI, relevantLabel = TARGET_LABEL)
-    val comparisonMAP = MAP[Int](sortedComparison, relevantLabel = TARGET_LABEL)
-    val transMAP = MAP[Int](sortedTrans, relevantLabel = TARGET_LABEL)
-    val transMAPcomparison = MAP[Int](sortedTransComparison, relevantLabel = TARGET_LABEL)
-    val matchesMAP = MAP[Int](sortedMatches, relevantLabel = TARGET_LABEL)
-    val kerasMAP = MAP[Int](sortedKeras, relevantLabel = TARGET_LABEL)
-    val randomMAP = MAP[Int](randomized, relevantLabel = TARGET_LABEL)
-    println ("MAP for Custom Vectors: " + customMAP)
-    println ("MAP for E2C Vectors: " + e2cMAP)
-    println ("MAP for Bidir Vectors: " + bidirMAP)
-    println ("MAP for PMI Vectors: " + PMIMAP)
-    println ("MAP for E2C PMI Vectors: " + e2cPMIMAP)
-    println ("MAP for Bidir PMI Vectors: " + bidirPMIMAP)
-    println ("MAP for Comparison (Baseline) Vectors: " + comparisonMAP)
-    println(s"MAP for Translation Model with lamda of $lambda : " + transMAP)
-    println(s"MAP for Vanilla Translation Model with lamda of $lambda : " + transMAPcomparison)
-    println ("MAP for counting Matches: " + matchesMAP)
-    println ("MAP for Keras: " + kerasMAP)
-    println ("MAP for Random: " + randomMAP)
+//    val customMAP = MAP[Int](sortedCustom, relevantLabel = TARGET_LABEL)
+//    val e2cMAP = MAP[Int](sortedE2C, relevantLabel = TARGET_LABEL)
+//    val bidirMAP = MAP[Int](sortedBidir, relevantLabel = TARGET_LABEL)
+//    val PMIMAP = MAP[Int](sortedPMI, relevantLabel = TARGET_LABEL)
+//    val e2cPMIMAP = MAP[Int](sortedE2CPMI, relevantLabel = TARGET_LABEL)
+//    val bidirPMIMAP = MAP[Int](sortedBidirPMI, relevantLabel = TARGET_LABEL)
+//    val comparisonMAP = MAP[Int](sortedComparison, relevantLabel = TARGET_LABEL)
+//    val transMAP = MAP[Int](sortedTrans, relevantLabel = TARGET_LABEL)
+//    val transMAPcomparison = MAP[Int](sortedTransComparison, relevantLabel = TARGET_LABEL)
+//    val matchesMAP = MAP[Int](sortedMatches, relevantLabel = TARGET_LABEL)
+//    val kerasMAP = MAP[Int](sortedKeras, relevantLabel = TARGET_LABEL)
+//    val randomMAP = MAP[Int](randomized, relevantLabel = TARGET_LABEL)
+//    println ("MAP for Custom Vectors: " + customMAP)
+//    println ("MAP for E2C Vectors: " + e2cMAP)
+//    println ("MAP for Bidir Vectors: " + bidirMAP)
+//    println ("MAP for PMI Vectors: " + PMIMAP)
+//    println ("MAP for E2C PMI Vectors: " + e2cPMIMAP)
+//    println ("MAP for Bidir PMI Vectors: " + bidirPMIMAP)
+//    println ("MAP for Comparison (Baseline) Vectors: " + comparisonMAP)
+//    println(s"MAP for Translation Model with lamda of $lambda : " + transMAP)
+//    println(s"MAP for Vanilla Translation Model with lamda of $lambda : " + transMAPcomparison)
+//    println ("MAP for counting Matches: " + matchesMAP)
+//    println ("MAP for Keras: " + kerasMAP)
+//    println ("MAP for Random: " + randomMAP)
 
 
-    val randomRPCurve = precisionRecallCurve[Int](randomized.unzip._1, relevantLabel = TARGET_LABEL)
-    val customRPCurve = precisionRecallCurve[Int](sortedCustom.unzip._1, relevantLabel = TARGET_LABEL)
-    val comparisonRPCurve = precisionRecallCurve[Int](sortedComparison.unzip._1, relevantLabel = TARGET_LABEL)
-    val transRPCurve = precisionRecallCurve[Int](sortedTrans.unzip._1, relevantLabel = TARGET_LABEL)
-    val matchingRPCurve = precisionRecallCurve[Int](sortedMatches.unzip._1, relevantLabel = TARGET_LABEL)
-    val e2cRPCurve = precisionRecallCurve[Int](sortedE2C.unzip._1, relevantLabel = TARGET_LABEL)
-    val bidirRPCurve = precisionRecallCurve[Int](sortedBidir.unzip._1, relevantLabel = TARGET_LABEL)
-    val kerasRPCurve = precisionRecallCurve[Int](sortedKeras.unzip._1, relevantLabel = TARGET_LABEL)
-    val PMIRPCurve = precisionRecallCurve[Int](sortedPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val e2cPMIRPCurve = precisionRecallCurve[Int](sortedE2CPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val bidirPMIRPCurve = precisionRecallCurve[Int](sortedBidirPMI.unzip._1, relevantLabel = TARGET_LABEL)
-    val transComparisonRPCurve = precisionRecallCurve[Int](sortedTransComparison.unzip._1, relevantLabel = TARGET_LABEL)
+//    val randomRPCurve = precisionRecallCurve[Int](randomized.unzip._1, relevantLabel = TARGET_LABEL)
+//    val customRPCurve = precisionRecallCurve[Int](sortedCustom.unzip._1, relevantLabel = TARGET_LABEL)
+//    val comparisonRPCurve = precisionRecallCurve[Int](sortedComparison.unzip._1, relevantLabel = TARGET_LABEL)
+//    val transRPCurve = precisionRecallCurve[Int](sortedTrans.unzip._1, relevantLabel = TARGET_LABEL)
+//    val matchingRPCurve = precisionRecallCurve[Int](sortedMatches.unzip._1, relevantLabel = TARGET_LABEL)
+//    val e2cRPCurve = precisionRecallCurve[Int](sortedE2C.unzip._1, relevantLabel = TARGET_LABEL)
+//    val bidirRPCurve = precisionRecallCurve[Int](sortedBidir.unzip._1, relevantLabel = TARGET_LABEL)
+//    val kerasRPCurve = precisionRecallCurve[Int](sortedKeras.unzip._1, relevantLabel = TARGET_LABEL)
+//    val PMIRPCurve = precisionRecallCurve[Int](sortedPMI.unzip._1, relevantLabel = TARGET_LABEL)
+//    val e2cPMIRPCurve = precisionRecallCurve[Int](sortedE2CPMI.unzip._1, relevantLabel = TARGET_LABEL)
+//    val bidirPMIRPCurve = precisionRecallCurve[Int](sortedBidirPMI.unzip._1, relevantLabel = TARGET_LABEL)
+//    val transComparisonRPCurve = precisionRecallCurve[Int](sortedTransComparison.unzip._1, relevantLabel = TARGET_LABEL)
 
     //saveGraphAsTSV(customRPCurve, "/home/bsharp/causal/customRPCurve.tsv")
     //saveGraphAsTSV(comparisonRPCurve, "/home/bsharp/causal/comparisonRPCurve.tsv")
-    zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve, matchingRPCurve, e2cRPCurve, bidirRPCurve, PMIRPCurve, e2cPMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve5.tsv")
+
+//    zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve, matchingRPCurve, e2cRPCurve, bidirRPCurve, PMIRPCurve, e2cPMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve5.tsv")
     //zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, bidirRPCurve, PMIRPCurve, bidirPMIRPCurve), "/lhome/bsharp/causal/allRPCurve6.tsv")
     //zipPointsAndSave(Seq(comparisonRPCurve, matchingRPCurve, customRPCurve, bidirRPCurve, PMIRPCurve, bidirPMIRPCurve, transRPCurve, kerasRPCurve), "/lhome/bsharp/causal/allRPCurve10Test.tsv")
 //    zipPointsAndSave(Seq(transRPCurve), "/lhome/bsharp/causal/transPRCurve_Test.tsv")
@@ -612,7 +771,7 @@ object DirectEval {
 //    zipPointsAndSave(Seq(customRPCurve, comparisonRPCurve, transRPCurve, randomRPCurve), "/home/bsharp/causal/allRPCurve_noMatches.tsv")
 
     // Step 6b: Statistical Significance of the MAPs
-    val n:Int = 10000
+//    val n:Int = 10000
 //    val pValueMAP = StatsUtils.runStatsMAP(cosinesCustom, cosinesComparison, n)
 //    println ("---------------------------------------------------------------------------------------")
 //    println ("\tcEmbed vs. Vanilla")
