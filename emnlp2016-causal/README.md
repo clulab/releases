@@ -5,7 +5,7 @@ System used in EMNLP 2016 paper:
 
 This README explains how to run several components:
 
-  __EXTRACTION:__
+__EXTRACTION:__
   (a) the tool to extract causal events from freetext
   (b) the tool to extract causal events from anotated gigaword
   
@@ -13,7 +13,7 @@ __CREATING EMBEDDINGS:__
   (c ) the tool to convert the extracted events to the word-pair format needed for the
       Levy&Goldberg vector training
   
-  __EVALUATING:__
+__EVALUATING:__
   (d) the tool to run the direct evaluation
   (e) the tool to run the causal Yahoo!CQA evaluation
   
@@ -27,8 +27,10 @@ If you have questions not covered by this documentation, please feel free to ema
 **NOTE: please extract the data/ dir before running the example code!
 
 --------------------------------------------------------------------------------------------
- __EXTRACTION:__
-	NOTE: My extracted tuples are included in data/causalTuples
+
+__EXTRACTION:__
+NOTE: My extracted tuples are included in data/causalTuples
+
 --------------------------------------------------------------------------------------------
 Both of these modes produces two types of output files.
 1. The first has a .args extension, and has just the CAUSE --> RESULT extracted events.
@@ -47,11 +49,11 @@ a properties file (sample provided in props/extractFreeText.props). These includ
 								-- lemmasWithTags : corresponds to the lemma_originalPOS, like cat_NNS
 								-- wordsWithTags	: corresponds to the originalWord_originalPOS, like runs_VBZ
 - rules_file = the location of your rules file, a sample is provided in src/main/resources
----------------
+
 command to run:
 `sbt "runMain edu.arizona.sista.extraction.ExtractFromFreeText -props [path to props file]"`
----------------
-			
+
+
 __b) the tool to extract causal events from anotated gigaword__
 This is very similar to (a) except that we assume you have annotated gigaword downloaded.
 A sample properties file is located in props/extractAgiga.props.  Here, your properties file is
