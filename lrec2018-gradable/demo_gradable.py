@@ -1,4 +1,10 @@
+from __future__ import print_function
 from math import exp
+
+# 2.x and 3.x compatible input -- from SO response
+try: input = raw_input
+except NameError: pass
+
 
 def textwrap(long_string, delimiter=" "):
     words = long_string.split(delimiter)
@@ -54,14 +60,14 @@ def getValidResponse(prompt, options_list):
     options_string = '/'.join([str(opt) for opt in options_list])
     options_string = textwrap(options_string, delimiter='/')
     while not is_valid:
-        response = raw_input(prompt + " [" + options_string + "] ")
+        response = input(prompt + " [" + options_string + "] ")
         if response in options_list:
             is_valid = True
 
     return response
 
 def main():
-    print "Gradable Adjectives Groundings Demo"
+    print("Gradable Adjectives Groundings Demo")
 
     predict_another = "y"
 
@@ -70,10 +76,10 @@ def main():
     while predict_another == "y":
 
         user_adj = getValidResponse("Enter adjective: ", model.keys())
-        user_mean = float(raw_input("Enter mean of item being modified: "))
+        user_mean = float(input("Enter mean of item being modified: "))
         user_stdev = None
         if not backoff:
-            user_stdev = float(raw_input("Enter stdev of item being modified: "))
+            user_stdev = float(input("Enter stdev of item being modified: "))
 
         adjective_funct = model[user_adj]
         intercept = adjective_funct["intercept"]
@@ -84,7 +90,7 @@ def main():
             predicted = exp(intercept + (mu*user_mean) + (sigma*user_stdev)) * user_stdev
         else:
             predicted = exp(intercept + (mu * user_mean)) * user_mean
-        print "predicted change (increase or decrease) from the mean: ", predicted
+        print("predicted change (increase or decrease) from the mean: " + str(predicted))
 
         predict_another = getValidResponse("Predict another?", ['y', 'n'])
         if predict_another == 'y':
