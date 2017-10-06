@@ -1,5 +1,13 @@
 from math import exp
 
+def textwrap(long_string, delimiter=" "):
+    words = long_string.split(delimiter)
+    spans = [words[x:x+10] for x in range(0,len(words),10)]
+    span_strings = [delimiter.join(s) for s in spans]
+    wrapped = "\n\t".join(span_strings)
+    return wrapped
+
+
 def load_model(filename, backoff):
     lines = open(filename).readlines()[1:]
     model = dict()
@@ -17,30 +25,15 @@ def load_model(filename, backoff):
             model[adj]["sigma"] = sigma_coeff
     return model
 
+def choose_model():
 
+    use_stdev = getValidResponse("Include standard deviation?", ['y', 'n'])
+    if use_stdev == 'y':
+        backoff = False
+    else:
+        backoff = True
 
-def main():
-    print "Gradable Adjectives Groundings Demo"
-    backoff = False
-    valid_resp = False
-    while not valid_resp:
-        use_stdev = raw_input("Include standard deviation? [y/n] ")
-        if use_stdev == 'y':
-            backoff = False
-            valid_resp = True
-        elif use_stdev == 'n':
-            backoff = True
-            valid_resp = True
-        else:
-            print "Invalid reponse."
-    valid_resp = False
-    model_type = None
-    while not valid_resp:
-        model_type = raw_input("Do you want to use the full model or the high-frequency subset? [full/hf] ")
-        if model_type == 'full' or model_type == "hf":
-            valid_resp = True
-        else:
-            print "Invalid reponse."
+    model_type = getValidResponse("Do you want to use the full model or the high-frequency subset?", ["full", "hf"])
 
     models = {
         "full": {
@@ -53,30 +46,51 @@ def main():
         }
     }
 
-    model = load_model(models[model_type][backoff], backoff)
+    return load_model(models[model_type][backoff], backoff), backoff
 
-    user_adj = raw_input("Enter adjective: ")
-    if user_adj not in model:
-        print "Sorry, that adjective ({0}) is not in our model.  Please choose from:\n{1}".format(user_adj, model.keys())
-    user_mean = float(raw_input("Enter mean of item being modified: "))
-    user_stdev = None
-    if not backoff:
-        user_stdev = float(raw_input("Enter stdev of item being modified: "))
+def getValidResponse(prompt, options_list):
+    is_valid = False
+    response = None
+    options_string = '/'.join([str(opt) for opt in options_list])
+    options_string = textwrap(options_string, delimiter='/')
+    while not is_valid:
+        response = raw_input(prompt + " [" + options_string + "] ")
+        if response in options_list:
+            is_valid = True
 
-    adjective_funct = model[user_adj]
-    intercept = adjective_funct["intercept"]
-    # print "intercept type: ", type(intercept), intercept
-    mu = adjective_funct["mu"]
-    # print "mu type: ", type(mu), mu
+    return response
 
-    if not backoff:
-        sigma = adjective_funct["sigma"]
-        # print "sigma type: ", type(sigma), sigma
-        predicted = exp(intercept + (mu*user_mean) + (sigma*user_stdev)) * user_stdev
-    else:
-        predicted = exp(intercept + (mu * user_mean)) * user_mean
-    print "predicted change (increase or decrease) from the mean: ", predicted
+def main():
+    print "Gradable Adjectives Groundings Demo"
 
+    predict_another = "y"
+
+    model, backoff = choose_model()
+
+    while predict_another == "y":
+
+        user_adj = getValidResponse("Enter adjective: ", model.keys())
+        user_mean = float(raw_input("Enter mean of item being modified: "))
+        user_stdev = None
+        if not backoff:
+            user_stdev = float(raw_input("Enter stdev of item being modified: "))
+
+        adjective_funct = model[user_adj]
+        intercept = adjective_funct["intercept"]
+        mu = adjective_funct["mu"]
+
+        if not backoff:
+            sigma = adjective_funct["sigma"]
+            predicted = exp(intercept + (mu*user_mean) + (sigma*user_stdev)) * user_stdev
+        else:
+            predicted = exp(intercept + (mu * user_mean)) * user_mean
+        print "predicted change (increase or decrease) from the mean: ", predicted
+
+        predict_another = getValidResponse("Predict another?", ['y', 'n'])
+        if predict_another == 'y':
+            choose_another_model = getValidResponse("Choose another model?", ['y', 'n'])
+            if choose_another_model == 'y':
+                model, backoff = choose_model()
 
 
 
