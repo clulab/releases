@@ -8,7 +8,7 @@ The resource consists of four files, each corresponding to one version of the
 gradable adjective groundings:
 
  -- the full set of adjectives (98) with both mean (mu) and stdev (sigma)
- -- the full set of adjectuves with only mean
+ -- the full set of adjectives with only mean
  -- the high-frequency subset (30)  with both mean and stdev
  -- the high-frequency subset with only mean
 
