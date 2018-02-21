@@ -41,6 +41,11 @@ please note that the code is not an end-to-end script, but rather a set of comma
 Also, paths to data will likely need to be modified depending on where/how you
 store the released data.
 
+Predictions of the NN model on both seen and unseen adjectives are included in data/.
+The code for evaluating these models as well as for generating the input used
+to make the MSE vs. Variance plot for unseen adjectives is included in 
+	code/nn_eval_and_plot.py
+
 We will soon release the code for the neural network model as well as all prompts
 given to participants in the crowd-sourcing task.  Please contact 
 Becky Sharp (bsharp@email.arizona.edu) for more information in the meantime.
