@@ -33,5 +33,17 @@ A python demo script is included.  To use:
 > python demo_gradable.py
 And follow the prompts.
 
+DATA and CODE:
+We include the original (unfiltered) data from the crowd-sourcing experiment.
+	data/AdjMainR.csv
+We additionally include the R code to reproduce all analyses and plots, though
+please note that the code is not an end-to-end script, but rather a set of commands.
+Also, paths to data will likely need to be modified depending on where/how you
+store the released data.
+
+We will soon release the code for the neural network model as well as all prompts
+given to participants in the crowd-sourcing task.  Please contact 
+Becky Sharp (bsharp@email.arizona.edu) for more information in the meantime.
+ 
 
 
