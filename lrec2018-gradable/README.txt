@@ -1,4 +1,4 @@
-This is the resouce described in the LREC 2018 submission: 
+This is the resouce described in the LREC 2018 paper: 
 "Grounding Gradable Adjectives through Crowdsourcing"
 
 If you have any questions or issues, please contact Becky Sharp
