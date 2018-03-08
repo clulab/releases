@@ -1,0 +1,42 @@
+# packages in environment at /Users/mithun/miniconda3/envs/grounding:
+#
+ca-certificates           2017.08.26           ha1e5d58_0  
+certifi                   2018.1.18                py36_0  
+cffi                      1.11.5           py36h342bebf_0  
+freetype                  2.8                  h12048fb_1  
+intel-openmp              2018.0.0             h8158457_8  
+jpeg                      9b                   he5867d9_2  
+libcxx                    4.0.1                h579ed51_0  
+libcxxabi                 4.0.1                hebd6815_0  
+libedit                   3.1                  hb4e282d_0  
+libffi                    3.2.1                h475c297_4  
+libgfortran               3.0.1                h93005f0_2  
+libpng                    1.6.34               he12f830_0  
+libtiff                   4.0.9                h0dac147_0  
+mkl                       2018.0.1             hfbd8650_4  
+ncurses                   6.0                  hd04f020_2  
+numpy                     1.14.1           py36ha726252_2  
+olefile                   0.45.1                   py36_0  
+openssl                   1.0.2n               hdbc3d79_0  
+pandas                    0.21.0           py36hfed917e_1  
+pillow                    5.0.0            py36hfcce615_0  
+pip                       9.0.1                    py36_5  
+pycparser                 2.18             py36h724b2fc_1  
+python                    3.6.3                h47c878a_7  
+python-dateutil           2.6.1            py36h86d2abb_1  
+pytorch                   0.3.1           py36_cuda0.0_cudnn0.0_2    pytorch
+pytz                      2018.3                   py36_0  
+readline                  7.0                  hc1231fa_4  
+scikit-learn              0.19.1                    <pip>
+scipy                     0.19.1           py36h3e758e1_3  
+setuptools                38.5.1                   py36_0  
+six                       1.11.0           py36h0e22d5e_1  
+sklearn                   0.0                       <pip>
+sqlite                    3.22.0               h3efe00b_0  
+tk                        8.6.7                h35a86e2_3  
+torchvision               0.2.0            py36hf5eb7ec_1    pytorch
+torchwordemb              0.0.8                     <pip>
+tqdm                      4.19.6                    <pip>
+wheel                     0.30.0           py36h5eb2c71_1  
+xz                        5.2.3                h0278029_2  
+zlib                      1.2.11               hf3cbc9b_2  
