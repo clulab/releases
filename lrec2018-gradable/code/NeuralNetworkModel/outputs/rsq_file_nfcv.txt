@@ -1,0 +1,26 @@
+Chunk 	 RSQ
+adj:solid rsq:-5478020.24052 len:37
+adj:high rsq:-13805620.9665 len:39
+adj:normal rsq:-16709458.9019 len:31
+adj:wide rsq:-18434973.331 len:29
+adj:good rsq:-32172921.9836 len:24
+adj:familiar rsq:-15839393.595 len:31
+adj:conventional rsq:-13558434.0843 len:36
+adj:surprising rsq:-12036210.7761 len:38
+adj:intense rsq:-23787208.7935 len:30
+adj:steep rsq:-70272663.9239 len:30
+adj:huge rsq:-9559524.93389 len:35
+adj:clear rsq:-13245606.4536 len:28
+adj:obvious rsq:-14424518.074 len:38
+adj:slight rsq:-14267042.0809 len:37
+adj:adequate rsq:-6754019.29162 len:35
+adj:excessive rsq:-9092958.76889 len:38
+adj:impressive rsq:-14013221.5904 len:24
+adj:fundamental rsq:-46795671.7753 len:32
+adj:rich rsq:-5612847.75727 len:33
+adj:big rsq:-30137506.1225 len:31
+adj:aggressive rsq:-41953591.8201 len:33
+adj:substantial rsq:-41427674.7929 len:33
+adj:appropriate rsq:-43244557.7524 len:34
+adj:sensitive rsq:-7354074.63017 len:38
+adj:sensitive rsq:-5509723.05982 len:31

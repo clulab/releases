@@ -1,0 +1,108 @@
+Chunk 	 RSQ
+adj:solid rsq:0.0188681952256 len:37
+adj:high rsq:-0.338038007117 len:39
+adj:normal rsq:-12.8147044858 len:31
+adj:wide rsq:-2.60490782177 len:29
+adj:good rsq:-0.759610586499 len:24
+adj:familiar rsq:-0.624616162527 len:31
+adj:conventional rsq:-0.517290026507 len:36
+adj:surprising rsq:-0.000529409485819 len:38
+adj:intense rsq:-0.654232735044 len:30
+adj:steep rsq:-1.28719719761 len:30
+adj:huge rsq:-2.57408842587 len:35
+adj:clear rsq:-0.81896611182 len:28
+adj:obvious rsq:-0.0632440992882 len:38
+adj:slight rsq:-0.0484626143086 len:37
+adj:adequate rsq:-4.97746738545 len:35
+adj:excessive rsq:-2.16207670815 len:38
+adj:impressive rsq:-3.82084485191 len:24
+adj:fundamental rsq:-1.06809814449 len:32
+adj:rich rsq:-0.290620148499 len:33
+adj:big rsq:-0.421722140733 len:31
+adj:aggressive rsq:-0.643616279132 len:33
+adj:substantial rsq:-0.533665000389 len:33
+adj:appropriate rsq:-0.937354716834 len:34
+adj:sensitive rsq:-0.354181812835 len:38
+adj:sensitive rsq:-1.57086598931 len:31
+
+rsquared_value_on_test_after_chunk_0:-0.147119848462
+len(test_fold_index): 849adj:strong rsq:-4.64435520261 len:28
+adj:remarkable rsq:-1.15603477146 len:35
+adj:sound rsq:-0.12540668626 len:34
+adj:serious rsq:-2.08046198454 len:32
+adj:extensive rsq:-0.494443729828 len:29
+adj:reasonable rsq:0.209753481425 len:35
+adj:bullish rsq:-0.203638398249 len:27
+adj:minor rsq:-0.0142625840298 len:29
+adj:sharp rsq:-3.39024587617 len:28
+adj:thin rsq:-1.50861245578 len:36
+adj:outstanding rsq:0.0593167103363 len:36
+adj:traditional rsq:-0.0095230118784 len:31
+adj:moderate rsq:0.087094050108 len:29
+adj:severe rsq:-0.902744879922 len:37
+adj:regular rsq:-0.87759990364 len:27
+adj:prominent rsq:-1.79928199654 len:33
+adj:ordinary rsq:-0.347894023252 len:33
+adj:usual rsq:0.00262760674986 len:37
+adj:liberal rsq:-0.874573146134 len:38
+adj:promising rsq:-2.77781507382 len:39
+adj:conservative rsq:-1.11769012856 len:33
+adj:great rsq:-0.440937840088 len:36
+adj:likely rsq:-0.982066978038 len:35
+adj:legitimate rsq:-0.294833049802 len:38
+adj:legitimate rsq:-0.254697752632 len:36
+
+rsquared_value_on_test_after_chunk_1:0.158980180668
+len(test_fold_index): 855adj:tight rsq:-1.22204598078 len:37
+adj:rare rsq:-1.75377265007 len:38
+adj:radical rsq:0.000395504741221 len:32
+adj:favorable rsq:-0.220371514862 len:36
+adj:significant rsq:-0.0567445141021 len:37
+adj:powerful rsq:-0.174352854333 len:34
+adj:crucial rsq:-0.0626697586699 len:30
+adj:routine rsq:-2.15308631675 len:38
+adj:low rsq:-0.0394838455239 len:34
+adj:firm rsq:-0.606520673412 len:39
+adj:poor rsq:-0.0711550967519 len:38
+adj:comfortable rsq:-0.748472066321 len:37
+adj:considerable rsq:-0.132218347184 len:26
+adj:weak rsq:-0.12146903977 len:33
+adj:large rsq:-0.36474774578 len:34
+adj:relative rsq:-0.405691674663 len:31
+adj:unusual rsq:-1.29079226964 len:35
+adj:positive rsq:-0.0667303244234 len:34
+adj:generous rsq:0.0867345623534 len:36
+adj:fair rsq:-0.0572984273646 len:32
+adj:unexpected rsq:-0.314298970864 len:33
+adj:extraordinary rsq:-0.207714921902 len:33
+adj:acceptable rsq:-0.542322057221 len:28
+adj:acceptable rsq:-1.58970423384 len:35
+
+rsquared_value_on_test_after_chunk_2:0.30926172683
+len(test_fold_index): 843adj:stable rsq:0.0476875310093 len:32
+adj:nice rsq:-0.576051889889 len:29
+adj:important rsq:-2.65738806254 len:37
+adj:light rsq:-0.606195648368 len:33
+adj:broad rsq:-1.1477726977 len:32
+adj:dramatic rsq:-0.0431438090706 len:34
+adj:critical rsq:-1.82922331945 len:24
+adj:narrow rsq:-0.40666704368 len:29
+adj:major rsq:-0.315209448762 len:32
+adj:typical rsq:-0.644426007368 len:35
+adj:tiny rsq:-0.310304103183 len:33
+adj:healthy rsq:-1.3780180949 len:34
+adj:inadequate rsq:-0.194110291173 len:29
+adj:little rsq:-3.42883644541 len:21
+adj:competitive rsq:0.0231552094714 len:36
+adj:deep rsq:-0.642712327109 len:31
+adj:valuable rsq:-0.426916717625 len:29
+adj:sizable rsq:-0.166564855401 len:35
+adj:hefty rsq:-0.432252711831 len:35
+adj:striking rsq:-0.438437925262 len:24
+adj:bearish rsq:-1.12453580896 len:28
+adj:fine rsq:-0.0939060764296 len:27
+adj:grand rsq:-0.168126773863 len:34
+adj:grand rsq:-7.43223864269 len:26
+
+rsquared_value_on_test_after_chunk_3:0.425013786621
+len(test_fold_index): 762
