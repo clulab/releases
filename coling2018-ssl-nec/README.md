@@ -1,6 +1,6 @@
 # Semi-supervised Learning for Named Entity Classification
 
-citation:
+Citation:
 
 ```
 @inproceedings{colingMT,
@@ -13,13 +13,13 @@ citation:
 }
 ```
 
-papers: 
+Papers: 
 
 1. NAACL 2018
 2. COLING 2018
 3. arXiv
 
-systems: 
+Systems: 
 
 1. ladder
 2. mean-teacher
