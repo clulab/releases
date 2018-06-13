@@ -1,0 +1,80 @@
+awk '{$17="1, "$17; print}' positive_path.csv > positive_path_ADDlabel.csv
+awk '{$19="0, "$19; print}' all_negative_path.csv > all_negative_path_ADDlabel.csv
+
+sort -n -t ',' -k 1 positive_path_ADDlabel.csv > sorted_positive_path.csv   //sort by r3
+sort -n -t ',' -k1 -k3 all_negative_path_ADDlabel.csv > sorted_all_negative_path.csv //sort by c1,c3
+
+//align columns
+awk -F ',' '{$NF=$NF", "$1; print}' OFS="," sorted_positive_path.csv | cut -d " " -f2-  > sorted_positive_path_move_r3.csv
+awk -F ',' '{$20=" "$1","$2","$3","$20; print}' OFS="," sorted_all_negative_path.csv | cut -d"," -f4- | cut -d " " -f2- > sorted_all_negative_path_move_c1c2c3.csv 
+
+//clean data, otherwise numpy.loadtxt can not read correctly 
+sed -i '.bak' 's/\[(Ca 2+ )i\]/((Ca 2+ )i)/g' sorted_all_negative_path_move_c1c2c3.csv
+rm -f sorted_all_negative_path_move_c1c2c3.csv.bak
+sed -i '.bak' 's/#//g' sorted_all_negative_path_move_c1c2c3.csv 
+rm -f sorted_all_negative_path_move_c1c2c3.csv.bak
+
+python citation_feature_positive.py    
+    ->  citation_features_positive.csv 
+python citation_feature_negative.py    
+    ->  citation_features_all_negative.csv
+
+python membership_feature_positive.py
+    -> membership100_features_positive.csv , membership300_features_positive.csv 
+python membership_feature_negative.py
+    -> membership100_features_all_negative.csv, membership300_features_all_negative.csv
+
+awk -F ',' '{print $1,$2}' OFS="," citation_features_positive.csv | paste -d',' -  sorted_positive_path_move_r3.csv | awk -F ',' '{$17=$17", "$1", "$2; print}' OFS="," | cut -d"," -f3-> add_citation_positive.csv
+awk -F ',' '{print $1,$2}' OFS="," citation_features_all_negative.csv | paste -d',' -  sorted_all_negative_path_move_c1c2c3.csv | awk -F ',' '{$17=$17", "$1", "$2; print}' OFS="," | cut -d"," -f3-> add_citation_all_negative.csv
+
+awk -F ',' '{print $1,$2,$3}' OFS="," membership100_features_positive.csv | paste -d',' -  add_citation_positive.csv | awk -F ',' '{$20=$20", "$1", "$2", "$3; print}' OFS="," | cut -d"," -f4-> add_citation_membership100_positive.csv
+awk -F ',' '{print $1,$2,$3}' OFS="," membership300_features_positive.csv | paste -d',' -  add_citation_membership100_positive.csv | awk -F ',' '{$23=$23", "$1", "$2", "$3; print}' OFS="," | cut -d"," -f4-> add_citation_memberships_positive.csv
+awk -F ',' '{print $1,$2,$3}' OFS="," membership100_features_all_negative.csv | paste -d',' -  add_citation_all_negative.csv | awk -F ',' '{$20=$20", "$1", "$2", "$3; print}' OFS="," | cut -d"," -f4-> add_citation_membership100_all_negative.csv
+awk -F ',' '{print $1,$2,$3}' OFS="," membership300_features_all_negative.csv | paste -d',' -  add_citation_membership100_all_negative.csv | awk -F ',' '{$23=$23", "$1", "$2", "$3; print}' OFS="," | cut -d"," -f4-> add_citation_memberships_all_negative.csv
+
+
+
+//5015 *0.6 ~ 3011, and separated at different r3
+sed -n '2,3012p' add_citation_memberships_positive.csv > positive_train.csv
+sed -n '3013,4014p' add_citation_memberships_positive.csv > positive_dev.csv
+sed -n '4015,5016p' add_citation_memberships_positive.csv > positive_test.csv
+
+// 274,251 *0.6 ~ 164,551, and separated at different (c1,c3)
+sed -n '2,164552p' add_citation_memberships_all_negative.csv  > all_negative_train.csv
+sed -n '164553,219402p' add_citation_memberships_all_negative.csv  > all_negative_test.csv
+sed -n '219403,274252p' add_citation_memberships_all_negative.csv  > all_negative_dev.csv
+
+cat positive_train.csv all_negative_train.csv > train_combined.csv
+cat positive_dev.csv all_negative_dev.csv > dev_combined.csv
+cat positive_test.csv all_negative_test.csv > test_combined.csv
+
+for i in $(seq 1 167562);do echo "$RANDOM";done > randoms_train.txt 
+for i in $(seq 1 55852);do echo "$RANDOM";done > randoms_test.txt
+for i in $(seq 1 55852);do echo "$RANDOM";done > randoms_dev.txt
+
+awk '{print $1}' randoms_train.txt | paste -d',' - train_combined.csv |sort -k1n|cut -d"," -f2- > train_shuffled1.csv
+awk '{print $1}' randoms_dev.txt | paste -d',' - dev_combined.csv |sort -k1n|cut -d"," -f2- > dev_shuffled1.csv
+awk '{print $1}' randoms_test.txt | paste -d',' - test_combined.csv |sort -k1n|cut -d"," -f2- > test_shuffled1.csv
+
+//in case not shuffled enough
+	for i in $(seq 1 167562);do echo "$RANDOM";done > randoms_train2.txt 
+awk '{print $1}' randoms_train2.txt | paste -d',' - train_shuffled1.csv |sort -k1n|cut -d"," -f2- > train_shuffled.csv
+awk '{print $1}' randoms_test.txt | paste -d',' - dev_shuffled1.csv |sort -k1n|cut -d"," -f2- > dev_shuffled.csv
+awk '{print $1}' randoms_dev.txt | paste -d',' - test_shuffled1.csv |sort -k1n|cut -d"," -f2- > test_shuffled.csv
+	sed -i '.bak' 's/NaN/0/g' train_shuffled.csv
+mv train_shuffled.csv train.csv
+mv train_shuffled.csv.bak train_shuffled.csv
+sed -i '.bak' 's/NULL/10000/g' train.csv
+rm -rf train.csv.bak
+sed -i '.bak' 's/NaN/0/g' dev_shuffled.csv
+mv dev_shuffled.csv dev.csv
+mv dev_shuffled.csv.bak dev_shuffled.csv
+sed -i '.bak' 's/NULL/10000/g' dev.csv
+rm -rf dev.csv.bak
+sed -i '.bak' 's/NaN/0/g' test_shuffled.csv
+mv test_shuffled.csv test.csv
+mv test_shuffled.csv.bak test_shuffled.csv
+sed -i '.bak' 's/NULL/10000/g' test.csv
+rm -rf test.csv.bak
+
+cat train.csv dev.csv > train_dev.csv
