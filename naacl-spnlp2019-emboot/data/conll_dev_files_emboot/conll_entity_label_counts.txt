@@ -1,0 +1,2671 @@
+1	( Jerry ) Koosman	PER
+1	( Tom ) Seaver	PER
+1	1966-76 Cultural Revolution	MISC
+2	1997 FED CUP	MISC
+1	1997 Fed Cup	MISC
+1	1998 WORLD CUP	MISC
+1	1998 World Cup	MISC
+1	90	LOC
+1	A$	MISC
+1	A. Dale	PER
+1	A. Fraser	PER
+1	A. Gurusinha	PER
+2	A. Hollioake	PER
+1	A. Mullally	PER
+1	A. Ranatunga	PER
+1	A. Smith	PER
+1	A. Stewart	PER
+1	A.G. Edwards & Sons	ORG
+1	AFRICAN NATIONS CUP	MISC
+1	AIDS	MISC
+1	AK-47s	MISC
+1	AL-RAM	LOC
+1	ALL BLACK	ORG
+1	ALL BLACKS	ORG
+1	AMERICAN FOOTBALL-RANDALL	MISC
+1	ARLINGTON	LOC
+1	ARMENIA	LOC
+1	ASHES	MISC
+1	ATALANTA	ORG
+2	ATLANTA	ORG
+4	AUSTRALIA	LOC
+2	AUSTRIA	LOC
+1	AXE	MISC
+1	AZERBAIJAN	LOC
+2	Aamir Sohail	PER
+1	Abdullah Ercan	PER
+1	Abolhassan Banisadr	PER
+2	Abu Ammar	PER
+1	Acimovic	PER
+2	Adam Hollioake	PER
+1	Adams	PER
+1	Adem Hacini	PER
+2	Adler Capelli	PER
+1	Aerodrom Beograd	LOC
+1	Afghanistan	LOC
+4	African	MISC
+1	African National Congress	ORG
+1	African Nations ' Cup	MISC
+1	African Nations Cup	MISC
+1	Afrikaans	MISC
+1	Afrikaner	MISC
+3	Afrikaners	MISC
+1	Agassi	PER
+3	Agriculture Department	ORG
+1	Aidan Quinn	PER
+1	Aime Jacquet	PER
+1	Ainars Kiksis	PER
+1	Air Cargo Newsroom	ORG
+2	Air Force	ORG
+6	Air France	ORG
+1	Aki	PER
+1	Al Unser	PER
+1	Al-Akhbar	ORG
+1	Alain Juppe	PER
+1	Alama Ieremia	PER
+2	Alan	PER
+1	Alan Benes	PER
+1	Alan Greenspan	PER
+1	Alan John Percivale ( A.J.P. ) Taylor	PER
+1	Alan Mullally	PER
+1	Alan Shearer	PER
+1	Alania	ORG
+2	Alba	ORG
+1	Albert Emon	PER
+1	Alberto Garcia Aspe	PER
+1	Albion	ORG
+3	Albright	PER
+1	Alec Stewart	PER
+1	Alex Corretja	PER
+1	Alex O'Brien	PER
+1	Alex Zanardi	PER
+5	Alexander Lebed	PER
+1	Alexander Lukashenko	PER
+1	Alexander Volkov	PER
+1	Alfonso Rios	PER
+6	Algeria	LOC
+4	Algerian	MISC
+3	Algiers	LOC
+1	Ali Ahmed	PER
+1	Ali Fallahiyan	PER
+1	Alija Izetbegovic	PER
+1	Alina Astafei	PER
+1	Alistair McCoist	PER
+1	Aliuska Lopez	PER
+3	All Black	ORG
+3	All Blacks	ORG
+1	All-England Club	ORG
+1	Allahu Akhbar	PER
+1	Allenby	PER
+1	Alloa	ORG
+1	Alpay Ozalan	PER
+1	Alpine	MISC
+1	Alsace	LOC
+1	Alvaro Espinoza	PER
+1	Amanda Coetzer	PER
+1	America	LOC
+12	American	MISC
+1	American Catholics	MISC
+2	American League	MISC
+1	American League Central	MISC
+1	American Olympic	MISC
+1	American Stock Exchange	ORG
+1	Americans	MISC
+1	Amman	LOC
+1	Amman-bound	MISC
+1	Amnesty International	ORG
+1	Amra Kevic	PER
+3	Amsterdam	LOC
+1	Anatoly Gorokhovsky	PER
+1	Ancell	PER
+1	Andre Agassi	PER
+2	Andre Joubert	PER
+1	Andre Ribeiro	PER
+2	Andre Venter	PER
+2	Andrea Collinelli	PER
+1	Andrea Gaudenzi	PER
+2	Andreas Heraf	PER
+1	Andreas Herzog	PER
+1	Andreas Ogris	PER
+1	Andreas Seelig	PER
+1	Andrei Medvedev	PER
+1	Andrei Olhovskiy	PER
+1	Andrei Tiwontschik	PER
+1	Andrew Goram	PER
+1	Andrew Magee	PER
+4	Andrew Mehrtens	PER
+1	Andruw Jones	PER
+1	Andy Caddick	PER
+1	Andy Pettitte	PER
+2	Andy Townsend	PER
+1	Angels	ORG
+1	Anglicans	MISC
+1	Anja Ruecker	PER
+1	Ankara	LOC
+1	Anne Boleyn	PER
+1	Anne of a Thousand Days	MISC
+1	Anne-Gaelle Sidot	PER
+1	Annemari Sandell	PER
+1	Annemarie Jorritsma	PER
+1	Annett Neumann	PER
+3	Anthony Hill	PER
+1	Anthony Quayle	PER
+1	Anthony Washington	PER
+1	Antoine Lebouc	PER
+1	Anton Chantyr	PER
+1	Anton Pfeffer	PER
+1	Anton Polster	PER
+2	Antonella Bellutti	PER
+1	Apic Yamada	ORG
+1	Apic Yamada Corp	ORG
+5	Arab	MISC
+2	Arab East Jerusalem	LOC
+1	Arab-Israeli	MISC
+5	Arabs	MISC
+7	Arafat	PER
+1	Arantxa Sanchez Vicario	PER
+2	Aravinda de Silva	PER
+16	Arbil	LOC
+1	Arbroath	ORG
+3	Arctic	MISC
+4	Argentina	LOC
+1	Ariel Cruz	PER
+2	Arif Erdem	PER
+1	Arjuna Ranatunga	PER
+1	Armando Alvarez	PER
+1	Armen Martirosyan	PER
+5	Armenia	LOC
+1	Armenian	MISC
+2	Armenians	MISC
+1	Artisans for Peace	MISC
+1	Arundel	LOC
+1	Asa Carlsson	PER
+1	Asanka Gurusinha	PER
+1	Ashes	MISC
+1	Asia	LOC
+4	Aslan Maskhadov	PER
+1	Astrid Kumbernuss	PER
+4	Ata-ur-Rehman	PER
+3	Atalanta	ORG
+1	Athetlics	ORG
+2	Atlanta	LOC
+4	Atlanta	ORG
+2	Atlanta Games	MISC
+2	Atlantic City	LOC
+1	Atlas Bangladesh	ORG
+1	Ato Boldon	PER
+1	Auckland	LOC
+1	Augusto Lendoiro	PER
+1	Aung San Suu Kyi	PER
+1	Aunger	PER
+28	Australia	LOC
+7	Australian	MISC
+7	Austria	LOC
+3	Austrian	MISC
+2	Austrians	MISC
+1	Auxerre	ORG
+1	Ayr	ORG
+3	Azerbaijan	LOC
+1	Azerbaijani	PER
+1	Azeri	MISC
+2	Azeris	MISC
+3	Aziz	PER
+1	BAILEY	PER
+2	BALTIMORE	ORG
+1	BARATELLI	PER
+1	BBC	ORG
+1	BELARUS	LOC
+2	BELGIUM	LOC
+1	BENETTON	ORG
+1	BENIN	LOC
+1	BERLIN GRAND PRIX	MISC
+2	BIRMINGHAM	LOC
+1	BIRMINGHAM	ORG
+2	BNR	ORG
+1	BOGOTA	LOC
+1	BOJ	ORG
+2	BOSTON	ORG
+1	BRADFORD	ORG
+1	BRAZIL	LOC
+2	BRE	ORG
+1	BRITAIN	LOC
+1	BRITISH MASTERS	MISC
+1	BSE	MISC
+1	BSE	ORG
+1	BULGARIA	LOC
+8	Baghdad	LOC
+1	Bahamas	LOC
+2	Bahraini	LOC
+5	Bailey	PER
+1	Baines	PER
+1	Balkans	LOC
+3	Baltimore	ORG
+1	Baltimore Orioles	ORG
+1	Banc One	ORG
+1	Banc One Corp.	ORG
+1	Bangladesh Lamps	ORG
+4	Banisadr	PER
+1	Bank Rozwoju Exportu SA	ORG
+1	Bank of Canada	ORG
+1	Baratelli	PER
+1	Barbara Rittner	PER
+1	Barcelona	LOC
+3	Barentsburg	LOC
+1	Barnet	ORG
+1	Barnett Banks Inc.	ORG
+1	Barnsley	ORG
+1	Barvikha	LOC
+2	Barzani	PER
+3	Batajnica	LOC
+1	Bath	ORG
+1	Baudouin I	PER
+1	Bay Co Bldg Auth	ORG
+1	Bay Co Building Authority	ORG
+1	Bear Stearns & Co Inc	ORG
+1	Becej	ORG
+1	Becerril	PER
+1	Beck	PER
+2	Beijing	LOC
+11	Belarus	LOC
+9	Belgian	MISC
+19	Belgium	LOC
+7	Belgrade	LOC
+1	BellSouth Classic	MISC
+1	Benard	PER
+1	Benes	PER
+3	Benetton	ORG
+1	Benghazi	LOC
+3	Benin	LOC
+2	Benjamin Netanyahu	PER
+1	Bergamo-based	MISC
+9	Berlin	LOC
+1	Berlin	MISC
+1	Bernard Ingham	PER
+1	Bernard Ingram	PER
+1	Bernard Lama	PER
+9	Bernardin	PER
+2	Bernd Karbacher	PER
+1	Berry	PER
+1	Berti Vogts	PER
+1	Bertillon 166	MISC
+1	Bertrand Crasson	PER
+1	Berwick	ORG
+1	Beryll Remblance	PER
+3	Bill Clinton	PER
+1	Billie Jean King	PER
+2	Billy Andrade	PER
+1	Billy Ashley	PER
+2	Billy Mayfair	PER
+1	Birmingham	LOC
+2	Birmingham	ORG
+1	Bisconti	PER
+1	Bistrita	LOC
+1	Bixente Lizarazu	PER
+1	Blackburn	ORG
+1	Blackpool	ORG
+1	Blair	PER
+1	Blitz	MISC
+1	Blue Jays	ORG
+7	Boatmen 's	ORG
+1	Boatmen 's Bancshares Inc.	ORG
+1	Bob Dole	PER
+1	Bob Dwyer	PER
+2	Bob Estes	PER
+1	Bob Kennedy	PER
+1	Bob Wickman	PER
+1	Bobby Rahal	PER
+1	Bobby Valentine	PER
+1	Bodman , Longely & Dahling	ORG
+1	Bogota	LOC
+1	Bohdan Ulihrach	PER
+1	Bolesy	PER
+1	Bolivia	LOC
+1	Bolton	ORG
+7	Bonn	LOC
+1	Borac	ORG
+1	Boris Nikolayevich	PER
+3	Boris Yeltsin	PER
+1	Borodino	LOC
+1	Boroughmuir	ORG
+1	Borussia Neunkirchen	ORG
+5	Bosnia	LOC
+3	Bosnian	MISC
+1	Bosnian Serb	MISC
+1	Bosnian Serbs	MISC
+1	Boston	LOC
+2	Boston	ORG
+1	Boston Red Sox	ORG
+1	Boston-based	MISC
+1	Bou Haroun	LOC
+1	Bournemouth	ORG
+1	Boxer	MISC
+1	Boxer Rising	MISC
+1	Boxing Association	ORG
+1	Boxing-Bruno	MISC
+1	Bradford	ORG
+1	Bradford Bulls	ORG
+1	Brahim Lahlafi	PER
+1	Branko Bilbija	PER
+2	Braves	ORG
+9	Brazil	LOC
+3	Brazilian	MISC
+1	Brazilian-born	MISC
+1	Brechin	ORG
+1	Breen	PER
+1	Breisach	LOC
+1	Brent	ORG
+1	Brent Mayne	PER
+1	Brentford3	ORG
+1	Breukink	PER
+1	Brewers	ORG
+1	Brian Claar	PER
+1	Brian Giles	PER
+1	Brian Henninger	PER
+1	Bridgend	ORG
+1	Brighton	ORG
+1	Brigita Bokovec	PER
+2	Bristol	LOC
+2	Bristol	ORG
+1	Bristol City	ORG
+1	Bristol Rovers	ORG
+23	Britain	LOC
+10	British	MISC
+1	British Broadcasting Corporation	ORG
+1	British Labour Party	ORG
+2	British Masters	MISC
+2	British Universities	ORG
+1	British-ruled	MISC
+3	Briton	MISC
+3	Brown	PER
+2	Brown Deer Park Golf Course	LOC
+1	Bruce Dyer	PER
+6	Bruno	PER
+5	Brunswijk	PER
+2	Brussels	LOC
+1	Bryan Herta	PER
+1	Bucharest	LOC
+2	Bucharest Newsroom	ORG
+2	Budapest	LOC
+1	Budapest Stock Exchange	ORG
+1	Buddy Groom	PER
+1	Buducnost	ORG
+1	Buducnost ( V )	ORG
+2	Bulgaria	LOC
+1	Burj al-Laqlaq Society	LOC
+5	Burma	LOC
+1	Burmese	MISC
+1	Burnley	ORG
+8	Burundi	LOC
+1	Bury	ORG
+2	Buyoya	PER
+6	C$	MISC
+1	C. Hooper	PER
+2	C. Lewis	PER
+1	C. Tolley	PER
+2	CALIFORNIA	LOC
+2	CALIFORNIA	ORG
+1	CANADA	LOC
+3	CFDT	ORG
+1	CGT	ORG
+2	CHICAGO	LOC
+4	CHICAGO	ORG
+1	CHISINAU	LOC
+2	CINCINNATI	LOC
+1	CINCINNATI	ORG
+2	CITIC Pacific	ORG
+2	CLEVELAND	ORG
+2	CNB	ORG
+2	CNBC	ORG
+3	COLORADO	ORG
+1	COMELF	ORG
+1	CONCACAF	ORG
+1	CUNNINGHAM	PER
+1	CUP	MISC
+1	Caerphilly	ORG
+1	Cairo	LOC
+1	Calif	LOC
+5	California	LOC
+1	California Avocado Commission	ORG
+1	Caltex	ORG
+1	Caltex Petroleum Corp	ORG
+1	Camacho	PER
+1	Cambodia	LOC
+1	Cambodian	MISC
+1	Cambridge United	ORG
+16	Canada	LOC
+11	Canadian	MISC
+1	Cape Town	LOC
+2	Cardiff	ORG
+3	Cardinals	ORG
+2	Carl Vinson	MISC
+1	Carla Sacramento	PER
+1	Carlisle	ORG
+1	Carlo Corrazin	PER
+1	Carlos Calado	PER
+1	Carmen Wuestenhagen	PER
+1	Carroll Campbell	PER
+1	Casa de Narino	LOC
+1	Cedric Pioline	PER
+1	Central Clinical Hospital	LOC
+1	Central Jakarta District Court	ORG
+1	Central Narcotics Bureau	ORG
+2	Chad	LOC
+1	Chad Curtis	PER
+1	Chad Ogea	PER
+1	Chaminda Vaas	PER
+1	Chan Rattana	PER
+5	Chandana	PER
+1	Chandra Sturrup	PER
+1	Changi Prison	LOC
+1	Charles	PER
+1	Charles VI	PER
+1	Charles de Gaulle	LOC
+1	Charles-Michael Friedek	PER
+1	Charlton	ORG
+1	Chatelet	LOC
+1	Chatelineaux	LOC
+4	Chechen	MISC
+1	Chechen Republic	LOC
+3	Chechens	MISC
+28	Chechnya	LOC
+2	Chelsea	ORG
+1	Chen	PER
+1	Chen Chun-yeh	PER
+1	Chen Longde	PER
+2	Chernomyrdin	PER
+1	Chester	ORG
+2	Chester-le-Street	LOC
+2	Chesterfield	LOC
+1	Chesterfield	ORG
+12	Chicago	LOC
+2	Chicago	ORG
+1	Chicago Board of Trade	ORG
+1	Chicago PMI	MISC
+2	Chicago Purchasing Managers	ORG
+1	Chicago White Sox	ORG
+5	Chile	LOC
+3	Chilean	MISC
+25	China	LOC
+2	China Daily	ORG
+11	Chinese	MISC
+1	Chipper Jones	PER
+1	Chisinau	LOC
+1	Chittagong Cement	ORG
+1	Chonbuk	ORG
+1	Chris Lewis	PER
+1	Chris Walker	PER
+1	Christian Arrue	PER
+1	Christian Blanc	PER
+1	Christian Cullen	PER
+1	Christian Karembeu	PER
+1	Chryste Gaines	PER
+1	Chuman	LOC
+1	Cincinnati	LOC
+1	Cincinnati	ORG
+1	Cincinnati Reds	ORG
+1	Claudia Mues	PER
+1	Claudio Suarez	PER
+1	Claus Hirsbro	PER
+4	Cleveland	ORG
+1	Cleveland Indians	ORG
+17	Clinton	PER
+1	Clintons	PER
+1	Clyde	ORG
+1	Clydebank	ORG
+1	Cochabamba	LOC
+5	Cofinec	ORG
+1	Cofinec S.A.	ORG
+1	Colchester	ORG
+1	Colin Calderwood	PER
+1	Colin Hendry	PER
+5	Collins	PER
+1	Collstrop	ORG
+2	Colombia	LOC
+1	Colombian	MISC
+2	Colorado	ORG
+1	Colorado Rockies	ORG
+4	Comelf	ORG
+4	Commerce	ORG
+1	Commerce Bancshares Inc.	ORG
+4	Commerce Department	ORG
+1	Commission on Presidential Debates	ORG
+1	Communist Party	ORG
+1	Communist-led	MISC
+1	Computer Systems Inc	ORG
+1	Conakry	LOC
+2	Conchita Martinez	PER
+2	Conservative Party	ORG
+1	Constand Viljoen	PER
+2	Corentine Martins	PER
+2	Cosmin Contra	PER
+2	Costantino Rocca	PER
+2	Cotti	PER
+1	Cowdenbeath	ORG
+1	Craig Brown	PER
+1	Craig Burley	PER
+1	Craig Winrow	PER
+1	Crewe	ORG
+2	Cristiano Citto	PER
+2	Croatia	LOC
+4	Croft	PER
+1	Crystal Palace	ORG
+1	Cuauhtemoc Blanco	PER
+8	Cuba	LOC
+2	Cuban	MISC
+2	Cubs	ORG
+1	Cukaricki	ORG
+1	Cultural Revolution	MISC
+5	Cunningham	PER
+1	Cup	MISC
+1	Currie	ORG
+1	Cyprus	LOC
+2	Cyril Bos	PER
+1	Czech	LOC
+9	Czech Republic	LOC
+2	D. Bicknell	PER
+1	D. Blenkiron	PER
+1	D. Fleming	PER
+1	D. Gough	PER
+1	D. Lehmann	PER
+2	DETROIT	LOC
+2	DETROIT	ORG
+1	DINAMO	ORG
+2	DNIB	ORG
+2	DSE	ORG
+1	DUTCH	MISC
+1	DWYER	ORG
+2	Dallas	LOC
+1	Dally Randriantefy	PER
+1	Damascus	LOC
+1	Damascus Radio	ORG
+1	Damien	PER
+1	Dan Glickman	PER
+1	Dan Jenson	PER
+1	Dan Petrescu	PER
+1	Danie van Schalkwyk	PER
+1	Daniel Andersson	PER
+1	Daniel Komen	PER
+1	Daniels Pharmaceuticals	ORG
+1	Daniels Pharmaceuticals Inc	ORG
+1	Danilo Hondo	PER
+1	Danish	MISC
+2	Danius Gleveckas	PER
+1	Danny Tartabull	PER
+1	Dariusz Rosati	PER
+1	Darlington	ORG
+1	Darren Dreifort	PER
+1	Darren Eadie	PER
+1	Darren Gough	PER
+1	Darren Lehmann	PER
+1	Darryl Strawberry	PER
+1	Darryn Hill	PER
+1	Dave Barr	PER
+1	Dave Gilbert	PER
+1	Dave Telgheder	PER
+1	Davenport	PER
+1	David Elleray	PER
+1	David Harrison	PER
+1	David Kiptoo	PER
+1	David Levy	PER
+1	David McLeod	PER
+1	David Nainkin	PER
+1	David Peleg	PER
+1	David Platt	PER
+1	David Rikl	PER
+1	David Segui	PER
+1	David Shulman	PER
+2	Davidson Ezinwa	PER
+1	Davies	PER
+1	Dawie Theron	PER
+3	De Wilde	PER
+1	Dean Headley	PER
+1	Dean Jones	PER
+1	Dean Saunders	PER
+1	Degryse	PER
+1	Delino DeShields	PER
+2	Democracy Wall	ORG
+1	Democrat	MISC
+1	Democratic	MISC
+1	Deng Xiaoping	PER
+4	Denmark	LOC
+2	Dennis Mitchell	PER
+1	Department of Defense	ORG
+4	Deportivo	ORG
+4	Deportivo Coruna	ORG
+2	Der Spiegel	ORG
+11	Derbyshire	ORG
+1	Derek Bevan	PER
+1	Derek Ryan	PER
+1	Derrick Adkins	PER
+1	Desi Bouterse	PER
+1	Desmond Tutu	PER
+4	Detroit	LOC
+1	Devon White	PER
+1	Dewey	PER
+1	Dhaka	LOC
+1	Dhaka Stock Exchange	ORG
+3	Dharmasena	PER
+1	Dick Morris	PER
+1	Didier Deschamps	PER
+1	Didier Ernst	PER
+1	Dieter Ramusch	PER
+2	Dietmar Kuehbauer	PER
+4	Dinamo	ORG
+2	Dini	PER
+1	Dionne Rose	PER
+2	Dirk Medved	PER
+2	Djorkaeff	PER
+1	Dmitri Markov	PER
+1	Doku Zavgayev	PER
+11	Dole	PER
+1	Dominique Baratelli	PER
+1	Don Penney	PER
+1	Donald Tsang	PER
+2	Donato	PER
+1	Doncaster	ORG
+1	Donna Wynd	PER
+1	Donne Wall	PER
+3	Donovan Bailey	PER
+1	Doug Flach	PER
+1	Doug Kennett	PER
+5	Douglas & Lomason	ORG
+1	Douglas & Lomason Co	ORG
+1	Dow	MISC
+1	Dow Chemical	ORG
+1	Dow Chemical Co	ORG
+4	Dow Jones	MISC
+2	Drazek	PER
+1	Driefontein Consolidated Ltd	ORG
+1	Driefontein Consolidated and Gold Fields ' Kloof Gold Mining Co	ORG
+1	Dublin	LOC
+1	Dudayeva	PER
+3	Duffy Waldorf	PER
+1	Duilio Davino	PER
+1	Duisburg	ORG
+1	Duke of Norfolk 's XI	ORG
+1	Dumbarton	ORG
+2	Duncan Ferguson	PER
+1	Dundee	ORG
+1	Dunvant	ORG
+5	Duran	PER
+4	Durham	ORG
+1	Dusan Kovacs	PER
+1	Dushanbe	LOC
+15	Dutch	MISC
+2	Dynamo Moscow	ORG
+1	Dzhokhar Dudayev	PER
+1	EDBERG	PER
+1	EDWARDS	PER
+1	EL SALVADOR	LOC
+5	ENGLAND	LOC
+3	ENGLISH	MISC
+2	ENGLISH COUNTY CHAMPIONSHIP	MISC
+5	EOE	ORG
+1	EPR	ORG
+3	ERA	MISC
+1	ESCHEN	LOC
+1	ESSEX	ORG
+1	ESTONIA	LOC
+1	EUROBONDS	MISC
+2	EUROPEAN	MISC
+1	EUROPEAN TOUR	MISC
+3	Eagles	ORG
+1	East Coast	LOC
+1	East Dries	ORG
+1	East Fife	ORG
+2	East Jerusalem	LOC
+1	East Stirling	ORG
+1	Ebbw Vale	ORG
+1	Ecuador	LOC
+11	Edberg	PER
+1	Eddie Murray	PER
+1	Edgar Martinez	PER
+3	Edgbaston	LOC
+1	Edouard Gritsoun	PER
+1	Edward D. Jones & Co	ORG
+2	Edwards	PER
+3	Egypt	LOC
+1	Egyptian	MISC
+1	Eitel	PER
+4	El Al	ORG
+1	El Hassane Lahssini	PER
+2	El Salvador	LOC
+1	Eleuterio Anguita	PER
+1	Elia Kazan	PER
+1	Elia Kazanjoglus	PER
+1	Elizabeth I	PER
+2	Ellis Park	LOC
+1	Emiliano Mondonico	PER
+1	Emilio Valle	PER
+31	England	LOC
+14	English	MISC
+1	Enrique Alfaro	PER
+2	Enterprise	MISC
+1	Enzo Scifo	PER
+1	Erdmann	PER
+1	Eric Anthony	PER
+1	Eric Thomas	PER
+1	Eric Wynalda	PER
+3	Ericsson	ORG
+1	Erik Breukink	PER
+1	Erik Dekker	PER
+1	Erin Purcell	PER
+1	Eschen	LOC
+1	Espanyol	ORG
+5	Essex	ORG
+2	Estes	PER
+1	Estonia	LOC
+2	Ethiopia	LOC
+1	Eugene	ORG
+1	Euro	MISC
+5	Euro 96	MISC
+2	Eurodollar	MISC
+3	Eurodollars	MISC
+5	Europe	LOC
+23	European	MISC
+1	European Options Exchange	ORG
+1	European Tour	MISC
+1	European Union	ORG
+1	Everton	ORG
+1	Expos	ORG
+3	Eyles	PER
+1	Ezer Weizman	PER
+1	F / A-18	MISC
+1	F-14	MISC
+1	F-15	MISC
+1	F-16	MISC
+1	FARMINGTON HILLS	LOC
+1	FAROES	LOC
+3	FIFA	ORG
+2	FLORIDA	ORG
+3	FOMC	ORG
+3	FRANCE	LOC
+2	FTO	ORG
+1	FTSE	MISC
+1	FTSE 100	MISC
+2	Fabio Capello	PER
+1	Fabrizio Mori	PER
+1	Faik Nerweyi	PER
+1	Fal	MISC
+1	Falilat Ogunkoya	PER
+2	Falk Balzer	PER
+1	Falkirk	ORG
+3	Far East	LOC
+1	Far Eastern	MISC
+3	Faroe Islands	LOC
+5	Farrakhan	PER
+1	Fatima Yusuf	PER
+6	Fed	ORG
+3	Fed Cup	MISC
+1	Federal Air Traffic Control Administration	ORG
+2	Federal Open Market Committee	ORG
+1	Federal Republic of Yugoslavia	LOC
+6	Federal Reserve	ORG
+1	Felicia Ballanger	PER
+1	Felix Mantilla	PER
+1	Ferguson	PER
+1	Fernandez	PER
+1	Fidel Castro	PER
+1	Fidel Ramos	PER
+2	Filip De Wilde	PER
+1	Filippo Veglio	PER
+4	Finland	LOC
+1	First Albany Corp.	ORG
+1	First Bank	ORG
+1	First Bank System Inc.	ORG
+1	First Chicago	ORG
+1	First Chicago NBD Corp.	ORG
+1	First Union	ORG
+1	First of Michigan Corp.	ORG
+1	Fita Bayissa	PER
+1	Fla	LOC
+1	Fla.	LOC
+1	Flavio Cotti	PER
+4	Fleming	PER
+1	Flemming	PER
+1	Flight 150	MISC
+1	Florian Maurice	PER
+1	Florian Rousseau	PER
+2	Florian Schwarthoff	PER
+3	Florida	ORG
+1	Florida Marlins	ORG
+1	Ford	ORG
+2	Foreign Ministry	ORG
+2	Foreign Office	ORG
+1	Forfar	ORG
+1	Foster	PER
+37	France	LOC
+1	France-registered	MISC
+2	Francis Moreau	PER
+1	Francisco Palencia	PER
+2	Franck Leboeuf	PER
+1	Francois Cabrera	PER
+1	Frank Bruno	PER
+1	Frank Bunce	PER
+1	Frank Busemann	PER
+1	Frank Nobilo	PER
+1	Frank Thomas	PER
+1	Frankie	PER
+1	Frankie Fredericks	PER
+5	Frater	PER
+1	Freddy Pinas	PER
+1	Frederic Magne	PER
+1	Frederic Peiremans	PER
+1	Fredericks	PER
+1	Freedom Front	ORG
+1	Freiburg	LOC
+13	French	MISC
+1	Fritz van Heerden	PER
+1	Fulgencio Batista	PER
+1	Fulham	ORG
+1	G. Hamilton	PER
+2	G. Kersey	PER
+1	G. Thorpe	PER
+1	GASCOIGNE	PER
+1	GERMAN CUP	MISC
+1	GERMANY	LOC
+4	GMT	MISC
+1	GONZALEZ	PER
+1	GPTA	ORG
+2	GREATER MILWAUKEE OPEN	MISC
+1	GRONINGEN	LOC
+1	Gabriela Sabatini	PER
+1	Gabriela Szabo	PER
+4	Gaddafi	PER
+2	Gail Devers	PER
+1	Gama'a	MISC
+1	Garry Pagel	PER
+1	Gary Breen	PER
+2	Gary McAllister	PER
+1	Gary Teichmann	PER
+1	Gascoigne	PER
+2	Gaza	LOC
+1	Gazzetta dello Sport	ORG
+2	Geir Moen	PER
+1	Geoffrey Claeys	PER
+1	George	PER
+1	George Bush	PER
+4	Geraghty	PER
+21	German	MISC
+1	German Cup	MISC
+1	German Villa	PER
+1	German-Israeli	MISC
+47	Germany	LOC
+1	Gert Verheyen	PER
+1	Gete Wami	PER
+1	Ghana	LOC
+1	Gianluigi Lentini	PER
+1	Giants	ORG
+1	Gil de Ferran	PER
+1	Gilles De Bilde	PER
+1	Gillespie	PER
+1	Gillian Russell	PER
+1	Gillingham	ORG
+1	Giovanna Troldi	PER
+1	Giovanni	PER
+1	Giovanni Lombardi	PER
+1	Giuseppe Garibaldi	PER
+1	Given	PER
+4	Glamorgan	ORG
+1	Glen Osborne	PER
+2	Glenn Hoddle	PER
+1	Glenn McGrath	PER
+1	Glenn Taylor	PER
+2	Gloucester	ORG
+3	Gloucestershire	ORG
+1	Glyn Davies	PER
+2	God	PER
+1	Gold Fields of South Africa Ltd	ORG
+1	Golden Four	MISC
+1	Goma	LOC
+1	Gomez	PER
+4	Gonzalez	PER
+1	Gonzalo Montoya	PER
+1	Goran Ivanisevic	PER
+1	Gordon Durie	PER
+4	Gough	PER
+1	Grace Road	LOC
+1	Graham Lloyd	PER
+1	Graham Thorpe	PER
+1	Grand Prix	MISC
+2	Grand Slam	MISC
+2	Granma	ORG
+1	Great Lakes	LOC
+1	Greater Milwaukee Open	MISC
+1	Greece	LOC
+1	Green	PER
+1	Green Square	LOC
+1	Greenock Morton	ORG
+1	Greg Kraft	PER
+1	Grimsby	ORG
+2	Groningen	LOC
+1	Grozny	LOC
+2	Guangdong	LOC
+1	Guangdong Post and Telecommunications Administration	ORG
+2	Guangzhou	LOC
+1	Guatemala	LOC
+1	Guido Fulst	PER
+1	Guinea	LOC
+1	Guinean	MISC
+1	Guingamp	ORG
+8	Gulf	LOC
+1	Gulf War	MISC
+1	Gunhild Halle	PER
+1	Gunther Schepens	PER
+1	Gust	PER
+1	Guy Forget	PER
+1	Guy Hellers	PER
+1	Gwen Torrence	PER
+1	H. Morris	PER
+1	H. Tillekeratne	PER
+1	HARRISON	PER
+1	HENKE	PER
+1	HERZLIYA	LOC
+1	HILL	PER
+1	HK	LOC
+2	HONG KONG OPEN	MISC
+3	HOUSTON	ORG
+1	Habib Boulares	PER
+2	Hachette	ORG
+1	Haim Hajaj	PER
+3	Haitai	ORG
+1	Hajduk	ORG
+1	Hakan Sukur	PER
+1	Hakan Unsal	PER
+1	Hamilton	ORG
+4	Hampshire	ORG
+3	Hangzhou	LOC
+1	Hanne Haugland	PER
+1	Hansa Rostock	ORG
+1	Hanwha	ORG
+1	Harlequins	LOC
+1	Harlequins	ORG
+1	Harold Baines	PER
+1	Harry Boland	PER
+1	Harry Milling	PER
+1	Harte	PER
+1	Hartlepool	ORG
+1	Hashan Tillekeratne	PER
+1	Hawick	ORG
+4	Headingley	LOC
+1	Headley	PER
+1	Healy	PER
+1	Heath	PER
+1	Hebrew	MISC
+1	Hector " Macho " Camacho	PER
+1	Heidi Groenstein	PER
+1	Heiko Szonn	PER
+1	Helena Sukova	PER
+1	Heli Rantanen	PER
+3	Hen Vipheak	PER
+1	Hendrik Dreekmann	PER
+5	Henke	PER
+1	Henry Campbell-Bannerman	PER
+3	Henry Honiball	PER
+1	Henry VIII	PER
+1	Herbert Prohaska	PER
+1	Hereford	ORG
+1	Herfried Sabitzer	PER
+1	Heriot 's F.P.	ORG
+1	Hermann Goering	PER
+1	High Court	ORG
+4	Hill	PER
+1	Hindustan Copper	ORG
+1	Hindustan Copper Ltd	ORG
+3	Hizbollah	ORG
+1	Hla Than	PER
+2	Hoddle	PER
+1	Hoey	PER
+2	Holland	PER
+5	Hollioake	PER
+1	Holy City of Jerusalem	LOC
+2	Homegate Hospitality Inc	ORG
+1	Honduras	LOC
+9	Hong Kong	LOC
+4	Hong Kong Open	MISC
+1	Hong Kong Standard	ORG
+1	Hong Kong-based	MISC
+1	Hong Kong-listed	MISC
+2	Honiball	PER
+1	Hosni Mubarak	PER
+1	Houghton	PER
+1	House of Lords	ORG
+1	House of Representatives	ORG
+1	Houston	ORG
+1	Houston Astros	ORG
+2	Hove	LOC
+1	Howard Wolpe	PER
+1	Hubei	LOC
+1	Huddersfield	ORG
+1	Hugh Johnson	PER
+1	Huize	LOC
+1	Hull	ORG
+1	Human Rights National Observatory	ORG
+3	Human Rights in China	ORG
+1	Hun Sen	PER
+1	Hungarian	MISC
+2	Hungary	LOC
+1	Hussain	PER
+1	Hussein	PER
+3	Hutu	MISC
+1	Hutus	MISC
+4	Hyundai	ORG
+1	I. Austin	PER
+1	I. Healy	PER
+1	IAAF Grand Prix Final	MISC
+1	IBF	ORG
+1	IDLC	ORG
+1	IN	MISC
+1	INA	ORG
+1	INCE	PER
+1	INDIANS	ORG
+1	INDYCAR	MISC
+4	IRA	ORG
+1	IRELAND	LOC
+1	IRISH	MISC
+1	IRVINE	LOC
+1	ISRAEL	LOC
+1	ITALY	LOC
+2	Ian Harte	PER
+1	Ian Healy	PER
+1	Ian Jones	PER
+1	Ian Woosnam	PER
+1	Ice Cold in Alex	MISC
+1	Igor Potapovich	PER
+1	Igor Trandenkov	PER
+3	Ijaz Ahmed	PER
+1	Illinois	LOC
+1	In the Year of January	MISC
+1	Incaviglia	PER
+1	Ince	PER
+3	India	LOC
+2	Indian	MISC
+1	Indians	MISC
+4	Indonesia	LOC
+5	Indonesian	MISC
+1	Indonesian Democratic Party	ORG
+1	Indonesian-origin	MISC
+1	Indosuez	ORG
+1	IndyCar	MISC
+1	Ines Gorrochategui	PER
+1	Inga Babakova	PER
+1	Inger Miller	PER
+1	Ingram	PER
+2	Insein	LOC
+1	Insein Prison	LOC
+1	Intelligent Network	MISC
+1	Inter Milan	ORG
+10	Interfax	ORG
+1	International Amateur Athletic Federation	ORG
+1	International Monetary Fund	ORG
+1	International Red Cross	ORG
+1	Internazionale Milan	ORG
+1	Interstate 5	LOC
+1	Interstate 95	LOC
+1	Interstates 80	LOC
+1	Intertoto	MISC
+1	Inverness Thistle	ORG
+2	Inzamam-ul-Haq	PER
+1	Ipswich	ORG
+10	Iran	LOC
+1	Irani	PER
+10	Iranian	MISC
+29	Iraq	LOC
+30	Iraqi	MISC
+1	Iraqi Kurd	MISC
+3	Iraqi Kurdish	MISC
+3	Iraqi Kurds	MISC
+1	Iraqi National Congress	ORG
+1	Iraqi News Agency	ORG
+4	Iraqis	MISC
+8	Ireland	LOC
+1	Irina Korzhanenko	PER
+1	Irina Privalova	PER
+1	Irina Spirlea	PER
+6	Irish	MISC
+1	Irish Republican Army	ORG
+1	Iron Lady	PER
+1	Irwin	PER
+1	Isaac Viciosa	PER
+1	Isel Lopez	PER
+7	Islamic	MISC
+1	Islamic Group	ORG
+1	Islamists	MISC
+29	Israel	LOC
+26	Israeli	MISC
+3	Israelis	MISC
+7	Italian	MISC
+1	Italian Grand Prix	MISC
+21	Italy	LOC
+1	Itar-Tass	ORG
+1	Ivan Garcia	PER
+1	Ivan Lendl	PER
+1	Ivan Rodriguez	PER
+1	Ivankov	PER
+1	J. Adams	PER
+1	J. Benjamin	PER
+1	J. Gillespie	PER
+1	J. Pooley	PER
+2	J. Ratcliffe	PER
+1	J. Russell	PER
+1	J.J. KENNY	ORG
+1	JANSHER	PER
+1	JAPAN	LOC
+1	JOHNSON	PER
+1	Jack Charlton	PER
+1	Jack Kemp	PER
+1	Jack Pierce	PER
+1	Jackie Stewart	PER
+1	Jackson Hole symposium	MISC
+1	Jacksonville	LOC
+1	Jacques Chirac	PER
+1	Jacques Songo'o	PER
+1	Jacquet	PER
+3	Jakarta	LOC
+1	Jalal Talabani	PER
+7	Jamaica	LOC
+1	Jamaican	MISC
+1	James Alfred Van Allen	PER
+1	James Dalton	PER
+2	James Heath	PER
+1	James Hoey	PER
+1	James Leander ( Leo ) Nichols	PER
+1	James Weber	PER
+2	Jamil	PER
+1	Jan Allan Mueller	PER
+1	Jan Kroslak	PER
+1	Jane	PER
+1	Jane Quigley	PER
+1	Janet Dewey	PER
+8	Jansher	PER
+3	Jansher Khan	PER
+5	Japan	LOC
+3	Japanese	MISC
+1	Japanese Goverment Bonds	MISC
+1	Japie Mulder	PER
+1	Jason Gillespie	PER
+1	Jasper	PER
+1	Jay Buhner	PER
+3	Jayasuriya	PER
+1	Jean Galfione	PER
+2	Jean-Michel Monin	PER
+2	Jeans Mate Corp	ORG
+1	Jearl Miles	PER
+1	Jebel al-Akhdar	LOC
+1	Jed-Forest	ORG
+1	Jeerasak Densakul	PER
+1	Jeff Parrett	PER
+1	Jeff Russell	PER
+1	Jeff Tarango	PER
+1	Jeff Wilson	PER
+1	Jeffrey Lurie	PER
+1	Jens Gust	PER
+1	Jerry Kelly	PER
+13	Jerusalem	LOC
+3	Jesper Parnevik	PER
+1	Jesper Skibby	PER
+2	Jesse Owens	PER
+1	Jesus Arellano	PER
+5	Jewish	MISC
+1	Jews	MISC
+1	Jiangsu	LOC
+1	Jim Ballantyne	PER
+1	Jim Leyritz	PER
+1	Jim Thome	PER
+1	Jim Webber	PER
+1	Jimmy Vasser	PER
+1	Jiri Novak	PER
+1	Joakim Haeggman	PER
+1	Joakim Persson	PER
+2	Joaquin del Olmo	PER
+1	Joe-Max Moore	PER
+1	Joel Naroff	PER
+1	Joel Stransky	PER
+1	Johan Capiot	PER
+1	Johan Sletten	PER
+1	Johannesburg	LOC
+1	John	PER
+1	John Boles	PER
+1	John Casesa	PER
+1	John Collins	PER
+1	John Geraghty	PER
+1	John Kornblum	PER
+2	John Major	PER
+1	John Mayock	PER
+1	John Toshack	PER
+1	Johnny Oates	PER
+1	Johnson	PER
+1	Johnson Controls	ORG
+1	Johnson Controls Inc	ORG
+2	Jon Drummond	PER
+1	Jonas Bjorkman	PER
+2	Jonathan Edwards	PER
+2	Jones	ORG
+1	Jones Medical	ORG
+1	Jones Medical Industries Inc	ORG
+3	Joost van der Westhuizen	PER
+3	Jordan	LOC
+8	Jordan	PER
+1	Jorge Luis Dely Valdes	PER
+1	Jorritsma	PER
+1	Jose Coceres	PER
+1	Jose Hernandez	PER
+1	Jose Miguel Insulza	PER
+1	Jose Parra	PER
+2	Jose Soler Puig	PER
+1	Joseph Bernardin	PER
+1	Josh Kronfeld	PER
+5	Joubert	PER
+1	Juan Gonzalez	PER
+1	Judith Wiesner	PER
+1	Juergen Klinsmann	PER
+1	Juergen Schult	PER
+1	Julia Roberts	PER
+1	Julie Baumann	PER
+1	Julius Nyerere	PER
+2	Juppe	PER
+4	Justin Marshall	PER
+1	Justin Swart	PER
+1	Juventus	ORG
+1	K. Barnett	PER
+1	K. Curran	PER
+1	K. Evans	PER
+2	KANSAS CITY	ORG
+12	KDP	ORG
+1	KENT	ORG
+1	KEVIN BROWN	PER
+2	KHASAVYURT	LOC
+1	KLINSMANN	PER
+1	KNP	ORG
+1	KPD	ORG
+2	Kaczmarek	PER
+3	Kalashnikov	MISC
+2	Kaluwitharana	PER
+1	Kamil Jamil	PER
+1	Kang Young-hoon	PER
+1	Kansai Electric Power	ORG
+1	Kansai International Airport	ORG
+2	Kansas City	LOC
+1	Kansas City Royals	ORG
+4	Karbacher	PER
+1	Karin Janke	PER
+4	Karlsruhe	ORG
+1	Kathrin Freitag	PER
+1	Kazakhstan	LOC
+1	Kazakstan	LOC
+1	Kecskemet	LOC
+1	Kehl	LOC
+3	Keith O'Neill	PER
+1	Ken	PER
+1	Kengo wa Dondo	PER
+2	Kenny Harrison	PER
+8	Kent	ORG
+12	Kenya	LOC
+1	Kevin Brown	PER
+1	Kevin Foster	PER
+1	Kevin Tapani	PER
+2	KeyCorp	ORG
+1	Khaled Hijazi	PER
+2	Khartoum	LOC
+1	Khmer Nation Party	ORG
+1	Khurshid Alam	PER
+1	Kia	ORG
+1	Kia Motor Corp	ORG
+2	Kim	PER
+1	Kim In-so	PER
+1	Kimberly Po	PER
+6	King	PER
+1	Kinkel	PER
+1	Kitty Kiernan	PER
+1	Klas Eriksson	PER
+1	Klaus Kinkel	PER
+1	Klinsmann	PER
+2	Knight	PER
+1	Kobus Wiese	PER
+2	Korean	MISC
+1	Koreans	MISC
+1	Kosevo	LOC
+1	Kraft	PER
+1	Krajicek	PER
+1	Kumara Dharmasena	PER
+11	Kurdish	MISC
+1	Kurdish-controlled	MISC
+4	Kurdistan Democratic Party	ORG
+2	Kurds	MISC
+1	Kutuzov	PER
+1	Kuwaiti	MISC
+1	Kyran Bracken	PER
+1	LA CORUNA	LOC
+1	LANDGRAAF	LOC
+1	LATVIA	LOC
+1	LEICESTER	ORG
+1	LEICESTERSHIRE	ORG
+1	LENTINI	PER
+1	LIECHTENSTEIN	LOC
+4	LIFFE	ORG
+3	LITHUANIA	LOC
+1	LM Ericsson AB	ORG
+1	LME	ORG
+1	LONGYEAR	LOC
+2	LOS ANGELES	ORG
+1	LYNAGH	PER
+1	Laban Rotich	PER
+4	Labor Day	MISC
+2	Labour	ORG
+3	Labour Day	MISC
+1	Labour Department	ORG
+1	Lada Togliatti	ORG
+1	Lamberto Dini	PER
+2	Lancashire	ORG
+1	Lance Armstrong	PER
+1	Landgraaf	LOC
+1	Lars Riedel	PER
+1	Las Vegas	LOC
+1	Laszlo Sebesvari	PER
+2	Latin American	MISC
+2	Latvia	LOC
+1	Laurent Benezech	PER
+1	Laurent Blanc	PER
+1	Laurent Cabannes	PER
+1	Lavrentyeva	PER
+1	Law	PER
+2	Lawrence Lindsey	PER
+1	Lawrence of Arabia	MISC
+1	Lay Volunteers ' International Organisation	ORG
+1	Layron	LOC
+1	Le Matin	ORG
+1	Leah Pells	PER
+1	Leander Paes	PER
+1	Lear	ORG
+1	Lear Corp	ORG
+1	Lebanese	MISC
+5	Lebanon	LOC
+18	Lebed	PER
+1	Leboeuf	PER
+1	Leeds	LOC
+1	Leeson	PER
+1	Legeard	PER
+1	Lehmann	PER
+2	Leicester	LOC
+1	Leicester	ORG
+7	Leicestershire	ORG
+2	Lentini	PER
+1	Leopold III	PER
+1	Les Ferdinand	PER
+1	Levoxyl	MISC
+1	Levrentyeva	PER
+3	Levy	PER
+1	Lex van Drooge	PER
+1	Leyton Orient	ORG
+1	Li	PER
+1	Li In-mo	PER
+1	Li Song-ho	PER
+1	Liam Neeson	PER
+1	Liberal	MISC
+1	Liberte	ORG
+1	Libran	MISC
+7	Libya	LOC
+3	Libyan	MISC
+2	Libyans	MISC
+5	Liechtenstein	LOC
+5	Liege	LOC
+1	Lilac Falls	LOC
+1	Lilac Falls Motel	LOC
+1	Lilian Thuram	PER
+1	Linda Kisabaka	PER
+1	Linda Wild	PER
+1	Lindsay	PER
+1	Lindsay Davenport	PER
+1	Lindsey	PER
+1	Linford Christie	PER
+1	Lisa	PER
+1	Lisa Raymond	PER
+11	Lithuania	LOC
+1	Livingston	ORG
+1	Ljubomir Acimovic	PER
+1	Llanelli	ORG
+2	Lockerbie	LOC
+1	Lola Ford Cosworth	ORG
+1	Lola Honda	ORG
+12	London	LOC
+1	London International Financial Futures and Options Exchange	ORG
+1	London Irish	ORG
+1	London Newsroom	ORG
+1	London-based	MISC
+5	Longyear	LOC
+3	Lord 's	LOC
+2	Loren Roberts	PER
+1	Los Angeles	LOC
+4	Los Angeles	ORG
+1	Los Angeles Dodgers	ORG
+3	Lotte	ORG
+1	Louis	MISC
+1	Louis Farrakhan	PER
+1	Louise McPaul	PER
+1	Loznica	ORG
+1	Lubomir Moravcik	PER
+1	Luc Nilis	PER
+1	Luca Pavanello	PER
+2	Lucy Tyler-Sharman	PER
+1	Ludmila Engquist	PER
+1	Luebeck	ORG
+1	Luis Garcia	PER
+1	Luis Lazo	PER
+1	Luis Milla	PER
+2	Luis Oliveira	PER
+7	Lukashenko	PER
+1	Luli Popescu	PER
+1	Luton	ORG
+2	Lynagh	PER
+1	Lynn Reaser	PER
+1	M. Atherton	PER
+1	M. Bevan	PER
+1	M. Bicknell	PER
+2	M. Butcher	PER
+1	M. Gatting	PER
+1	M. Maynard	PER
+1	M. McCague	PER
+1	M. Ramprakash	PER
+1	M. Slater	PER
+2	M. Waugh	PER
+1	MAHALA	LOC
+4	MAJOR LEAGUE	MISC
+1	MANCHESTER	LOC
+1	MARLINS	ORG
+1	MARTELA	ORG
+2	MAURITANIA	LOC
+1	MEXICO	LOC
+1	MG-Technogym	ORG
+1	MI	LOC
+1	MILAN	ORG
+2	MILLER	PER
+6	MILWAUKEE	LOC
+2	MILWAUKEE	ORG
+2	MINNESOTA	ORG
+1	MITCHELL	PER
+1	MNLF	ORG
+1	MOLDOVA	LOC
+2	MONTREAL	LOC
+2	MONTREAL	ORG
+1	MX Onda	ORG
+1	Maarten den Bakker	PER
+1	Madagascar	LOC
+1	Madeleine Albright	PER
+1	Magali Faure	PER
+6	Magna	ORG
+1	Magna International Inc	ORG
+5	Mahala	LOC
+2	Major League	MISC
+1	Majorie Orr	PER
+1	Maksim Tarasov	PER
+1	Malaysia	LOC
+1	MaliVai Washington	PER
+1	Mamatuyev	PER
+1	Manama	LOC
+1	Manchester	LOC
+1	Manchester City	ORG
+1	Manchester United	ORG
+3	Manila	LOC
+1	Mansfield	ORG
+1	Manuel Medina	PER
+1	Mao Tse-Tung	PER
+1	Marc Blume	PER
+3	Marc Degryse	PER
+2	Marc Dutroux	PER
+1	Marc Newfield	PER
+1	Marcel Desailly	PER
+1	Marcelo Rios	PER
+1	Marco Lietti	PER
+1	Marco Tonchetti Provera	PER
+1	Marcus O'Sullivan	PER
+1	Margaret Thatcher	PER
+1	Margarita Maruseva	PER
+1	Mariano Duncan	PER
+1	Mariano Rivera	PER
+1	Mariners	ORG
+2	Marines	MISC
+2	Marion Clignet	PER
+1	Marius Hurter	PER
+1	Mark Andrews	PER
+1	Mark Brooks	PER
+1	Mark Butcher	PER
+1	Mark Cairns	PER
+1	Mark Calcavecchia	PER
+1	Mark Crear	PER
+1	Mark McGwire	PER
+1	Mark McNulty	PER
+1	Mark O'Meara	PER
+1	Mark Philippoussis	PER
+1	Mark Waugh	PER
+1	Markham	ORG
+1	Marko Koers	PER
+2	Markus Schopp	PER
+1	Marriner	PER
+1	Martin Erdmann	PER
+1	Martin McCague	PER
+1	Martina Hingis	PER
+1	Marty Nothstein	PER
+1	Marvin Benard	PER
+1	Marwan Jilani	PER
+2	Mary Joe Fernandez	PER
+1	Mary Onyali	PER
+3	Maskhadov	PER
+3	Massoud Barzani	PER
+1	Matt Lawton	PER
+1	Matthew Maynard	PER
+1	Mauricio Gugelmin	PER
+3	Mauritania	LOC
+2	Mauro Silva	PER
+2	Mauro Trentino	PER
+1	Max Marriner	PER
+1	Mazeikyte	PER
+1	McAteer	PER
+1	McCarthy	PER
+1	McDonald & Co	ORG
+2	McGrath	PER
+1	McGwire	PER
+1	McLoughlin	PER
+2	Mediterranean	MISC
+1	Megawati	PER
+1	Megawati Sukarnoputri	PER
+3	Mehrtens	PER
+1	Melrose	ORG
+4	Mercantile	ORG
+1	Mercantile Bancorp Inc.	ORG
+2	Merlene Ottey	PER
+3	Mets	ORG
+14	Mexican	MISC
+1	Mexicans	MISC
+6	Mexico	LOC
+2	Mich	LOC
+1	Michael Ancell	PER
+1	Michael Andersson	PER
+1	Michael Andretti	PER
+1	Michael Bevan	PER
+2	Michael Collins	MISC
+1	Michael Collins	PER
+1	Michael Durante	PER
+3	Michael Green	PER
+2	Michael Johnson	PER
+1	Michael Jones	PER
+2	Michael Konsel	PER
+1	Michael Lynagh	PER
+1	Michael Moellenbeck	PER
+1	Michael Slater	PER
+1	Michael Tebbutt	PER
+1	Michelle Ferris	PER
+1	Michelle Freeman	PER
+1	Michigan National Bank	ORG
+4	Michoacan	LOC
+2	Mick McCarthy	PER
+1	Mickey Rivers	PER
+4	Middle East	LOC
+4	Middlesex	ORG
+7	Midwest	LOC
+2	Miguel Angel Jimenez	PER
+2	Miguel Angel Martin	PER
+1	Mikael Tillstrom	PER
+1	Mike Atherton	PER
+1	Mike Clayton	PER
+1	Mike Conley	PER
+1	Mike Fetters	PER
+1	Mike Hulbert	PER
+1	Mike Mordecai	PER
+1	Mike Oquist	PER
+1	Mike Sullivan	PER
+1	Mike Tyson	PER
+2	Milan	LOC
+2	Milan	ORG
+3	Miller	PER
+1	Million Man March	MISC
+1	Millwall	ORG
+1	Milwaukee	LOC
+2	Milwaukee	ORG
+1	Mindanao	LOC
+1	Minneapolis-based	MISC
+3	Minnesota	ORG
+1	Minnesota Twins	ORG
+1	Minor Counties	ORG
+1	Minor Counties XI	ORG
+1	Minsk Group	ORG
+1	Mira Kasslin	PER
+1	Miss Stamper	PER
+6	Missouri	LOC
+3	Mitchell	PER
+1	Mladost ( BJ )	ORG
+1	Mladost ( L )	ORG
+1	Mo.-based	MISC
+1	Mobil	ORG
+1	Moengo	LOC
+1	Mohamed Lemine Cheiguer	PER
+1	Mohammed Idris	PER
+3	Moin Khan	PER
+5	Moldova	LOC
+1	Monica	PER
+2	Monica Seles	PER
+1	Montenegro	LOC
+1	Montoya	PER
+3	Montreal	LOC
+1	Montrose	ORG
+1	Morelia	LOC
+1	Moro National Liberation Front	ORG
+2	Morocco	LOC
+1	Morris	PER
+17	Moscow	LOC
+1	Moscow-backed	MISC
+12	Moslem	MISC
+4	Moslems	MISC
+1	Motorola	ORG
+2	Muammar Gaddafi	PER
+1	Mubatik Dagayeva	PER
+2	Mullally	PER
+1	Multico	ORG
+1	Municipal Police	ORG
+4	Muralitharan	PER
+4	Mushtaq Ahmed	PER
+1	Mustafa Hoshiyeh	PER
+1	Muthiah Muralitharan	PER
+1	My Turn	MISC
+1	N'Djamena University	ORG
+2	N. Knight	PER
+1	N. Korea	LOC
+1	N.H.	LOC
+1	NABLUS	LOC
+3	NAPM	ORG
+1	NASEEM	PER
+8	NATO	ORG
+2	NEW YORK	LOC
+4	NEW YORK	ORG
+2	NFL	ORG
+1	NICE	LOC
+1	NICE	ORG
+6	NLD	ORG
+1	NORTHAMPTON	LOC
+1	NORTHERN IRELAND	LOC
+1	NSW Treasury	ORG
+1	NY Dow	MISC
+1	NYC	MISC
+3	Nablus	LOC
+4	Nagorno-Karabakh	LOC
+1	Nagoum Yamassoum	PER
+1	Nagoya	LOC
+2	Naina	PER
+3	Naina Yeltsin	PER
+1	Name	MISC
+2	Namibia	LOC
+1	Nancy	PER
+1	Nandrin	LOC
+1	Nantes	ORG
+1	Naoko Kijimuta	PER
+1	Naples	LOC
+2	Napoleon	PER
+1	Naqoura	LOC
+1	Naroff	PER
+2	Nasdaq	MISC
+1	Naseem Hamed	PER
+1	Nasser Hussain	PER
+2	Natalia Karimova	PER
+1	Natalya Golodnova	PER
+1	Natalya Shikolen	PER
+1	Natasha Zvereva	PER
+2	Nate Miller	PER
+1	Nation of Islam	ORG
+1	National Association of Purchasing Management	ORG
+1	National Automobile Occupant Protection Campaign	ORG
+1	National Bank of Romania	ORG
+1	National Football League	ORG
+1	National Highway Traffic Safety Administration	ORG
+1	National League	MISC
+1	National League for Democracy	ORG
+3	National Tennis Centre	LOC
+4	NationsBank	ORG
+1	NationsBank Corp.	ORG
+1	Neal Lancaster	PER
+1	Neil Jordan	PER
+1	Nele Zilinskiene	PER
+1	Nelson Mandela	PER
+2	Nerweyi	PER
+3	Netanyahu	PER
+15	Netherlands	LOC
+1	New Hampshire	LOC
+1	New Haven	LOC
+1	New Liberty	ORG
+5	New York	LOC
+2	New York	ORG
+1	New York Cotton Exchange	ORG
+1	New York Energy Desk	ORG
+1	New York Mercantile Exchange	ORG
+1	New York Stock Exchange	ORG
+1	New York Yankees	ORG
+3	New York-based	MISC
+9	New Zealand	LOC
+1	Newbridge	ORG
+2	Newcastle	ORG
+1	Newfoundland	LOC
+1	Newport	ORG
+1	News Agency of Nigeria	ORG
+3	Niall Quinn	PER
+4	Nice	ORG
+1	Nick Knight	PER
+1	Nico Motchebon	PER
+1	Nico Van Kerckhoven	PER
+2	Nicolas Ouedec	PER
+1	Nicole	PER
+2	Nicole Nichterwitz	PER
+1	Nigel Wray	PER
+1	Niger	LOC
+9	Nigeria	LOC
+1	Nigerian	MISC
+2	Nikkei	MISC
+1	Nikolai Kouznetsov	PER
+1	Nikolai Sherbatov	PER
+1	Nir Sivilia	PER
+2	Nolan Henke	PER
+1	Nolan Ryan	PER
+1	Norberto Tellez	PER
+1	Norodom Ranariddh	PER
+1	Norodom Sihanouk	PER
+1	Nortel Open	MISC
+1	North	LOC
+1	North Africans	MISC
+1	North American	MISC
+1	North American Equity Services	ORG
+1	North Atlantic Treaty Organisation	ORG
+1	North Caucasus	LOC
+2	North Korea	LOC
+1	North Korean Red Cross	ORG
+4	Northampton	ORG
+2	Northamptonshire	ORG
+2	Northern Cape	LOC
+2	Northern Ireland	LOC
+1	Northern Ireland-born	MISC
+10	Norway	LOC
+4	Norwegian	MISC
+1	Norwest	ORG
+1	Norwest Corp.	ORG
+2	Norwich	ORG
+1	Norwich City	ORG
+1	Nottingham	LOC
+5	Nottinghamshire	ORG
+1	Notts County	ORG
+1	Noureddine Morceli	PER
+1	Nurbika Mamatuyeva	PER
+4	Nyerere	PER
+1	O'BRIEN	PER
+4	O'Brien	PER
+1	O'Neill	PER
+2	OAKLAND	LOC
+1	OAKLAND	ORG
+2	OB	ORG
+1	OFK Beograd	ORG
+2	OIC	ORG
+1	ONDH	ORG
+11	OSCE	ORG
+1	Oakland	LOC
+1	Obilic	ORG
+1	Oeji Aliu	PER
+1	Offshore Data Services	ORG
+2	Ogun Temizkanoglu	PER
+1	Oguz Cetin	PER
+1	Ohio-based	MISC
+1	Oksana Grichina	PER
+1	Olabisi Afolabi	PER
+1	Olaf Ludwig	PER
+1	Old City	LOC
+2	Old Trafford	LOC
+1	Oldham	ORG
+1	Olga Lavrentyeva	PER
+1	Olga Slioussareva	PER
+1	Olin Browne	PER
+1	Oliver McCall	PER
+1	Olo Brown	PER
+6	Olympic	MISC
+1	Olympics	MISC
+1	On the Waterfront	MISC
+1	Onarheim	LOC
+1	Ontario-based	MISC
+1	Open	MISC
+3	Organisation for Security and Cooperation in Europe	ORG
+1	Organisation of Islamic Conference	ORG
+2	Orhan Cikirikci	PER
+1	Orioles	ORG
+1	Orleans	LOC
+4	Orr	PER
+2	Orrell	ORG
+1	Oscar	PER
+1	Osmond Ezinwa	PER
+2	Osvaldo Sanchez	PER
+2	Ouedec	PER
+1	Oval	LOC
+1	Oxford	LOC
+1	Oxford	ORG
+1	P. DeFreitas	PER
+1	P. Johnson	PER
+1	P. Simmons	PER
+1	P. Such	PER
+1	P. Tufnell	PER
+3	PAKISTAN	LOC
+2	PANAMA	LOC
+1	PAP	ORG
+1	PARAMARIBO	LOC
+1	PARNEVIK	PER
+1	PDI	ORG
+5	PGA Tour	MISC
+2	PHILADELPHIA	LOC
+1	PHILADELPHIA	ORG
+2	PITTSBURGH	LOC
+2	PITTSBURGH	ORG
+1	PLO	ORG
+1	POLISH	MISC
+1	PORTUGAL	LOC
+1	PT Timor Putra Nasional	ORG
+1	PUK	ORG
+1	Pablo Campana	PER
+1	Paddy Lad	PER
+1	Padraig Harrington	PER
+8	Pakistan	LOC
+1	Pakistani	MISC
+11	Palestinian	MISC
+1	Palestinian Authority	ORG
+1	Palestinian Liberation Organisation	ORG
+1	Palestinian self-rule Authority	ORG
+7	Palestinians	MISC
+1	Pamir	LOC
+1	Pan Am	ORG
+1	Pan Am flight 103	MISC
+2	Panama	LOC
+1	Panama City	LOC
+3	Panamanian	MISC
+1	Panayiotopoulos	PER
+1	Paramaribo	LOC
+3	Paris	LOC
+1	Paris St Germain	ORG
+5	Parnevik	PER
+1	Partick	ORG
+1	Partizan	ORG
+1	Party of Democratic Action	ORG
+1	Party of God	ORG
+1	Pascal Renier	PER
+1	Patrice Loko	PER
+1	Patricia Djate-Taillard	PER
+1	Patrick Stevens	PER
+2	Patriotic Union of Kurdistan	ORG
+1	Paul Drazek	PER
+1	Paul Gascoigne	PER
+2	Paul Haarhuis	PER
+1	Paul Ince	PER
+1	Paul Johnson	PER
+1	Paul Koech	PER
+1	Paul McGinley	PER
+1	Paul Peschisolido	PER
+1	Paul Tracy	PER
+1	Paul Van Himst	PER
+1	Paula Buratti	PER
+1	Pauline Konga	PER
+1	Pavel Buran	PER
+1	Pavel Pardo	PER
+2	Payne Stewart	PER
+1	Pedro I	PER
+1	Pedro Linhart	PER
+1	Peking Protocol	MISC
+1	Pelham	PER
+2	Penske Mercedes-Benz	ORG
+1	Pentagon	ORG
+1	Per Zetterquist	PER
+1	Pete Harnisch	PER
+1	Pete Incaviglia	PER
+1	Pete Sampras	PER
+1	Peter Bloomfield	PER
+1	Peter Hedblom	PER
+1	Peter Karlsson	PER
+1	Peter Knight	PER
+1	Peter Martin	PER
+3	Peter Nicol	PER
+1	Peter O'Malley	PER
+1	Peter Schoettel	PER
+1	Peter Such	PER
+1	Peterborough	ORG
+7	Petofi	ORG
+1	Petr Korda	PER
+1	Petra Langrova	PER
+1	Pettite	PER
+1	Phil Babb	PER
+1	Phil Simmons	PER
+4	Philadelphia	LOC
+1	Philadelphia	ORG
+1	Philadelphia Eagles	ORG
+1	Philip Walton	PER
+2	Philippe Ermenault	PER
+1	Philippe Sella	PER
+3	Philippine	LOC
+1	Philippines	LOC
+2	Phillies	ORG
+1	Phylis Smith	PER
+1	Pierre Buyoya	PER
+2	Pieter Hendriks	PER
+1	Pinas	PER
+1	Pirates	ORG
+9	Pirelli	ORG
+1	Pirelli Cables	ORG
+1	Pirelli SpA	ORG
+1	Pittsburgh	LOC
+1	Platt	PER
+8	Poland	LOC
+1	Poles	MISC
+8	Polish	MISC
+1	Polti	ORG
+1	Ponting	PER
+1	Popular Revolutionary Army	ORG
+1	Port Vale	ORG
+2	Portsmouth	LOC
+4	Portugal	LOC
+1	Portuguese Open	MISC
+1	Prensa Latina	ORG
+1	Pretoria	LOC
+1	Pro Bowl	MISC
+1	Pro-Moscow	MISC
+1	Professional Squash Association	ORG
+1	Proleter ( Z )	ORG
+1	Puchon	ORG
+1	Puerto Rico	LOC
+4	Puig	PER
+1	Purcell	PER
+1	Pyotr Bochkary	PER
+1	Pyramiden	LOC
+1	Qalandia	LOC
+1	Queen 's Park	ORG
+1	Queen of South	ORG
+1	Queens Park Rangers	ORG
+1	Quigley	PER
+2	Quinn	PER
+1	R. Croft	PER
+1	R. Kaluwitharana	PER
+1	R. Kettleborough	PER
+1	R. Mahanama	PER
+1	RANGERS	ORG
+7	RBI	MISC
+3	RDR	ORG
+1	REAL	ORG
+1	REDS	ORG
+1	RMS Titanic	MISC
+1	ROBERTO DURAN	PER
+1	ROCHESTER	LOC
+4	ROMANIA	LOC
+1	ROTOR	ORG
+1	RUGBY LEAGUE	MISC
+4	RUGBY UNION	ORG
+4	Rabobank	ORG
+1	Rachel	PER
+2	Rachel Legeard	PER
+1	Rad	ORG
+2	Radio Red	ORG
+1	Radnicki ( N )	ORG
+1	Rajab Adinayev	PER
+1	Rally for the Return of Refugees and Democracy in Rwanda	ORG
+1	Ralph Bloch	PER
+1	Ramallah	LOC
+1	Rami al-Saadani	PER
+1	Ramon Guzman	PER
+1	Ramon Manzanares	PER
+1	Ramon Ramirez	PER
+2	Ramos	PER
+1	Ranatunga	PER
+2	Randall	PER
+1	Randall Cunningham	PER
+1	Randy Velarde	PER
+2	Rangoon	LOC
+1	Rasa	PER
+1	Rasa Mazeikyte	PER
+1	Raul Rodrigo Lara	PER
+1	Ray Knight	PER
+1	Ray Lankford	PER
+1	Raymond James	PER
+1	Reading	ORG
+1	Reagan Communications	ORG
+4	Real	ORG
+4	Real Madrid	ORG
+1	Reaser	PER
+1	Recber	PER
+1	Recep Cetin	PER
+1	Red Shirts	MISC
+4	Red Star	ORG
+2	Reds	ORG
+1	Reform Party	ORG
+2	Republic of Ireland	LOC
+2	Republican	MISC
+1	Republicans	MISC
+1	Retief Goosen	PER
+1	Return of the Legend	MISC
+22	Reuters	ORG
+1	Reynald Pedros	PER
+1	Reynard Ford Cosworth	ORG
+3	Reynard Honda	ORG
+2	Reynard Mercedes-Benz	ORG
+2	Ricardo Pelaez	PER
+1	Richard Hannon	PER
+1	Richard Kettleborough	PER
+1	Richard Krajicek	PER
+1	Ricky	PER
+5	Rios	PER
+1	Rita Ramaunaskaite	PER
+1	Rita Razmaite	PER
+3	Robert Allenby	PER
+1	Robert Croft	PER
+1	Robert Pires	PER
+1	Roberto " Hands of Stone " Duran	PER
+1	Roberto Bisconti	PER
+3	Roberto Carlos	PER
+1	Roberto Carretero	PER
+1	Roberto Chiappa	PER
+1	Roberts	PER
+1	Robin Brooke	PER
+1	Robin Ventura	PER
+1	Rochdale	ORG
+1	Rochester	LOC
+1	Rochester Fire Department	ORG
+1	Rockies	ORG
+1	Rod Beck	PER
+3	Rodney Eyles	PER
+1	Rodriguez	PER
+1	Roermond	LOC
+1	Roger Pavlik	PER
+1	Rohan Robinson	PER
+1	Rolf Sorensen	PER
+1	Roman	MISC
+2	Roman Catholic	MISC
+9	Romania	LOC
+1	Romanian	MISC
+2	Rome	LOC
+1	Romesh Kaluwitharana	PER
+2	Ronald Reagan	PER
+1	Ronald de Boer	PER
+1	Ronnie Irani	PER
+1	Ronny Brunswijk	PER
+1	Roosevelt	ORG
+1	Roosevelt Financial Group Inc	ORG
+2	Rosati	PER
+1	Rose Cheruiyot	PER
+1	Roshan Mahanama	PER
+1	Ross County	ORG
+2	Ross Perot	PER
+1	Rotherham	ORG
+3	Rotor	ORG
+1	Rotor Volgograd	ORG
+1	Royals	ORG
+1	Ruben Kruge	PER
+1	Ruben Sierra	PER
+10	Ruch	ORG
+1	Ruch SA	ORG
+1	Rudar	ORG
+1	Ruehe	PER
+1	Rugby Football Union	ORG
+1	Russ Cochran	PER
+45	Russia	LOC
+22	Russian	MISC
+2	Russian Federation	LOC
+1	Russians	MISC
+2	Rustu Recber	PER
+4	Rwanda	LOC
+6	Rwandan	MISC
+1	Ryne Sandberg	PER
+1	S. African	MISC
+1	S. Jayasuriya	PER
+1	S. KOREAN	MISC
+1	S. Korea	LOC
+1	S. Korean	MISC
+1	S. Law	PER
+1	S. Rhodes	PER
+1	S. Watkin	PER
+3	S. Waugh	PER
+2	SAN DIEGO	ORG
+2	SAN FRANCISCO	ORG
+1	SAN MARINO	LOC
+1	SARAJEVO	LOC
+1	SC Freiburg	ORG
+2	SCOTLAND	LOC
+3	SCOTTISH	MISC
+3	SDA	ORG
+2	SEATTLE	LOC
+2	SEATTLE	ORG
+1	SHEARER	PER
+1	SILVA	PER
+1	SK Rapid	ORG
+1	SLORC	ORG
+1	SLOVAKIA	LOC
+1	SOUTH AFRICA	LOC
+1	SOUTH KOREAN	MISC
+1	SPAIN	LOC
+2	SPANISH	MISC
+2	SPC	ORG
+1	SPRINGBOKS	ORG
+3	SRI LANKA	LOC
+2	ST LOUIS	LOC
+2	ST LOUIS	ORG
+1	STANDARD LIEGE	ORG
+1	STIRLING	LOC
+1	SWEDEN	LOC
+1	SWITZERLAND	LOC
+1	Sabri Lamouchi	PER
+2	Saddam	PER
+1	Saddam Hussein	PER
+2	Saeed Anwar	PER
+1	Saffet Sancakli	PER
+1	Saint-Bernard	LOC
+1	Saladdin	LOC
+1	Sale	ORG
+2	Salim Malik	PER
+1	Sally Barsosio	PER
+1	Salomon Bros .	ORG
+1	Salzburg	LOC
+1	Samer Ammar Soliman	PER
+1	Sammy Langat	PER
+1	Samokhvalova	PER
+4	Samsung	ORG
+1	Samuel Matete	PER
+1	San Diego	ORG
+1	San Diego Padres	ORG
+1	San Francisco	ORG
+1	San Francisco Giants	ORG
+1	San Marino	LOC
+1	Sanath Jayasuriya	PER
+1	Sanders	PER
+1	Sandrine Testud	PER
+1	Sant ' Egidio Community	ORG
+1	Santiago de Cuba	LOC
+4	Saqlain Mushtaq	PER
+1	Sara Thorsett	PER
+2	Saracens	ORG
+3	Sarajevo	LOC
+1	Saudi	MISC
+1	Saudi Arabia	LOC
+1	Scarborough	ORG
+1	Schindler 's List	MISC
+1	Schroder Wertheim & Co	ORG
+15	Scotland	LOC
+1	Scots	MISC
+1	Scott Draper	PER
+1	Scott Hoch	PER
+2	Scott Reed	PER
+1	Scott Sanders	PER
+12	Scottish	MISC
+1	Scottish Labour Party	ORG
+1	Scottish National Party	ORG
+1	Scunthorpe	ORG
+1	Sean Berry	PER
+3	Sean Fitzpatrick	PER
+1	Seattle	LOC
+2	Seattle	ORG
+1	Seattle Mariners	ORG
+3	Security Council	ORG
+3	Seles	PER
+1	Semyon Sharetsky	PER
+3	Seoul	LOC
+3	Serb	MISC
+1	Serbian	MISC
+1	Serbs	MISC
+1	Sereipheap Thmei	ORG
+1	Sergei Naumchik	PER
+1	Sergei Posukhov	PER
+1	Sergei Rebrov	PER
+1	Sergei Yastrzhembsky	PER
+3	Sergen Yalcin	PER
+1	Sergiyev Posad	LOC
+1	Severine	PER
+2	Severine Potty	PER
+1	Shakil Rizvi	PER
+1	Shane Bortsch	PER
+1	Shanghai	LOC
+3	Sharetsky	PER
+1	Sharqiyah	LOC
+1	Shawn Estes	PER
+3	Shearer	PER
+1	Shell	ORG
+1	Shem Kororia	PER
+1	Sherbatov	PER
+1	Sheriat	MISC
+1	Shimon Peres	PER
+1	Shrewsbury	ORG
+1	Shul'ala	LOC
+1	Sigurd Njerve	PER
+2	Sihanouk	PER
+1	Sikhin	LOC
+2	Silva	PER
+1	Simmons	PER
+6	Singapore	LOC
+1	Singer	MISC
+2	Singer World Series	MISC
+1	Sjeng Schalken	PER
+1	Sleeping Bread	MISC
+1	Sletten	PER
+1	Sloboda	ORG
+1	Slobodan Milosevic	PER
+1	Slovak Republic	LOC
+3	Slovakia	LOC
+1	Slovenia	LOC
+1	Solidarity Meeting for Sarajevo	MISC
+7	Somerset	ORG
+1	Soul Alone	MISC
+2	South	LOC
+12	South Africa	LOC
+2	South African	MISC
+1	South Carolina	LOC
+1	South China	LOC
+4	South Korea	LOC
+7	South Korean	MISC
+1	Southampton	ORG
+1	Southeast Asian	MISC
+1	Southend	ORG
+2	Soviet	MISC
+1	Soviet Union	LOC
+17	Spain	LOC
+5	Spanish	MISC
+1	Spartak	ORG
+2	Spitzbergen	LOC
+1	Springbok	ORG
+4	Springboks	ORG
+6	Sri Lanka	LOC
+2	Ssangbangwool	ORG
+1	St Johnstone	ORG
+1	St Louis	LOC
+1	St Louis	ORG
+1	St Mirren	ORG
+1	St Pauli	ORG
+1	St. Louis-based	MISC
+1	St. Petersburg	LOC
+1	Stakes	MISC
+1	Standard & Poor	ORG
+1	Standard Liege	ORG
+2	Stansted	LOC
+1	Staoueli	LOC
+1	Staouelli	LOC
+1	Stars and Stripes	MISC
+2	State Department	ORG
+1	State Law and Order Restoration Council	ORG
+1	Statistics Canada	ORG
+1	Staunton	PER
+2	Stefan Edberg	PER
+1	Steffi Graf	PER
+1	Stefka Kostadinova	PER
+1	Stenhousemuir	ORG
+2	Stephan Marasek	PER
+1	Stephanie Storp	PER
+1	Stephen Ames	PER
+1	Stephen Frater	PER
+1	Steve	PER
+1	Steve Brown	PER
+1	Steve Jurgenson	PER
+2	Steve Stricker	PER
+2	Stewart	PER
+1	Stig Onarheim	PER
+2	Stirling	ORG
+1	Stockholm	LOC
+1	Stockport	ORG
+1	Stoke	ORG
+1	Stranraer	ORG
+1	Strasbourg	LOC
+1	Strike Hard	MISC
+1	Stuart Appleby	PER
+1	Stuart Law	PER
+1	Stuart McCall	PER
+1	Such	PER
+1	Sudan	LOC
+4	Sudanese	MISC
+1	Sueddeutsche Zeitung	ORG
+4	Suharto	PER
+2	Sun	ORG
+1	Sunderland	ORG
+1	Supreme Court	ORG
+1	Surcin	LOC
+1	Surinam	LOC
+1	Surinamese	MISC
+1	Surinamese-born	MISC
+12	Surrey	ORG
+3	Sussex	ORG
+1	Sutjeska	ORG
+11	Suu Kyi	PER
+1	Sven Nylander	PER
+1	Svetlana	PER
+1	Svetlana Masterkova	PER
+1	Svetlana Samokhalova	PER
+1	Swansea	ORG
+2	Swede	MISC
+16	Sweden	LOC
+1	Swedish	MISC
+1	Swindon	ORG
+5	Swiss	MISC
+5	Switzerland	LOC
+5	Syria	LOC
+1	T. Moody	PER
+1	T.O'Gorman	PER
+1	T3	LOC
+1	TARANGO	PER
+1	TATTERSALLS BREEDERS	MISC
+1	TAVILDARA	LOC
+1	TD Securities Inc	ORG
+2	TEXAS	LOC
+1	TEXAS	ORG
+1	TOFTIR	LOC
+2	TORONTO	LOC
+1	TORONTO	ORG
+1	TOUR OF NETHERLANDS	MISC
+2	TROFEJ BEOGRAD TOURNAMENT	MISC
+2	TURKEY	LOC
+3	TVM	ORG
+2	Tacambaro	LOC
+1	Taiwan	LOC
+2	Tajik	MISC
+4	Tajikistan	LOC
+2	Talabani	PER
+1	Tanja Damaske	PER
+3	Tanjug	ORG
+1	Tanjung Priok	LOC
+1	Tanya Dubnicoff	PER
+1	Tanzania	LOC
+1	Tanzanian	MISC
+6	Tarango	PER
+1	Tarawa Amphibious Readiness Group	ORG
+1	Tareq Aziz	PER
+1	Tatian Stiajkina	PER
+1	Tattersalls Breeders	MISC
+1	Tatyana Motkova	PER
+5	Tavildara	LOC
+1	Tayfun Korkut	PER
+1	Teddy Sheringham	PER
+1	Tegla Loroupe	PER
+4	Tehran	LOC
+1	Tel Aviv	LOC
+2	Telekom	ORG
+1	Telgheder	PER
+1	Tennessee	LOC
+1	Test and County Cricket Board	ORG
+1	Texan	MISC
+7	Texas	LOC
+1	Texas	ORG
+1	Texas Open	MISC
+1	Texas Rangers	ORG
+2	Thai	MISC
+5	Thatcher	PER
+1	The Crying Game	MISC
+1	The Curragh	LOC
+1	The Knot	MISC
+1	The Netherlands	LOC
+4	The Oval	LOC
+1	The Sunday Telegraph	ORG
+1	Thomas	PER
+1	Thomas Boyd	PER
+1	Thomas Enqvist	PER
+1	Thomas Johansson	PER
+1	Thomas McKinley	PER
+1	Thorpe	PER
+1	Thorsten Rund	PER
+2	Tiananmen Square	LOC
+4	Tianjin	LOC
+3	Tiger Woods	PER
+1	Tigers	ORG
+1	Tillekeratne	PER
+1	Tim Guldimann	PER
+1	Tim Henman	PER
+1	Tim Lobinger	PER
+1	Tim Munton	PER
+1	Tim O'Gorman	PER
+1	Tim Simpson	PER
+1	Tino Martinez	PER
+3	Titanic	MISC
+2	Todd Martin	PER
+1	Todd Stottlemyre	PER
+1	Todd Van Poppel	PER
+1	Todd Worrell	PER
+1	Tokyo	LOC
+1	Tokyo Stock Exchange	ORG
+1	Tolunay Kafkas	PER
+1	Tom Bellamore	PER
+1	Tom Glavine	PER
+1	Tom Johnson	PER
+1	Tom Lehman	PER
+1	Tom Moody	PER
+1	Tom Nyariki	PER
+1	Tom Pagnozzi	PER
+1	Tono Eitel	PER
+1	Tony Adams	PER
+1	Tony Blair	PER
+1	Tony Clark	PER
+1	Tony Jarrett	PER
+2	Torino	ORG
+1	Toronto	LOC
+1	Toronto Bond Traders ' Association	ORG
+1	Torquay	ORG
+1	Torrance Zellner	PER
+1	Tour of the Netherlands	MISC
+1	Townsend	PER
+1	Trades Disputes Act	MISC
+1	Tranmere	ORG
+1	Transvaal	LOC
+1	Transylvanian	MISC
+1	Treasuries	ORG
+5	Treasury	ORG
+1	Treasury Department	ORG
+1	Treaty of Baden	MISC
+1	Trent Bridge	LOC
+1	Treorchy	ORG
+1	Trine Hattesta	PER
+2	Trinidad	LOC
+5	Tripoli	LOC
+1	Tripoli-based	MISC
+1	Tristan Hoffman	PER
+3	Trofej Beograd 96	MISC
+1	Troy	LOC
+3	Tsang	PER
+3	Tunbridge Wells	LOC
+4	Tunisia	LOC
+3	Tunisian	MISC
+2	Turin	LOC
+7	Turkey	LOC
+4	Turkish	MISC
+1	Tutsi	MISC
+1	Tuzla	LOC
+1	Tyson	PER
+14	U.N.	ORG
+1	U.N. Council	ORG
+1	U.N. Interim Force in Lebanon	ORG
+1	U.N. Security Council	ORG
+1	U.S	LOC
+112	U.S.	LOC
+1	U.S. Agriculture Department	ORG
+2	U.S. Amateur Championship	MISC
+2	U.S. Gulf	LOC
+2	U.S. OPEN	MISC
+6	U.S. Open	MISC
+2	U.S. Open Tennis Championships	MISC
+1	U.S. Treasuries	ORG
+1	U.S. Treasury	ORG
+1	U.S. Treasury Department	ORG
+1	U.S.-led	MISC
+1	UEFA	ORG
+2	UEFA Cup	MISC
+2	UK	LOC
+1	UKRAINE	LOC
+1	UNIFIL	ORG
+1	UNITED STATES	LOC
+1	URUS-MARTAN	LOC
+1	USA	LOC
+1	UWP	ORG
+2	UWP-Hachette	ORG
+4	Ukraine	LOC
+1	Ukrainian	MISC
+1	Ukrainians	MISC
+1	Ulsan	ORG
+1	Unicom	ORG
+3	United Nations	ORG
+1	United Nations-sponsored	MISC
+13	United States	LOC
+1	University of Michigan	ORG
+1	Upul Chandana	PER
+1	Uruguay	LOC
+3	Urus-Martan	LOC
+1	Uyo	LOC
+1	Uzbekistan	LOC
+1	Uzi	MISC
+1	V. Drakes	PER
+1	VANCOUVER	LOC
+1	VOLGOGRAD	LOC
+2	Vaas	PER
+1	Vafa Gulizade	PER
+1	Valentina Fedyushina	PER
+1	Valery Ivankov	PER
+1	Van Gastel	PER
+2	Van Moer	PER
+1	Van Poppel	PER
+2	Van der Westhuizen	PER
+1	Vancouver	LOC
+1	Vasily Kaptyukh	PER
+1	Vass	PER
+1	Vebjoen Rodal	PER
+2	Velten	LOC
+1	Venezuela	LOC
+1	Venice	LOC
+1	Venice Film Festival	MISC
+1	Venter	PER
+1	Venuste Niyongabo	PER
+1	Vienna	LOC
+1	Vienna-based	MISC
+2	Viktor Chernomyrdin	PER
+3	Viljoen	PER
+1	Vinson	MISC
+1	Viorel Moldovan	PER
+1	Virgilijus Alekna	PER
+1	Viva Zapata	MISC
+1	Vladimir Dubrovshchik	PER
+1	Vladimir Makovsky	PER
+1	Vojvodina	ORG
+1	Volgograd	LOC
+1	Volker Ruehe	PER
+1	Vyacheslav Ekimov	PER
+1	W. Athey	PER
+1	W. Hegg	PER
+1	WALES	LOC
+3	WBA	ORG
+1	WBC	ORG
+1	WBO	ORG
+1	WELSH	MISC
+1	WIGAN	LOC
+1	WIGAN	ORG
+1	WOODS	PER
+13	WORLD CUP	MISC
+1	Wahono	PER
+1	Wales	LOC
+1	Wall	PER
+10	Wall Street	LOC
+1	Wallaby	ORG
+1	Wally Joyner	PER
+1	Walsall	ORG
+4	Walter Little	PER
+1	Walter Mondale	PER
+19	Wang	PER
+4	Wang Donghai	PER
+4	Waqar Younis	PER
+1	War of Spanish Succession	MISC
+1	Warner Bros	ORG
+1	Warren O'Connor	PER
+1	Warsaw	LOC
+6	Warwickshire	ORG
+3	Washington	LOC
+7	Washington	PER
+3	Wasim Akram	PER
+2	Wasps	ORG
+1	Watford	ORG
+1	Wayne Fyvie	PER
+1	Wayne Riley	PER
+1	Webber	PER
+2	Weber	PER
+1	Wellington	LOC
+3	Welsh	MISC
+1	Wembley	LOC
+1	Wendy Everson	PER
+1	West	LOC
+11	West Bank	LOC
+1	West Hartlepool	ORG
+1	West Indian	MISC
+1	Western	MISC
+2	White House	LOC
+2	White Sox	ORG
+1	Whitewater	LOC
+1	Wieslaw Kaczmarek	PER
+2	Wigan	ORG
+1	Wilfried Van Moer	PER
+1	Will Carling	PER
+1	William Tanui	PER
+1	Willie	PER
+1	Wilson Kipketer	PER
+6	Wimbledon	MISC
+1	Win Htein	PER
+3	Wisconsin	LOC
+1	Wolfgang Feiersinger	PER
+1	Wolsey	PER
+1	Wolverhampton	ORG
+1	Wood	PER
+4	Woods	PER
+6	Worcestershire	ORG
+1	World Boxing Council	ORG
+19	World Cup	MISC
+1	World Series	MISC
+4	World Series of Golf	MISC
+1	World Trade Organisation	ORG
+1	World War Two	MISC
+1	Worthing	LOC
+1	Wrexham	ORG
+2	Wuhan	LOC
+2	Wuxi	LOC
+1	Wuxi Tong Ling Company Ltd	ORG
+1	Wycombe	ORG
+5	Xiao	PER
+1	Xiao Qiang	PER
+2	Xinhua	ORG
+1	Xiomara Rivero	PER
+1	YUGOSLAV	MISC
+1	Yalcin	PER
+1	Yankees	ORG
+4	Yasser Arafat	PER
+2	Yastrzhembsky	PER
+1	Yekaterina Podkopayeva	PER
+1	Yelena Gulyayeva	PER
+13	Yeltsin	PER
+1	Yitzak Shamir	PER
+1	Yitzhak Mordechai	PER
+1	Yoelvis Quesada	PER
+1	Yonhap	ORG
+1	York	ORG
+4	Yorkshire	ORG
+3	Youri Djorkaeff	PER
+3	Yugoslav	MISC
+7	Yugoslavia	LOC
+1	Yunnan	LOC
+2	Yvonne McGregor	PER
+3	Zaire	LOC
+4	Zairean	MISC
+1	Zambia	LOC
+1	Zelimkhan Yandarbiyev	PER
+1	Zemun	ORG
+1	Zenon Poznyak	PER
+1	Zhejiang	LOC
+1	Zhirayr Liparityan	PER
+2	Zimbabwe	LOC
+1	Zine al-Abidine Ben Ali	PER
+2	Zinedine Zidane	PER
+1	Zinzan Brooke	PER
+2	Zurich	LOC
+3	Zycie Warszawy	ORG
+1	Zygmunt Solorz	PER
+1	aid-U.N.	MISC
+3	al-Aqsa	LOC
+1	al-Daih	LOC
+1	al-Gama'a al-Islamiya	ORG
+1	al-Ram	LOC
+1	de Silva	PER
+3	division	MISC
+1	ex-England	MISC
+1	ex-Milan	MISC
+1	interior ministry	ORG
+1	mainly-Moslem	MISC
+1	post-Games	MISC
+1	pre-Castro	MISC
+1	serie A	MISC

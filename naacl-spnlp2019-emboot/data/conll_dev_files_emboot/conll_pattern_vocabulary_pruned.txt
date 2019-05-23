@@ -1,0 +1,166 @@
+</s>	0
+@ENTITY said	139
+beat @ENTITY	67
+said @ENTITY	62
+SOCCER - @ENTITY	39
+@ENTITY ) beat	38
+@ENTITY ( U.S.	37
+@ENTITY ( Germany	32
+AT @ENTITY	30
+@ENTITY beat	30
+President @ENTITY	29
+@ENTITY AT	28
+told @ENTITY	24
+@ENTITY on Friday	24
+@ENTITY ( Russia	24
+@ENTITY BEAT	23
+BEAT @ENTITY	23
+@ENTITY on Saturday	21
+@ENTITY troops	19
+@ENTITY ( Australia	19
+Minister @ENTITY	18
+@ENTITY group	18
+@ENTITY government	17
+@ENTITY police	16
+@ENTITY told	16
+SOCCER - @ENTITY BEAT	16
+@ENTITY said on	15
+leader @ENTITY	15
+@ENTITY ( Sweden	14
+@ENTITY won	14
+@ENTITY ( Italy	14
+@ENTITY President	14
+town of @ENTITY	14
+@ENTITY said the	13
+@ENTITY ( France	13
+@ENTITY ( Kenya	12
+@ENTITY soccer	12
+@ENTITY QUALIFIER	12
+@ENTITY said he	12
+champion @ENTITY	11
+@ENTITY ( Spain	11
+CRICKET - @ENTITY	11
+@ENTITY spokesman	11
+@ENTITY news	11
+@ENTITY news agency	10
+@ENTITY said in	10
+Prime Minister @ENTITY	10
+@ENTITY hit	10
+manager @ENTITY	10
+coach @ENTITY	10
+Results of @ENTITY	10
+captain @ENTITY	10
+World Cup soccer @ENTITY	9
+@ENTITY soccer European	9
+@ENTITY soccer European group	9
+soccer @ENTITY	9
+Cup soccer @ENTITY	9
+@ENTITY ( Britain	9
+soccer @ENTITY group	9
+World Cup soccer @ENTITY group	9
+Cup soccer @ENTITY group	9
+@ENTITY says	9
+@ENTITY officials	8
+@ENTITY took	8
+@ENTITY IN WORLD	8
+@ENTITY IN WORLD CUP	8
+city of @ENTITY	8
+@ENTITY IN WORLD CUP QUALIFIER	8
+said the @ENTITY	8
+@ENTITY airport	8
+@ENTITY is a	8
+@ENTITY said on Friday	8
+@ENTITY president	7
+a World Cup soccer @ENTITY	7
+a World Cup soccer @ENTITY group	7
+@ENTITY ( Netherlands	7
+@ENTITY ( U.S. ) beat	7
+@ENTITY captain	7
+president @ENTITY	7
+@ENTITY told reporters	7
+U.S. ) beat @ENTITY	7
+group @ENTITY	7
+@ENTITY said in a	7
+@ENTITY ( Cuba	7
+@ENTITY ( Norway	7
+@ENTITY ( Nigeria	7
+spokesman @ENTITY	7
+@ENTITY state	7
+lbw b @ENTITY	6
+@ENTITY RESULTS	6
+BASEBALL - @ENTITY	6
+@ENTITY ( captain	6
+@ENTITY won the	6
+@ENTITY ( Canada	6
+@ENTITY ( Lithuania	6
+@ENTITY ( Czech Republic	6
+@ENTITY ( Czech	6
+BEAT @ENTITY IN WORLD CUP	6
+@ENTITY lbw b	6
+@ENTITY lbw	6
+BEAT @ENTITY IN WORLD CUP QUALIFIER	6
+BEAT @ENTITY IN WORLD	6
+Scorers : @ENTITY	6
+@ENTITY , England 1996-08-31	6
+@ENTITY , England	6
+@ENTITY coach	6
+@ENTITY kicked	6
+@ENTITY club	6
+@ENTITY as saying	6
+@ENTITY ) , Reynard	6
+@ENTITY peace	6
+U.S. ) , @ENTITY	6
+@ENTITY bond	6
+@ENTITY ( Jamaica	6
+@ENTITY ( three days	6
+@ENTITY leaders	6
+@ENTITY said on Saturday	6
+@ENTITY stock	6
+percent of @ENTITY	6
+@ENTITY newsroom	6
+@ENTITY army	6
+quoted @ENTITY	6
+@ENTITY quoted	6
+American @ENTITY	6
+@ENTITY leader	6
+including @ENTITY	6
+@ENTITY said that	6
+@ENTITY born	6
+beat the @ENTITY	5
+@ENTITY hit his	5
+@ENTITY homered	5
+@ENTITY on Thursday	5
+beat @ENTITY ( Czech Republic	5
+beat @ENTITY ( Czech	5
+@ENTITY run out	5
+@ENTITY run	5
+@ENTITY championship	5
+@ENTITY beat the	5
+@ENTITY ( Ireland	5
+midfielder @ENTITY	5
+points , @ENTITY	5
+@ENTITY county	5
+backed by @ENTITY	5
+match against @ENTITY	5
+SOCCER - @ENTITY LEAGUE	5
+@ENTITY made	5
+@ENTITY LEAGUE	5
+@ENTITY ( Australia ) beat	5
+@ENTITY lost	5
+@ENTITY news agency said	5
+@ENTITY said at	5
+visit @ENTITY	5
+@ENTITY told Reuters	5
+test ( at @ENTITY	5
+province of @ENTITY	5
+@ENTITY rebels	5
+@ENTITY , said	5
+@ENTITY bonds	5
+capital @ENTITY	5
+@ENTITY forces	5
+@ENTITY newspaper	5
+@ENTITY campaign	5
+goalkeeper @ENTITY	5
+@ENTITY ( Belarus	5
+@ENTITY village	5
+@ENTITY champion	5

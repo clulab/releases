@@ -1,0 +1,16 @@
+Internet Startup funded to develop Java software .
+MOUNTAIN VIEW , Calif. 1996-08-25
+A small team of engineers from Sun Microsystems Inc. 's JavaSoft unit said Sunday they have formed a new company , dubbed Internet Startup , to build Java infrastructure software .
+The fledgling company , established in a ground-floor office here over the last two weeks , has received venture financing from Bessemer Venture Partners of Menlo Park , Calif ..
+David Cowan , Internet Startup founder and acting chief executive , is a general partner of Bessemer .
+The startup company 's acting chairman is Jim Bidzos , the president of RSA Data Security , a unit of Security Dynamics Technologies Inc. as well as chairman of VeriSign .
+Internet Startup , which opened its doors with about half a dozen initial employees , combines experience at JavaSoft , Apple Computer Inc. , and Oracle Systems .
+" Java portends dramatic changes in the way we use the Internet , " said Hong Bui , vice president of engineering of the new company after serving as a senior engineer at JavaSoft .
+Java is a computer programming language introduced by Sun Microsystems in mid-1995 which has immediately captured the attention of the industry for its ability to operate across virtually all computer system in a relatively secure manner .
+Just last week , Sun Microsystems and the Silicon Valley venture capital giant Kleiner Perkins Caufield & Byers said they had completed financing of a $ 100 million fund managed by Kleiner Perkins to fund startups developing Java technologies .
+Java has been licensed by nearly 50 organisations , ranging from Microsoft Corp. and International Business Machines Corp. to the Taiwan government .
+Prasad Wagle , another former senior JavaSoft engineer who is among the founding engineers at Internet Startup , said the new company aims to build software infrastructure using Java to make networked applications ubiquitious .
+One feature of the Java language is that small software programmes , known as " applets " because they are small applications , can be downloaded from the server computers at the centre of networks onto individual computers for use .
+In this model , individual computer users can always gain access to the latest programmes and do not need to store more software than they are currently using on their computers at any one time , also saving costs of memory and storage .
+Chris Zuleeg , a veteran of Apple and a former JavaSoft marketing manager , is vice president of marketing at Internet Startup , whose Web site is www.internetstartup.com .
+Bessemer has funded numerous Internet pioneers , including PSI Net , VeriSign and Individual .

@@ -1,0 +1,5375 @@
+LEICESTERSHIRE	ORG
+West Indian	MISC
+Phil Simmons	PER
+Leicestershire	ORG
+Somerset	ORG
+Essex	ORG
+Derbyshire	ORG
+Surrey	ORG
+Kent	ORG
+Nottinghamshire	ORG
+Somerset	ORG
+Grace Road	LOC
+Leicestershire	ORG
+England	LOC
+Andy Caddick	PER
+Somerset	ORG
+Simmons	PER
+Essex	ORG
+Nasser Hussain	PER
+Peter Such	PER
+Yorkshire	ORG
+Headingley	LOC
+Hussain	PER
+England	LOC
+Essex	ORG
+Yorkshire	ORG
+Such	PER
+Oval	LOC
+Surrey	ORG
+Chris Lewis	PER
+England	LOC
+Warwickshire	ORG
+England	LOC
+Mark Butcher	PER
+Surrey	ORG
+Derbyshire	ORG
+Worcestershire	ORG
+Australian	MISC
+Tom Moody	PER
+Tim O'Gorman	PER
+Derbyshire	ORG
+Kent	ORG
+Nottinghamshire	ORG
+Paul Johnson	PER
+ex-England	MISC
+Martin McCague	PER
+Kent	ORG
+ENGLISH COUNTY CHAMPIONSHIP	MISC
+English	MISC
+Leicester	LOC
+Leicestershire	ORG
+Somerset	ORG
+P. Simmons	PER
+Leicestershire	ORG
+Leicestershire	ORG
+Somerset	ORG
+Chester-le-Street	LOC
+Glamorgan	ORG
+A. Dale	PER
+H. Morris	PER
+D. Blenkiron	PER
+Durham	ORG
+S. Watkin	PER
+Tunbridge Wells	LOC
+Nottinghamshire	ORG
+P. Johnson	PER
+M. McCague	PER
+Kent	ORG
+The Oval	LOC
+Warwickshire	ORG
+Surrey	ORG
+C. Lewis	PER
+M. Butcher	PER
+G. Kersey	PER
+J. Ratcliffe	PER
+D. Bicknell	PER
+Hove	LOC
+Sussex	ORG
+W. Athey	PER
+V. Drakes	PER
+I. Austin	PER
+Lancashire	ORG
+W. Hegg	PER
+Portsmouth	LOC
+Middlesex	ORG
+J. Pooley	PER
+M. Ramprakash	PER
+M. Gatting	PER
+Hampshire	ORG
+Chesterfield	LOC
+Worcestershire	ORG
+Derbyshire	ORG
+J. Adams	PER
+T.O'Gorman	PER
+K. Barnett	PER
+T. Moody	PER
+Bristol	LOC
+Gloucestershire	ORG
+Northamptonshire	ORG
+K. Curran	PER
+A. Smith	PER
+S. KOREAN	MISC
+South Korean	MISC
+OB	ORG
+Lotte	ORG
+Hyundai	ORG
+Hyundai	ORG
+Lotte	ORG
+Haitai	ORG
+Samsung	ORG
+Samsung	ORG
+Haitai	ORG
+Hanwha	ORG
+Ssangbangwool	ORG
+Lotte	ORG
+Hyundai	ORG
+Haitai	ORG
+Samsung	ORG
+REAL	ORG
+LA CORUNA	LOC
+Spain	LOC
+Roberto Carlos	PER
+Real Madrid	ORG
+Fabio Capello	PER
+Spanish	MISC
+Brazilian	MISC
+Real	ORG
+Deportivo Coruna	ORG
+Deportivo	ORG
+Auxerre	ORG
+Corentine Martins	PER
+Brazilian-born	MISC
+Spanish	MISC
+Donato	PER
+Real	ORG
+Luis Milla	PER
+Deportivo	ORG
+Armando Alvarez	PER
+Roberto Carlos	PER
+Real	ORG
+Deportivo	ORG
+Jacques Songo'o	PER
+Donato	PER
+Real	ORG
+Deportivo	ORG
+Augusto Lendoiro	PER
+FIFA	ORG
+Brazilian	MISC
+Mauro Silva	PER
+Europe	LOC
+John Toshack	PER
+Silva	PER
+Brazil	LOC
+RUGBY LEAGUE	MISC
+WIGAN	ORG
+BRADFORD	ORG
+WIGAN	LOC
+England	LOC
+English	MISC
+Wigan	ORG
+Bradford Bulls	ORG
+ISRAEL	LOC
+BULGARIA	LOC
+EUROPEAN	MISC
+HERZLIYA	LOC
+Israel	LOC
+European	MISC
+Israel	LOC
+Bulgaria	LOC
+Haim Hajaj	PER
+Nir Sivilia	PER
+IRISH	MISC
+ESCHEN	LOC
+Liechtenstein	LOC
+Republic of Ireland	LOC
+Liechtenstein	LOC
+Alpine	MISC
+World Cup	MISC
+Irish	MISC
+Mick McCarthy	PER
+Andy Townsend	PER
+Norwich	ORG
+Keith O'Neill	PER
+Sunderland	ORG
+Niall Quinn	PER
+Ian Harte	PER
+Quinn	PER
+Ireland	LOC
+Irish	MISC
+Ireland	LOC
+Eschen	LOC
+Jack Charlton	PER
+European	MISC
+IRELAND	LOC
+LIECHTENSTEIN	LOC
+WORLD CUP	MISC
+Republic of Ireland	LOC
+Liechtenstein	LOC
+World Cup	MISC
+European	MISC
+Andy Townsend	PER
+Keith O'Neill	PER
+Niall Quinn	PER
+BRITISH MASTERS	MISC
+NORTHAMPTON	LOC
+England	LOC
+British Masters	MISC
+British	MISC
+Robert Allenby	PER
+Australia	LOC
+Miguel Angel Martin	PER
+Spain	LOC
+Allenby	PER
+Costantino Rocca	PER
+Italy	LOC
+Miguel Angel Jimenez	PER
+Spain	LOC
+Jose Coceres	PER
+Argentina	LOC
+Joakim Haeggman	PER
+Sweden	LOC
+Antoine Lebouc	PER
+France	LOC
+Philip Walton	PER
+Ireland	LOC
+Klas Eriksson	PER
+Sweden	LOC
+Pedro Linhart	PER
+Spain	LOC
+Peter O'Malley	PER
+Australia	LOC
+Mike Clayton	PER
+Australia	LOC
+Peter Hedblom	PER
+Sweden	LOC
+SLOVAKIA	LOC
+FAROES	LOC
+WORLD CUP	MISC
+TOFTIR	LOC
+Faroe Islands	LOC
+Slovakia	LOC
+Faroe Islands	LOC
+World Cup	MISC
+European	MISC
+Faroe Islands	LOC
+Jan Allan Mueller	PER
+Slovakia	LOC
+Lubomir Moravcik	PER
+ENGLAND	LOC
+PAKISTAN	LOC
+BIRMINGHAM	LOC
+England	LOC
+England	LOC
+Pakistan	LOC
+Edgbaston	LOC
+England	LOC
+N. Knight	PER
+Pakistan	LOC
+Ijaz Ahmed	PER
+A. Hollioake	PER
+TOUR OF NETHERLANDS	MISC
+LANDGRAAF	LOC
+Netherlands	LOC
+Tour of the Netherlands	MISC
+Roermond	LOC
+Landgraaf	LOC
+Olaf Ludwig	PER
+Germany	LOC
+Telekom	ORG
+Giovanni Lombardi	PER
+Italy	LOC
+Polti	ORG
+Tristan Hoffman	PER
+Netherlands	LOC
+TVM	ORG
+Erik Breukink	PER
+Netherlands	LOC
+Rabobank	ORG
+Jesper Skibby	PER
+Denmark	LOC
+TVM	ORG
+Vyacheslav Ekimov	PER
+Russia	LOC
+Rabobank	ORG
+Luca Pavanello	PER
+Italy	LOC
+Aki	PER
+Eleuterio Anguita	PER
+Spain	LOC
+MX Onda	ORG
+Michael Andersson	PER
+Sweden	LOC
+Telekom	ORG
+Johan Capiot	PER
+Belgium	LOC
+Collstrop	ORG
+Rolf Sorensen	PER
+Denmark	LOC
+Rabobank	ORG
+Lance Armstrong	PER
+U.S.	LOC
+Motorola	ORG
+Marco Lietti	PER
+Italy	LOC
+MG-Technogym	ORG
+Erik Dekker	PER
+Netherlands	LOC
+Rabobank	ORG
+Breukink	PER
+Maarten den Bakker	PER
+Netherlands	LOC
+TVM	ORG
+ENGLAND	LOC
+PAKISTAN	LOC
+BIRMINGHAM	ORG
+England	LOC
+England	LOC
+Pakistan	LOC
+N. Knight	PER
+Moin Khan	PER
+Saqlain Mushtaq	PER
+A. Stewart	PER
+Mushtaq Ahmed	PER
+M. Atherton	PER
+Mushtaq Ahmed	PER
+G. Thorpe	PER
+Ata-ur-Rehman	PER
+M. Maynard	PER
+A. Hollioake	PER
+D. Gough	PER
+R. Croft	PER
+Waqar Younis	PER
+A. Mullally	PER
+Wasim Akram	PER
+Waqar Younis	PER
+Ata-ur-Rehman	PER
+Saqlain Mushtaq	PER
+Mushtaq Ahmed	PER
+Saeed Anwar	PER
+Stewart	PER
+Gough	PER
+Aamir Sohail	PER
+Croft	PER
+Gough	PER
+Moin Khan	PER
+Mullally	PER
+Ijaz Ahmed	PER
+Croft	PER
+Inzamam-ul-Haq	PER
+Thorpe	PER
+Croft	PER
+Salim Malik	PER
+Stewart	PER
+Hollioake	PER
+Wasim Akram	PER
+Knight	PER
+Hollioake	PER
+Saqlain Mushtaq	PER
+Hollioake	PER
+Waqar Younis	PER
+Gough	PER
+Ata-ur-Rehman	PER
+Knight	PER
+Hollioake	PER
+Gough	PER
+Mullally	PER
+Headley	PER
+Irani	PER
+Croft	PER
+Hollioake	PER
+U.S. OPEN	MISC
+U.S. Open Tennis Championships	MISC
+National Tennis Centre	LOC
+Sandrine Testud	PER
+France	LOC
+Ines Gorrochategui	PER
+Argentina	LOC
+Goran Ivanisevic	PER
+Croatia	LOC
+Scott Draper	PER
+Australia	LOC
+Tim Henman	PER
+Britain	LOC
+Doug Flach	PER
+U.S.	LOC
+Mark Philippoussis	PER
+Australia	LOC
+Andrei Olhovskiy	PER
+Russia	LOC
+Sjeng Schalken	PER
+Netherlands	LOC
+David Rikl	PER
+Czech Republic	LOC
+Guy Forget	PER
+France	LOC
+Felix Mantilla	PER
+Spain	LOC
+Alexander Volkov	PER
+Russia	LOC
+Mikael Tillstrom	PER
+Sweden	LOC
+Jonas Bjorkman	PER
+Sweden	LOC
+David Nainkin	PER
+South Africa	LOC
+Lindsay Davenport	PER
+U.S.	LOC
+Anne-Gaelle Sidot	PER
+France	LOC
+Conchita Martinez	PER
+Spain	LOC
+Helena Sukova	PER
+Czech Republic	LOC
+Amanda Coetzer	PER
+South Africa	LOC
+Irina Spirlea	PER
+Romania	LOC
+Cedric Pioline	PER
+France	LOC
+Roberto Carretero	PER
+Spain	LOC
+Alex Corretja	PER
+Spain	LOC
+Filippo Veglio	PER
+Switzerland	LOC
+Linda Wild	PER
+U.S.	LOC
+Barbara Rittner	PER
+Germany	LOC
+Asa Carlsson	PER
+Sweden	LOC
+Gabriela Sabatini	PER
+Argentina	LOC
+Pete Sampras	PER
+U.S.	LOC
+Jiri Novak	PER
+Czech Republic	LOC
+Paul Haarhuis	PER
+Netherlands	LOC
+Michael Tebbutt	PER
+Australia	LOC
+Lisa Raymond	PER
+U.S.	LOC
+Kimberly Po	PER
+U.S.	LOC
+Hendrik Dreekmann	PER
+Germany	LOC
+Thomas Johansson	PER
+Sweden	LOC
+Andrei Medvedev	PER
+Ukraine	LOC
+Jan Kroslak	PER
+Slovakia	LOC
+Petr Korda	PER
+Czech Republic	LOC
+Bohdan Ulihrach	PER
+Czech	LOC
+Monica Seles	PER
+U.S.	LOC
+Dally Randriantefy	PER
+Madagascar	LOC
+Todd Martin	PER
+U.S.	LOC
+Andrea Gaudenzi	PER
+Italy	LOC
+Stefan Edberg	PER
+Sweden	LOC
+Bernd Karbacher	PER
+Germany	LOC
+MANCHESTER	LOC
+England	LOC
+Antonella Bellutti	PER
+Italy	LOC
+Marion Clignet	PER
+France	LOC
+Lucy Tyler-Sharman	PER
+Australia	LOC
+Yvonne McGregor	PER
+Britain	LOC
+Natalia Karimova	PER
+Russia	LOC
+Svetlana Samokhalova	PER
+Russia	LOC
+Jane Quigley	PER
+U.S.	LOC
+Rasa Mazeikyte	PER
+Lithuania	LOC
+Tatian Stiajkina	PER
+Ukraine	LOC
+Italy	LOC
+Adler Capelli	PER
+Cristiano Citto	PER
+Andrea Collinelli	PER
+Mauro Trentino	PER
+Russia	LOC
+Anton Chantyr	PER
+Edouard Gritsoun	PER
+Nikolai Kouznetsov	PER
+France	LOC
+Cyril Bos	PER
+Philippe Ermenault	PER
+Jean-Michel Monin	PER
+Francis Moreau	PER
+Germany	LOC
+Guido Fulst	PER
+Danilo Hondo	PER
+Thorsten Rund	PER
+Heiko Szonn	PER
+Germany	LOC
+Felicia Ballanger	PER
+France	LOC
+Annett Neumann	PER
+Germany	LOC
+Michelle Ferris	PER
+Australia	LOC
+Magali Faure	PER
+France	LOC
+Olga Slioussareva	PER
+Russia	LOC
+Oksana Grichina	PER
+Russia	LOC
+Tanya Dubnicoff	PER
+Canada	LOC
+Kathrin Freitag	PER
+Germany	LOC
+Donna Wynd	PER
+New Zealand	LOC
+Mira Kasslin	PER
+Finland	LOC
+Wendy Everson	PER
+Britain	LOC
+Giovanna Troldi	PER
+Italy	LOC
+Rita Razmaite	PER
+Lithuania	LOC
+Italy	LOC
+Adler Capelli	PER
+Cristiano Citto	PER
+Andrea Collinelli	PER
+Mauro Trentino	PER
+France	LOC
+Cyril Bos	PER
+Philippe Ermenault	PER
+Jean-Michel Monin	PER
+Francis Moreau	PER
+Florian Rousseau	PER
+France	LOC
+Ainars Kiksis	PER
+Latvia	LOC
+Darryn Hill	PER
+Australia	LOC
+Christian Arrue	PER
+U.S.	LOC
+Roberto Chiappa	PER
+Italy	LOC
+Frederic Magne	PER
+France	LOC
+Marty Nothstein	PER
+U.S.	LOC
+Pavel Buran	PER
+Czech Republic	LOC
+Marion Clignet	PER
+France	LOC
+Jane	PER
+Quigley	PER
+USA	LOC
+Natalia Karimova	PER
+Russia	LOC
+Yvonne McGregor	PER
+Lucy Tyler-Sharman	PER
+Australia	LOC
+Svetlana	PER
+Samokhvalova	PER
+Russia	LOC
+Antonella Bellutti	PER
+Italy	LOC
+Rasa	PER
+Mazeikyte	PER
+Lithuania	LOC
+PAKISTAN	LOC
+ENGLAND	LOC
+BIRMINGHAM	LOC
+England	LOC
+Pakistan	LOC
+England	LOC
+Edgbaston	LOC
+Surrey	ORG
+Adam Hollioake	PER
+England	LOC
+Lancashire	ORG
+Graham Lloyd	PER
+Peter Martin	PER
+Pakistan	LOC
+England	LOC
+Old Trafford	LOC
+England	LOC
+Mike Atherton	PER
+Nick Knight	PER
+Alec Stewart	PER
+Graham Thorpe	PER
+Matthew Maynard	PER
+Adam Hollioake	PER
+Ronnie Irani	PER
+Robert Croft	PER
+Darren Gough	PER
+Dean Headley	PER
+Alan Mullally	PER
+Pakistan	LOC
+Aamir Sohail	PER
+Saeed Anwar	PER
+Ijaz Ahmed	PER
+Salim Malik	PER
+Inzamam-ul-Haq	PER
+Wasim Akram	PER
+Moin Khan	PER
+Saqlain Mushtaq	PER
+Mushtaq Ahmed	PER
+Waqar Younis	PER
+Ata-ur-Rehman	PER
+GONZALEZ	PER
+RANGERS	ORG
+INDIANS	ORG
+ARLINGTON	LOC
+Texas	LOC
+Juan Gonzalez	PER
+Ivan Rodriguez	PER
+Texas Rangers	ORG
+Cleveland Indians	ORG
+Rodriguez	PER
+Chad Ogea	PER
+Texas	LOC
+Gonzalez	PER
+Gonzalez	PER
+Mickey Rivers	PER
+Texas	LOC
+Gonzalez	PER
+Gonzalez	PER
+RBI	MISC
+Ruben Sierra	PER
+Indians	MISC
+Texas	LOC
+Johnny Oates	PER
+Cleveland	ORG
+Roger Pavlik	PER
+American League	MISC
+Jeff Russell	PER
+Brian Giles	PER
+Jim Thome	PER
+Cleveland	ORG
+Cleveland	ORG
+White Sox	ORG
+American League Central	MISC
+Texas	ORG
+Seattle	ORG
+West	LOC
+California	LOC
+Tino Martinez	PER
+Andy Pettitte	PER
+New York Yankees	ORG
+Angels	ORG
+New York	LOC
+Mariano Duncan	PER
+Darryl Strawberry	PER
+Jim Leyritz	PER
+Pettite	PER
+Yankees	ORG
+Mariano Rivera	PER
+Randy Velarde	PER
+Seattle	LOC
+Pete Incaviglia	PER
+Baltimore Orioles	ORG
+Seattle Mariners	ORG
+Incaviglia	PER
+Baltimore	ORG
+Eddie Murray	PER
+Jay Buhner	PER
+Edgar Martinez	PER
+Seattle	ORG
+Orioles	ORG
+White Sox	ORG
+American League	MISC
+Mariners	ORG
+Toronto	LOC
+Kevin Tapani	PER
+Frank Thomas	PER
+Chicago White Sox	ORG
+Blue Jays	ORG
+Thomas	PER
+Harold Baines	PER
+Robin Ventura	PER
+Baines	PER
+Danny Tartabull	PER
+RBI	MISC
+Chicago	LOC
+Oakland	LOC
+Dave Telgheder	PER
+Mark McGwire	PER
+Athetlics	ORG
+Boston Red Sox	ORG
+Telgheder	PER
+Buddy Groom	PER
+McGwire	PER
+Boston	ORG
+Detroit	LOC
+Todd Van Poppel	PER
+Tony Clark	PER
+Tigers	ORG
+Kansas City Royals	ORG
+Van Poppel	PER
+Royals	ORG
+ERA	MISC
+Kansas City	LOC
+Milwaukee	LOC
+Marc Newfield	PER
+Jose Parra	PER
+Brewers	ORG
+Minnesota Twins	ORG
+Milwaukee	ORG
+Bob Wickman	PER
+Matt Lawton	PER
+Mike Fetters	PER
+Minnesota	ORG
+Milwaukee	ORG
+ESSEX	ORG
+KENT	ORG
+Essex	ORG
+Kent	ORG
+Derbyshire	ORG
+Surrey	ORG
+English	MISC
+Essex	ORG
+Yorkshire	ORG
+Richard Kettleborough	PER
+Kent	ORG
+Nottinghamshire	ORG
+Tunbridge Wells	LOC
+Derbyshire	ORG
+Worcestershire	ORG
+Surrey	ORG
+Warwickshire	ORG
+Leicestershire	ORG
+Somerset	ORG
+Warwickshire	ORG
+Tim Munton	PER
+Surrey	ORG
+Australian	MISC
+Dave Gilbert	PER
+Derbyshire	ORG
+Australian	MISC
+Dean Jones	PER
+EUROPEAN TOUR	MISC
+European Tour	MISC
+British Masters	MISC
+Robert Allenby	PER
+British	MISC
+Ian Woosnam	PER
+Robert Allenby	PER
+Australia	LOC
+Costantino Rocca	PER
+Italy	LOC
+Mark McNulty	PER
+Zimbabwe	LOC
+Wayne Riley	PER
+Australia	LOC
+Stephen Ames	PER
+Trinidad	LOC
+Frank Nobilo	PER
+New Zealand	LOC
+Paul McGinley	PER
+Ireland	LOC
+Padraig Harrington	PER
+Ireland	LOC
+Retief Goosen	PER
+South Africa	LOC
+Miguel Angel Jimenez	PER
+Spain	LOC
+Miguel Angel Martin	PER
+Spain	LOC
+RUGBY UNION	ORG
+ENGLISH	MISC
+SCOTTISH	MISC
+WELSH	MISC
+English	MISC
+Scottish	MISC
+Welsh	MISC
+Harlequins	ORG
+Gloucester	ORG
+London Irish	ORG
+Bristol	ORG
+Northampton	ORG
+West Hartlepool	ORG
+Orrell	ORG
+Sale	ORG
+Wasps	ORG
+Saracens	ORG
+Leicester	ORG
+Welsh	MISC
+Bridgend	ORG
+Llanelli	ORG
+Dunvant	ORG
+Ebbw Vale	ORG
+Treorchy	ORG
+Newbridge	ORG
+Newport	ORG
+Caerphilly	ORG
+Swansea	ORG
+Cardiff	ORG
+Scottish	MISC
+Boroughmuir	ORG
+Hawick	ORG
+Currie	ORG
+Heriot 's F.P.	ORG
+Jed-Forest	ORG
+Melrose	ORG
+Stirling	ORG
+WALES	LOC
+SAN MARINO	LOC
+WORLD CUP	MISC
+Wales	LOC
+San Marino	LOC
+World Cup	MISC
+European	MISC
+Dean Saunders	PER
+UKRAINE	LOC
+NORTHERN IRELAND	LOC
+WORLD CUP	MISC
+Ukraine	LOC
+Northern Ireland	LOC
+World Cup	MISC
+European	MISC
+Sergei Rebrov	PER
+RUGBY UNION	ORG
+LYNAGH	PER
+DWYER	ORG
+LEICESTER	ORG
+Wallaby	ORG
+Michael Lynagh	PER
+English	MISC
+Bob Dwyer	PER
+Leicester	LOC
+Lynagh	PER
+Saracens	ORG
+Nigel Wray	PER
+London	LOC
+French	MISC
+Philippe Sella	PER
+Lynagh	PER
+England	LOC
+Kyran Bracken	PER
+French	MISC
+Harlequins	LOC
+Laurent Cabannes	PER
+Laurent Benezech	PER
+Gloucester	ORG
+England	LOC
+Will Carling	PER
+Rugby Football Union	ORG
+Bath	ORG
+Orrell	ORG
+Northampton	ORG
+Wasps	ORG
+Bristol	ORG
+SCOTTISH	MISC
+Scottish	MISC
+MAJOR LEAGUE	MISC
+KANSAS CITY	ORG
+DETROIT	LOC
+CHICAGO	ORG
+TORONTO	LOC
+MINNESOTA	ORG
+MILWAUKEE	LOC
+CLEVELAND	ORG
+TEXAS	LOC
+NEW YORK	ORG
+CALIFORNIA	LOC
+BOSTON	ORG
+OAKLAND	LOC
+BALTIMORE	ORG
+SEATTLE	LOC
+ATLANTA	ORG
+CHICAGO	LOC
+FLORIDA	ORG
+CINCINNATI	LOC
+SAN DIEGO	ORG
+MONTREAL	LOC
+LOS ANGELES	ORG
+PHILADELPHIA	LOC
+HOUSTON	ORG
+PITTSBURGH	LOC
+SAN FRANCISCO	ORG
+NEW YORK	LOC
+COLORADO	ORG
+ST LOUIS	LOC
+ENGLISH	MISC
+English	MISC
+SCOTTISH	MISC
+Scottish	MISC
+Greenock Morton	ORG
+Falkirk	ORG
+Partick	ORG
+St Mirren	ORG
+Stirling	ORG
+Dundee	ORG
+East Fife	ORG
+Clydebank	ORG
+St Johnstone	ORG
+Ayr	ORG
+Berwick	ORG
+Clyde	ORG
+Queen of South	ORG
+Dumbarton	ORG
+Brechin	ORG
+Livingston	ORG
+Hamilton	ORG
+Stenhousemuir	ORG
+Stranraer	ORG
+Albion	ORG
+Cowdenbeath	ORG
+Arbroath	ORG
+East Stirling	ORG
+Inverness Thistle	ORG
+Alloa	ORG
+Montrose	ORG
+Ross County	ORG
+Queen 's Park	ORG
+Forfar	ORG
+ENGLISH	MISC
+English	MISC
+Bradford	ORG
+Tranmere	ORG
+Grimsby	ORG
+Huddersfield	ORG
+Crystal Palace	ORG
+Norwich	ORG
+Wolverhampton	ORG
+Oldham	ORG
+Ipswich	ORG
+Port Vale	ORG
+Oxford	ORG
+Reading	ORG
+Stoke	ORG
+Southend	ORG
+Swindon	ORG
+Birmingham	ORG
+Barnsley	ORG
+Manchester City	ORG
+Charlton	ORG
+Queens Park Rangers	ORG
+Bolton	ORG
+Blackpool	ORG
+Wycombe	ORG
+Bournemouth	ORG
+Peterborough	ORG
+Bristol Rovers	ORG
+Stockport	ORG
+Bury	ORG
+Bristol City	ORG
+Crewe	ORG
+Watford	ORG
+Gillingham	ORG
+Chesterfield	ORG
+Luton	ORG
+Rotherham	ORG
+Millwall	ORG
+Burnley	ORG
+Notts County	ORG
+York	ORG
+Shrewsbury	ORG
+Brentford3	ORG
+Walsall	ORG
+Wrexham	ORG
+Brighton	ORG
+Scunthorpe	ORG
+Cambridge United	ORG
+Cardiff	ORG
+Colchester	ORG
+Hereford	ORG
+Doncaster	ORG
+Darlington	ORG
+Fulham	ORG
+Carlisle	ORG
+Hull	ORG
+Barnet	ORG
+Leyton Orient	ORG
+Hartlepool	ORG
+Mansfield	ORG
+Rochdale	ORG
+Scarborough	ORG
+Northampton	ORG
+Torquay	ORG
+Wigan	ORG
+Chester	ORG
+ENGLISH COUNTY CHAMPIONSHIP	MISC
+English	MISC
+Portsmouth	LOC
+Middlesex	ORG
+Hampshire	ORG
+A. Fraser	PER
+P. Tufnell	PER
+Middlesex	ORG
+Hampshire	ORG
+Chester-le-Street	LOC
+Glamorgan	ORG
+Durham	ORG
+Glamorgan	ORG
+Durham	ORG
+Chesterfield	LOC
+Derbyshire	ORG
+Worcestershire	ORG
+S. Rhodes	PER
+P. DeFreitas	PER
+Derbyshire	ORG
+Derbyshire	ORG
+Worcestershire	ORG
+The Oval	LOC
+London	LOC
+Surrey	ORG
+Warwickshire	ORG
+J. Benjamin	PER
+M. Bicknell	PER
+Surrey	ORG
+C. Lewis	PER
+M. Butcher	PER
+G. Kersey	PER
+J. Ratcliffe	PER
+D. Bicknell	PER
+Surrey	ORG
+Warwickshire	ORG
+Headingley	LOC
+Leeds	LOC
+Yorkshire	ORG
+R. Kettleborough	PER
+G. Hamilton	PER
+P. Such	PER
+Hove	LOC
+Sussex	ORG
+Tunbridge Wells	LOC
+Nottinghamshire	ORG
+Kent	ORG
+C. Hooper	PER
+C. Tolley	PER
+K. Evans	PER
+Bristol	LOC
+Gloucestershire	ORG
+J. Russell	PER
+Northamptonshire	ORG
+VANCOUVER	LOC
+INDYCAR	MISC
+Vancouver	LOC
+IndyCar	MISC
+Alex Zanardi	PER
+Italy	LOC
+Reynard Honda	ORG
+Michael Andretti	PER
+U.S.	LOC
+Lola Ford Cosworth	ORG
+Bobby Rahal	PER
+U.S.	LOC
+Reynard Mercedes-Benz	ORG
+Bryan Herta	PER
+U.S.	LOC
+Reynard Mercedes-Benz	ORG
+Jimmy Vasser	PER
+U.S.	LOC
+Reynard Honda	ORG
+Paul Tracy	PER
+Canada	LOC
+Penske Mercedes-Benz	ORG
+Al Unser	PER
+U.S.	LOC
+Penske Mercedes-Benz	ORG
+Andre Ribeiro	PER
+Brazil	LOC
+Lola Honda	ORG
+Mauricio Gugelmin	PER
+Brazil	LOC
+Reynard Ford Cosworth	ORG
+Gil de Ferran	PER
+Brazil	LOC
+Reynard Honda	ORG
+CANADA	LOC
+PANAMA	LOC
+WORLD CUP	MISC
+Canada	LOC
+Panama	LOC
+CONCACAF	ORG
+World Cup	MISC
+Canada	LOC
+Aunger	PER
+Paul Peschisolido	PER
+Carlo Corrazin	PER
+Panama	LOC
+Jorge Luis Dely Valdes	PER
+RUGBY UNION	ORG
+SPRINGBOKS	ORG
+ALL BLACK	ORG
+South Africa	LOC
+All Blacks	ORG
+Ellis Park	LOC
+New Zealand	LOC
+New Zealand	LOC
+All Black	ORG
+South African	MISC
+Springbok	ORG
+Joost van der Westhuizen	PER
+Andre Venter	PER
+Andre Joubert	PER
+All Blacks	ORG
+Walter Little	PER
+Justin Marshall	PER
+Andrew Mehrtens	PER
+Henry Honiball	PER
+Springboks	ORG
+Andrew Mehrtens	PER
+Mehrtens	PER
+Springboks	ORG
+Joubert	PER
+Pieter Hendriks	PER
+Joubert	PER
+Welsh	MISC
+Derek Bevan	PER
+Van der Westhuizen	PER
+Honiball	PER
+Joubert	PER
+All Black	ORG
+Sean Fitzpatrick	PER
+Joubert	PER
+Springboks	ORG
+Van der Westhuizen	PER
+All Black	ORG
+Venter	PER
+Joubert	PER
+Springboks	ORG
+All Blacks	ORG
+Walter Little	PER
+Mehrtens	PER
+Justin Marshall	PER
+South Africa	LOC
+Andre Joubert	PER
+Justin Swart	PER
+Japie Mulder	PER
+Joel Stransky	PER
+Danie van Schalkwyk	PER
+Pieter Hendriks	PER
+Henry Honiball	PER
+Joost van der Westhuizen	PER
+Gary Teichmann	PER
+Andre Venter	PER
+Wayne Fyvie	PER
+Ruben Kruge	PER
+Mark Andrews	PER
+Fritz van Heerden	PER
+Kobus Wiese	PER
+Marius Hurter	PER
+James Dalton	PER
+Dawie Theron	PER
+Garry Pagel	PER
+New Zealand	LOC
+Christian Cullen	PER
+Alama Ieremia	PER
+Jeff Wilson	PER
+Walter Little	PER
+Frank Bunce	PER
+Glen Osborne	PER
+Andrew Mehrtens	PER
+Justin Marshall	PER
+Zinzan Brooke	PER
+Josh Kronfeld	PER
+Michael Jones	PER
+Glenn Taylor	PER
+Robin Brooke	PER
+Ian Jones	PER
+Olo Brown	PER
+Sean Fitzpatrick	PER
+RUGBY UNION	ORG
+SOUTH AFRICA	LOC
+ALL BLACKS	ORG
+South Africa	LOC
+New Zealand	LOC
+Ellis Park	LOC
+South Africa	LOC
+Joost van der Westhuizen	PER
+Henry Honiball	PER
+Honiball	PER
+New Zealand	LOC
+Sean Fitzpatrick	PER
+Walter Little	PER
+Justin Marshall	PER
+Andrew Mehrtens	PER
+Mehrtens	PER
+New Zealand	LOC
+MAURITANIA	LOC
+CUP	MISC
+Mauritania	LOC
+African Nations ' Cup	MISC
+Mauritania	LOC
+Mohamed Lemine Cheiguer	PER
+North Africans	MISC
+Benin	LOC
+MAURITANIA	LOC
+BENIN	LOC
+AFRICAN NATIONS CUP	MISC
+Mauritania	LOC
+Benin	LOC
+African Nations Cup	MISC
+Benin	LOC
+MAJOR LEAGUE	MISC
+Major League	MISC
+DETROIT	ORG
+Minnesota	ORG
+MILWAUKEE	ORG
+CALIFORNIA	ORG
+New York	ORG
+SEATTLE	ORG
+Baltimore	ORG
+San Diego	ORG
+NEW YORK	ORG
+Chicago	ORG
+HOUSTON	ORG
+Cincinnati	ORG
+COLORADO	ORG
+Atlanta	ORG
+PITTSBURGH	ORG
+Los Angeles	ORG
+MONTREAL	ORG
+Florida	ORG
+ST LOUIS	ORG
+YUGOSLAV	MISC
+Yugoslav	MISC
+Hajduk	ORG
+Proleter ( Z )	ORG
+Zemun	ORG
+Rad	ORG
+Borac	ORG
+Mladost ( L )	ORG
+Cukaricki	ORG
+Vojvodina	ORG
+Buducnost	ORG
+Red Star	ORG
+Partizan	ORG
+Becej	ORG
+Sloboda	ORG
+Mladost ( BJ )	ORG
+Buducnost ( V )	ORG
+OFK Beograd	ORG
+Rudar	ORG
+Obilic	ORG
+Sutjeska	ORG
+Loznica	ORG
+Radnicki ( N )	ORG
+Spartak	ORG
+INCE	PER
+GASCOIGNE	PER
+CHISINAU	LOC
+Moldova	LOC
+England	LOC
+Paul Gascoigne	PER
+Paul Ince	PER
+Moldova	LOC
+Ince	PER
+Republican	MISC
+Chisinau	LOC
+Glenn Hoddle	PER
+England	LOC
+Gascoigne	PER
+Inter Milan	ORG
+Hoddle	PER
+England	LOC
+Moldova	LOC
+World Cup	MISC
+TROFEJ BEOGRAD TOURNAMENT	MISC
+Trofej Beograd 96	MISC
+Benetton	ORG
+Italy	LOC
+Dinamo	ORG
+Russia	LOC
+Alba	ORG
+Germany	LOC
+Red Star	ORG
+Yugoslavia	LOC
+TROFEJ BEOGRAD TOURNAMENT	MISC
+Trofej Beograd 96	MISC
+Benetton	ORG
+Italy	LOC
+Dinamo	ORG
+Russia	LOC
+Alba	ORG
+Germany	LOC
+Red Star	ORG
+Yugoslavia	LOC
+ROMANIA	LOC
+LITHUANIA	LOC
+WORLD CUP	MISC
+Romania	LOC
+Lithuania	LOC
+World Cup	MISC
+European	MISC
+Romania	LOC
+Viorel Moldovan	PER
+Dan Petrescu	PER
+ARMENIA	LOC
+PORTUGAL	LOC
+WORLD CUP	MISC
+Armenia	LOC
+Portugal	LOC
+World Cup	MISC
+European	MISC
+AZERBAIJAN	LOC
+SWITZERLAND	LOC
+WORLD CUP	MISC
+Azerbaijan	LOC
+Switzerland	LOC
+World Cup	MISC
+European	MISC
+BENETTON	ORG
+DINAMO	ORG
+Benetton	ORG
+Italy	LOC
+Dinamo	ORG
+Russia	LOC
+Trofej Beograd 96	MISC
+SWEDEN	LOC
+LATVIA	LOC
+EUROPEAN	MISC
+Sweden	LOC
+Latvia	LOC
+European	MISC
+Joakim Persson	PER
+Daniel Andersson	PER
+BELARUS	LOC
+ESTONIA	LOC
+WORLD CUP	MISC
+Belarus	LOC
+Estonia	LOC
+World Cup	MISC
+European	MISC
+Vladimir Makovsky	PER
+TARANGO	PER
+O'BRIEN	PER
+Andre Agassi	PER
+Wimbledon	MISC
+MaliVai Washington	PER
+Marcelo Rios	PER
+U.S. Open	MISC
+Washington	PER
+Wimbledon	MISC
+Alex O'Brien	PER
+Rios	PER
+Wimbledon	MISC
+Jeff Tarango	PER
+Chilean	MISC
+Agassi	PER
+India	LOC
+Leander Paes	PER
+Washington	PER
+Todd Martin	PER
+Wimbledon	MISC
+O'Brien	PER
+New Haven	LOC
+Washington	PER
+O'Brien	PER
+O'Brien	PER
+U.S.	LOC
+Washington	PER
+Washington	PER
+O'Brien	PER
+Texan	MISC
+Washington	PER
+Washington	PER
+Tarango	PER
+Wimbledon	MISC
+All-England Club	ORG
+Rios	PER
+Chilean	MISC
+American	MISC
+Tarango	PER
+American	MISC
+Tarango	PER
+Rios	PER
+Tarango	PER
+Rios	PER
+American	MISC
+Tarango	PER
+Rios	PER
+Tarango	PER
+ENGLAND	LOC
+MOLDOVA	LOC
+England	LOC
+Moldova	LOC
+European	MISC
+Bruce Dyer	PER
+Darren Eadie	PER
+HILL	PER
+JANSHER	PER
+Australian	MISC
+Anthony Hill	PER
+Jansher Khan	PER
+Hong Kong Open	MISC
+Hill	PER
+Jansher	PER
+Hill	PER
+Pakistani	MISC
+Hill	PER
+Hill	PER
+Jansher	PER
+Australian	MISC
+Jansher	PER
+Jansher	PER
+Professional Squash Association	ORG
+Jansher	PER
+Hong Kong Open	MISC
+Australian	MISC
+Rodney Eyles	PER
+Eyles	PER
+Peter Nicol	PER
+Scotland	LOC
+Eyles	PER
+Jansher	PER
+Portuguese Open	MISC
+Jansher	PER
+Eyles	PER
+Jansher	PER
+HONG KONG OPEN	MISC
+Hong Kong Open	MISC
+Jansher Khan	PER
+Pakistan	LOC
+Anthony Hill	PER
+Australia	LOC
+Rodney Eyles	PER
+Australia	LOC
+Peter Nicol	PER
+Scotland	LOC
+PARNEVIK	PER
+GREATER MILWAUKEE OPEN	MISC
+MILWAUKEE	LOC
+Wisconsin	LOC
+Jesper Parnevik	PER
+Sweden	LOC
+Parnevik	PER
+PGA Tour	MISC
+Parnevik	PER
+Loren Roberts	PER
+Brown Deer Park Golf Course	LOC
+Greg Kraft	PER
+Nolan Henke	PER
+PGA Tour	MISC
+Tiger Woods	PER
+Woods	PER
+U.S. Amateur Championship	MISC
+Parnevik	PER
+Swede	MISC
+Parnevik	PER
+Parnevik	PER
+Henke	PER
+Henke	PER
+Jasper	PER
+Bob Estes	PER
+Steve Stricker	PER
+World Series of Golf	MISC
+Stuart Appleby	PER
+Duffy Waldorf	PER
+World Series of Golf	MISC
+Kraft	PER
+PGA Tour	MISC
+SPAIN	LOC
+U.S.	LOC
+1997 FED CUP	MISC
+Fed Cup	MISC
+Spain	LOC
+United States	LOC
+U.S. Open	MISC
+Spain	LOC
+Belgium	LOC
+U.S.	LOC
+Netherlands	LOC
+Germany	LOC
+Czech Republic	LOC
+France	LOC
+Japan	LOC
+Americans	MISC
+Spain	LOC
+Atlantic City	LOC
+Cup	MISC
+U.S.	LOC
+Billie Jean King	PER
+United States	LOC
+Austria	LOC
+Salzburg	LOC
+Japan	LOC
+Nagoya	LOC
+Japan	LOC
+Fed Cup	MISC
+Monica Seles	PER
+U.S.	LOC
+Seles	PER
+King	PER
+Monica	PER
+King	PER
+Seles	PER
+Fed Cup	MISC
+Mary Joe Fernandez	PER
+King	PER
+Fernandez	PER
+U.S. Open	MISC
+King	PER
+Seles	PER
+Olympic	MISC
+Lindsay	PER
+Davenport	PER
+Mary Joe Fernandez	PER
+King	PER
+Spain	LOC
+Arantxa Sanchez Vicario	PER
+Conchita Martinez	PER
+King	PER
+U.S. OPEN	MISC
+U.S. Open Tennis Championships	MISC
+National Tennis Centre	LOC
+Steffi Graf	PER
+Germany	LOC
+Natasha Zvereva	PER
+Belarus	LOC
+Martina Hingis	PER
+Switzerland	LOC
+Naoko Kijimuta	PER
+Japan	LOC
+Judith Wiesner	PER
+Austria	LOC
+Petra Langrova	PER
+Czech Republic	LOC
+Thomas Enqvist	PER
+Sweden	LOC
+Pablo Campana	PER
+Ecuador	LOC
+1997 FED CUP	MISC
+1997 Fed Cup	MISC
+U.S. Open	MISC
+United States	LOC
+Netherlands	LOC
+Czech Republic	LOC
+Germany	LOC
+France	LOC
+Japan	LOC
+Spain	LOC
+Belgium	LOC
+Austria	LOC
+Croatia	LOC
+Switzerland	LOC
+Slovak Republic	LOC
+Argentina	LOC
+South Korea	LOC
+Australia	LOC
+South Africa	LOC
+U.S.	LOC
+EL SALVADOR	LOC
+United States	LOC
+El Salvador	LOC
+U.S.	LOC
+Joe-Max Moore	PER
+Eric Wynalda	PER
+El Salvador	LOC
+Luis Lazo	PER
+MAJOR LEAGUE	MISC
+KANSAS CITY	ORG
+DETROIT	LOC
+BALTIMORE	ORG
+SEATTLE	LOC
+CHICAGO	ORG
+TORONTO	LOC
+MINNESOTA	ORG
+MILWAUKEE	LOC
+CLEVELAND	ORG
+TEXAS	LOC
+BOSTON	ORG
+OAKLAND	LOC
+NEW YORK	ORG
+CALIFORNIA	LOC
+ATLANTA	ORG
+CHICAGO	LOC
+HOUSTON	ORG
+PITTSBURGH	LOC
+SAN FRANCISCO	ORG
+NEW YORK	LOC
+FLORIDA	ORG
+CINCINNATI	LOC
+LOS ANGELES	ORG
+PHILADELPHIA	LOC
+SAN DIEGO	ORG
+MONTREAL	LOC
+COLORADO	ORG
+ST LOUIS	LOC
+MAJOR LEAGUE	MISC
+Major League	MISC
+DETROIT	ORG
+Chicago	ORG
+TORONTO	ORG
+MILWAUKEE	ORG
+Minnesota	ORG
+TEXAS	ORG
+Cleveland	ORG
+New York	ORG
+CALIFORNIA	ORG
+OAKLAND	ORG
+Boston	ORG
+Baltimore	ORG
+SEATTLE	ORG
+CHICAGO	ORG
+Atlanta	ORG
+Atlanta	ORG
+CHICAGO	ORG
+Florida	ORG
+CINCINNATI	ORG
+MONTREAL	ORG
+Los Angeles	ORG
+PHILADELPHIA	ORG
+Houston	ORG
+PITTSBURGH	ORG
+San Francisco	ORG
+NEW YORK	ORG
+ST LOUIS	ORG
+Colorado	ORG
+NFL	ORG
+AMERICAN FOOTBALL-RANDALL	MISC
+CUNNINGHAM	PER
+Randall Cunningham	PER
+National Football League	ORG
+Cunningham	PER
+Philadelphia Eagles	ORG
+Pro Bowl	MISC
+Cunningham	PER
+Eagles	ORG
+Philadelphia	ORG
+Cunningham	PER
+Randall	PER
+NFL	ORG
+Eagles	ORG
+Jeffrey Lurie	PER
+Philadelphia	LOC
+Randall	PER
+Eagles	ORG
+Philadelphia	LOC
+Cunningham	PER
+Cunningham	PER
+KEVIN BROWN	PER
+ERA	MISC
+MARLINS	ORG
+REDS	ORG
+ERA	MISC
+Kevin Brown	PER
+Devon White	PER
+RBI	MISC
+Florida Marlins	ORG
+Cincinnati Reds	ORG
+Brown	PER
+Todd Stottlemyre	PER
+Cardinals	ORG
+National League	MISC
+Brown	PER
+Reds	ORG
+Bolesy	PER
+Florida	ORG
+John Boles	PER
+Brown	PER
+Reds	ORG
+Ray Knight	PER
+Nolan Ryan	PER
+( Tom ) Seaver	PER
+( Jerry ) Koosman	PER
+Philadelphia	LOC
+Delino DeShields	PER
+Jeff Parrett	PER
+Chad Curtis	PER
+Los Angeles Dodgers	ORG
+Phillies	ORG
+Los Angeles	ORG
+Darren Dreifort	PER
+Todd Worrell	PER
+Phillies	ORG
+Billy Ashley	PER
+Los Angeles	ORG
+Chicago	LOC
+Braves	ORG
+Cubs	ORG
+Ryne Sandberg	PER
+Kevin Foster	PER
+Atlanta	ORG
+Tom Glavine	PER
+Foster	PER
+Braves	ORG
+Chipper Jones	PER
+Andruw Jones	PER
+Cubs	ORG
+Jose Hernandez	PER
+Chicago	LOC
+Mike Mordecai	PER
+Atlanta	LOC
+Montreal	LOC
+Scott Sanders	PER
+Wally Joyner	PER
+San Diego Padres	ORG
+Expos	ORG
+Sanders	PER
+David Segui	PER
+Mike Oquist	PER
+Montreal	LOC
+Montreal	LOC
+New York	LOC
+Marvin Benard	PER
+Shawn Estes	PER
+San Francisco Giants	ORG
+Mets	ORG
+Benard	PER
+Mets	ORG
+Pete Harnisch	PER
+Giants	ORG
+Estes	PER
+Rod Beck	PER
+Beck	PER
+Alvaro Espinoza	PER
+RBI	MISC
+Brent Mayne	PER
+Mets	ORG
+Bobby Valentine	PER
+St Louis	LOC
+Tom Pagnozzi	PER
+RBI	MISC
+Alan Benes	PER
+Cardinals	ORG
+Colorado Rockies	ORG
+Benes	PER
+St Louis	ORG
+Colorado	ORG
+Ray Lankford	PER
+Cardinals	ORG
+Eric Anthony	PER
+Rockies	ORG
+Pittsburgh	LOC
+Sean Berry	PER
+RBI	MISC
+Donne Wall	PER
+Houston Astros	ORG
+Pirates	ORG
+Berry	PER
+RBI	MISC
+Wall	PER
+EDBERG	PER
+Stefan Edberg	PER
+U.S. Open	MISC
+Bernd Karbacher	PER
+Open	MISC
+Karbacher	PER
+German	MISC
+National Tennis Centre	LOC
+Edberg	PER
+Grand Slam	MISC
+Karbacher	PER
+Ivan Lendl	PER
+Grand Slam	MISC
+Edberg	PER
+Karbacher	PER
+Edberg	PER
+Edberg	PER
+Swede	MISC
+Karbacher	PER
+Edberg	PER
+Wimbledon	MISC
+Richard Krajicek	PER
+Edberg	PER
+Edberg	PER
+Edberg	PER
+Edberg	PER
+Edberg	PER
+Krajicek	PER
+Dutch	MISC
+Paul Haarhuis	PER
+Edberg	PER
+NASEEM	PER
+Britain	LOC
+Naseem Hamed	PER
+WBO	ORG
+Mexico	LOC
+Manuel Medina	PER
+AUSTRIA	LOC
+SCOTLAND	LOC
+WORLD CUP	MISC
+Austria	LOC
+World Cup	MISC
+Scotland	LOC
+Scotland	LOC
+Belarus	LOC
+Austria	LOC
+Stephan Marasek	PER
+SC Freiburg	ORG
+Scottish	MISC
+Markus Schopp	PER
+Everton	ORG
+Duncan Ferguson	PER
+Scotland	LOC
+Austrian	MISC
+Michael Konsel	PER
+Scotland	LOC
+Gary McAllister	PER
+Andreas Heraf	PER
+Ferguson	PER
+Scottish	MISC
+Craig Brown	PER
+Austrian	MISC
+SK Rapid	ORG
+Dietmar Kuehbauer	PER
+Austrian	MISC
+Herbert Prohaska	PER
+Austria	LOC
+Michael Konsel	PER
+Markus Schopp	PER
+Peter Schoettel	PER
+Anton Pfeffer	PER
+Wolfgang Feiersinger	PER
+Stephan Marasek	PER
+Dieter Ramusch	PER
+Andreas Ogris	PER
+Dietmar Kuehbauer	PER
+Anton Polster	PER
+Herfried Sabitzer	PER
+Andreas Herzog	PER
+Andreas Heraf	PER
+Scotland	LOC
+Andrew Goram	PER
+Craig Burley	PER
+Thomas Boyd	PER
+Colin Calderwood	PER
+Colin Hendry	PER
+Thomas McKinley	PER
+Duncan Ferguson	PER
+Stuart McCall	PER
+Alistair McCoist	PER
+Gordon Durie	PER
+Gary McAllister	PER
+John Collins	PER
+JOHNSON	PER
+American	MISC
+Tom Johnson	PER
+IBF	ORG
+Venezuela	LOC
+Ramon Guzman	PER
+FRANCE	LOC
+WORLD CUP	MISC
+Euro 96	MISC
+Nicolas Ouedec	PER
+Youri Djorkaeff	PER
+World Cup	MISC
+France	LOC
+Mexico	LOC
+France	LOC
+Aime Jacquet	PER
+Euro 96	MISC
+Chelsea	ORG
+Franck Leboeuf	PER
+Leboeuf	PER
+Mexican	MISC
+Ricardo Pelaez	PER
+Chelsea	ORG
+France	LOC
+Mexicans	MISC
+France	LOC
+Juventus	ORG
+Zinedine Zidane	PER
+Djorkaeff	PER
+Ouedec	PER
+Espanyol	ORG
+Barcelona	LOC
+Nantes	ORG
+European	MISC
+Joaquin del Olmo	PER
+Ouedec	PER
+Djorkaeff	PER
+Internazionale Milan	ORG
+Osvaldo Sanchez	PER
+Jacquet	PER
+France	LOC
+World Cup	MISC
+France	LOC
+Bernard Lama	PER
+Lilian Thuram	PER
+Sabri Lamouchi	PER
+Laurent Blanc	PER
+Marcel Desailly	PER
+Franck Leboeuf	PER
+Bixente Lizarazu	PER
+Christian Karembeu	PER
+Didier Deschamps	PER
+Youri Djorkaeff	PER
+Reynald Pedros	PER
+Robert Pires	PER
+Florian Maurice	PER
+Patrice Loko	PER
+Zinedine Zidane	PER
+Mexico	LOC
+Osvaldo Sanchez	PER
+Alfonso Rios	PER
+Pavel Pardo	PER
+Claudio Suarez	PER
+Duilio Davino	PER
+Becerril	PER
+German Villa	PER
+Gomez	PER
+Joaquin del Olmo	PER
+Raul Rodrigo Lara	PER
+Cuauhtemoc Blanco	PER
+Alberto Garcia Aspe	PER
+Ramon Ramirez	PER
+Jesus Arellano	PER
+Enrique Alfaro	PER
+Francisco Palencia	PER
+Luis Garcia	PER
+Ricardo Pelaez	PER
+FRANCE	LOC
+MEXICO	LOC
+France	LOC
+Mexico	LOC
+Nicolas Ouedec	PER
+Youri Djorkaeff	PER
+BELGIUM	LOC
+TURKEY	LOC
+Belgium	LOC
+1998 World Cup	MISC
+Turkey	LOC
+Turkish	MISC
+Turkish	MISC
+Sergen Yalcin	PER
+Turkish	MISC
+Belgian	MISC
+Filip De Wilde	PER
+Yalcin	PER
+English	MISC
+David Elleray	PER
+Marc Degryse	PER
+Belgium	LOC
+Dirk Medved	PER
+Luis Oliveira	PER
+Rustu Recber	PER
+Turkey	LOC
+Ogun Temizkanoglu	PER
+De Wilde	PER
+Euro 96	MISC
+De Wilde	PER
+France	LOC
+Belgium	LOC
+De Wilde	PER
+Arif Erdem	PER
+Orhan Cikirikci	PER
+Belgium	LOC
+Degryse	PER
+Recber	PER
+Belgium	LOC
+Filip De Wilde	PER
+Bertrand Crasson	PER
+Dirk Medved	PER
+Pascal Renier	PER
+Geoffrey Claeys	PER
+Gunther Schepens	PER
+Nico Van Kerckhoven	PER
+Enzo Scifo	PER
+Gert Verheyen	PER
+Frederic Peiremans	PER
+Marc Degryse	PER
+Luc Nilis	PER
+Luis Oliveira	PER
+Gilles De Bilde	PER
+Turkey	LOC
+Rustu Recber	PER
+Hakan Unsal	PER
+Sergen Yalcin	PER
+Recep Cetin	PER
+Ogun Temizkanoglu	PER
+Alpay Ozalan	PER
+Abdullah Ercan	PER
+Tolunay Kafkas	PER
+Oguz Cetin	PER
+Arif Erdem	PER
+Tayfun Korkut	PER
+Hakan Sukur	PER
+Saffet Sancakli	PER
+Orhan Cikirikci	PER
+Belgian	MISC
+Wilfried Van Moer	PER
+Turkey	LOC
+Turkish	MISC
+Van Moer	PER
+Paul Van Himst	PER
+Belgium	LOC
+Van Moer	PER
+Russia	LOC
+Italy	LOC
+SPANISH	MISC
+Spanish	MISC
+division	MISC
+Deportivo Coruna	ORG
+Corentine Martins	PER
+Real Madrid	ORG
+Roberto Carlos	PER
+SPANISH	MISC
+Spanish	MISC
+division	MISC
+Deportivo Coruna	ORG
+Real Madrid	ORG
+GREATER MILWAUKEE OPEN	MISC
+MILWAUKEE	LOC
+Wisconsin	LOC
+Brown Deer Park Golf Course	LOC
+U.S.	LOC
+Billy Andrade	PER
+Duffy Waldorf	PER
+Jesper Parnevik	PER
+Sweden	LOC
+Neal Lancaster	PER
+Dave Barr	PER
+Canada	LOC
+Mike Sullivan	PER
+Willie	PER
+Wood	PER
+Loren Roberts	PER
+Steve Stricker	PER
+Brian Claar	PER
+Russ Cochran	PER
+Mark Calcavecchia	PER
+Payne Stewart	PER
+Billy Mayfair	PER
+Ken	PER
+Green	PER
+Jerry Kelly	PER
+Tim Simpson	PER
+Olin Browne	PER
+Shane Bortsch	PER
+Mike Hulbert	PER
+Brian Henninger	PER
+Tiger Woods	PER
+Steve Jurgenson	PER
+BELGIUM	LOC
+TURKEY	LOC
+WORLD CUP	MISC
+Belgium	LOC
+Turkey	LOC
+World Cup	MISC
+Belgium	LOC
+Marc Degryse	PER
+Turkey	LOC
+Sergen Yalcin	PER
+AUSTRIA	LOC
+SCOTLAND	LOC
+WORLD CUP	MISC
+Austria	LOC
+Scotland	LOC
+World Cup	MISC
+European	MISC
+MILLER	PER
+Nate Miller	PER
+American	MISC
+James Heath	PER
+WBA	ORG
+Miller	PER
+Heath	PER
+Miller	PER
+Miller	PER
+DUTCH	MISC
+BRAZIL	LOC
+The Netherlands	LOC
+Brazil	LOC
+Netherlands	LOC
+Ronald de Boer	PER
+Van Gastel	PER
+Brazil	LOC
+Giovanni	PER
+MILLER	PER
+WBA	ORG
+American	MISC
+Nate Miller	PER
+WBA	ORG
+James Heath	PER
+TATTERSALLS BREEDERS	MISC
+Tattersalls Breeders	MISC
+Stakes	MISC
+The Curragh	LOC
+Miss Stamper	PER
+David Harrison	PER
+Paddy Lad	PER
+Peter Bloomfield	PER
+Pelham	PER
+Warren O'Connor	PER
+John	PER
+Beryll Remblance	PER
+Britain	LOC
+Richard Hannon	PER
+KLINSMANN	PER
+1998 WORLD CUP	MISC
+German	MISC
+Juergen Klinsmann	PER
+World Cup	MISC
+France	LOC
+Sueddeutsche Zeitung	ORG
+Klinsmann	PER
+Germany	LOC
+France	LOC
+European	MISC
+England	LOC
+Berti Vogts	PER
+Poland	LOC
+Germany	LOC
+Euro 96	MISC
+GERMAN CUP	MISC
+German Cup	MISC
+Karlsruhe	ORG
+Hansa Rostock	ORG
+Borussia Neunkirchen	ORG
+St Pauli	ORG
+Duisburg	ORG
+Luebeck	ORG
+ROMANIA	LOC
+LITHUANIA	LOC
+Romania	LOC
+Lithuania	LOC
+European	MISC
+Romania	LOC
+Cosmin Contra	PER
+Lithuania	LOC
+Danius Gleveckas	PER
+Thatcher	PER
+British	MISC
+Margaret Thatcher	PER
+IRA	ORG
+The Sunday Telegraph	ORG
+Majorie Orr	PER
+Thatcher	PER
+Libran	MISC
+Irish	MISC
+Conservative Party	ORG
+Orr	PER
+Thatcher	PER
+Bernard Ingram	PER
+Bernard Ingham	PER
+Orr	PER
+Orr	PER
+Ingram	PER
+Orr	PER
+Thatcher	PER
+Thatcher	PER
+Iron Lady	PER
+U.S.	LOC
+Ronald Reagan	PER
+Nancy	PER
+My Turn	MISC
+HENKE	PER
+MILWAUKEE	LOC
+WOODS	PER
+MILWAUKEE	LOC
+Wisconsin	LOC
+Nolan Henke	PER
+Greater Milwaukee Open	MISC
+Tiger Woods	PER
+Henke	PER
+Bob Estes	PER
+Billy Andrade	PER
+Duffy Waldorf	PER
+Jesper Parnevik	PER
+Woods	PER
+U.S. Amateur Championship	MISC
+Woods	PER
+Henke	PER
+Henke	PER
+Andrew Magee	PER
+PGA Tour	MISC
+BellSouth Classic	MISC
+Estes	PER
+Texas Open	MISC
+Nortel Open	MISC
+Woods	PER
+Billy Mayfair	PER
+World Series of Golf	MISC
+U.S. Open	MISC
+Payne Stewart	PER
+Scott Hoch	PER
+PGA Tour	MISC
+World Series of Golf	MISC
+Mark Brooks	PER
+Tom Lehman	PER
+Mark O'Meara	PER
+Reuters	ORG
+Elizabeth I	PER
+Henry VIII	PER
+Anne Boleyn	PER
+England	LOC
+English	MISC
+Europe	LOC
+French	MISC
+Orleans	LOC
+Turin	LOC
+Austrians	MISC
+Eugene	ORG
+French	MISC
+Italy	LOC
+Treaty of Baden	MISC
+Roman	MISC
+Charles VI	PER
+France	LOC
+War of Spanish Succession	MISC
+Charles	PER
+Alsace	LOC
+Strasbourg	LOC
+France	LOC
+Breisach	LOC
+Kehl	LOC
+Freiburg	LOC
+Russian	MISC
+Kutuzov	PER
+Napoleon	PER
+Borodino	LOC
+Moscow	LOC
+Napoleon	PER
+Moscow	LOC
+Brazil	LOC
+Portugal	LOC
+Pedro I	PER
+Brazil	LOC
+Scottish	MISC
+Henry Campbell-Bannerman	PER
+Liberal	MISC
+Transvaal	LOC
+House of Lords	ORG
+Trades Disputes Act	MISC
+Giuseppe Garibaldi	PER
+Red Shirts	MISC
+Naples	LOC
+Italian	MISC
+Austrians	MISC
+China	LOC
+Boxer Rising	MISC
+Peking Protocol	MISC
+Boxer	MISC
+Elia Kazan	PER
+Elia Kazanjoglus	PER
+U.S.	LOC
+Viva Zapata	MISC
+On the Waterfront	MISC
+Anthony Quayle	PER
+British	MISC
+Ice Cold in Alex	MISC
+Lawrence of Arabia	MISC
+Wolsey	PER
+Anne of a Thousand Days	MISC
+James Alfred Van Allen	PER
+U.S.	LOC
+Belgian	MISC
+Baudouin I	PER
+Leopold III	PER
+World War Two	MISC
+German	MISC
+Hermann Goering	PER
+Blitz	MISC
+London	LOC
+Scottish	MISC
+Jackie Stewart	PER
+Italian Grand Prix	MISC
+Desmond Tutu	PER
+Cape Town	LOC
+South Africa	LOC
+South Africa	LOC
+Anglicans	MISC
+United States	LOC
+Saudi	MISC
+Kuwaiti	MISC
+Gulf	LOC
+Iraq	LOC
+British	MISC
+Alan John Percivale ( A.J.P. ) Taylor	PER
+Europe	LOC
+Europe	LOC
+Soviet	MISC
+Russia	LOC
+Belarus	LOC
+Kazakhstan	LOC
+Uzbekistan	LOC
+Armenia	LOC
+Tajikistan	LOC
+Russian	MISC
+Stars and Stripes	MISC
+U.S.	LOC
+Berlin	LOC
+American	MISC
+British	MISC
+British	MISC
+Worthing	LOC
+England	LOC
+Holland	PER
+London	LOC
+Holland	PER
+Britain	LOC
+Belgium	LOC
+Scottish Labour Party	ORG
+STIRLING	LOC
+Scotland	LOC
+British Labour Party	ORG
+Tony Blair	PER
+Scottish	MISC
+Scotland	LOC
+Blair	PER
+Scottish	MISC
+Labour	ORG
+Scots	MISC
+John Major	PER
+Scottish	MISC
+English	MISC
+Conservative Party	ORG
+Scottish	MISC
+Scotland	LOC
+Labour	ORG
+Scottish National Party	ORG
+Britain	LOC
+Iraq	LOC
+Arbil	LOC
+Britain	LOC
+Iraqi	MISC
+Kurdish	MISC
+Arbil	LOC
+Iraqi	MISC
+Iraqi	MISC
+Foreign Office	ORG
+U.N.	ORG
+Kurdish	MISC
+Iraqi	MISC
+Arbil	LOC
+Gulf War	MISC
+British	MISC
+John Major	PER
+Iraqi Kurds	MISC
+Iraqi	MISC
+U.S.	LOC
+French	MISC
+British	MISC
+Foreign Office	ORG
+Iraqis	MISC
+Iraqi	MISC
+Britain	LOC
+Sudanese	MISC
+Flight 150	MISC
+Khartoum	LOC
+Sudan	LOC
+Amman	LOC
+Jordan	LOC
+Stansted	LOC
+London	LOC
+Britain	LOC
+Iraq	LOC
+Britain	LOC
+English	MISC
+Iraqis	MISC
+Iraq	LOC
+Iraqi	MISC
+Iraqi	MISC
+Kurdish	MISC
+Arbil	LOC
+Iraq	LOC
+London-based	MISC
+Iraqi National Congress	ORG
+Iraqi	MISC
+Iraqi	MISC
+Arbil	LOC
+Kurdish	MISC
+Iraq	LOC
+Iraq	LOC
+GMT	MISC
+Iraqi	MISC
+Arbil	LOC
+Reuters	ORG
+Arbil	LOC
+Kurdish	MISC
+Bill Clinton	PER
+U.S.	LOC
+Washington	LOC
+Iraqi	MISC
+Iraq	LOC
+Iraq	LOC
+Iran	LOC
+Tehran	LOC
+Iraq	LOC
+Iraqi Kurdish	MISC
+Algeria	LOC
+Algiers	LOC
+Algerian	MISC
+British Broadcasting Corporation	ORG
+BBC	ORG
+Staouelli	LOC
+Algeria	LOC
+Islamic	MISC
+S. Korean	MISC
+South Korean	MISC
+OB	ORG
+Samsung	ORG
+Ssangbangwool	ORG
+Hyundai	ORG
+S. African	MISC
+Afrikaners	MISC
+South African	MISC
+Northern Cape	LOC
+Constand Viljoen	PER
+Freedom Front	ORG
+Pretoria	LOC
+Afrikaners	MISC
+Afrikaner	MISC
+South Africa	LOC
+Viljoen	PER
+Nelson Mandela	PER
+African National Congress	ORG
+Viljoen	PER
+South Africa	LOC
+Afrikaners	MISC
+Dutch	MISC
+German	MISC
+French	MISC
+Viljoen	PER
+Northern Cape	LOC
+Afrikaans	MISC
+Rwandan	MISC
+Rwandan	MISC
+Zaire	LOC
+Rally for the Return of Refugees and Democracy in Rwanda	ORG
+RDR	ORG
+U.N.	ORG
+RDR	ORG
+Rwandan	MISC
+Rwanda	LOC
+U.N.	ORG
+Zairean	MISC
+Goma	LOC
+Rwanda	LOC
+Zairean	MISC
+Kengo wa Dondo	PER
+Rwanda	LOC
+Zairean	MISC
+Rwandan	MISC
+Rwandan	MISC
+Zaire	LOC
+RDR	ORG
+Zairean	MISC
+Rwandan	MISC
+Hutu	MISC
+Zaire	LOC
+Tanzania	LOC
+Rwanda	LOC
+Hutus	MISC
+SILVA	PER
+FIFA	ORG
+Spanish	MISC
+Deportivo Coruna	ORG
+Mauro Silva	PER
+Real Madrid	ORG
+FIFA	ORG
+Brazilian	MISC
+European	MISC
+Silva	PER
+Brazil	LOC
+Russia	LOC
+Netherlands	LOC
+NATO	ORG
+Moslem	MISC
+MAHALA	LOC
+Bosnia	LOC
+NATO	ORG
+Moslem	MISC
+Mahala	LOC
+Bosnia	LOC
+Serb	MISC
+Serbs	MISC
+Moslem	MISC
+Mahala	LOC
+NATO	ORG
+Max Marriner	PER
+Sarajevo	LOC
+Marriner	PER
+NATO	ORG
+Tuzla	LOC
+Mahala	LOC
+Mahala	LOC
+Moslem	MISC
+Bosnian Serb	MISC
+Moslems	MISC
+Bosnian	MISC
+Moslems	MISC
+Moslems	MISC
+Serb	MISC
+NATO	ORG
+Reuters	ORG
+Mahala	LOC
+NATO	ORG
+U.N.	ORG
+NATO	ORG
+URUS-MARTAN	LOC
+Russia	LOC
+Chechens	MISC
+Urus-Martan	LOC
+Grozny	LOC
+Chechen	MISC
+Dzhokhar Dudayev	PER
+Russian	MISC
+Russian	MISC
+Alexander Lebed	PER
+Russian	MISC
+Chechnya	LOC
+mainly-Moslem	MISC
+North Caucasus	LOC
+Mubatik Dagayeva	PER
+Dudayeva	PER
+Urus-Martan	LOC
+Urus-Martan	LOC
+Chechnya	LOC
+Moscow-backed	MISC
+Doku Zavgayev	PER
+Russian	MISC
+Nurbika Mamatuyeva	PER
+God	PER
+Mamatuyev	PER
+Lisa	PER
+Chechen	MISC
+Allahu Akhbar	PER
+God	PER
+Chechnya	LOC
+Islamic	MISC
+Sheriat	MISC
+Islamic	MISC
+Polish	MISC
+Ruch	ORG
+Polish	MISC
+Bank Rozwoju Exportu SA	ORG
+BRE	ORG
+France	LOC
+Hachette	ORG
+Polish	MISC
+Ruch SA	ORG
+Zycie Warszawy	ORG
+Zycie Warszawy	ORG
+Multico	ORG
+Polish	MISC
+Zygmunt Solorz	PER
+BRE	ORG
+Ruch	ORG
+Ruch	ORG
+Warsaw	LOC
+division	MISC
+Ruch	ORG
+Hachette	ORG
+Polish	MISC
+UWP	ORG
+Ruch	ORG
+French	MISC
+Jacques Chirac	PER
+Poland	LOC
+Ruch	ORG
+Poland	LOC
+Zycie Warszawy	ORG
+Polish	MISC
+Wieslaw Kaczmarek	PER
+Ruch	ORG
+Ruch	ORG
+Poland	LOC
+Ruch	ORG
+Kaczmarek	PER
+UWP-Hachette	ORG
+Polish	MISC
+SPC	ORG
+Swiss	MISC
+Swiss	MISC
+SPC	ORG
+UWP-Hachette	ORG
+Kaczmarek	PER
+Ruch	ORG
+Russian	MISC
+Russian	MISC
+Moscow	LOC
+Interfax	ORG
+Sergiyev Posad	LOC
+Kalashnikov	MISC
+Russia	LOC
+Cuban	MISC
+Jose Soler Puig	PER
+Cuba	LOC
+Jose Soler Puig	PER
+Granma	ORG
+Puig	PER
+Bertillon 166	MISC
+Cuban	MISC
+Fidel Castro	PER
+Santiago de Cuba	LOC
+Puig	PER
+pre-Castro	MISC
+Fulgencio Batista	PER
+In the Year of January	MISC
+The Knot	MISC
+Soul Alone	MISC
+Granma	ORG
+Sleeping Bread	MISC
+Puig	PER
+America	LOC
+Prensa Latina	ORG
+Puig	PER
+U.N.	ORG
+Albright	PER
+Chile	LOC
+U.S.	LOC
+United Nations	ORG
+Madeleine Albright	PER
+Chile	LOC
+Security Council	ORG
+Chilean	MISC
+Latin American	MISC
+Albright	PER
+Jose Miguel Insulza	PER
+Chile	LOC
+U.S.	LOC
+United States	LOC
+Chile	LOC
+Albright	PER
+Uruguay	LOC
+Chile	LOC
+Bolivia	LOC
+Latin American	MISC
+Cochabamba	LOC
+Honduras	LOC
+Guatemala	LOC
+Mexican	MISC
+Michoacan	LOC
+Mexican	MISC
+Michoacan	LOC
+Radio Red	ORG
+Tacambaro	LOC
+Michoacan	LOC
+Morelia	LOC
+Gonzalo Montoya	PER
+Tacambaro	LOC
+Radio Red	ORG
+AK-47s	MISC
+Montoya	PER
+Popular Revolutionary Army	ORG
+EPR	ORG
+Mexican	MISC
+China	LOC
+Wang Donghai	PER
+China	LOC
+Xiao Qiang	PER
+New York-based	MISC
+Human Rights in China	ORG
+Wang	PER
+Strike Hard	MISC
+Communist Party	ORG
+Deng Xiaoping	PER
+Xiao	PER
+China	LOC
+Xiao	PER
+Manila	LOC
+Amnesty International	ORG
+China	LOC
+Wang	PER
+Xiao	PER
+China	LOC
+Wang	PER
+China	LOC
+Hangzhou	LOC
+Wang	PER
+Xiao	PER
+Wang	PER
+Wang	PER
+Chen Longde	PER
+Xiao	PER
+Manila	LOC
+Indonesia	LOC
+OIC	ORG
+Philippine	LOC
+Fidel Ramos	PER
+Indonesian	MISC
+Suharto	PER
+Organisation of Islamic Conference	ORG
+OIC	ORG
+Moslem	MISC
+Ramos	PER
+Suharto	PER
+Jakarta	LOC
+Manila	LOC
+Ramos	PER
+Philippine	LOC
+Mindanao	LOC
+Burma	LOC
+Suu Kyi	PER
+Burma	LOC
+Aung San Suu Kyi	PER
+Suu Kyi	PER
+Rangoon	LOC
+Suu Kyi	PER
+Suu Kyi	PER
+National League for Democracy	ORG
+NLD	ORG
+Burmese	MISC
+Suu Kyi	PER
+Win Htein	PER
+Suu Kyi	PER
+NLD	ORG
+Suu Kyi	PER
+Burma	LOC
+NLD	ORG
+NLD	ORG
+State Law and Order Restoration Council	ORG
+SLORC	ORG
+Suu Kyi	PER
+Rangoon	LOC
+Insein Prison	LOC
+Suu Kyi	PER
+Hla Than	PER
+NLD	ORG
+Insein	LOC
+James Leander ( Leo ) Nichols	PER
+Suu Kyi	PER
+Danish	MISC
+Insein	LOC
+Suu Kyi	PER
+NLD	ORG
+Burma	LOC
+Burma	LOC
+MITCHELL	PER
+BAILEY	PER
+American	MISC
+Dennis Mitchell	PER
+Olympic	MISC
+Donovan Bailey	PER
+post-Games	MISC
+Olympic	MISC
+Berlin	LOC
+Mitchell	PER
+Bailey	PER
+Bailey	PER
+Atlanta	LOC
+American	MISC
+Jamaica	LOC
+Michael Green	PER
+Bailey	PER
+Mitchell	PER
+Atlanta Games	MISC
+Olympic	MISC
+Bailey	PER
+Brussels	LOC
+Bailey	PER
+Zurich	LOC
+Berlin	LOC
+Brussels	LOC
+Zurich	LOC
+Golden Four	MISC
+Olympic	MISC
+Jesse Owens	PER
+Olympics	MISC
+Berlin	LOC
+Mitchell	PER
+American Olympic	MISC
+Gail Devers	PER
+Jamaican	MISC
+Merlene Ottey	PER
+Dow Chemical	ORG
+China	LOC
+Dow Chemical Co	ORG
+United States	LOC
+Tianjin	LOC
+China	LOC
+China Daily	ORG
+Tianjin	LOC
+Caltex Petroleum Corp	ORG
+Tianjin	LOC
+Mobil	ORG
+Shell	ORG
+Caltex	ORG
+Tianjin	LOC
+China	LOC
+N. Korea	LOC
+S. Korea	LOC
+North Korea	LOC
+South Korea	LOC
+South	LOC
+Seoul	LOC
+Kim In-so	PER
+North Korea	LOC
+North Korean Red Cross	ORG
+Li Song-ho	PER
+Kang Young-hoon	PER
+Li	PER
+Kim	PER
+South Korean	MISC
+Kim	PER
+Korean	MISC
+International Red Cross	ORG
+Yonhap	ORG
+South Korean	MISC
+North	LOC
+Seoul	LOC
+Korean	MISC
+South Korea	LOC
+Li In-mo	PER
+South	LOC
+Chinese	MISC
+Chinese	MISC
+Wang Donghai	PER
+New York-based	MISC
+Human Rights in China	ORG
+Hangzhou	LOC
+Zhejiang	LOC
+Wang	PER
+Wang	PER
+Wang	PER
+Wang	PER
+1966-76 Cultural Revolution	MISC
+Wang	PER
+Hangzhou	LOC
+Wang	PER
+China	LOC
+Cultural Revolution	MISC
+Wang	PER
+Democracy Wall	ORG
+Wang	PER
+Beijing	LOC
+Tiananmen Square	LOC
+Chinese	MISC
+Western	MISC
+China	LOC
+Wang Donghai	PER
+Chinese	MISC
+Wang Donghai	PER
+New York-based	MISC
+Human Rights in China	ORG
+Wang	PER
+Wang	PER
+China	LOC
+Wang	PER
+Wang	PER
+Democracy Wall	ORG
+Wang	PER
+Beijing	LOC
+Tiananmen Square	LOC
+Hong Kong	LOC
+Hong Kong	LOC
+Chen Chun-yeh	PER
+High Court	ORG
+Hong Kong Standard	ORG
+Chen	PER
+Chinese	MISC
+China	LOC
+Taiwan	LOC
+China	LOC
+Chinese	MISC
+China Daily	ORG
+Wuhan	LOC
+Hubei	LOC
+Wuhan	LOC
+Guangzhou	LOC
+Guangdong	LOC
+Guangzhou	LOC
+Iraqi Kurds	MISC
+Iranian	MISC
+Iraq	LOC
+Iranian	MISC
+Kurdish-controlled	MISC
+Iraq	LOC
+Baghdad	LOC
+Iraqi Kurdish	MISC
+Reuters	ORG
+Chuman	LOC
+Faik Nerweyi	PER
+Kurdistan Democratic Party	ORG
+KDP	ORG
+Reuters	ORG
+Ankara	LOC
+Nerweyi	PER
+Iranian	MISC
+Iraq	LOC
+KDP	ORG
+Iranian	MISC
+Nerweyi	PER
+U.N.	ORG
+Baghdad	LOC
+KDP	ORG
+Iraqi	MISC
+Iraqi	MISC
+Arbil	LOC
+U.S.	LOC
+Bill Clinton	PER
+U.S.	LOC
+Gulf	LOC
+Iraqi	MISC
+KDP	ORG
+Patriotic Union of Kurdistan	ORG
+Arbil	LOC
+Iran	LOC
+PUK	ORG
+KDP	ORG
+Baghdad	LOC
+Iraq	LOC
+Iraqi Kurdish	MISC
+U.S.-led	MISC
+Turkey	LOC
+Kurds	MISC
+Baghdad	LOC
+Lebanon	LOC
+Israel	LOC
+Hizbollah	ORG
+Lebanon	LOC
+Israeli	MISC
+Islamic	MISC
+Israeli	MISC
+Israel	LOC
+Lebanon	LOC
+Syria	LOC
+France	LOC
+United States	LOC
+GMT	MISC
+Naqoura	LOC
+U.N. Interim Force in Lebanon	ORG
+UNIFIL	ORG
+Israel	LOC
+Lebanese	MISC
+Hizbollah	ORG
+Sikhin	LOC
+Israeli	MISC
+Israel	LOC
+Israeli	MISC
+Lebanon	LOC
+Israeli	MISC
+Lebanon	LOC
+Jewish	MISC
+Hizbollah	ORG
+Party of God	ORG
+Israel	LOC
+KPD	ORG
+Iraqi	MISC
+aid-U.N.	MISC
+Kurdistan Democratic Party	ORG
+KDP	ORG
+Massoud Barzani	PER
+Iraqi	MISC
+Kurds	MISC
+Arbil	LOC
+U.N.	ORG
+Baghdad	LOC
+Iraqi	MISC
+Arbil	LOC
+KDP	ORG
+KDP	ORG
+Saladdin	LOC
+Reuters	ORG
+Bahraini	LOC
+Bahraini	LOC
+Shul'ala	LOC
+al-Daih	LOC
+Manama	LOC
+ASHES	MISC
+Australia	LOC
+Ashes	MISC
+England	LOC
+Test and County Cricket Board	ORG
+Australia	LOC
+English	MISC
+British Universities	ORG
+Minor Counties	ORG
+London	LOC
+Lord 's	LOC
+Duke of Norfolk 's XI	ORG
+Arundel	LOC
+Northampton	ORG
+Worcestershire	ORG
+Durham	ORG
+Headingley	LOC
+The Oval	LOC
+Lord 's	LOC
+London	LOC
+Gloucestershire	ORG
+Sussex	ORG
+Surrey	ORG
+Derbyshire	ORG
+Edgbaston	LOC
+Birmingham	LOC
+Leicestershire	ORG
+Lord 's	LOC
+British Universities	ORG
+Oxford	LOC
+Hampshire	ORG
+Old Trafford	LOC
+Manchester	LOC
+Minor Counties XI	ORG
+Scotland	LOC
+Glamorgan	ORG
+Middlesex	ORG
+Headingley	LOC
+Somerset	ORG
+Trent Bridge	LOC
+Nottingham	LOC
+Kent	ORG
+The Oval	LOC
+BERLIN GRAND PRIX	MISC
+Berlin	MISC
+Grand Prix	MISC
+Michelle Freeman	PER
+Jamaica	LOC
+Ludmila Engquist	PER
+Sweden	LOC
+Aliuska Lopez	PER
+Cuba	LOC
+Brigita Bokovec	PER
+Slovenia	LOC
+Dionne Rose	PER
+Jamaica	LOC
+Julie Baumann	PER
+Switzerland	LOC
+Gillian Russell	PER
+Jamaica	LOC
+Svetlana Masterkova	PER
+Russia	LOC
+Patricia Djate-Taillard	PER
+France	LOC
+Carla Sacramento	PER
+Portugal	LOC
+Yekaterina Podkopayeva	PER
+Russia	LOC
+Leah Pells	PER
+Canada	LOC
+Carmen Wuestenhagen	PER
+Germany	LOC
+Margarita Maruseva	PER
+Russia	LOC
+Sara Thorsett	PER
+U.S.	LOC
+Mark Crear	PER
+U.S.	LOC
+Tony Jarrett	PER
+Britain	LOC
+Florian Schwarthoff	PER
+Germany	LOC
+Emilio Valle	PER
+Cuba	LOC
+Falk Balzer	PER
+Germany	LOC
+Steve Brown	PER
+U.S.	LOC
+Frank Busemann	PER
+Germany	LOC
+Jack Pierce	PER
+U.S.	LOC
+Frankie Fredericks	PER
+Namibia	LOC
+Michael Johnson	PER
+U.S.	LOC
+Ato Boldon	PER
+Trinidad	LOC
+Geir Moen	PER
+Norway	LOC
+Patrick Stevens	PER
+Belgium	LOC
+Jon Drummond	PER
+U.S.	LOC
+Claus Hirsbro	PER
+Denmark	LOC
+Ivan Garcia	PER
+Cuba	LOC
+Astrid Kumbernuss	PER
+Germany	LOC
+Claudia Mues	PER
+Germany	LOC
+Irina Korzhanenko	PER
+Russia	LOC
+Valentina Fedyushina	PER
+Russia	LOC
+Stephanie Storp	PER
+Germany	LOC
+Noureddine Morceli	PER
+Algeria	LOC
+Venuste Niyongabo	PER
+Burundi	LOC
+William Tanui	PER
+Kenya	LOC
+Laban Rotich	PER
+Kenya	LOC
+Marko Koers	PER
+Netherlands	LOC
+Isaac Viciosa	PER
+Spain	LOC
+John Mayock	PER
+Britain	LOC
+Marcus O'Sullivan	PER
+Ireland	LOC
+Lars Riedel	PER
+Germany	LOC
+Anthony Washington	PER
+U.S.	LOC
+Vasily Kaptyukh	PER
+Belarus	LOC
+Vladimir Dubrovshchik	PER
+Belarus	LOC
+Virgilijus Alekna	PER
+Lithuania	LOC
+Juergen Schult	PER
+Germany	LOC
+Andreas Seelig	PER
+Germany	LOC
+Michael Moellenbeck	PER
+Germany	LOC
+Gail Devers	PER
+U.S.	LOC
+Merlene Ottey	PER
+Jamaica	LOC
+Gwen Torrence	PER
+U.S.	LOC
+Mary Onyali	PER
+Nigeria	LOC
+Chryste Gaines	PER
+U.S.	LOC
+Chandra Sturrup	PER
+Bahamas	LOC
+Irina Privalova	PER
+Russia	LOC
+Inger Miller	PER
+U.S.	LOC
+Gabriela Szabo	PER
+Romania	LOC
+Gete Wami	PER
+Ethiopia	LOC
+Rose Cheruiyot	PER
+Kenya	LOC
+Annemari Sandell	PER
+Finland	LOC
+Tegla Loroupe	PER
+Kenya	LOC
+Gunhild Halle	PER
+Norway	LOC
+Pauline Konga	PER
+Kenya	LOC
+Sally Barsosio	PER
+Kenya	LOC
+Torrance Zellner	PER
+U.S.	LOC
+Samuel Matete	PER
+Zambia	LOC
+Derrick Adkins	PER
+U.S.	LOC
+Fabrizio Mori	PER
+Italy	LOC
+Sven Nylander	PER
+Sweden	LOC
+Eric Thomas	PER
+U.S.	LOC
+Rohan Robinson	PER
+Australia	LOC
+Dusan Kovacs	PER
+Hungary	LOC
+Falilat Ogunkoya	PER
+Nigeria	LOC
+Jearl Miles	PER
+U.S.	LOC
+Fatima Yusuf	PER
+Nigeria	LOC
+Anja Ruecker	PER
+Germany	LOC
+Olabisi Afolabi	PER
+Nigeria	LOC
+Phylis Smith	PER
+Britain	LOC
+Linda Kisabaka	PER
+Germany	LOC
+Karin Janke	PER
+Germany	LOC
+Dennis Mitchell	PER
+U.S.	LOC
+Michael Green	PER
+Jamaica	LOC
+Donovan Bailey	PER
+Canada	LOC
+Jon Drummond	PER
+U.S.	LOC
+Davidson Ezinwa	PER
+Nigeria	LOC
+Geir Moen	PER
+Norway	LOC
+Marc Blume	PER
+Germany	LOC
+Wilson Kipketer	PER
+Denmark	LOC
+Norberto Tellez	PER
+Cuba	LOC
+Sammy Langat	PER
+Kenya	LOC
+Nico Motchebon	PER
+Germany	LOC
+David Kiptoo	PER
+Kenya	LOC
+Adem Hacini	PER
+Algeria	LOC
+Vebjoen Rodal	PER
+Norway	LOC
+Craig Winrow	PER
+Britain	LOC
+Andrei Tiwontschik	PER
+Germany	LOC
+Igor Trandenkov	PER
+Russia	LOC
+Maksim Tarasov	PER
+Russia	LOC
+Tim Lobinger	PER
+Germany	LOC
+Igor Potapovich	PER
+Kazakstan	LOC
+Jean Galfione	PER
+France	LOC
+Pyotr Bochkary	PER
+Russia	LOC
+Dmitri Markov	PER
+Belarus	LOC
+Stefka Kostadinova	PER
+Bulgaria	LOC
+Inga Babakova	PER
+Ukraine	LOC
+Alina Astafei	PER
+Germany	LOC
+Tatyana Motkova	PER
+Russia	LOC
+Hanne Haugland	PER
+Norway	LOC
+Nele Zilinskiene	PER
+Lithuania	LOC
+Yelena Gulyayeva	PER
+Russia	LOC
+Natalya Golodnova	PER
+Russia	LOC
+Daniel Komen	PER
+Kenya	LOC
+Bob Kennedy	PER
+U.S.	LOC
+Paul Koech	PER
+Kenya	LOC
+El Hassane Lahssini	PER
+Morocco	LOC
+Shem Kororia	PER
+Kenya	LOC
+Brahim Lahlafi	PER
+Morocco	LOC
+Tom Nyariki	PER
+Kenya	LOC
+Fita Bayissa	PER
+Ethiopia	LOC
+Jonathan Edwards	PER
+Britain	LOC
+Yoelvis Quesada	PER
+Cuba	LOC
+Kenny Harrison	PER
+U.S.	LOC
+Mike Conley	PER
+U.S.	LOC
+Armen Martirosyan	PER
+Armenia	LOC
+Sigurd Njerve	PER
+Norway	LOC
+Carlos Calado	PER
+Portugal	LOC
+Charles-Michael Friedek	PER
+Germany	LOC
+Tanja Damaske	PER
+Germany	LOC
+Trine Hattesta	PER
+Norway	LOC
+Isel Lopez	PER
+Cuba	LOC
+Heli Rantanen	PER
+Finland	LOC
+Louise McPaul	PER
+Australia	LOC
+Xiomara Rivero	PER
+Cuba	LOC
+Natalya Shikolen	PER
+Belarus	LOC
+Rita Ramaunaskaite	PER
+Lithuania	LOC
+Jesse Owens	PER
+Donovan Bailey	PER
+Canada	LOC
+Michael Johnson	PER
+U.S.	LOC
+Frankie	PER
+Fredericks	PER
+Namibia	LOC
+Linford Christie	PER
+Britain	LOC
+Michael Green	PER
+Jamaica	LOC
+Osmond Ezinwa	PER
+Nigeria	LOC
+Oeji Aliu	PER
+Nigeria	LOC
+Davidson Ezinwa	PER
+Nigeria	LOC
+Peter Karlsson	PER
+Sweden	LOC
+Falk Balzer	PER
+Germany	LOC
+George	PER
+Panayiotopoulos	PER
+Greece	LOC
+Florian Schwarthoff	PER
+Germany	LOC
+Iraq	LOC
+Aziz	PER
+Baghdad	LOC
+KDP	ORG
+Iraq	LOC
+Tareq Aziz	PER
+Iraqi	MISC
+Iraq	LOC
+Kurdish	MISC
+Massoud Barzani	PER
+Massoud Barzani	PER
+Patriotic Union of Kurdistan	ORG
+Jalal Talabani	PER
+Aziz	PER
+Iraqi News Agency	ORG
+INA	ORG
+Aziz	PER
+Iraq	LOC
+U.S.	LOC
+Iraqi Kurds	MISC
+Baghdad	LOC
+Barzani	PER
+Saddam Hussein	PER
+Iran	LOC
+Talabani	PER
+Barzani	PER
+Saddam	PER
+Iraqi	MISC
+Talabani	PER
+U.N.	ORG
+Arbil	LOC
+Iraqi	MISC
+KDP	ORG
+U.N.	ORG
+Iraqi	MISC
+Arbil	LOC
+United Nations	ORG
+Arbil	LOC
+Iraq	LOC
+Kurdish	MISC
+Iraqi	MISC
+KDP	ORG
+Kurdistan Democratic Party	ORG
+Iraqi	MISC
+U.N.	ORG
+Reuters	ORG
+Tunisia	LOC
+Tunisian	MISC
+Reuters	ORG
+Tunisia	LOC
+France	LOC
+Tunisian	MISC
+France	LOC
+Tunisian	MISC
+Tunisia	LOC
+Tunisia	LOC
+Palestinian Authority	ORG
+Habib Boulares	PER
+Tripoli	LOC
+Zine al-Abidine Ben Ali	PER
+Libyan	MISC
+U.S.	LOC
+Labor Day	MISC
+Interstate 95	LOC
+East Coast	LOC
+Interstates 80	LOC
+90	LOC
+Midwest	LOC
+Interstate 5	LOC
+California	LOC
+Janet Dewey	PER
+National Automobile Occupant Protection Campaign	ORG
+National Highway Traffic Safety Administration	ORG
+Dewey	PER
+New Hampshire	LOC
+ROCHESTER	LOC
+N.H.	LOC
+Rochester	LOC
+Lilac Falls	LOC
+Don Penney	PER
+Rochester Fire Department	ORG
+Boston	LOC
+Lilac Falls Motel	LOC
+Texas	LOC
+Dallas	LOC
+Dallas	LOC
+U.S.	LOC
+Gulf	LOC
+Clinton	PER
+U.S.	LOC
+Bill Clinton	PER
+U.S.	LOC
+Iraqi	MISC
+Iraq	LOC
+U.S.	LOC
+Carl Vinson	MISC
+Gulf	LOC
+Enterprise	MISC
+Mediterranean	MISC
+United States	LOC
+Department of Defense	ORG
+Pentagon	ORG
+Doug Kennett	PER
+Clinton	PER
+U.S.	LOC
+Gulf	LOC
+Iraqi	MISC
+Kurdish	MISC
+Iraq	LOC
+Clinton	PER
+Troy	LOC
+Tennessee	LOC
+U.S.	LOC
+Iraq	LOC
+Clinton	PER
+Iraqi	MISC
+Arbil	LOC
+Kurdish	MISC
+Baghdad	LOC
+Iran	LOC
+Iran	LOC
+Iraq	LOC
+Iraq	LOC
+U.S.	LOC
+U.S.	LOC
+Iraqi	MISC
+U.S.	LOC
+F / A-18	MISC
+F-14	MISC
+Vinson	MISC
+Enterprise	MISC
+Air Force	ORG
+F-15	MISC
+F-16	MISC
+U.S.	LOC
+United States	LOC
+Air Force	ORG
+U.S.	LOC
+Gulf	LOC
+Marines	MISC
+U.S.	LOC
+Saudi Arabia	LOC
+U.S.	LOC
+Marines	MISC
+Tarawa Amphibious Readiness Group	ORG
+Carl Vinson	MISC
+U.S.	LOC
+Gulf	LOC
+Belgian	MISC
+Belgian	MISC
+Rachel	PER
+Severine	PER
+Liege	LOC
+Rachel Legeard	PER
+Severine Potty	PER
+Liege	LOC
+Marc Dutroux	PER
+Belgium	LOC
+Algeria	LOC
+Algiers	LOC
+Algerian	MISC
+Algerian	MISC
+Staoueli	LOC
+Le Matin	ORG
+Liberte	ORG
+Bou Haroun	LOC
+Algiers	LOC
+Algerian	MISC
+Human Rights National Observatory	ORG
+ONDH	ORG
+Moslem	MISC
+Algeria	LOC
+Moslem	MISC
+Islamists	MISC
+Iran	LOC
+German	MISC
+Bonn	LOC
+Iranian	MISC
+German	MISC
+Tehran	LOC
+Bonn	LOC
+Der Spiegel	ORG
+Iranian	MISC
+Jens Gust	PER
+Iranian	MISC
+Gust	PER
+German	MISC
+Tehran	LOC
+Iranian	MISC
+Bonn	LOC
+Iran	LOC
+Berlin	LOC
+Iranian	MISC
+Abolhassan Banisadr	PER
+Banisadr	PER
+Tehran	LOC
+Iranian	MISC
+Kurdish	MISC
+Berlin	LOC
+Iran	LOC
+Germany	LOC
+Banisadr	PER
+Berlin	LOC
+Banisadr	PER
+France	LOC
+Der Spiegel	ORG
+Germany	LOC
+German	MISC
+Iran	LOC
+Ali Fallahiyan	PER
+Kurdish	MISC
+Iran	LOC
+German	MISC
+Banisadr	PER
+STANDARD LIEGE	ORG
+UEFA	ORG
+Belgian	MISC
+Standard Liege	ORG
+Intertoto	MISC
+Karlsruhe	ORG
+Germany	LOC
+Belgian	MISC
+Swiss	MISC
+Guy Hellers	PER
+Roberto Bisconti	PER
+Euro	MISC
+Karlsruhe	ORG
+Didier Ernst	PER
+Bisconti	PER
+Karlsruhe	ORG
+UEFA Cup	MISC
+Italy	LOC
+Dini	PER
+Burundi	LOC
+Nyerere	PER
+Italian	MISC
+Lamberto Dini	PER
+Tanzanian	MISC
+Julius Nyerere	PER
+Burundi	LOC
+Nyerere	PER
+Rome	LOC
+U.S.	LOC
+Burundi	LOC
+Howard Wolpe	PER
+Sant ' Egidio Community	ORG
+Italian	MISC
+Roman Catholic	MISC
+Burundi	LOC
+Nyerere	PER
+Dini	PER
+Great Lakes	LOC
+Burundi	LOC
+Nyerere	PER
+Artisans for Peace	MISC
+Lay Volunteers ' International Organisation	ORG
+Rome	LOC
+U.N. Security Council	ORG
+Tutsi	MISC
+Pierre Buyoya	PER
+Buyoya	PER
+Buyoya	PER
+Burundi	LOC
+Hutu	MISC
+Burundi	LOC
+Hutu	MISC
+Iraq	LOC
+North Atlantic Treaty Organisation	ORG
+Iraq	LOC
+NATO	ORG
+Reuters	ORG
+Iraqi Kurd	MISC
+Iraqi	MISC
+Kurdistan Democratic Party	ORG
+KDP	ORG
+Arbil	LOC
+Iraq	LOC
+Belgium	LOC
+Kalashnikov	MISC
+Belgium	LOC
+Belgian	MISC
+Chatelet	LOC
+Reuters	ORG
+Chatelineaux	LOC
+Belgium	LOC
+Kalashnikov	MISC
+Uzi	MISC
+Fal	MISC
+Belgium	LOC
+Belgian	MISC
+Liege	LOC
+Reuters	ORG
+Liege	LOC
+Rachel Legeard	PER
+Severine Potty	PER
+Liege	LOC
+Legeard	PER
+Nandrin	LOC
+Marc Dutroux	PER
+Belgium	LOC
+IRA	ORG
+Venice	LOC
+Italy	LOC
+Neil Jordan	PER
+Michael Collins	MISC
+IRA	ORG
+Venice Film Festival	MISC
+Liam Neeson	PER
+Julia Roberts	PER
+Michael Collins	PER
+Irish Republican Army	ORG
+Irish	MISC
+Britain	LOC
+British-ruled	MISC
+Northern Ireland	LOC
+Jordan	PER
+Irish	MISC
+British	MISC
+Jordan	PER
+Warner Bros	ORG
+Jordan	PER
+The Crying Game	MISC
+IRA	ORG
+Collins	PER
+Mao Tse-Tung	PER
+China	LOC
+Yitzak Shamir	PER
+Israel	LOC
+Jordan	PER
+Collins	PER
+Leeson	PER
+Northern Ireland-born	MISC
+Oscar	PER
+Schindler 's List	MISC
+Jordan	PER
+Aidan Quinn	PER
+Harry Boland	PER
+Collins	PER
+Kitty Kiernan	PER
+Roberts	PER
+Dublin	LOC
+Jordan	PER
+Collins	PER
+Jordan	PER
+Collins	PER
+Britain	LOC
+Michael Collins	MISC
+Jordan	PER
+Ireland	LOC
+Dhaka	LOC
+Dhaka Stock Exchange	ORG
+DSE	ORG
+Moslem	MISC
+Shakil Rizvi	PER
+Khurshid Alam	PER
+IDLC	ORG
+Bangladesh Lamps	ORG
+Chittagong Cement	ORG
+Atlas Bangladesh	ORG
+DSE	ORG
+HARRISON	PER
+EDWARDS	PER
+SARAJEVO	LOC
+Olympic	MISC
+Kenny Harrison	PER
+Jonathan Edwards	PER
+Solidarity Meeting for Sarajevo	MISC
+International Amateur Athletic Federation	ORG
+Kosevo	LOC
+Atlanta Games	MISC
+Edwards	PER
+Sarajevo	LOC
+Bosnia	LOC
+Balkans	LOC
+Edwards	PER
+IAAF Grand Prix Final	MISC
+Milan	LOC
+Sarajevo	LOC
+BARATELLI	PER
+NICE	ORG
+NICE	LOC
+France	LOC
+Dominique Baratelli	PER
+French	MISC
+Nice	ORG
+Baratelli	PER
+Nice	ORG
+Paris St Germain	ORG
+Albert Emon	PER
+Nice	ORG
+Guingamp	ORG
+Nice	ORG
+MILAN	ORG
+LENTINI	PER
+ATALANTA	ORG
+Italian	MISC
+Gianluigi Lentini	PER
+Milan	ORG
+serie A	MISC
+Atalanta	ORG
+Gazzetta dello Sport	ORG
+Atalanta	ORG
+Lentini	PER
+Milan	ORG
+Torino	ORG
+Turin	LOC
+Bergamo-based	MISC
+Atalanta	ORG
+Lentini	PER
+ex-Milan	MISC
+Fabio Capello	PER
+Torino	ORG
+Emiliano Mondonico	PER
+SRI LANKA	LOC
+AUSTRALIA	LOC
+Sri Lanka	LOC
+Australia	LOC
+Singer World Series	MISC
+Australia	LOC
+Sri Lanka	LOC
+AUSTRALIA	LOC
+SRI LANKA	LOC
+World Series	MISC
+Australia	LOC
+Sri Lanka	LOC
+M. Waugh	PER
+Jayasuriya	PER
+M. Slater	PER
+S. Law	PER
+Tillekeratne	PER
+Dharmasena	PER
+M. Bevan	PER
+Vaas	PER
+Chandana	PER
+S. Waugh	PER
+Muralitharan	PER
+D. Lehmann	PER
+Kaluwitharana	PER
+Chandana	PER
+I. Healy	PER
+Ranatunga	PER
+Muralitharan	PER
+J. Gillespie	PER
+Kaluwitharana	PER
+Chandana	PER
+D. Fleming	PER
+Chandana	PER
+Jayasuriya	PER
+Vass	PER
+de Silva	PER
+Dharmasena	PER
+Muralitharan	PER
+Jayasuriya	PER
+Chandana	PER
+S. Jayasuriya	PER
+Healy	PER
+Fleming	PER
+R. Kaluwitharana	PER
+S. Waugh	PER
+A. Gurusinha	PER
+A. Ranatunga	PER
+Fleming	PER
+H. Tillekeratne	PER
+Fleming	PER
+R. Mahanama	PER
+McGrath	PER
+Dharmasena	PER
+Vaas	PER
+Muralitharan	PER
+S. Waugh	PER
+Law	PER
+McGrath	PER
+Fleming	PER
+Gillespie	PER
+M. Waugh	PER
+Lehmann	PER
+Aravinda de Silva	PER
+India	LOC
+Zimbabwe	LOC
+AUSTRALIA	LOC
+SRI LANKA	LOC
+Australia	LOC
+Sri Lanka	LOC
+Singer World Series	MISC
+AUSTRALIA	LOC
+Australia	LOC
+Sri Lanka	LOC
+Singer	MISC
+Australia	LOC
+Ian Healy	PER
+Michael Bevan	PER
+Damien	PER
+Flemming	PER
+Jason Gillespie	PER
+Stuart Law	PER
+Glenn McGrath	PER
+Ricky	PER
+Ponting	PER
+Michael Slater	PER
+Darren Lehmann	PER
+Mark Waugh	PER
+Steve	PER
+Sri Lanka	LOC
+Arjuna Ranatunga	PER
+Sanath Jayasuriya	PER
+Romesh Kaluwitharana	PER
+Asanka Gurusinha	PER
+Aravinda de Silva	PER
+Hashan Tillekeratne	PER
+Roshan Mahanama	PER
+Kumara Dharmasena	PER
+Chaminda Vaas	PER
+Muthiah Muralitharan	PER
+Upul Chandana	PER
+ROMANIA	LOC
+COMELF	ORG
+Romanian	MISC
+Comelf	ORG
+Comelf	ORG
+Bucharest	LOC
+Comelf	ORG
+Transylvanian	MISC
+Bistrita	LOC
+Comelf	ORG
+Luli Popescu	PER
+Bucharest Newsroom	ORG
+SHEARER	PER
+ENGLAND	LOC
+Alan Shearer	PER
+England	LOC
+Newcastle	ORG
+Tony Adams	PER
+European	MISC
+David Platt	PER
+Adams	PER
+Platt	PER
+England	LOC
+World Cup	MISC
+Moldova	LOC
+Shearer	PER
+Glenn Hoddle	PER
+Blackburn	ORG
+Southampton	ORG
+Alan	PER
+Hoddle	PER
+Alan	PER
+Shearer	PER
+Euro 96	MISC
+Teddy Sheringham	PER
+Shearer	PER
+Newcastle	ORG
+Les Ferdinand	PER
+POLISH	MISC
+Canada	LOC
+Canada	LOC
+Bank of Canada	ORG
+Treasury	ORG
+Canada	LOC
+Canadian	MISC
+Canadian	MISC
+Jones Medical	ORG
+Jones Medical Industries Inc	ORG
+Daniels Pharmaceuticals Inc	ORG
+St. Petersburg	LOC
+Fla.	LOC
+Jones	ORG
+Jones	ORG
+Daniels Pharmaceuticals	ORG
+Levoxyl	MISC
+U.S.	LOC
+Labor Day	MISC
+Texas	LOC
+Labor Day	MISC
+Labor Day	MISC
+Harry Milling	PER
+New York Energy Desk	ORG
+U.S.	LOC
+Chicago	LOC
+NAPM	ORG
+U.S.	LOC
+National Association of Purchasing Management	ORG
+NAPM	ORG
+Chicago	LOC
+Chicago	LOC
+NAPM	ORG
+Eurodollar	MISC
+Japanese	MISC
+Eurodollar	MISC
+Eurodollars	MISC
+U.S.	LOC
+French	MISC
+Federal Reserve	ORG
+U.S.	LOC
+Federal Reserve	ORG
+Federal Open Market Committee	ORG
+Federal Reserve	ORG
+Lawrence Lindsey	PER
+U.S.	LOC
+CNBC	ORG
+U.S.	LOC
+Fed	ORG
+Alan Greenspan	PER
+Jackson Hole symposium	MISC
+Fed	ORG
+FOMC	ORG
+U.S.	LOC
+Fed	ORG
+Eurodollars	MISC
+Eurodollars	MISC
+Douglas & Lomason	ORG
+FARMINGTON HILLS	LOC
+Mich	LOC
+Douglas & Lomason Co	ORG
+Magna International Inc	ORG
+Magna	ORG
+Douglas & Lomason	ORG
+Markham	ORG
+Ontario-based	MISC
+Magna	ORG
+North American	MISC
+Johnson Controls Inc	ORG
+Lear Corp	ORG
+Douglas & Lomason	ORG
+James Hoey	PER
+Hoey	PER
+Douglas & Lomason	ORG
+Magna	ORG
+Douglas & Lomason	ORG
+Ford	ORG
+John Casesa	PER
+Schroder Wertheim & Co	ORG
+Magna	ORG
+Magna	ORG
+Magna	ORG
+Johnson Controls	ORG
+Lear	ORG
+UK	LOC
+Chicago	LOC
+UK	LOC
+Chicago	LOC
+Jim Ballantyne	PER
+London Newsroom	ORG
+Iraqi	MISC
+Sudanese	MISC
+Iraqis	MISC
+Sudanese	MISC
+London	LOC
+Britain	LOC
+Stansted	LOC
+Iraqis	MISC
+Saddam	PER
+Hussein	PER
+interior ministry	ORG
+English	MISC
+Iraq	LOC
+Amman-bound	MISC
+Khartoum	LOC
+Cyprus	LOC
+London	LOC
+European	MISC
+GERMANY	LOC
+U.S.	LOC
+London International Financial Futures and Options Exchange	ORG
+LIFFE	ORG
+BRITAIN	LOC
+U.S. Treasuries	ORG
+Chicago PMI	MISC
+LIFFE	ORG
+FRANCE	LOC
+U.S.	LOC
+Paris	LOC
+ITALY	LOC
+Treasuries	ORG
+LIFFE	ORG
+UNITED STATES	LOC
+U.S. Treasury	ORG
+Chicago Purchasing Managers	ORG
+Labour Day	MISC
+Treasury	ORG
+Chicago Board of Trade	ORG
+JAPAN	LOC
+BOJ	ORG
+Japanese Goverment Bonds	MISC
+Tokyo	LOC
+LIFFE	ORG
+Tokyo Stock Exchange	ORG
+EUROBONDS	MISC
+U.S.	LOC
+Labour Day	MISC
+U.S.	LOC
+NSW Treasury	ORG
+A$	MISC
+Japanese	MISC
+DNIB	ORG
+Norwegian	MISC
+European	MISC
+DNIB	ORG
+Kansai Electric Power	ORG
+Kansai International Airport	ORG
+Boxing-Bruno	MISC
+Frank Bruno	PER
+Britain	LOC
+Sun	ORG
+Bruno	PER
+Briton	MISC
+World Boxing Council	ORG
+WBC	ORG
+Mike Tyson	PER
+Bruno	PER
+Britain	LOC
+David McLeod	PER
+Bruno	PER
+Sun	ORG
+Bruno	PER
+American	MISC
+Oliver McCall	PER
+Wembley	LOC
+Briton	MISC
+Bruno	PER
+American	MISC
+Tyson	PER
+Las Vegas	LOC
+Bruno	PER
+Briton	MISC
+Red Star	ORG
+Yugoslavia	LOC
+Dinamo	ORG
+Russia	LOC
+McCarthy	PER
+Liechtenstein	LOC
+Irish	MISC
+Mick McCarthy	PER
+Liechtenstein	LOC
+World Cup	MISC
+Birmingham	ORG
+Gary Breen	PER
+Phil Babb	PER
+Ian Harte	PER
+Keith O'Neill	PER
+Norwich City	ORG
+Niall Quinn	PER
+Given	PER
+Breen	PER
+Staunton	PER
+Irwin	PER
+McAteer	PER
+Harte	PER
+McLoughlin	PER
+Houghton	PER
+Townsend	PER
+Quinn	PER
+O'Neill	PER
+Nigerian	MISC
+Nigeria	LOC
+News Agency of Nigeria	ORG
+Uyo	LOC
+East Dries	ORG
+Driefontein Consolidated Ltd	ORG
+Gold Fields of South Africa Ltd	ORG
+Driefontein Consolidated and Gold Fields ' Kloof Gold Mining Co	ORG
+Johannesburg	LOC
+Chad	LOC
+Chad	LOC
+N'Djamena University	ORG
+Nagoum Yamassoum	PER
+Yeltsin	PER
+Lebed	PER
+Chechnya	LOC
+Russian	MISC
+Viktor Chernomyrdin	PER
+Boris Yeltsin	PER
+Moscow	LOC
+Alexander Lebed	PER
+Chechnya	LOC
+Interfax	ORG
+Lebed	PER
+Chechnya	LOC
+Interfax	ORG
+Chernomyrdin	PER
+Boris Nikolayevich	PER
+Yeltsin	PER
+Lebed	PER
+Yeltsin	PER
+Chechnya	LOC
+Aslan Maskhadov	PER
+Chechnya	LOC
+Lebed	PER
+Moscow	LOC
+Chechnya	LOC
+Russian Federation	LOC
+Yeltsin	PER
+Russia	LOC
+Itar-Tass	ORG
+Lebed	PER
+Chechnya	LOC
+Lebed	PER
+Yeltsin	PER
+Yeltsin	PER
+Chernomyrdin	PER
+Lebed	PER
+Lebed	PER
+Chechnya	LOC
+Lebed	PER
+Chechens	MISC
+KHASAVYURT	LOC
+Russia	LOC
+Russian	MISC
+Alexander Lebed	PER
+Aslan Maskhadov	PER
+Chechnya	LOC
+Russian Federation	LOC
+Chechen Republic	LOC
+Lebed	PER
+Maskhadov	PER
+Lebed	PER
+Lebed	PER
+Maskhadov	PER
+Chechnya	LOC
+Lebed	PER
+Chechnya	LOC
+Moscow	LOC
+Chechnya	LOC
+Russia	LOC
+Chechnya	LOC
+Boris Yeltsin	PER
+Lebed	PER
+Chechnya	LOC
+Viktor Chernomyrdin	PER
+Yeltsin	PER
+Lebed	PER
+Moslem	MISC
+Bosnia	LOC
+Moslem	MISC
+U.S.	LOC
+Bosnian	MISC
+U.S.	LOC
+John Kornblum	PER
+SDA	ORG
+Bosnian	MISC
+Alija Izetbegovic	PER
+U.S.	LOC
+Bosnia	LOC
+Party of Democratic Action	ORG
+SDA	ORG
+Serb	MISC
+Organisation for Security and Cooperation in Europe	ORG
+OSCE	ORG
+SDA	ORG
+OSCE	ORG
+Belgrade	LOC
+Belgrade	LOC
+Aerodrom Beograd	LOC
+Yugoslav	MISC
+Tanjug	ORG
+Batajnica	LOC
+Tanjug	ORG
+Belgrade	LOC
+Ljubomir Acimovic	PER
+Surcin	LOC
+Batajnica	LOC
+Acimovic	PER
+Belgrade	LOC
+Tanjug	ORG
+Batajnica	LOC
+Federal Air Traffic Control Administration	ORG
+Branko Bilbija	PER
+Amra Kevic	PER
+Belgrade	LOC
+Belarus	LOC
+Belarus	LOC
+Alexander Lukashenko	PER
+Soviet	MISC
+Belarus	LOC
+Semyon Sharetsky	PER
+Reuters	ORG
+Lukashenko	PER
+European	MISC
+Sharetsky	PER
+Lukashenko	PER
+Sharetsky	PER
+Sergei Posukhov	PER
+Lukashenko	PER
+Reuters	ORG
+Lukashenko	PER
+Russia	LOC
+Soviet Union	LOC
+Sharetsky	PER
+Lukashenko	PER
+Moscow	LOC
+Moscow	LOC
+Russia	LOC
+Lukashenko	PER
+Lukashenko	PER
+United States	LOC
+Zenon Poznyak	PER
+Sergei Naumchik	PER
+Tajik	MISC
+TAVILDARA	LOC
+Tajikistan	LOC
+Tajik	MISC
+Tavildara	LOC
+Islamic	MISC
+Pamir	LOC
+Tajikistan	LOC
+Nikolai Sherbatov	PER
+Tavildara	LOC
+Sherbatov	PER
+Tavildara	LOC
+Layron	LOC
+Tavildara	LOC
+Dushanbe	LOC
+Tajikistan	LOC
+Afghanistan	LOC
+China	LOC
+Islamic	MISC
+United Nations-sponsored	MISC
+Tavildara	LOC
+Rajab Adinayev	PER
+Moscow	LOC
+ROMANIA	LOC
+LITHUANIA	LOC
+Romania	LOC
+Lithuania	LOC
+European	MISC
+Romania	LOC
+Cosmin Contra	PER
+Lithuania	LOC
+Danius Gleveckas	PER
+Polish	MISC
+Yugoslavia	LOC
+Poland	LOC
+Dariusz Rosati	PER
+Yugoslavia	LOC
+PAP	ORG
+Rosati	PER
+Foreign Ministry	ORG
+Federal Republic of Yugoslavia	LOC
+Yugoslavia	LOC
+Poles	MISC
+Rosati	PER
+Serbian	MISC
+Slobodan Milosevic	PER
+Yugoslav	MISC
+Belgrade	LOC
+Montenegro	LOC
+Poland	LOC
+Yugoslavia	LOC
+U.N.	ORG
+Belgrade	LOC
+Bosnian Serbs	MISC
+Poland	LOC
+Yeltsin	PER
+Naina	PER
+Interfax	ORG
+Russian	MISC
+Boris Yeltsin	PER
+Naina	PER
+Interfax	ORG
+Sergei Yastrzhembsky	PER
+Naina Yeltsin	PER
+Russian	MISC
+Yeltsin	PER
+Russian	MISC
+Yeltsin	PER
+Moscow	LOC
+Naina Yeltsin	PER
+Yastrzhembsky	PER
+Yeltsin	PER
+Naina Yeltsin	PER
+Moscow	LOC
+Central Clinical Hospital	LOC
+Yeltsin	PER
+Yastrzhembsky	PER
+Yeltsin	PER
+Barvikha	LOC
+Moscow	LOC
+Moscow	LOC
+Lebed	PER
+Chechens	MISC
+KHASAVYURT	LOC
+Russia	LOC
+Russian	MISC
+Alexander Lebed	PER
+Chechen	MISC
+Aslan Maskhadov	PER
+Lebed	PER
+Chechnya	LOC
+Lebed	PER
+Maskhadov	PER
+Russian	MISC
+Moscow	LOC
+Interfax	ORG
+Interfax	ORG
+Olga Lavrentyeva	PER
+Valery Ivankov	PER
+Moscow	LOC
+Ivankov	PER
+Lavrentyeva	PER
+Interfax	ORG
+Levrentyeva	PER
+Cofinec	ORG
+France-registered	MISC
+Cofinec S.A.	ORG
+Budapest Stock Exchange	ORG
+BSE	ORG
+Cofinec	ORG
+BSE	MISC
+Cofinec	ORG
+Stephen Frater	PER
+Vienna	LOC
+French	MISC
+Frater	PER
+Frater	PER
+Budapest	LOC
+Frater	PER
+Cofinec	ORG
+Frater	PER
+Hungary	LOC
+Poland	LOC
+Czech Republic	LOC
+French	MISC
+French	MISC
+Petofi	ORG
+Hungarian	MISC
+Cofinec	ORG
+Petofi	ORG
+Laszlo Sebesvari	PER
+Petofi	ORG
+Petofi	ORG
+Petofi	ORG
+Kecskemet	LOC
+Petofi	ORG
+Petofi	ORG
+Frater	PER
+Budapest	LOC
+Romania	LOC
+National Bank of Romania	ORG
+BNR	ORG
+BNR	ORG
+Bucharest Newsroom	ORG
+Colombian	MISC
+BOGOTA	LOC
+Colombia	LOC
+Colombia	LOC
+Municipal Police	ORG
+Reuters	ORG
+Casa de Narino	LOC
+Bogota	LOC
+Surinam	LOC
+PARAMARIBO	LOC
+Surinamese	MISC
+Ronny Brunswijk	PER
+Brunswijk	PER
+Freddy Pinas	PER
+Surinamese-born	MISC
+Netherlands	LOC
+Brunswijk	PER
+Moengo	LOC
+Paramaribo	LOC
+Brunswijk	PER
+Pinas	PER
+Brunswijk	PER
+Brunswijk	PER
+Desi Bouterse	PER
+Cambodian	MISC
+Cambodia	LOC
+Norodom Sihanouk	PER
+Hen Vipheak	PER
+Sereipheap Thmei	ORG
+New Liberty	ORG
+French	MISC
+T3	LOC
+Sihanouk	PER
+Supreme Court	ORG
+Khmer Nation Party	ORG
+Hen Vipheak	PER
+Sihanouk	PER
+Hen Vipheak	PER
+KNP	ORG
+Chan Rattana	PER
+Norodom Ranariddh	PER
+Hun Sen	PER
+Far East	LOC
+Far East	LOC
+Southeast Asian	MISC
+Singapore	LOC
+Australian	MISC
+London	LOC
+South Korean	MISC
+Indonesian-origin	MISC
+Singapore	LOC
+South Korean	MISC
+Seoul	LOC
+Koreans	MISC
+Indonesian	MISC
+Hong Kong	LOC
+New York	LOC
+International Monetary Fund	ORG
+New York	LOC
+New York	LOC
+ROTOR	ORG
+VOLGOGRAD	LOC
+Rotor Volgograd	ORG
+Dynamo Moscow	ORG
+Rotor	ORG
+Russian	MISC
+Anatoly Gorokhovsky	PER
+Rotor	ORG
+Lada Togliatti	ORG
+Manchester United	ORG
+UEFA Cup	MISC
+Rotor	ORG
+Alania	ORG
+Dynamo Moscow	ORG
+Volgograd	LOC
+Moscow	LOC
+Tripoli	LOC
+Libyans	MISC
+Tripoli	LOC
+Muammar Gaddafi	PER
+United Nations	ORG
+Libya	LOC
+Pan Am	ORG
+Lockerbie	LOC
+Scotland	LOC
+Tripoli	LOC
+Green Square	LOC
+African	MISC
+Niger	LOC
+Guinea	LOC
+Ghana	LOC
+Gaddafi	PER
+Mohammed Idris	PER
+Samer Ammar Soliman	PER
+Reuters	ORG
+Libyans	MISC
+Tripoli-based	MISC
+Gaddafi	PER
+Jebel al-Akhdar	LOC
+Egypt	LOC
+Benghazi	LOC
+Gaddafi	PER
+Gaddafi	PER
+Sudanese	MISC
+Egyptian	MISC
+Wall Street	LOC
+Wall Street	LOC
+Clinton	PER
+Bob Dole	PER
+Ross Perot	PER
+Federal Reserve	ORG
+Clinton	PER
+Dole	PER
+Hugh Johnson	PER
+First Albany Corp.	ORG
+Wall Street	LOC
+Dole	PER
+Clinton	PER
+Clinton	PER
+Dole	PER
+White House	LOC
+Wall Street	LOC
+Washington	LOC
+John Geraghty	PER
+North American Equity Services	ORG
+Ronald Reagan	PER
+White House	LOC
+Democrat	MISC
+Walter Mondale	PER
+George Bush	PER
+Clinton	PER
+Wall Street	LOC
+Treasury	ORG
+Johnson	PER
+Dow Jones	MISC
+Geraghty	PER
+Dole	PER
+Clinton	PER
+Geraghty	PER
+Whitewater	LOC
+Clintons	PER
+Geraghty	PER
+Wall Street	LOC
+Geraghty	PER
+Dow Jones	MISC
+Nasdaq	MISC
+Standard & Poor	ORG
+American Stock Exchange	ORG
+Midwest	LOC
+Commerce Department	ORG
+Chicago	LOC
+Midwest	LOC
+Federal Reserve	ORG
+Lynn Reaser	PER
+Barnett Banks Inc.	ORG
+Jacksonville	LOC
+Fla	LOC
+Wall Street	LOC
+Fed	ORG
+Treasury	ORG
+Dow Jones	MISC
+Commerce Department	ORG
+Joel Naroff	PER
+First Union	ORG
+Philadelphia	LOC
+FOMC	ORG
+Federal Open Market Committee	ORG
+Naroff	PER
+FOMC	ORG
+CNBC	ORG
+Federal Reserve	ORG
+Lawrence Lindsey	PER
+Lindsey	PER
+University of Michigan	ORG
+Reaser	PER
+Fed	ORG
+Mexican	MISC
+U.S	LOC
+U.S. Agriculture Department	ORG
+Mexican	MISC
+United States	LOC
+U.S.	LOC
+Mexican	MISC
+Paul Drazek	PER
+Dan Glickman	PER
+Drazek	PER
+Agriculture Department	ORG
+Mexican	MISC
+Mexican	MISC
+U.S.	LOC
+California	LOC
+California	LOC
+U.S.	LOC
+Mexican	MISC
+Mexican	MISC
+World Trade Organisation	ORG
+U.S.	LOC
+American	MISC
+Michoacan	LOC
+Mexico	LOC
+Mexican	MISC
+Mexican	MISC
+U.S.	LOC
+California Avocado Commission	ORG
+Agriculture Department	ORG
+Mexico	LOC
+U.S.	LOC
+Tom Bellamore	PER
+California	LOC
+Agriculture Department	ORG
+Drazek	PER
+U.S.	LOC
+Bernardin	PER
+Chicago	LOC
+Joseph Bernardin	PER
+U.S.	LOC
+Roman Catholic	MISC
+Bernardin	PER
+Bernardin	PER
+Chicago	LOC
+Bernardin	PER
+Italian	MISC
+Chicago	LOC
+Los Angeles	LOC
+Bernardin	PER
+Bernardin	PER
+Bernardin	PER
+Bernardin	PER
+AIDS	MISC
+Bernardin	PER
+Cincinnati	LOC
+U.S.	LOC
+American Catholics	MISC
+Boatmen 's	ORG
+Boatmen 's Bancshares Inc.	ORG
+NationsBank Corp.	ORG
+Missouri	LOC
+NationsBank	ORG
+Midwest	LOC
+Michael Ancell	PER
+Edward D. Jones & Co	ORG
+Midwest	LOC
+Mercantile	ORG
+Commerce	ORG
+St. Louis-based	MISC
+Mercantile Bancorp Inc.	ORG
+Missouri	LOC
+Boatmen 's	ORG
+Kansas City	LOC
+Mo.-based	MISC
+Commerce Bancshares Inc.	ORG
+Midwest	LOC
+Mercantile	ORG
+Commerce	ORG
+Roosevelt	ORG
+James Weber	PER
+A.G. Edwards & Sons	ORG
+Roosevelt Financial Group Inc	ORG
+Louis	MISC
+Mercantile	ORG
+Weber	PER
+Mercantile	ORG
+Commerce	ORG
+Missouri	LOC
+Minneapolis-based	MISC
+First Bank System Inc.	ORG
+Norwest Corp.	ORG
+Ohio-based	MISC
+KeyCorp	ORG
+Banc One Corp.	ORG
+First Chicago NBD Corp.	ORG
+Illinois	LOC
+First Bank	ORG
+Norwest	ORG
+Banc One	ORG
+First Chicago	ORG
+KeyCorp	ORG
+Boatmen 's	ORG
+Missouri	LOC
+Boatmen 's	ORG
+Missouri	LOC
+Midwest	LOC
+Weber	PER
+Missouri	LOC
+NationsBank	ORG
+Boatmen 's	ORG
+Boatmen 's	ORG
+Ancell	PER
+NationsBank	ORG
+Boatmen 's	ORG
+NationsBank	ORG
+Michael Durante	PER
+McDonald & Co	ORG
+U.S.	LOC
+Libya	LOC
+Farrakhan	PER
+State Department	ORG
+Louis Farrakhan	PER
+U.S.	LOC
+Libya	LOC
+State Department	ORG
+Glyn Davies	PER
+U.S.	LOC
+Farrakhan	PER
+Libya	LOC
+Davies	PER
+Libya	LOC
+U.S. Treasury Department	ORG
+Farrakhan	PER
+Libyan	MISC
+Muammar Gaddafi	PER
+Farrakhan	PER
+Nation of Islam	ORG
+Farrakhan	PER
+Million Man March	MISC
+Washington	LOC
+Treasury Department	ORG
+Libya	LOC
+U.S.	LOC
+Tripoli	LOC
+Libyan	MISC
+Pan Am flight 103	MISC
+Lockerbie	LOC
+Scotland	LOC
+U.N.	ORG
+Libya	LOC
+U.S. Gulf	LOC
+U.S. Gulf	LOC
+Offshore Data Services	ORG
+Gulf	LOC
+European	MISC
+Mediterranean	MISC
+Dole	PER
+IRVINE	LOC
+Calif	LOC
+Republicans	MISC
+Clinton	PER
+Dole	PER
+Clinton	PER
+Dole	PER
+Scott Reed	PER
+Dole	PER
+Scott Reed	PER
+Clinton	PER
+Peter Knight	PER
+South Carolina	LOC
+Carroll Campbell	PER
+Dole	PER
+Dole	PER
+Jack Kemp	PER
+Dole	PER
+Texas	LOC
+Ross Perot	PER
+Reform Party	ORG
+Commission on Presidential Debates	ORG
+Titanic	MISC
+RMS Titanic	MISC
+Titanic	MISC
+Newfoundland	LOC
+Canada	LOC
+Erin Purcell	PER
+Boston-based	MISC
+Reagan Communications	ORG
+Titanic	MISC
+Purcell	PER
+PANAMA	LOC
+ROBERTO DURAN	PER
+Panamanian	MISC
+Roberto " Hands of Stone " Duran	PER
+Duran	PER
+Mexican	MISC
+Ariel Cruz	PER
+Panama City	LOC
+Duran	PER
+Return of the Legend	MISC
+Duran	PER
+Duran	PER
+Reuters	ORG
+Panamanian	MISC
+Boxing Association	ORG
+Ramon Manzanares	PER
+Duran	PER
+Puerto Rico	LOC
+Hector " Macho " Camacho	PER
+Camacho	PER
+Panamanian	MISC
+Atlantic City	LOC
+Bonn	LOC
+Middle East	LOC
+German	MISC
+Israelis	MISC
+Palestinians	MISC
+Middle East	LOC
+Israel	LOC
+Jewish	MISC
+West Bank	LOC
+Jerusalem	LOC
+Arab	MISC
+East Jerusalem	LOC
+Palestinian	MISC
+Yasser Arafat	PER
+Benjamin Netanyahu	PER
+Israeli	MISC
+German	MISC
+Foreign Ministry	ORG
+Martin Erdmann	PER
+Arab-Israeli	MISC
+Jerusalem	LOC
+Erdmann	PER
+Bonn	LOC
+European Union	ORG
+Israel	LOC
+Jewish	MISC
+West Bank	LOC
+Israeli	MISC
+David Levy	PER
+Bonn	LOC
+German	MISC
+Klaus Kinkel	PER
+Levy	PER
+Kinkel	PER
+Middle East	LOC
+German-Israeli	MISC
+Levy	PER
+Israeli	MISC
+Netanyahu	PER
+Levy	PER
+Bonn	LOC
+German	MISC
+Volker Ruehe	PER
+Israel	LOC
+Ruehe	PER
+Israeli	MISC
+Yitzhak Mordechai	PER
+Israeli	MISC
+Ezer Weizman	PER
+Netanyahu	PER
+Shimon Peres	PER
+France	LOC
+African	MISC
+Air France	ORG
+France	LOC
+African	MISC
+Paris	LOC
+Air France	ORG
+Guinean	MISC
+Saint-Bernard	LOC
+Air France	ORG
+Conakry	LOC
+Air France	ORG
+CFDT	ORG
+African	MISC
+CFDT	ORG
+Communist-led	MISC
+CGT	ORG
+Air France	ORG
+Charles de Gaulle	LOC
+Paris	LOC
+Air France	ORG
+Christian Blanc	PER
+CFDT	ORG
+Francois Cabrera	PER
+Alain Juppe	PER
+Juppe	PER
+Juppe	PER
+German	MISC
+German	MISC
+Nicole Nichterwitz	PER
+Netherlands	LOC
+Velten	LOC
+Berlin	LOC
+Reuters	ORG
+German	MISC
+Dutch	MISC
+GRONINGEN	LOC
+Netherlands	LOC
+Dutch	MISC
+German	MISC
+Nicole Nichterwitz	PER
+Groningen	LOC
+Nicole	PER
+Groningen	LOC
+Dutch	MISC
+Dutch	MISC
+Velten	LOC
+Berlin	LOC
+German	MISC
+Germany	LOC
+Dutch	MISC
+Dutch	MISC
+Indian	MISC
+Indian	MISC
+Hindustan Copper Ltd	ORG
+Hindustan Copper	ORG
+MARTELA	ORG
+Canadian	MISC
+U.S.	LOC
+Canadian	MISC
+U.S.	LOC
+U.S.	LOC
+Canadian	MISC
+Canadian	MISC
+Jim Webber	PER
+TD Securities Inc	ORG
+Canada	LOC
+C$	MISC
+C$	MISC
+U.S.	LOC
+Statistics Canada	ORG
+Canada	LOC
+C$	MISC
+C$	MISC
+Canada	LOC
+Canadian	MISC
+Canadian	MISC
+U.S.	LOC
+U.S.	LOC
+Chicago Purchasing Managers	ORG
+Webber	PER
+Toronto Bond Traders ' Association	ORG
+Canadian	MISC
+GMT	MISC
+Canadian	MISC
+Canadian	MISC
+Labour Day	MISC
+C$	MISC
+C$	MISC
+U.S.	LOC
+U.S.	LOC
+Computer Systems Inc	ORG
+Homegate Hospitality Inc	ORG
+Name	MISC
+Homegate Hospitality Inc	ORG
+Nasdaq	MISC
+Bear Stearns & Co Inc	ORG
+United States	LOC
+Syria	LOC
+Israel	LOC
+Syria	LOC
+Israel	LOC
+Benjamin Netanyahu	PER
+Arabs	MISC
+Israeli	MISC
+Arab	MISC
+Damascus Radio	ORG
+Palestinian	MISC
+Yasser Arafat	PER
+West Bank	LOC
+Palestinians	MISC
+West Bank	LOC
+Gaza	LOC
+Israeli	MISC
+Arabs	MISC
+Israeli	MISC
+Israel	LOC
+Arab	MISC
+Arab	MISC
+Damascus	LOC
+Israel	LOC
+Israeli	MISC
+Israel	LOC
+Syria	LOC
+Arabs	MISC
+Netanyahu	PER
+Arab	MISC
+Jerusalem	LOC
+Israel	LOC
+Syria	LOC
+Israel	LOC
+HONG KONG OPEN	MISC
+Hong Kong Open	MISC
+Jansher Khan	PER
+Pakistan	LOC
+Mark Cairns	PER
+England	LOC
+Anthony Hill	PER
+Australia	LOC
+Dan Jenson	PER
+Australia	LOC
+Peter Nicol	PER
+Scotland	LOC
+Chris Walker	PER
+England	LOC
+Rodney Eyles	PER
+Australia	LOC
+Derek Ryan	PER
+Ireland	LOC
+Egypt	LOC
+Moslem	MISC
+Egypt	LOC
+al-Gama'a al-Islamiya	ORG
+Islamic Group	ORG
+Sharqiyah	LOC
+Rami al-Saadani	PER
+Cairo	LOC
+Al-Akhbar	ORG
+Gama'a	MISC
+Hosni Mubarak	PER
+Islamic	MISC
+Israel	LOC
+Palestinian	MISC
+AL-RAM	LOC
+West Bank	LOC
+Kamil Jamil	PER
+Israeli	MISC
+Palestinian	MISC
+Yasser Arafat	PER
+Jerusalem	LOC
+al-Aqsa	LOC
+Israeli	MISC
+Jamil	PER
+Hebrew	MISC
+Palestinian	MISC
+Arafat	PER
+Israel	LOC
+Jewish	MISC
+Jerusalem	LOC
+Palestinian	MISC
+Arabs	MISC
+West Bank	LOC
+Gaza	LOC
+Palestinians	MISC
+Israel	LOC
+West Bank	LOC
+Jerusalem	LOC
+Moslem	MISC
+Jewish	MISC
+Israeli	MISC
+Jerusalem	LOC
+Israel	LOC
+PLO	ORG
+Arab East Jerusalem	LOC
+Palestinian	MISC
+Palestinians	MISC
+Abu Ammar	PER
+Arafat	PER
+al-Aqsa	LOC
+al-Aqsa	LOC
+Jamil	PER
+Jordan	LOC
+Israeli	MISC
+al-Ram	LOC
+Jerusalem	LOC
+Jordan	LOC
+Khaled Hijazi	PER
+Jerusalem	LOC
+Palestinians	MISC
+Israeli	MISC
+Israelis	MISC
+Mustafa Hoshiyeh	PER
+West Bank	LOC
+Abu Ammar	PER
+Arafat	PER
+Israelis	MISC
+Ali Ahmed	PER
+Qalandia	LOC
+Bay Co Bldg Auth	ORG
+Mich	LOC
+NYC	MISC
+Bay Co Building Authority	ORG
+MI	LOC
+Michigan National Bank	ORG
+Detroit	LOC
+Bodman , Longely & Dahling	ORG
+Detroit	LOC
+First of Michigan Corp.	ORG
+Detroit	LOC
+J.J. KENNY	ORG
+Commerce Department	ORG
+Commerce	ORG
+U.S.	LOC
+Wall Street	LOC
+Labour Department	ORG
+NY Dow	MISC
+London	LOC
+LME	ORG
+Nikkei	MISC
+Brent	ORG
+FTSE	MISC
+German	MISC
+Japanese	MISC
+Dow Jones	MISC
+New York Stock Exchange	ORG
+Treasury	ORG
+Ralph Bloch	PER
+Raymond James	PER
+Dow	MISC
+Wall Street	LOC
+David Shulman	PER
+Salomon Bros .	ORG
+Fed	ORG
+Commerce Department	ORG
+Clinton	PER
+Dick Morris	PER
+Clinton	PER
+Wall Street	LOC
+Republican	MISC
+Democratic	MISC
+Clinton	PER
+Morris	PER
+Clinton	PER
+Iraq	LOC
+New York Mercantile Exchange	ORG
+New York Cotton Exchange	ORG
+U.S.	LOC
+London	LOC
+FTSE 100	MISC
+Nikkei	MISC
+Pirelli	ORG
+Chinese	MISC
+Italian	MISC
+Pirelli	ORG
+China	LOC
+Chinese	MISC
+Pirelli	ORG
+Hong Kong-based	MISC
+CITIC Pacific	ORG
+Wuxi Tong Ling Company Ltd	ORG
+Wuxi	LOC
+Jiangsu	LOC
+Shanghai	LOC
+Wuxi	LOC
+Pirelli	ORG
+Far Eastern	MISC
+Indonesia	LOC
+India	LOC
+Malaysia	LOC
+Pirelli	ORG
+Italian	MISC
+Paula Buratti	PER
+Indosuez	ORG
+Pirelli	ORG
+Chinese	MISC
+Pirelli	ORG
+Pirelli	ORG
+GMT	MISC
+Milan	LOC
+Pirelli	ORG
+Chinese	MISC
+Unicom	ORG
+China	LOC
+Asia	LOC
+Pirelli SpA	ORG
+Marco Tonchetti Provera	PER
+Pirelli Cables	ORG
+U.S.	LOC
+Europe	LOC
+Far East	LOC
+CITIC Pacific	ORG
+Hong Kong-listed	MISC
+China	LOC
+Dutch	MISC
+EOE	ORG
+Dutch	MISC
+European Options Exchange	ORG
+EOE	ORG
+FTO	ORG
+EOE	ORG
+EOE	ORG
+Lex van Drooge	PER
+Reuters	ORG
+EOE	ORG
+Dutch	MISC
+German	MISC
+FTO	ORG
+Amsterdam	LOC
+OSCE	ORG
+Chechnya	LOC
+Chechnya	LOC
+Flavio Cotti	PER
+Organisation for Security and Cooperation in Europe	ORG
+OSCE	ORG
+German	MISC
+Vienna-based	MISC
+Chechnya	LOC
+Russian	MISC
+OSCE	ORG
+OSCE	ORG
+Swiss	MISC
+Chechnya	LOC
+Pro-Moscow	MISC
+Chechnya	LOC
+Tim Guldimann	PER
+Swiss	MISC
+OSCE	ORG
+Chechnya	LOC
+Zelimkhan Yandarbiyev	PER
+Russian	MISC
+Alexander Lebed	PER
+Chechen	MISC
+Aslan Maskhadov	PER
+Cotti	PER
+Chechnya	LOC
+Russia	LOC
+Russia	LOC
+Chechnya	LOC
+OSCE	ORG
+Russia	LOC
+Russia	LOC
+OSCE	ORG
+OSCE	ORG
+Chechnya	LOC
+Chechnya	LOC
+Russian	MISC
+Cotti	PER
+Dutch	MISC
+El Al	ORG
+Dutch	MISC
+Annemarie Jorritsma	PER
+El Al	ORG
+Amsterdam	LOC
+El Al	ORG
+Tel Aviv	LOC
+Dutch	MISC
+Dutch	MISC
+Jorritsma	PER
+El Al	ORG
+Air Cargo Newsroom	ORG
+Armenians	MISC
+Azeris	MISC
+Germany	LOC
+Armenia	LOC
+Azerbaijan	LOC
+Germany	LOC
+Nagorno-Karabakh	LOC
+Azerbaijani	PER
+Vafa Gulizade	PER
+Armenian	MISC
+Zhirayr Liparityan	PER
+Nagorno-Karabakh	LOC
+Azeri	MISC
+Armenians	MISC
+Azeris	MISC
+Nagorno-Karabakh	LOC
+Germany	LOC
+Azerbaijan	LOC
+Nagorno-Karabakh	LOC
+Armenia	LOC
+Russia	LOC
+Interfax	ORG
+Germany	LOC
+Amsterdam	LOC
+Interfax	ORG
+Organisation for Security and Cooperation in Europe	ORG
+OSCE	ORG
+Minsk Group	ORG
+Russia	LOC
+Finland	LOC
+SOUTH KOREAN	MISC
+South Korean	MISC
+Ulsan	ORG
+Puchon	ORG
+Chonbuk	ORG
+Arctic	MISC
+LONGYEAR	LOC
+Norway	LOC
+Arctic	MISC
+Longyear	LOC
+Russian	MISC
+Stig Onarheim	PER
+Arctic	MISC
+Spitzbergen	LOC
+Onarheim	LOC
+Reuters	ORG
+Russians	MISC
+Ukrainians	MISC
+Barentsburg	LOC
+Pyramiden	LOC
+Longyear	LOC
+Norwegian	MISC
+Barentsburg	LOC
+Johan Sletten	PER
+Sletten	PER
+Norwegian	MISC
+Russian	MISC
+Heidi Groenstein	PER
+Norwegian	MISC
+Longyear	LOC
+Russian	MISC
+Ukrainian	MISC
+Longyear	LOC
+Moscow	LOC
+Longyear	LOC
+Barentsburg	LOC
+Russia	LOC
+Spitzbergen	LOC
+Norway	LOC
+Norway	LOC
+Russia	LOC
+Ericsson	ORG
+China	LOC
+Swedish	MISC
+LM Ericsson AB	ORG
+Guangdong	LOC
+China	LOC
+Ericsson	ORG
+Guangdong Post and Telecommunications Administration	ORG
+GPTA	ORG
+AXE	MISC
+Intelligent Network	MISC
+IN	MISC
+Ericsson	ORG
+Per Zetterquist	PER
+Reuters	ORG
+Stockholm	LOC
+HK	LOC
+Tsang	PER
+Hong Kong	LOC
+Donald Tsang	PER
+Chinese	MISC
+South China	LOC
+Tsang	PER
+Auckland	LOC
+New Zealand	LOC
+Hong Kong	LOC
+Britain	LOC
+China	LOC
+Hong Kong	LOC
+Tsang	PER
+Hong Kong	LOC
+Hong Kong	LOC
+Hong Kong	LOC
+Wellington	LOC
+Indonesian	MISC
+Indonesian	MISC
+Reuters	ORG
+Jakarta	LOC
+Reuters	ORG
+Indonesian	MISC
+Suharto	PER
+House of Representatives	ORG
+Wahono	PER
+Philippines	LOC
+Philippine	LOC
+Moro National Liberation Front	ORG
+MNLF	ORG
+Indonesia	LOC
+Kia Motor Corp	ORG
+South Korea	LOC
+Jakarta	LOC
+Tanjung Priok	LOC
+Kia	ORG
+PT Timor Putra Nasional	ORG
+Suharto	PER
+Indonesia	LOC
+Central Jakarta District Court	ORG
+Indonesian Democratic Party	ORG
+PDI	ORG
+Megawati Sukarnoputri	PER
+Megawati	PER
+Jeans Mate Corp	ORG
+Jeans Mate Corp	ORG
+Apic Yamada	ORG
+Apic Yamada Corp	ORG
+China	LOC
+China	LOC
+Xinhua	ORG
+Huize	LOC
+Yunnan	LOC
+Xinhua	ORG
+Singapore	LOC
+Thai	MISC
+Singapore	LOC
+Thai	MISC
+Changi Prison	LOC
+Central Narcotics Bureau	ORG
+CNB	ORG
+Jeerasak Densakul	PER
+CNB	ORG
+Singapore	LOC
+Singapore	LOC
+Arafat	PER
+Nablus	LOC
+NABLUS	LOC
+West Bank	LOC
+Palestinian	MISC
+Yasser Arafat	PER
+West Bank	LOC
+Nablus	LOC
+Ramallah	LOC
+Arafat	PER
+Palestinian self-rule Authority	ORG
+Nablus	LOC
+Jerusalem	LOC
+Israeli	MISC
+Palestinians	MISC
+Arafat	PER
+Moslems	MISC
+Arabs	MISC
+Jews	MISC
+Israel	LOC
+West Bank	LOC
+Palestinians	MISC
+Arab East Jerusalem	LOC
+Israel	LOC
+East Jerusalem	LOC
+Arafat	PER
+Israel	LOC
+Jerusalem	LOC
+Israeli	MISC
+U.N. Council	ORG
+Israeli	MISC
+Security Council	ORG
+Israel	LOC
+Palestinian	MISC
+Middle East	LOC
+Palestinian	MISC
+U.N.	ORG
+Security Council	ORG
+Tono Eitel	PER
+Germany	LOC
+Israel	LOC
+David Peleg	PER
+Eitel	PER
+Israeli	MISC
+Palestinian	MISC
+Marwan Jilani	PER
+Jerusalem	LOC
+Israel	LOC
+Holy City of Jerusalem	LOC
+Israel	LOC
+Palestinian Liberation Organisation	ORG
+Israeli	MISC
+Old City	LOC
+U.N.	ORG
+Israeli	MISC
+Israeli	MISC
+Jerusalem	LOC
+Canada	LOC
+Burj al-Laqlaq Society	LOC

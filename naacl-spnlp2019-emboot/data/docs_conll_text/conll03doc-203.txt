@@ -1,0 +1,10 @@
+Goldman Sachs sets warrants on Continental .
+LONDON 1996-08-23
+Goldman Sachs & Co Wertpapier GmbH has issued a total of five million American-style call warrants , on Continental AG , lead manager Goldman Sachs & Co said .
+One warrant controls one share .
+STRIKE PRICE 25.00 DEM PREMIUM 10.12 PCT
+ISSUE PRICE 2.42 DEM GEARING 10.29 X
+EXERCISE PERIOD 02.SEP.96-21.NOV.97 PAYDATE 30.AUG.96
+LISTING DDF FFT STG MIN EXER LOT 100
+SPOT REFERENCE 24.90 DEM
+-- Reuter London Newsroom +44 171 542 7658

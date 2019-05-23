@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.clulab"
+		module="clint$sbt_2.12"
+		revision="0.0.1-SNAPSHOT"
+		status="integration"
+		publication="20190129151942"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.12" conf="default->default(compile)"/>
+		<dependency org="org.jetbrains" name="sbt-structure-extractor" rev="2018.2.1+4-88400d3f" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="org.jetbrains" name="sbt-idea-shell" rev="2018.3" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+	</dependencies>
+</ivy-module>

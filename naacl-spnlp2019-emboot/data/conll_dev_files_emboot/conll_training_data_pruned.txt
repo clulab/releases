@@ -1,0 +1,1378 @@
+LEICESTERSHIRE	CRICKET - @ENTITY
+Phil Simmons	@ENTITY took
+Leicestershire	@ENTITY beat
+Somerset	beat @ENTITY
+Kent	@ENTITY made
+Nottinghamshire	match against @ENTITY
+Yorkshire	match against @ENTITY
+Surrey	@ENTITY captain
+Chris Lewis	captain @ENTITY
+Warwickshire	match against @ENTITY
+England	backed by @ENTITY
+Tom Moody	@ENTITY took
+Martin McCague	@ENTITY took
+ENGLISH COUNTY CHAMPIONSHIP	CRICKET - @ENTITY
+English	@ENTITY county
+Leicestershire	@ENTITY beat
+Somerset	beat @ENTITY
+Somerset	points , @ENTITY
+REAL	SOCCER - @ENTITY
+Real Madrid	@ENTITY coach
+Fabio Capello	coach @ENTITY
+Spanish	@ENTITY championship
+Donato	midfielder @ENTITY
+Augusto Lendoiro	@ENTITY said	@ENTITY said he
+Mauro Silva	midfielder @ENTITY
+John Toshack	coach @ENTITY
+WIGAN	@ENTITY BEAT
+BRADFORD	BEAT @ENTITY
+WIGAN	@ENTITY , England
+ISRAEL	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+BULGARIA	BEAT @ENTITY
+Haim Hajaj	Scorers : @ENTITY
+IRISH	SOCCER - @ENTITY
+Mick McCarthy	manager @ENTITY
+Andy Townsend	captain @ENTITY
+European	@ENTITY championship
+IRELAND	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+LIECHTENSTEIN	BEAT @ENTITY
+WORLD CUP	@ENTITY QUALIFIER
+Republic of Ireland	@ENTITY beat
+Liechtenstein	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+NORTHAMPTON	@ENTITY , England
+Robert Allenby	@ENTITY ( Australia
+Miguel Angel Martin	@ENTITY ( Spain
+Allenby	@ENTITY won
+Costantino Rocca	@ENTITY ( Italy
+Miguel Angel Jimenez	@ENTITY ( Spain
+Joakim Haeggman	@ENTITY ( Sweden
+Antoine Lebouc	@ENTITY ( France
+Philip Walton	@ENTITY ( Ireland
+Klas Eriksson	@ENTITY ( Sweden
+Pedro Linhart	@ENTITY ( Spain
+Peter O'Malley	@ENTITY ( Australia
+Mike Clayton	@ENTITY ( Australia
+Peter Hedblom	@ENTITY ( Sweden
+SLOVAKIA	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+FAROES	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Slovakia	@ENTITY beat	@ENTITY beat the
+Faroe Islands	beat the @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group
+ENGLAND	CRICKET - @ENTITY	@ENTITY BEAT
+PAKISTAN	BEAT @ENTITY
+BIRMINGHAM	@ENTITY , England
+England	@ENTITY beat
+Pakistan	beat @ENTITY
+Edgbaston	@ENTITY on Saturday
+Landgraaf	@ENTITY on Saturday
+Olaf Ludwig	@ENTITY ( Germany
+Giovanni Lombardi	@ENTITY ( Italy
+Tristan Hoffman	@ENTITY ( Netherlands
+Erik Breukink	@ENTITY ( Netherlands
+Vyacheslav Ekimov	@ENTITY ( Russia
+Luca Pavanello	@ENTITY ( Italy
+Eleuterio Anguita	@ENTITY ( Spain
+Michael Andersson	@ENTITY ( Sweden
+Lance Armstrong	@ENTITY ( U.S.
+Marco Lietti	@ENTITY ( Italy
+Erik Dekker	@ENTITY ( Netherlands
+Maarten den Bakker	@ENTITY ( Netherlands
+ENGLAND	CRICKET - @ENTITY
+BIRMINGHAM	@ENTITY , England
+Pakistan	@ENTITY on Saturday
+M. Atherton	@ENTITY lbw	@ENTITY lbw b
+Mushtaq Ahmed	lbw b @ENTITY
+G. Thorpe	@ENTITY lbw	@ENTITY lbw b
+Ata-ur-Rehman	lbw b @ENTITY
+M. Maynard	@ENTITY run	@ENTITY run out
+A. Hollioake	@ENTITY run	@ENTITY run out
+D. Gough	@ENTITY run	@ENTITY run out
+Moin Khan	@ENTITY lbw	@ENTITY lbw b
+Mullally	lbw b @ENTITY
+Waqar Younis	@ENTITY lbw	@ENTITY lbw b
+Gough	lbw b @ENTITY
+National Tennis Centre	@ENTITY on Friday
+Sandrine Testud	@ENTITY ( France
+France	@ENTITY ) beat
+Ines Gorrochategui	beat @ENTITY
+Croatia	@ENTITY ) beat
+Scott Draper	beat @ENTITY	@ENTITY ( Australia
+Tim Henman	@ENTITY ( Britain
+Britain	@ENTITY ) beat
+Doug Flach	beat @ENTITY	@ENTITY ( U.S.
+Mark Philippoussis	@ENTITY ( Australia
+Australia	@ENTITY ) beat
+Andrei Olhovskiy	beat @ENTITY	@ENTITY ( Russia
+Sjeng Schalken	@ENTITY ( Netherlands
+Netherlands	@ENTITY ) beat
+David Rikl	beat @ENTITY	@ENTITY ( Czech	@ENTITY ( Czech Republic	beat @ENTITY ( Czech	beat @ENTITY ( Czech Republic
+Guy Forget	@ENTITY ( France
+France	@ENTITY ) beat
+Felix Mantilla	@ENTITY ( Spain
+Alexander Volkov	@ENTITY ( Russia
+Russia	@ENTITY ) beat
+Mikael Tillstrom	beat @ENTITY	@ENTITY ( Sweden
+Jonas Bjorkman	@ENTITY ( Sweden
+Sweden	@ENTITY ) beat
+David Nainkin	beat @ENTITY
+Lindsay Davenport	@ENTITY ( U.S.
+U.S.	@ENTITY ) beat
+Anne-Gaelle Sidot	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( France
+Conchita Martinez	@ENTITY ( Spain
+Spain	@ENTITY ) beat
+Helena Sukova	beat @ENTITY	@ENTITY ( Czech	@ENTITY ( Czech Republic	beat @ENTITY ( Czech	beat @ENTITY ( Czech Republic
+South Africa	@ENTITY ) beat
+Irina Spirlea	beat @ENTITY
+Cedric Pioline	@ENTITY ( France
+France	@ENTITY ) beat
+Roberto Carretero	beat @ENTITY	@ENTITY ( Spain
+Alex Corretja	@ENTITY ( Spain
+Spain	@ENTITY ) beat
+Filippo Veglio	beat @ENTITY
+Linda Wild	@ENTITY ( U.S.	@ENTITY ( U.S. ) beat
+U.S.	@ENTITY ) beat
+Barbara Rittner	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( Germany
+Asa Carlsson	@ENTITY ( Sweden
+Sweden	@ENTITY ) beat
+Pete Sampras	@ENTITY ( U.S.	@ENTITY ( U.S. ) beat
+U.S.	@ENTITY ) beat
+Jiri Novak	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( Czech	@ENTITY ( Czech Republic	beat @ENTITY ( Czech	beat @ENTITY ( Czech Republic
+Paul Haarhuis	@ENTITY ( Netherlands
+Netherlands	@ENTITY ) beat
+Michael Tebbutt	beat @ENTITY	@ENTITY ( Australia
+Lisa Raymond	@ENTITY ( U.S.	@ENTITY ( U.S. ) beat
+U.S.	@ENTITY ) beat
+Kimberly Po	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( U.S.
+Hendrik Dreekmann	@ENTITY ( Germany
+Germany	@ENTITY ) beat
+Thomas Johansson	beat @ENTITY	@ENTITY ( Sweden
+Ukraine	@ENTITY ) beat
+Jan Kroslak	beat @ENTITY
+Petr Korda	@ENTITY ( Czech
+Monica Seles	@ENTITY ( U.S.
+U.S.	@ENTITY ) beat
+Dally Randriantefy	beat @ENTITY	U.S. ) beat @ENTITY
+Todd Martin	@ENTITY ( U.S.	@ENTITY ( U.S. ) beat
+U.S.	@ENTITY ) beat
+Andrea Gaudenzi	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( Italy
+Stefan Edberg	@ENTITY ( Sweden
+Sweden	@ENTITY ) beat
+Bernd Karbacher	beat @ENTITY	@ENTITY ( Germany
+MANCHESTER	@ENTITY , England
+Antonella Bellutti	@ENTITY ( Italy
+Marion Clignet	@ENTITY ( France
+Lucy Tyler-Sharman	@ENTITY ( Australia
+Yvonne McGregor	@ENTITY ( Britain
+Natalia Karimova	@ENTITY ( Russia
+Svetlana Samokhalova	@ENTITY ( Russia
+Jane Quigley	@ENTITY ( U.S.
+Rasa Mazeikyte	@ENTITY ( Lithuania
+Russia	beat @ENTITY
+Germany	beat @ENTITY
+Felicia Ballanger	@ENTITY ( France
+Annett Neumann	@ENTITY ( Germany
+Michelle Ferris	@ENTITY ( Australia
+Magali Faure	@ENTITY ( France
+Olga Slioussareva	@ENTITY ( Russia
+Oksana Grichina	@ENTITY ( Russia
+Tanya Dubnicoff	@ENTITY ( Canada
+Kathrin Freitag	@ENTITY ( Germany
+Wendy Everson	@ENTITY ( Britain
+Giovanna Troldi	@ENTITY ( Italy
+Rita Razmaite	@ENTITY ( Lithuania
+France	beat @ENTITY
+Florian Rousseau	@ENTITY ( France
+France	@ENTITY ) beat
+Ainars Kiksis	beat @ENTITY
+Darryn Hill	@ENTITY ( Australia
+Australia	@ENTITY ) beat
+Christian Arrue	beat @ENTITY	@ENTITY ( U.S.
+Roberto Chiappa	@ENTITY ( Italy
+Italy	@ENTITY ) beat
+Frederic Magne	beat @ENTITY	@ENTITY ( France
+Marty Nothstein	@ENTITY ( U.S.
+U.S.	@ENTITY ) beat
+Pavel Buran	beat @ENTITY	U.S. ) beat @ENTITY	@ENTITY ( Czech	@ENTITY ( Czech Republic	beat @ENTITY ( Czech	beat @ENTITY ( Czech Republic
+Marion Clignet	@ENTITY ( France
+Jane	beat @ENTITY
+Natalia Karimova	@ENTITY ( Russia
+Yvonne McGregor	beat @ENTITY
+Lucy Tyler-Sharman	@ENTITY ( Australia
+Svetlana	beat @ENTITY
+Samokhvalova	@ENTITY ( Russia
+Antonella Bellutti	@ENTITY ( Italy
+PAKISTAN	CRICKET - @ENTITY
+BIRMINGHAM	@ENTITY , England
+Pakistan	@ENTITY won	@ENTITY won the
+Edgbaston	@ENTITY on Saturday
+Old Trafford	@ENTITY on Thursday
+Mike Atherton	@ENTITY ( captain
+Wasim Akram	@ENTITY ( captain
+GONZALEZ	BASEBALL - @ENTITY
+RANGERS	@ENTITY BEAT
+INDIANS	BEAT @ENTITY
+Juan Gonzalez	@ENTITY homered
+Gonzalez	@ENTITY hit	@ENTITY hit his
+Texas	said @ENTITY
+Johnny Oates	manager @ENTITY
+Jim Thome	@ENTITY homered
+New York Yankees	@ENTITY beat	@ENTITY beat the
+Angels	beat the @ENTITY
+Randy Velarde	@ENTITY hit	@ENTITY hit his
+Jay Buhner	@ENTITY hit	@ENTITY hit his
+Frank Thomas	@ENTITY hit	@ENTITY hit his
+Baines	@ENTITY homered
+Mark McGwire	@ENTITY hit	@ENTITY hit his
+Tony Clark	@ENTITY homered
+Marc Newfield	@ENTITY homered
+Matt Lawton	@ENTITY hit
+ESSEX	CRICKET - @ENTITY
+English	@ENTITY county
+Yorkshire	beat @ENTITY
+Somerset	beat @ENTITY
+Warwickshire	@ENTITY captain
+Tim Munton	captain @ENTITY
+Australian	@ENTITY coach
+Dave Gilbert	coach @ENTITY
+Australian	@ENTITY captain
+Dean Jones	captain @ENTITY
+British Masters	@ENTITY won
+Robert Allenby	@ENTITY ( Australia
+Costantino Rocca	@ENTITY ( Italy
+Wayne Riley	@ENTITY ( Australia
+Paul McGinley	@ENTITY ( Ireland
+Padraig Harrington	@ENTITY ( Ireland
+Miguel Angel Jimenez	@ENTITY ( Spain
+Miguel Angel Martin	@ENTITY ( Spain
+WELSH	@ENTITY RESULTS
+English	Results of @ENTITY
+WALES	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+SAN MARINO	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Wales	@ENTITY beat
+San Marino	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+Dean Saunders	Scorers : @ENTITY
+UKRAINE	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+NORTHERN IRELAND	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Ukraine	@ENTITY beat
+Northern Ireland	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+Wallaby	@ENTITY captain
+Michael Lynagh	captain @ENTITY
+English	@ENTITY club
+Bob Dwyer	coach @ENTITY
+Lynagh	@ENTITY kicked
+London	@ENTITY club
+England	@ENTITY captain
+Will Carling	captain @ENTITY
+SCOTTISH	SOCCER - @ENTITY	@ENTITY LEAGUE	SOCCER - @ENTITY LEAGUE
+MAJOR LEAGUE	BASEBALL - @ENTITY
+KANSAS CITY	@ENTITY AT
+DETROIT	AT @ENTITY
+CHICAGO	@ENTITY AT
+TORONTO	AT @ENTITY
+MINNESOTA	@ENTITY AT
+MILWAUKEE	AT @ENTITY
+CLEVELAND	@ENTITY AT
+TEXAS	AT @ENTITY
+NEW YORK	@ENTITY AT
+CALIFORNIA	AT @ENTITY
+BOSTON	@ENTITY AT
+OAKLAND	AT @ENTITY
+BALTIMORE	@ENTITY AT
+SEATTLE	AT @ENTITY
+ATLANTA	@ENTITY AT
+CHICAGO	AT @ENTITY
+FLORIDA	@ENTITY AT
+CINCINNATI	AT @ENTITY
+SAN DIEGO	@ENTITY AT
+MONTREAL	AT @ENTITY
+LOS ANGELES	@ENTITY AT
+PHILADELPHIA	AT @ENTITY
+HOUSTON	@ENTITY AT
+PITTSBURGH	AT @ENTITY
+SAN FRANCISCO	@ENTITY AT
+NEW YORK	AT @ENTITY
+COLORADO	@ENTITY AT
+ST LOUIS	AT @ENTITY
+ENGLISH	SOCCER - @ENTITY	@ENTITY LEAGUE	SOCCER - @ENTITY LEAGUE
+English	@ENTITY soccer
+SCOTTISH	SOCCER - @ENTITY	@ENTITY LEAGUE	SOCCER - @ENTITY LEAGUE
+Scottish	Results of @ENTITY
+ENGLISH	SOCCER - @ENTITY	@ENTITY LEAGUE	SOCCER - @ENTITY LEAGUE
+English	Results of @ENTITY	@ENTITY soccer
+ENGLISH COUNTY CHAMPIONSHIP	CRICKET - @ENTITY
+English	@ENTITY county
+Middlesex	@ENTITY beat
+Hampshire	beat @ENTITY
+Hampshire	points , @ENTITY
+Glamorgan	@ENTITY beat
+Durham	beat @ENTITY
+Durham	points , @ENTITY
+Derbyshire	@ENTITY beat
+Worcestershire	beat @ENTITY
+Worcestershire	points , @ENTITY
+Surrey	@ENTITY beat
+Warwickshire	beat @ENTITY
+Warwickshire	points , @ENTITY
+Italy	@ENTITY ) , Reynard
+U.S.	@ENTITY ) , Reynard
+U.S.	@ENTITY ) , Reynard
+U.S.	@ENTITY ) , Reynard
+Brazil	@ENTITY ) , Reynard
+Brazil	@ENTITY ) , Reynard
+CANADA	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+PANAMA	BEAT @ENTITY
+WORLD CUP	@ENTITY QUALIFIER
+Canada	@ENTITY beat
+Panama	beat @ENTITY
+World Cup	@ENTITY on Friday
+Henry Honiball	@ENTITY kicked
+Joubert	@ENTITY made
+Joubert	@ENTITY kicked
+Joubert	@ENTITY kicked
+Joubert	@ENTITY kicked
+Sean Fitzpatrick	@ENTITY ( captain
+SOUTH AFRICA	@ENTITY BEAT
+ALL BLACKS	BEAT @ENTITY
+South Africa	@ENTITY beat
+New Zealand	beat @ENTITY
+Ellis Park	@ENTITY on Saturday
+MAURITANIA	SOCCER - @ENTITY
+Mohamed Lemine Cheiguer	president @ENTITY	@ENTITY said
+Benin	@ENTITY on Friday
+MAURITANIA	SOCCER - @ENTITY
+Benin	@ENTITY won
+MAJOR LEAGUE	BASEBALL - @ENTITY	@ENTITY RESULTS
+YUGOSLAV	SOCCER - @ENTITY	@ENTITY LEAGUE	SOCCER - @ENTITY LEAGUE
+Yugoslav	Results of @ENTITY
+INCE	SOCCER - @ENTITY
+Paul Gascoigne	midfielder @ENTITY
+TROFEJ BEOGRAD TOURNAMENT	@ENTITY RESULTS
+Benetton	@ENTITY ( Italy
+Dinamo	@ENTITY ( Russia
+Alba	@ENTITY ( Germany
+TROFEJ BEOGRAD TOURNAMENT	@ENTITY RESULTS
+Benetton	@ENTITY ( Italy
+Dinamo	@ENTITY ( Russia
+Alba	@ENTITY ( Germany
+ROMANIA	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+LITHUANIA	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Romania	@ENTITY beat
+Lithuania	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+ARMENIA	SOCCER - @ENTITY
+WORLD CUP	@ENTITY QUALIFIER
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+AZERBAIJAN	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+SWITZERLAND	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Azerbaijan	@ENTITY beat
+Switzerland	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group
+BENETTON	@ENTITY BEAT
+DINAMO	BEAT @ENTITY
+Italy	@ENTITY beat
+Dinamo	beat @ENTITY
+SWEDEN	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+LATVIA	BEAT @ENTITY
+Sweden	@ENTITY beat
+Latvia	beat @ENTITY
+Joakim Persson	Scorers : @ENTITY
+BELARUS	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+ESTONIA	BEAT @ENTITY	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER	BEAT @ENTITY IN WORLD	BEAT @ENTITY IN WORLD CUP	BEAT @ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+Belarus	@ENTITY beat
+Estonia	beat @ENTITY
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+Rios	@ENTITY lost
+Agassi	champion @ENTITY
+Washington	said @ENTITY
+American	@ENTITY won
+Tarango	@ENTITY said
+Rios	said @ENTITY
+Tarango	@ENTITY said
+ENGLAND	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+MOLDOVA	BEAT @ENTITY
+England	@ENTITY beat
+Moldova	beat @ENTITY
+Bruce Dyer	Scorers : @ENTITY
+Hill	@ENTITY made
+Hill	said @ENTITY
+Hill	@ENTITY won	@ENTITY won the
+Jansher	@ENTITY said	@ENTITY said that
+Eyles	said @ENTITY
+Hong Kong Open	@ENTITY on Saturday
+Pakistan	@ENTITY ) beat
+Anthony Hill	beat @ENTITY	@ENTITY ( Australia
+Rodney Eyles	@ENTITY ( Australia
+Australia	@ENTITY ) beat
+GREATER MILWAUKEE OPEN	AT @ENTITY
+Parnevik	said @ENTITY
+Henke	said @ENTITY
+Kraft	including @ENTITY
+Spain	champion @ENTITY
+U.S.	@ENTITY captain
+Billie Jean King	captain @ENTITY	@ENTITY said	@ENTITY said at
+Monica	told @ENTITY
+King	@ENTITY said
+King	said @ENTITY
+Olympic	@ENTITY champion
+Lindsay	champion @ENTITY
+King	said @ENTITY
+National Tennis Centre	@ENTITY on Saturday
+Steffi Graf	@ENTITY ( Germany
+Germany	@ENTITY ) beat
+Natasha Zvereva	beat @ENTITY	@ENTITY ( Belarus
+Switzerland	@ENTITY ) beat
+Naoko Kijimuta	beat @ENTITY
+Austria	@ENTITY ) beat
+Petra Langrova	beat @ENTITY	@ENTITY ( Czech	@ENTITY ( Czech Republic	beat @ENTITY ( Czech	beat @ENTITY ( Czech Republic
+Thomas Enqvist	@ENTITY ( Sweden
+Sweden	@ENTITY ) beat
+Pablo Campana	beat @ENTITY
+U.S. Open	@ENTITY on Saturday
+U.S.	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+EL SALVADOR	BEAT @ENTITY
+United States	@ENTITY beat
+El Salvador	beat @ENTITY
+MAJOR LEAGUE	BASEBALL - @ENTITY
+KANSAS CITY	@ENTITY AT
+DETROIT	AT @ENTITY
+BALTIMORE	@ENTITY AT
+SEATTLE	AT @ENTITY
+CHICAGO	@ENTITY AT
+TORONTO	AT @ENTITY
+MINNESOTA	@ENTITY AT
+MILWAUKEE	AT @ENTITY
+CLEVELAND	@ENTITY AT
+TEXAS	AT @ENTITY
+BOSTON	@ENTITY AT
+OAKLAND	AT @ENTITY
+NEW YORK	@ENTITY AT
+CALIFORNIA	AT @ENTITY
+ATLANTA	@ENTITY AT
+CHICAGO	AT @ENTITY
+HOUSTON	@ENTITY AT
+PITTSBURGH	AT @ENTITY
+SAN FRANCISCO	@ENTITY AT
+NEW YORK	AT @ENTITY
+FLORIDA	@ENTITY AT
+CINCINNATI	AT @ENTITY
+LOS ANGELES	@ENTITY AT
+PHILADELPHIA	AT @ENTITY
+SAN DIEGO	@ENTITY AT
+MONTREAL	AT @ENTITY
+COLORADO	@ENTITY AT
+ST LOUIS	AT @ENTITY
+MAJOR LEAGUE	BASEBALL - @ENTITY	@ENTITY RESULTS
+Cunningham	@ENTITY said
+Eagles	said @ENTITY
+KEVIN BROWN	BASEBALL - @ENTITY
+MARLINS	@ENTITY BEAT
+REDS	BEAT @ENTITY
+ERA	@ENTITY leader
+Kevin Brown	leader @ENTITY
+Florida Marlins	@ENTITY beat	@ENTITY beat the
+Cincinnati Reds	beat the @ENTITY
+John Boles	manager @ENTITY
+Brown	@ENTITY said
+Ray Knight	manager @ENTITY
+Los Angeles	@ENTITY won
+Braves	@ENTITY took
+Andruw Jones	@ENTITY took
+Wally Joyner	@ENTITY hit
+Montreal	@ENTITY hit
+Montreal	@ENTITY lost
+San Francisco Giants	@ENTITY beat	@ENTITY beat the
+Mets	beat the @ENTITY
+Bobby Valentine	manager @ENTITY
+Cardinals	@ENTITY beat	@ENTITY beat the
+Colorado Rockies	beat the @ENTITY
+Eric Anthony	@ENTITY hit
+Open	@ENTITY champion
+Edberg	@ENTITY said
+Edberg	said @ENTITY
+Wimbledon	@ENTITY champion
+Edberg	@ENTITY lost
+Edberg	said @ENTITY
+Edberg	@ENTITY said
+Krajicek	match against @ENTITY
+Edberg	said @ENTITY
+AUSTRIA	SOCCER - @ENTITY
+SCOTLAND	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+World Cup	@ENTITY group
+Scotland	@ENTITY on Saturday
+Michael Konsel	goalkeeper @ENTITY
+Gary McAllister	captain @ENTITY
+Scottish	@ENTITY coach
+Craig Brown	coach @ENTITY	@ENTITY told	@ENTITY told reporters
+Austrian	@ENTITY coach
+Herbert Prohaska	coach @ENTITY	@ENTITY said
+Tom Johnson	American @ENTITY
+Ramon Guzman	@ENTITY on Saturday
+FRANCE	SOCCER - @ENTITY
+France	@ENTITY beat
+Mexico	beat @ENTITY
+Aime Jacquet	coach @ENTITY
+European	@ENTITY championship
+Joaquin del Olmo	midfielder @ENTITY
+Osvaldo Sanchez	goalkeeper @ENTITY
+FRANCE	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+MEXICO	BEAT @ENTITY
+France	@ENTITY beat
+Mexico	beat @ENTITY
+Nicolas Ouedec	Scorers : @ENTITY
+BELGIUM	SOCCER - @ENTITY
+Belgium	@ENTITY kicked
+1998 World Cup	@ENTITY campaign
+Filip De Wilde	goalkeeper @ENTITY
+Rustu Recber	goalkeeper @ENTITY
+Belgian	@ENTITY coach
+Wilfried Van Moer	coach @ENTITY	@ENTITY said	@ENTITY said he
+Van Moer	said @ENTITY
+division	@ENTITY on Saturday
+GREATER MILWAUKEE OPEN	AT @ENTITY
+Jesper Parnevik	@ENTITY ( Sweden
+Dave Barr	@ENTITY ( Canada
+BELGIUM	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+TURKEY	BEAT @ENTITY
+WORLD CUP	@ENTITY QUALIFIER
+Belgium	@ENTITY beat
+Turkey	beat @ENTITY
+World Cup	@ENTITY group
+AUSTRIA	SOCCER - @ENTITY
+SCOTLAND	@ENTITY IN WORLD	@ENTITY IN WORLD CUP	@ENTITY IN WORLD CUP QUALIFIER
+WORLD CUP	@ENTITY QUALIFIER
+World Cup	@ENTITY soccer	@ENTITY soccer European	@ENTITY soccer European group
+European	soccer @ENTITY	Cup soccer @ENTITY	World Cup soccer @ENTITY	a World Cup soccer @ENTITY	@ENTITY group	soccer @ENTITY group	Cup soccer @ENTITY group	World Cup soccer @ENTITY group	a World Cup soccer @ENTITY group
+Nate Miller	champion @ENTITY
+James Heath	American @ENTITY
+DUTCH	SOCCER - @ENTITY
+Nate Miller	American @ENTITY
+The Curragh	@ENTITY on Saturday
+KLINSMANN	SOCCER - @ENTITY
+Sueddeutsche Zeitung	@ENTITY on Saturday
+Klinsmann	@ENTITY said	@ENTITY said he
+European	@ENTITY championship
+GERMAN CUP	SOCCER - @ENTITY
+German Cup	Results of @ENTITY
+ROMANIA	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+LITHUANIA	BEAT @ENTITY
+Romania	@ENTITY beat
+British	@ENTITY newspaper
+Margaret Thatcher	said @ENTITY
+The Sunday Telegraph	@ENTITY quoted
+Majorie Orr	quoted @ENTITY	@ENTITY as saying
+Orr	@ENTITY said
+Thatcher	said @ENTITY
+Bernard Ingham	@ENTITY told
+Orr	@ENTITY said
+Orr	@ENTITY said
+U.S.	@ENTITY president
+Ronald Reagan	president @ENTITY
+Woods	@ENTITY said
+Billy Mayfair	champion @ENTITY
+Scott Hoch	champion @ENTITY
+Elizabeth I	@ENTITY born
+French	@ENTITY troops
+French	@ENTITY army
+Russian	@ENTITY army
+Henry Campbell-Bannerman	@ENTITY born
+Elia Kazan	@ENTITY born
+Anthony Quayle	@ENTITY born
+Baudouin I	@ENTITY born
+Jackie Stewart	@ENTITY won	@ENTITY won the
+United States	@ENTITY won
+U.S.	@ENTITY army
+British Labour Party	@ENTITY leader
+Tony Blair	leader @ENTITY	@ENTITY won
+Labour	@ENTITY won	@ENTITY won the
+John Major	Minister @ENTITY	Prime Minister @ENTITY	@ENTITY says
+Britain	@ENTITY on Saturday
+Arbil	city of @ENTITY
+Foreign Office	@ENTITY spokesman
+U.N.	@ENTITY officials
+John Major	Minister @ENTITY	Prime Minister @ENTITY
+Foreign Office	said the @ENTITY	@ENTITY spokesman
+Stansted	@ENTITY airport
+Iraqi	@ENTITY forces
+Arbil	town of @ENTITY
+London-based	@ENTITY spokesman
+Iraqi National Congress	@ENTITY said
+Iraqi	said @ENTITY
+Iraqi	@ENTITY forces
+Reuters	told @ENTITY
+Kurdish	@ENTITY forces
+Bill Clinton	President @ENTITY	@ENTITY on Friday
+Staouelli	town of @ENTITY
+South Korean	Results of @ENTITY
+Nelson Mandela	President @ENTITY
+Viljoen	@ENTITY told
+Rwandan	@ENTITY government
+U.N.	@ENTITY officials
+Goma	town of @ENTITY
+Kengo wa Dondo	Minister @ENTITY	Prime Minister @ENTITY	@ENTITY said	@ENTITY said at
+RDR	@ENTITY said
+Zairean	@ENTITY troops
+SILVA	SOCCER - @ENTITY
+Mauro Silva	midfielder @ENTITY
+NATO	@ENTITY said
+NATO	@ENTITY spokesman
+Max Marriner	@ENTITY said	@ENTITY said in
+Marriner	@ENTITY said	@ENTITY said that
+NATO	@ENTITY troops
+Mahala	@ENTITY is a
+Moslem	@ENTITY village
+Serb	@ENTITY police
+NATO	@ENTITY troops
+Mahala	@ENTITY on Saturday
+NATO	@ENTITY troops
+U.N.	@ENTITY police
+Urus-Martan	town of @ENTITY	@ENTITY on Saturday
+Grozny	capital @ENTITY
+Chechen	@ENTITY leader
+Dzhokhar Dudayev	leader @ENTITY
+Russian	@ENTITY peace
+Russian	@ENTITY troops
+Dudayeva	said @ENTITY
+Urus-Martan	@ENTITY is a
+Moscow-backed	@ENTITY leader
+Doku Zavgayev	leader @ENTITY
+Russian	@ENTITY troops
+Polish	@ENTITY group
+Zycie Warszawy	@ENTITY said
+Ruch	percent of @ENTITY
+Ruch	percent of @ENTITY
+Warsaw	@ENTITY stock
+UWP	group @ENTITY
+Ruch	percent of @ENTITY
+French	@ENTITY President
+Jacques Chirac	President @ENTITY
+Poland	percent of @ENTITY
+Zycie Warszawy	@ENTITY said	@ENTITY said the
+Wieslaw Kaczmarek	Minister @ENTITY
+Ruch	@ENTITY says
+Ruch	percent of @ENTITY
+SPC	@ENTITY group
+Kaczmarek	@ENTITY said	@ENTITY said in
+Interfax	@ENTITY news	@ENTITY news agency	@ENTITY news agency said
+Fidel Castro	President @ENTITY
+pre-Castro	@ENTITY government
+Prensa Latina	@ENTITY on Saturday
+Chilean	@ENTITY officials
+Jose Miguel Insulza	Minister @ENTITY
+Chile	@ENTITY is a
+Cochabamba	city of @ENTITY
+Mexican	@ENTITY army
+Michoacan	@ENTITY state
+Mexican	@ENTITY state
+Michoacan	@ENTITY on Friday
+Radio Red	@ENTITY quoted
+Tacambaro	town of @ENTITY
+Morelia	capital @ENTITY
+Radio Red	told @ENTITY
+Montoya	@ENTITY said	@ENTITY said he
+China	@ENTITY said
+New York-based	@ENTITY group
+Human Rights in China	group @ENTITY	@ENTITY , said
+Wang	said @ENTITY
+Deng Xiaoping	leader @ENTITY
+Xiao	@ENTITY said	@ENTITY said in
+Xiao	said @ENTITY
+Xiao	@ENTITY said
+Hangzhou	city of @ENTITY
+Xiao	@ENTITY said
+Wang	beat @ENTITY
+Philippine	@ENTITY president
+Fidel Ramos	president @ENTITY
+Indonesian	@ENTITY president
+Suharto	president @ENTITY
+Moslem	@ENTITY rebels
+Ramos	@ENTITY told
+Suharto	told @ENTITY
+Ramos	@ENTITY said	@ENTITY said the
+Suu Kyi	@ENTITY says
+Aung San Suu Kyi	leader @ENTITY	@ENTITY hit
+Suu Kyi	@ENTITY told	@ENTITY told reporters
+Suu Kyi	@ENTITY said	@ENTITY said at
+Burmese	@ENTITY government
+Suu Kyi	including @ENTITY
+Suu Kyi	@ENTITY said
+Suu Kyi	@ENTITY said
+Suu Kyi	@ENTITY said	@ENTITY said the
+Dennis Mitchell	American @ENTITY
+Donovan Bailey	champion @ENTITY
+Mitchell	@ENTITY made
+Bailey	including @ENTITY
+Bailey	champion @ENTITY
+American Olympic	@ENTITY champion
+Gail Devers	champion @ENTITY
+China Daily	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+Mobil	including @ENTITY
+North Korean Red Cross	@ENTITY president
+Li Song-ho	president @ENTITY	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Li	@ENTITY said
+Kim	said @ENTITY
+Yonhap	@ENTITY news	@ENTITY news agency	@ENTITY news agency said
+South Korean	said the @ENTITY	@ENTITY government
+Chinese	@ENTITY police
+Chinese	@ENTITY police
+Human Rights in China	group @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+Zhejiang	province of @ENTITY
+Wang	told @ENTITY
+Wang	@ENTITY on Friday
+Hangzhou	@ENTITY police
+China	@ENTITY police
+Chinese	@ENTITY police
+Human Rights in China	group @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+Wang	@ENTITY on Friday
+Wang	said @ENTITY
+Chen Chun-yeh	@ENTITY told
+Hong Kong Standard	@ENTITY said
+China Daily	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+Hubei	province of @ENTITY
+Guangdong	province of @ENTITY
+Iranian	@ENTITY troops
+Iranian	@ENTITY troops
+Baghdad	backed by @ENTITY
+Iraqi Kurdish	@ENTITY group
+Reuters	told @ENTITY
+Reuters	told @ENTITY
+Nerweyi	@ENTITY said	@ENTITY said he
+KDP	said @ENTITY
+Nerweyi	@ENTITY said	@ENTITY said he
+Baghdad	@ENTITY said	@ENTITY said the
+KDP	said the @ENTITY
+Iraqi	backed by @ENTITY
+Arbil	city of @ENTITY
+U.S.	@ENTITY President
+Bill Clinton	President @ENTITY
+Islamic	@ENTITY group
+Israeli	@ENTITY army
+Sikhin	@ENTITY village
+Israeli	@ENTITY army
+Israeli	@ENTITY troops
+Israeli	@ENTITY troops
+Jewish	@ENTITY state
+Massoud Barzani	@ENTITY said	@ENTITY said that
+Iraqi	backed by @ENTITY
+Arbil	city of @ENTITY
+Baghdad	@ENTITY said
+Iraqi	@ENTITY troops
+KDP	@ENTITY leaders
+Reuters	told @ENTITY
+Bahraini	@ENTITY village
+Bahraini	@ENTITY village
+al-Daih	@ENTITY village
+Manama	capital @ENTITY
+English	@ENTITY county
+Derbyshire	@ENTITY ( three days
+Leicestershire	@ENTITY ( three days
+Lord 's	test ( at @ENTITY
+Hampshire	@ENTITY ( three days
+Old Trafford	test ( at @ENTITY
+Glamorgan	@ENTITY ( three days
+Middlesex	@ENTITY ( three days
+Headingley	test ( at @ENTITY
+Trent Bridge	test ( at @ENTITY
+Kent	@ENTITY ( three days
+The Oval	test ( at @ENTITY
+BERLIN GRAND PRIX	@ENTITY RESULTS
+Michelle Freeman	@ENTITY ( Jamaica
+Ludmila Engquist	@ENTITY ( Sweden
+Aliuska Lopez	@ENTITY ( Cuba
+Dionne Rose	@ENTITY ( Jamaica
+Gillian Russell	@ENTITY ( Jamaica
+Svetlana Masterkova	@ENTITY ( Russia
+Patricia Djate-Taillard	@ENTITY ( France
+Yekaterina Podkopayeva	@ENTITY ( Russia
+Leah Pells	@ENTITY ( Canada
+Carmen Wuestenhagen	@ENTITY ( Germany
+Margarita Maruseva	@ENTITY ( Russia
+Sara Thorsett	@ENTITY ( U.S.
+Mark Crear	@ENTITY ( U.S.
+Tony Jarrett	@ENTITY ( Britain
+Florian Schwarthoff	@ENTITY ( Germany
+Emilio Valle	@ENTITY ( Cuba
+Falk Balzer	@ENTITY ( Germany
+Steve Brown	@ENTITY ( U.S.
+Frank Busemann	@ENTITY ( Germany
+Jack Pierce	@ENTITY ( U.S.
+Michael Johnson	@ENTITY ( U.S.
+Geir Moen	@ENTITY ( Norway
+Jon Drummond	@ENTITY ( U.S.
+Ivan Garcia	@ENTITY ( Cuba
+Astrid Kumbernuss	@ENTITY ( Germany
+Claudia Mues	@ENTITY ( Germany
+Irina Korzhanenko	@ENTITY ( Russia
+Valentina Fedyushina	@ENTITY ( Russia
+Stephanie Storp	@ENTITY ( Germany
+William Tanui	@ENTITY ( Kenya
+Laban Rotich	@ENTITY ( Kenya
+Marko Koers	@ENTITY ( Netherlands
+Isaac Viciosa	@ENTITY ( Spain
+John Mayock	@ENTITY ( Britain
+Marcus O'Sullivan	@ENTITY ( Ireland
+Lars Riedel	@ENTITY ( Germany
+Anthony Washington	@ENTITY ( U.S.
+Vasily Kaptyukh	@ENTITY ( Belarus
+Vladimir Dubrovshchik	@ENTITY ( Belarus
+Virgilijus Alekna	@ENTITY ( Lithuania
+Juergen Schult	@ENTITY ( Germany
+Andreas Seelig	@ENTITY ( Germany
+Michael Moellenbeck	@ENTITY ( Germany
+Gail Devers	@ENTITY ( U.S.
+Merlene Ottey	@ENTITY ( Jamaica
+Gwen Torrence	@ENTITY ( U.S.
+Mary Onyali	@ENTITY ( Nigeria
+Chryste Gaines	@ENTITY ( U.S.
+Irina Privalova	@ENTITY ( Russia
+Inger Miller	@ENTITY ( U.S.
+Rose Cheruiyot	@ENTITY ( Kenya
+Tegla Loroupe	@ENTITY ( Kenya
+Gunhild Halle	@ENTITY ( Norway
+Pauline Konga	@ENTITY ( Kenya
+Sally Barsosio	@ENTITY ( Kenya
+Torrance Zellner	@ENTITY ( U.S.
+Derrick Adkins	@ENTITY ( U.S.
+Fabrizio Mori	@ENTITY ( Italy
+Sven Nylander	@ENTITY ( Sweden
+Eric Thomas	@ENTITY ( U.S.
+Rohan Robinson	@ENTITY ( Australia
+Falilat Ogunkoya	@ENTITY ( Nigeria
+Jearl Miles	@ENTITY ( U.S.
+Fatima Yusuf	@ENTITY ( Nigeria
+Anja Ruecker	@ENTITY ( Germany
+Olabisi Afolabi	@ENTITY ( Nigeria
+Phylis Smith	@ENTITY ( Britain
+Linda Kisabaka	@ENTITY ( Germany
+Karin Janke	@ENTITY ( Germany
+Dennis Mitchell	@ENTITY ( U.S.
+Michael Green	@ENTITY ( Jamaica
+Donovan Bailey	@ENTITY ( Canada
+Jon Drummond	@ENTITY ( U.S.
+Davidson Ezinwa	@ENTITY ( Nigeria
+Geir Moen	@ENTITY ( Norway
+Marc Blume	@ENTITY ( Germany
+Norberto Tellez	@ENTITY ( Cuba
+Sammy Langat	@ENTITY ( Kenya
+Nico Motchebon	@ENTITY ( Germany
+David Kiptoo	@ENTITY ( Kenya
+Vebjoen Rodal	@ENTITY ( Norway
+Craig Winrow	@ENTITY ( Britain
+Andrei Tiwontschik	@ENTITY ( Germany
+Igor Trandenkov	@ENTITY ( Russia
+Maksim Tarasov	@ENTITY ( Russia
+Tim Lobinger	@ENTITY ( Germany
+Jean Galfione	@ENTITY ( France
+Pyotr Bochkary	@ENTITY ( Russia
+Dmitri Markov	@ENTITY ( Belarus
+Alina Astafei	@ENTITY ( Germany
+Tatyana Motkova	@ENTITY ( Russia
+Hanne Haugland	@ENTITY ( Norway
+Nele Zilinskiene	@ENTITY ( Lithuania
+Yelena Gulyayeva	@ENTITY ( Russia
+Natalya Golodnova	@ENTITY ( Russia
+Daniel Komen	@ENTITY ( Kenya
+Bob Kennedy	@ENTITY ( U.S.
+Paul Koech	@ENTITY ( Kenya
+Shem Kororia	@ENTITY ( Kenya
+Tom Nyariki	@ENTITY ( Kenya
+Jonathan Edwards	@ENTITY ( Britain
+Yoelvis Quesada	@ENTITY ( Cuba
+Kenny Harrison	@ENTITY ( U.S.
+Mike Conley	@ENTITY ( U.S.
+Sigurd Njerve	@ENTITY ( Norway
+Charles-Michael Friedek	@ENTITY ( Germany
+Tanja Damaske	@ENTITY ( Germany
+Trine Hattesta	@ENTITY ( Norway
+Isel Lopez	@ENTITY ( Cuba
+Louise McPaul	@ENTITY ( Australia
+Xiomara Rivero	@ENTITY ( Cuba
+Natalya Shikolen	@ENTITY ( Belarus
+Rita Ramaunaskaite	@ENTITY ( Lithuania
+Michael Johnson	@ENTITY ( U.S.
+Linford Christie	@ENTITY ( Britain
+Osmond Ezinwa	@ENTITY ( Nigeria
+Davidson Ezinwa	@ENTITY ( Nigeria
+Falk Balzer	@ENTITY ( Germany
+Florian Schwarthoff	@ENTITY ( Germany
+Aziz	@ENTITY says
+Tareq Aziz	Minister @ENTITY	Prime Minister @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+Iraqi	@ENTITY troops
+Massoud Barzani	leader @ENTITY
+Aziz	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Aziz	@ENTITY said
+Iraq	said @ENTITY
+Saddam Hussein	President @ENTITY
+Barzani	said @ENTITY
+Iraqi	@ENTITY troops
+Iraqi	@ENTITY troops
+Reuters	told @ENTITY
+France	@ENTITY says
+Zine al-Abidine Ben Ali	President @ENTITY
+Interstate 95	including @ENTITY
+National Automobile Occupant Protection Campaign	@ENTITY , said
+Dewey	@ENTITY said
+Don Penney	said @ENTITY
+Rochester Fire Department	@ENTITY said
+Boston	told @ENTITY
+Bill Clinton	President @ENTITY
+Pentagon	@ENTITY spokesman
+Doug Kennett	spokesman @ENTITY	@ENTITY said
+Clinton	@ENTITY said	@ENTITY said on	@ENTITY said on Saturday
+U.S.	@ENTITY forces
+Clinton	@ENTITY said	@ENTITY said at
+Clinton	@ENTITY said
+Iraqi	said @ENTITY
+Arbil	city of @ENTITY
+Kurdish	@ENTITY rebels
+Baghdad	@ENTITY says
+Iran	backed by @ENTITY
+Iraqi	@ENTITY forces
+U.S.	@ENTITY troops
+U.S.	@ENTITY troops
+Liege	@ENTITY said
+Liege	town of @ENTITY	@ENTITY on Thursday
+Algiers	@ENTITY on Friday
+Algerian	@ENTITY newspaper
+Staoueli	town of @ENTITY
+Le Matin	@ENTITY newspaper
+Liberte	@ENTITY newspaper
+Bou Haroun	town of @ENTITY
+Moslem	@ENTITY rebels
+Iranian	said @ENTITY
+German	said the @ENTITY
+Tehran	@ENTITY government
+Iranian	@ENTITY president
+Abolhassan Banisadr	president @ENTITY
+Tehran	@ENTITY government
+Iranian	@ENTITY leaders
+Kurdish	@ENTITY leaders
+Der Spiegel	told @ENTITY
+Kurdish	@ENTITY leaders
+Belgian	@ENTITY club
+Standard Liege	@ENTITY on Friday
+Karlsruhe	match against @ENTITY
+Belgian	@ENTITY club
+Guy Hellers	captain @ENTITY
+Karlsruhe	@ENTITY won	@ENTITY won the
+Lamberto Dini	Minister @ENTITY	@ENTITY on Saturday
+Tanzanian	@ENTITY president
+Julius Nyerere	president @ENTITY
+Dini	Minister @ENTITY
+U.N. Security Council	@ENTITY on Friday
+Buyoya	@ENTITY on Saturday
+Hutu	@ENTITY rebels
+Hutu	@ENTITY president
+Reuters	told @ENTITY
+Iraqi Kurd	@ENTITY leader
+Iraqi	@ENTITY troops
+Arbil	city of @ENTITY
+Chatelet	town of @ENTITY	@ENTITY told	@ENTITY told Reuters
+Reuters	told @ENTITY
+Kalashnikov	including @ENTITY
+Belgian	@ENTITY police
+Liege	@ENTITY police
+Reuters	told @ENTITY
+Liege	@ENTITY police
+Liege	town of @ENTITY	@ENTITY on Thursday
+Neil Jordan	@ENTITY says
+Jordan	@ENTITY said	@ENTITY said in	@ENTITY said in a
+IRA	@ENTITY , said
+Collins	said @ENTITY
+Jordan	@ENTITY said
+Jordan	@ENTITY said	@ENTITY said he
+Khurshid Alam	@ENTITY said
+Olympic	@ENTITY champion
+Kenny Harrison	champion @ENTITY
+International Amateur Athletic Federation	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+BARATELLI	SOCCER - @ENTITY
+Dominique Baratelli	goalkeeper @ENTITY
+MILAN	SOCCER - @ENTITY
+serie A	@ENTITY club
+Gazzetta dello Sport	@ENTITY said	@ENTITY said the
+ex-Milan	@ENTITY coach
+Fabio Capello	coach @ENTITY
+SRI LANKA	CRICKET - @ENTITY	@ENTITY BEAT
+AUSTRALIA	BEAT @ENTITY
+Sri Lanka	@ENTITY beat
+Australia	beat @ENTITY
+AUSTRALIA	CRICKET - @ENTITY
+M. Slater	@ENTITY run	@ENTITY run out
+A. Gurusinha	@ENTITY run	@ENTITY run out
+A. Ranatunga	@ENTITY lbw	@ENTITY lbw b
+Fleming	lbw b @ENTITY
+H. Tillekeratne	@ENTITY lbw	@ENTITY lbw b
+Fleming	lbw b @ENTITY
+AUSTRALIA	CRICKET - @ENTITY
+AUSTRALIA	CRICKET - @ENTITY
+Australia	@ENTITY won	@ENTITY won the
+Ian Healy	@ENTITY ( captain
+Arjuna Ranatunga	@ENTITY ( captain
+Comelf	@ENTITY said
+Bucharest	@ENTITY stock
+Bistrita	town of @ENTITY
+SHEARER	SOCCER - @ENTITY
+England	@ENTITY captain
+European	@ENTITY championship
+David Platt	captain @ENTITY
+Glenn Hoddle	coach @ENTITY	@ENTITY said	@ENTITY said he
+Hoddle	@ENTITY said
+Canada	@ENTITY government
+Bank of Canada	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Jones Medical Industries Inc	@ENTITY said
+Jones	@ENTITY stock
+Japanese	said @ENTITY
+CNBC	@ENTITY , said
+U.S.	said the @ENTITY
+Alan Greenspan	@ENTITY said	@ENTITY said at
+Fed	said the @ENTITY
+James Hoey	said @ENTITY
+Hoey	@ENTITY said
+John Casesa	said @ENTITY
+Stansted	@ENTITY airport
+interior ministry	@ENTITY officials
+Treasury	@ENTITY bond
+Tokyo	@ENTITY stock
+Frank Bruno	champion @ENTITY
+Sun	@ENTITY newspaper
+Bruno	@ENTITY lost
+Oliver McCall	American @ENTITY
+Bruno	@ENTITY lost
+Tyson	American @ENTITY
+Yugoslavia	@ENTITY ) beat
+Dinamo	beat @ENTITY	@ENTITY ( Russia
+Irish	@ENTITY soccer
+Mick McCarthy	manager @ENTITY	@ENTITY on Friday
+News Agency of Nigeria	@ENTITY quoted
+Uyo	town of @ENTITY	@ENTITY said	@ENTITY said the
+Gold Fields of South Africa Ltd	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Johannesburg	@ENTITY newsroom
+Chad	@ENTITY government
+Nagoum Yamassoum	Minister @ENTITY
+Chechnya	@ENTITY peace
+Viktor Chernomyrdin	Minister @ENTITY	Prime Minister @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Boris Yeltsin	President @ENTITY
+Interfax	@ENTITY news	@ENTITY news agency	@ENTITY news agency said
+Interfax	@ENTITY quoted
+Chernomyrdin	quoted @ENTITY	@ENTITY as saying
+Lebed	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Itar-Tass	@ENTITY news	@ENTITY news agency
+Lebed	quoted @ENTITY	@ENTITY as saying
+Lebed	@ENTITY said	@ENTITY said he
+Chernomyrdin	@ENTITY said	@ENTITY said on
+Alexander Lebed	@ENTITY said	@ENTITY said he
+Aslan Maskhadov	leader @ENTITY
+Lebed	@ENTITY told reporters
+Lebed	@ENTITY told reporters
+Lebed	@ENTITY said	@ENTITY said he
+Lebed	@ENTITY said
+Boris Yeltsin	President @ENTITY
+Viktor Chernomyrdin	Minister @ENTITY	Prime Minister @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Lebed	@ENTITY took
+Bosnian	@ENTITY government
+U.S.	said @ENTITY
+SDA	@ENTITY officials
+Bosnian	@ENTITY President
+Alija Izetbegovic	President @ENTITY
+Belgrade	@ENTITY airport
+Yugoslav	@ENTITY news	@ENTITY news agency
+Belgrade	@ENTITY airport
+Ljubomir Acimovic	@ENTITY as saying
+Acimovic	@ENTITY said
+Belgrade	@ENTITY airport
+Tanjug	@ENTITY said
+Batajnica	@ENTITY airport
+Branko Bilbija	@ENTITY said
+Belgrade	@ENTITY newsroom
+Alexander Lukashenko	President @ENTITY	@ENTITY on Friday
+Reuters	told @ENTITY
+Lukashenko	President @ENTITY
+European	@ENTITY state
+Sharetsky	@ENTITY said
+Reuters	told @ENTITY
+Sharetsky	@ENTITY said	@ENTITY said the
+Tajik	@ENTITY troops
+Tajik	@ENTITY government
+Tavildara	town of @ENTITY
+Islamic	@ENTITY rebels
+Sherbatov	@ENTITY said	@ENTITY said the
+Dushanbe	capital @ENTITY
+Rajab Adinayev	said @ENTITY
+ROMANIA	SOCCER - @ENTITY	@ENTITY BEAT	SOCCER - @ENTITY BEAT
+LITHUANIA	BEAT @ENTITY
+Romania	@ENTITY beat
+Lithuania	beat @ENTITY
+Yugoslavia	visit @ENTITY
+Dariusz Rosati	Minister @ENTITY
+Yugoslavia	visit @ENTITY
+PAP	@ENTITY news	@ENTITY news agency
+Foreign Ministry	quoted @ENTITY	@ENTITY officials
+Serbian	@ENTITY President
+Slobodan Milosevic	President @ENTITY
+Russian	@ENTITY President
+Boris Yeltsin	President @ENTITY
+Interfax	@ENTITY news	@ENTITY news agency
+Sergei Yastrzhembsky	spokesman @ENTITY	@ENTITY as saying
+Russian	@ENTITY news
+Yeltsin	said @ENTITY
+Yastrzhembsky	@ENTITY quoted
+Yeltsin	quoted @ENTITY	@ENTITY as saying
+Yastrzhembsky	@ENTITY said
+Yeltsin	said @ENTITY
+Aslan Maskhadov	leader @ENTITY
+Maskhadov	@ENTITY made
+Interfax	@ENTITY news	@ENTITY news agency	@ENTITY news agency said
+Interfax	@ENTITY said
+Interfax	@ENTITY quoted
+Levrentyeva	quoted @ENTITY
+Stephen Frater	@ENTITY told	@ENTITY told reporters
+Vienna	@ENTITY on Friday
+Frater	@ENTITY said
+Frater	@ENTITY said	@ENTITY said he
+Frater	@ENTITY said
+Cofinec	@ENTITY said
+Petofi	said @ENTITY
+Laszlo Sebesvari	manager @ENTITY
+Frater	@ENTITY said
+Budapest	@ENTITY newsroom
+Municipal Police	@ENTITY told	@ENTITY told Reuters
+Reuters	told @ENTITY
+Ronny Brunswijk	leader @ENTITY
+Moengo	town of @ENTITY
+Norodom Sihanouk	@ENTITY on Friday
+Seoul	@ENTITY government
+Hong Kong	@ENTITY on Friday
+New York	@ENTITY on Thursday
+ROTOR	SOCCER - @ENTITY
+Anatoly Gorokhovsky	@ENTITY , said
+Tripoli	capital @ENTITY
+Tripoli	@ENTITY airport
+African	@ENTITY leaders
+Reuters	told @ENTITY
+Gaddafi	said @ENTITY
+Clinton	President @ENTITY
+Hugh Johnson	said @ENTITY
+White House	@ENTITY said
+John Geraghty	said @ENTITY
+Clinton	@ENTITY won
+Johnson	@ENTITY said	@ENTITY said that
+Geraghty	said @ENTITY
+Geraghty	@ENTITY said	@ENTITY said that
+Geraghty	@ENTITY said
+Geraghty	@ENTITY said
+Commerce Department	@ENTITY said
+Philadelphia	@ENTITY said
+Naroff	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Lawrence Lindsey	@ENTITY said
+Lindsey	@ENTITY said
+Reaser	@ENTITY said
+U.S. Agriculture Department	@ENTITY officials
+Paul Drazek	said @ENTITY
+Drazek	said @ENTITY
+Mexican	@ENTITY officials
+Tom Bellamore	said @ENTITY
+Agriculture Department	said the @ENTITY
+Bernardin	@ENTITY says
+Bernardin	@ENTITY told
+Michael Ancell	said @ENTITY
+James Weber	said @ENTITY
+Roosevelt Financial Group Inc	@ENTITY is a
+Weber	@ENTITY said
+First Chicago	@ENTITY said	@ENTITY said the
+Weber	@ENTITY said
+Boatmen 's	@ENTITY stock
+Ancell	@ENTITY said
+Michael Durante	said @ENTITY
+State Department	@ENTITY spokesman
+Glyn Davies	spokesman @ENTITY	@ENTITY said
+U.S.	@ENTITY government
+Libyan	@ENTITY leader
+Muammar Gaddafi	leader @ENTITY
+Nation of Islam	@ENTITY group
+Treasury Department	@ENTITY said
+Libya	said @ENTITY
+Offshore Data Services	@ENTITY said
+Clinton	President @ENTITY
+Dole	@ENTITY campaign
+Dole	@ENTITY campaign
+Scott Reed	manager @ENTITY
+Dole	@ENTITY campaign
+Scott Reed	manager @ENTITY
+Clinton	@ENTITY campaign
+Peter Knight	manager @ENTITY
+Erin Purcell	said @ENTITY
+Purcell	@ENTITY said
+Duran	@ENTITY told	@ENTITY told Reuters
+Reuters	told @ENTITY
+Boxing Association	@ENTITY President
+Ramon Manzanares	President @ENTITY	@ENTITY said
+Camacho	@ENTITY took
+Middle East	@ENTITY peace
+German	@ENTITY government
+Palestinians	@ENTITY on Friday
+Palestinian	@ENTITY President
+Yasser Arafat	President @ENTITY	@ENTITY said	@ENTITY said the
+Benjamin Netanyahu	Minister @ENTITY	Prime Minister @ENTITY
+Foreign Ministry	@ENTITY spokesman
+Martin Erdmann	spokesman @ENTITY	@ENTITY said
+Arab-Israeli	@ENTITY peace
+Erdmann	@ENTITY told	@ENTITY told reporters
+David Levy	Minister @ENTITY
+Bonn	visit @ENTITY
+Levy	said @ENTITY
+Volker Ruehe	Minister @ENTITY
+Israel	visit @ENTITY
+Israeli	@ENTITY President
+Ezer Weizman	President @ENTITY
+Netanyahu	Minister @ENTITY	Prime Minister @ENTITY
+Shimon Peres	leader @ENTITY
+France	@ENTITY on Friday
+Charles de Gaulle	@ENTITY airport
+CFDT	@ENTITY spokesman
+Francois Cabrera	spokesman @ENTITY	@ENTITY said
+Alain Juppe	Minister @ENTITY	Prime Minister @ENTITY
+Juppe	@ENTITY told	@ENTITY told reporters
+German	@ENTITY police
+German	@ENTITY police
+Reuters	told @ENTITY
+Dutch	@ENTITY police
+Groningen	city of @ENTITY
+German	@ENTITY police
+Dutch	@ENTITY police
+Canadian	@ENTITY bonds
+Canadian	@ENTITY bonds
+U.S.	@ENTITY bonds
+Jim Webber	said @ENTITY
+Statistics Canada	@ENTITY on Friday
+Canadian	@ENTITY bonds
+Webber	said @ENTITY
+Toronto Bond Traders ' Association	@ENTITY said
+Canadian	@ENTITY bond
+GMT	@ENTITY on Friday
+Syria	@ENTITY on Friday
+Benjamin Netanyahu	Minister @ENTITY	Prime Minister @ENTITY
+Israeli	@ENTITY government
+Damascus Radio	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Palestinian	@ENTITY President
+Yasser Arafat	President @ENTITY
+Israeli	@ENTITY government
+Israeli	@ENTITY government
+Hong Kong Open	@ENTITY on Friday
+Pakistan	@ENTITY ) beat
+Mark Cairns	beat @ENTITY
+Anthony Hill	@ENTITY ( Australia
+Australia	@ENTITY ) beat
+Dan Jenson	beat @ENTITY	@ENTITY ( Australia
+Scotland	@ENTITY ) beat
+Rodney Eyles	@ENTITY ( Australia
+Australia	@ENTITY ) beat
+Derek Ryan	beat @ENTITY	@ENTITY ( Ireland
+Egypt	@ENTITY police
+al-Gama'a al-Islamiya	group @ENTITY
+Rami al-Saadani	leader @ENTITY
+Hosni Mubarak	President @ENTITY
+Islamic	@ENTITY state
+Palestinian	@ENTITY President
+Arafat	President @ENTITY
+Jewish	@ENTITY state
+Palestinian	@ENTITY state
+Jamil	@ENTITY said
+Palestinians	@ENTITY took
+Commerce Department	@ENTITY said
+Commerce	@ENTITY said
+Treasury	@ENTITY bond
+Ralph Bloch	said @ENTITY
+David Shulman	said @ENTITY
+Clinton	President @ENTITY
+Wall Street	said @ENTITY
+Democratic	@ENTITY President
+Clinton	President @ENTITY
+Pirelli	@ENTITY on Friday
+Hong Kong-based	@ENTITY group
+CITIC Pacific	group @ENTITY
+Milan	@ENTITY stock
+Pirelli SpA	said @ENTITY
+CITIC Pacific	@ENTITY is a
+Dutch	@ENTITY bond
+Dutch	@ENTITY bond
+EOE	@ENTITY spokesman
+EOE	@ENTITY spokesman
+Lex van Drooge	spokesman @ENTITY	@ENTITY told	@ENTITY told Reuters
+Reuters	told @ENTITY
+Dutch	@ENTITY bonds
+German	@ENTITY bond
+Amsterdam	@ENTITY newsroom
+Chechnya	@ENTITY peace
+German	told @ENTITY
+Pro-Moscow	@ENTITY leaders
+Aslan Maskhadov	leader @ENTITY
+Cotti	@ENTITY said
+Chechnya	said @ENTITY
+Cotti	said @ENTITY
+Annemarie Jorritsma	@ENTITY told
+Jorritsma	@ENTITY said	@ENTITY said the
+Azerbaijani	said @ENTITY
+Azeri	percent of @ENTITY
+Interfax	@ENTITY news	@ENTITY news agency
+Interfax	@ENTITY said	@ENTITY said the
+South Korean	Results of @ENTITY
+Longyear	@ENTITY is a
+Stig Onarheim	said @ENTITY
+Spitzbergen	@ENTITY on Thursday
+Reuters	told @ENTITY
+Longyear	@ENTITY is a
+Johan Sletten	said @ENTITY
+Norwegian	said the @ENTITY
+Ericsson	@ENTITY says
+LM Ericsson AB	group @ENTITY	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+China	province of @ENTITY
+Ericsson	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Ericsson	@ENTITY spokesman
+Per Zetterquist	spokesman @ENTITY	@ENTITY told	@ENTITY told Reuters
+Reuters	told @ENTITY
+Stockholm	@ENTITY newsroom
+Donald Tsang	@ENTITY said	@ENTITY said on	@ENTITY said on Friday
+Tsang	@ENTITY said	@ENTITY said in	@ENTITY said in a
+Tsang	@ENTITY said
+Wellington	@ENTITY newsroom
+Indonesian	@ENTITY President
+Suharto	President @ENTITY
+Philippine	@ENTITY government
+Suharto	President @ENTITY
+Megawati Sukarnoputri	leader @ENTITY
+Apic Yamada Corp	@ENTITY is a
+Xinhua	@ENTITY news	@ENTITY news agency	@ENTITY news agency said
+Huize	@ENTITY county
+Yunnan	province of @ENTITY
+Xinhua	@ENTITY said
+Changi Prison	@ENTITY on Friday
+CNB	@ENTITY said
+Palestinian	@ENTITY President
+Yasser Arafat	President @ENTITY
+Ramallah	@ENTITY on Friday
+Arafat	said @ENTITY
+Nablus	@ENTITY on Saturday
+Jerusalem	visit @ENTITY
+Middle East	@ENTITY peace
+Security Council	@ENTITY President
+Tono Eitel	President @ENTITY
+Germany	@ENTITY said	@ENTITY said that
+Eitel	@ENTITY said
+Marwan Jilani	@ENTITY said	@ENTITY said the

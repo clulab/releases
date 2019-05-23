@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/knn_file_conll.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/knn_file_conll.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/buildindex_conll.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/buildindex_conll.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/epb_conll.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/epb_conll.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/knn_file_ontonotes.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/knn_file_ontonotes.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/application.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/buildindex_ontonotes.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/buildindex_ontonotes.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrew/clulab/research/clint/src/main/resources/epb_ontonotes.conf,/home/andrew/clulab/research/clint/target/scala-2.12/classes/epb_ontonotes.conf)[0m

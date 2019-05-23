@@ -1,0 +1,20 @@
+SEC adopts rules to improve investor access to best stock prices .
+WASHINGTON 1996-08-28
+The Securities and Exchange Commission Wednesday approved rules designed to give stock market investors a better chance at getting the best price available for their orders .
+The so-called order handling rules , which were proposed last September , were approved in a 4-0 vote .
+The new rules will require specialists at stock exchanges and market makers on Nasdaq to allow customers to view price quotes from other electronic trading systems that may not be readily available to them .
+The rules will also require that customer limit orders be displayed with prices better than those available in quotes publicly available at the time .
+Specialists and market makers are companies or individuals recognised as qualified to maintain an orderly market in a stock .
+In a limit order , investors specify the price at which they are willing to buy or sell , as opposed to a market order executed at prevailing prices .
+" These rules are intended to empower all investors , by allowing their orders to compete on a level playing field , and by providing the disclosure they need to make informed decisions , " said SEC Chairman Arthur Levitt .
+The SEC 's goal , he added , was to create " one system where one price could be available to everybody . "
+The director of the SEC 's division of market regulation , Richard Lindsey , said Wall Street firms will probably need to spend about $ 7 million to carry out the improvements called for by the new rules .
+In proposing the rules last year , the SEC noted that while technology has improved , commonplace practices still existed that worked against investors ' best interests .
+It noted that customers whose orders were not displayed lost the chance of getting the best possible price available in the market .
+It also cited the potential problem of a two-tiered market in which market makers quote one price to public investors while quoting better prices in private systems , thus robbing investors without access to " hidden " quotes the benefit of the best available prices .
+Earlier this month , the SEC settled charges of alleged malpractices on Nasdaq when the parent of the Nasdaq market , the National Association of Securities Dealers , agreed to spend $ 100 million over five years to upgrade its oversight of brokers ' trading practices .
+The SEC dropped a third proposal that would have allowed investors with market orders to trade at a better price if there were shifts in prices before their orders were executed .
+The agency said it would monitor effects of the two new rules before considering the " price improvement " proposal again .
+The agency also proposed rule changes that would require continuous " bid " and " ask " quotations from exchange specialists and market makers who trade more than 1 percent of a stock during any quarter on Nasdaq .
+The SEC 's limit order display rule will mean a major change for Nasdaq , where such orders have never been displayed .
+The president of the Nasdaq , Alfred Berkeley , was to hold a news conference Wednesday afternoon to elaborate on the new rules ' effects on the market , the second largest in the world .
