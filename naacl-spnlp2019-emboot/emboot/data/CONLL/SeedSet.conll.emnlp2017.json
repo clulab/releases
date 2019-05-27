@@ -1,0 +1,6 @@
+{
+   "PER" : ["Clinton", "Dole", "Arafat", "Yeltsin", "Lebed", "Dutroux", "Wasim Akram", "Mushtaq Ahmed", "Waqar Younis", "Mother Teresa"],
+   "ORG" : ["Reuters", "U.N.", "PUK", "OSCE", "NATO", "EU", "Honda", "European Union", "Ajax", "KDP"],
+   "LOC" : ["U.S.", "Germany", "Britain", "Australia", "France", "England", "Spain", "Italy", "China", "Russia"],
+   "MISC" : ["Russian", "German", "British", "French", "Dutch", "Israeli", "GMT", "Iraqi", "European", "English"]
+}

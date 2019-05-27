@@ -1,0 +1,13 @@
+{
+   "EVENT" : ["the Wushe Incident",	"RMA", "the Great Tangshan Earthquake", "Series", "Hurricane Hugo", "nine eleven", "the Cold War", "New Year 's Eve", "the Hundred Regiments Offensive", "Iran - Contra"], 
+   "FAC" : ["rue Saint - Denis", "Stick", "the Zhengtai Railway", "Cypress", "Tiananmen Square", "Metro", "Mir", "Guantanamo", "the Bay Bridge", "the Fourth Nuclear Power Plant"], 
+   "GPE" : ["Washington", "New York", "the United States", "Russia", "Iran", "Hong Kong", "France", "London", "California", "China"], 
+   "LANGUAGE" : ["Cantonese", "Streetspeak", "Finnish", "Chinese", "English", "Arabic", "Hebrew", "Mandarin", "German", "Filipino"], 
+   "LAW" : ["Hart - Scott - Rodino", "Chapter 11", "the Capital Market Law", "the Bill of Rights", "First Amendment", "ABM", "Chapter 11 of the federal Bankruptcy Code", "Tariff 12", "the First Amendment", "Bill of Rights"], 
+   "LOC" : ["Midwest", "Middle East", "West", "East", "Latin America", "the Taiwan Strait", "Eastern Europe", "Southeast Asia", "Europe", "Mars"], 
+   "NORP" : ["Russian", "American", "Israeli", "European", "Palestinians", "Soviet", "Japanese", "Americans", "Taiwanese", "Democrats"], 
+   "ORG" : ["UN", "Xinhua News Agency", "White House", "House", "NBC", "IRS", "Navy", "IBM", "the White House", "Pentagon"], 
+   "PERSON" : ["Lee", "Reagan", "Ehud Barak", "Saddam", "Noriega", "Bush", "Barak", "Chen", "Kostunica", "Teng"], 
+   "PRODUCT" : ["USS Cole", "Beretta", "Pan Am Flight 103", "the USS Cole", "Enigma", "Cole", "F - 14", "Rafale", "Air Force One", "the ``USS Cole", "PlayStation 2"], 
+   "WORK_OF_ART" : ["Batibot", "The World", "Hardball", "The Goddess of 1967", "Headliners", "EMBA", "Teddy Z", "Newsnight", "Between You and Me", "Un Chien Andalou"] 
+}

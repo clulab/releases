@@ -1,0 +1,5604 @@
+2	Seoul	LOC
+3	Burhanuddin Rabbani	PER
+3	Liam	PER
+1	Luc Nilis	PER
+2	C. White	PER
+1	Sergei Rogachev	PER
+4	Arch	ORG
+2	Flushing Meadows	LOC
+1	Birenda	PER
+1	Zoran Kundic	PER
+1	BSE-infected	MISC
+2	Ann Grossman	PER
+2	Escravos	ORG
+2	Blind	PER
+44	Israeli	MISC
+2	Minneapolis	LOC
+3	Alexei Markov	PER
+7	CHICAGO	LOC
+1	Lamonts	ORG
+1	Rogel Nachum	PER
+1	Seychellois	MISC
+1	Pioline	PER
+3	Swedish	MISC
+1	Erzincan	LOC
+5	Thailand	LOC
+1	Jean-Louis Debre	PER
+3	Stagecoach	ORG
+1	Thomas Helmer	PER
+5	RBI	MISC
+15	Berlin	LOC
+1	Flemming	PER
+1	Regina Jacobs	PER
+1	Liu Chong Hing Investment Ltd	ORG
+1	SIMEX	ORG
+3	Julie	PER
+2	Ruch Chorzow	ORG
+94	Australia	LOC
+1	FTSE-100	MISC
+1	Jack Kevorkian	PER
+1	Northfield Mountains	LOC
+1	Breakfast Soybean Procurement Assn	ORG
+1	HUNGARY	LOC
+3	Kurds	MISC
+1	Teravainen	PER
+14	Thai	MISC
+2	The Times	ORG
+1	Mobutu	PER
+2	Primedia	ORG
+1	Scifo	PER
+1	Richard Black	PER
+1	Iltalehti	ORG
+1	Le Matin	ORG
+1	Costis Stephanopoulos	PER
+1	Costa Rica-Nicaragua	LOC
+1	PUK-run	MISC
+1	Srinagar	LOC
+2	Alan Mullally	PER
+1	Chonan	ORG
+3	Renzo Furlan	PER
+2	PSA	ORG
+1	Erekat	PER
+4	Pollock	PER
+1	NASDAQ Index	MISC
+1	Sabourin	PER
+4	Bhutto	PER
+5	Promodes	ORG
+1	Ken Caminiti	PER
+4	Subaru Impreza	MISC
+1	German-led	MISC
+1	Coalition	ORG
+2	S. Lampitt	PER
+1	Nilis	PER
+1	INDIANS	ORG
+1	State Customs Committee	ORG
+1	Jacques Kallis	PER
+1	Wataru Yoshikawa	PER
+1	Ludmila Richterova	PER
+3	AOL	ORG
+1	Carlos Checa	PER
+2	CNB-120	MISC
+1	Rui Barros	PER
+3	Smicer	PER
+1	Essex	LOC
+3	South	LOC
+1	Fabien Giroix	PER
+3	Felicia Ballanger	PER
+2	An Marchal	PER
+1	Banglabazar Patrika	ORG
+1	Wreh	PER
+1	Kathy Rinaldi Stunkel	PER
+1	Australia Senate	ORG
+1	Brisbane	LOC
+2	Edgar Davids	PER
+1	Votava	PER
+1	Chavalit Yongchaiyudh	PER
+1	Riedle	PER
+1	Chiquinho Conde	PER
+2	Nasr	ORG
+1	Tristan Hoffman	PER
+2	Angeles Montolio	PER
+2	Nelson Mandela	PER
+1	John Head	PER
+1	Swebus AB	ORG
+1	Paul Tergat	PER
+1	Cukurova	ORG
+2	Golan	LOC
+1	Richard Hadlee	PER
+1	EUROMARK	MISC
+2	Manhattan	LOC
+1	Richard Lamm	PER
+2	Khalfallah	PER
+1	Lotte	PER
+1	Anna Knoroz	PER
+2	Indians	ORG
+2	John Kocinski	PER
+1	Zabrze	LOC
+1	Firmin Gatera	PER
+2	Anatolian	ORG
+8	Europe	LOC
+1	Nalkhera	LOC
+1	Abdulsamad Hameed Ali	PER
+1	Qotbuddin Hilal	PER
+1	Shane Drew	PER
+1	Leyton Orient	ORG
+1	Fiona May	PER
+3	Lamm	PER
+1	Turin	LOC
+3	Waqar	PER
+1	AUSTRALIAN	MISC
+2	Le Populaire	ORG
+1	Le Canard Enchaine	ORG
+2	Andrei Olhovskiy	PER
+1	First Pacific	ORG
+1	Adelt	PER
+1	Natalya Voronova	PER
+3	Ruutel	PER
+2	Xhelili	PER
+1	Todd Stottlemyre	PER
+1	OH	LOC
+2	Briton	MISC
+1	Albert Belle	PER
+2	Indonesian Democratic Party	ORG
+1	Piotti	PER
+1	Kathmandu Post	ORG
+1	Andre Snyman	PER
+1	William Fox	PER
+2	Socialist Party	ORG
+1	Gary Lauck	PER
+1	National Park Service	ORG
+1	Villa	PER
+1	U.S. Federal District Court	ORG
+1	Herschelle Gibbs	PER
+1	Molata	PER
+4	Houston Astros	ORG
+9	Toyota Celica	MISC
+1	Pirates	ORG
+1	Telstra	ORG
+1	Jamie	PER
+3	COMEX	ORG
+2	Mark Woodforde	PER
+1	Kenny Rogers	PER
+1	Westerners	MISC
+1	Mohamed Ali Khalfallah	PER
+2	FTSE 100	MISC
+1	Chongqing	LOC
+1	Lennart Meri	PER
+1	Johnny Damon	PER
+1	Coetzee	PER
+1	Martin Heath	PER
+1	Motherwell	ORG
+1	Imran Khan	PER
+1	ANP	ORG
+1	Juergen Schult	PER
+1	Rotherham	ORG
+1	ROVERETO	LOC
+1	KELLY	PER
+1	Giovanni van Bronckhorst	PER
+1	GRAF	PER
+3	Yassin	PER
+12	Jewish	MISC
+1	Mark Prescott	PER
+7	Australian Open	MISC
+42	Netherlands	LOC
+1	WEN WEI PO	ORG
+1	Stuttgart	ORG
+1	DAC Dunajska Streda	ORG
+7	Western	MISC
+1	Gianni Bugno	PER
+2	AJAX	ORG
+5	Jana Novotna	PER
+1	Asif Ali Zardari	PER
+1	Daewoo Information Systems Co Ltd	ORG
+2	Stallone	PER
+6	MILWAUKEE	ORG
+1	Raphael Wicky	PER
+2	Forsa	ORG
+1	Ramle	LOC
+1	Zeyer	PER
+2	Amy Frazier	PER
+1	Peruvian	MISC
+1	KOMBOUARE	PER
+1	North Afghan	MISC
+1	ETHIOPIA	LOC
+1	Republican Front	ORG
+1	Dublin Newsroom	ORG
+9	Pakistani	MISC
+3	Internet Startup	ORG
+1	Hendrik Dreekman	PER
+1	Henry Tricks	PER
+1	John Regis	PER
+1	Museeuw	PER
+1	Surrey	LOC
+2	Magali Faure	PER
+4	Sven Teutenberg	PER
+4	Robert Allenby	PER
+2	Muzaffarabad	LOC
+1	Jorge	PER
+1	Anders Forsbrand	PER
+2	Braga	ORG
+1	Western European Union	ORG
+1	Frederic Malardeau	PER
+1	Christian Cevaer	PER
+1	Jose Moreno	PER
+1	Gentext Optics Inc	ORG
+2	Guus Hiddink	PER
+1	Liege	LOC
+1	Mediaset	ORG
+3	Chelsea	ORG
+1	United Nations Special Commission	ORG
+1	Winkler	PER
+2	Sammy Sosa	PER
+3	DAX	MISC
+6	Conchita Martinez	PER
+1	Joao Pinto	PER
+5	Hasina	PER
+1	CA	LOC
+1	H. Wada	PER
+1	Thessaloniki	LOC
+1	Chandrika Kumaratunga	PER
+2	Security Ministry	ORG
+6	SEC	ORG
+2	St George	ORG
+2	News	ORG
+3	Sofia	LOC
+1	Caesarea	LOC
+23	Chechnya	LOC
+1	Remmy Mushota	PER
+3	ORIOLES	ORG
+3	Kris Goossens	PER
+2	Distillers	ORG
+2	Johan Museeuw	PER
+1	Castle Cup of Africa	MISC
+3	Mostostal	ORG
+1	Iraqi Kurd	MISC
+2	VW	ORG
+8	Christie	PER
+1	Stuttgart	LOC
+1	Schein	PER
+1	Paulo Sergio	PER
+5	Davis Cup	MISC
+1	Munakarmi	PER
+1	VENTURA	LOC
+1	Shumer	PER
+1	Laasonen	PER
+3	Oval	LOC
+1	Svetlana Zalevskaya	PER
+2	Republicans	MISC
+1	FIFA	ORG
+1	Addameer Prisoners Support Association	ORG
+1	Louis Freeh	PER
+1	Martin Brooks	PER
+1	Sudradjat Djiwandono	PER
+1	Airport Facilities	ORG
+4	Olivier Panis	PER
+2	Supreme Court	ORG
+1	Marina Andrievskaqya	PER
+2	Western Reds	ORG
+2	Natalia Baudone	PER
+1	Kunar	LOC
+1	SC Espinho	ORG
+5	Johannesburg	LOC
+1	Sam Victor Malu	PER
+2	In Home Health	ORG
+1	Sierra Leonean	MISC
+1	Manchester City	ORG
+1	Mississippi	LOC
+2	Whittier	LOC
+1	First Union	ORG
+2	Eau Claire	ORG
+1	Ann Stephens	PER
+2	Algerians	MISC
+1	S. Tendulkar	PER
+1	Bunge	ORG
+2	Silke Renk	PER
+1	Mark Pembridge	PER
+1	GREECE	LOC
+1	Bailundo	LOC
+1	Anthuan Maybank	PER
+1	Alessandro Melli	PER
+1	Tasmania	LOC
+1	Lelouche	PER
+2	World XI	ORG
+1	Luke Kipkosgei	PER
+1	Biljana Plavsic	PER
+2	Glickman	PER
+1	Don McKinnon	PER
+1	Fidelis Andria	ORG
+1	Sheu Yuan-dong	PER
+1	EDBERG	PER
+2	Takeda	PER
+1	Victoria Falls	LOC
+1	Cynthia McKinney	PER
+2	Saskatchewan	LOC
+1	News Corp Ltd	ORG
+1	Marco Giampaolo	PER
+1	Kennedy Ochieng	PER
+1	A. Kumble	PER
+1	Eli Lilly	ORG
+1	Companion Marble	ORG
+1	P. Arulanandam	PER
+10	Arantxa Sanchez Vicario	PER
+1	New democracy	ORG
+3	NOVYE ATAGI	LOC
+2	Portsmouth	ORG
+1	Philip Morris Cos Inc	ORG
+1	Huw Jones	PER
+3	Sadiki	PER
+1	Lien Chan	PER
+1	Zeng Yaqiong	PER
+1	Harwood	PER
+1	Franka Dietzsch	PER
+1	AFRICAN NATIONS CUP	MISC
+1	Bild am Sonntag	ORG
+1	McCarthy	PER
+1	I. Salisbury	PER
+1	Kennedys	PER
+1	Arsenal	ORG
+1	Brian McMillan	PER
+1	Asif Ali	PER
+1	West South Central	LOC
+1	Hal Sutton	PER
+1	Federal Trade Commission and Justice Department	ORG
+26	American	MISC
+2	Michael Sandstod	PER
+3	Glamorgan	ORG
+1	Majid Takht Ravanchi	PER
+1	Queen 's Park Rangers	ORG
+4	Kornblum	PER
+1	Airbus	MISC
+1	Hafez al-	PER
+1	Telfer	PER
+1	Securities Products Business	ORG
+2	Simon Frenz	PER
+2	Chris Walker	PER
+1	Mats Lanner	PER
+1	VOGTS	PER
+1	Steve Waugh	PER
+1	Joakim Haeggman	PER
+1	Lou Gehrig	PER
+1	IVAC Medical	ORG
+1	Bragg	PER
+1	Jill Craybas	PER
+1	Tim Goldiman	PER
+1	TOUR	MISC
+10	Croatia	LOC
+2	Ripken	PER
+1	Wisinga	PER
+1	Jonathan N'Senga	PER
+1	Yugo Zastava	ORG
+4	ZIMBABWE	LOC
+1	Oliver Kahn	PER
+12	Canadian	MISC
+1	Mandsaur	LOC
+3	Weld	PER
+3	Craig Parry	PER
+4	interior ministry	ORG
+1	Jon Preston	PER
+1	Collingtree Park	LOC
+1	Kathy Etchingham	PER
+1	Danny Blind	PER
+1	Longyearbyen	LOC
+1	Montenegro	LOC
+1	Miladin	PER
+1	Shayne King	PER
+1	Sake	PER
+1	Peter Lerner	PER
+1	Valkov	PER
+1	Kareda Siauliai	ORG
+1	SoCal Edison	ORG
+1	Eva Boudova	PER
+1	Aleksander Kwasniewski	PER
+1	Princeton Lyman	PER
+2	Karin Kschwendt	PER
+1	Channel Islands	LOC
+4	Kent	ORG
+1	Northern States Power Co	ORG
+1	1000 Lakes Rally	MISC
+2	GKS Katowice	ORG
+1	Andres Galarraga	PER
+1	CHILPANCINGO	LOC
+2	Radio New Zealand	ORG
+1	British Securities and Investments Board	ORG
+1	John den Braber	PER
+1	Euro Swiss	MISC
+5	Wisconsin	LOC
+1	Celopek	LOC
+1	LINZ	LOC
+1	Darius Milhaud	PER
+1	Vermont	LOC
+3	Haarlem	LOC
+1	Charleston	LOC
+4	Jans Koerts	PER
+1	Nicholas Shaxson	PER
+1	Lotte	ORG
+16	Dutroux	PER
+4	Stewart	PER
+2	Piacenza	ORG
+1	Charles	PER
+6	Nantes	ORG
+2	Sint Truiden	ORG
+2	Reppas	PER
+12	South African	MISC
+1	Stuart Law	PER
+1	Montpelier	LOC
+1	Asmara	LOC
+1	Luis Polonia	PER
+1	Tunbridge Wells	LOC
+1	Mark Kennedy	PER
+2	Sean Fitzpatrick	PER
+1	Marlins	ORG
+1	Hina	ORG
+3	Arnaud Boetsch	PER
+1	NABLUS	LOC
+1	Rostelekom	ORG
+5	Ferrari	ORG
+2	Africans	MISC
+3	The Netherlands	LOC
+2	David Wheaton	PER
+1	Atria Oy	ORG
+10	Todd Martin	PER
+1	Liu Lufung	PER
+1	BLIND	PER
+1	Diyarbakir	LOC
+1	Soundview Financial Group	ORG
+1	BARRY	LOC
+1	Pattaya	LOC
+1	MQM	ORG
+1	Enzo Scifo	PER
+1	Bentsen-era	MISC
+2	Chamorro	PER
+4	Surrey	ORG
+1	Claudio Moura	PER
+1	Thierry Henry	PER
+1	Norm Charlton	PER
+1	Jimi Hendrix	PER
+1	Liam Botham	PER
+1	Muttiah Muralitharan	PER
+2	M&R	ORG
+1	Michele Fanton	PER
+1	Golan Heights	LOC
+3	Naoko Kijimuta	PER
+1	Gyaicain	PER
+1	GENOA	ORG
+1	Bernd Mauruschat	PER
+2	Standard Liege	ORG
+1	Palestinian Islamist	MISC
+3	FLORIDA	ORG
+1	Knight	PER
+1	Tavarez	PER
+1	AL-MUNTAR	LOC
+1	Waiau	LOC
+1	Frank Nobilo	PER
+1	Brad Bryant	PER
+1	Olga Boshova	PER
+6	Mark Philippoussis	PER
+1	Southend	ORG
+1	Baku	LOC
+3	Melissa Russo	PER
+3	Buffett	PER
+2	Azad ( free ) Kashmir	LOC
+19	Chechen	MISC
+1	Robert Kibet	PER
+6	SPD	ORG
+1	Steve Schneiter	PER
+1	Defence and Aviation	ORG
+1	Credit Suisse	ORG
+4	Ieng Sary	PER
+2	Mind Games	PER
+4	Cannes	ORG
+1	IVAC Medical Systems Inc.	ORG
+2	BRAZILIAN	MISC
+1	Alberto Costa	PER
+3	Jean-Paul van Gastel	PER
+2	Cecil Mamiit	PER
+1	Alkhan-Yurt	LOC
+2	Arab East Jerusalem	LOC
+1	IMKB-100	MISC
+1	US Postal	ORG
+1	Aerostan	ORG
+2	Mark Richardson	PER
+3	Iowa	LOC
+2	Softbank	ORG
+1	Mo	LOC
+4	S&P	ORG
+1	Bobby Robson	PER
+1	Ana Fidelia Quirot	PER
+3	Israeli-PLO	MISC
+1	Ijaz	PER
+2	Samper	PER
+1	Yonsei University	ORG
+2	A. Symonds	PER
+2	Dalglish	PER
+1	Aslan Mashadov	PER
+1	Krpaco	ORG
+1	Heinrich	PER
+21	Taiwan	LOC
+1	Ilian Simeonov	PER
+1	Shell	ORG
+1	Oliver Ludwig	PER
+1	Republika Srbska	LOC
+1	Yuuchi Takeda	PER
+1	Euro ' 96	MISC
+1	Bob Willis	PER
+7	Banharn	PER
+1	Isaac Galvez-Lopez	PER
+1	GT2 Roock Porsche 911	MISC
+2	SRC	ORG
+5	ISS Inc	ORG
+1	Daniel Komen	PER
+1	Graafschap	ORG
+2	Matthew Maynard	PER
+1	BREGANCON	LOC
+1	Power	ORG
+1	St Leger	ORG
+1	Wiltshire	LOC
+1	Lancet	ORG
+5	Palmans	ORG
+9	Ohio	LOC
+1	NICE	LOC
+1	Besiktas	ORG
+1	Tanzanian	MISC
+1	HAMBURG	LOC
+1	Sheu	PER
+1	Paul Sorrento	PER
+2	Ivory Coast	LOC
+1	Madrid	LOC
+3	Mokhoff	PER
+4	Togo	LOC
+4	Miguel Angel Martin	PER
+19	Democratic	MISC
+1	Batchelor	PER
+1	Yvegeny Kafelnikov	PER
+1	Gramoz Ruci	PER
+1	Alistair Campbell	PER
+2	Reeve	PER
+1	Fort Lauderdale	LOC
+1	Julen Lopetegui	PER
+3	Euromark	MISC
+2	Mutola	PER
+1	International Business Machines Corp.	ORG
+5	Hope	PER
+1	Parkway Middle School	ORG
+1	OB	ORG
+1	Tadayuki Okada	PER
+1	Pudvah	PER
+3	Gaza Strip	LOC
+2	Brandes	PER
+1	Miami Herald	ORG
+2	Dow	MISC
+1	Gary Kirsten	PER
+1	Stagecoach Holdings Plc	ORG
+2	Gilbert Agius	PER
+1	Alex Arias	PER
+1	Elijah Maru	PER
+1	Domingo Hospital	PER
+1	Grandstand	MISC
+2	Oriente	ORG
+2	Wisc .	LOC
+1	Anneke Matthijs	PER
+1	Stephane Chapuisat	PER
+1	Dean Richards	PER
+2	O'Neill	PER
+1	Palestinian Information Ministry	ORG
+1	RSA Data Security	ORG
+1	Marina Trandenkova	PER
+1	Stefan Schwarz	PER
+2	Evert	PER
+2	Lecce	ORG
+1	Dimitris Reppas	PER
+2	SWP	ORG
+1	Franz Konrad	PER
+1	Adriatic	MISC
+4	David Coulthard	PER
+2	Padres	ORG
+2	East coast	LOC
+18	Canada	LOC
+1	Arkansas State Police	ORG
+1	Karem Haj Yihye	PER
+1	England-based	MISC
+1	Bobbie Goulding	PER
+6	Juventus	ORG
+1	JP	LOC
+1	Dayana	LOC
+3	Wimbledon	LOC
+10	Alexander Lebed	PER
+2	Hereford	ORG
+1	Luigi Seguy	PER
+1	Jean-Marc Gounon	PER
+1	Tang Shubei	PER
+4	Richard Krajicek	PER
+1	Werder Bremen	ORG
+1	Spartak	ORG
+1	Jean-Pierre Van Zyl	PER
+1	Domingos Oliveira	PER
+10	Lebanon	LOC
+2	Nicolas Lapentti	PER
+1	Jonathan Birt	PER
+1	GROBBELAAR	PER
+1	Malaysian Open	MISC
+2	Fulcheri	PER
+2	Ally McCoist	PER
+1	Theodore Roosevelt	PER
+2	Pantic	PER
+1	Oakley Inc	ORG
+1	Toyota Australia	ORG
+3	Galatasaray	ORG
+2	Rabbani	PER
+1	Donaldson Lufkin & Jenrette	ORG
+2	Gazeta Shqiptare	ORG
+3	Blackburn	ORG
+1	Cozma	PER
+2	Dean Headley	PER
+2	Widness	PER
+5	Democrats	MISC
+1	Ken Goldstein	PER
+10	Algeria	LOC
+1	Turkish Cypriot	MISC
+1	Detroux	PER
+1	Twins	ORG
+1	Laxmi Poruri	PER
+1	Iraqi Community Association	ORG
+1	Tianjin	LOC
+1	Banco Santander	ORG
+3	Coetzer	PER
+1	Khalid Boulami	PER
+1	ABN-AMRO Hoare Govett	ORG
+1	Air Corps	ORG
+1	Ryszard Wieczorek	PER
+2	Miriam Oremans	PER
+7	KANSAS CITY	LOC
+1	Franny	PER
+1	Dolly	MISC
+9	Syria	LOC
+1	Jose Escuredo	PER
+1	Suwon	ORG
+3	Tendulkar	PER
+1	Marcel Desailly	PER
+1	Ville Peltonen	PER
+3	Will Carling	PER
+1	Patrick Sang	PER
+1	James Lee Williams	PER
+16	MAJOR LEAGUE	MISC
+1	Fontaine Co Ltd	ORG
+1	Maputo	LOC
+1	Brian De Palma	PER
+2	OLYMPIAKOS	ORG
+1	Roelofsen	PER
+4	CALIFORNIA	ORG
+1	Zbigniew Siemiatkowski	PER
+1	Security Dynamics Technologies Inc.	ORG
+1	Terry Phelan	PER
+3	Kuchma	PER
+1	Tauranga	LOC
+1	LIMERICK	LOC
+1	MILWAUKEE	LOC
+1	Francesca Lubiani	PER
+1	Bruce Grobbelaar	PER
+1	William Goldiner	PER
+1	Ali Shah	PER
+8	Cup	MISC
+3	Garang	PER
+1	de Klerk	PER
+2	Hernan Gumy	PER
+1	BUDAPEST	LOC
+1	Paul Gascoigne	PER
+2	Kiev	LOC
+3	Arequipa	ORG
+1	West McLaren	MISC
+2	Sandra Dopfer	PER
+1	Yehiel Amitai	PER
+3	Helena Sukova	PER
+1	Ill.-based	MISC
+1	Chilean	MISC
+2	Catholic Information Office	ORG
+2	Northcote College	ORG
+1	Anders Olofsson	PER
+1	Stephen Meads	PER
+1	Koha Jone	ORG
+2	Canberra	ORG
+2	Lierse	ORG
+1	N. Llong	PER
+1	Albert	PER
+1	Chryste Gaines	PER
+1	KNUP	PER
+1	PEC	ORG
+1	Karen	MISC
+1	Mark Ilott	PER
+1	Mohamed Abu Liwaya	PER
+2	Roshan Mahanama	PER
+1	Hector Campora	PER
+1	Reiffel	PER
+1	Lien	PER
+1	Leeds United	ORG
+1	Sabine Appelmans	PER
+18	Costa Rica	LOC
+1	Axworthy	PER
+1	U.S. DLA	ORG
+1	Awdankiewicz	PER
+1	Vale	ORG
+2	Richter	PER
+2	Graham Thorpe	PER
+21	Turkish	MISC
+1	Pakistani Kashmir	LOC
+1	Indonesias	MISC
+1	UNSCOM	ORG
+10	Dhaka	LOC
+1	Tracy	PER
+1	Olivia	PER
+1	CRAWLEY	PER
+1	BONDS	PER
+1	Janette Husarova	PER
+1	Petroecuador	ORG
+1	Ashish Kapoor	PER
+2	Amr Shabana	PER
+1	Culpepper	LOC
+1	Douati Alphonse	PER
+1	Thomas Nyariki	PER
+11	U.S. Open	MISC
+1	New Scientist	ORG
+1	LOMBARDI	PER
+1	COSTA RICA	LOC
+2	Jonathon Power	PER
+1	Phnom Penh	LOC
+1	Paul O'Neill	PER
+1	Coordinate of Ecumenical Service	ORG
+1	Tony Eusebio	PER
+2	Rwandan Hutu	MISC
+2	Cherbourg	LOC
+4	Guinea	LOC
+1	Bryan Robson	PER
+1	Glafcos Xenos	PER
+1	MARSEILLE	ORG
+1	Internet	MISC
+1	Stefan Raichev	PER
+1	Lajos Horvath	PER
+2	Sky	ORG
+12	California	LOC
+1	Rohan Robinson	PER
+2	Kadian	MISC
+2	Charleroi	LOC
+3	P. Strang	PER
+1	Alexandre Comisetti	PER
+2	Krajina	LOC
+9	Palestinians	MISC
+1	Gary Breen	PER
+6	Aslan Maskhadov	PER
+1	Arch Petroleum Inc	ORG
+3	Guingamp	ORG
+1	M. Bevan	PER
+1	Sanchez Vicario	PER
+1	Colorado	ORG
+1	Valkucak	PER
+3	ATP	ORG
+1	Larbi El Khattabi	PER
+1	Giuseppe Citterio	PER
+1	Maria Antonio Sanchez Lorenzo	PER
+2	R. Illingworth	PER
+1	Benoit Cauet	PER
+1	MyPa-47	ORG
+1	MILAN	ORG
+1	Vladimir Zhirinovsky	PER
+1	Flamengo	ORG
+1	Sidhu	PER
+2	Rudi Thiel	PER
+1	Roma	ORG
+1	Kigali	LOC
+1	Detroit	LOC
+1	Great Hall of the People	LOC
+1	Gujar Khan	LOC
+1	Essilor	ORG
+1	BOTHAM	PER
+1	Jonathan Lomas	PER
+1	Lufthansa	ORG
+1	Orlando Pirates	PER
+2	Cimicchi	PER
+1	Louise McPaul	PER
+1	Air Express International	ORG
+3	Latin American	MISC
+1	Jody Reed	PER
+1	GATTING	PER
+1	RUSSIAN	MISC
+1	Jacqueline Wong	PER
+1	Bruno Eichmann	PER
+2	Javier Frana	PER
+2	Chester-le-Street	LOC
+5	Tass	ORG
+3	Mujahideen Khalq	ORG
+2	Sanath Jayasuriya	PER
+1	Alan Kelly	PER
+1	Mark Spitz	PER
+2	White Sox	ORG
+2	Shelbourne	ORG
+2	Nick Knight	PER
+1	CYPRIEN	PER
+5	Shanghai	LOC
+1	Jaha	PER
+1	Carol Norris	PER
+1	Asanka Gurusinha	PER
+1	DODGERS	ORG
+2	Zadar	LOC
+6	Greens	ORG
+1	Information Ministry	ORG
+1	Apache et al Saunders 14-28	MISC
+1	UN Security Council	ORG
+1	Red Brigade	ORG
+1	Costa Rican Volcanic and Seismologicial Observatory	ORG
+1	Tony Hands	PER
+1	Net Book Agreement	MISC
+1	Garry West	PER
+1	Huddersfield	ORG
+1	GLORIA BISTRITA	ORG
+2	Warsaw	LOC
+3	United	ORG
+1	Lisbet Stuer-Lauridsen	PER
+1	Jacob Brumfield	PER
+2	Wales	LOC
+1	Niclas Fasth	PER
+58	Italy	LOC
+1	Korda	PER
+1	BALL	PER
+1	Goncharova	PER
+2	Brigita Bukovec	PER
+1	MEXICAN	MISC
+1	MANCHESTER CITY	ORG
+1	Mauritian	MISC
+1	Clarence Seedorf	PER
+2	Irina Spirlea	PER
+1	Vicorp Restaurants Inc	ORG
+1	Birnberg	PER
+1	Rally	MISC
+1	Ilkka Laasonen	PER
+2	N.J.	LOC
+5	Telekom	ORG
+12	MANCHESTER	LOC
+1	Hashan	PER
+2	VAN HEESWIJK	PER
+1	Southland Life Insurance Co	ORG
+2	Mentmore Abbey	ORG
+1	BUGNO	PER
+3	FLORIDA	LOC
+1	Adolf Hitler	PER
+1	Cologne	LOC
+1	Billy Swift	PER
+1	UGANDA	LOC
+7	America	LOC
+1	Ciller	PER
+1	Robert Aranosian	PER
+1	Carsten Wolf	PER
+1	Kevin Brown	PER
+4	Sydney	LOC
+1	John Sheehan	PER
+1	Adrian Nastase	PER
+2	Euro 96	MISC
+1	Nani Palkhivala	PER
+1	Kolbenschmidt	ORG
+1	Martin Max	PER
+9	Argentine	MISC
+2	P. Prichard	PER
+2	Darren Gough	PER
+1	Constand Viljoen	PER
+2	Gold Coast	ORG
+1	Brady Anderson	PER
+1	Kemp	PER
+1	x-Club Brugge	ORG
+1	Keith O'Neill	PER
+1	Anja Smolders	PER
+1	Luminzu Shimaponda	PER
+1	Daniel Levy	PER
+2	Jeroen Blijlevens	PER
+2	DOETINCHEM	LOC
+1	OM Gruppen	ORG
+1	Erik Hanson	PER
+1	Saudis	MISC
+1	Abdala Bucaram	PER
+1	Todd Hollandsworth	PER
+1	Jean-Michel Monin	PER
+2	Oasis	ORG
+4	Liverpool	ORG
+1	Frank Quilter	PER
+1	Telfer	LOC
+1	Cevaer	PER
+2	Hariri	PER
+2	McCarthy	ORG
+1	Raymond Russell	PER
+1	Kragujevac	LOC
+1	Joel Smets	PER
+1	Adel	LOC
+1	Las Cruces	LOC
+1	Kanie Karzhala	LOC
+1	Bahia	ORG
+2	Ieng Mouly	PER
+1	Jacob Hlasek	PER
+2	RKC Waalwijk	ORG
+1	One-year	MISC
+1	Alomella Robles	LOC
+7	Gilbertson	PER
+1	Strasbourg	ORG
+1	Gabriel Batistuta	PER
+2	Moslems	MISC
+1	Westernising	MISC
+1	Interior	ORG
+1	Battle Mountain	ORG
+1	Judith Curren	PER
+1	Bosnian-Croat Federation	LOC
+1	Indiana	LOC
+1	Frederic Vialle	PER
+1	Vinny Castilla	PER
+1	ZIFA	ORG
+3	SPA-FRANCORCHAMPS	LOC
+1	John Ridgeon	PER
+1	CeBIT	MISC
+1	NASDAQ	MISC
+4	EC	ORG
+1	Dacom International	ORG
+1	Patrick Seale	PER
+1	Deutsche Bahn AG	ORG
+1	Tea Vikstedt-Nyman	PER
+2	Vyacheslav Tikhomirov	PER
+1	Norihiko Fujiwara	PER
+4	Allensbach	ORG
+1	Romano Prodi	PER
+1	Joseph Tanny	PER
+1	Mozambican	MISC
+1	John Allen	PER
+8	Irish	MISC
+1	David Williams	PER
+3	Kuwait	LOC
+1	Eva Tremila	ORG
+1	Himalayan	MISC
+1	Hawaii	LOC
+2	Brann	ORG
+4	Edouard	MISC
+1	Philip Kibitok	PER
+2	Cologne	ORG
+4	Java	MISC
+9	Burundi	LOC
+1	Rouxel	PER
+85	Britain	LOC
+1	Antara	LOC
+2	Tutsi-dominated	MISC
+1	Nicole Brown Simpson	PER
+4	Milwaukee Brewers	ORG
+1	Irish Permanent	ORG
+1	Andy Benes	PER
+9	Saeed Anwar	PER
+1	Paul Broadhurst	PER
+1	Gareth Farrelly	PER
+1	Wenatchee	LOC
+2	Jewell	PER
+19	New York	LOC
+5	Soviet	MISC
+3	Neuchatel	ORG
+1	Murphy Jensen	PER
+1	Bradley Hughes	PER
+1	Pokka	MISC
+1	Maicel Malone	PER
+1	Ajay Jadeja	PER
+2	Tillstrom	PER
+4	Burmese	MISC
+1	Janez Drnovsek	PER
+1	Metropolitan Museum	LOC
+3	Nobel Peace Prize	MISC
+1	Howard Johnson	PER
+3	Medicare	MISC
+2	Finance	ORG
+1	Cheuvreux de Virieu	ORG
+1	UIC	ORG
+4	Greg Norman	PER
+6	Elect Res	ORG
+1	Hannes Strydom	PER
+1	Thiel	PER
+1	Haiti	LOC
+1	FORT WORTH	LOC
+1	Netherland	LOC
+1	SOFIA	LOC
+1	Civil Defence and Coast Guard	ORG
+1	A.L. Central	MISC
+1	Hove	LOC
+1	Mustapha Hadji	PER
+5	Muster	PER
+3	Malaysian	MISC
+3	Porto	ORG
+1	Gregory Randolph	PER
+6	Collstrop	ORG
+14	The Oval	LOC
+4	Sion	ORG
+1	Fallah Sewa	PER
+1	Building	ORG
+1	Inderjit Gupta	PER
+2	Olsza	PER
+1	Oran	LOC
+1	Newark	LOC
+1	Herbert Demel	PER
+1	MULDER	PER
+1	Jerry Schein	PER
+1	Dean Palmer	PER
+1	ATRIA	ORG
+1	Raith	ORG
+1	Enrico Chiesa	PER
+1	Cargill Inc	ORG
+1	Jason Dickson	PER
+1	Alexander Zickler	PER
+1	Association for Relations Across the Taiwan Straits	ORG
+1	Turkish Kurd	MISC
+2	Ines Gorrochategui	PER
+1	Kyle Abbott	PER
+1	Ministry of Finance	ORG
+2	KSE	ORG
+2	Ove Sellberg	PER
+1	Beirut Stock Exchange	ORG
+13	Amsterdam	LOC
+5	PLO	ORG
+2	Gorre	PER
+1	Joel Stransky	PER
+1	Akira Ryo	PER
+2	UML	ORG
+1	Pao de Acucar	ORG
+5	SCOTTISH	MISC
+1	Elena Makarova	PER
+1	Hong Bui	PER
+3	Rome	LOC
+1	Tomas Post	PER
+1	Rune Hansen	PER
+1	Kiryat Sefer	LOC
+1	Krzysztof Zagorski	PER
+1	Koninklijke PTT Nederland NV	ORG
+1	Florida Straits	LOC
+2	Creutzfeldt-Jakob Disease	MISC
+1	Dekker	PER
+2	Ukyo Katayama	PER
+1	Welspun Stahl Rohren Ltd	ORG
+5	AKRON	LOC
+3	Vienna	LOC
+1	DINAMO	ORG
+1	George Joulwan	PER
+82	Russian	MISC
+2	Davis Kamoga	PER
+1	Idriss Deby	PER
+1	TVX Gold Inc	ORG
+6	Rubin	PER
+6	Volkova	PER
+1	Justice K.T. Thomas	PER
+1	Vogue	ORG
+1	Juventude	ORG
+1	Akram	PER
+6	Schalke	ORG
+2	Latvia	LOC
+3	Toronto	LOC
+3	Carlos Sainz	PER
+1	Singapore Petroleum Company	ORG
+1	Thabo Mbeki	PER
+12	European Union	ORG
+1	Edward Dmytryk	PER
+1	Singer Cup	MISC
+1	LIFFE	ORG
+11	Gaza	LOC
+1	Li Feng	PER
+1	BALANCE-Water Dist 1	MISC
+3	Newbury	LOC
+3	Benin	LOC
+5	Jacques Villeneuve	PER
+1	Fabien Lefevre	PER
+1	Ijaya Indra	PER
+3	BRAVES	ORG
+1	Grabowksi	PER
+6	Algiers	LOC
+1	Interbank	ORG
+31	Australian	MISC
+2	Devon White	PER
+1	Ro Gajadhar	PER
+11	Sydney Newsroom	ORG
+1	Yekaterina Podkopayeva	PER
+1	Malivai Washington	PER
+2	Gail Devers	PER
+1	CBOE	ORG
+1	PP	ORG
+2	Oliver Bierhoff	PER
+1	Mar'ie Muhammad	PER
+2	Terry Price	PER
+1	Stephanie Deville	PER
+2	Tamils	MISC
+1	Hong Kong Open	MISC
+2	New York City	LOC
+1	Severin Konan Kouame	PER
+2	Juergen Klinsmann	PER
+2	Jeffrey	PER
+2	BLACK SEA	LOC
+2	JYVASKLYA	LOC
+2	Wolverhampton	ORG
+1	Wim Jonk	PER
+3	Takuma Aoki	PER
+4	European Commission	ORG
+1	Birmingham Public Park	LOC
+1	ATLANTIC CITY	LOC
+1	Armando Reynoso	PER
+1	TELO	ORG
+1	Karl Inderfurth	PER
+1	Taibe	LOC
+3	KTM	ORG
+1	Gibbs	PER
+1	Angels	ORG
+1	Hryhory Borsuk	PER
+1	Sarka Kasparkova	PER
+1	Ed de Goey	PER
+1	Gary Teichmann	PER
+5	Tour of the Netherlands	MISC
+1	Ahmed Sekou Toure	PER
+3	FFK	ORG
+1	Avalon Borough	LOC
+1	Pat Manson	PER
+2	Marc-Vivien Foe	PER
+4	BOSTON	LOC
+18	Nigeria	LOC
+3	Stenning	PER
+1	M. Sivasiththamparam	PER
+1	Manfred Kanther	PER
+1	Lila Osterloh	PER
+1	Siam Commercial Bank	ORG
+1	Handrik Dreekmann	PER
+5	Oakland	ORG
+1	Willie Blair	PER
+2	Pakistan-ruled	MISC
+3	Portsmouth	LOC
+3	Sharif	PER
+1	Action Against Hunger	ORG
+1	Gilbert Gress	PER
+3	Jalal Talabani	PER
+7	Athens Newsroom	ORG
+1	Goma	LOC
+1	Ukraina Palace	LOC
+1	Aussies	MISC
+1	Georgy Mamedov	PER
+1	Magdalena Grzybowska	PER
+1	William Kiptum	PER
+2	Cetes	MISC
+1	U.S. State Department	ORG
+1	Surinam	LOC
+1	Michael Stroud	PER
+1	Budapest-based	MISC
+2	JD Group	ORG
+1	Mediterranean	MISC
+3	AZ Alkmaar	ORG
+1	Arulanandam	PER
+1	Theodoros Pangalos	PER
+1	David Ginola	PER
+1	Musa Hamiti	PER
+7	Zenith	ORG
+1	Morgan Stanley	ORG
+5	Zurich	LOC
+1	Tony Hall	PER
+5	Names	MISC
+2	John Mayock	PER
+2	William Tanui	PER
+1	Island Beach State Park	LOC
+1	NORWAY	LOC
+3	Takemura	PER
+1	Roy Keane	PER
+1	Bank of France	ORG
+1	Orphan Drug law	MISC
+1	HSBC Markets	ORG
+1	Norifumi Abe	PER
+1	LIBERIA	LOC
+6	Chris Boardman	PER
+1	H.D. Deve Gowda	PER
+2	MAKINEN	PER
+2	Sergei Yastrzhembsky	PER
+1	Albert Emon	PER
+2	David Prinosil	PER
+1	Boeta Wessels	PER
+1	Massoud Rajavi	PER
+3	Iva Majoli	PER
+2	Daewoo Corp	ORG
+2	Richard Kosgei	PER
+1	Gooch	PER
+1	F.C. Valletta	ORG
+2	Manly	ORG
+1	Rene Schneider	PER
+1	Marcus Wills	PER
+2	CIS	LOC
+4	Hutu	MISC
+1	1ama	PER
+1	R Leong	PER
+1	Kabul-Salang	LOC
+1	Adelbert Knobl	PER
+2	Ford	ORG
+2	Kathmandu	LOC
+1	Gildea	PER
+1	Mohammed Saleh	PER
+1	Bradys	PER
+1	Alan Shearer	PER
+1	Mary Pierce	PER
+1	Arabic	MISC
+1	JAPANESE	MISC
+1	Videoton	ORG
+1	New Aspiration Party	ORG
+1	Taichung division	ORG
+14	Bosnia	LOC
+1	Scac Delmas Vileujeux	ORG
+1	Property Capital Trust	ORG
+1	Turner	LOC
+2	Els Callens	PER
+1	Eric Wymeersch	PER
+6	Tommi Makinen	PER
+1	Zickler	PER
+1	Pusan	ORG
+2	Juliet Cuthbert	PER
+2	Stephane Simian	PER
+4	NORTHAMPTON	LOC
+2	Hoddle	PER
+3	Jesse Owens	PER
+1	Bill Russell	PER
+1	Tauranaga	LOC
+1	Southern New England	ORG
+2	Violeta Chamorro	PER
+3	Max van Heeswijk	PER
+1	Wycombe	ORG
+2	Lockhart	ORG
+7	Greece	LOC
+1	Guinness Peat	ORG
+1	Conakry	LOC
+1	Oksana Grichina	PER
+4	Nancy	ORG
+5	Neths	LOC
+1	Shabwa	LOC
+1	Petr Gunda	PER
+3	Carlos Moya	PER
+1	Suharto	PER
+3	M. Moxon	PER
+3	David Rikl	PER
+1	Zitelli	PER
+1	Giro d'Italia	MISC
+1	National Islamic Front	ORG
+1	Luca Cadalora	PER
+3	Albion	ORG
+2	Vaduz	LOC
+1	Louis Booy	PER
+1	Antonio Oliveira	PER
+1	Leeds Classic	MISC
+34	Finland	LOC
+1	Granic	PER
+8	Iraqi Kurdish	MISC
+31	Sri Lanka	LOC
+1	Niugini Mining	ORG
+1	Ahmed Barada	PER
+3	IOC	ORG
+1	Constantine Mitsotakis	PER
+3	Bombay	LOC
+1	IRVINE	LOC
+1	Nelson Miles	PER
+1	MCC	ORG
+1	Bernard Tapie	PER
+1	Lees Summit	LOC
+3	Jonathan Stark	PER
+2	Kristie Boogert	PER
+5	Mika Hakkinen	PER
+3	Bayer Leverkusen	ORG
+1	Haas	PER
+1	Corinthians	ORG
+1	No 2913/92	MISC
+4	Mickelson	PER
+1	William VanLandingham	PER
+2	Chuck Adams	PER
+1	Andhra Pradesh	LOC
+6	SBC Warburg	ORG
+2	Chiate	PER
+1	Maurizio Fondriest	PER
+2	Carl Suneson	PER
+2	Nathalie Lancien	PER
+1	Securities and Exchange Commission	ORG
+3	Machado	PER
+1	Wolf Point	LOC
+2	Sorrento	PER
+3	Melissa	PER
+1	S. Korean	MISC
+1	Breukink	PER
+1	COLONNA	PER
+1	Apertura	MISC
+3	Maleeva	PER
+5	Jean Alesi	PER
+1	Dennis Bergkamp	PER
+2	Odra Wodzislaw	ORG
+1	Sierra Semiconductor	ORG
+9	Todd Woodbridge	PER
+1	MING PAO DAILY NEWS	ORG
+3	Annett Neumann	PER
+1	BALTIMORE	ORG
+1	Peter Johansson	PER
+2	Dirk Dier	PER
+1	John Boles	PER
+2	Mark Cairns	PER
+1	Tillekeratne	PER
+1	Jose Herrera	PER
+1	Botta	PER
+2	Jetty Kors	PER
+1	Grabowski	PER
+1	Jamie Baulch	PER
+1	Muratovic	PER
+1	Angola	LOC
+2	Tami Whitlinger Jones	PER
+2	Dnevi Avaz	ORG
+2	Vt	LOC
+2	Hatoyama	PER
+1	Bristol	LOC
+1	China Daily	ORG
+1	Fredi Bobic	PER
+1	Azerbaijan	LOC
+2	Galo Blanco	PER
+4	Nepali	MISC
+1	Jonas Savimbi	PER
+75	France	LOC
+1	Paramount Pictures	ORG
+1	Soren Lausberg	PER
+6	ENGLISH COUNTY CHAMPIONSHIP	MISC
+1	Eurobourses	ORG
+1	Athens	LOC
+1	Dutchman	MISC
+2	W. Khan	PER
+1	New Haven	LOC
+1	The	LOC
+1	Majoli	PER
+6	Lloyd 's	ORG
+1	Corey Pavin	PER
+1	Zina Garrison Jackson	PER
+3	Libyan	MISC
+1	MOZAMBIQUE	LOC
+1	Dutra	PER
+2	Maskhadov	PER
+1	Bancarel	PER
+1	Abel Anton	PER
+1	Foindu	LOC
+1	Anhui	LOC
+2	Ben Gurion	LOC
+1	Kevin Mitchell	PER
+2	Antwerp	LOC
+1	Shabir Ahmad Muhammad Jalil	PER
+1	David Naish	PER
+1	CDU	ORG
+1	Belmondo	PER
+3	CTBT	MISC
+1	Gounon	PER
+1	Klas Eriksson	PER
+2	Americast	ORG
+1	Graham Sharman	PER
+2	Nasdaq	MISC
+3	Reagan	PER
+1	Richard Andrews	PER
+1	Romanian Soccer Federation	ORG
+2	Romanian	MISC
+1	David Evans	PER
+4	Commission Regulation	MISC
+2	Davey Johnson	PER
+1	Syrian-Lebanese	MISC
+2	Hosni Mubarak	PER
+1	Pires	PER
+1	Geoff Marsh	PER
+1	Lori McNeil	PER
+1	Arctic	MISC
+1	Fox Broadcasting	ORG
+1	Llansantffraid	ORG
+1	Karsten Richardt	PER
+1	Salomon Brothers	ORG
+1	Sandra Cecchini	PER
+1	Jens Veggerby	PER
+4	Niugini	ORG
+2	Malcolm Rifkind	PER
+1	Regulation	MISC
+1	Broward County Sheriff 's Office	ORG
+2	Washington	PER
+1	MSK Zilina	ORG
+1	Commodity Credit Corp of USDA	ORG
+1	Drazen Beser	PER
+3	Colchester	LOC
+2	Australian Rules	MISC
+1	Levski Sofia	ORG
+1	CompuServe Corp	ORG
+1	Jean-Michel Bayle	PER
+1	Giga Information Group	ORG
+2	Frank de Boer	PER
+1	Democratic Karen Buddhist Army	ORG
+1	Alucasa	ORG
+1	PSE	ORG
+2	Newcrest	ORG
+1	Dante Bichette	PER
+4	Worcester	LOC
+1	Masserigne Ndiaye	PER
+2	Annabel Ellwood	PER
+1	Gigi Fernandez	PER
+2	Jane Quigley	PER
+1	U.K.	LOC
+2	Rolf Sorensen	PER
+3	BOSTON	ORG
+2	Allen	PER
+1	Journal of the Royal College of Physicians	ORG
+1	Southland Life	ORG
+1	Joseph Keter	PER
+2	Banisadr	PER
+5	Portuguese	MISC
+1	Hanwha	ORG
+2	Pittsburgh Pirates	ORG
+1	Macedonia	LOC
+1	league-Australian	MISC
+3	Housecall	ORG
+18	Belgian	MISC
+1	1990 World Cup	MISC
+1	Gulf McLaren F !	MISC
+1	Manchester	LOC
+1	Ingwe	ORG
+1	Mariano Juan	PER
+7	SAN FRANCISCO	LOC
+1	Ignacio Olascoaga Mugica	PER
+2	David	PER
+1	Justice	ORG
+8	C$	MISC
+1	Kengo wa Dondo	PER
+1	Asia	LOC
+2	Kafelnikov	PER
+1	ARGENTINE	MISC
+1	Pietro T.	PER
+2	Medellin	LOC
+2	Mike McCurry	PER
+1	East Java	MISC
+1	Lockhart Industries Inc	ORG
+1	Julius Nyrere	PER
+1	Lidl	ORG
+1	Mosier	PER
+1	Patricia Lezama	PER
+1	John Talen	PER
+3	Weaver	PER
+1	Limerick	LOC
+38	India	LOC
+1	Jose Barroso	PER
+1	Board	ORG
+1	ROMANIAN	MISC
+2	Comprehensive Test Ban Treaty	MISC
+5	GRAND PRIX	MISC
+1	Lars Riedel	PER
+10	Ajax	ORG
+1	Harding	PER
+20	Polish	MISC
+1	Rios	PER
+1	Tony Vairelles	PER
+4	Bogra	LOC
+1	Kostantin Matusevitch	PER
+1	Fourth Circuit	ORG
+1	Zundra Feagin	PER
+1	COUNTY CHAMPIONSHIP	MISC
+1	LENS	ORG
+2	Rodriguez	PER
+1	Melanie Schnell	PER
+1	Ilke Wyludda	PER
+1	All-Star	MISC
+1	Benito Santiago	PER
+2	Canberra	LOC
+1	Brush Wellman	ORG
+1	Dariusz Rosati	PER
+1	Jamie Moyer	PER
+1	Eleonora Berlanda	PER
+2	Kocinski	PER
+1	PMC	ORG
+1	TM	ORG
+1	Arbil	LOC
+3	Alec Stewart	PER
+1	TX	LOC
+1	Mypa-47	ORG
+1	Alcan	ORG
+1	Audi	ORG
+1	New Mexico	LOC
+1	Richmond-based	MISC
+2	DBRS	ORG
+1	Pierre Buyoya	PER
+2	Michael Tebbutt	PER
+1	Anton Schutte	PER
+1	Fatima Yussuf	PER
+1	Leah Pells	PER
+1	Ernesto Samper	PER
+2	NATO-led	MISC
+1	Games	MISC
+1	Emeraud	ORG
+1	Israelis	MISC
+2	Fleurian	PER
+1	First Union National Bank of Florida	ORG
+2	Social Democrats	MISC
+5	Ischinger	PER
+1	Beijing-backed	MISC
+1	Rabat	LOC
+1	Giovanni Lavaggi	PER
+5	Ford Escort	MISC
+3	KANSAS CITY	ORG
+1	Marek Citko	PER
+9	Mother Teresa	PER
+1	Kathrin Freitag	PER
+3	Stephanie	PER
+1	Moengo	LOC
+1	Mark Dutroux	PER
+2	Jeff Williams	PER
+1	CROFT	PER
+1	Gyaicain Norbu	PER
+1	Lisbon	LOC
+1	EUROPEAN CUP WINNERS ' CUP	MISC
+2	Sfeir	PER
+1	M. Karunanidhi	PER
+2	Frowick	PER
+3	Jared Palmer	PER
+3	COLORADO	ORG
+2	Niugini Mining Ltd	ORG
+1	CHILE	LOC
+2	Boston Red Sox	ORG
+6	FDP	ORG
+2	Truth and Reconciliation Commission	ORG
+3	David Levy	PER
+1	Hubert Grossard	PER
+1	Southern California Edison Co	ORG
+3	D. Cork	PER
+5	Banespa	ORG
+1	VTM	ORG
+1	Umar Shelling	PER
+1	Bob Wollek	PER
+1	Kinross	ORG
+1	Ray Belim	PER
+1	Brian Gilbertson	PER
+3	Newcastle	ORG
+1	CNB	ORG
+2	Pedro Lamy	PER
+1	Sally Barsosio	PER
+1	Becanovic	PER
+3	POLISH	MISC
+2	Zairean	MISC
+1	Kishinev	LOC
+7	Fortuna Sittard	ORG
+5	Pedro Linhart	PER
+2	Fred McGriff	PER
+1	Aaxis Limited	ORG
+1	Jumbish	PER
+1	Miami	LOC
+6	McLaren	ORG
+7	Mexico	LOC
+1	Bank of Spain	ORG
+1	Ravi	LOC
+1	Nele Zilinskiene	PER
+1	Arabised north	LOC
+1	Dal Maso	PER
+1	Ishwari Boopathy	PER
+2	Lebanese	MISC
+4	Drew	PER
+1	Yoelvis Quesada	PER
+1	Pescara	ORG
+2	SPANISH	MISC
+1	Joao Vale de Almeida	PER
+1	Julien Bonetat	PER
+1	NEUFCHATEAU	LOC
+1	John Marzano	PER
+1	New Zealander	MISC
+1	Sung-Hee Park	PER
+2	Bury	ORG
+2	Magdalena Maleeva	PER
+1	Stephen Pate	PER
+1	Andre Caboche	PER
+10	Islamist	MISC
+1	Brad Ausmus	PER
+1	Jacky Martens	PER
+1	Keith Fletcher	PER
+1	Boland	ORG
+1	Ahmed Faizy	PER
+2	IPE	ORG
+1	Gert Jan Van Doorn	PER
+1	South African Hockey Association	ORG
+1	Seat	ORG
+1	Sigeki Maruyama	PER
+14	Slovak	MISC
+4	South Korea	LOC
+1	Javagal Srinath	PER
+3	Robert Croft	PER
+1	State Council	ORG
+2	Sameh Haj Yihye	PER
+1	Heng Suan Lim	PER
+1	Robert Mugabe	PER
+67	Pakistan	LOC
+1	West Azerbaijan	LOC
+32	English	MISC
+2	Peter Nicol	PER
+1	Brighton	ORG
+2	SAN MARINO	LOC
+1	CZECH	MISC
+1	Torrance Zellner	PER
+1	Shkirko	PER
+1	Michael Reiziger	PER
+1	Keiron Henderson	PER
+2	D. Robinson	PER
+1	Vyacheslav Ekimov	PER
+1	Verbjorn Rodal	PER
+1	Nomura	ORG
+8	Albanian	MISC
+1	Viacom	ORG
+1	Ford Motor Co	ORG
+3	Yingkou	LOC
+1	Charles McGilley	PER
+1	Alcatel Alsthom	ORG
+1	Sarah Brady	PER
+2	Talbott	PER
+1	Alex Fernandez	PER
+1	Sierra	LOC
+1	Duma	ORG
+1	Larisa Neiland	PER
+1	Greg Rusedski	PER
+4	Kenneth Eriksson	PER
+1	GENOA	LOC
+1	Cabinet	ORG
+1	FERENCVAROS	ORG
+3	Waldbaum Hamlet Cup	MISC
+1	Sven Struver	PER
+3	Bedie	PER
+4	Nathalie Tauziat	PER
+1	Hal Morris	PER
+1	Kispest Honved	ORG
+1	Brussels	MISC
+1	Masayoshi Takemura	PER
+3	MONTREAL	LOC
+1	Arthur Yates	ORG
+4	Juha Kankkunen	PER
+1	China-bound	MISC
+1	Harper-Collins	ORG
+1	Westlake	PER
+1	Chisinau	ORG
+3	Masood	PER
+1	Bunds	MISC
+3	BRAZIL	LOC
+1	Henke Larsson	PER
+1	Vancouver	LOC
+1	Goldstein	PER
+1	Said	PER
+7	Middle East	LOC
+1	T&N Plc	ORG
+1	Dean Gorre	PER
+5	M. Atherton	PER
+1	Chris Rutter	PER
+9	Benetton	ORG
+2	Danish	MISC
+9	Inzamam-ul-Haq	PER
+21	New Zealand	LOC
+1	Date	PER
+3	Hillary Rodham Clinton	PER
+82	England	LOC
+3	Juppe	PER
+1	Human Gene Therapy	ORG
+1	Masterkova	PER
+1	Martin Stenning	PER
+1	Edgar Renteria	PER
+8	Marcelo Rios	PER
+1	Nicolas Charlier	PER
+1	Lihir	ORG
+3	Queens Park Rangers	ORG
+4	Daniel Vacek	PER
+14	Paris	LOC
+3	McGrath	PER
+1	Riley	PER
+1	Brady Law	MISC
+7	Levy	PER
+1	Kazimierz Socha	PER
+1	Peter Roe	PER
+1	FORMULA SHELL	ORG
+3	Treasury	ORG
+1	Umberto Bossi	PER
+7	Open	MISC
+1	Michael Campbell	PER
+1	Neil Williams	PER
+1	Claus	PER
+1	Calcutta hospital	LOC
+1	BATISTUTA	PER
+1	ALLENTOWN	LOC
+1	Corser	PER
+6	OM	ORG
+4	Hashimoto	PER
+1	Henry Candy	PER
+5	Indonesian	MISC
+1	African American	MISC
+2	Daewoo	ORG
+1	Guinness Peat Group Plc	ORG
+1	Pauline Konga	PER
+1	Rosemary Bennett	PER
+1	Sheffield	PER
+1	Newcrest Q4	ORG
+1	Alan Lovell	PER
+1	Germans	MISC
+2	Scott Humphries	PER
+1	Federal Bureau of Investigation	ORG
+1	Yukio Hatoyama	PER
+1	Varteks Varazdin	ORG
+1	Collin Dugmore	PER
+1	CNE	ORG
+1	British Open	MISC
+3	Bayern Munich	ORG
+1	Chicago	ORG
+1	Prince Rupert	LOC
+1	Malbak Ltd	ORG
+1	Denny Neagle	PER
+10	Scotland	LOC
+1	Ray Durham	PER
+2	Doug Flach	PER
+1	Stephen Field	PER
+5	Budapest	LOC
+2	Ross	PER
+4	Unita	ORG
+3	C. Lewis	PER
+1	N.Y.	LOC
+2	Derrick Adkins	PER
+1	National Party	ORG
+3	Kansas City	LOC
+1	Herman Gumy	PER
+2	Kentucky	LOC
+1	John White	PER
+1	Antonio Quarracino	PER
+1	Korea	LOC
+1	Dynamo Batumi	ORG
+1	Amazon	LOC
+1	CZECH REPUBLIC	LOC
+2	Kansas City Royals	ORG
+1	Dan Jenson	PER
+6	PDS	ORG
+1	F.A. Cup	MISC
+1	Woolmer	PER
+1	Slobodan Milosevic	PER
+1	Swansea	ORG
+1	Erik Dekker	PER
+1	Bruno Thiry	PER
+1	All Fishermen 's Association	ORG
+1	Purefoods Hotdogs	ORG
+1	Weinstein	PER
+1	Sandra O'Neal	PER
+1	Richard Lindsey	PER
+1	Hall	PER
+3	San Francisco	LOC
+1	Susan Smith	PER
+1	Zeri i Popullit	ORG
+1	Francesco Toldo	PER
+1	Cambodian	MISC
+1	al-Ingaz al-Watani	ORG
+1	Snyman	PER
+2	Liechenstein	LOC
+1	Alain Caveglia	PER
+3	GPG	ORG
+1	Loren Roberts	PER
+2	Diego Borrego	PER
+1	Conference Board	ORG
+1	Etienne Mendy	PER
+1	ST HELENS	ORG
+1	David Rowland	PER
+1	Boddington	LOC
+1	Fairview Town	LOC
+1	Mark Wolf	PER
+1	Aston Villa	ORG
+3	Tapie	PER
+8	Peres	PER
+1	Robert Coughlan	PER
+1	Courtney Walsh	PER
+1	Brad Hogg	PER
+1	Frenchman	MISC
+1	Seguin	PER
+1	Kudapokuna	LOC
+1	Myles Frechette	PER
+1	Narino	LOC
+1	Oyvind Rojahn	PER
+1	Sean Dundee	PER
+2	MONTPELIER	LOC
+2	Guernsey	LOC
+11	Yamaha	ORG
+1	RUF	ORG
+1	Perm	LOC
+1	Tony Taylor	PER
+1	Rameswaram	LOC
+1	Gabor Sitanyi	PER
+12	Amman	LOC
+1	Anders Thoren	PER
+5	ACC	ORG
+2	Mahala	LOC
+1	Bordeaux	LOC
+1	Hanna Haugland	PER
+2	Allen Johnson	PER
+1	Goosen	PER
+4	LOS ANGELES	LOC
+4	TORONTO	ORG
+5	Manchester United	ORG
+1	Wojtek Lazarek	PER
+2	Texas	LOC
+1	Southern New England Telecommunications Corp.	ORG
+8	Stich	PER
+1	Republican Party	ORG
+5	LOS ANGELES	ORG
+2	Palestinian Authority	ORG
+1	Stadium Court	LOC
+1	David Howell	PER
+1	Tony Whiteman	PER
+2	M. Lathwell	PER
+1	Humayun Rasheed Choudhury	PER
+1	Fannie Johnson	PER
+2	Brett Martin	PER
+1	Shishu Bhavan	ORG
+2	MED	LOC
+1	Ruben Amaro	PER
+2	Mulder	PER
+2	Hermawan Susanto	PER
+1	Travis Fryman	PER
+1	D.C. Coalition Against Domestic Violence	ORG
+1	Ferencvaros	ORG
+1	Sarah Thorsett	PER
+4	DETROIT	LOC
+1	Kevin Seitzer	PER
+1	Scottish League Cup	MISC
+1	Mohammad Dahman	PER
+1	Kahalani	PER
+1	Juan Domingo Peron	PER
+3	Iliescu	PER
+1	Phylis Smith	PER
+4	Albania	LOC
+1	Hennady Udovenko	PER
+2	Anne-Gaelle Sidot	PER
+4	Costa Rican	MISC
+1	Margaret Crowley	PER
+1	AIDS	MISC
+60	Japan	LOC
+2	Jiul Petrosani	ORG
+1	C. Evans	PER
+1	S. Korea	LOC
+1	Revolutionary United Front	ORG
+1	Vatican	LOC
+1	Wijaya Indra	PER
+3	Super Cup	MISC
+1	Statistics Canada	ORG
+3	A. Stewart	PER
+4	Middlesex	ORG
+1	Stefka Kostadinova	PER
+1	Glasgow Rangers	ORG
+1	Welsh	MISC
+1	Christian Rudd	PER
+1	Veliko Tarnovo	LOC
+1	Flora	LOC
+1	Steven Vrolijk	PER
+1	UN	ORG
+1	Jumet	LOC
+1	Paul Ting	PER
+1	Labour Day	MISC
+1	Veerle De Jaeghere	PER
+1	Basuki	PER
+1	Pittsburgh	ORG
+1	Kim Young Sam	PER
+1	Raphael Riel	PER
+2	Gazeta Wyborcza	ORG
+2	Kosovo	LOC
+1	Kankkunen	PER
+3	MOODY 'S	ORG
+2	CHRISTIE	PER
+1	Giovanni Lombardi	PER
+4	Rubens Barrichello	PER
+1	Donne Wall	PER
+2	Jos Verstappen	PER
+1	I.K. Gujral	PER
+1	SunGard Shareholder Systems Inc	ORG
+3	Francis Moreau	PER
+1	Bob Brett	PER
+1	Redgrave	PER
+1	Tim Lobinger	PER
+2	OPEN	MISC
+18	Bill Clinton	PER
+2	Ilie Lazar	PER
+14	Ukraine	LOC
+4	Stephen Ames	PER
+2	Northampton	ORG
+1	Luis Miguel Predrosa	PER
+3	Padraig Harrington	PER
+1	Frederick Chiluba	PER
+3	Newcombe	PER
+1	Von Heesen	PER
+1	Columbia Presbyterian Hospital	LOC
+1	Tan Fook	PER
+1	GDANSK	LOC
+2	Wigan	ORG
+1	Markus Feldhoff	PER
+3	Minardi	ORG
+3	CLEVELAND	LOC
+1	Paulo Sousa	PER
+1	Teresa	PER
+4	Tibet	LOC
+1	Shen Guofang	PER
+2	Lincoln	ORG
+1	Juan Santamaria	LOC
+1	Bengali	MISC
+4	Cardiff	LOC
+7	Afghanistan	LOC
+1	Andi Kanstinger	PER
+2	Pablo Campana	PER
+1	Tutsi-run	MISC
+1	Andy Hinchcliffe	PER
+1	JOHNSON	PER
+2	Bernd Karbacher	PER
+1	Tim Forsyth	PER
+1	Fatima Cristina	PER
+1	Mohamed Moada	PER
+1	Curitiba	LOC
+2	Andrea Ferrigato	PER
+1	Geoffrey Fieger	PER
+1	Carl Fogarty	PER
+5	Brady	PER
+2	Senegalese	MISC
+3	M. Vaughan	PER
+2	Botham	PER
+3	Arjuna Ranatunga	PER
+1	Sokoto	LOC
+1	Rotterdam	LOC
+1	Cometra et al Morinville 11-13	MISC
+2	Goulnara Fatkoullina	PER
+2	Shiraz	LOC
+1	Hashan Tillekeratne	PER
+6	J. Crawley	PER
+1	Simon Culhane	PER
+1	LISPI	MISC
+2	Viktor Chernomyrdin	PER
+1	La Voie	ORG
+1	Maltese	MISC
+3	Volkswagen AG	ORG
+2	Sydney Tigers	ORG
+3	Kekkila	ORG
+1	Antonio Kandir	PER
+1	Jacqueline Martin	PER
+1	Nanne Dahlman	PER
+1	Ennea	MISC
+2	Eco-Challenge	MISC
+44	South Africa	LOC
+3	Crohn	PER
+5	Angolan	MISC
+1	Thierry Dehaan	PER
+1	Newell Old Boys	ORG
+6	ISS	ORG
+1	Gabriele Colombo	PER
+2	Scott Draper	PER
+1	Abdul Samad Ismail	PER
+1	Christophe Bonvin	PER
+1	Wally Joyner	PER
+18	Sudanese	MISC
+1	MARTINEZ	PER
+4	Willem II Tilburg	ORG
+1	Peron	PER
+1	Council Regulation	MISC
+2	National Assembly	ORG
+1	China Securities	ORG
+1	National Democratic Alliance	ORG
+1	Jiangsu	LOC
+1	Iron Gippsland	MISC
+1	Habsudova	PER
+2	Uruguay	LOC
+1	CRH	ORG
+2	Weiss	PER
+1	Tony Johnstone	PER
+2	Ghent	ORG
+1	Brann Bergen	ORG
+3	Democratic Convention	MISC
+6	New Delhi	LOC
+1	Keiichi Kitigawa	PER
+1	Chen Gang	PER
+1	Mpumulanga	LOC
+1	RAF Riga	ORG
+1	Mets	ORG
+1	Riza Altun	PER
+5	African Nations Cup	MISC
+1	Trond Bathel	PER
+5	Dimitris Kontogiannis	PER
+12	Arab	MISC
+2	Antwerp	ORG
+1	Palmeiro	PER
+1	SAO PAULO	PER
+2	Seles	PER
+1	Romeo Wouden	PER
+3	Gabriela Sabatini	PER
+1	Badi-Tondon	LOC
+3	Asa Carlsson	PER
+5	Linford Christie	PER
+1	Luxembourg	LOC
+1	Jalalabad	LOC
+1	CheckFree Corp	ORG
+1	Polti	ORG
+1	Sandra Cacic	PER
+1	Pakistan Muslim League	ORG
+1	Welspun	ORG
+1	Israeli-Syrian	MISC
+1	Democratic National convention	MISC
+1	American Airlines	ORG
+2	Sporting	ORG
+1	Supreme Federal Tribunal	ORG
+1	Nissan Kapeta	PER
+1	Hapoel Beit She'an	ORG
+1	Wim Omloop	PER
+2	MUZAFFARABAD	LOC
+10	Sudan	LOC
+12	Stansted	LOC
+1	Salahuddin	LOC
+2	Cal Ripken	PER
+1	Mae Sot	LOC
+1	St. Louis	LOC
+1	Eastern Cables	ORG
+1	Jacek Dembinski	PER
+2	Boston	ORG
+1	Kekkila Oy	ORG
+1	ELIZABETH	LOC
+1	Malgorzata Rydz	PER
+3	Mika Salo	PER
+1	Doug Turner	PER
+1	NZPA	ORG
+1	Luis Raul Matos Azocar	PER
+1	Copper and Brass Servicenter Association	ORG
+1	Glenallen Hill	PER
+4	ICAC	ORG
+1	Nottingham Forest	LOC
+5	Petr Korda	PER
+1	Associated Cement Companies	ORG
+1	Alexander Popov	PER
+5	Tim Henman	PER
+1	Stephane Ortelli	PER
+30	European	MISC
+1	Mosenergo	ORG
+1	Anton Bruckner	PER
+6	ETA	ORG
+4	Corsica	LOC
+1	Jose Rosado	PER
+1	DALGLISH	PER
+4	Ryutaro Hashimoto	PER
+3	Eamonn Darcy	PER
+3	Indian Ocean	LOC
+2	Rifkind	PER
+1	Mette Bergmann	PER
+8	Barcelona	ORG
+2	Jan Kroslak	PER
+6	Montpellier	ORG
+2	Kandahar	LOC
+1	Puerto Rican	MISC
+1	Sitanyi	PER
+9	Jordanian	MISC
+1	Ronald Goldman	PER
+1	Pendleton	LOC
+2	Downer	PER
+1	Christine Wachtel	PER
+1	Chris Patten	PER
+11	Chile	LOC
+1	BellSouth Corp.	ORG
+1	Milan Kucan	PER
+1	David Brabham	PER
+1	North	LOC
+2	Adel Ibrahim	PER
+1	Li Peng	PER
+1	William O'Neill	PER
+1	Jomhuri Eslami	ORG
+3	Cambodia	LOC
+1	Romano Sion	PER
+1	PC Data Inc	ORG
+1	Indian Fisheries Department	ORG
+1	Angel Miranda	PER
+2	Montserrat	LOC
+3	Genoa	ORG
+1	Loretto Abbey	LOC
+2	ZDF	ORG
+3	Alberto Berasategui	PER
+1	RBI	ORG
+1	John Newcombe	PER
+1	Saint of the Gutters	PER
+1	Irani	PER
+2	ECOMOG	ORG
+1	Englishmen	MISC
+1	African Cup	MISC
+1	Constructorul	ORG
+1	Cindana	PER
+3	PORTUGUESE	MISC
+7	Gencor	ORG
+1	RSR	ORG
+1	Tubmanburg	LOC
+1	Cal Eldred	PER
+1	Kim White	PER
+1	David Sesa	PER
+3	D. Fulton	PER
+1	Omar Karame	PER
+2	Gaston Taument	PER
+1	Penn Treaty American Corp	ORG
+11	Afghan	MISC
+1	Naoto Kan	PER
+3	DKBA	ORG
+1	Mother	PER
+1	Frankie Rodriguez	PER
+1	Alex Rodriguez	PER
+7	Venezuela	LOC
+2	Sjeng Schalken	PER
+6	Tamil	MISC
+3	Jim Courier	PER
+2	East Stirling	ORG
+2	Svetlana Samokhalova	PER
+1	Dirk Coetzee	PER
+4	ATLANTA	LOC
+1	Sivas	LOC
+1	John Grant Fagan	PER
+1	Juan Esnaider	PER
+2	Partizan	ORG
+2	Juan Guzman	PER
+1	Aishwarya	PER
+1	AOL Germany	ORG
+3	AUSTRIA	LOC
+2	Casey	PER
+1	MI-17	MISC
+1	Central African Republic	LOC
+2	Moyer	PER
+1	Preston	PER
+1	Scor	ORG
+1	Correction Department	ORG
+4	Raichev	PER
+2	Berri	PER
+1	Stock Exchange	ORG
+1	Bernard Barmasai	PER
+1	Chad Curtis	PER
+3	Paul	PER
+1	Sebastien Lareau	PER
+2	Lisa Raymond	PER
+1	Victoria	LOC
+2	Jens Todt	PER
+14	Motorola	ORG
+1	Moses Kiptanui	PER
+1	The Wall Street Journal	ORG
+4	ND	ORG
+31	Palestinian	MISC
+3	Guillaume Raoux	PER
+2	Srebrenica	LOC
+1	Wayne Jordan	PER
+2	Suleyman Demirel	PER
+2	KNU	ORG
+81	Germany	LOC
+2	Radical Cause	ORG
+2	Naish	PER
+6	CANADIAN OPEN	MISC
+2	Ata-ur-Rehman	PER
+1	Scott Young	PER
+2	Gough	PER
+2	Jimy Szymanski	PER
+1	BALLANGER	PER
+1	Kleiner Perkins Caufield & Byers	ORG
+1	Sewa	PER
+1	Ellis Burks	PER
+1	John Kornblum	PER
+3	Michelle Freeman	PER
+2	South Queensland	ORG
+1	Blake Bath	PER
+1	NAC	ORG
+1	ABC News	ORG
+4	DETROIT	ORG
+1	Council of Europe	ORG
+5	Old Trafford	LOC
+1	Near East	LOC
+1	Indians	MISC
+3	Sparta Rotterdam	ORG
+1	NICE	ORG
+1	Vicorp Restaurants	ORG
+5	Bangkok	LOC
+4	Israel-PLO	MISC
+1	Tauziat	PER
+1	LEEDS	LOC
+1	Jack Kemp	PER
+6	Serbia	LOC
+1	SKHIRAT	LOC
+3	World War Two	MISC
+3	PITTSBURGH	LOC
+1	Volendam	LOC
+28	Moslem	MISC
+1	GREER	PER
+2	Robert Pelletreau	PER
+1	Perth	LOC
+1	Dawn Bowles	PER
+1	Internacional	ORG
+1	Jiri Dopita	PER
+1	Jannie Gagiano	PER
+1	Perfetti	PER
+2	Eritrean	MISC
+2	Simon Crafar	PER
+1	Red Cross	ORG
+1	Cargill	ORG
+1	U.S. Defense Logistics Agency	ORG
+1	Alomar	PER
+2	Queensland	LOC
+2	Rafter	PER
+1	Robert Gutenstein	PER
+1	Wolfgang Ischinger	PER
+1	Dan Jensen	PER
+1	Sparta	ORG
+2	Harvey	PER
+2	Monrovia	LOC
+1	Cowdenbeath	ORG
+1	Berti Vogts	PER
+1	British Lions	ORG
+1	Sebastien Tortelli	PER
+3	Edberg	PER
+1	Gress	PER
+1	Scott Brosius	PER
+1	Ivan Garcia	PER
+2	Nathalie Dechy	PER
+3	Demel	PER
+1	Julia Vaquero	PER
+2	Campbell	PER
+2	Daewoo Information	ORG
+1	Community of Madrid	LOC
+2	MASTERKOVA	PER
+1	CARLING	PER
+1	Ivan Odnosum	PER
+2	Fernando Meligeni	PER
+1	Angelica Gavaldon	PER
+1	Plymouth Argyle	ORG
+1	AEK Larnaca	ORG
+7	MaliVai Washington	PER
+1	Keiji Kojima	PER
+1	Budge Weidman	PER
+3	Philip Cocu	PER
+1	Abdellaoui	PER
+2	Schutte	PER
+1	Santa Barbara	LOC
+1	Patrik Sjoberg	PER
+2	Ginebra San Miguel	ORG
+1	Peter	PER
+4	Kevorkian	PER
+2	Beirut	LOC
+3	Iraqis	MISC
+7	Alex O'Brien	PER
+1	NBA	ORG
+1	VANCOUVER	LOC
+1	Hampshire	LOC
+1	Aryeh Shumer	PER
+2	Greg Turner	PER
+1	Van Wanrooy	PER
+1	PHILLIES	ORG
+1	John Bissell	PER
+3	Bertram	PER
+1	Michael van der Wolf	PER
+1	Mutawakel Taha	PER
+1	Calif	LOC
+2	Dacom	ORG
+2	Gary Sheffield	PER
+4	Steffi Graf	PER
+1	Peter Dirkx	PER
+1	Bonnet	PER
+2	Derek Mills	PER
+3	Williams	PER
+1	Mironivka Wheat Institute	ORG
+1	Botswana	LOC
+1	Max Marriner	PER
+1	Arrigo Sacchi	PER
+1	Shatoi	LOC
+1	Raith Rovers FC	ORG
+2	Des Smyth	PER
+1	Ahmed Yassin	PER
+1	Roberto Benigni	PER
+6	Shimon Peres	PER
+1	SHATOI	LOC
+1	James Brady	PER
+3	Hutus	MISC
+1	Bernini	PER
+1	Kurt Abbott	PER
+1	TENDULKAR	PER
+2	MIT	ORG
+3	Laurence Courtois	PER
+1	Rothschild & Cie	ORG
+1	N.J. Bose	PER
+1	Itamar Rabinovich	PER
+1	Bob Woolmer	PER
+1	Gideon Chirchir	PER
+13	ENGLISH	MISC
+1	Dmitry Solovyov	PER
+1	FERGUSON	PER
+4	Lancashire	ORG
+1	Andean	MISC
+2	Charleroi	ORG
+1	Pauline Davis	PER
+1	Allan Mullally	PER
+4	Tibetan	MISC
+3	Worcestershire	ORG
+1	Harrods	MISC
+7	Dayton	LOC
+2	Sidor	ORG
+1	Bremen	ORG
+1	John Inienger	PER
+2	Holdings	ORG
+1	Collinelli	PER
+1	Jack	PER
+3	Linz	LOC
+3	Perry	PER
+7	Major League	MISC
+4	Trinidad	LOC
+2	Inez Turner	PER
+4	Akron	LOC
+4	Johnny Herbert	PER
+1	St Gallen	ORG
+2	Jim Bolger	PER
+1	Loko	PER
+6	Jakarta	LOC
+6	Organisation for Security and Cooperation in Europe	ORG
+1	Steady Eddie	PER
+1	Gujarat	LOC
+1	K. Spiring	PER
+1	Estonian	MISC
+1	Korean	MISC
+1	Jyvaskyla	LOC
+1	PLO Council	ORG
+1	Walsall	ORG
+3	Weston-super-Mare	LOC
+1	Annette Peters	PER
+1	NAN	ORG
+5	Sussex	ORG
+1	Paulinho Santos	PER
+7	Gazprom	ORG
+1	King Hassan	PER
+1	Sylvester Stallone	PER
+4	Cairo	LOC
+1	Zionists	MISC
+4	Berlex	ORG
+1	Juan Carlos Pinero	PER
+1	Banco de Mexico	ORG
+4	West African	MISC
+1	Noranda	ORG
+7	Auxerre	ORG
+1	Claus Manne Nielsen	PER
+4	MINNESOTA	LOC
+4	Martin Brundle	PER
+2	Antoine Lebouc	PER
+4	Lille	ORG
+1	Danut Lupu	PER
+1	Nunung Subandoro	PER
+1	Re	ORG
+2	Steve Brown	PER
+2	Ludmila Engquist	PER
+1	Russian Trading System	MISC
+1	Hearts	ORG
+2	Kaspars Ozers	PER
+5	Patriotic Union of Kurdistan	ORG
+3	Central Bank	ORG
+1	Implats	ORG
+1	Moshe Sabag	PER
+1	Liu Chong Hing	ORG
+1	Gavin Featherstone	PER
+3	RAMALLAH	LOC
+1	Bob Kennedy	PER
+1	Erik Camerlengo	PER
+1	Roberto Baggio	PER
+2	Conference on Disarmament	MISC
+3	Braves	ORG
+1	Pierre-Henri Raphanel	PER
+1	New Media	ORG
+1	Georges Zicot	PER
+1	Patrick Stevens	PER
+28	Moscow	LOC
+2	Ricky Ponting	PER
+2	Hutnik Krakow	ORG
+2	Wimbledon	ORG
+3	Caribbean	LOC
+2	Misael Valerio	PER
+3	Ato Boldon	PER
+1	Jose Valentin	PER
+1	Franco-Prussian	MISC
+1	Neuchatel Xamax	ORG
+2	Monaco	LOC
+1	AJACCIO	LOC
+1	Fitzpatrick	PER
+4	USDA	ORG
+1	McGriff	PER
+3	Punjab	LOC
+1	VERONA	LOC
+2	Islamic Salvation Front	ORG
+1	MARACAIBO	LOC
+2	Anthony Hill	PER
+1	Hoek Loos NV	ORG
+2	HAARLEM	LOC
+1	Dennis Lillee	PER
+2	House	ORG
+1	Larry Walker	PER
+1	Iraq-bound	MISC
+4	Glyn Davies	PER
+1	Amazon Affairs Department	ORG
+1	General Motors	ORG
+1	Abdul Rahman	PER
+1	A.L. East	MISC
+1	Paul Bloch	PER
+4	Tigers	ORG
+2	Werner Zwingmann	PER
+1	Earl Feugill	PER
+1	El Nuevo Diario	ORG
+1	Natalya Sypron	PER
+1	Giunluca Gorini	PER
+1	Rottweiler	MISC
+2	Parramatta	ORG
+4	OFFICIAL JOURNAL	ORG
+2	Garhi Habibullah	LOC
+1	Fulham	ORG
+2	Gwen Torrence	PER
+1	FORT LAUDERDALE	LOC
+1	Aime Jacquet	PER
+1	Ozzie Guillen	PER
+1	Shanghai Automobile Corporation	ORG
+3	ARC	ORG
+2	T&N	ORG
+1	Hanson Plc	ORG
+1	Morinville	LOC
+3	AUSTRALIA	LOC
+1	Pemberton	LOC
+1	Jeff Bagwell	PER
+3	Volendam	ORG
+1	Shen	ORG
+1	Assembly	ORG
+2	Nestor	PER
+2	Trinidad and Tobago	LOC
+2	Olimpija	ORG
+1	Jamaat-i-Islami	ORG
+2	Pessina	PER
+1	Juha Ylonen	PER
+1	Fung Permadi	PER
+1	Nyva	ORG
+1	F.W. de Klerk	PER
+1	Anza	LOC
+1	Sally Boyden	PER
+2	Bossi	PER
+1	Lufthansa Cargo AG	ORG
+2	Eefje Lambrecks	PER
+1	Francois-Rene ( Vicomte de ) Chateaubriand	PER
+5	Baltimore	LOC
+1	Yannos Papandoniou	PER
+3	neo-Nazi	MISC
+1	LAKES	MISC
+8	Malta	LOC
+2	Aaron Slight	PER
+1	SCOTLAND	LOC
+5	Kurdistan Democratic Party	ORG
+1	Don Loewen	PER
+2	Riyadh	LOC
+2	Leverkusen	ORG
+1	BayerVB	ORG
+2	Mats Wilander	PER
+1	Jacek Berensztain	PER
+5	Gujral	PER
+2	1,000 Lakes	MISC
+1	Singapore-listed	MISC
+2	R. Irani	PER
+1	Dutch PTT	ORG
+2	Abu Dhabi	LOC
+1	Amr Moussa	PER
+1	Machnee	PER
+1	Stanojlovic	PER
+1	Christian Ruud	PER
+1	International Monetary Fund	ORG
+22	Italian	MISC
+3	Tirana	LOC
+2	Marriner	PER
+1	Jan Buettner	PER
+1	Ka Wah Bank	ORG
+10	NEW YORK	ORG
+1	Exeter	ORG
+2	Bill Birch	PER
+18	Republican	MISC
+7	Islamic	MISC
+1	Franklin Roosevelt	LOC
+1	Samson Kitur	PER
+2	HK$	MISC
+1	UEFA	ORG
+1	Dominion Bond Rating Service	ORG
+1	Nikki Campbell	PER
+1	JORGE	PER
+1	Grace Kelly	PER
+2	Troy Corser	PER
+1	Enn Markvart	PER
+3	BELGIAN GRAND PRIX	MISC
+5	Taleban	MISC
+3	Xinhua	ORG
+1	Worku Bekila	PER
+1	Karina Adams	PER
+1	Venalum	ORG
+1	Colin Hope	PER
+1	Van	LOC
+1	Ferrigato	PER
+3	Seattle	LOC
+1	Hussein Khalaf	PER
+4	Paris St Germain	ORG
+1	Vivit Chatuparisut	PER
+1	South Kivu	LOC
+1	ULIMO-J	ORG
+1	Roger Kingdom	PER
+1	KDPI	ORG
+2	Bucharest	LOC
+7	Fox	PER
+1	Dusan Kovacs	PER
+1	Alex Ferguson	PER
+1	Maureen Garrity	PER
+2	Karak	LOC
+1	Osvaldo Fenandez	PER
+1	Pacific Stock Exchange	ORG
+1	Ivernia	ORG
+1	Rolf Fringer	PER
+7	Barrick	ORG
+2	Oslo	LOC
+1	Ajaccio	ORG
+1	Wally Whitehurst	PER
+1	Metz	ORG
+5	Chang	PER
+3	Daniel Nestor	PER
+3	New Jersey	LOC
+2	Islamic Taleban	MISC
+1	Ahmed Mestiri	PER
+1	Botafogo	ORG
+1	non-EU	MISC
+1	Saskatchewan Pork International Marketing Group	ORG
+1	Hristo Stoichkov	PER
+7	TVM	ORG
+1	Mehrtens	PER
+1	Dakar	LOC
+3	CNIEC	ORG
+5	Lanusse	PER
+3	Husqvarna	ORG
+1	Kinross Gold Corp	ORG
+1	Rad	ORG
+3	Almere	LOC
+1	Toomas Savi	PER
+3	Minnesota	LOC
+5	Headingley	LOC
+2	Naoko Sawamatsu	PER
+1	Cy Young	PER
+1	St. Matthew 's	LOC
+31	Czech Republic	LOC
+1	Super Indah Makmur	ORG
+1	x-Anderlecht	ORG
+1	The New York Times	ORG
+3	Spaniard	MISC
+1	Central Asia	LOC
+2	Thomas Radstrom	PER
+1	Gabi Rokmeier	PER
+1	Seve Ballesteros	PER
+1	Peronists	ORG
+2	State Planning Commission	ORG
+1	Alan Ackerman	PER
+1	Tanzania	LOC
+11	Brussels	LOC
+1	Marco Pascolo	PER
+3	Chicago Cubs	ORG
+1	Coast Guard	ORG
+1	KANKKUNEN	PER
+1	Trident Seven	MISC
+4	Interpol	ORG
+1	Prix de l ' Abbaye	MISC
+1	David J. Russell	PER
+3	East Jerusalem	LOC
+1	Cheung	PER
+1	Iberia	ORG
+7	Ijaz Ahmed	PER
+20	World Cup	MISC
+1	Christine Magnusson	PER
+1	Marcel Malone	PER
+3	British-based	MISC
+9	Benjamin Netanyahu	PER
+2	GOLF	LOC
+13	FRENCH	MISC
+1	Endrio Leoni	PER
+1	New Zealands	MISC
+1	Mayfair	PER
+1	NUREMBERG	LOC
+2	Carlisle	ORG
+1	EOE	ORG
+1	Craig Brown	PER
+1	Anthony Washington	PER
+2	Klinsmann	PER
+1	Newt Gingrich	PER
+1	Tatyana Jecmenica	PER
+1	Durres	LOC
+6	Thomas Enqvist	PER
+4	Cincinnati Reds	ORG
+1	Japie Mulder	PER
+1	Peter Edwards	PER
+2	Adrian Knup	PER
+6	Roman Catholic	MISC
+1	Damein Fleming	PER
+4	Nigerian	MISC
+3	Anne Miller	PER
+2	Osmond Ezinwa	PER
+1	JavaSoft	ORG
+1	pan-Turkism	MISC
+1	Commonwealth of Independent States	LOC
+1	Karachi Stock Exchange	ORG
+1	West Bengal	LOC
+1	Bachirou Salou	PER
+1	Gheorghe Funar	PER
+34	Iraqi	MISC
+2	Mariano Friedick	PER
+1	Paul Lawrie	PER
+1	Akron	ORG
+1	Anil Kumble	PER
+1	Peter Martin	PER
+9	Cork	PER
+1	Wilfried Peeters	PER
+1	North Dakota	LOC
+2	Olympiakos	ORG
+1	Jose Luis Vidigal	PER
+5	Kubo	PER
+1	Doetinchem-Doetinchem	MISC
+2	Miguel Angel Jimenez	PER
+1	Sieg	PER
+2	Suedwest LB	ORG
+1	Uruguayan	MISC
+1	Andrea Muller	PER
+26	Argentina	LOC
+3	ANSA	ORG
+1	Pelletreau	PER
+1	MITCHELL	PER
+1	Jose Maria Canizares	PER
+2	Pennsylvania	LOC
+1	Mickey Cochrane	PER
+5	Mohammad Akam	PER
+1	Victor Babes	LOC
+2	Peter O'Malley	PER
+1	Charles Bauza Donwahi	PER
+1	Natalya Torshina	PER
+1	Athletics	ORG
+1	Meghann Shaughnessy	PER
+1	PUK-KDP	MISC
+2	Natalia Voronova	PER
+1	Servet Pellumbi	PER
+1	Pasok	ORG
+1	1,000	MISC
+5	Ramallah	LOC
+2	Alaska Milk	ORG
+2	GAN	ORG
+1	VanLandingham	PER
+1	Tour of Switzerland	MISC
+19	OSCE	ORG
+1	Soprun	PER
+1	Heiki Kranich	PER
+1	Australia Day	MISC
+1	.Robbie McEwen	PER
+1	Batterby	PER
+1	Amer Hishem Ali Mohammed	PER
+1	Platignum	ORG
+5	Ivorian	MISC
+1	Andersson	PER
+2	Belga	ORG
+1	Michael Hubner	PER
+1	Alicia Machado	PER
+3	ITALIAN CUP	MISC
+8	Bonn	LOC
+1	Ross County	ORG
+1	Marianne Werdel Witmeyer	PER
+1	Stefano Zanini	PER
+1	RICHMOND	LOC
+1	Ameritech Corp.	ORG
+1	Nana Miyaga	PER
+1	Buenaventura	LOC
+1	Michael Slater	PER
+1	Hapoel Kfar Sava	ORG
+3	BNP	ORG
+1	Abbaye	MISC
+1	Kuperman	PER
+1	Lawrence Sheets	PER
+1	Houteman	PER
+1	IMOLA	LOC
+2	Joseph Kneipp	PER
+1	Mauricio Hadad	PER
+1	SBC Communications	ORG
+2	CAF	ORG
+1	Nanda Gopal Bhattacharya	PER
+2	Hurte Sierd Zylstra	PER
+1	Marc Wilkins	PER
+1	Setubal	ORG
+1	Ellina Zvereva	PER
+5	White House	LOC
+1	Raymond Atteveld	PER
+1	Abu Rdainah	PER
+2	F-14	MISC
+2	Omer Akbel	PER
+2	Randy Johnson	PER
+1	Petersburg	LOC
+3	Twente Enschede	ORG
+1	Communist	MISC
+1	D.A. Weibring	PER
+3	Arrows	ORG
+1	Shay Given	PER
+3	Salvador	LOC
+4	New York	ORG
+1	PARMA	ORG
+1	Goran Koprinovic	PER
+1	Salomon	ORG
+1	Romanian-registered	MISC
+1	AL	LOC
+1	Republican-led	MISC
+1	John Ericks	PER
+1	Lloyd Bentsen	PER
+2	Saleh	PER
+3	Missionaries of Charity	ORG
+2	Donald Tsang	PER
+1	British Data Management	ORG
+11	Commonwealth	ORG
+2	Birmingham	ORG
+7	French Open	MISC
+1	Jackie Lee	PER
+4	COMMACK	LOC
+1	Abdul Rahman Haj Yihye	PER
+3	Central African	MISC
+1	Gulf McLaren FI GTR	MISC
+1	Jackson	PER
+1	Dhiraj K.C.	PER
+7	Saudi Arabia	LOC
+3	Alex Radulescu	PER
+1	FRANCE	LOC
+1	Foster	PER
+8	Rwandan	MISC
+1	Todor Zhivkov	PER
+1	Shigeki Maruyama	PER
+1	David Skoch	PER
+3	Bogota	LOC
+3	Bulgaria	LOC
+17	Baghdad	LOC
+2	SHEFFIELD	LOC
+1	Khaled al-Qidra	PER
+2	Filipovic	PER
+2	Ecus	MISC
+1	Barry Larkin	PER
+1	Jose Eduardo Dutra	PER
+6	Bob Dole	PER
+1	Franz Stocher	PER
+4	Kurdistan Workers Party	ORG
+1	Houston	ORG
+7	Los Angeles	LOC
+1	Yedioth	ORG
+1	SNCF	ORG
+1	Venantius	ORG
+9	Mullally	PER
+2	Benazir Bhutto	PER
+1	Derbyshire	ORG
+1	Surinamese	MISC
+1	New York Times	ORG
+2	Gulf	LOC
+1	Maine	LOC
+3	Kimberly Po	PER
+2	Press Trust of India	ORG
+2	Tonga	LOC
+3	All Blacks	ORG
+1	Asian Star TV	ORG
+1	Rob Enderle	PER
+4	John Veldman	PER
+1	New York-based	MISC
+1	Brian Bronson	PER
+2	SCHUMACHER	PER
+1	Boskalis	ORG
+1	Health Care Financing Administration	ORG
+4	Buenos Aires	LOC
+2	Paul McGinley	PER
+3	Miltiadis Evert	PER
+2	Sosa	PER
+2	North Queensland	ORG
+1	Garrington 4-8	MISC
+1	Catholics	MISC
+1	Nature	ORG
+3	Eletropaulo	ORG
+1	Arnold	PER
+1	New Yorker	MISC
+6	Sergi Bruguera	PER
+1	BRUSSELS GRAND PRIX	MISC
+1	Salomon Brothers Inc	ORG
+2	Microsoft	ORG
+1	Robert Pires	PER
+4	Svetlana Masterkova	PER
+1	Klaus Baader	PER
+2	Henri Konan Bedie	PER
+5	TOSHIBA CLASSIC	MISC
+2	Franz Fischler	PER
+1	Paul Eales	PER
+1	AGF-IART	ORG
+3	G. Rose	PER
+1	C. Rangarajan	PER
+1	Dan Pudvah	PER
+3	English County Championship	MISC
+1	Foreign Affairs	ORG
+1	Life of Georgia	ORG
+1	Gremio	ORG
+4	Michael Stich	PER
+1	Ducruet	PER
+1	Rapid Vienna	ORG
+1	Dunnes Stores	ORG
+6	Sampras	PER
+3	Airbus 310	MISC
+2	Bucaram	PER
+9	Jamaica	LOC
+1	Omar Bongo	PER
+1	Ennea Ferrari F40	MISC
+2	Henrietta Nagyova	PER
+2	Dhahran	LOC
+1	Mario Jardel	PER
+6	Mikael Tillstrom	PER
+1	Hussein	PER
+2	Lahore	LOC
+1	Arce	PER
+10	Kenya	LOC
+2	Hogg	PER
+2	William Weld	PER
+1	Zapatista	ORG
+2	Ezer Weizman	PER
+1	Jonathan Bachini	PER
+1	JAYASURIYA	PER
+7	Singapore	LOC
+4	Guerrero	LOC
+3	Tansu Ciller	PER
+1	Statoil	ORG
+1	BME	ORG
+4	SAN DIEGO	ORG
+1	Zagreb Money Market	ORG
+1	Ivan Rodriguez	PER
+1	Dahman	PER
+2	CBSA	ORG
+1	Reds	ORG
+4	PITTSBURGH	ORG
+1	Pinas	PER
+2	Tranmere	ORG
+1	Peter Machungwa	PER
+1	Balochistan	LOC
+1	BUNOL	LOC
+1	Crawley	PER
+1	Corporacion Venezolana de Guayana	ORG
+2	Philadelphia	ORG
+1	Tamer El Sawy	PER
+2	Kombouare	PER
+1	Millwall	ORG
+1	Marxist	MISC
+2	Oscar Tabarez	PER
+8	CINCINNATI	ORG
+1	Yulia Graudin	PER
+1	Ileana Bell	PER
+1	JACKSONVILLE	LOC
+2	YUGOSLAV	MISC
+1	Coventry	ORG
+1	Major League Baseball	MISC
+1	Feugill	PER
+2	Yi Jing-Qian	PER
+1	Laurent Ottoz	PER
+2	Roe	PER
+1	EURO CUP	MISC
+2	West Virginia	LOC
+2	Bradford	ORG
+2	SUGO	LOC
+2	Barbara Rittner	PER
+1	Lome	LOC
+1	Jorge Costa	PER
+1	Beja	LOC
+1	USDA-sponsored	MISC
+1	Enzo	PER
+2	Calif.	LOC
+4	Michael Joyce	PER
+1	John Fashanu	PER
+1	Lee Ki-choo	PER
+1	Vicente Solano Lima	PER
+1	Gloria Pizzichini	PER
+1	Sirnak	LOC
+1	Jamaican	MISC
+1	Quetta	LOC
+1	Giovanni	PER
+1	Handgun Control Inc.	ORG
+7	NEC Nijmegen	ORG
+4	Palkhivala	PER
+1	Ryszard Hincza	PER
+2	Terence	PER
+1	Marcus O'Sullivan	PER
+3	Repsol	ORG
+1	Unitog Co	ORG
+4	NEW ZEALAND	LOC
+9	Ajax Amsterdam	ORG
+2	Red Sox	ORG
+6	News Corp	ORG
+4	Olympics	MISC
+2	Cup winners Cup	MISC
+3	NZ	LOC
+2	Darren Anderton	PER
+1	New Territories	LOC
+2	High Plains	LOC
+1	UNP	ORG
+2	Vietnamese	MISC
+1	Chesapeake Police Department	ORG
+6	Jason Stoltenberg	PER
+1	BAILEY	PER
+1	Health Insurance of Vermont	ORG
+1	Hasan Muratovic	PER
+1	Islam	MISC
+1	Huntington	LOC
+1	Laurent Jalabert	PER
+1	Andrei Tchmil	PER
+1	Pakistan People 's Party	ORG
+2	Royal Oak	ORG
+13	Morocco	LOC
+3	Belarus	LOC
+1	Sharjah	LOC
+1	LATTAKIA	LOC
+2	Robert Karlsson	PER
+2	Namibia	LOC
+2	Israel Radio	ORG
+3	Swede	MISC
+6	Gloria Bistrita	ORG
+1	Ronald Waterreus	PER
+4	Le Monde	ORG
+2	Conroy	PER
+1	Spar AG	ORG
+5	TOUR OF NETHERLANDS	MISC
+1	Massachusetts Association of Realtors	ORG
+11	Khartoum	LOC
+2	Bosnians	MISC
+1	SORENSEN	PER
+14	Interfax	ORG
+1	Hansie Cronje	PER
+7	Egyptian	MISC
+7	Yorkshire	ORG
+1	Liutauras Stremaitis	PER
+1	Colin McRae	PER
+2	Atria	ORG
+3	Gingrich	PER
+1	Dai	PER
+2	U.S	LOC
+3	WORLD SERIES OF GOLF	MISC
+2	M. Watkinson	PER
+1	M. Azharuddin	PER
+3	San Diego	LOC
+3	Ibrahim	PER
+1	International Petroleum Encyclopedia	MISC
+2	Alba	ORG
+2	Serb-controlled	MISC
+1	Mike Williams	PER
+1	Oksana Ovchinnikova	PER
+1	Burnley	ORG
+1	Hans-Otto Sieg	PER
+12	South Korean	MISC
+3	Alexander Cejka	PER
+1	Arlen Specter	PER
+1	Das	PER
+2	Orii Corp	ORG
+6	Singer World Series	MISC
+1	Glen Hoddle	PER
+1	Michele Buiatti	PER
+1	Monte Carlo	LOC
+1	Dubnicoff	PER
+2	Prince Rainier	PER
+2	Lehman	ORG
+2	Petra Langrova	PER
+2	Gulbuddin Hekmatyar	PER
+1	Eriksson	PER
+1	Doe Run	ORG
+4	Zastava	ORG
+1	Netanya	LOC
+1	Financial Security Assurance	ORG
+4	Nairobi	LOC
+2	Rusty Greer	PER
+1	Northern League	ORG
+2	South Sydney	ORG
+1	Rhineside	MISC
+1	Bulgarian	MISC
+1	Paul McGrath	PER
+3	Ivanisevic	PER
+1	Johan Lisabeth	PER
+1	Chris Hoiles	PER
+1	Head	PER
+1	Pierre Fulke	PER
+1	Treasury Department	ORG
+1	Havel	PER
+1	Alexia Dechaume-Balleret	PER
+1	VNU	ORG
+1	SCOREBOARD-AUSTRALIA	MISC
+1	Gianfranco Stevanin	PER
+1	David Segui	PER
+1	DSE	ORG
+1	Wolf	PER
+4	Trent Bridge	LOC
+1	Bosnian Croat	MISC
+3	MALAYSIAN OPEN	MISC
+1	Louis Viannet	PER
+1	Mike Atherton	PER
+1	Nancy Reagan	PER
+3	Formula Shell	ORG
+1	ABDERDEEN	LOC
+1	Christian Meidlinger	PER
+1	Miles Tunnicliff	PER
+1	Hans Segers	PER
+9	Kawasaki	ORG
+1	Advanced Medical Inc.	ORG
+3	Nick Faldo	PER
+1	Rimma Maslova	PER
+1	Mideast Gulf	LOC
+3	SOLIDERE	ORG
+1	Western Australian	MISC
+1	Gorgona	LOC
+2	World Series	MISC
+1	Chris Widness	PER
+1	Curtis Fleming	PER
+6	ST LOUIS	ORG
+4	Jarmo Kytolehto	PER
+2	BAYERISCHE VEREINSBANK	ORG
+2	SIMEX Brent	ORG
+1	AFRICA NATIONS CUP	MISC
+1	Gateway Data Sciences	ORG
+1	Berger	PER
+1	Batigol	PER
+3	Russian-Chechen	MISC
+1	Swiss-based	MISC
+3	EUROPEAN SUPER LEAGUE	MISC
+3	An	PER
+3	Boardman	PER
+1	Frank LeBoeuf	PER
+1	Human Rights National Observatory	ORG
+1	Montserratians	MISC
+2	Ebe Huizinga	PER
+2	Rangers	ORG
+5	Tehran	LOC
+1	P. Reiffel	PER
+1	Vitoria	ORG
+1	Julie Baumann	PER
+1	Neil Fairbrother	PER
+1	B. Yeltsin	PER
+1	Pat Hentgen	PER
+1	Noticias	ORG
+4	Kenneth Carlsen	PER
+1	Gerard Kiely	PER
+1	Leonardo	PER
+2	Iraqi Kurds	MISC
+1	HUBER	PER
+2	Bernhard Langer	PER
+1	Jana Kandarr	PER
+9	Austrian	MISC
+7	OAKLAND	ORG
+3	Merrill Lynch	ORG
+6	Maoist	MISC
+1	Jari Litmanen	PER
+2	Frederic Vitoux	PER
+1	Patrice Loko	PER
+1	Japanese Food Agency	ORG
+1	Moada	PER
+1	Matt Lawton	PER
+12	Colombia	LOC
+3	1,000 Lakes Rally	MISC
+3	ST LOUIS	LOC
+1	Prakash Chandra Lohani	PER
+2	Wisla Krakow	ORG
+1	LG Electronics Inc.	ORG
+1	Ken Hill	PER
+1	Klaus Kinkel	PER
+1	Tamas Erdei	PER
+2	Bordeaux	ORG
+23	Wasim Akram	PER
+6	Emnid	ORG
+1	Jakarta Post	ORG
+86	Spain	LOC
+1	CheckFree	ORG
+4	Marc Dutroux	PER
+3	Ballybunion	ORG
+1	Sterling Hitchcock	PER
+1	Terry Pendleton	PER
+1	Leonid Kuchma	PER
+1	Norris	PER
+5	African	MISC
+1	CHILLICOTHE	LOC
+2	Bahrain	LOC
+2	Edwin van der Sar	PER
+1	GOP	MISC
+2	Nicole Arendt	PER
+1	Bollore	ORG
+1	Amoco-Yemen	MISC
+1	Mark Roe	PER
+8	United Nations	ORG
+1	Public Service , Labour and Social Welfare	ORG
+1	Sergei Mironov	PER
+1	Shanghai Ek Chor	ORG
+1	Land Securities	ORG
+1	Navy	ORG
+5	Karina Habsudova	PER
+1	Ali Fallahiyan	PER
+1	Fokker Aviation	ORG
+1	Yoka Lye Mudaba	PER
+1	al-Tadamun	ORG
+4	Amtrak	ORG
+1	G. Whittall	PER
+1	Superman	PER
+3	Belgrade	LOC
+1	Corina Morariu	PER
+1	South Dakota	LOC
+4	Abdul-Karim al-Kabariti	PER
+1	Battersby	PER
+1	Pascal Jongsma	PER
+4	Labour	ORG
+1	Dohuk	LOC
+4	Congress	ORG
+1	Angel Aguirre	PER
+1	Andrei Chesnokov	PER
+2	Cercle Brugge	ORG
+1	Gary Kelly	PER
+1	Jean Van de Velde	PER
+1	Cambridge	LOC
+1	Rajapat Institute	ORG
+1	AMTRAK	ORG
+1	Power New Zealand	ORG
+30	Belgium	LOC
+7	Serbian	MISC
+1	Sven Pieters	PER
+3	Interacciones	ORG
+3	Frankfurt	LOC
+1	United Kingdom	LOC
+1	Liaoning	LOC
+1	Alberto Piotti	PER
+2	Filip Dewulf	PER
+1	Abolhassan Banisadr	PER
+1	Suvit Maenmuan	PER
+3	TWA	ORG
+1	Paramount	LOC
+1	Ian Mackie	PER
+2	Hong	MISC
+2	Thomson	PER
+1	Obree	PER
+3	Alex Corretja	PER
+1	NEWCOMBE	PER
+3	Czech	LOC
+1	Tamil-speaking	MISC
+1	Chiron Corp	ORG
+1	Southern New England Telecommunciations Corp	ORG
+8	Gajdos	PER
+2	Yevgeny Kafelnikov	PER
+1	GOOCH	PER
+2	New York Mets	ORG
+3	Birendra	PER
+3	ING	ORG
+2	Helmut Kohl	PER
+1	Eric Bernard	PER
+9	Morris	PER
+1	MOROCCAN	MISC
+4	Africa	LOC
+1	James Baker	PER
+1	Rodrigo Carneiro	PER
+1	A. Jadeja	PER
+1	Kingston	ORG
+1	Juan Carlos Lago	PER
+4	Fortuna Duesseldorf	ORG
+1	F.A.I.	ORG
+1	Ramon Delgado	PER
+1	Betar Jerusalem	ORG
+1	Charles Nagy	PER
+2	Akbel	PER
+1	Gala Leon Garcia	PER
+1	Franny Weld	PER
+1	Bongo	PER
+3	Bonds	PER
+1	Mark Waugh	PER
+3	Advanced Medical	ORG
+1	Dejan Savicevic	PER
+1	Khandwa	LOC
+1	Argentine Apertura	MISC
+1	Trincomalee	LOC
+1	Chua Jui	PER
+2	Debbie Graham	PER
+1	Coolee City	LOC
+1	University of Pennsylvania	ORG
+1	Alina Astafei	PER
+1	Franco Baresi	PER
+1	Wilmots	PER
+1	Jim Edmonds	PER
+1	THOMSON	PER
+1	Bruno Adelt	PER
+2	Zaglebie Lubin	ORG
+1	Gennadi Skidan	PER
+1	The Canaries	ORG
+2	LTTE	ORG
+1	Mohamed Zejjari	PER
+1	WorldCom	ORG
+1	Sudan People 's Liberation Army	ORG
+1	N. Furuya	PER
+4	Five Nations	MISC
+2	Leander Paes	PER
+1	CBF	MISC
+4	BOGOTA	LOC
+1	Moss Landing Marine Laboratories	ORG
+1	Benson Koech	PER
+7	Patrick Rafter	PER
+1	Aldi	ORG
+1	Petra Begerow	PER
+4	Carl Lewis	PER
+4	CALIFORNIA	LOC
+2	Smith	PER
+1	Derrick	PER
+2	Pembroke Pines	LOC
+1	Taiwan Flour Mills Assn	ORG
+2	Currin	PER
+1	ISRAELI	MISC
+1	pro-Israel	MISC
+2	Ong Ewe Hock	PER
+1	Mia	PER
+2	T. Munton	PER
+1	David Caldwell	PER
+1	David Harding	PER
+1	Reserve bank of India	ORG
+1	Jaora	LOC
+1	Baby Bells	ORG
+1	Kurdish-controlled	MISC
+1	European Court of Human Rights	ORG
+1	Lindsay Owen-Jones	PER
+1	LG	ORG
+1	Grzegorz Krejner	PER
+1	Glenn Hoddle	PER
+1	James Baldwin	PER
+1	Football Association of Ireland	ORG
+2	Nunthorpe Stakes	MISC
+6	SEATTLE	ORG
+1	Mario Stieglmair	PER
+3	N. Knight	PER
+3	Vitesse Arnhem	ORG
+2	Yemen	LOC
+1	Pascal Zuberbuehler	PER
+2	Jay Buhner	PER
+1	Zhanna Pintusevich	PER
+1	FARC	ORG
+1	Kinkel	PER
+1	Juan Llaneras	PER
+1	Republican-controlled	MISC
+9	Atlanta	LOC
+2	Beatrix	PER
+1	GIANTS	ORG
+2	Ricardo Rosset	PER
+2	Swiss Bank Corp	ORG
+4	Richey Reneberg	PER
+2	Fredericks	PER
+2	Dm	MISC
+1	Clemens	PER
+3	Enqvist	PER
+1	Russian Federation	LOC
+4	USA	LOC
+41	Russia	LOC
+1	RAMESWARAM	LOC
+1	ASARCO	ORG
+3	PRETORIA	LOC
+1	Association of Lloyd 's	ORG
+8	Marseille	ORG
+1	Virginia Ruano-Pascual	PER
+1	Bohinen	PER
+6	Salim Malik	PER
+1	Medicaid	MISC
+2	P. Kantharoopan	PER
+1	Francis Agyepong	PER
+1	Kevin Keegan	PER
+2	P.W. Botha	PER
+1	Knowsley Road	LOC
+1	Bose	PER
+4	Huber	PER
+2	Chaminda Vaas	PER
+1	Jens Fiedler	PER
+3	Shane Kelly	PER
+4	Toronto Blue Jays	ORG
+1	Cooperative Bank	ORG
+6	Chechens	MISC
+1	Margit Borg	PER
+1	Burcin Mavituna	PER
+1	In Home Health Inc	ORG
+3	Lewis	PER
+3	Valletta	LOC
+1	Chandigarh	LOC
+1	Milosevic	PER
+1	Valentin Valkov	PER
+1	Sairyu Maru No : 2	MISC
+3	Chelsea	PER
+1	Bruno Risi	PER
+1	MSV Duisburg	ORG
+3	Martina Hingis	PER
+1	Near Eastern	MISC
+1	Benjamin Menendez	PER
+1	Fabio Baldato	PER
+1	Lee Tinsley	PER
+1	Benedict Birnberg	PER
+3	Satoshi Higashi	PER
+3	U.S.-brokered	MISC
+4	Specter	PER
+1	Revolutionary Workers ' Party	ORG
+1	Tel Aviv	LOC
+2	BNZ	ORG
+1	Mariacarla Bresciani	PER
+1	Omari	LOC
+1	Purepac Pharamceutical	ORG
+1	Old Testament	MISC
+1	Laban Rotich	PER
+1	Michelle Ferris	PER
+2	Oklahoma	LOC
+1	Balkan Airlines	ORG
+1	Stefaan De Clerck	PER
+1	Gillian Russell	PER
+1	Mentmore	ORG
+1	Springfield	LOC
+4	BELGIAN	MISC
+1	Tijuana	LOC
+1	Kumble	PER
+5	UAE	LOC
+1	Roger Chapman	PER
+1	Sergey Makarov	PER
+1	Name	MISC
+1	Ronald de Boer	PER
+2	EPR	ORG
+3	Portland	LOC
+1	Touchstone Software Corp.	ORG
+1	Shining Path	ORG
+1	Qasri	LOC
+1	D. Headley	PER
+26	Dole	PER
+2	Charlton	ORG
+2	Selection Committee	ORG
+6	Canadian Open	MISC
+2	Pretoria	LOC
+5	Costantino Rocca	PER
+1	Havre	LOC
+1	Ali Alatas	PER
+1	WBUR-FM	ORG
+1	Cor Euser	PER
+1	Viktoria Plzen	ORG
+1	Formula One Grand Prix	MISC
+1	Moussa	PER
+1	Seattle	ORG
+1	Andreas Koepke	PER
+6	CDU / CSU	ORG
+1	Aguirre	PER
+1	Samuel Graham	PER
+1	Sao Paulo-Santos	ORG
+1	Kamiel Maase	PER
+3	Ottawa	LOC
+3	Brasilia	LOC
+1	M. Maynard	PER
+1	Graham Gooch	PER
+5	Salang	LOC
+1	HARLEYSVILLE	LOC
+1	Husaberg	ORG
+2	BUENOS AIRES	LOC
+1	Emmanuel Sobral	PER
+1	Goschen	PER
+1	Series	MISC
+1	EMBASSY	MISC
+1	Tikhomirov-Maskhadov	MISC
+1	Loyola de Palacio	PER
+2	U.S.-mediated	MISC
+2	Leduc Reef	LOC
+1	CUBA	LOC
+1	GT2	MISC
+1	CentrInvest Securities	ORG
+1	Lachlan Drummond	PER
+1	Montgomerie	PER
+2	Jane Chi	PER
+1	RUSSIA	LOC
+2	Ian Botham	PER
+1	Andrei Pavel	PER
+2	MSV Duisberg	ORG
+1	Kader Ferhaoui	PER
+5	Ethiopia	LOC
+1	Phil	PER
+1	Slough	ORG
+1	ITALIAN	MISC
+2	CNN	ORG
+1	Iranian Kurdistan	LOC
+1	Guy Whittall	PER
+1	Nikolaus van der Pas	PER
+1	Skhirat	LOC
+1	Kallis	PER
+3	UES	ORG
+60	British	MISC
+2	HINA	ORG
+1	Movement of Socialist Democrats	ORG
+1	IMF-sponsored	MISC
+3	NAC Breda	ORG
+1	Atlantic City	LOC
+4	Mexican	MISC
+2	David Carter	PER
+2	Teutenberg	PER
+1	Lyngby	ORG
+7	Saddam Hussein	PER
+1	ROBSON	PER
+2	Marco Lietti	PER
+1	Kiely	PER
+1	Legal Department	ORG
+1	International Fair	MISC
+1	Alfred Berkeley	PER
+1	Carlos Bianchi	PER
+1	Devers	PER
+1	Warren Buffett	PER
+1	PT Matahari Putra Prima	ORG
+1	Cam Battersby	PER
+2	San Jose	LOC
+1	O.J. Simpson	PER
+1	God	PER
+1	CRP	ORG
+1	Barnagar	LOC
+1	United News of India	ORG
+1	Dan Dietsch	PER
+1	Marco Vaccari	PER
+7	Johnson	PER
+1	Simon	PER
+1	DNUM	ORG
+1	Mark Acre	PER
+1	Zorc	PER
+2	Tunisian	MISC
+5	Williams	ORG
+3	Brenda Schultz-McCarthy	PER
+1	Timothy Reid	PER
+1	Bob Wickman	PER
+1	Mario Covas	PER
+1	Kaba	PER
+2	Hampshire	ORG
+1	Romesh Kaluwitharana	PER
+1	Markgraaff	PER
+2	Rudolf Gajdos	PER
+1	Jennifer Flavin	PER
+3	Molenbeek	ORG
+1	Alex Belometti	PER
+5	Amoco	ORG
+1	Kenneth Chiate	PER
+1	Kapil Dev	PER
+6	Andrea Collinelli	PER
+1	Atlanta-based	MISC
+1	Wroclaw	LOC
+3	Ernie Els	PER
+2	Ruth	PER
+3	Jean-Philippe Fleurian	PER
+1	Vincent Pamire	PER
+1	Chart Thai	ORG
+4	INDIA	LOC
+2	Syrian	MISC
+1	Air Force	ORG
+2	Neil Hodgson	PER
+6	Doboj	LOC
+1	Notts	ORG
+2	Dennis Mitchell	PER
+1	Faheem Khan	PER
+1	Ashley Mocude	PER
+3	Arnold Ruutel	PER
+3	P. Simmons	PER
+1	Al-Aqsa	LOC
+1	Patricia Girard-Leno	PER
+2	Heiko Szonn	PER
+3	Cyprus	LOC
+1	Fatos Nano	PER
+1	Ipsos	ORG
+12	Yasser Arafat	PER
+1	Denis Irwin	PER
+1	Per Nyman	PER
+2	Luo Yigang	PER
+2	Gisenyi	LOC
+1	Shanghai Post and Telecomm	ORG
+1	Baxter International Inc	ORG
+3	Philippine Basketball Association	ORG
+2	County Championship	MISC
+5	Nottinghamshire	ORG
+1	ERP	ORG
+1	Antioquia	LOC
+3	Stewart Ginn	PER
+1	Harleysville Group	ORG
+1	Sun Jian	PER
+1	Bhavnagar	ORG
+1	PBR	ORG
+1	Alistair Brown	PER
+1	Art Howe	PER
+1	Ilyushin 76	MISC
+2	RED SEA	LOC
+1	Bedibunder	ORG
+1	Steve McManaman	PER
+3	Likud	ORG
+1	Sun-ho	MISC
+1	SUZUKA	LOC
+1	Sandusky	LOC
+3	Ronnie Irani	PER
+1	Kong Open	MISC
+61	German	MISC
+7	Commission	ORG
+1	Christian Maronite	MISC
+5	Kabariti	PER
+1	Olympic Committee	MISC
+1	Bob Moore	PER
+4	Maria Mutola	PER
+3	ADRs	MISC
+2	Gilbert Schaller	PER
+1	Margret Crowley	PER
+5	Perot	PER
+2	Graafschap Doetinchem	ORG
+1	Stranksy	PER
+4	Mozambique	LOC
+27	Arafat	PER
+3	Tamil Tiger	ORG
+1	Natural Law Party	ORG
+1	Griqualand West	ORG
+1	Venezuelan	MISC
+3	Natasha Zvereva	PER
+1	SRINAGAR	LOC
+1	Status Weekly	ORG
+1	Stefano Tilli	PER
+3	Felix Mantilla	PER
+5	Bamerindus	ORG
+1	Lanner	PER
+1	Salisbury	PER
+2	MFS Communications Co Inc	ORG
+2	Sierakowice	LOC
+1	Bart Voskamp	PER
+4	Philadelphia Phillies	ORG
+1	Atlanta Olympics	MISC
+2	Montreal	ORG
+1	MOUNTAIN VIEW	LOC
+1	Bernardo Arce	PER
+1	Jim Thome	PER
+2	George Grech	PER
+1	Council	ORG
+2	Mauritius	LOC
+1	Deon Hemmings	PER
+1	Edouard Gritson	PER
+1	Roberto Alomar	PER
+1	Olivier Grouillard	PER
+4	Goran Ivanisevic	PER
+4	Zaire	LOC
+1	Lyon	ORG
+1	Rui Madeira	PER
+2	Davidson Ezinwa	PER
+2	Ravindra Pushpakumara	PER
+1	x-AEK Athens	ORG
+2	Abidjan	LOC
+2	Ryder Cup	MISC
+1	SMICER	PER
+1	North African	MISC
+1	Butte	MISC
+2	Jiang Zemin	PER
+1	Welch	PER
+1	Gcaleka	PER
+2	Penrith	ORG
+3	Benfica	ORG
+1	Emajuddin Ahmed	PER
+3	US	LOC
+7	Rwanda	LOC
+6	Slovenia	LOC
+3	Novye Atagi	LOC
+1	Lord 's	LOC
+2	Kumara Dharmasena	PER
+1	Antonio Esposito	PER
+1	Roberta Brunet	PER
+1	AdOn	ORG
+1	Karsten Baeron	PER
+1	Aliuska Lopez	PER
+2	National Election Commission	ORG
+3	TORONTO	LOC
+1	Kate Michelman	PER
+1	K. Brown	PER
+2	MX Onda	ORG
+2	Cyprien	PER
+1	Bergen	LOC
+1	Challenge Cup	MISC
+1	Four Nations TV Committee	ORG
+9	Jerusalem	LOC
+1	Australian All-Ordinaries	MISC
+3	Sarajevo	LOC
+2	British Columbia	LOC
+1	ROVERETO INTERNATIONAL	MISC
+8	HOUSTON	LOC
+3	GERMAN OPEN	MISC
+1	Kansas	LOC
+51	Sweden	LOC
+2	Tutsi	MISC
+1	Fairview	LOC
+3	Slovenian	MISC
+1	Marcio Santos	PER
+1	Jose Manuel Prieto	PER
+1	Hiddink	PER
+1	Monterey	LOC
+1	John Cook	PER
+1	Karin Gornji	LOC
+1	Tim Wakefield	PER
+2	Colin Edwards	PER
+1	Tareq Aziz	PER
+1	Magnus Larsson	PER
+1	Andre Markgraaff	PER
+1	Toronto-based	MISC
+3	HK	LOC
+1	Moslem-Croat	MISC
+1	Craig Stromme	PER
+1	Tuan Quac Phan	PER
+1	Lasse Lampi	PER
+2	Black	PER
+1	Eddie Hedaya	PER
+1	Christina Singer	PER
+1	Rep .	MISC
+2	Noriyuki Haga	PER
+1	Nuour Marial	PER
+1	Cheveley Park Stud	ORG
+1	European Champions ' League	MISC
+1	Byas	PER
+1	OCEI	ORG
+1	William Perry	PER
+2	Colin Jackson	PER
+2	Guy Forget	PER
+3	Geneva	LOC
+1	Filippo Veglio	PER
+1	Public Transport Corporation	ORG
+3	Jan Siemerink	PER
+1	Ronaldo Gonzalez	PER
+5	Grand Slam	MISC
+5	Faulding	ORG
+12	DUTCH	MISC
+8	Hungary	LOC
+1	European Cup Winners '	MISC
+1	Jean	PER
+1	Mohammed Azharuddin	PER
+1	African National Congress	ORG
+1	Specia	ORG
+1	Brian Currin	PER
+1	U.S. Middle East	LOC
+1	John Hart	PER
+2	Jakob Hlasek	PER
+1	Purdue Frederick Co	ORG
+2	Petra	ORG
+2	Dally Randriantefy	PER
+1	Honduras	LOC
+3	N. Hussain	PER
+2	Stefano Pescosolido	PER
+2	Bailey	PER
+1	Louise Siebens	PER
+3	Hamburg	LOC
+4	Adrian Voinea	PER
+1	Marty Jemison	PER
+1	Reuters Television	ORG
+10	Malaysia	LOC
+2	Khadga	PER
+1	Jennifer Capriati	PER
+1	Peter Kox	PER
+2	Dick Morris	PER
+1	STICH	PER
+3	Katarina Studenikova	PER
+1	Maruyama	PER
+1	Ciments Libanais	ORG
+3	Journal	ORG
+18	Iran	LOC
+1	Democratic Party	ORG
+1	1992 European championship	MISC
+1	Pat Cash	PER
+2	Martin	PER
+4	Mohammad Akram	PER
+1	Jose Maria Aznar	PER
+1	Apex Tannery	ORG
+1	Alejandro Lanusse	PER
+1	Bank Indonesia	ORG
+10	GMT	MISC
+1	Boutros Harb	PER
+1	Bruny Surin	PER
+1	Foe	PER
+2	Chemlon Humenne	ORG
+2	Jordi Burillo	PER
+4	Alain Juppe	PER
+1	BELCHATOW	LOC
+1	Adam Hollioake	PER
+2	G. Gooch	PER
+1	Sparta Prague	ORG
+2	Stomil Olsztyn	ORG
+3	Marcus Gronholm	PER
+1	Steve Howey	PER
+1	Joannette Kruger	PER
+1	Department of Transportation	ORG
+4	Anke Huber	PER
+1	Alexander Barkhatov	PER
+4	New Democracy	ORG
+1	Khmer	ORG
+1	Ronaldo	PER
+2	Bobby Bonilla	PER
+1	Hwang	PER
+3	Burma	LOC
+2	RMT	ORG
+2	People 's Daily	ORG
+1	TV Guide	ORG
+1	Airport Facilities Co Ltd	ORG
+3	FIS	ORG
+1	Anatoly Shkirko	PER
+20	Japanese	MISC
+4	MINNESOTA	ORG
+1	Siam Commercial	ORG
+1	FC Bohemians	ORG
+1	Wrexham	ORG
+2	MIDEAST GULF	LOC
+1	David Hulse	PER
+1	Turnhout	LOC
+2	Rita Grande	PER
+7	Pete Sampras	PER
+7	Fiorentina	ORG
+1	Gregory Carraz	PER
+13	Switzerland	LOC
+2	Sarah Pitkowski	PER
+1	Tijjani Babangida	PER
+1	CHESAPEAKE	LOC
+2	Cristina Torrens-Valero	PER
+1	Adnan Xhelili	PER
+3	Guinean	MISC
+1	Patsy Kensit	PER
+1	David Richards	PER
+1	F.C. Brasov	ORG
+2	Aki	ORG
+2	Montreal	LOC
+1	H. Streak	PER
+1	Heath Streak	PER
+1	Phelan	PER
+2	Tommy Haas	PER
+1	Vitesse	ORG
+4	Mubarak	PER
+1	Hamilton	LOC
+1	Steel Industry Center	ORG
+1	Vitor Baia	PER
+4	Baker	PER
+1	John Simon	PER
+1	S. African	MISC
+1	Issa Alloush	PER
+2	EgyptAir	ORG
+2	Ian Healy	PER
+1	Jean-Denis Deletraz	PER
+1	Kenny Cunningham	PER
+1	Tom Candiotti	PER
+4	Arkansas	LOC
+1	SVCD Bulgaria	ORG
+2	Bratislava	LOC
+1	Mark Chaloner	PER
+1	Samokhalova	PER
+3	Ai Sugiyama	PER
+3	Cincinnati	ORG
+1	Podujevo	LOC
+1	Alan Kernaghan	PER
+1	Bugno	PER
+2	Minnesota Twins	ORG
+1	Gary DiSarcina	PER
+1	Paribas Capital Markets OTC	ORG
+1	Italo Pineda	PER
+9	Tsang	PER
+1	Luis Castilla	PER
+1	Schulz	PER
+2	Leeds	ORG
+4	1,000 LAKES RALLY	MISC
+2	UEFA Fair Play	MISC
+1	Loretto	MISC
+1	Suvit	PER
+1	Juergen Kohler	PER
+1	Krpaco a.s.	ORG
+1	Nick Mokhoff	PER
+2	Slask Wroclaw	ORG
+3	Jim Grabb	PER
+5	Damon Hill	PER
+1	Alania Vladikavkaz	ORG
+1	Craig MacLean	PER
+1	MCMANAMAN	PER
+1	Copenhagen	LOC
+2	Malta Freeport	LOC
+1	VENANTIUS AB	ORG
+1	WASIM AKRAM	PER
+1	Frank Vandenbroucke	PER
+1	Carla Sacramento	PER
+1	David Endt	PER
+1	Charles Austin	PER
+1	Costain	ORG
+2	Fernando Roca	PER
+1	National League Championship Series	MISC
+1	National Rifle Association	ORG
+3	Interior Ministry	ORG
+1	Sebastian Lindholm	PER
+1	Jimmy Key	PER
+2	Nawaz Sharif	PER
+1	Gianluca Pozzi	PER
+1	Finn	MISC
+7	Costas Simitis	PER
+1	Petrosan	LOC
+2	Andrews	PER
+15	Bosnian	MISC
+1	Department of Humanitarian affairs	ORG
+2	Boston	LOC
+1	Amoco Corp	ORG
+1	Healy	PER
+1	Gordon Smith	PER
+2	Cleveland	ORG
+1	Empresa Nacional del Petroleo	ORG
+1	Physicians Insurance Co	ORG
+1	Jansher Khan	PER
+1	Susan Roosevelt Weld	PER
+1	Michael Marsh	PER
+1	SAN MATEO	LOC
+1	Ssangbangwool	ORG
+1	Ihlas	ORG
+20	Slovakia	LOC
+1	ANCHORAGE	LOC
+1	Mark McNulty	PER
+1	Windows	MISC
+1	Chanda Rubin	PER
+1	Simon Parke	PER
+16	Wimbledon	MISC
+1	Watts	PER
+2	Chandra Sturrup	PER
+1	SunGard Data Systems Inc	ORG
+1	Andrew Hudson	PER
+3	Arabs	MISC
+1	Ejup Ganic	PER
+2	EEC	ORG
+1	Faber	PER
+1	Phil Regan	PER
+1	Windows NT 4.0	MISC
+5	Bohdan Ulihrach	PER
+17	Lebed	PER
+8	PSV	ORG
+2	Banharn Silpa-archa	PER
+1	National Farmers Union	ORG
+1	Neville Godwin	PER
+1	Chad	LOC
+3	Francisco Clavet	PER
+2	John Gilardi	PER
+1	Komarica	PER
+1	Mike Gatting	PER
+1	Rickey Henderson	PER
+1	Wednesday	ORG
+1	Berkshire Hathaway Inc	ORG
+1	JONK	PER
+1	Piotr Grabowski	PER
+1	Darryll King	PER
+1	Bavarian	MISC
+1	Alexandroupolis	LOC
+1	Ecuadorian Oriente	ORG
+1	Reform Party	ORG
+1	Simex Nikkei	MISC
+1	TOGO	LOC
+1	Pang Chen	PER
+1	Anne Marken	PER
+1	Equitas	ORG
+1	National Abortion Rights Action League	ORG
+1	Nice	ORG
+1	Mohamed Fahim Rayyan	PER
+1	Board of Control for Cricket in India	ORG
+2	Endt	PER
+1	Allan Wells	PER
+1	Gennadi Markov	PER
+2	Paola Suarez	PER
+2	Gary Neiwand	PER
+2	Merlene Ottey	PER
+1	Trax Petroleums Ltd	ORG
+2	Betaseron	MISC
+1	Trade and Industry	ORG
+1	Isel Lopez	PER
+1	Bernd Schiphorst	PER
+1	Consolidated Financial Data	ORG
+1	Vaclav Havel	PER
+1	Christian Springer	PER
+1	Vassiliy Kaptyukh	PER
+1	Alvarado	PER
+1	Feinstein	PER
+1	Jean-Paul Bruwier	PER
+5	SRI LANKA	LOC
+12	Indonesia	LOC
+2	HONG KONG OPEN	MISC
+1	S. Africa	LOC
+4	Heinz-Harald Frentzen	PER
+5	Andrei Medvedev	PER
+1	Career Horizons	ORG
+1	Democratic National United Movement	ORG
+1	BONNET	PER
+2	Utomo	PER
+1	Lee Wan Wah	PER
+20	Grozny	LOC
+2	Troy O'Leary	PER
+1	M'bishi Gas	ORG
+1	Jockey Club	ORG
+5	Auckland	LOC
+1	Ballesteros	PER
+1	Sunday Bada	PER
+1	Jonzon	PER
+2	Shaun Pollock	PER
+1	Jaap Stam	PER
+2	Catholic	MISC
+1	Streak	PER
+2	Skandalidis	PER
+1	National League	MISC
+1	Mostostal Z	ORG
+1	Solskjaer	PER
+1	Cyprus Grain Commission	ORG
+1	Francesco Casagrande	PER
+1	Alexander Babayan	PER
+1	Bureau of Alcohol , Tobacco and Firearms	ORG
+1	Saxony	LOC
+6	Jordan	ORG
+4	Owens	PER
+1	Stuart Cage	PER
+1	Fernanda Ribeiro	PER
+1	Olga Chernyavskaya	PER
+11	Yugoslav	MISC
+1	Banja Luka	LOC
+2	Peter Hedblom	PER
+11	Beijing	LOC
+1	Kenny Dalglish	PER
+1	Pierina	LOC
+1	CHANDA RUBIN	PER
+1	Russian-made	MISC
+2	Muthiah Muralitharan	PER
+1	Jason McAteer	PER
+1	Berovo	LOC
+1	SEYCHELLES	LOC
+1	Zimbabwean	MISC
+2	Salamanca	LOC
+1	Daniel Chopra	PER
+1	ST HELENS	LOC
+1	Berry	PER
+1	Virgilius Alekna	PER
+1	Jack Charlton	PER
+1	ING Barings	ORG
+5	Sauber	ORG
+1	Vermont Central Hospital	LOC
+1	Kamuzu Banda	PER
+2	Federal Reserve	ORG
+1	Palestinian Arabs	MISC
+1	Paul Koech	PER
+2	Mouscron	ORG
+1	Inger Miller	PER
+1	Jan Van Eiden	PER
+1	Tom Ikimi	PER
+1	Eliud Barngetuny	PER
+1	Deportivo Espanol	ORG
+1	Oklahoma Wheat Commission	ORG
+3	Gavin Levenson	PER
+1	Edward Smith	PER
+2	Mideast	LOC
+3	P. Nixon	PER
+1	Networks Services Division	ORG
+1	CDU No.3	ORG
+3	Italian Cup	MISC
+1	AMSTETTEN	LOC
+1	Johan Boonen	PER
+7	Windows 95	MISC
+13	Diana	PER
+4	Biogen	ORG
+1	Chase Securities Inc.	ORG
+1	Khum Bahadur Khadga	PER
+1	Elias Moosa	PER
+4	CVG	ORG
+1	Osaka	LOC
+1	Griqualand West	LOC
+1	COCU	PER
+1	Zambia	LOC
+13	KDP	ORG
+2	Hebron	LOC
+1	HONG OPEN	MISC
+1	POLAND	LOC
+2	St Louis	LOC
+1	Randall	PER
+1	Gallagher	PER
+2	Foreldorado	ORG
+1	Rewe-Handelsgruppe	ORG
+1	Antoine Kombouare	PER
+1	First Union Corp	ORG
+3	Abdul Rashid Dostum	PER
+13	Boris Yeltsin	PER
+1	Lhasa	LOC
+9	Bosnian Serb	MISC
+1	Television New Zealand	ORG
+3	Tanya Dubnicoff	PER
+1	Jason Rouser	PER
+2	Vincent Malakwen	PER
+1	Bedouin Palestinian	MISC
+1	Max Delbruck	PER
+1	Jolene Watanabe	PER
+2	Ian	PER
+2	Firestone C.C	LOC
+4	Mitsubishi Lancer	MISC
+2	Massoud Barzani	PER
+1	Rafael Moreno Turrent	PER
+2	Air Cargo Newsroom	ORG
+2	ANGOLA	LOC
+1	Ismail Nacar	PER
+1	Moreau	PER
+1	John Crawley	PER
+1	Atletico Madrid	ORG
+1	Iraqi Kurdish Patriotic Union of Kurdistan	ORG
+1	Fred Trueman	PER
+5	CARLSBAD	LOC
+1	Alicia	PER
+6	Lindsay Davenport	PER
+2	Texas	ORG
+20	ENGLAND	LOC
+1	Alexandre Gontchenkov	PER
+3	RUGBY UNION	ORG
+1	Virna De Angeli	PER
+28	Austria	LOC
+1	Boraine	PER
+5	Leicestershire	ORG
+7	Netanyahu	PER
+2	Taipei University Hospital	LOC
+1	Soren Jessen-Petersen	PER
+2	Dodgers	ORG
+1	Supreme Coordination Council alliance	ORG
+1	Madhusudan Munakarmi	PER
+17	Swiss	MISC
+1	GOTHENBURG	LOC
+2	Robbie McEwen	PER
+2	Wang Shi-Ting	PER
+3	Retief Goosen	PER
+1	Frank Asselman	PER
+16	Iranian	MISC
+1	Navjot Singh Sidhu	PER
+1	Kwai	MISC
+2	Elena Likhovtseva	PER
+1	Durban	LOC
+1	Lambert	PER
+1	Rodica Matescu	PER
+1	Herve de Charette	PER
+1	EUROLIRA	ORG
+1	Nicholas Gcaleka	PER
+1	Shi-Ting Wang	PER
+2	James	PER
+1	MS-NBC News	MISC
+1	FTSE	MISC
+2	Moroccan	MISC
+2	Coughlan	PER
+3	D. Gough	PER
+2	BARCELONA	ORG
+3	A. Mullally	PER
+1	Hitler	PER
+4	Thompson	PER
+1	New Party Sakigake	ORG
+1	Cambridge	ORG
+1	NEUCHATEL	ORG
+1	Pontiac Osteopathic Hospital	LOC
+4	Johan Capiot	PER
+1	Football Hall of Fame	MISC
+1	Ion Iliescu	PER
+1	Tampere	LOC
+1	INDORE	LOC
+1	Andre Cloete	PER
+2	VfB Stuttgart	ORG
+1	Mike Stanley	PER
+5	Colorado	LOC
+1	Swebus	ORG
+3	Rangarajan	PER
+1	Checker 's	ORG
+1	Peter Blank	PER
+6	Mapei	ORG
+1	Birmingham Public Park & Rec	LOC
+2	Roberto Carretero	PER
+1	RAO Gazprom	ORG
+1	Dick Spring	PER
+2	Flight 150	MISC
+2	Philip Walton	PER
+1	Hicham El Guerrouj	PER
+5	Stefan Edberg	PER
+1	AEX	MISC
+1	Donkow	PER
+1	Urals	MISC
+1	Komala	PER
+1	Nicole Bradtke	PER
+1	AUSTRALIANS	MISC
+1	Del Harris	PER
+1	Jonathan Edwards	PER
+1	Tommy Thompson	PER
+3	Norman	PER
+1	Tina Krizan	PER
+1	Den Norske Stats Oljeselskap AS	ORG
+1	Academy Award-winning	MISC
+3	Cofinec	ORG
+3	Gianluca Corini	PER
+1	Malcolm Marshall	PER
+1	Marco Villa	PER
+1	Gianluca Vialli	PER
+1	Berlex Laboratories	ORG
+4	Avonex	MISC
+1	Arminia Bielefeld	ORG
+1	Oldham	ORG
+1	Kenny Harrison	PER
+1	Julie Tolkacheva	PER
+1	Yelena Gulyayeva	PER
+14	Serb	MISC
+1	Marie-Jose Perec	PER
+15	Brazilian	MISC
+1	North Island	PER
+1	Jean-Claude Nadon	PER
+1	Natalya Sadova	PER
+1	Paul Thompson	PER
+1	Edouard Gritsoun	PER
+21	Ireland	LOC
+2	Grobbelaar	PER
+2	R. Croft	PER
+1	Paul Malin	PER
+4	Atlanta Braves	ORG
+1	British Land	ORG
+1	CHICAGO AREA MILLS	MISC
+1	Fagan	PER
+3	Garrity	PER
+1	ALKHAN-YURT	LOC
+5	JYVASKYLA	LOC
+1	Barry Bonds	PER
+4	CLEVELAND	ORG
+1	Ruggiero Rizzitelli	PER
+1	Lubarskij	PER
+1	Fontaine	ORG
+1	Thomas S	PER
+1	Heike Drechsler	PER
+1	Janet Reno	PER
+1	Sidia Toure	PER
+2	YORK	LOC
+1	Channel Two	ORG
+2	St Louis	ORG
+1	National Hurricane Center	ORG
+1	CGT	ORG
+1	Marwan Muasher	PER
+1	Marcin Mieciel	PER
+1	Fabrizio Ravanelli	PER
+1	Skopje	LOC
+1	Best Products Co	ORG
+1	Indian-ruled	MISC
+1	Robert Stefko	PER
+2	Carlos Costa	PER
+1	Hapoel Ironi	ORG
+1	Agnieszka Kotlarska	PER
+4	Sakigake	ORG
+1	Bob May	PER
+3	Luehrs	PER
+1	PIVOTAL	PER
+1	Vanderbijlpark	LOC
+1	Vaclavas Kidikas	PER
+2	Rakow Czestochowa	ORG
+1	Life Insurance Co of Georgia	ORG
+9	Cuba	LOC
+1	Mobutu Sese Seko	PER
+1	Ljubljana	LOC
+4	Sandrine Testud	PER
+1	Les Echos	ORG
+1	Duncan Ferguson	PER
+2	Russian Weather Service	ORG
+7	MFS	ORG
+2	Humberto Hueite Zyrecha	PER
+2	Whittall	PER
+4	MONTREAL	ORG
+3	Liberation Tigers of Tamil Eelam	ORG
+1	Patrick Sylvestre	PER
+2	U.S. District Court	ORG
+1	Natalya Shikolenko	PER
+1	Chili Davis	PER
+1	Angelo Medeghini	PER
+7	Bangladesh	LOC
+1	Trenidad Hubbard	PER
+1	LDP-dominated	MISC
+1	Tatarstan	LOC
+1	Kaluwitharana	PER
+1	Neumann	PER
+1	Catholic Information office	ORG
+2	A. Giles	PER
+1	Scott Hoch	PER
+1	Zagalo	PER
+1	Dejan Stefanovic	PER
+1	Jiangxi	LOC
+7	Nicaragua	LOC
+2	Ikimi	PER
+1	U.N. General Assembly	ORG
+1	Michael Tucker	PER
+2	Etruscan	MISC
+1	Lamont Smith	PER
+1	Thomas Haessler	PER
+1	Arthur Yates and Co	ORG
+1	Public Service Association	ORG
+1	ONIC	ORG
+1	MONTGOMERY	LOC
+1	Roberto Jabali	PER
+5	Toshiba Classic	MISC
+1	CFDT	ORG
+1	D. Flemming	PER
+1	American Names Association	ORG
+1	Tankan	ORG
+2	post-Soviet	MISC
+3	Oakland Athletics	ORG
+1	SIMEX Nikkei	MISC
+2	Senegal	LOC
+1	Star magazine	ORG
+4	INA	ORG
+1	RKC Waalijk	ORG
+16	Washington	LOC
+1	Raith Rovers	ORG
+1	Bedouins	MISC
+1	F.C. La Valletta	ORG
+1	W.N.F. Chandraratne	PER
+7	Colombo	LOC
+1	PDSR	ORG
+2	Roxbury	LOC
+2	Dublin	LOC
+1	Toyota	ORG
+2	Mo Vaughn	PER
+7	CHICAGO	ORG
+4	Aberdeen	ORG
+1	Phillip DeFreitas	PER
+1	Herman Wijffels	PER
+2	Polonia Warsaw	ORG
+1	Kohl	PER
+1	Marty Cordova	PER
+5	Gloucestershire	ORG
+1	Daschle	PER
+1	Ronny Brunswijk	PER
+1	Oppenheimer Capital LP	ORG
+1	Ratlam	LOC
+1	CAMAT	ORG
+1	Joey Hamilton	PER
+1	Paramaribo	LOC
+2	Ballanger	PER
+1	GIBBS	PER
+1	Chiron	ORG
+1	Lee Sharpe	PER
+1	National League Eastern Division	MISC
+1	EURO	MISC
+1	Pacific	LOC
+1	Pol Pot	PER
+5	CAC-40	MISC
+4	Monaco	ORG
+1	Maronite	ORG
+1	O'Meara	PER
+2	Florencia Labat	PER
+1	Kim Anderson	PER
+4	U.S. Postal	ORG
+1	NL Central division	MISC
+5	Sudan Airways	ORG
+1	Kinshasa	LOC
+1	Agota Kuperman	PER
+43	Iraq	LOC
+1	Raymond Mabus	PER
+1	KIRKCALDY	LOC
+1	A. Flower	PER
+3	Graham Lloyd	PER
+3	BRITISH MASTERS	MISC
+1	FOWLER	PER
+1	Red Star	ORG
+1	Sud-PTT	MISC
+1	Tour	MISC
+1	Glenview	LOC
+1	Addis Ababa	LOC
+1	Inga Babakova	PER
+3	Barbara Paulus	PER
+1	Jens Lehman	PER
+1	Baltic	MISC
+1	Peiris	PER
+4	ATLANTA	ORG
+2	Balkans	LOC
+1	Darren McKenzie-Potter	PER
+1	HOLZGERLINGEN	LOC
+1	Hans de Clerq	PER
+3	Cuban	MISC
+7	Lance Armstrong	PER
+7	Islamists	MISC
+1	Indra Wijaya	PER
+1	Jean-Pierre Cyprien	PER
+1	Dimitrios Georgalis	PER
+2	Lloyd Axworthy	PER
+1	Markus Babbel	PER
+1	Paul Prichard	PER
+3	Michael Johnson	PER
+3	Fischler	PER
+1	Tina Kirzan	PER
+5	UK	LOC
+1	Quepos	LOC
+1	SHARPE	PER
+1	Toure	PER
+5	Rosati	PER
+1	Ukrainian	MISC
+1	Banda	PER
+1	HONG KONG ECONOMIC TIMES	ORG
+1	Ruhunu University	ORG
+4	European Cup	MISC
+2	Robert Frowick	PER
+2	Erdei	PER
+4	O Globo	ORG
+1	SOUTH CHINA MORNING POST	ORG
+3	Wayne Riley	PER
+1	Super League	MISC
+2	Steffen Freund	PER
+5	serie A	MISC
+4	Los Angeles Dodgers	ORG
+2	Anderlecht	ORG
+1	Iwan Cesar Gabrich	PER
+1	Lisbon	ORG
+1	La Jornada	ORG
+1	Clean Air Act	MISC
+1	Catherine McKiernan	PER
+1	Lynch	PER
+1	Acatepec	LOC
+1	Dinamo Bucharest	ORG
+4	Abuja	LOC
+1	Jon Dahl Tomasson	PER
+1	Eugene de Kock	PER
+6	Grand Prix	MISC
+1	Arkadiusz Bak	PER
+1	Palestinian Legislative Council	ORG
+1	Ashta	LOC
+9	Gore	PER
+4	Magnus Gustafsson	PER
+3	San Francisco Giants	ORG
+1	TBC	ORG
+1	Sophia Rose	PER
+13	GERMAN	MISC
+2	MG-Technogym	ORG
+1	MCRAE	PER
+1	Republican House	ORG
+1	Dana Rohrabacher	PER
+1	AL	MISC
+3	Nagyatad	LOC
+1	Lee Westwood	PER
+1	Mehmet Scholl	PER
+7	BALTIMORE	LOC
+3	Utrecht	ORG
+2	Paul Johnson	PER
+5	Surabaya	LOC
+2	Edgar	PER
+1	ANGELS	ORG
+3	Byron Black	PER
+1	Erdmann	PER
+3	Asian	MISC
+1	Ludmila Ninova	PER
+2	Nikkei	MISC
+8	Ecuador	LOC
+2	McEwen	PER
+3	U.S. Treasury	ORG
+1	UBS	ORG
+1	Yitzhak Mordechai	PER
+1	Arthur Numan	PER
+1	U.S. Tennis Association	MISC
+1	Slawomir Wojciechowski	PER
+3	George Hincapie	PER
+1	Justin Leonard	PER
+3	Northampton	LOC
+1	Phil Babb	PER
+1	Decheiver	PER
+1	EVEREN Securities Inc	ORG
+1	Shrewsbury	ORG
+1	Martin Keino	PER
+3	Hicham Arazi	PER
+2	ALMERE	LOC
+1	Schumacher	PER
+4	Parma	ORG
+1	Judith Arndt	PER
+1	Billa	ORG
+1	North Atlantic Treaty Organisation	ORG
+1	Milan	LOC
+1	Haruchika	PER
+1	Anthony Sullivan	PER
+2	Iscor	ORG
+1	Missouri	LOC
+1	Frederic Magne	PER
+3	Finance Ministry	ORG
+2	Gupta	PER
+37	French	MISC
+3	Penrose	PER
+213	U.S.	LOC
+1	Gartner Group	ORG
+1	Kevin Kim	PER
+2	Jetsi Hendrika Coers	PER
+3	Cup Winners ' Cup	MISC
+9	Graf	PER
+2	American Stock Exchange	ORG
+9	Weizman	PER
+1	Stoke	ORG
+1	Lima	LOC
+1	Rafael Palmeiro	PER
+1	Libya	LOC
+1	Sergi Barjuan	PER
+3	Simpson	PER
+1	Andrew Mehrtens	PER
+1	SORRENTO	PER
+1	Hezb-i-Islami	ORG
+1	UKRAINIAN	MISC
+2	Everton	ORG
+1	Roger Black	PER
+1	Alonso Cervera	PER
+3	New York Yankees	ORG
+1	United Arab Emirates	LOC
+2	SDA	ORG
+2	Tulio	PER
+1	Phan	PER
+6	Kimiko Date	PER
+13	Poland	LOC
+1	Herve Thuet	PER
+1	Nicoleta Grasu	PER
+1	Texas Agricultural Statistics Service	ORG
+1	Liechtenstein	LOC
+1	Andre Bois	PER
+1	Finns	MISC
+2	V. Drakes	PER
+3	Bayern	ORG
+3	Moldova	LOC
+1	Klongprem	LOC
+1	American League Western	MISC
+1	NTB	ORG
+4	Heathrow	LOC
+1	ISO 9002	MISC
+1	Hana Benesova	PER
+2	Daoud	PER
+1	Marc Dollendorf	PER
+2	Astros	ORG
+2	WSRL	ORG
+3	Dow Jones	MISC
+1	Woodlands Nursing Home	LOC
+1	Sharpe	PER
+1	Shinichi Itoh	PER
+4	Detroit Tigers	ORG
+2	Mariners	ORG
+1	First Battle of the Newbury bypass	MISC
+1	Long Island	LOC
+2	North Sydney	ORG
+1	Shiya Takeishi	PER
+1	Chiapas	LOC
+6	Calcutta	LOC
+1	Rio de Janeiro	LOC
+1	Garry Weiss	PER
+1	Soren Lausgberg	PER
+1	Enderle	PER
+1	Dietmar Lalcher	PER
+1	Michael	PER
+2	Frankie Fredericks	PER
+1	Kivu	LOC
+1	John Smoltz	PER
+1	Russian National Olympic Committee	MISC
+5	Basque	MISC
+3	Stevanin	PER
+1	HMG	ORG
+1	Pedro Martinez	PER
+1	Whitehurst	PER
+1	Paul Strang	PER
+2	Wijffels	PER
+1	Thomas Bscher	PER
+1	IFK Gothenburg	ORG
+3	Blackpool	ORG
+1	HANOVER	LOC
+1	Fed	ORG
+1	GT2 Konrad Porsche 911	MISC
+1	Juan Lopez	PER
+1	Royal Oak Mines Inc	ORG
+1	Craig Stadler	PER
+1	U.S. Senate Intelligence Committee	ORG
+1	SPORTING	ORG
+1	Dundee	ORG
+7	Wall Street	LOC
+6	Itar-Tass	ORG
+2	Mike Clayton	PER
+1	George Bush	PER
+1	Brian McRae	PER
+1	Sigurd Njerve	PER
+1	Anton Drobnjak	PER
+2	LKS Lodz	ORG
+1	Chihuahua	LOC
+1	Alpha Techs	ORG
+1	Seychelles	LOC
+1	Rolf Ekeus	PER
+3	Aoki	PER
+1	Stanley	PER
+2	Springboks	ORG
+4	Tyrrell	ORG
+1	St. Christopher Children 's Hospital	LOC
+2	Mariaan de Swardt	PER
+2	Aalst	ORG
+1	Sri Lankans	MISC
+1	Guenter Bertram	PER
+1	Andrew Huddart	PER
+1	Defence	ORG
+2	Hu Zhilan	PER
+7	PHILADELPHIA	ORG
+3	Vladimir Smicer	PER
+1	Cesare dal Maso	PER
+2	Zubair Jahan Khan	PER
+1	Vitaly Smirnov	PER
+1	F.W. De Klerk	PER
+2	The Statesman	ORG
+1	Nail Besirovic	PER
+4	HAMLET CUP	MISC
+2	Mirhunisa Komarica	PER
+4	Florida	LOC
+1	Oxford	LOC
+1	Roger Hegi	PER
+1	Cosenza	ORG
+1	Volker Ruehe	PER
+2	Falilat Ogunkoya	PER
+1	Luis Figo	PER
+4	Yankees	ORG
+1	Tottenham	ORG
+1	Hidemichi Tanaki	PER
+1	Kenyan	MISC
+1	National Bank	ORG
+1	Umm Qasr	LOC
+2	PSV Eindhoven	ORG
+1	Jose Maria Olazabal	PER
+4	PULPEX	ORG
+1	Howard	PER
+5	Ligier	ORG
+2	Alexander Volkov	PER
+3	SWISS	MISC
+3	Security Council	ORG
+9	Saudi	MISC
+1	UDINESE	ORG
+1	Royal Ascot	PER
+1	Ahmed Kafawin	PER
+4	STUTTGART	LOC
+4	Karim Alami	PER
+1	HEERENVEEN	LOC
+1	Mick McCarthy	PER
+1	Movladi Udugov	PER
+1	Jordan	PER
+1	Oscar	PER
+2	Nepali Congress	ORG
+4	Baltimore Orioles	ORG
+6	PUNR	ORG
+4	STANSTED	LOC
+1	Mothusi Nkgowe	PER
+1	Government Housing Bank	ORG
+1	Davis Love	PER
+1	Rebecca Weinstein	PER
+1	Helibor	MISC
+2	PHILIPPINE	MISC
+1	Adige	LOC
+3	G. Archer	PER
+1	Post	ORG
+2	NCB	ORG
+1	pro-Baghdad	MISC
+1	PEMBERTON	LOC
+2	GKS Belchatow	ORG
+1	Anti-Bhutto	MISC
+1	ORVIETO	LOC
+1	Steve Stricker	PER
+1	SWEDISH	MISC
+1	Jacques Toubon	PER
+2	Sampdoria	ORG
+2	Tamil Nadu	LOC
+6	Brunswijk	PER
+1	Joel Stranksy	PER
+2	Anna Kournikova	PER
+2	Sokol Tychy	ORG
+1	Assad	PER
+1	Harrison Dillard	PER
+4	Estonia	LOC
+2	Jason Wong	PER
+1	Rennae Stubbs	PER
+1	Narciso	PER
+3	Gatera	PER
+1	MiG-19	MISC
+2	Atlantic	LOC
+1	Military College	ORG
+1	KSE-100	MISC
+1	Stockholm	LOC
+2	Taha	PER
+1	Alessandro Baronti	PER
+2	Younes El Aynaoui	PER
+2	Ross Perot	PER
+2	Desmond Tutu	PER
+1	Duff and Phelps	ORG
+18	PAKISTAN	LOC
+1	GRONINGEN	ORG
+17	Mushtaq Ahmed	PER
+1	Ekimov	PER
+6	Martin Damm	PER
+1	Scott Winkler	PER
+1	Radka Bobkova	PER
+2	Emanuele Canonica	PER
+1	Red Sea	LOC
+1	Richard Sabourin	PER
+1	Kankunnen	PER
+1	Tongo Field	LOC
+1	Empire State	LOC
+3	Taiwanese	MISC
+1	Oriole	MISC
+1	Globo	ORG
+1	Orel Hershiser	PER
+1	Environment Canada	ORG
+3	Andrea Gaudenzi	PER
+1	Martin Erdmann	PER
+1	Vladislav Rodimov	PER
+1	Stefano Cimicchi	PER
+1	Ferdy Vierklau	PER
+7	Meri	PER
+1	Gong Zhichao	PER
+1	Simitis	PER
+1	Preston	ORG
+3	Miss Universe	MISC
+2	Nicklas Kulti	PER
+18	Honda	ORG
+1	Jonty Rhodes	PER
+1	LARNACA	LOC
+2	Bovine Spongiform Encephalopathy	MISC
+1	Aronkasei	ORG
+2	PDI	ORG
+5	Warwickshire	ORG
+39	Israel	LOC
+1	Metro	ORG
+2	SPLA	ORG
+2	Gulf War	MISC
+1	Nabil Abu Rdainah	PER
+1	Abu Mazen	PER
+2	Alexandra Fusai	PER
+22	Romania	LOC
+1	Sultan	PER
+1	RIA	ORG
+1	Oklahoma Climatological Survey	MISC
+1	Howard Wilkinson	PER
+15	Jordan	LOC
+1	Gerd Ruch	PER
+8	G. Thorpe	PER
+3	Ankara	LOC
+5	Norwegian	MISC
+1	EUROSWISS	ORG
+1	Justin Marshall	PER
+3	MANAGUA	LOC
+2	Haga	PER
+1	AdOn GmbH	ORG
+1	KEKKILA	ORG
+5	U.S.-led	MISC
+1	Sui Northern Gas	ORG
+1	KEANE	PER
+10	Zimbabwe	LOC
+2	Begum Khaleda Zia	PER
+1	Kim Graham	PER
+1	W-2	MISC
+3	Lenzing	ORG
+1	Ainars Kiksis	PER
+1	OM Gruppen AB	ORG
+2	Artur Jorge	PER
+26	Brazil	LOC
+7	O'Neal	PER
+1	Aravinda de Silva	PER
+1	Dahshour	LOC
+1	Port Vale	ORG
+1	Harare	LOC
+1	APA	ORG
+1	Andy Ballace	PER
+1	Roy Aitken	PER
+1	Ousmane Kaba	PER
+2	Barcelona	LOC
+1	Jumbish-i-Milli	ORG
+1	Hassan Rastegar	PER
+1	Riel	LOC
+2	Olaf Ludwig	PER
+3	Mitsubishi	ORG
+1	CPI	MISC
+1	Operation Provide Comfort	MISC
+1	Penn Treaty	ORG
+1	Arantxa	PER
+1	Tunceli	LOC
+2	Linda Wild	PER
+2	Maarten den Bakker	PER
+7	Croatian	MISC
+2	Santos	ORG
+1	Valdo	PER
+1	Luciano della Noce	PER
+4	Taibe	ORG
+12	EU	ORG
+1	Republican-written	MISC
+4	LME	ORG
+2	Emilio Valle	PER
+4	Judith Wiesner	PER
+1	Freetown	LOC
+1	Mapourdit	LOC
+1	Julian Wellings	PER
+1	Davis	PER
+6	Liberia	LOC
+2	Maslova	PER
+1	Andrea Giaconi	PER
+2	Amrollah	PER
+1	Steve Conroy	PER
+3	Dream Team	ORG
+6	Michael Chang	PER
+1	Cooperative	ORG
+2	Lansana Conte	PER
+1	Tatiana Stiajkina	PER
+2	Yevgeny Primakov	PER
+1	St. Matthews Missionary Baptist Church	LOC
+1	Charmaine Crooks	PER
+1	American Studies	ORG
+1	C. Wishart	PER
+1	Sali Berisha	PER
+1	Metro Holdings	ORG
+3	Caracas	LOC
+70	Reuters	ORG
+1	MILLNS	PER
+1	U.S. Court of Appeals	ORG
+4	H.K.	LOC
+2	Thomas Bjorn	PER
+28	Olympic	MISC
+1	Vurens	PER
+2	Deby	PER
+5	St Pauli	ORG
+1	Fenerbahce	ORG
+2	UEFA Cup	MISC
+1	East Germany	LOC
+16	Turkey	LOC
+1	Craig Matthews	PER
+1	Paula Radcliffe	PER
+1	Liberian	MISC
+1	Garret Anderson	PER
+1	ROMANIA	LOC
+2	Nicolas Pereira	PER
+10	PKK	ORG
+1	Philip Blenkinsop	PER
+1	GAL	ORG
+1	Pete Wilson	PER
+2	Elena Wagner	PER
+2	San Marino	LOC
+1	DTB-Bund-Future	MISC
+1	Jersey	LOC
+5	Aki	PER
+1	Michael Andersson	PER
+1	Andrew Wakefield	PER
+2	Mike Devereaux	PER
+1	Kaolack	LOC
+1	Treasuries	ORG
+1	Vancouver-based	MISC
+2	Mexico City	LOC
+2	Amica Wronki	ORG
+1	Softbank Corp	ORG
+1	Puerto Rico	LOC
+3	Ltd	ORG
+1	Roger Clemens	PER
+3	Agriculture Ministry	ORG
+1	Keane Inc	ORG
+1	Pieter Hendriks	PER
+1	Airbus A310	MISC
+1	Woodforde	PER
+2	Kristina Brandi	PER
+1	Rafiqul Islam	PER
+1	Oklahoma State University	ORG
+1	British Jewish	MISC
+5	Czech	MISC
+1	Parmalat / Fehervar FC	ORG
+1	Ayr	ORG
+1	Alan McLoughlin	PER
+2	Smirnov	PER
+1	Jordi Cruyff	PER
+2	Caribs	LOC
+1	Bosnian Association for Refugees and Displaced Persons	ORG
+3	Sachin Tendulkar	PER
+1	Strobe Talbott	PER
+4	Ekeus	PER
+2	Michel Bourlet	PER
+10	Scottish	MISC
+15	Waqar Younis	PER
+1	Agnieszka Godras	PER
+1	Mark Thompson	PER
+2	Andre Agassi	PER
+1	Mark Petkovsek	PER
+2	Michel Zanoli	PER
+1	Central Office of Statistics and Information	ORG
+1	Wessels	PER
+4	Bastia	ORG
+1	Smyth	PER
+6	Asif Mujtaba	PER
+1	H&R Block Inc	ORG
+2	BOARDMAN	PER
+1	Nsanze Terence	PER
+1	Jason Weaver	PER
+1	Ashoknagar	LOC
+3	Chris Woodruff	PER
+7	Hansa Rostock	ORG
+9	Wayne Ferreira	PER
+5	Best	ORG
+1	Doubletree Corp	ORG
+1	Damian Ejiohuo	PER
+1	Organisation of the Islamic Conference	ORG
+1	Calderon	LOC
+1	Danny Theybers	PER
+1	PAPENDRECHT	LOC
+1	NFU	ORG
+1	HONDURAS	LOC
+3	Uganda	LOC
+1	FINNISH	MISC
+3	Mark Knowles	PER
+1	Salou Bachirou	PER
+5	Martinez	PER
+1	Galina Enioukhina	PER
+1	x-Cercle Brugge	ORG
+1	Chan Chia Fong	PER
+1	SALAH HISSOU	PER
+1	Construction Industry Council	ORG
+1	Barentsburg	LOC
+3	S. Campbell	PER
+2	Tutsis	MISC
+1	Chicago White Sox	ORG
+1	Vass	PER
+1	Cape Town	LOC
+5	Hamas	ORG
+1	David Gilford	PER
+2	Faulding Inc	ORG
+2	Serb-held	MISC
+1	Nana Miyagi	PER
+5	National Tennis Centre	LOC
+1	PAP	ORG
+1	Oceano Cruz	PER
+3	Hidemichi Tanaka	PER
+1	Tatyana Motkova	PER
+1	Ahmed Korei	PER
+1	Don Wengert	PER
+2	Northamptonshire	ORG
+4	SEATTLE	LOC
+1	Colorado Health Fac .	ORG
+1	Gilbert Facchinetti	PER
+1	Continental	ORG
+1	Dreyfus Strategic Municipals Inc	ORG
+4	CME	ORG
+1	Eduardo Romero	PER
+1	KinderCare Learning Centers Inc	ORG
+1	Towers Perrin	ORG
+1	Giles Bonnet	PER
+2	Kassala	LOC
+6	Eritrea	LOC
+1	EUROPEAN CUP	MISC
+1	, Inc.	ORG
+4	Aleksandra Olsza	PER
+1	Carlo Ancelotti	PER
+7	Essex	ORG
+1	Ashia Hansen	PER
+2	Dinamo	ORG
+1	Companion Building Material	ORG
+1	Madhumalla	LOC
+1	Overseas Development Administration	ORG
+4	S. KOREAN	MISC
+2	Ingrid Haringa	PER
+1	RED STAR	ORG
+1	GROZNY	LOC
+1	Michelle Martin	PER
+1	Lenzing AG	ORG
+1	Wash.-based	MISC
+1	Salomon & Taylor Made Co Ltd	ORG
+2	Kalashnikov	MISC
+1	Casino Graz	ORG
+1	Gdansk	LOC
+2	Imphold	ORG
+1	Tritan Shehu	PER
+1	Hanifah Komala	PER
+4	Popov	PER
+1	Tatyana Dmitrieva	PER
+2	TRIPOLI	LOC
+2	Toronto	ORG
+2	Zhang Ning	PER
+1	Chester	ORG
+4	Sakai	LOC
+3	St Helens	ORG
+1	Neemuch	LOC
+8	NEW YORK	LOC
+1	Leveilly	LOC
+2	Resalat	ORG
+1	Sui Southern Gas	ORG
+1	Vancouver Sun	ORG
+1	Abimael Guzman	PER
+10	Senate	ORG
+2	Richard Witschge	PER
+1	Vince Spadea	PER
+1	John Howard	PER
+2	Salah Hissou	PER
+1	Gente	ORG
+1	Tracy Roosevelt	PER
+1	Andy Flower	PER
+4	Portugal	LOC
+1	WALES	LOC
+1	Radka Zrubakova	PER
+1	Tunisia	LOC
+1	Greg Gagne	PER
+1	WASHINGTON	LOC
+1	TV Globo	ORG
+1	Rodney Mosier	PER
+1	TELFER	PER
+1	Anita Gradin	PER
+1	Irina Yatchenko	PER
+2	Orvieto	LOC
+1	El Mundo	ORG
+2	Moody 's	ORG
+4	German Open	MISC
+1	Mark Hodges	PER
+1	Rabobank Nederland BA	ORG
+2	Dionne Rose	PER
+5	Seattle Mariners	ORG
+1	Defence Ministry	ORG
+3	Plymouth	ORG
+1	Martin Gates	PER
+1	Perugia	ORG
+9	Lens	ORG
+7	Thomas Muster	PER
+4	Melbourne	LOC
+1	Wataru Kubo	PER
+2	Marcelo Filippini	PER
+1	Michael Bevan	PER
+1	New England	LOC
+1	Arthur Levitt	PER
+1	FERRIGATO	PER
+2	Megawati Sukarnoputri	PER
+2	Yone Kamio	PER
+1	Nick Nieland	PER
+1	Otelul Galati	ORG
+2	Jayasuriya	PER
+1	Central European Free Trade Area	ORG
+2	Sydney Bulldogs	ORG
+3	Boutros Boutros-Ghali	PER
+2	Zvornik	LOC
+1	Scott McLeod	PER
+1	Europe 1	ORG
+1	Ann Mercken	PER
+2	American-style	MISC
+13	Indian	MISC
+1	Christopher Reeve	PER
+1	M. Waugh	PER
+2	Frankfurt Newsroom	ORG
+2	O-157	MISC
+3	NBH	ORG
+2	Costas Skandalidis	PER
+1	Rona Young	PER
+4	Atletico	ORG
+11	Aamir Sohail	PER
+2	Financial Times-Stock Exchange	MISC
+1	Garrett Lambert	PER
+1	Nordegg	MISC
+1	Brooke	PER
+1	Gouda	LOC
+1	Emanuil Ceausu	PER
+1	Voskamp	PER
+21	Kurdish	MISC
+2	Scunthorpe	ORG
+4	Marc Rosset	PER
+1	Writers Association	ORG
+1	Les Ferdinand	PER
+1	Greg Chappell	PER
+1	Loxley Publications Plc	ORG
+1	Erik Breukink	PER
+1	Ben Ellwood	PER
+8	Bundesliga	MISC
+1	Miss Venezuela Organisation	ORG
+2	Erik Zabel	PER
+1	Juan Somavia	PER
+3	RBA	ORG
+2	CJD	MISC
+1	Marcelo	PER
+1	Eric Rush	PER
+1	Heidrun	LOC
+1	Adriana Serra-Zanetti	PER
+1	Galina Malchugina	PER
+1	Nobel Peace	MISC
+1	Michael Doohan	PER
+1	Sandra	PER
+1	Mansfield	ORG
+1	Calvin Davis	PER
+1	John Smiley	PER
+3	European Super League	MISC
+4	Javier Sanchez	PER
+2	Wilson	PER
+1	Gerald Machnee	PER
+2	SOUTH KOREAN	MISC
+3	Thomas Gogele	PER
+1	GTE Corp.	ORG
+1	Nigel Mobbs	PER
+1	Jimmy Thomson	PER
+1	News Agency of Nigeria	ORG
+3	RUGBY LEAGUE	MISC
+1	ATLETICO	ORG
+1	Potsdam	LOC
+1	Reading	ORG
+1	Cardinals	ORG
+1	Alpha Technologies Group Inc	ORG
+1	Dominique Van Roost	PER
+2	Billy Mayfair	PER
+1	Cruzeiro	ORG
+1	Roger Grimwade	PER
+5	Kashmir	LOC
+1	California Proposition 215	MISC
+1	Faure	PER
+2	Lommel	ORG
+1	MARCELO	PER
+1	Cartagena	LOC
+1	CAC-40 General	MISC
+1	AUSTRALIAN RULES-AFL	MISC
+3	Legia Warsaw	ORG
+1	Bou Haroun	LOC
+1	Kredietbank	ORG
+2	M. Dowman	PER
+1	Alan Ball	PER
+1	Boris Becker	PER
+1	Housecall Medical Resources Inc	ORG
+3	Aaxis	ORG
+4	Jeff Wilson	PER
+4	Massachusetts	LOC
+2	Anthony Gobert	PER
+1	Northern Ireland	LOC
+1	Stung Treng	LOC
+1	Umbria	LOC
+1	Bulatka	ORG
+8	COLORADO	LOC
+1	Roy	PER
+6	Cedric Pioline	PER
+1	Bernard Halford	PER
+1	South America	LOC
+1	National Human Rights Commission	ORG
+2	Milwaukee	ORG
+11	Greek	MISC
+1	Trepca	LOC
+1	SELES HAS	PER
+1	Hang Seng	MISC
+1	Para	LOC
+3	Democrat	MISC
+1	Vierklau	PER
+1	Waterworks Authority	ORG
+1	No 2454/93	MISC
+1	Sardinia	LOC
+1	Chistian	PER
+1	Xavier Gravelaine	PER
+1	Communist-led	MISC
+1	DRESDEN	LOC
+1	Lebanese Association for the Democracy of Elections	ORG
+29	United States	LOC
+2	Tanjug	ORG
+1	William Luehrs	PER
+7	Lauck	PER
+6	Bourlet	PER
+1	T$	MISC
+2	Sandon Stolle	PER
+2	Amsterdam-Rotterdam-Antwerp	LOC
+1	Polish Development Bank	ORG
+1	Jesus	PER
+1	SBF-120	MISC
+2	George Georgiopoulos	PER
+22	West Bank	LOC
+1	Michael Mollenbeck	PER
+1	FINLAND	LOC
+1	Steve Staunton	PER
+3	Oncins	PER
+1	Brush Wellman Inc	ORG
+2	New York Stock Exchange	ORG
+1	Toronto Dominion	PER
+1	Hengelo	LOC
+1	Conde	PER
+3	Ekeren	ORG
+8	Moin Khan	PER
+4	OJ	ORG
+2	M. Walker	PER
+1	Michael Perelstein	PER
+1	Qian Qichen	PER
+1	Graeme Obree	PER
+1	Witschge	PER
+1	DAX-3O	MISC
+1	Oman	LOC
+1	Hebrew University	ORG
+2	John McNamara	PER
+1	Bertelsmann	ORG
+4	U.S. Open Tennis Championships	MISC
+3	Belgian Grand Prix	MISC
+10	BSE	MISC
+1	Bangui	LOC
+3	Moura	PER
+1	The Washington Post	ORG
+1	Agricultural Statistics Service	ORG
+1	Cheah Soon Kit	PER
+2	Makinen	PER
+1	Philip Morris	ORG
+1	Chinnathambi	PER
+1	Meluawati	PER
+3	British Masters	MISC
+2	Alaska	LOC
+2	Stork	ORG
+4	Larnaca	LOC
+1	Kucan	PER
+1	Matos	PER
+5	Karol Kucera	PER
+1	Barrick Gold Corp	ORG
+5	State Department	ORG
+1	Lyman	PER
+1	El Hassane Lahssini	PER
+5	Francisco Cea	PER
+1	Rika Hiraki	PER
+21	Yeltsin	PER
+10	Spanish	MISC
+2	Irina Privalova	PER
+1	Patricia Smith	PER
+3	Seiki Okuda	PER
+6	Bahamas	LOC
+2	Mir Zaman Gul	PER
+4	Serbs	MISC
+15	Egypt	LOC
+1	Welikanda	LOC
+1	Yayuk Basuki	PER
+1	Nouakchott	LOC
+1	VeriSign	ORG
+1	Slough Estates Plc	ORG
+3	Amanda Coetzer	PER
+2	New Zealand Press Association	ORG
+13	Croft	PER
+1	Daewoo Dacom Communications	ORG
+1	New York Commodities	ORG
+2	Fowler	PER
+1	Dan Glickman	PER
+1	Daily Telegraph	ORG
+1	Moslem-led	MISC
+1	National Guard	ORG
+2	Peterborough	ORG
+2	John Jaha	PER
+2	Benelux	LOC
+2	U.S. Midwest	LOC
+1	Damion Easley	PER
+3	Prairies	LOC
+1	Tokyo Soir Co Ltd	ORG
+1	Jaime Oncins	PER
+2	Islamabad	LOC
+1	Enrique Centeno	PER
+5	Necmettin Erbakan	PER
+1	Romina Nicaretta	PER
+1	Eurostat	ORG
+1	George Weah	PER
+3	Pedro Diniz	PER
+1	Tony	PER
+2	Greer	PER
+3	Cleveland Indians	ORG
+2	Vogts	PER
+1	Republican-initiated	MISC
+1	Ala	LOC
+2	Tang	PER
+1	Aleksandrovac	LOC
+1	Alami	PER
+1	CO	LOC
+1	V. Kambli	PER
+7	Sri Lankan	MISC
+2	Paul Haarhuis	PER
+28	Hong Kong	LOC
+1	Moin	PER
+3	Thomas Johansson	PER
+1	Scarborough	ORG
+11	Nicaraguan	MISC
+1	Liberia Council	ORG
+1	Zagreb	LOC
+1	Lambrecks	PER
+1	Jose Offerman	PER
+2	Marcos Ondruska	PER
+1	Chatichai Choonhavan	PER
+1	Nyva Vinnytsya	ORG
+1	Jose-Maria Canizares	PER
+2	Barbara Schett	PER
+2	S. Waugh	PER
+5	Kurd	MISC
+1	Frank Bunce	PER
+2	Borsuk	PER
+2	Notts County	ORG
+1	Armenia	LOC
+1	Kabul Radio	ORG
+2	Derek Ryan	PER
+1	Ewald Brenner	PER
+4	IVAC	ORG
+1	Federal office for motor vehicles	ORG
+2	FDA	ORG
+1	Sicilian	MISC
+1	French Riviera	LOC
+1	Guantanamo Bay	LOC
+4	Hingis	PER
+1	Springbok	ORG
+1	SLOVAK	MISC
+3	Wayne Westner	PER
+1	Miron Cozma	PER
+2	Bangladeshi	MISC
+1	Orlando Miller	PER
+2	Sierra	ORG
+2	A$	MISC
+1	Butch Harmon	PER
+2	Grimsby	ORG
+1	Stalinist	MISC
+9	Rabobank	ORG
+1	HIV-pensioner	MISC
+1	West Bromwich	ORG
+1	Lauren Ottoz	PER
+3	HOUSTON	ORG
+1	Shahid Hasan Khan	PER
+1	Parisians	MISC
+1	Darryn Hill	PER
+4	Zhirinovsky	PER
+2	N. Fairbrother	PER
+1	Mario Basler	PER
+3	Balkan	LOC
+1	Rocky Coppinger	PER
+2	Bangladesh Nationalist Party	ORG
+1	A. Campbell	PER
+1	Awami League	ORG
+3	Norway	LOC
+1	BAYERN	ORG
+1	Bank of Israel	ORG
+2	Congo	LOC
+1	Chua	PER
+2	Keane	ORG
+1	White	PER
+3	San Diego Padres	ORG
+5	SAN JOSE	LOC
+7	Monica Seles	PER
+1	Josef Stalin	PER
+3	Jose Coceres	PER
+1	Red Lion Hotels Inc	ORG
+1	MICKELSON	PER
+1	Burundi-Central Africa	MISC
+1	wall Street	ORG
+1	GRIQUALAND WEST	LOC
+2	Lech Poznan	ORG
+1	Royals	ORG
+4	Rohrabacher	PER
+1	Russell Claydon	PER
+1	Steve Backley	PER
+1	Lynda Chalker	PER
+1	Soviet Union	LOC
+3	Jeff Tarango	PER
+1	San Diego	ORG
+7	Ducati	ORG
+1	Sindh High Court	ORG
+2	Max Sciandri	PER
+1	Tom Steels	PER
+1	Lehman Brothers International	ORG
+2	Steve Finley	PER
+1	Republic of Ireland	LOC
+1	Peter Tramacchi	PER
+2	Fernando Henrique Cardoso	PER
+1	Old City	LOC
+1	Preston	LOC
+1	U.N. Security Council	ORG
+2	Jones	PER
+1	Cubs	ORG
+1	Michael Barton	PER
+1	PSI Net	ORG
+2	Spitzbergen	LOC
+2	Tomas Carbonell	PER
+1	Prudential	ORG
+1	Michael Faust	PER
+1	John Lloyd Jones	PER
+1	Manuel Alvarado	PER
+12	Denmark	LOC
+1	Royce Clayton	PER
+1	Iranian Kurdish	MISC
+1	Anders Haglund	PER
+1	mid-Norway	MISC
+2	Jon Drummond	PER
+1	Mecca	LOC
+1	Borkus	PER
+1	Nahed Dahlan	PER
+5	Donovan Bailey	PER
+3	Houston	LOC
+2	Olympic Games	MISC
+4	Federico Colonna	PER
+1	Grant Flower	PER
+1	Eduardo Bernini	PER
+2	Wasim	PER
+18	Chicago	LOC
+2	American Olympic	MISC
+1	Nottingham	LOC
+1	Younnes El Aynaoui	PER
+1	Hintsa	PER
+1	PSC	ORG
+1	Carrefour	ORG
+2	Michele Bartoli	PER
+1	Michael Atherton	PER
+3	O'Brien	PER
+2	FIORENTINA	ORG
+2	CUBS	ORG
+1	Meredith McGrath	PER
+1	AMR	ORG
+1	Silvia Farina	PER
+1	Costis Stephnopoulos	PER
+2	Maria Jose Gaidano	PER
+1	Suleimaniya	LOC
+1	Lada Togliatti	ORG
+2	Ruehe	PER
+2	Midwest	LOC
+1	Rudyard	LOC
+1	Helsinki	LOC
+1	Spanish Supercup	MISC
+1	Isbank	ORG
+1	Ronan Rafferty	PER
+1	Bunol	LOC
+1	Glenn McGrath	PER
+1	Bank of New Zealand	ORG
+1	Marty Nothstein	PER
+1	Winston Bogarde	PER
+1	Waterville	LOC
+2	Yedioth Ahronoth	ORG
+2	Labor Day	MISC
+1	Bournemouth	ORG
+1	Italians	MISC
+1	Joe Carter	PER
+1	Miladin Becanovic	PER
+3	IMED	ORG
+2	Dalian	LOC
+1	ST PAULI	ORG
+1	Christophe Impens	PER
+3	Colorado Rockies	ORG
+1	London Carnival	MISC
+1	Suzuki	ORG
+1	Ramon Vega	PER
+1	Alexander Paris	PER
+1	Kleiner Perkins	ORG
+1	Nitto Santapaola	PER
+1	IHC Caland	ORG
+1	Gaza-based	MISC
+1	Highland	LOC
+2	Cathy Freeman	PER
+1	YANKEES	ORG
+1	Colonna	PER
+1	Western Province	ORG
+1	Pam Shriver	PER
+3	Saddam	PER
+1	Andrea Glass	PER
+1	NL East	MISC
+2	Mark Hutton	PER
+1	Terry Mulholland	PER
+3	Eddie Irvine	PER
+1	V. Prasad	PER
+2	Lokeren	ORG
+3	ABC	ORG
+1	Lucas Moreira Neves	PER
+1	Civil War Conservation Corps	ORG
+1	Danie van Schalkwyk	PER
+1	I. Healy	PER
+1	Chakravarty Rangarajan	PER
+1	Bernama	ORG
+1	Pavel Buran	PER
+1	Jose Antonio Ortega Lara	PER
+3	Durham	ORG
+1	Eliahu Ben-Elissar	PER
+1	Michael Astrue	PER
+2	PMC-Sierra	ORG
+1	Alan Hunte	PER
+7	Foreign Ministry	ORG
+3	D. Cox	PER
+7	BOJ	ORG
+1	BBC radio	ORG
+3	Julie Lejeune	PER
+1	Mike	PER
+1	Alfred Sant	PER
+1	American	ORG
+1	Anthony Nyakyi	PER
+1	Biblical	MISC
+1	Tom Kiernan	PER
+1	U.N.-sponsored	MISC
+2	J. Russell	PER
+1	Alexandre Barros	PER
+2	Andy Etchebarren	PER
+1	Ronald Brunmayr	PER
+1	ATP Tour	MISC
+3	KARACHI	LOC
+1	IBIS	MISC
+1	Berwick	ORG
+1	Texaco Inc	ORG
+1	Nepalese	MISC
+1	United Coconut Associations of the Philippines	ORG
+1	Stainless Fighter	MISC
+1	Liu Lu	PER
+2	N. Lenham	PER
+1	Schering AG	ORG
+1	Steve Jones	PER
+6	TEXAS	ORG
+2	Bancomext	ORG
+1	Sebastien Fournier	PER
+8	Medvedev	PER
+2	Etruria	LOC
+1	Hassan al-Turabi	PER
+1	David Nainkin	PER
+1	Sinead Delahunty	PER
+21	PUK	ORG
+2	Christopher Wreh	PER
+1	Peace River Valley	LOC
+4	Atlanta Games	MISC
+1	Liam Fox Fox	PER
+1	Nijmeh	ORG
+1	Juan Castro	PER
+1	Alessandro Lambruschini	PER
+1	Murat Yakin	PER
+6	Philippoussis	PER
+1	Glenn Taylor	PER
+1	Power Financial Corp	ORG
+1	Aleksander Lebed	PER
+1	Middle East Economic Survey	MISC
+3	Russians	MISC
+5	Michael Schumacher	PER
+2	POLLOCK	PER
+1	Philippe Seguin	PER
+4	Leicester	LOC
+5	Florida Marlins	ORG
+2	Grant Stafford	PER
+1	Liberte	ORG
+1	Chalmers	PER
+1	Hapoel Jerusalem	ORG
+1	Reuf Mehemdagic	PER
+1	East Fife	ORG
+1	ENAP	ORG
+1	Mary Joe Fernandez	PER
+1	SOSA	PER
+2	Rodney Eyles	PER
+2	Jonas Bjorkman	PER
+3	SAN DIEGO	LOC
+1	Ian Woosnam	PER
+1	Alex Boraine	PER
+1	Yvan Quentin	PER
+2	Illawarra	ORG
+1	Vukasin Filipovic	PER
+1	Mountain	LOC
+1	Donje Ljupce	LOC
+1	Patricia Djate	PER
+27	U.N.	ORG
+3	Khmer Rouge	ORG
+44	London	LOC
+2	Taipei	LOC
+3	Kotlarska	PER
+1	Iceland	LOC
+1	Harald Spoerl	PER
+1	Dos Santos	PER
+1	NTV	ORG
+1	LDP	ORG
+1	Philip Wilcox	PER
+1	Olazabal	PER
+1	David Byas	PER
+2	MT	LOC
+1	Bureau Veritas	ORG
+1	Jacques Chirac	PER
+1	Idalecio	PER
+1	Perelstein	PER
+17	NATO	ORG
+1	Dennis Ross	PER
+1	Wolfgang Kreissig	PER
+1	Stromme	PER
+2	California Angels	ORG
+1	La Nacion	ORG
+2	Gatwick	LOC
+8	Orioles	ORG
+1	Barnsley	ORG
+3	Agassi	PER
+1	Feyenoord Rotterdam	ORG
+1	.Giuseppe Citterio	PER
+2	Kwasniewski	PER
+4	Nazi	MISC
+1	City	ORG
+1	Sun Microsystems	ORG
+5	Heerenveen	ORG
+1	Tadeusz Awdankiewicz	PER
+1	Mount Lebanon	LOC
+2	Washington Post	ORG
+1	Nahar	LOC
+7	Groningen	ORG
+2	Baltimore	ORG
+48	Clinton	PER
+1	Vladimir Dubrovshchik	PER
+1	Mostostal Zabrze Holding SA	ORG
+1	Fita Bayesa	PER
+1	Gabriel Curuchet	PER
+1	Newcrest Mining Ltd	ORG
+1	Munich	LOC
+1	Pole	MISC
+1	Hideo Nomo	PER
+1	Dickson	PER
+1	Betar	ORG
+1	ATLANTIC HIGHLANDS	LOC
+4	Karachi	LOC
+1	EUROPEAN TOUR	MISC
+1	HINCHCLIFFE	PER
+1	Kalf , Voorhis & Co	ORG
+4	PSG	ORG
+2	Finnish	MISC
+1	Servais Knaven	PER
+1	Jose Rivero	PER
+3	Lupu	PER
+2	Kan	PER
+1	Brenden Pappas	PER
+1	Norton	PER
+1	Indre	LOC
+5	Davies	PER
+1	Nuremberg-based	MISC
+1	Ulster Petroleums Ltd	ORG
+1	Saudi Press Agency	ORG
+1	Kleinova	PER
+4	IRNA	ORG
+11	Sao Paulo	LOC
+1	Barrington Research Associates Inc	ORG
+1	Virginia	LOC
+1	al-Akhbar	ORG
+1	Peter Munk	PER
+2	Conte	PER
+10	Kremlin	LOC
+2	Madagascar	LOC
+2	Tom Pukstys	PER
+1	James Weaver	PER
+1	Artyom Danielyan	PER
+1	Alexander Downer	PER
+1	Craig Held	PER
+2	Prague	LOC
+1	Las Vegas	LOC
+3	WORLD CUP	MISC
+1	KIMBERLEY	LOC
+1	Kubilay Turkyilmaz	PER
+1	N. Mongia	PER
+1	Lance Gibbs	PER
+1	Khan	PER
+2	Siraj Mia	PER
+1	Kyoko Nagatsuka	PER
+2	Pier Francesco Chili	PER
+2	Yastrezhembsky	PER
+5	St. Louis Cardinals	ORG
+4	Milan	ORG
+2	Wang Chen	PER
+1	Vavuniya	LOC
+1	NSDAP-AO	ORG
+1	Juan Eduardo Esnaider	PER
+9	Nepal	LOC
+1	Koninklijke Boskalis Westminster NV	ORG
+3	Catalan	MISC
+1	CHANG	PER
+1	Triple-A Columbus	ORG
+1	Bedouin Palestinians	MISC
+1	South Island	LOC
+1	Aron Winter	PER
+7	Hamburg	ORG
+2	Shuzo Matsuoka	PER
+1	Goldman Sachs	ORG
+1	Steinberg	LOC
+3	Damascus	LOC
+20	Chinese	MISC
+1	Jesus Tavarez	PER
+1	Tony Roche	PER
+2	McCurry	PER
+1	Dragutin Stanojlovic	PER
+3	Somerset	ORG
+2	Gabon	LOC
+1	Wall Street Journal	ORG
+1	Feyenoord	ORG
+2	Carl-Uwe Steeb	PER
+2	Auckland	ORG
+4	Florence	LOC
+1	Courtois	PER
+1	BATKIVSHCHYNA COLLECTIVE FARM	LOC
+1	Tang Jiaxuan	PER
+4	Colombian	MISC
+5	Wellington	LOC
+11	Algerian	MISC
+1	Nuku'alofa	LOC
+1	Laurent Gane	PER
+3	Jiri Novak	PER
+1	MEDVEDEV	PER
+1	Alex Criville	PER
+1	National League Central	MISC
+8	Hungarian	MISC
+3	1860 Munich	ORG
+1	Mate Granic	PER
+1	Puertollano	LOC
+1	Miss Universe Inc	ORG
+2	Brisbane	ORG
+3	Michael Jonzon	PER
+1	U.S.-sponsored	MISC
+1	Zarak Jahan Khan	PER
+67	China	LOC
+1	ESSEX	ORG
+2	Daily Variety	ORG
+1	Ten Commandments	MISC
+3	Ronald Reagan	PER
+2	Chernomyrdin	PER
+1	Hanmer	LOC
+1	George Duffield	PER
+1	CONGO	LOC
+2	Odnosum	PER
+1	Isaac Viciosa	PER
+1	Camden	LOC
+1	Stephane Henchoz	PER
+2	Basque Homeland and Freedom	ORG
+1	Dallas	LOC
+5	Yugoslavia	LOC
+1	Prince Abdullah	PER
+7	Kabul	LOC
+1	Department of Transport	ORG
+4	Montreal Expos	ORG
+4	Texas Rangers	ORG
+3	Sao Paulo	ORG
+1	Miles Kan	PER
+1	Ralf Kelleners	PER
+5	MDS	ORG
+1	Goldman Sachs & Co	ORG
+1	Ahmad Shah Masood	PER
+8	U.S. OPEN	MISC
+1	Niall Quinn	PER
+1	Gencor Ltd	ORG
+1	East North Central	LOC
+2	Ruxandra Dragomir	PER
+1	EVEREN	ORG
+1	Sabine Hack	PER
+1	Rugby Football Union	ORG
+2	Batistuta	PER
+1	Ahmed Hashem Zighayer	PER
+1	Javier Gomez de Liano	PER
+5	Gerhard Berger	PER
+47	Dutch	MISC
+2	Jordanian Arab Socialist Baath Party	ORG
+4	Istanbul	LOC
+1	David Millns	PER
+1	A. Kapoor	PER
+1	SAN FRANCISCO	ORG
+2	Mary Onyali	PER
+2	Jammu	LOC
+1	Ninth Circuit	ORG
+1	Steven Redgrave	PER
+1	Florida	ORG
+1	Anto Drobnjak	PER
+2	Gornik Zabrze	ORG
+1	Partnership for Peace	MISC
+1	Nastase	PER
+1	NBC	ORG
+1	Shehu	PER
+1	Masanaga Shiohara	PER
+3	C. Hooper	PER

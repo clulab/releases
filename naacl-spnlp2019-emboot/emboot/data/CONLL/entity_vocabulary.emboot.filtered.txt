@@ -1,0 +1,5523 @@
+</s>	0
+U.S.	303
+Germany	141
+Britain	133
+Australia	130
+England	123
+France	122
+Spain	110
+Italy	98
+NEW YORK	95
+Russian	92
+China	91
+Russia	88
+Japan	87
+Pakistan	85
+Sweden	81
+German	80
+British	73
+Reuters	73
+Belgium	71
+Clinton	70
+India	70
+Iraq	68
+London	66
+Israel	64
+Netherlands	61
+CHICAGO	59
+French	59
+United States	55
+South Africa	55
+Czech Republic	53
+Dutch	50
+GMT	49
+Israeli	48
+Hong Kong	45
+New York	44
+Moscow	43
+Brazil	43
+Finland	42
+Iraqi	38
+Sri Lanka	38
+English	38
+Ukraine	38
+Austria	38
+European	38
+American	38
+Australian	37
+New Zealand	37
+Canada	37
+Palestinian	36
+Dole	36
+Olympic	35
+Arafat	35
+U.N.	35
+Chechnya	34
+Romania	33
+Slovakia	33
+Bosnia	33
+West Bank	32
+Jordan	32
+Yeltsin	32
+Chicago	32
+Moslem	31
+Italian	31
+Kenya	31
+Ireland	31
+Argentina	30
+Europe	30
+Dutroux	30
+Turkey	30
+Lebed	30
+Poland	29
+Washington	29
+Wasim Akram	29
+Wimbledon	29
+Nigeria	29
+Egypt	29
+BALTIMORE	28
+Japanese	28
+TORONTO	28
+Taiwan	27
+Iran	27
+Republican	27
+Chinese	25
+Democratic	25
+OSCE	25
+Grozny	25
+Mushtaq Ahmed	25
+Waqar Younis	25
+PUK	25
+Belgian	25
+Switzerland	25
+World Cup	25
+BOSTON	24
+SAN FRANCISCO	24
+SEATTLE	23
+KANSAS CITY	23
+HOUSTON	23
+Kurdish	23
+EU	23
+COLORADO	23
+Sudanese	23
+Polish	22
+MINNESOTA	22
+NATO	22
+Paris	22
+Costa Rica	22
+ATLANTA	22
+Morocco	22
+Indonesia	22
+Turkish	22
+U.S. Open	22
+California	21
+ENGLAND	21
+Swiss	21
+Scotland	21
+C$	21
+Baghdad	21
+Colombia	21
+Hungary	21
+Croft	20
+Honda	20
+CLEVELAND	20
+Thai	20
+LOS ANGELES	20
+Mother Teresa	20
+Brazilian	20
+Chechen	20
+PAKISTAN	20
+Iranian	20
+DETROIT	20
+European Union	20
+WASHINGTON	19
+CALIFORNIA	19
+Aamir Sohail	19
+Serb	19
+Palestinians	19
+A$	19
+Indian	19
+Jerusalem	19
+Bill Clinton	19
+ST LOUIS	18
+MONTREAL	18
+Sao Paulo	18
+Denmark	18
+Interfax	18
+Ajax	18
+SAN DIEGO	18
+Bosnian	18
+Mullally	18
+Cyprus	18
+Nepal	18
+Atlanta	17
+Croatia	17
+Venezuela	17
+FLORIDA	17
+Cuba	17
+PHILADELPHIA	17
+Zimbabwe	17
+PITTSBURGH	17
+KDP	17
+South African	17
+Berlin	17
+Netanyahu	16
+Yugoslavia	16
+CINCINNATI	16
+Mexico	16
+Saeed Anwar	16
+Essex	16
+Ajax Amsterdam	16
+Albanian	16
+Marseille	16
+Brussels	16
+MAJOR LEAGUE	16
+Burundi	16
+Chile	16
+Sudan	16
+Rubin	16
+Barcelona	16
+Slovak	16
+Algeria	15
+Beijing	15
+Lens	15
+TEXAS	15
+PSV	15
+Texas	15
+Senate	15
+Diana	15
+Meri	15
+The Oval	15
+RBI	15
+Serbs	15
+Ohio	15
+MILWAUKEE	15
+OAKLAND	15
+Norway	15
+Amman	15
+Hamburg	15
+Williams	15
+Amsterdam	14
+Medvedev	14
+Stansted	14
+Syria	14
+Los Angeles	14
+Commonwealth	14
+Gore	14
+Motorola	14
+Democrats	14
+Arab	14
+DUTCH	14
+Ijaz Ahmed	14
+Jewish	14
+Malaysia	14
+Austrian	14
+Greek	13
+Argentine	13
+Greece	13
+FRENCH	13
+Afghanistan	13
+Wall Street	13
+Salim Malik	13
+Lancashire	13
+Boris Yeltsin	13
+Saudi Arabia	13
+Surrey	13
+GERMAN	13
+Yorkshire	13
+Hampshire	13
+Cork	13
+Heerenveen	13
+Gaza	13
+PSV Eindhoven	13
+St Pauli	13
+Afghan	13
+America	13
+South Korean	13
+ENGLISH	13
+Canadian	13
+Nicaraguan	13
+Leeds	13
+PKK	12
+Yasser Arafat	12
+MANCHESTER	12
+Lebanon	12
+Portsmouth	12
+Boston	12
+Zaire	12
+Monaco	12
+Malta	12
+OB	12
+Schalke	12
+Sydney Newsroom	12
+Moin Khan	12
+Weizman	12
+Saudi	12
+Spanish	12
+Manchester United	12
+Algerian	12
+Doboj	12
+Benetton	12
+Yugoslav	12
+Inzamam-ul-Haq	12
+Irish	12
+Khartoum	12
+Seattle	12
+Christie	12
+Stich	12
+Yamaha	12
+Gencor	12
+Baltimore	12
+Lauck	12
+Oakland	12
+Graf	12
+Czech	12
+White House	12
+Auxerre	11
+Commission	11
+Banharn	11
+BSE	11
+Kremlin	11
+Florida	11
+Warwickshire	11
+Grand Slam	11
+Thailand	11
+Hansa Rostock	11
+Windows 95	11
+Mickelson	11
+Congress	11
+Alexander Lebed	11
+Groningen	11
+Cologne	11
+Jamaica	11
+United Nations	11
+Sydney	11
+Gloucestershire	11
+Nantes	11
+Auckland	11
+USDA	11
+Open	11
+Chelsea	11
+Islamic	11
+Dhaka	11
+Islamist	11
+Calcutta	11
+Lloyd 's	11
+Colorado	11
+Bradford	11
+National League	10
+LG	10
+Jakarta	10
+Blackburn	10
+Sion	10
+Fortuna Sittard	10
+Zenith	10
+Milan	10
+Glamorgan	10
+Estonia	10
+Australian Open	10
+San Diego	10
+Slovenia	10
+Belarus	10
+Todd Martin	10
+Serbia	10
+Albania	10
+Montpellier	10
+Newcastle	10
+Wigan	10
+Ssangbangwool	10
+Tsang	10
+UK	10
+Nice	10
+Volendam	10
+Asif Mujtaba	10
+Hanwha	10
+NEC Nijmegen	10
+Arantxa Sanchez Vicario	10
+Scottish	10
+Pakistani	10
+Bulgaria	10
+Fiorentina	10
+Leicester	10
+Toronto	10
+Lotte	10
+Ethiopia	10
+Zurich	10
+Serbian	10
+Bangladesh	10
+Chang	10
+Barrick	10
+U.S. OPEN	9
+Bayer Leverkusen	9
+St Helens	9
+Sri Lankan	9
+Gazprom	9
+Islamists	9
+Guingamp	9
+Bundesliga	9
+G. Thorpe	9
+Rabobank	9
+Bayern Munich	9
+Morris	9
+Rwanda	9
+Leicestershire	9
+Cofinec	9
+IVAC	9
+Minnesota	9
+Berlex	9
+South Korea	9
+Kabul	9
+Sampras	9
+Wisconsin	9
+Western	9
+Johnson	9
+Hungarian	9
+Rwandan	9
+NAC Breda	9
+Benjamin Netanyahu	9
+Brisbane	9
+Kawasaki	9
+Colchester	9
+Olympics	9
+Milwaukee	9
+Massachusetts	9
+Liberia	9
+New Delhi	9
+Mark Philippoussis	9
+Ecuador	9
+Metz	9
+Orioles	9
+Bosnian Serb	9
+Toyota Celica	9
+Wayne Ferreira	9
+Singapore	9
+Machado	9
+Worcestershire	9
+Soviet	9
+Lewis	9
+Melbourne	9
+Colombo	9
+Peres	9
+Vitesse Arnhem	9
+Liverpool	9
+Cup	9
+Oldham	9
+Shanghai	9
+Cardiff	9
+Todd Woodbridge	9
+Yankees	9
+Major League Baseball	9
+Nottinghamshire	9
+Portugal	9
+Jordanian	9
+Oxford	8
+Detroit	8
+Werder Bremen	8
+Bordeaux	8
+Croatian	8
+Levy	8
+Utrecht	8
+French Open	8
+Philippoussis	8
+RUGBY UNION	8
+Nancy	8
+Sparta Rotterdam	8
+Fox	8
+SEC	8
+Roman Catholic	8
+Lille	8
+Northampton	8
+Russians	8
+Nicaragua	8
+News Corp	8
+HK$	8
+Corser	8
+J. Crawley	8
+Bob Dole	8
+Sakai	8
+Cincinnati	8
+Gajdos	8
+Bonn	8
+Fortuna Duesseldorf	8
+AZ Alkmaar	8
+Arminia Bielefeld	8
+Martinez	8
+Feyenoord	8
+CVG	8
+Names	8
+McLaren	8
+Graafschap Doetinchem	8
+SPLA	8
+Oncins	8
+Indonesian	8
+Bastia	8
+Willem II Tilburg	8
+Philadelphia	8
+Gloria Bistrita	8
+MDS	8
+Iraqis	8
+Foreign Ministry	8
+Lincoln	8
+Monica Seles	8
+Juventus	8
+BOJ	8
+Ducati	8
+Iraqi Kurdish	8
+Marcelo Rios	8
+Everton	8
+Aberdeen	8
+Northamptonshire	8
+Chechens	8
+Grand Prix	8
+Biogen	8
+Kent	8
+Middle East	8
+Rome	8
+Brunswijk	8
+Nigerian	8
+ISS	8
+Java	8
+Sussex	8
+Brady	8
+Guinea	8
+Taleban	7
+PLO	7
+CNIEC	7
+Gilbertson	7
+Advanced Medical	7
+MFS	7
+Dayton	7
+Maoist	7
+Thomas Muster	7
+Grimsby	7
+Athens Newsroom	7
+Eritrea	7
+Mohammad Akram	7
+Greens	7
+Feyenoord Rotterdam	7
+Arkansas	7
+Durham	7
+Paris St Germain	7
+Aki	7
+Hamas	7
+Major League	7
+Kocinski	7
+Wales	7
+Strasbourg	7
+St Louis	7
+Ramallah	7
+Tapie	7
+Calif.	7
+Montreal	7
+Taibe	7
+Huddersfield	7
+Hasina	7
+ISS Inc	7
+Takeda	7
+Barnsley	7
+O'Neal	7
+Colombian	7
+AKRON	7
+Kabariti	7
+S&P	7
+Costas Simitis	7
+Birmingham	7
+Egyptian	7
+Kevorkian	7
+Twente Enschede	7
+Tamil	7
+MaliVai Washington	7
+Iliescu	7
+TVM	7
+Lance Armstrong	7
+Charleroi	7
+ND	7
+Hashimoto	7
+Lyon	7
+Alex O'Brien	7
+National Tennis Centre	7
+Pete Sampras	7
+ACC	7
+M. Waugh	7
+1860 Munich	7
+OM	7
+Nasdaq	7
+Buenos Aires	7
+Africa	7
+Preston	7
+Old Trafford	7
+Perot	7
+Tranmere	7
+Muster	7
+Ruutel	7
+Saddam Hussein	7
+Patrick Rafter	7
+Canadian Open	7
+Helibor	7
+Arequipa	7
+Indians	7
+Algiers	7
+African	7
+European Commission	7
+Cuban	6
+Mohammad Akam	6
+Headingley	6
+Parma	6
+Elect Res	6
+FDP	6
+Partizan	6
+Newcombe	6
+Linford Christie	6
+Paul Lawrie	6
+Wolverhampton	6
+Collstrop	6
+RUGBY LEAGUE	6
+Volkova	6
+Internet Startup	6
+LME	6
+Shimon Peres	6
+Reading	6
+Heathrow	6
+Canberra	6
+Avonex	6
+Queens Park Rangers	6
+California Angels	6
+Singer World Series	6
+Palestinian Authority	6
+Kurdistan Democratic Party	6
+Andrei Medvedev	6
+Sergi Bruguera	6
+Bourlet	6
+Cozma	6
+Surabaya	6
+Billy Mayfair	6
+Sudan Airways	6
+Chris Boardman	6
+Unita	6
+Port Vale	6
+Conchita Martinez	6
+Raymond Russell	6
+Cannes	6
+Corsica	6
+M. Atherton	6
+IOC	6
+Tehran	6
+Geneva	6
+Norwegian	6
+Tommi Makinen	6
+EPR	6
+Somerset	6
+Treasury	6
+Davis Cup	6
+ETA	6
+Michael Chang	6
+Andrea Collinelli	6
+Kimiko Date	6
+Trent Bridge	6
+Frankfurt	6
+Ligier	6
+Anke Huber	6
+Kuwait	6
+Porto	6
+Banespa	6
+Tirana	6
+serie A	6
+CDU / CSU	6
+Itar-Tass	6
+Karachi	6
+RKC Waalwijk	6
+Frenchman	6
+Benfica	6
+Thomas Enqvist	6
+Organisation for Security and Cooperation in Europe	6
+Stenning	6
+Martin Damm	6
+Michael Schumacher	6
+Brush Wellman	6
+Mikael Tillstrom	6
+Smicer	6
+Jason Stoltenberg	6
+Pedro Linhart	6
+Yemen	6
+Emnid	6
+Amoco	6
+PDS	6
+Huber	6
+East Jerusalem	6
+Supreme Court	6
+Sakigake	6
+Microsoft	6
+Mapei	6
+Latvia	6
+Guerrero	6
+Spaniard	6
+BUDAPEST	6
+Sauber	6
+Santos	6
+SPD	6
+ENGLISH COUNTY CHAMPIONSHIP	6
+Charlton	6
+U.S.-led	6
+Central Bank	6
+West Bromwich	6
+SBC Warburg	6
+Promodes	6
+Moldova	6
+Southend	6
+Cedric Pioline	6
+Sarajevo	6
+All Blacks	6
+Plymouth	6
+U.S	6
+European Cup	6
+Aslan Maskhadov	6
+VfB Stuttgart	6
+Kashmir	6
+Stoke	6
+PUNR	6
+Uganda	6
+Republicans	6
+Wellington	6
+St. Louis Cardinals	6
+Lindsay Davenport	6
+Arch	6
+Rangers	6
+Gulf War	6
+Medicare	6
+Popov	6
+Ferrari	6
+Lanusse	6
+CANADIAN OPEN	6
+ICAC	6
+Bahamas	6
+Costantino Rocca	6
+Haga	6
+MILAN	5
+Irani	5
+Angolan	5
+San Francisco	5
+Baker	5
+Boardman	5
+Cyprien	5
+Ivorian	5
+Chicago Cubs	5
+State Department	5
+Norman	5
+Tamils	5
+ABC	5
+Cairo	5
+Brann	5
+Bangkok	5
+Mitsubishi	5
+Necmettin Erbakan	5
+Gabon	5
+South	5
+Faulding	5
+Basque	5
+Kubo	5
+Swansea	5
+Donovan Bailey	5
+Michael Stich	5
+Telekom	5
+Mariners	5
+Owens	5
+Dm	5
+Luxembourg	5
+Tankan	5
+Johannesburg	5
+JYVASKYLA	5
+interior ministry	5
+Five Nations	5
+Atlanta Games	5
+PSG	5
+Moslems	5
+African Nations Cup	5
+Hingis	5
+Briton	5
+Swedish	5
+Greg Norman	5
+ADRs	5
+Tendulkar	5
+Red Star	5
+Best	5
+OJ	5
+Alaska	5
+Namibia	5
+CARLSBAD	5
+Togo	5
+Genoa	5
+Mexican	5
+Neths	5
+Juha Kankkunen	5
+Houston	5
+Dimitris Kontogiannis	5
+Bogra	5
+ZIMBABWE	5
+Toshiba Classic	5
+Kandahar	5
+Portuguese	5
+Tim Henman	5
+Takemura	5
+Akron	5
+Jana Novotna	5
+Legia Warsaw	5
+Mauritius	5
+Aoki	5
+Moura	5
+Tyrrell	5
+San Francisco Giants	5
+Mexico City	5
+Merrill Lynch	5
+Caribbean	5
+Missionaries of Charity	5
+Agassi	5
+JavaSoft	5
+Florida Marlins	5
+Interpol	5
+Ata-ur-Rehman	5
+Seattle Mariners	5
+Kurd	5
+Yassin	5
+Libya	5
+BUENOS AIRES	5
+A. Stewart	5
+Karina Habsudova	5
+Security Council	5
+Amanda Coetzer	5
+TOUR OF NETHERLANDS	5
+UAE	5
+Reeve	5
+Daniel Vacek	5
+Democrat	5
+SRI LANKA	5
+Bucharest	5
+Linz	5
+SCOTTISH	5
+Jean Alesi	5
+Olsza	5
+LTTE	5
+Sierra	5
+Cincinnati Reds	5
+Middlesex	5
+Paul Eales	5
+Bhutto	5
+Beirut	5
+SOFIA	5
+Edouard	5
+N. Fairbrother	5
+Davies	5
+Atletico Madrid	5
+Banisadr	5
+Vatican	5
+Zastava	5
+Nazi	5
+Mideast	5
+Jacques Villeneuve	5
+Jeff Wilson	5
+Leduc Reef	5
+Salisbury	5
+Ian Woosnam	5
+Bamerindus	5
+Betaseron	5
+Arsenal	5
+Pol Pot	5
+NBH	5
+Bulgarian	5
+PULPEX	5
+Romanian	5
+Kornblum	5
+Kansas City	5
+TOSHIBA CLASSIC	5
+GPG	5
+Vaduz	5
+Salang	5
+Tour of the Netherlands	5
+Istanbul	5
+SAN JOSE	5
+Palmans	5
+Bohdan Ulihrach	5
+post-Soviet	5
+Paul Broadhurst	5
+CAC-40	5
+A. Giles	5
+Stuttgart	5
+Atlanta Braves	5
+C. White	5
+Gatwick	5
+Bailey	5
+Rosati	5
+Stefan Edberg	5
+Midwest	5
+Tibet	5
+Mika Hakkinen	5
+Hearts	5
+Chonan	5
+God	5
+Ford Escort	5
+Ruch Chorzow	5
+Larnaca	5
+Oakland Athletics	5
+Wasim	5
+Suwon	5
+Ballybunion	5
+Patriotic Union of Kurdistan	5
+Francisco Cea	5
+Atletico	5
+Miguel Angel Martin	5
+Tass	5
+Trinidad	5
+M. Moxon	5
+Karol Kucera	5
+Cambridge	5
+Mozambique	5
+Pittsburgh	5
+Stevanin	5
+Damascus	5
+GRAND PRIX	5
+Gujral	5
+Manchester City	5
+Hope	5
+Perry	5
+N.J.	5
+Antwerp	5
+Gerhard Berger	5
+Cleveland	5
+Stephanie	5
+Sporting	5
+Ischinger	5
+Budapest	5
+BOGOTA	5
+Chemlon Humenne	5
+Ford	5
+Vienna	5
+Petr Korda	5
+Blackpool	5
+Damon Hill	5
+Slask Wroclaw	4
+Ibrahim	4
+Allensbach	4
+Magnus Gustafsson	4
+Mitsubishi Lancer	4
+CME	4
+Syrian	4
+Israel-PLO	4
+Carlisle	4
+Nepali	4
+Sofia	4
+Chicago White Sox	4
+D. Gough	4
+S. KOREAN	4
+Kenneth Eriksson	4
+Niugini	4
+USA	4
+Aston Villa	4
+Sri Lankans	4
+H.K.	4
+Rubens Barrichello	4
+GOLF	4
+Abuja	4
+Zhirinovsky	4
+Sven Teutenberg	4
+P. Strang	4
+Bonds	4
+Michael Joyce	4
+Odra Wodzislaw	4
+EgyptAir	4
+Amica Wronki	4
+Alain Juppe	4
+Svetlana Masterkova	4
+Millwall	4
+Cup Winners ' Cup	4
+Aleksandra Olsza	4
+Islamabad	4
+Simpson	4
+Bosnians	4
+Whittall	4
+Fischler	4
+Maria Mutola	4
+Angola	4
+David Coulthard	4
+Scarborough	4
+Reform Party	4
+NEW ZEALAND	4
+David Carter	4
+1,000 LAKES RALLY	4
+U.S. Postal	4
+Miltiadis Evert	4
+Pusan	4
+C. Lewis	4
+Reagan	4
+Tottenham	4
+Batistuta	4
+Abdul-Karim al-Kabariti	4
+Prairies	4
+Labour	4
+Alberto Berasategui	4
+TWA	4
+Exeter	4
+HAMLET CUP	4
+NZ	4
+Tibetan	4
+Ferencvaros	4
+Moroccan	4
+NCB	4
+Western Reds	4
+Gold Coast	4
+Tigers	4
+US	4
+Oval	4
+Marc Dutroux	4
+Raichev	4
+New Democracy	4
+British-based	4
+Hutnik Krakow	4
+COMMACK	4
+Italian Cup	4
+Steffi Graf	4
+Soviet Union	4
+Arnold Ruutel	4
+Cambodia	4
+BNP	4
+Rotherham	4
+Agriculture Ministry	4
+Wilson	4
+Phan	4
+Parramatta	4
+OFFICIAL JOURNAL	4
+INA	4
+South Queensland	4
+Hatoyama	4
+ORIOLES	4
+GKS Katowice	4
+INDIA	4
+Judith Wiesner	4
+Ieng Sary	4
+Penrith	4
+SOLIDERE	4
+Benin	4
+Dublin	4
+COMEX	4
+Manly	4
+Peterborough	4
+Repsol	4
+Arab East Jerusalem	4
+Philadelphia Phillies	4
+Steve Stricker	4
+Anne Miller	4
+Texas Rangers	4
+Zvornik	4
+J. Russell	4
+Sydney Bulldogs	4
+Roger Chapman	4
+Grobbelaar	4
+Ekeus	4
+Mahala	4
+Marc Rosset	4
+Mansfield	4
+ING	4
+Rohrabacher	4
+St George	4
+Los Angeles Dodgers	4
+TM	4
+Kenneth Carlsen	4
+A. Mullally	4
+Robert Croft	4
+Mark Roe	4
+Fowler	4
+Braves	4
+Bournemouth	4
+Molenbeek	4
+Jarmo Kytolehto	4
+Ripken	4
+Chester	4
+Martina Hingis	4
+Richey Reneberg	4
+Robert Allenby	4
+Israeli-PLO	4
+Johan Capiot	4
+STANSTED	4
+Hutu	4
+Stewart	4
+United Kingdom	4
+Burmese	4
+Johnny Herbert	4
+Sheffield	4
+Iraqi Kurds	4
+Orvieto	4
+Interior Ministry	4
+Seychelles	4
+Hamilton	4
+Pollock	4
+Glyn Davies	4
+Riyadh	4
+Karim Alami	4
+Darren Gough	4
+Magdalena Maleeva	4
+New York Yankees	4
+Illawarra	4
+Sydney Tigers	4
+Kosovo	4
+MSV Duisburg	4
+M. Walker	4
+U.S. Open Tennis Championships	4
+Escravos	4
+WSRL	4
+GKS Belchatow	4
+Hereford	4
+Ronald Reagan	4
+Heinz-Harald Frentzen	4
+Red Sox	4
+Amtrak	4
+Florence	4
+Leyton Orient	4
+Weaver	4
+Senegal	4
+Marcus Gronholm	4
+Democratic Convention	4
+NORTHAMPTON	4
+Congo	4
+N. Knight	4
+White Sox	4
+Seles	4
+Karak	4
+Lennart Meri	4
+Colorado Rockies	4
+ARC	4
+Sharif	4
+Scunthorpe	4
+Commission Regulation	4
+IRNA	4
+Wycombe	4
+Liberation Tigers of Tamil Eelam	4
+Shrewsbury	4
+Kadian	4
+PRETORIA	4
+Mayfair	4
+Ryutaro Hashimoto	4
+Eco-Challenge	4
+MOODY 'S	4
+Jans Koerts	4
+Detroit Tigers	4
+Juventude	4
+Lech Poznan	4
+Dundee	4
+R. Croft	4
+Bury	4
+Houston Astros	4
+Worcester	4
+Crohn	4
+1,000 Lakes Rally	4
+MT	4
+Kurdistan Workers Party	4
+STUTTGART	4
+Bombay	4
+Americast	4
+Jayasuriya	4
+West African	4
+Swede	4
+Mind Games	4
+Notts County	4
+Goran Ivanisevic	4
+English County Championship	4
+Seoul	4
+John Veldman	4
+Subaru Impreza	4
+M. Vaughan	4
+Arabs	4
+Miss Universe	4
+Nobel Peace Prize	4
+Palkhivala	4
+Masterkova	4
+Le Monde	4
+BELGIAN	4
+UEFA Cup	4
+Danish	4
+Thompson	4
+Xinhua	4
+North Sydney	4
+Jon Preston	4
+Sarah Brady	4
+Jesse Owens	4
+Carl Lewis	4
+Stephen Ames	4
+Sandrine Testud	4
+Northern Ireland	4
+Dutch PTT	4
+Walsall	4
+Specter	4
+Baltimore Orioles	4
+Arrows	4
+Moody 's	4
+Nathalie Tauziat	4
+Bahia	4
+Wrexham	4
+Pinas	4
+United	4
+Martin Brundle	4
+Lamm	4
+Vermont	4
+Toronto Blue Jays	4
+Pittsburgh Pirates	4
+Mubarak	4
+MQM	4
+Chamorro	4
+Maskhadov	4
+Kansas	4
+CPI	4
+Daniel Nestor	4
+O Globo	4
+BARCELONA	4
+San Diego Padres	4
+IMED	4
+German Open	4
+Nairobi	4
+Securities and Exchange Commission	4
+South Sydney	4
+North Queensland	4
+Frankie Fredericks	4
+Nottingham Forest	4
+House	4
+Costa Rican	4
+Sokol Tychy	4
+Federico Colonna	4
+Nikkei	4
+British Columbia	4
+S. Korea	4
+Bossi	4
+AUSTRALIA	4
+Alec Stewart	4
+Fulham	4
+Neuchatel	4
+Belgrade	4
+Javier Sanchez	4
+Juppe	4
+Drew	4
+AOL	4
+McCarthy	4
+Brighton	4
+Brady Anderson	4
+Jiul Petrosani	4
+D. Fulton	4
+Olivier Panis	4
+U.S. Treasury	4
+Mostostal	4
+Paul	4
+Montreal Expos	4
+Ekeren	4
+Andre Agassi	4
+Milwaukee Brewers	4
+Burnley	4
+Jonathan Lomas	4
+DKBA	4
+Coventry	4
+Lahore	4
+RBA	4
+Prague	4
+Richard Krajicek	4
+EC	4
+Khmer Rouge	4
+Dick Morris	4
+Adrian Voinea	4
+Sharpe	4
+Cleveland Indians	4
+Justin Leonard	3
+Sosa	3
+Skopje	3
+Gingrich	3
+Jalal Talabani	3
+Republican Party	3
+Frankfurt Newsroom	3
+Hillary Rodham Clinton	3
+National Party	3
+Corey Pavin	3
+Toyota	3
+Iva Majoli	3
+David Williams	3
+Max van Heeswijk	3
+D. Robinson	3
+Ronnie Irani	3
+Bayern	3
+Kekkila	3
+Athens	3
+Lenzing	3
+EEC	3
+Saddam	3
+Bedie	3
+Australian Rules	3
+Dow Jones	3
+World War Two	3
+Vitoria	3
+Annett Neumann	3
+La Jornada	3
+Ivanisevic	3
+Pires	3
+Kris Goossens	3
+Jose Coceres	3
+Reiffel	3
+Birendra	3
+Mouscron	3
+Libyan	3
+Ballanger	3
+Alex Radulescu	3
+Labor Day	3
+Milosevic	3
+World XI	3
+East Stirling	3
+Springboks	3
+Kotlarska	3
+Felicia Ballanger	3
+Nicolas Lapentti	3
+Fleurian	3
+Slovenian	3
+LKS Lodz	3
+Brad Bryant	3
+Gisenyi	3
+Taipei	3
+Philip Cocu	3
+Gornik Zabrze	3
+Tansu Ciller	3
+BRAVES	3
+Jay Buhner	3
+Corinthians	3
+Amazon	3
+Natasha Zvereva	3
+Nagyatad	3
+AUSTRIA	3
+Hutus	3
+Flamengo	3
+Addis Ababa	3
+BRAZIL	3
+Minneapolis	3
+Bobby Bonilla	3
+Weld	3
+David Levy	3
+Botafogo	3
+Demel	3
+I. Salisbury	3
+Nilis	3
+Bank of France	3
+Jean-Philippe Fleurian	3
+Hebron	3
+Griqualand West	3
+Lee Westwood	3
+Stallone	3
+Stork	3
+Dean Headley	3
+Motherwell	3
+Ottawa	3
+Sachin Tendulkar	3
+G. Rose	3
+Ato Boldon	3
+John Cook	3
+Padraig Harrington	3
+M. Lathwell	3
+DAX	3
+Finnish	3
+Sadiki	3
+Sidhu	3
+FFK	3
+Malaysian	3
+Polonia Warsaw	3
+St Gallen	3
+Softbank	3
+An Marchal	3
+McGrath	3
+Olympiakos	3
+Newbury	3
+Liam	3
+Steve Schneiter	3
+Serb-controlled	3
+Internacional	3
+Valletta	3
+Mika Salo	3
+POLISH	3
+Conference on Disarmament	3
+Chris Woodruff	3
+C. Hooper	3
+Gulf	3
+Moyer	3
+Pedro Diniz	3
+Mia	3
+Indian Ocean	3
+Anders Forsbrand	3
+Bertram	3
+Stephen Field	3
+UES	3
+Raith	3
+Ltd	3
+Wisla Krakow	3
+Garang	3
+O'Brien	3
+Serb-held	3
+Francisco Clavet	3
+Cruzeiro	3
+Dalglish	3
+In Home Health	3
+HK	3
+Haarlem	3
+Azerbaijan	3
+Luehrs	3
+Carlos Moya	3
+Lockhart	3
+Minnesota Twins	3
+W. Khan	3
+Klinsmann	3
+Selection Committee	3
+Aaxis	3
+Yedioth Ahronoth	3
+Waldbaum Hamlet Cup	3
+Standard Liege	3
+VNU	3
+Zaglebie Lubin	3
+Makinen	3
+WORLD CUP	3
+D. Cork	3
+Sven Struver	3
+Frank de Boer	3
+White	3
+Colonna	3
+Eletropaulo	3
+Talbott	3
+Masood	3
+Kimberly Po	3
+Takuma Aoki	3
+Ernie Els	3
+Marcelo	3
+Mark Knowles	3
+AJAX	3
+Derbyshire	3
+Wayne Westner	3
+Cercle Brugge	3
+Taiwanese	3
+Oklahoma	3
+Latin American	3
+Democratic Party	3
+Socialist Party	3
+CBSA	3
+Companion Marble	3
+Abu Dhabi	3
+Coetzer	3
+Samper	3
+Almere	3
+FIS	3
+Kuchma	3
+Black	3
+Chilean	3
+Oriente	3
+Jiri Novak	3
+An	3
+Albion	3
+Formula Shell	3
+Arjuna Ranatunga	3
+ECOMOG	3
+Lommel	3
+Lokeren	3
+SPA-FRANCORCHAMPS	3
+Brandes	3
+Kurds	3
+Melissa	3
+G. Gooch	3
+Tommy Haas	3
+Anderlecht	3
+RAMALLAH	3
+Davis Love	3
+Belgian Grand Prix	3
+La Voie	3
+Jean-Paul van Gastel	3
+D.A. Weibring	3
+Galatasaray	3
+Stewart Ginn	3
+Tunisia	3
+MANAGUA	3
+Yayuk Basuki	3
+Felix Mantilla	3
+Arnaud Boetsch	3
+UEFA	3
+Scott Hoch	3
+Helena Sukova	3
+CHRISTIE	3
+Russian-Chechen	3
+Virginia	3
+Housecall	3
+Helmut Kohl	3
+Graham Lloyd	3
+Mark Woodforde	3
+Terence	3
+Ducruet	3
+Surinam	3
+Royal Oak	3
+Airbus 310	3
+P. Simmons	3
+Barbara Paulus	3
+Mentmore Abbey	3
+Botham	3
+Buffett	3
+Aalst	3
+Kan	3
+T&N	3
+Mike Clayton	3
+George Hincapie	3
+Lierse	3
+Lupu	3
+Guillaume Raoux	3
+SAO PAULO	3
+Husqvarna	3
+Mark Hutton	3
+Nick Faldo	3
+Ankara	3
+East coast	3
+Carlos Sainz	3
+GERMAN OPEN	3
+Alex Corretja	3
+American Stock Exchange	3
+Eamonn Darcy	3
+Flemming	3
+Moada	3
+Implats	3
+Rakow Czestochowa	3
+Indiana	3
+VW	3
+OLYMPIAKOS	3
+Hintsa	3
+Kalashnikov	3
+KTM	3
+Mokhoff	3
+Hariri	3
+National Election Commission	3
+Firestone C.C	3
+Boutros Boutros-Ghali	3
+Macedonia	3
+N. Hussain	3
+BELGIAN GRAND PRIX	3
+Thomas Bjorn	3
+Mujahideen Khalq	3
+Ian	3
+New York City	3
+Byron Black	3
+Gatera	3
+Kwasniewski	3
+Shaun Pollock	3
+Zadar	3
+Tutsis	3
+Seiki Okuda	3
+Craig Parry	3
+Will Carling	3
+Israelis	3
+BRITISH MASTERS	3
+Catalan	3
+Daewoo Corp	3
+Gabriela Sabatini	3
+Sint Truiden	3
+Maleeva	3
+Air Cargo Newsroom	3
+Stadium Court	3
+McEwen	3
+Guinean	3
+Minardi	3
+Central African	3
+Teutenberg	3
+Dream Team	3
+Jonathan Stark	3
+Chiate	3
+Steve Jones	3
+Michael Johnson	3
+Whittier	3
+Internet	3
+Super Cup	3
+Katarina Studenikova	3
+CTBT	3
+ITALIAN CUP	3
+M. Dowman	3
+Rabbani	3
+Dutchman	3
+Magali Faure	3
+Ronaldo	3
+Zambia	3
+Punjab	3
+Carl Suneson	3
+Rafter	3
+Equitas	3
+Portland	3
+Julie	3
+Tillstrom	3
+Nick Knight	3
+S. Campbell	3
+Alexei Markov	3
+Likud	3
+Botswana	3
+Jos Verstappen	3
+WORLD SERIES OF GOLF	3
+MALAYSIAN OPEN	3
+Stagecoach	3
+Bogota	3
+British Masters	3
+OM Gruppen	3
+Jan Siemerink	3
+U.S. Midwest	3
+New York Mets	3
+Wayne Riley	3
+Asian	3
+Renzo Furlan	3
+U.S.-brokered	3
+Gaza Strip	3
+Alan Mullally	3
+Caracas	3
+Robert Karlsson	3
+David	3
+Enqvist	3
+Miami	3
+KARACHI	3
+Braga	3
+Melissa Russo	3
+Ruxandra Dragomir	3
+Odnosum	3
+Heidrun	3
+Waqar	3
+Fernando Roca	3
+New Jersey	3
+S. Waugh	3
+Edberg	3
+David Rikl	3
+Volkswagen AG	3
+Garrity	3
+Hogg	3
+R. Irani	3
+G. Archer	3
+Philippine Basketball Association	3
+ANSA	3
+Cal Ripken	3
+Asa Carlsson	3
+Jim Grabb	3
+Brasilia	3
+Gremio	3
+Ai Sugiyama	3
+neo-Nazi	3
+Long Island	3
+Dalian	3
+Julie Lejeune	3
+Roma	3
+Dinamo Bucharest	3
+NOVYE ATAGI	3
+Craig Stadler	3
+Naoko Kijimuta	3
+Javier Frana	3
+West Virginia	3
+Euro 96	3
+Marlins	3
+Abdul Rashid Dostum	3
+U.S. District Court	3
+Vyacheslav Tikhomirov	3
+Brenda Schultz-McCarthy	3
+Yingkou	3
+Eefje Lambrecks	3
+Balkans	3
+Dow	3
+Eddie Irvine	3
+Interacciones	3
+Rangarajan	3
+The Times	3
+Tonga	3
+New York Stock Exchange	3
+Jim Courier	3
+Gavin Levenson	3
+Burhanuddin Rabbani	3
+Weston-super-Mare	3
+Hal Sutton	3
+Gough	3
+Andrea Gaudenzi	3
+Francis Moreau	3
+Himalayan	3
+Burma	3
+Yone Kamio	3
+Alexander Cejka	3
+Iowa	3
+Novye Atagi	3
+Gazeta Wyborcza	3
+Lecce	3
+Rifkind	3
+SWISS	3
+Retief Goosen	3
+Basuki	3
+Graham Thorpe	3
+Euromark	3
+Kiev	3
+Gianluca Corini	3
+P. Nixon	3
+Satoshi Higashi	3
+ATP	3
+Penrose	3
+Martin	3
+Richard Witschge	3
+Journal	3
+Michelle Freeman	3
+Salvador	3
+Setubal	3
+Noriyuki Haga	3
+Ghent	3
+Hicham Arazi	3
+Jeff Tarango	3
+Peter Hedblom	3
+Stomil Olsztyn	3
+National Assembly	3
+Blind	3
+The Netherlands	3
+PORTUGUESE	3
+Tanya Dubnicoff	3
+David Gilford	3
+Shayne King	3
+Thomas Gogele	3
+Central African Republic	3
+EUROPEAN SUPER LEAGUE	3
+Loren Roberts	3
+European Super League	3
+Vladimir Smicer	3
+Evert	3
+Shane Kelly	3
+Armenia	3
+Pescara	3
+First Union	3
+Foe	3
+Jared Palmer	3
+Metro	3
+Ivory Coast	3
+Balkan	3
+ENAP	3
+Michael Jonzon	3
+Tamil Tiger	3
+D. Cox	3
+Hidemichi Tanaka	3
+Thomas Johansson	3
+Laurence Courtois	3
+Rio de Janeiro	3
+CIS	3
+Ferrigato	3
+North	3
+Finance Ministry	3
+Sanath Jayasuriya	3
+Laurent Gane	2
+Andrews	2
+Airbus	2
+Tel Aviv	2
+Thomson	2
+New Mexico	2
+Gary Sheffield	2
+Campbell	2
+Filip Dewulf	2
+New Zealands	2
+DBRS	2
+Unitog Co	2
+Kohl	2
+Pier Francesco Chili	2
+Franz Fischler	2
+Catholic Information Office	2
+Cup winners Cup	2
+Angeles Montolio	2
+Mark Acre	2
+Denny Neagle	2
+Vladimir Zhirinovsky	2
+Barbara Schett	2
+Belmondo	2
+Audi	2
+Dirk Dier	2
+Ayr	2
+Ann Grossman	2
+NSDAP-AO	2
+M. Watkinson	2
+Simon Crafar	2
+Merlene Ottey	2
+Pessina	2
+Adrian Knup	2
+Habsudova	2
+Warsaw	2
+SHEFFIELD	2
+Alaska Milk	2
+Andrea Ferrigato	2
+O'Neill	2
+Foindu	2
+Cape Town	2
+Swebus AB	2
+Kingston	2
+Stockholm	2
+Guus Hiddink	2
+Currin	2
+Astros	2
+Ally McCoist	2
+Shabwa	2
+F.C. Brasov	2
+Richter	2
+Hurte Sierd Zylstra	2
+Ross Perot	2
+Pacific Stock Exchange	2
+Hristo Stoichkov	2
+Juliet Cuthbert	2
+Truth and Reconciliation Commission	2
+Gulbuddin Hekmatyar	2
+Orii Corp	2
+Ezer Weizman	2
+Donald Tsang	2
+Islamic Taleban	2
+Inez Turner	2
+Patrice Loko	2
+Liechenstein	2
+Kankkunen	2
+Montserrat	2
+Hapoel Beit She'an	2
+Africans	2
+Leverkusen	2
+Arthur Numan	2
+ALMERE	2
+Henri Konan Bedie	2
+Philip Morris	2
+Roe	2
+Viktoria Plzen	2
+Gilbert Schaller	2
+Weinstein	2
+KDPI	2
+Steffen Freund	2
+Bertelsmann	2
+Rugby Football Union	2
+Guy Forget	2
+GAN	2
+Washington Post	2
+Bergen	2
+Osmond Ezinwa	2
+Rameswaram	2
+Chaminda Vaas	2
+Liu Chong Hing	2
+State Council	2
+Radio New Zealand	2
+Madagascar	2
+Hitler	2
+Christopher Reeve	2
+Eritrean	2
+Anne-Gaelle Sidot	2
+Yevgeny Kafelnikov	2
+Gounon	2
+Bob Wickman	2
+State Planning Commission	2
+Endt	2
+Michael Hubner	2
+Sampdoria	2
+Jordi Burillo	2
+Palestinian Information Ministry	2
+Violeta Chamorro	2
+Karem Haj Yihye	2
+Liechtenstein	2
+Amsterdam-Rotterdam-Antwerp	2
+Greg Turner	2
+Oliver Bierhoff	2
+Gilbert Agius	2
+Mike McCurry	2
+Zhang Ning	2
+New York Commodities	2
+Padres	2
+Paola Suarez	2
+MUZAFFARABAD	2
+Ingrid Haringa	2
+Ruth	2
+Banharn Silpa-archa	2
+David Wheaton	2
+Allan Wells	2
+Juan Lopez	2
+Jimy Szymanski	2
+O'Meara	2
+Sky	2
+Mark Prescott	2
+Peter O'Malley	2
+Federal Reserve	2
+MSK Zilina	2
+Mike Atherton	2
+Paramount	2
+Sun Microsystems	2
+Tulio	2
+PSA	2
+Faulding Inc	2
+Viktor Chernomyrdin	2
+Roshan Mahanama	2
+Lehman	2
+Nijmeh	2
+Becanovic	2
+Joseph Kneipp	2
+Republika Srbska	2
+Pantic	2
+Smirnov	2
+Dejan Savicevic	2
+Scifo	2
+BAYERISCHE VEREINSBANK	2
+Rudolf Gajdos	2
+UN	2
+Osaka	2
+Dublin Newsroom	2
+Andrei Pavel	2
+Ronan Rafferty	2
+Dacom International	2
+Sean Fitzpatrick	2
+Trinidad and Tobago	2
+Toyota Australia	2
+Swebus	2
+BRAZILIAN	2
+Imran Khan	2
+Hernan Gumy	2
+American-style	2
+Mark Cairns	2
+DOETINCHEM	2
+MAKINEN	2
+NATO-led	2
+Atria	2
+Gente	2
+AFRICAN NATIONS CUP	2
+Nawaz Sharif	2
+T. Munton	2
+Weiss	2
+Hermawan Susanto	2
+Ong Ewe Hock	2
+Sergei Yastrzhembsky	2
+Niugini Mining Ltd	2
+Andreas Koepke	2
+Finns	2
+Graham Gooch	2
+Downer	2
+Younes El Aynaoui	2
+Chris Walker	2
+DAC Dunajska Streda	2
+Bovine Spongiform Encephalopathy	2
+Vt	2
+Oslo	2
+Sfeir	2
+Emanuele Canonica	2
+Sharjah	2
+Salamanca	2
+Thomas Radstrom	2
+Senegalese	2
+Ten Commandments	2
+Rapid Vienna	2
+Robert Frowick	2
+Maria Jose Gaidano	2
+Beatrix	2
+SRC	2
+Superman	2
+HINA	2
+Megawati Sukarnoputri	2
+Winkler	2
+Western Province	2
+Adel Ibrahim	2
+Richard Kosgei	2
+Fernando Meligeni	2
+Ian Botham	2
+Forsa	2
+Nasr	2
+Ukrainian	2
+Mats Wilander	2
+AUSTRALIANS	2
+Jim Bolger	2
+George Duffield	2
+Henry Candy	2
+Jason Wong	2
+Sandon Stolle	2
+Massoud Barzani	2
+Miriam Oremans	2
+Jakob Hlasek	2
+Wang Chen	2
+ROMANIAN	2
+Daewoo	2
+Singer Cup	2
+Dnevi Avaz	2
+Anza	2
+Scott Humphries	2
+Daily Variety	2
+Lansana Conte	2
+Kong Open	2
+Wim Jonk	2
+Conte	2
+Michel Zanoli	2
+Davidson Ezinwa	2
+LEEDS	2
+ITALIAN	2
+Maputo	2
+John Kocinski	2
+Andrew Mehrtens	2
+Hosni Mubarak	2
+Omer Akbel	2
+Edgar	2
+Fidelis Andria	2
+Heiko Szonn	2
+David Prinosil	2
+Yastrezhembsky	2
+Old City	2
+Derek Mills	2
+Tunisian	2
+Jeffrey	2
+U.S.-mediated	2
+Catholic	2
+Kispest Honved	2
+Jordanian Arab Socialist Baath Party	2
+Khadga	2
+Kathmandu	2
+Paul McGinley	2
+Nuour Marial	2
+Banda	2
+Keane	2
+O.J. Simpson	2
+Tom Pukstys	2
+Edgar Davids	2
+Steve Brown	2
+High Plains	2
+Troy O'Leary	2
+Daewoo Information	2
+Antioquia	2
+Mo Vaughn	2
+Basque Homeland and Freedom	2
+Kansas City Royals	2
+Golan	2
+Pretoria	2
+Borsuk	2
+Karin Kschwendt	2
+Pedro Lamy	2
+Henrietta Nagyova	2
+Toure	2
+Amy Frazier	2
+Nunthorpe Stakes	2
+Muthiah Muralitharan	2
+Domingos Oliveira	2
+Matthew Maynard	2
+Smith	2
+Chandra Sturrup	2
+Colin Edwards	2
+Rodriguez	2
+Christopher Wreh	2
+Saleh	2
+George Grech	2
+Ryder Cup	2
+Distillers	2
+Michel Bourlet	2
+Frowick	2
+Terry Price	2
+Rwandan Hutu	2
+M&R	2
+New Haven	2
+Alberto Costa	2
+UN Security Council	2
+Howard	2
+Soren Lausberg	2
+Carlos Costa	2
+Boston Red Sox	2
+Narciso	2
+Itamar Rabinovich	2
+Social Democrats	2
+Spartak	2
+ZDF	2
+Sabourin	2
+N. Lenham	2
+MIDEAST GULF	2
+John Crawley	2
+Red Cross	2
+Iscor	2
+ESSEX	2
+Frederic Vitoux	2
+CDU	2
+OCEI	2
+Bristol	2
+Gorre	2
+Klongprem	2
+Rene Schneider	2
+Enn Markvart	2
+Khalfallah	2
+Misael Valerio	2
+East Fife	2
+Dally Randriantefy	2
+News Agency of Nigeria	2
+Sarah Pitkowski	2
+Naish	2
+Anthony Hill	2
+Mo	2
+Continental	2
+Mariaan de Swardt	2
+Svetlana Samokhalova	2
+SOUTH KOREAN	2
+Davey Johnson	2
+Desmond Tutu	2
+Toronto-based	2
+Democratic National United Movement	2
+Dimitrios Georgalis	2
+Aliuska Lopez	2
+Munich	2
+Phnom Penh	2
+Gaston Taument	2
+King Hassan	2
+BBC radio	2
+Faber	2
+Jamaican	2
+Charleston	2
+Suleyman Demirel	2
+Hoddle	2
+Iceland	2
+Artur Jorge	2
+Benelux	2
+Asanka Gurusinha	2
+Miguel Angel Jimenez	2
+Deby	2
+Wednesday	2
+Reds	2
+Siraj Mia	2
+Euro ' 96	2
+Cecil Mamiit	2
+R. Illingworth	2
+Kumara Dharmasena	2
+Atlantic	2
+DTB-Bund-Future	2
+Emilio Valle	2
+Jeff Williams	2
+A. Symonds	2
+Paul O'Neill	2
+Pakistan-ruled	2
+Daschle	2
+AEK Larnaca	2
+CNB-120	2
+Etruscan	2
+Seve Ballesteros	2
+Mark Richardson	2
+SIMEX Brent	2
+Russell Claydon	2
+Security Ministry	2
+Widness	2
+Pennsylvania	2
+Germans	2
+VanLandingham	2
+Jones	2
+University of Pennsylvania	2
+Irina Privalova	2
+Angels	2
+Malcolm Rifkind	2
+Comprehensive Test Ban Treaty	2
+Flight 150	2
+Aravinda de Silva	2
+Philip Walton	2
+Tang Shubei	2
+Robbie McEwen	2
+William Tanui	2
+Lelouche	2
+Thomas Helmer	2
+Michael Tebbutt	2
+Primedia	2
+Medicaid	2
+Marcos Ondruska	2
+Ricardo Rosset	2
+Dennis Mitchell	2
+Lloyd Axworthy	2
+Pakistani Kashmir	2
+Hong	2
+Jason Weaver	2
+Scott Draper	2
+Salah Hissou	2
+Simon Culhane	2
+Cosenza	2
+BLACK SEA	2
+Saudis	2
+Alexandroupolis	2
+Commonwealth of Independent States	2
+Medellin	2
+Rodney Eyles	2
+Towers Perrin	2
+Simon Frenz	2
+Manchester	2
+Bugno	2
+Heinrich	2
+KSE	2
+Iranian Kurdish	2
+Irina Spirlea	2
+Chris Rutter	2
+Bangladesh Nationalist Party	2
+Darren Anderton	2
+Russian Federation	2
+Debbie Graham	2
+Brigita Bukovec	2
+Colin Jackson	2
+SUGO	2
+LDP	2
+Venezuelan	2
+V. Drakes	2
+Petra Langrova	2
+Kristina Brandi	2
+Petra	2
+S. Lampitt	2
+Anatolian	2
+Dacom	2
+Jonathon Power	2
+Vinny Castilla	2
+Ginebra San Miguel	2
+Dhahran	2
+Sake	2
+AIDS	2
+John Mayock	2
+Ieng Mouly	2
+Harding	2
+Taipei University Hospital	2
+Maarten den Bakker	2
+Jane Quigley	2
+S. Africa	2
+Ukyo Katayama	2
+Wang Shi-Ting	2
+ISO 9002	2
+Amr Shabana	2
+Guantanamo Bay	2
+Belga	2
+VeriSign	2
+Xavier Gravelaine	2
+Montpelier	2
+Jens Todt	2
+CNN	2
+Mary Onyali	2
+Edwin van der Sar	2
+Marriner	2
+Michael Sandstod	2
+Andy Etchebarren	2
+The Statesman	2
+Ines Gorrochategui	2
+POLLOCK	2
+Chuck Adams	2
+Arabic	2
+Sirnak	2
+San Marino	2
+Newt Gingrich	2
+Benazir Bhutto	2
+Elena Wagner	2
+GENOA	2
+Gary Neiwand	2
+Suzuki	2
+William Weld	2
+Schutte	2
+Oasis	2
+Battle Mountain	2
+Lima	2
+Reppas	2
+Hu Zhilan	2
+Interbank	2
+Coughlan	2
+Bucaram	2
+AEX	2
+Abidjan	2
+MIT	2
+Malta Freeport	2
+Leander Paes	2
+Naoko Sawamatsu	2
+Allen	2
+Catholics	2
+Suedwest LB	2
+SoCal Edison	2
+Allen Johnson	2
+Pembroke Pines	2
+Pirates	2
+Loko	2
+Royals	2
+Assembly	2
+Begum Khaleda Zia	2
+Bunol	2
+Jeroen Blijlevens	2
+YUGOSLAV	2
+Cetes	2
+John McNamara	2
+Kaspars Ozers	2
+U.N. Security Council	2
+KNU	2
+Tanjug	2
+Jack Kemp	2
+Guernsey	2
+HAARLEM	2
+Bahrain	2
+Jon Drummond	2
+Swiss Bank Corp	2
+U.K.	2
+Fernando Henrique Cardoso	2
+Erik Zabel	2
+Marcelo Filippini	2
+HONG KONG OPEN	2
+Utomo	2
+Nottingham	2
+Glickman	2
+Juan Guzman	2
+Jimmy Key	2
+Alex Rodriguez	2
+FDA	2
+Costain	2
+Dinamo	2
+U.S. Court of Appeals	2
+Ingwe	2
+Islamic Salvation Front	2
+Piacenza	2
+Vincent Malakwen	2
+FTSE 100	2
+Grant Stafford	2
+Zubair Jahan Khan	2
+Russian Trading System	2
+Collinelli	2
+Marco Lietti	2
+American Airlines	2
+Nathalie Dechy	2
+Alex Ferguson	2
+Cowdenbeath	2
+Nyva Vinnytsya	2
+Danny Blind	2
+Berwick	2
+Moslem-Croat	2
+American Names Association	2
+Jiang Zemin	2
+Gcaleka	2
+Israel Radio	2
+WorldCom	2
+West Bengal	2
+Muzaffarabad	2
+Ross County	2
+Tang	2
+Olazabal	2
+Sorrento	2
+Kentucky	2
+Tamil Nadu	2
+Gibbs	2
+Twins	2
+David Howell	2
+Jan Kroslak	2
+Gupta	2
+MASTERKOVA	2
+James	2
+JYVASKLYA	2
+Civil War Conservation Corps	2
+Barbara Rittner	2
+Tami Whitlinger Jones	2
+CAF	2
+Kristie Boogert	2
+IPE	2
+OPEN	2
+Florencia Labat	2
+Lisa Raymond	2
+International Monetary Fund	2
+Wisinga	2
+Olimpija	2
+Havel	2
+Yi Jing-Qian	2
+Steve Finley	2
+Newark	2
+BNZ	2
+Bernd Karbacher	2
+Mapourdit	2
+Humberto Hueite Zyrecha	2
+Maslova	2
+Cristina Torrens-Valero	2
+Wisc .	2
+Roberto Carretero	2
+Streak	2
+Mike Devereaux	2
+PHILIPPINE	2
+Ebe Huizinga	2
+Herve Thuet	2
+SWEDISH	2
+Kassala	2
+Videoton	2
+Indonesian Democratic Party	2
+Seat	2
+Oscar Tabarez	2
+Shiraz	2
+Jansher Khan	2
+Tutsi-dominated	2
+Nelson Mandela	2
+ST HELENS	2
+Nepali Congress	2
+Michele Bartoli	2
+Alba	2
+Alejandro Lanusse	2
+Imphold	2
+Brady Law	2
+Kombouare	2
+Penn Treaty	2
+Andersson	2
+Rudi Thiel	2
+UML	2
+Nathalie Lancien	2
+Cathy Freeman	2
+Doug Flach	2
+Ravindra Pushpakumara	2
+Russian Weather Service	2
+RMT	2
+Ilie Lazar	2
+Neil Hodgson	2
+Press Trust of India	2
+Lada Togliatti	2
+Derrick Adkins	2
+Lebanese	2
+MSV Duisberg	2
+Uruguay	2
+Garhi Habibullah	2
+Boskalis	2
+New Zealand Press Association	2
+CJD	2
+RAF Riga	2
+CZECH	2
+Vogts	2
+Rusty Greer	2
+SPANISH	2
+Rafael Palmeiro	2
+Conroy	2
+Kragujevac	2
+Spitzbergen	2
+Ian Healy	2
+VAN HEESWIJK	2
+PEC	2
+Johan Museeuw	2
+Nicolas Pereira	2
+Natalia Baudone	2
+Antoine Lebouc	2
+John Gilardi	2
+SDA	2
+Telfer	2
+People 's Daily	2
+Marc-Vivien Foe	2
+Akbel	2
+Davis	2
+Carl-Uwe Steeb	2
+Sidor	2
+K. Spiring	2
+Thiel	2
+Eau Claire	2
+Constructorul	2
+Museeuw	2
+Atlantic City	2
+ANGOLA	2
+Roxbury	2
+Tutsi	2
+Dai	2
+PMC-Sierra	2
+George Georgiopoulos	2
+Bremen	2
+RED SEA	2
+Dos Santos	2
+Joakim Haeggman	2
+Jammu	2
+Ronald de Boer	2
+Greer	2
+Mir Zaman Gul	2
+San Jose	2
+Foreldorado	2
+Romesh Kaluwitharana	2
+Brett Martin	2
+Bernhard Langer	2
+Jaime Oncins	2
+Tour	2
+Dahshour	2
+Sjeng Schalken	2
+Crawley	2
+Linda Wild	2
+Star magazine	2
+Cargill	2
+Peiris	2
+Penn Treaty American Corp	2
+Paul Johnson	2
+BOARDMAN	2
+Vietnamese	2
+Shuzo Matsuoka	2
+Algerians	2
+Gabriel Batistuta	2
+O-157	2
+Rolf Sorensen	2
+Jewell	2
+Alexandra Fusai	2
+Mark Dutroux	2
+Bangladeshi	2
+Cargill Inc	2
+Juergen Klinsmann	2
+American Olympic	2
+Goulnara Fatkoullina	2
+Anthony Gobert	2
+Skhirat	2
+Gooch	2
+Jonas Bjorkman	2
+Harvey	2
+MONTPELIER	2
+Kivu	2
+Etruria	2
+P.W. Botha	2
+Newcrest	2
+Ross	2
+Tomas Carbonell	2
+Rad	2
+Jetty Kors	2
+Chad	2
+Jane Chi	2
+Otelul Galati	2
+China Daily	2
+Slough	2
+McCurry	2
+Shining Path	2
+Ludmila Engquist	2
+Cimicchi	2
+Rita Grande	2
+Diego Borrego	2
+Caribs	2
+pro-Baghdad	2
+MG-Technogym	2
+Ricky Ponting	2
+ARGENTINE	2
+BME	2
+Luc Nilis	2
+Creutzfeldt-Jakob Disease	2
+Shelbourne	2
+Le Populaire	2
+Said	2
+Monrovia	2
+Alexander Volkov	2
+Karachi Stock Exchange	2
+Robert Pires	2
+Varteks Varazdin	2
+Holdings	2
+Azad ( free ) Kashmir	2
+Pacific	2
+MED	2
+F-14	2
+Ove Sellberg	2
+Srebrenica	2
+CeBIT	2
+Estonian	2
+Paul Haarhuis	2
+Mirhunisa Komarica	2
+Jimmy Thomson	2
+Davis Kamoga	2
+Galo Blanco	2
+Troy Corser	2
+Mutola	2
+1,000 Lakes	2
+Aaron Slight	2
+Oscar	2
+Annabel Ellwood	2
+Amrollah	2
+Olympic Games	2
+Cardinals	2
+World Series	2
+Dodgers	2
+Lisbon	2
+Fed	2
+Bratislava	2
+David Millns	2
+Pablo Campana	2
+Banco de Mexico	2
+Nicklas Kulti	2
+County Championship	2
+Devon White	2
+Saskatchewan	2
+UEFA Fair Play	2
+Sandra Dopfer	2
+Max Sciandri	2
+Ljubljana	2
+Des Smyth	2
+Radical Cause	2
+Harper-Collins	2
+Fredericks	2
+Healy	2
+Randy Johnson	2
+CBOE	2
+CRP	2
+PDI	2
+Fred McGriff	2
+Boland	2
+YANKEES	2
+Queensland	2
+Michael	2
+Frank Bunce	2
+P. Prichard	2
+Werner Zwingmann	2
+Awami League	2
+Andrei Olhovskiy	2
+Fulcheri	2
+NICE	2
+Dennis Bergkamp	2
+Ruehe	2
+Greg Gagne	2
+Manhattan	2
+Chester-le-Street	2
+Bunds	2
+Tanzania	2
+John Jaha	2
+Klas Eriksson	2
+Financial Times-Stock Exchange	2
+Conference Board	2
+Falilat Ogunkoya	2
+Gail Devers	2
+Martin Gates	2
+Ka Wah Bank	2
+Filipovic	2
+Jesus	2
+Skandalidis	2
+Stefano Pescosolido	2
+Ben Gurion	2
+SWP	2
+Alomar	2
+Finance	2
+Robert Pelletreau	2
+Pole	2
+Natalia Voronova	2
+Berri	2
+Silke Renk	2
+Taha	2
+Pierina	2
+Statoil	2
+Costas Skandalidis	2
+Duncan Ferguson	2
+Nicole Arendt	2
+MFS Communications Co Inc	2
+Els Callens	2
+Marcin Mieciel	2
+Kigali	2
+Derek Ryan	2
+S. Tendulkar	2
+Betar Jerusalem	2
+Bancomext	2
+Sammy Sosa	2
+AL	2
+Eva Tremila	2
+Justin Marshall	2
+Krajina	2
+JD Group	2
+Wijffels	2
+ZIFA	2
+Northfield Mountains	2
+Sierakowice	2
+IFK Gothenburg	2
+Sameh Haj Yihye	2
+Yevgeny Primakov	2
+Ecus	2
+Vavuniya	2
+Luo Yigang	2
+Madrid	2
+Elena Likhovtseva	2
+Kaluwitharana	2
+George Bush	2
+Stephane Simian	2
+Jetsi Hendrika Coers	2
+Mulder	2
+Chernomyrdin	2
+Labour Day	2
+Resalat	2
+FC Bohemians	2
+Casey	2
+CUBS	2
+Wataru Yoshikawa	2
+Bill Birch	2
+YORK	2
+TRIPOLI	2
+Kafelnikov	2
+Flushing Meadows	2
+Ala	2
+Dahman	2
+T$	2
+Erdei	2
+Gwen Torrence	2
+Les Ferdinand	2
+Northcote College	2
+Dionne Rose	2
+MX Onda	2
+Ikimi	2
+P. Kantharoopan	2
+Nestor	2
+SAN MARINO	2
+FIORENTINA	2
+Airbus A310	2
+Cherbourg	2
+Gazeta Shqiptare	2
+NBA	2
+Xhelili	2
+Zairean	2
+Anna Kournikova	2
+Olaf Ludwig	2
+Peter Nicol	2
+SCHUMACHER	2
+Mariano Friedick	2
+Prince Rainier	2
+Windows	2
+South Island	2
+News	2
+Daoud	2
+Metro Holdings	2
+British Data Management	2
+JOHNSON	2
+Jaap Stam	1
+POLAND	1
+Democratic Karen Buddhist Army	1
+Bedouin Palestinians	1
+Princeton Lyman	1
+Juan Llaneras	1
+Masanaga Shiohara	1
+Luis Castilla	1
+Franklin Roosevelt	1
+Alain Caveglia	1
+Consolidated Financial Data	1
+Pam Shriver	1
+Triple-A Columbus	1
+Pat Cash	1
+HONDURAS	1
+Eric Bernard	1
+Koninklijke PTT Nederland NV	1
+Spanish Supercup	1
+Servais Knaven	1
+Giovanni van Bronckhorst	1
+Federal Bureau of Investigation	1
+Harleysville Group	1
+Caesarea	1
+Cukurova	1
+Luke Kipkosgei	1
+Sterling Hitchcock	1
+Chris Hoiles	1
+Jim Edmonds	1
+Tim Goldiman	1
+MCRAE	1
+New York-based	1
+Liu Lufung	1
+Leonid Kuchma	1
+Hengelo	1
+Lufthansa Cargo AG	1
+U.S. Defense Logistics Agency	1
+Alistair Brown	1
+Philip Morris Cos Inc	1
+Dhiraj K.C.	1
+Nicholas Shaxson	1
+Nick Mokhoff	1
+Murat Yakin	1
+Rottweiler	1
+RSR	1
+LIFFE	1
+Newell Old Boys	1
+Ipsos	1
+Sebastien Tortelli	1
+Paul Prichard	1
+Zeng Yaqiong	1
+Potsdam	1
+Haiti	1
+Sokoto	1
+Avalon Borough	1
+Marty Jemison	1
+Gress	1
+Sieg	1
+Zeri i Popullit	1
+Mironivka Wheat Institute	1
+Morgan Stanley	1
+Liu Chong Hing Investment Ltd	1
+Tubmanburg	1
+ABC News	1
+Phillip DeFreitas	1
+BRUSSELS GRAND PRIX	1
+ING Barings	1
+Academy Award-winning	1
+Riel	1
+Aleksander Kwasniewski	1
+Liutauras Stremaitis	1
+Toronto Dominion	1
+Copper and Brass Servicenter Association	1
+Kyle Abbott	1
+Air Express International	1
+Rob Enderle	1
+Nepalese	1
+National Abortion Rights Action League	1
+Fung Permadi	1
+Welch	1
+Dohuk	1
+Dean Richards	1
+RSA Data Security	1
+Luis Raul Matos Azocar	1
+SIMEX Nikkei	1
+Texaco Inc	1
+David Harding	1
+Kanie Karzhala	1
+John Smoltz	1
+Ijaya Indra	1
+Steve Backley	1
+Kennedy Ochieng	1
+Juergen Schult	1
+Sean Dundee	1
+United Coconut Associations of the Philippines	1
+Sewa	1
+Budapest-based	1
+Dusan Kovacs	1
+New Aspiration Party	1
+Michelle Ferris	1
+Nuremberg-based	1
+Cindana	1
+Knowsley Road	1
+Paribas Capital Markets OTC	1
+Liberte	1
+Turkish Cypriot	1
+David Ginola	1
+Thomas Bscher	1
+Alistair Campbell	1
+Limerick	1
+Miles Kan	1
+Schein	1
+LDP-dominated	1
+Besiktas	1
+Coordinate of Ecumenical Service	1
+Purepac Pharamceutical	1
+Darren McKenzie-Potter	1
+Maltese	1
+Fokker Aviation	1
+Hryhory Borsuk	1
+Bob Moore	1
+Virginia Ruano-Pascual	1
+Servet Pellumbi	1
+Manfred Kanther	1
+Faheem Khan	1
+ATRIA	1
+Guinness Peat	1
+MING PAO DAILY NEWS	1
+Military College	1
+Christian Cevaer	1
+Eric Rush	1
+Knight	1
+Welsh	1
+Humayun Rasheed Choudhury	1
+Land Securities	1
+Bou Haroun	1
+Philippe Seguin	1
+Jonzon	1
+Joannette Kruger	1
+Margaret Crowley	1
+Euro Swiss	1
+Hennady Udovenko	1
+IMKB-100	1
+Kaba	1
+Alexander Downer	1
+F.W. de Klerk	1
+Huntington	1
+Jean-Louis Debre	1
+AL-MUNTAR	1
+Mark Waugh	1
+Dejan Stefanovic	1
+Gregory Carraz	1
+Shay Given	1
+Bradley Hughes	1
+JAPANESE	1
+Sabine Appelmans	1
+Sparta	1
+Corina Morariu	1
+I.K. Gujral	1
+Aaxis Limited	1
+SOSA	1
+Bart Voskamp	1
+Ahmed Hashem Zighayer	1
+Ajay Jadeja	1
+EVEREN	1
+Wall Street Journal	1
+Anti-Bhutto	1
+Michael Slater	1
+Aussies	1
+Balochistan	1
+Westernising	1
+AFRICA NATIONS CUP	1
+Baltic	1
+Ejup Ganic	1
+Lee Tinsley	1
+Zapatista	1
+Raphael Wicky	1
+American League Western	1
+N.J. Bose	1
+Daewoo Information Systems Co Ltd	1
+Anthony Sullivan	1
+Costa Rica-Nicaragua	1
+Asmara	1
+Mohamed Abu Liwaya	1
+Jennifer Flavin	1
+Nature	1
+Gert Jan Van Doorn	1
+Treasury Department	1
+Juergen Kohler	1
+National League Championship Series	1
+Simon Parke	1
+Natalya Sadova	1
+Central Asia	1
+Rios	1
+Chase Securities Inc.	1
+Zagreb	1
+Sheu	1
+Near East	1
+Kareda Siauliai	1
+Salomon Brothers Inc	1
+Samuel Graham	1
+Emanuil Ceausu	1
+BellSouth Corp.	1
+ABN-AMRO Hoare Govett	1
+Luciano della Noce	1
+Akram	1
+Bruny Surin	1
+Stefano Tilli	1
+Gencor Ltd	1
+Jannie Gagiano	1
+Asif Ali Zardari	1
+The New York Times	1
+Prix de l ' Abbaye	1
+Oksana Ovchinnikova	1
+Housecall Medical Resources Inc	1
+Overseas Development Administration	1
+Podujevo	1
+East North Central	1
+Paula Radcliffe	1
+Anto Drobnjak	1
+Andre Snyman	1
+BAILEY	1
+CZECH REPUBLIC	1
+CROFT	1
+BOTHAM	1
+GRAF	1
+Coast Guard	1
+Daily Telegraph	1
+Japanese Food Agency	1
+Department of Transport	1
+Ukraina Palace	1
+Bernard Tapie	1
+Giuseppe Citterio	1
+David Sesa	1
+Nyva	1
+Paul Strang	1
+Ken Goldstein	1
+Wessels	1
+SBC Communications	1
+Sidia Toure	1
+Palestinian Arabs	1
+Glenn McGrath	1
+Tritan Shehu	1
+Lenzing AG	1
+Dan Glickman	1
+Rewe-Handelsgruppe	1
+Stefano Cimicchi	1
+Jan Buettner	1
+Duma	1
+Sergei Rogachev	1
+FINLAND	1
+HAMBURG	1
+La Nacion	1
+Pascal Zuberbuehler	1
+Garrett Lambert	1
+Oriole	1
+Maureen Garrity	1
+V. Kambli	1
+Lajos Horvath	1
+Anita Gradin	1
+David Rowland	1
+Goldman Sachs & Co	1
+Four Nations TV Committee	1
+Fabien Giroix	1
+Julius Nyrere	1
+Taiwan Flour Mills Assn	1
+Mustapha Hadji	1
+Corporacion Venezolana de Guayana	1
+x-Cercle Brugge	1
+Conakry	1
+FINNISH	1
+Glafcos Xenos	1
+Nitto Santapaola	1
+Channel Two	1
+Abdul Samad Ismail	1
+Joel Stranksy	1
+Dominion Bond Rating Service	1
+AMSTETTEN	1
+Ilkka Laasonen	1
+Gheorghe Funar	1
+Dante Bichette	1
+Anatoly Shkirko	1
+Great Hall of the People	1
+Shehu	1
+Gdansk	1
+Republic of Ireland	1
+MyPa-47	1
+Anja Smolders	1
+Hicham El Guerrouj	1
+Catholic Information office	1
+Ken Caminiti	1
+GIBBS	1
+Anthony Nyakyi	1
+MITCHELL	1
+Mehrtens	1
+Tijjani Babangida	1
+Petra Begerow	1
+Tamil-speaking	1
+Asif Ali	1
+Hassan Rastegar	1
+Tony Whiteman	1
+Woodforde	1
+Hussein	1
+Howard Johnson	1
+Birnberg	1
+Tony Vairelles	1
+Enzo Scifo	1
+Umar Shelling	1
+New England	1
+Tea Vikstedt-Nyman	1
+Jean-Michel Bayle	1
+Laurent Ottoz	1
+Karen	1
+Vivit Chatuparisut	1
+Glenview	1
+Herbert Demel	1
+Joseph Tanny	1
+European Court of Human Rights	1
+James Baker	1
+Edouard Gritsoun	1
+Fairview	1
+FARC	1
+Anna Knoroz	1
+Jamaat-i-Islami	1
+Gujarat	1
+Australia Day	1
+Beirut Stock Exchange	1
+CentrInvest Securities	1
+Stefan Schwarz	1
+Name	1
+Marc Wilkins	1
+Sylvester Stallone	1
+Organisation of the Islamic Conference	1
+Rennae Stubbs	1
+Nana Miyaga	1
+Roger Hegi	1
+Elias Moosa	1
+Amazon Affairs Department	1
+Louise McPaul	1
+Andy Flower	1
+Christian Meidlinger	1
+Prakash Chandra Lohani	1
+Bernama	1
+International Petroleum Encyclopedia	1
+Natalya Sypron	1
+John Fashanu	1
+Chua Jui	1
+Government Housing Bank	1
+Kaolack	1
+Kinshasa	1
+Suvit Maenmuan	1
+Alessandro Melli	1
+Krzysztof Zagorski	1
+U.N.-sponsored	1
+Andrew Wakefield	1
+California Proposition 215	1
+Martin Erdmann	1
+National League Central	1
+Alex Boraine	1
+GREECE	1
+Marco Vaccari	1
+Franz Stocher	1
+Gennadi Markov	1
+Adriatic	1
+CRH	1
+Jose Maria Olazabal	1
+Mar'ie Muhammad	1
+Natalya Shikolenko	1
+Kucan	1
+Alan Ball	1
+H.D. Deve Gowda	1
+Red Sea	1
+Hawaii	1
+M. Karunanidhi	1
+Fontaine Co Ltd	1
+Shen Guofang	1
+Ahmed Korei	1
+STICH	1
+The Canaries	1
+Lee Ki-choo	1
+Mehmet Scholl	1
+Berlex Laboratories	1
+Rafiqul Islam	1
+Lori McNeil	1
+Association for Relations Across the Taiwan Straits	1
+Winston Bogarde	1
+Chiapas	1
+Sven Pieters	1
+Department of Transportation	1
+Janez Drnovsek	1
+Berti Vogts	1
+Stephane Ortelli	1
+Osvaldo Fenandez	1
+Christian Rudd	1
+Ennea Ferrari F40	1
+AJACCIO	1
+Coalition	1
+Thomas Nyariki	1
+Orphan Drug law	1
+x-Anderlecht	1
+Javier Gomez de Liano	1
+JORGE	1
+Steven Vrolijk	1
+Daniel Levy	1
+Sally Boyden	1
+Juan Esnaider	1
+Kamuzu Banda	1
+Shell	1
+Peter Kox	1
+Amoco-Yemen	1
+ANP	1
+Samson Kitur	1
+Sergey Makarov	1
+KSE-100	1
+Robert Coughlan	1
+Vicente Solano Lima	1
+Massoud Rajavi	1
+1990 World Cup	1
+PUK-run	1
+Kevin Seitzer	1
+Petr Gunda	1
+, Inc.	1
+CAC-40 General	1
+John Head	1
+Daniel Komen	1
+Romano Sion	1
+Ray Belim	1
+Raith Rovers FC	1
+Byas	1
+Scac Delmas Vileujeux	1
+Europe 1	1
+Mark Thompson	1
+Alicia Machado	1
+Ilke Wyludda	1
+Nastase	1
+Fabien Lefevre	1
+Jiangxi	1
+Bachirou Salou	1
+Mediterranean	1
+1992 European championship	1
+Sally Barsosio	1
+Indian-ruled	1
+Ashta	1
+Yelena Gulyayeva	1
+Jean-Michel Monin	1
+Michael Faust	1
+Series	1
+Lancet	1
+Johan Boonen	1
+Margret Crowley	1
+Korda	1
+x-Club Brugge	1
+Rodica Matescu	1
+New Media	1
+Pierre-Henri Raphanel	1
+Berger	1
+Machnee	1
+Board	1
+M. Bevan	1
+Brian Bronson	1
+Yvegeny Kafelnikov	1
+Cooperative	1
+CUBA	1
+RKC Waalijk	1
+pan-Turkism	1
+Moses Kiptanui	1
+MARSEILLE	1
+Finn	1
+FERRIGATO	1
+Nicholas Gcaleka	1
+John Allen	1
+Perfetti	1
+U.S. State Department	1
+Securities Products Business	1
+Barnagar	1
+Marcus O'Sullivan	1
+Cabinet	1
+Mark Pembridge	1
+Larry Walker	1
+John Howard	1
+Stephane Chapuisat	1
+Fredi Bobic	1
+Andre Caboche	1
+Tatyana Jecmenica	1
+Nana Miyagi	1
+Simex Nikkei	1
+Boutros Harb	1
+Tunceli	1
+Formula One Grand Prix	1
+Abdellaoui	1
+Stagecoach Holdings Plc	1
+David Evans	1
+Tim Forsyth	1
+Nsanze Terence	1
+Valkov	1
+Tristan Hoffman	1
+Chris Widness	1
+Bosnian Association for Refugees and Displaced Persons	1
+Tareq Aziz	1
+Council Regulation	1
+Umbria	1
+Coetzee	1
+Terry Pendleton	1
+Gary Teichmann	1
+Amr Moussa	1
+BLIND	1
+Netanya	1
+Erik Breukink	1
+Richard Andrews	1
+Mohamed Zejjari	1
+Den Norske Stats Oljeselskap AS	1
+Yitzhak Mordechai	1
+Vass	1
+Parisians	1
+Keith O'Neill	1
+European Cup Winners '	1
+RUSSIAN	1
+Yvan Quentin	1
+Mohammad Dahman	1
+W.N.F. Chandraratne	1
+Biblical	1
+Steve Staunton	1
+Ishwari Boopathy	1
+Shanghai Post and Telecomm	1
+Herve de Charette	1
+Ilian Simeonov	1
+Mount Lebanon	1
+Mark Ilott	1
+Mozambican	1
+Trepca	1
+IHC Caland	1
+Gerard Kiely	1
+Mpumulanga	1
+Grandstand	1
+Alan McLoughlin	1
+Turkish Kurd	1
+Dal Maso	1
+Joao Pinto	1
+Action Against Hunger	1
+Kim White	1
+Perelstein	1
+Stefka Kostadinova	1
+Vale	1
+Construction Industry Council	1
+F.W. De Klerk	1
+Red Brigade	1
+Foster	1
+Hebrew University	1
+Aslan Mashadov	1
+Del Harris	1
+Jose Manuel Prieto	1
+Karl Inderfurth	1
+Slawomir Wojciechowski	1
+Westerners	1
+al-Akhbar	1
+BONDS	1
+Tom Steels	1
+Zina Garrison Jackson	1
+Ramle	1
+C. Wishart	1
+Mickey Cochrane	1
+Gabriel Curuchet	1
+Rabobank Nederland BA	1
+VENANTIUS AB	1
+Billy Swift	1
+Dietmar Lalcher	1
+Luigi Seguy	1
+Queen 's Park Rangers	1
+Michael Barton	1
+Monterey	1
+Mobutu	1
+Venantius	1
+MOUNTAIN VIEW	1
+AUSTRALIAN RULES-AFL	1
+Ernesto Samper	1
+Antonio Oliveira	1
+HUNGARY	1
+Luis Miguel Predrosa	1
+Sunday Bada	1
+Arantxa	1
+Santa Barbara	1
+Harwood	1
+Westlake	1
+Lee Sharpe	1
+Franz Konrad	1
+Houteman	1
+Ahmed Faizy	1
+Riedle	1
+Fernanda Ribeiro	1
+Granic	1
+Tadeusz Awdankiewicz	1
+Mobutu Sese Seko	1
+Paramaribo	1
+Security Dynamics Technologies Inc.	1
+Frank Asselman	1
+Banco Santander	1
+Agota Kuperman	1
+Peter Munk	1
+Alberto Piotti	1
+Television New Zealand	1
+Hang Seng	1
+Andi Kanstinger	1
+Florida Straits	1
+General Motors	1
+Cor Euser	1
+Clarence Seedorf	1
+Muratovic	1
+Vermont Central Hospital	1
+Indian Fisheries Department	1
+Lome	1
+Atria Oy	1
+Peter Roe	1
+Komala	1
+Shanghai Automobile Corporation	1
+Eva Boudova	1
+Pieter Hendriks	1
+HONG KONG ECONOMIC TIMES	1
+Warren Buffett	1
+Keith Fletcher	1
+Kahalani	1
+Joel Smets	1
+Sheu Yuan-dong	1
+Giovanni Lavaggi	1
+Wolf Point	1
+Roy Aitken	1
+LISPI	1
+Erekat	1
+CNE	1
+Chandigarh	1
+Khandwa	1
+Martin Heath	1
+West McLaren	1
+Naoto Kan	1
+Marcel Desailly	1
+Jonathan N'Senga	1
+THOMSON	1
+Nick Nieland	1
+Stephanie Deville	1
+Mets	1
+Anthuan Maybank	1
+Super Indah Makmur	1
+Carol Norris	1
+SELES HAS	1
+David Caldwell	1
+Christine Magnusson	1
+A. Flower	1
+Sui Southern Gas	1
+BALLANGER	1
+First Pacific	1
+Peter Dirkx	1
+Tang Jiaxuan	1
+Qotbuddin Hilal	1
+Jackie Lee	1
+Darryll King	1
+PHILLIES	1
+ERP	1
+Michael Reiziger	1
+Franka Dietzsch	1
+IMOLA	1
+Roy Keane	1
+Lambrecks	1
+Svetlana Zalevskaya	1
+N. Mongia	1
+Calderon	1
+Rabat	1
+Saint of the Gutters	1
+Nikki Campbell	1
+Costa Rican Volcanic and Seismologicial Observatory	1
+Nigel Mobbs	1
+Republican-written	1
+Oppenheimer Capital LP	1
+KinderCare Learning Centers Inc	1
+Alessandro Lambruschini	1
+Brann Bergen	1
+Trond Bathel	1
+Ronny Brunswijk	1
+Veerle De Jaeghere	1
+Orlando Pirates	1
+Cynthia McKinney	1
+LIMERICK	1
+Jacques Toubon	1
+Alan Kernaghan	1
+Grabowski	1
+Polti	1
+Marty Cordova	1
+Radka Bobkova	1
+TV Guide	1
+Jersey	1
+Emajuddin Ahmed	1
+SORRENTO	1
+Oman	1
+Wash.-based	1
+Dreyfus Strategic Municipals Inc	1
+AdOn	1
+Stanley	1
+WALES	1
+Pierre Buyoya	1
+Flora	1
+Carlo Ancelotti	1
+Earl Feugill	1
+Frank LeBoeuf	1
+Wilfried Peeters	1
+Dolly	1
+Roger Grimwade	1
+Christine Wachtel	1
+GIANTS	1
+Geoffrey Fieger	1
+Nicole Bradtke	1
+ALLENTOWN	1
+Zbigniew Siemiatkowski	1
+Majoli	1
+Jan Van Eiden	1
+Phil Regan	1
+Mario Stieglmair	1
+FIFA	1
+Liege	1
+Rona Young	1
+Lynch	1
+Votava	1
+VANCOUVER	1
+Romano Prodi	1
+Theodoros Pangalos	1
+Antonio Kandir	1
+Companion Building Material	1
+Idalecio	1
+East Java	1
+Abu Mazen	1
+Johnny Damon	1
+Chua	1
+B. Yeltsin	1
+Li Feng	1
+Stephen Meads	1
+Vitaly Smirnov	1
+Paul Malin	1
+Mypa-47	1
+Louis Freeh	1
+Jack Kevorkian	1
+Career Horizons	1
+Luis Polonia	1
+Sivas	1
+Turin	1
+Bureau of Alcohol , Tobacco and Firearms	1
+Thomas Haessler	1
+Craig Brown	1
+Julien Bonetat	1
+Gerd Ruch	1
+Mette Bergmann	1
+Garret Anderson	1
+Javagal Srinath	1
+SPORTING	1
+Mike Williams	1
+George Weah	1
+Jose Eduardo Dutra	1
+Feinstein	1
+Hanmer	1
+John Bissell	1
+Aguirre	1
+SBF-120	1
+Mark McNulty	1
+Hapoel Jerusalem	1
+I. Healy	1
+ORVIETO	1
+Welspun Stahl Rohren Ltd	1
+Ali Shah	1
+Spar AG	1
+Younnes El Aynaoui	1
+Prince Abdullah	1
+.Robbie McEwen	1
+Mariano Juan	1
+Murphy Jensen	1
+Andean	1
+C. Rangarajan	1
+Manuel Alvarado	1
+Kinkel	1
+Petersburg	1
+Newcrest Q4	1
+Eastern Cables	1
+All-Star	1
+Hidemichi Tanaki	1
+TV Globo	1
+Neil Williams	1
+Charles McGilley	1
+MOROCCAN	1
+Puerto Rico	1
+SKHIRAT	1
+Islam	1
+Nicoleta Grasu	1
+Operation Provide Comfort	1
+Enzo	1
+Ekimov	1
+Singapore Petroleum Company	1
+Lebanese Association for the Democracy of Elections	1
+Oliver Kahn	1
+Kolbenschmidt	1
+Remmy Mushota	1
+MONTGOMERY	1
+Palestinian Legislative Council	1
+Iraqi Kurd	1
+Pioline	1
+Regulation	1
+Nalkhera	1
+Levski Sofia	1
+Art Howe	1
+Legal Department	1
+U.N. General Assembly	1
+DAX-3O	1
+Mike	1
+Jose Barroso	1
+Kamiel Maase	1
+ABDERDEEN	1
+Quepos	1
+Southern California Edison Co	1
+Jyvaskyla	1
+Cheung	1
+Brian De Palma	1
+RED STAR	1
+Galina Enioukhina	1
+Petrosan	1
+Nobel Peace	1
+Red Lion Hotels Inc	1
+PP	1
+Freetown	1
+Vince Spadea	1
+Kathy Etchingham	1
+ISRAELI	1
+Fallah Sewa	1
+Public Transport Corporation	1
+Trax Petroleums Ltd	1
+Agnieszka Godras	1
+Garry West	1
+Hanna Haugland	1
+Rolf Fringer	1
+Oklahoma Climatological Survey	1
+RAO Gazprom	1
+Bangui	1
+Calcutta hospital	1
+1,000	1
+Arbil	1
+Peter Martin	1
+African Cup	1
+Andy Ballace	1
+CAMAT	1
+Allan Mullally	1
+Birmingham Public Park & Rec	1
+Grabowksi	1
+Ramon Vega	1
+SAN MATEO	1
+Christophe Impens	1
+Wilmots	1
+Coolee City	1
+Artyom Danielyan	1
+Filippo Veglio	1
+Mohamed Fahim Rayyan	1
+Barrick Gold Corp	1
+Sali Berisha	1
+Stock Exchange	1
+Turner	1
+Chongqing	1
+Colin Hope	1
+FORT LAUDERDALE	1
+Gregory Randolph	1
+Welikanda	1
+Brian Gilbertson	1
+Chiron Corp	1
+MARACAIBO	1
+Juan Domingo Peron	1
+Guy Whittall	1
+Don Loewen	1
+Wenatchee	1
+Markgraaff	1
+Carsten Wolf	1
+CHILE	1
+Olympic Committee	1
+In Home Health Inc	1
+Diyarbakir	1
+Paulo Sergio	1
+DALGLISH	1
+Richard Lamm	1
+Cal Eldred	1
+Vierklau	1
+Don Wengert	1
+Chiron	1
+Abbaye	1
+Damion Easley	1
+al-Ingaz al-Watani	1
+BayerVB	1
+Alicia	1
+Todd Hollandsworth	1
+Dakar	1
+Iraqi Community Association	1
+Arabised north	1
+Patrick Sang	1
+Karina Adams	1
+Kallis	1
+Angel Miranda	1
+Alex Arias	1
+Francois-Rene ( Vicomte de ) Chateaubriand	1
+Nuku'alofa	1
+Goncharova	1
+ELIZABETH	1
+Gary DiSarcina	1
+David Segui	1
+Juan Carlos Pinero	1
+Treasuries	1
+Martin Brooks	1
+Jens Fiedler	1
+Dayana	1
+Victoria	1
+Ahmed Kafawin	1
+Leeds United	1
+Tony Hall	1
+Jonty Rhodes	1
+Liberian	1
+Jacques Chirac	1
+Bernini	1
+EUROLIRA	1
+Axworthy	1
+Alan Shearer	1
+Hong Kong Open	1
+Sierra Semiconductor	1
+Kinross	1
+Henry Tricks	1
+Sun Jian	1
+Tony Johnstone	1
+NAC	1
+Bose	1
+Lyman	1
+Donkow	1
+Peron	1
+Yulia Graudin	1
+Tommy Thompson	1
+Globo	1
+Casino Graz	1
+Defence	1
+Banglabazar Patrika	1
+Paul Ting	1
+Willie Blair	1
+Metropolitan Museum	1
+Devers	1
+Torrance Zellner	1
+Michele Buiatti	1
+Larbi El Khattabi	1
+NEWCOMBE	1
+Andhra Pradesh	1
+Budge Weidman	1
+Gianfranco Stevanin	1
+Strobe Talbott	1
+Buenaventura	1
+LIBERIA	1
+Neil Fairbrother	1
+One-year	1
+IRVINE	1
+Gloria Pizzichini	1
+Danny Theybers	1
+Missouri	1
+Environment Canada	1
+Kleiner Perkins Caufield & Byers	1
+Vaclav Havel	1
+Michael Tucker	1
+Montgomerie	1
+United News of India	1
+South Dakota	1
+Kinross Gold Corp	1
+Roger Clemens	1
+Kumble	1
+Fox Broadcasting	1
+Jimi Hendrix	1
+Gong Zhichao	1
+Robert Kibet	1
+Salomon & Taylor Made Co Ltd	1
+Gary Kelly	1
+Alan Hunte	1
+Keane Inc	1
+Fourth Circuit	1
+CHICAGO AREA MILLS	1
+Alexander Zickler	1
+KELLY	1
+Rosemary Bennett	1
+Lisbet Stuer-Lauridsen	1
+Niall Quinn	1
+Boraine	1
+Phylis Smith	1
+CRAWLEY	1
+ONIC	1
+HARLEYSVILLE	1
+Yannos Papandoniou	1
+TVX Gold Inc	1
+Pietro T.	1
+SMICER	1
+GT2 Konrad Porsche 911	1
+Benson Koech	1
+Lhasa	1
+Anton Drobnjak	1
+Max Delbruck	1
+Cevaer	1
+Idriss Deby	1
+Juan Carlos Lago	1
+Mark Spitz	1
+Platignum	1
+Board of Control for Cricket in India	1
+Maine	1
+Uruguayan	1
+Jose Maria Aznar	1
+Bob Kennedy	1
+Alina Astafei	1
+Jody Reed	1
+Jacek Berensztain	1
+Gaza-based	1
+Iraq-bound	1
+Harrison Dillard	1
+MOZAMBIQUE	1
+Neuchatel Xamax	1
+Tianjin	1
+Duff and Phelps	1
+GREER	1
+Marianne Werdel Witmeyer	1
+Rep .	1
+Sergei Mironov	1
+Vladimir Dubrovshchik	1
+Southern New England Telecommunications Corp.	1
+Rui Barros	1
+Ajaccio	1
+AOL Germany	1
+Cy Young	1
+Madhusudan Munakarmi	1
+Ryszard Hincza	1
+Danie van Schalkwyk	1
+Monte Carlo	1
+Bancarel	1
+KEKKILA	1
+Mary Joe Fernandez	1
+Italo Pineda	1
+Liaoning	1
+TX	1
+NASDAQ	1
+Constand Viljoen	1
+Iberia	1
+Fabio Baldato	1
+Anton Schutte	1
+South Kivu	1
+William Goldiner	1
+Vitesse	1
+Malcolm Marshall	1
+Anil Kumble	1
+Loretto Abbey	1
+Tim Wakefield	1
+John Sheehan	1
+Kunar	1
+Grzegorz Krejner	1
+ROBSON	1
+Paulinho Santos	1
+Softbank Corp	1
+Erik Camerlengo	1
+Lufthansa	1
+China-bound	1
+SC Espinho	1
+H&R Block Inc	1
+Michael Mollenbeck	1
+Fatos Nano	1
+Haruchika	1
+UKRAINIAN	1
+National Islamic Front	1
+Anhui	1
+Malivai Washington	1
+Pakistan Muslim League	1
+Mandsaur	1
+Power Financial Corp	1
+Slough Estates Plc	1
+Colin McRae	1
+VERONA	1
+Graham Sharman	1
+Life Insurance Co of Georgia	1
+Tauranga	1
+PBR	1
+Vaclavas Kidikas	1
+Cambodian	1
+Pascal Jongsma	1
+Chihuahua	1
+Patricia Djate	1
+Victoria Falls	1
+Chan Chia Fong	1
+Mutawakel Taha	1
+Siam Commercial	1
+Kenny Cunningham	1
+NASDAQ Index	1
+KEANE	1
+Akira Ryo	1
+Bank of Spain	1
+Salomon Brothers	1
+Douati Alphonse	1
+Miss Universe Inc	1
+Charles Bauza Donwahi	1
+Bedibunder	1
+Power New Zealand	1
+Munakarmi	1
+Komarica	1
+Damian Ejiohuo	1
+EDBERG	1
+Mecca	1
+Ashoknagar	1
+Abolhassan Banisadr	1
+SCOTLAND	1
+Gary Lauck	1
+CARLING	1
+Kredietbank	1
+Giles Bonnet	1
+Collingtree Park	1
+Fenerbahce	1
+Natural Law Party	1
+Louis Viannet	1
+Texas Agricultural Statistics Service	1
+Shumer	1
+Chiquinho Conde	1
+Ellina Zvereva	1
+Democratic National convention	1
+Boeta Wessels	1
+North Dakota	1
+Glenallen Hill	1
+Slobodan Milosevic	1
+Venalum	1
+Roy	1
+Zickler	1
+Daewoo Dacom Communications	1
+Piotr Grabowski	1
+Justice	1
+PDSR	1
+Kazimierz Socha	1
+LAKES	1
+First Union National Bank of Florida	1
+Breakfast Soybean Procurement Assn	1
+Jason Dickson	1
+Nomura	1
+Peter Tramacchi	1
+Liberia Council	1
+Sarah Thorsett	1
+Erik Hanson	1
+Notts	1
+PARMA	1
+Springfield	1
+HANOVER	1
+Frederick Chiluba	1
+Frankie Rodriguez	1
+Pattaya	1
+Arctic	1
+Greg Chappell	1
+A. Jadeja	1
+Stefaan De Clerck	1
+Tatarstan	1
+GLORIA BISTRITA	1
+Rothschild & Cie	1
+league-Australian	1
+COLONNA	1
+Seychellois	1
+Moss Landing Marine Laboratories	1
+Nanne Dahlman	1
+Channel Islands	1
+Philip Wilcox	1
+MI-17	1
+Alfred Berkeley	1
+Alvarado	1
+Bobby Robson	1
+Deportivo Espanol	1
+Eddie Hedaya	1
+Waterworks Authority	1
+D. Headley	1
+BSE-infected	1
+Gigi Fernandez	1
+Saskatchewan Pork International Marketing Group	1
+Goma	1
+Dan Jensen	1
+Barrington Research Associates Inc	1
+No 2913/92	1
+Royal Oak Mines Inc	1
+Badi-Tondon	1
+Richard Lindsey	1
+Omar Bongo	1
+Lidl	1
+Federal office for motor vehicles	1
+Rajapat Institute	1
+Steve Waugh	1
+Tongo Field	1
+Arce	1
+Costis Stephnopoulos	1
+John Lloyd Jones	1
+Alexandre Barros	1
+Gulf McLaren F !	1
+ROMANIA	1
+National Park Service	1
+St. Louis	1
+U.S. DLA	1
+Jacob Hlasek	1
+Max Marriner	1
+Soprun	1
+Republican House	1
+GATTING	1
+Robert Mugabe	1
+Ennea	1
+Morinville	1
+Huw Jones	1
+Tom Candiotti	1
+New Party Sakigake	1
+Jerry Schein	1
+Georges Zicot	1
+Kim Graham	1
+Bank of New Zealand	1
+Wolfgang Ischinger	1
+Alcatel Alsthom	1
+Timothy Reid	1
+Voskamp	1
+Randall	1
+Romanian Soccer Federation	1
+Malgorzata Rydz	1
+National Hurricane Center	1
+A. Kumble	1
+US Postal	1
+Firmin Gatera	1
+TENDULKAR	1
+Kenneth Chiate	1
+Keiron Henderson	1
+Abdulsamad Hameed Ali	1
+Matos	1
+Anthony Washington	1
+Beijing-backed	1
+British Jewish	1
+Jakarta Post	1
+Las Vegas	1
+Li Peng	1
+SUZUKA	1
+Gateway Data Sciences	1
+Yoelvis Quesada	1
+Ville Peltonen	1
+Arnold	1
+Andres Galarraga	1
+Christian Ruud	1
+Peace River Valley	1
+Khum Bahadur Khadga	1
+CDU No.3	1
+Fairview Town	1
+New Yorker	1
+Community of Madrid	1
+Paulo Sousa	1
+Ahmed Sekou Toure	1
+Pelletreau	1
+Nele Zilinskiene	1
+Margit Borg	1
+Hapoel Ironi	1
+Peter Machungwa	1
+Narino	1
+Goran Koprinovic	1
+Alcan	1
+Curitiba	1
+Bryan Robson	1
+Kenny Harrison	1
+Nabil Abu Rdainah	1
+Republican-controlled	1
+Alan Ackerman	1
+DNUM	1
+Ivan Odnosum	1
+Valkucak	1
+Darius Milhaud	1
+CompuServe Corp	1
+Handgun Control Inc.	1
+Hannes Strydom	1
+John Newcombe	1
+Gilbert Facchinetti	1
+Malaysian Open	1
+Heike Drechsler	1
+Juan Eduardo Esnaider	1
+Burundi-Central Africa	1
+Jose Herrera	1
+Surinamese	1
+Kostantin Matusevitch	1
+Chandrika Kumaratunga	1
+Ronald Brunmayr	1
+Redgrave	1
+African National Congress	1
+PAP	1
+Judith Arndt	1
+Graeme Obree	1
+El Nuevo Diario	1
+INDIANS	1
+Olga Boshova	1
+NFU	1
+Trade and Industry	1
+Eleonora Berlanda	1
+Brad Hogg	1
+Mark Chaloner	1
+Smyth	1
+Patricia Smith	1
+Bengali	1
+Sung-Hee Park	1
+GDANSK	1
+Albert Emon	1
+Neville Godwin	1
+Francesco Casagrande	1
+Iwan Cesar Gabrich	1
+Llansantffraid	1
+Civil Defence and Coast Guard	1
+Suleimaniya	1
+National Human Rights Commission	1
+Butch Harmon	1
+Aron Winter	1
+Christina Singer	1
+Pat Manson	1
+Armando Reynoso	1
+RICHMOND	1
+IVAC Medical	1
+TELFER	1
+Patricia Girard-Leno	1
+Physicians Insurance Co	1
+Gabor Sitanyi	1
+Michael Atherton	1
+Andre Bois	1
+Jomhuri Eslami	1
+Tracy Roosevelt	1
+China Securities	1
+Tour of Switzerland	1
+Jacky Martens	1
+Woolmer	1
+Mothusi Nkgowe	1
+Airport Facilities	1
+Arulanandam	1
+Alessandro Baronti	1
+Steven Redgrave	1
+Russian-made	1
+Zabrze	1
+Gary Breen	1
+Richard Sabourin	1
+AdOn GmbH	1
+David Byas	1
+Elijah Maru	1
+Adam Hollioake	1
+TOGO	1
+NL East	1
+Ferdy Vierklau	1
+Isaac Galvez-Lopez	1
+Rally	1
+GT2 Roock Porsche 911	1
+John Regis	1
+Angelica Gavaldon	1
+Lou Gehrig	1
+Iraqi Kurdish Patriotic Union of Kurdistan	1
+Perm	1
+John Inienger	1
+Magdalena Grzybowska	1
+GRONINGEN	1
+French Riviera	1
+Khaled al-Qidra	1
+Melanie Schnell	1
+Sardinia	1
+Malbak Ltd	1
+Dubnicoff	1
+Kuperman	1
+Carrefour	1
+Tuan Quac Phan	1
+Magnus Larsson	1
+Jim Thome	1
+Royce Clayton	1
+Dirk Coetzee	1
+Correction Department	1
+Bernard Barmasai	1
+Markus Babbel	1
+Masserigne Ndiaye	1
+Shahid Hasan Khan	1
+Stephen Pate	1
+Defence Ministry	1
+Miladin	1
+Craig Held	1
+Kevin Keegan	1
+Yukio Hatoyama	1
+Noranda	1
+Michelle Martin	1
+Le Matin	1
+Jacqueline Wong	1
+Bill Russell	1
+Tony Eusebio	1
+Broward County Sheriff 's Office	1
+Aleksandrovac	1
+Jean Van de Velde	1
+wall Street	1
+Vassiliy Kaptyukh	1
+Association of Lloyd 's	1
+Sigeki Maruyama	1
+Hans de Clerq	1
+Alkhan-Yurt	1
+Communist-led	1
+CHESAPEAKE	1
+ULIMO-J	1
+Tamas Erdei	1
+KIRKCALDY	1
+Michael Astrue	1
+Wroclaw	1
+Scott Winkler	1
+GT2	1
+Hasan Muratovic	1
+John Boles	1
+Chanda Rubin	1
+Frederic Malardeau	1
+United Nations Special Commission	1
+Marina Trandenkova	1
+Omar Karame	1
+Rhineside	1
+Lloyd Bentsen	1
+Valdo	1
+Gary Kirsten	1
+Vancouver-based	1
+DODGERS	1
+Anton Bruckner	1
+Lubarskij	1
+KNUP	1
+Bob May	1
+Head	1
+David Richards	1
+Ronald Waterreus	1
+Isel Lopez	1
+Grace Kelly	1
+Michael Campbell	1
+Alexander Popov	1
+Tikhomirov-Maskhadov	1
+Sebastian Lindholm	1
+Mike Gatting	1
+Jesus Tavarez	1
+Yuuchi Takeda	1
+Scott Young	1
+Schering AG	1
+Bailundo	1
+International Fair	1
+Nahed Dahlan	1
+Lars Riedel	1
+IBIS	1
+V. Prasad	1
+Francesco Toldo	1
+Amer Hishem Ali Mohammed	1
+Robert Aranosian	1
+Simitis	1
+Rohan Robinson	1
+Andrei Chesnokov	1
+Martin Stenning	1
+Josef Stalin	1
+Financial Security Assurance	1
+Giunluca Gorini	1
+Radka Zrubakova	1
+Lachlan Drummond	1
+ATLANTIC HIGHLANDS	1
+Marty Nothstein	1
+Jean-Pierre Cyprien	1
+Tijuana	1
+Newcrest Mining Ltd	1
+Nordegg	1
+British Land	1
+Best Products Co	1
+Andrea Giaconi	1
+Norm Charlton	1
+Brian McMillan	1
+Mostostal Zabrze Holding SA	1
+Dimitris Reppas	1
+Eliud Barngetuny	1
+Albert Belle	1
+Kapil Dev	1
+James Brady	1
+Hector Campora	1
+Mosenergo	1
+Sairyu Maru No : 2	1
+Vurens	1
+Mississippi	1
+Stephane Henchoz	1
+GTE Corp.	1
+Hall	1
+McGriff	1
+National Bank	1
+Leveilly	1
+ETHIOPIA	1
+TOUR	1
+Sparta Prague	1
+Kemp	1
+NTV	1
+Elena Makarova	1
+Moslem-led	1
+Wally Joyner	1
+Emeraud	1
+PUK-KDP	1
+Nicole Brown Simpson	1
+Viacom	1
+Sao Paulo-Santos	1
+Das	1
+The Wall Street Journal	1
+National League Eastern Division	1
+Gujar Khan	1
+Batterby	1
+Aleksander Lebed	1
+Hans-Otto Sieg	1
+ROVERETO INTERNATIONAL	1
+CHANDA RUBIN	1
+Abimael Guzman	1
+Larisa Neiland	1
+Whitehurst	1
+St. Matthew 's	1
+OM Gruppen AB	1
+Heath Streak	1
+Abu Rdainah	1
+MCC	1
+Urals	1
+John Talen	1
+Guenter Bertram	1
+Khan	1
+Miss Venezuela Organisation	1
+Tony Taylor	1
+Leeds Classic	1
+Raith Rovers	1
+Salahuddin	1
+Celopek	1
+Calif	1
+Franco-Prussian	1
+FTSE-100	1
+Statistics Canada	1
+Anne Marken	1
+Philip Kibitok	1
+H. Wada	1
+Department of Humanitarian affairs	1
+Garry Weiss	1
+Korea	1
+William O'Neill	1
+David Hulse	1
+RAMESWARAM	1
+Graafschap	1
+Tunbridge Wells	1
+Northern States Power Co	1
+Dennis Ross	1
+H. Streak	1
+Highland	1
+SCOREBOARD-AUSTRALIA	1
+Nicolas Charlier	1
+Gabriele Colombo	1
+Andrea Muller	1
+Castle Cup of Africa	1
+Fabrizio Ravanelli	1
+Jon Dahl Tomasson	1
+Orlando Miller	1
+Ozzie Guillen	1
+Edward Smith	1
+Niclas Fasth	1
+Football Association of Ireland	1
+Meredith McGrath	1
+Chart Thai	1
+Eduardo Romero	1
+Saxony	1
+William Kiptum	1
+Tim Lobinger	1
+Jockey Club	1
+Boris Becker	1
+mid-Norway	1
+First Union Corp	1
+Martin Keino	1
+Koninklijke Boskalis Westminster NV	1
+First Battle of the Newbury bypass	1
+Apex Tannery	1
+F.C. La Valletta	1
+Gouda	1
+Gallagher	1
+Abel Anton	1
+Travis Fryman	1
+Ali Alatas	1
+DSE	1
+A. Kapoor	1
+Mario Covas	1
+Public Service , Labour and Social Welfare	1
+FTSE	1
+Ion Iliescu	1
+Benedict Birnberg	1
+Bild am Sonntag	1
+DINAMO	1
+Englishmen	1
+Eurostat	1
+Vicorp Restaurants Inc	1
+William Fox	1
+Isaac Viciosa	1
+Kate Michelman	1
+C. Evans	1
+Severin Konan Kouame	1
+Tatyana Motkova	1
+Bedouins	1
+Credit Suisse	1
+UNP	1
+Bollore	1
+Wim Omloop	1
+P. Reiffel	1
+Frederic Magne	1
+PC Data Inc	1
+Hansie Cronje	1
+Tasmania	1
+Zimbabwean	1
+Olivia	1
+Brian McRae	1
+Dan Dietsch	1
+G. Whittall	1
+Luca Cadalora	1
+Bonnet	1
+Kennedys	1
+Karin Gornji	1
+Sud-PTT	1
+NEUCHATEL	1
+Republican-led	1
+Chesapeake Police Department	1
+Assad	1
+TBC	1
+Rodney Mosier	1
+EVEREN Securities Inc	1
+Goosen	1
+Bruno Eichmann	1
+Loretto	1
+KOMBOUARE	1
+The	1
+Navy	1
+Alami	1
+Tatiana Stiajkina	1
+Kim Young Sam	1
+Enrico Chiesa	1
+Stung Treng	1
+Cesare dal Maso	1
+Myles Frechette	1
+Srinagar	1
+Hwang	1
+Frank Quilter	1
+Endrio Leoni	1
+Isbank	1
+SOUTH CHINA MORNING POST	1
+Janet Reno	1
+Trincomalee	1
+Jeff Bagwell	1
+Air Force	1
+Gillian Russell	1
+Vicorp Restaurants	1
+Albert	1
+Mentmore	1
+Doubletree Corp	1
+Lee Wan Wah	1
+David Nainkin	1
+Lien Chan	1
+Veliko Tarnovo	1
+AMTRAK	1
+M'bishi Gas	1
+Purefoods Hotdogs	1
+Sebastien Fournier	1
+Property Capital Trust	1
+ANGELS	1
+Vitor Baia	1
+Benoit Cauet	1
+Kengo wa Dondo	1
+Niugini Mining	1
+Goschen	1
+M. Sivasiththamparam	1
+New Scientist	1
+non-EU	1
+Domingo Hospital	1
+OH	1
+Marco Pascolo	1
+Alfred Sant	1
+SunGard Shareholder Systems Inc	1
+Puerto Rican	1
+Stuart Cage	1
+Liam Botham	1
+David Brabham	1
+GAL	1
+Terry Phelan	1
+Chisinau	1
+Nikolaus van der Pas	1
+Lihir	1
+The Washington Post	1
+Vancouver Sun	1
+Bhavnagar	1
+Island Beach State Park	1
+Rune Hansen	1
+Dana Rohrabacher	1
+Mother	1
+Wojtek Lazarek	1
+Rocky Coppinger	1
+Roelofsen	1
+Checker 's	1
+Bank Indonesia	1
+Chakravarty Rangarajan	1
+Para	1
+Wayne Jordan	1
+Pontiac Osteopathic Hospital	1
+Judith Curren	1
+Kubilay Turkyilmaz	1
+Alexandre Gontchenkov	1
+JONK	1
+John Smiley	1
+Council of Europe	1
+Peter Lerner	1
+Glenn Hoddle	1
+Networks Services Division	1
+Aishwarya	1
+Yugo Zastava	1
+Ludmila Ninova	1
+South America	1
+Sophia Rose	1
+Krpaco	1
+Robert Stefko	1
+Calvin Davis	1
+Jason McAteer	1
+Tony Hands	1
+Alomella Robles	1
+D. Flemming	1
+Lambert	1
+Movement of Socialist Democrats	1
+Southern New England Telecommunciations Corp	1
+Nail Besirovic	1
+Eric Wymeersch	1
+VOGTS	1
+Partnership for Peace	1
+Alex Fernandez	1
+Robert Gutenstein	1
+Emmanuel Sobral	1
+Pudvah	1
+Mideast Gulf	1
+EUROMARK	1
+Von Heesen	1
+British Securities and Investments Board	1
+Purdue Frederick Co	1
+Bernd Schiphorst	1
+R Leong	1
+Tillekeratne	1
+F.C. Valletta	1
+Paul Bloch	1
+NABLUS	1
+SEYCHELLES	1
+Worku Bekila	1
+Adrian Nastase	1
+Ralf Kelleners	1
+Hussein Khalaf	1
+Leah Pells	1
+Marie-Jose Perec	1
+Vogue	1
+Movladi Udugov	1
+Bank of Israel	1
+Baby Bells	1
+Volker Ruehe	1
+UBS	1
+Miami Herald	1
+Obree	1
+Durban	1
+Sun-ho	1
+LARNACA	1
+Franco Baresi	1
+Andy Benes	1
+Empire State	1
+Trident Seven	1
+Harrods	1
+Joey Hamilton	1
+Airport Facilities Co Ltd	1
+Tony Roche	1
+Harare	1
+Janette Husarova	1
+Parmalat / Fehervar FC	1
+National Farmers Union	1
+pro-Israel	1
+Alex Belometti	1
+St. Christopher Children 's Hospital	1
+Darryn Hill	1
+Tony	1
+Laban Rotich	1
+Claudio Moura	1
+Jean-Claude Nadon	1
+Jean-Denis Deletraz	1
+GROBBELAAR	1
+Kiryat Sefer	1
+Marco Villa	1
+Sergi Barjuan	1
+PSC	1
+Rostelekom	1
+Bob Brett	1
+Billa	1
+CHILLICOTHE	1
+Patrick Sylvestre	1
+Net Book Agreement	1
+Dragutin Stanojlovic	1
+Specia	1
+Pasok	1
+Mae Sot	1
+Deutsche Bahn AG	1
+Karsten Baeron	1
+Julie Tolkacheva	1
+BAYERN	1
+Faure	1
+Barentsburg	1
+Ahmed Yassin	1
+Arlen Specter	1
+National Democratic Alliance	1
+Musa Hamiti	1
+Phelan	1
+Jose-Maria Canizares	1
+Alex Criville	1
+PLO Council	1
+Northern League	1
+Bragg	1
+HIV-pensioner	1
+Norifumi Abe	1
+Sarka Kasparkova	1
+Springbok	1
+Nouakchott	1
+Sandusky	1
+Oklahoma Wheat Commission	1
+Rebecca Weinstein	1
+Cometra et al Morinville 11-13	1
+Jonathan Edwards	1
+F.A.I.	1
+Siam Commercial Bank	1
+Fort Lauderdale	1
+Antonio Quarracino	1
+MARTINEZ	1
+SRINAGAR	1
+HOLZGERLINGEN	1
+Acatepec	1
+British Lions	1
+Bruno Risi	1
+Mark Kennedy	1
+Meghann Shaughnessy	1
+Mats Lanner	1
+Kudapokuna	1
+Bruce Grobbelaar	1
+Roberto Benigni	1
+Thomas S	1
+Ill.-based	1
+Post	1
+Australian All-Ordinaries	1
+Peronists	1
+Steel Industry Center	1
+HONG OPEN	1
+Ruggiero Rizzitelli	1
+Jordi Cruyff	1
+Eugene de Kock	1
+Dutra	1
+Jumbish	1
+All Fishermen 's Association	1
+Jiri Dopita	1
+Arrigo Sacchi	1
+Alexander Barkhatov	1
+NZPA	1
+Kenyan	1
+NUREMBERG	1
+Jaora	1
+Apache et al Saunders 14-28	1
+Oran	1
+Stranksy	1
+Hapoel Kfar Sava	1
+Pete Wilson	1
+Revolutionary Workers ' Party	1
+David J. Russell	1
+Qasri	1
+Bobbie Goulding	1
+John Hart	1
+Mariacarla Bresciani	1
+Bob Wollek	1
+Ruhunu University	1
+Teravainen	1
+Asia	1
+New democracy	1
+Karsten Richardt	1
+Ignacio Olascoaga Mugica	1
+Snyman	1
+Oksana Grichina	1
+Fannie Johnson	1
+Trenidad Hubbard	1
+Dallas	1
+Maria Antonio Sanchez Lorenzo	1
+Lehman Brothers International	1
+Jean-Pierre Van Zyl	1
+GROZNY	1
+Jana Kandarr	1
+Phil	1
+Steinberg	1
+UNSCOM	1
+Kankunnen	1
+MARCELO	1
+St Leger	1
+Giovanni Lombardi	1
+George Joulwan	1
+Paul Koech	1
+Advanced Medical Inc.	1
+BREGANCON	1
+Khmer	1
+MEXICAN	1
+Mark Hodges	1
+Carla Sacramento	1
+NORWAY	1
+CO	1
+Nahar	1
+ATLANTIC CITY	1
+Reserve bank of India	1
+Valentin Valkov	1
+Bulatka	1
+Gulf McLaren FI GTR	1
+Sanchez Vicario	1
+Shinichi Itoh	1
+LINZ	1
+Solskjaer	1
+Waiau	1
+Paul Thompson	1
+William VanLandingham	1
+Gramoz Ruci	1
+MEDVEDEV	1
+Marcel Malone	1
+COUNTY CHAMPIONSHIP	1
+Supreme Federal Tribunal	1
+Norihiko Fujiwara	1
+Jose Rosado	1
+Thierry Henry	1
+EUROSWISS	1
+LATTAKIA	1
+Kathrin Freitag	1
+Atlanta-based	1
+Revolutionary United Front	1
+Gildea	1
+Shiya Takeishi	1
+SNCF	1
+Doe Run	1
+Romeo Wouden	1
+Fred Trueman	1
+Virna De Angeli	1
+Associated Cement Companies	1
+Bentsen-era	1
+City	1
+Giga Information Group	1
+Carlos Checa	1
+Nancy Reagan	1
+Jack	1
+Aldi	1
+Alucasa	1
+Antoine Kombouare	1
+ATP Tour	1
+Jose Antonio Ortega Lara	1
+Juan Santamaria	1
+Moin	1
+UDINESE	1
+Riza Altun	1
+Michele Fanton	1
+Ijaz	1
+Ann Stephens	1
+Craig MacLean	1
+Marina Andrievskaqya	1
+APA	1
+South African Hockey Association	1
+BUGNO	1
+Alania Vladikavkaz	1
+Dick Spring	1
+North Island	1
+Ministry of Finance	1
+Italians	1
+Communist	1
+Rotterdam	1
+Shanghai Ek Chor	1
+Eurobourses	1
+Human Rights National Observatory	1
+Hendrik Dreekman	1
+Birmingham Public Park	1
+Rimma Maslova	1
+Argentine Apertura	1
+Gartner Group	1
+Russian National Olympic Committee	1
+de Klerk	1
+Miladin Becanovic	1
+Yoka Lye Mudaba	1
+Eliahu Ben-Elissar	1
+FRANCE	1
+Jacques Kallis	1
+TELO	1
+News Corp Ltd	1
+Australia Senate	1
+Adnan Xhelili	1
+Jackson	1
+Zorc	1
+Lindsay Owen-Jones	1
+Michael van der Wolf	1
+Loxley Publications Plc	1
+Ashia Hansen	1
+Inger Miller	1
+Greg Rusedski	1
+Guinness Peat Group Plc	1
+Ro Gajadhar	1
+Reuters Television	1
+Benito Santiago	1
+Nelson Miles	1
+Christian Springer	1
+Tina Krizan	1
+Berry	1
+Silvia Farina	1
+Sindh High Court	1
+Pendleton	1
+Andrea Glass	1
+GOTHENBURG	1
+M. Maynard	1
+Shatoi	1
+Ileana Bell	1
+Paul Tergat	1
+Andrew Hudson	1
+Khalid Boulami	1
+Dynamo Batumi	1
+Indre	1
+U.S. Tennis Association	1
+Sitanyi	1
+Per Nyman	1
+Haas	1
+Ray Durham	1
+HSBC Markets	1
+Natalya Voronova	1
+Alpha Technologies Group Inc	1
+Scott McLeod	1
+W-2	1
+COCU	1
+Maicel Malone	1
+Ciments Libanais	1
+Ilyushin 76	1
+A. Campbell	1
+Central European Free Trade Area	1
+U.S.-sponsored	1
+Shen	1
+Virgilius Alekna	1
+Krpaco a.s.	1
+Giovanni	1
+ASARCO	1
+Swiss-based	1
+Atlanta Olympics	1
+P. Arulanandam	1
+N.Y.	1
+Zitelli	1
+Jean	1
+AUSTRALIAN	1
+Lucas Moreira Neves	1
+Rodrigo Carneiro	1
+Kevin Brown	1
+Zionists	1
+Ivan Garcia	1
+Moshe Sabag	1
+Brian Currin	1
+Waterville	1
+Brooke	1
+Zagalo	1
+Longyearbyen	1
+Polish Development Bank	1
+Alexander Babayan	1
+Paul McGrath	1
+Pao de Acucar	1
+Klaus Kinkel	1
+Mostostal Z	1
+Frank Nobilo	1
+NTB	1
+Steve Howey	1
+Giro d'Italia	1
+Benjamin Menendez	1
+Challenge Cup	1
+COSTA RICA	1
+Grant Flower	1
+Jens Veggerby	1
+Orel Hershiser	1
+Dekker	1
+Anders Thoren	1
+Andre Cloete	1
+Camden	1
+Hezb-i-Islami	1
+Enrique Centeno	1
+Brenden Pappas	1
+1000 Lakes Rally	1
+Keiji Kojima	1
+PMC	1
+Lance Gibbs	1
+Bedouin Palestinian	1
+Moreau	1
+Southern New England	1
+Ford Motor Co	1
+MS-NBC News	1
+Terry Mulholland	1
+Alexia Dechaume-Balleret	1
+VTM	1
+Salou Bachirou	1
+ANCHORAGE	1
+Prince Rupert	1
+Maurizio Fondriest	1
+Hideo Nomo	1
+Patricia Lezama	1
+Enderle	1
+ROVERETO	1
+Michael Bevan	1
+Inderjit Gupta	1
+Oyvind Rojahn	1
+Mario Basler	1
+Marco Giampaolo	1
+Rickey Henderson	1
+Thessaloniki	1
+Sinead Delahunty	1
+Cartagena	1
+LOMBARDI	1
+Claus	1
+al-Tadamun	1
+HUBER	1
+Abdul Rahman	1
+NBC	1
+Colorado Health Fac .	1
+Juha Ylonen	1
+N. Furuya	1
+Wolfgang Kreissig	1
+Fagan	1
+Puertollano	1
+Pierre Fulke	1
+Christophe Bonvin	1
+GRIQUALAND WEST	1
+Ramon Delgado	1
+LENS	1
+Jacek Dembinski	1
+Glenn Taylor	1
+KANKKUNEN	1
+Andrei Tchmil	1
+Courtney Walsh	1
+Dickson	1
+North African	1
+Sandra O'Neal	1
+Mary Pierce	1
+Sigurd Njerve	1
+Eli Lilly	1
+Steve Conroy	1
+William Luehrs	1
+Human Gene Therapy	1
+Sierra Leonean	1
+African American	1
+Hanifah Komala	1
+Brush Wellman Inc	1
+Etienne Mendy	1
+Chen Gang	1
+SORENSEN	1
+Stainless Fighter	1
+Van Wanrooy	1
+Anneke Matthijs	1
+CNB	1
+Goldman Sachs	1
+Reuf Mehemdagic	1
+CheckFree	1
+Dennis Lillee	1
+National Guard	1
+RIA	1
+Gala Leon Garcia	1
+Chryste Gaines	1
+Fitzpatrick	1
+Adelt	1
+Teresa	1
+Super League	1
+El Mundo	1
+Cyprus Grain Commission	1
+Palestinian Islamist	1
+Football Hall of Fame	1
+Masayoshi Takemura	1
+St. Matthews Missionary Baptist Church	1
+British Open	1
+Petroecuador	1
+Betar	1
+Tutsi-run	1
+Brad Ausmus	1
+Lasse Lampi	1
+S. African	1
+Fiona May	1
+Tauziat	1
+Mohamed Ali Khalfallah	1
+Health Insurance of Vermont	1
+Inga Babakova	1
+Angelo Medeghini	1
+Wataru Kubo	1
+Ian Mackie	1
+Pemberton	1
+Jose Escuredo	1
+Koha Jone	1
+SALAH HISSOU	1
+Jacob Brumfield	1
+Handrik Dreekmann	1
+Chistian	1
+Regina Jacobs	1
+Ahmed Mestiri	1
+Lockhart Industries Inc	1
+NAN	1
+Date	1
+Gideon Chirchir	1
+PIVOTAL	1
+Mark Petkovsek	1
+Alan Lovell	1
+Peter Johansson	1
+Games	1
+Marcus Wills	1
+DRESDEN	1
+EUROPEAN TOUR	1
+Defence and Aviation	1
+Gennadi Skidan	1
+Chavalit Yongchaiyudh	1
+Chili Davis	1
+Lord 's	1
+Markus Feldhoff	1
+North Afghan	1
+Laurent Jalabert	1
+Decheiver	1
+Massachusetts Association of Realtors	1
+Battersby	1
+Madhumalla	1
+Health Care Financing Administration	1
+Adige	1
+Gyaicain	1
+Foreign Affairs	1
+Pauline Konga	1
+Liu Lu	1
+T&N Plc	1
+Mark Wolf	1
+Andrew Huddart	1
+Mauricio Hadad	1
+Stefan Raichev	1
+Heiki Kranich	1
+Ronald Goldman	1
+Jose Luis Vidigal	1
+Kevin Kim	1
+Birenda	1
+Lauren Ottoz	1
+Jumet	1
+Ahmed Barada	1
+Alan Kelly	1
+Jose Moreno	1
+Butte	1
+Alexandre Comisetti	1
+Patrik Sjoberg	1
+West Azerbaijan	1
+Shi-Ting Wang	1
+Cooperative Bank	1
+Richmond-based	1
+Villa	1
+Dean Palmer	1
+Heng Suan Lim	1
+Rafael Moreno Turrent	1
+Peter Blank	1
+Mate Granic	1
+NEUFCHATEAU	1
+Baku	1
+Breukink	1
+Iron Gippsland	1
+Alonso Cervera	1
+Kurt Abbott	1
+Cheuvreux de Virieu	1
+1ama	1
+Patrick Seale	1
+Ivan Rodriguez	1
+Gyaicain Norbu	1
+Paul Sorrento	1
+CYPRIEN	1
+Power	1
+Eriksson	1
+Mosier	1
+Doetinchem-Doetinchem	1
+Ewald Brenner	1
+Laasonen	1
+Bruno Adelt	1
+Jiangsu	1
+Royal Ascot	1
+Ninth Circuit	1
+Andy Hinchcliffe	1
+Ellis Burks	1
+Commodity Credit Corp of USDA	1
+Tina Kirzan	1
+Rika Hiraki	1
+Ryszard Wieczorek	1
+Tadayuki Okada	1
+Neemuch	1
+Palmeiro	1
+Middle East Economic Survey	1
+F.A. Cup	1
+Clean Air Act	1
+David Endt	1
+SHARPE	1
+Taichung division	1
+Hina	1
+Craig Matthews	1
+Roberto Jabali	1
+Pat Hentgen	1
+Zundra Feagin	1
+Tracy	1
+Suharto	1
+Sudradjat Djiwandono	1
+James Weaver	1
+Navjot Singh Sidhu	1
+Dominique Van Roost	1
+No 2454/93	1
+Bruno Thiry	1
+John Ericks	1
+Perugia	1
+JACKSONVILLE	1
+JAYASURIYA	1
+Sandra Cecchini	1
+Honduras	1
+Husaberg	1
+Ciller	1
+Kim Anderson	1
+Mountain	1
+Detroux	1
+Lyngby	1
+Sabine Hack	1
+N. Llong	1
+Berkshire Hathaway Inc	1
+Republican Front	1
+Rouxel	1
+Arch Petroleum Inc	1
+Romina Nicaretta	1
+Wreh	1
+Ed de Goey	1
+Piotti	1
+Montenegro	1
+CHILPANCINGO	1
+Julia Vaquero	1
+x-AEK Athens	1
+John White	1
+Glasgow Rangers	1
+Alpha Techs	1
+State Customs Committee	1
+Beja	1
+Kader Ferhaoui	1
+Zoran Kundic	1
+Oklahoma State University	1
+James Baldwin	1
+Singapore-listed	1
+FOWLER	1
+Alexander Paris	1
+Shkirko	1
+Ken Hill	1
+Oceano Cruz	1
+Bongo	1
+Victor Babes	1
+Batchelor	1
+James Lee Williams	1
+Ashish Kapoor	1
+Ivernia	1
+Stromme	1
+Olga Chernyavskaya	1
+Kishinev	1
+Lien	1
+Stuart Law	1
+John den Braber	1
+BELCHATOW	1
+Nanda Gopal Bhattacharya	1
+Noticias	1
+Susan Roosevelt Weld	1
+Lanner	1
+Abdul Rahman Haj Yihye	1
+Patrick Stevens	1
+Essilor	1
+Golan Heights	1
+Empresa Nacional del Petroleo	1
+Cheah Soon Kit	1
+Baxter International Inc	1
+Kevin Mitchell	1
+Mike Stanley	1
+Dean Gorre	1
+U.S. Federal District Court	1
+SHATOI	1
+Constantine Mitsotakis	1
+Kleiner Perkins	1
+East Germany	1
+Arthur Yates	1
+Deon Hemmings	1
+Jason Rouser	1
+SunGard Data Systems Inc	1
+Neumann	1
+Balkan Airlines	1
+Herschelle Gibbs	1
+Ashley Mocude	1
+Martin Max	1
+Tom Ikimi	1
+Gentext Optics Inc	1
+Milan Kucan	1
+Le Canard Enchaine	1
+Cubs	1
+Jonas Savimbi	1
+FERGUSON	1
+Re	1
+Stalinist	1
+Welspun	1
+Michael Perelstein	1
+Dawn Bowles	1
+Jill Craybas	1
+Nani Palkhivala	1
+Herman Gumy	1
+WASIM AKRAM	1
+Ronaldo Gonzalez	1
+INDORE	1
+Ruben Amaro	1
+Hana Benesova	1
+Gilbert Gress	1
+Maronite	1
+Republican-initiated	1
+Stanojlovic	1
+Lamont Smith	1
+Anders Olofsson	1
+Barry Bonds	1
+Todor Zhivkov	1
+Les Echos	1
+Shigeki Maruyama	1
+American Studies	1
+Aime Jacquet	1
+Bosnian Croat	1
+Charmaine Crooks	1
+Scott Brosius	1
+Julie Baumann	1
+Jose Maria Canizares	1
+D.C. Coalition Against Domestic Violence	1
+Information Ministry	1
+CBF	1
+Zagreb Money Market	1
+PAPENDRECHT	1
+Public Service Association	1
+MULDER	1
+Watts	1
+Bernd Mauruschat	1
+Mohammed Saleh	1
+Boddington	1
+Donne Wall	1
+Dmitry Solovyov	1
+Blake Bath	1
+Soundview Financial Group	1
+Roger Kingdom	1
+M. Azharuddin	1
+A.L. Central	1
+CHANG	1
+Don McKinnon	1
+Francis Agyepong	1
+Israeli-Syrian	1
+Frederic Vialle	1
+ST PAULI	1
+Jacqueline Martin	1
+Touchstone Software Corp.	1
+Jose Rivero	1
+EOE	1
+Sandra	1
+Jamie	1
+Quetta	1
+Daniel Chopra	1
+Rudyard	1
+AMR	1
+Arkansas State Police	1
+Rui Madeira	1
+Todd Stottlemyre	1
+John Grant Fagan	1
+Marek Citko	1
+Charles	1
+Parkway Middle School	1
+Schumacher	1
+SLOVAK	1
+Henke Larsson	1
+Oakley Inc	1
+FERENCVAROS	1
+Juan Somavia	1
+Rogel Nachum	1
+CONGO	1
+Wiltshire	1
+Havre	1
+Anders Haglund	1
+Tanzanian	1
+Edgar Renteria	1
+BATISTUTA	1
+Federal Trade Commission and Justice Department	1
+Dariusz Rosati	1
+USDA-sponsored	1
+Wolf	1
+Lees Summit	1
+Andre Markgraaff	1
+Hong Bui	1
+Yonsei University	1
+Julen Lopetegui	1
+MiG-19	1
+PSE	1
+WEN WEI PO	1
+UIC	1
+Windows NT 4.0	1
+Hans Segers	1
+Culpepper	1
+Herman Wijffels	1
+Bernard Halford	1
+Annette Peters	1
+Hal Morris	1
+U.S. Senate Intelligence Committee	1
+LG Electronics Inc.	1
+Zeyer	1
+Denis Irwin	1
+Interior	1
+Jorge Costa	1
+Roger Black	1
+Gordon Smith	1
+Dunnes Stores	1
+Shishu Bhavan	1
+Ameritech Corp.	1
+Berovo	1
+Danut Lupu	1
+Marcio Santos	1
+Richard Hadlee	1
+Life of Georgia	1
+Umberto Bossi	1
+Copenhagen	1
+Collin Dugmore	1
+Amoco Corp	1
+Francesca Lubiani	1
+Central Office of Statistics and Information	1
+Southland Life	1
+North Atlantic Treaty Organisation	1
+Bob Woolmer	1
+Chris Patten	1
+EURO CUP	1
+Meluawati	1
+International Business Machines Corp.	1
+Mediaset	1
+Marxist	1
+Bernardo Arce	1
+Vanderbijlpark	1
+Norton	1
+PSI Net	1
+Doug Turner	1
+Simon	1
+NL Central division	1
+Verbjorn Rodal	1
+Ana Fidelia Quirot	1
+Galina Malchugina	1
+Howard Wilkinson	1
+Cam Battersby	1
+Writers Association	1
+Seguin	1
+Perth	1
+Jaha	1
+Lamonts	1
+Pauline Davis	1
+Samokhalova	1
+Philip Blenkinsop	1
+MILLNS	1
+Conde	1
+Durres	1
+Toomas Savi	1
+Korean	1
+Jack Charlton	1
+EURO	1
+Pang Chen	1
+Courtois	1
+Thabo Mbeki	1
+Clemens	1
+Franny Weld	1
+Curtis Fleming	1
+Apertura	1
+Klaus Baader	1
+Soren Lausgberg	1
+Charles Nagy	1
+Ali Fallahiyan	1
+Hashan Tillekeratne	1
+Jens Lehman	1
+Burcin Mavituna	1
+Indonesias	1
+Derrick	1
+Southland Life Insurance Co	1
+William Perry	1
+Jonathan Birt	1
+West South Central	1
+Botta	1
+Roberto Alomar	1
+Fontaine	1
+Jonathan Bachini	1
+GOOCH	1
+Kalf , Voorhis & Co	1
+Angel Aguirre	1
+Georgy Mamedov	1
+CA	1
+Keiichi Kitigawa	1
+Jumbish-i-Milli	1
+JP	1
+Erik Dekker	1
+Yedioth	1
+Ecuadorian Oriente	1
+Telstra	1
+Miles Tunnicliff	1
+ATLETICO	1
+Adolf Hitler	1
+SIMEX	1
+Lynda Chalker	1
+Chad Curtis	1
+New York Times	1
+Adriana Serra-Zanetti	1
+Sultan	1
+Columbia Presbyterian Hospital	1
+David Naish	1
+Antara	1
+Soren Jessen-Petersen	1
+Roberta Brunet	1
+Susan Smith	1
+Ravi	1
+Zarak Jahan Khan	1
+Fita Bayesa	1
+Olivier Grouillard	1
+Qian Qichen	1
+FORT WORTH	1
+Netherland	1
+Mario Jardel	1
+Jamie Baulch	1
+Hafez al-	1
+Umm Qasr	1
+RUSSIA	1
+Bosnian-Croat Federation	1
+Kwai	1
+Loyola de Palacio	1
+PT Matahari Putra Prima	1
+Athletics	1
+Ousmane Kaba	1
+United Arab Emirates	1
+CGT	1
+Leonardo	1
+Helsinki	1
+Addameer Prisoners Support Association	1
+Hubert Grossard	1
+HINCHCLIFFE	1
+Vyacheslav Ekimov	1
+AGF-IART	1
+Awdankiewicz	1
+Jose Valentin	1
+Natalya Torshina	1
+Bavarian	1
+Bohinen	1
+Chalmers	1
+Jean-Marc Gounon	1
+Hanson Plc	1
+ALKHAN-YURT	1
+Ismail Nacar	1
+MCMANAMAN	1
+Sudan People 's Liberation Army	1
+Norris	1
+Romanian-registered	1
+Chinnathambi	1
+HEERENVEEN	1
+Geoff Marsh	1
+Jamie Moyer	1
+Japie Mulder	1
+WBUR-FM	1
+England-based	1
+Asian Star TV	1
+Scottish League Cup	1
+Hove	1
+Wijaya Indra	1
+Raymond Atteveld	1
+Harald Spoerl	1
+Bureau Veritas	1
+Pavel Buran	1
+German-led	1
+Goldstein	1
+Juan Castro	1
+Lila Osterloh	1
+EUROPEAN CUP WINNERS ' CUP	1
+Rolf Ekeus	1
+Peter	1
+Joao Vale de Almeida	1
+SVCD Bulgaria	1
+Gorgona	1
+Antonio Esposito	1
+Kabul Radio	1
+Woodlands Nursing Home	1
+MICKELSON	1
+Phil Babb	1
+Arkadiusz Bak	1
+Charles Austin	1
+National Rifle Association	1
+Mick McCarthy	1
+Gianni Bugno	1
+Michael Stroud	1
+Feugill	1
+Michael Doohan	1
+Saudi Press Agency	1
+London Carnival	1
+Agnieszka Kotlarska	1
+Marwan Muasher	1
+Dan Pudvah	1
+New Zealander	1
+IVAC Medical Systems Inc.	1
+Kekkila Oy	1
+Gerald Machnee	1
+Irish Permanent	1
+Sandra Cacic	1
+Jari Litmanen	1
+Omari	1
+UGANDA	1
+Vancouver	1
+Old Testament	1
+A.L. East	1
+Montserratians	1
+Turnhout	1
+Ludmila Richterova	1
+Tampere	1
+Theodore Roosevelt	1
+Pakistan People 's Party	1
+Joel Stransky	1
+Hashan	1
+Ulster Petroleums Ltd	1
+Tomas Post	1
+Christian Maronite	1
+BONNET	1
+Franny	1
+Donaldson Lufkin & Jenrette	1
+Vladislav Rodimov	1
+Mohamed Moada	1
+.Giuseppe Citterio	1
+Vincent Pamire	1
+Lawrence Sheets	1
+Riley	1
+Western European Union	1
+Gareth Farrelly	1
+Kurdish-controlled	1
+Paramount Pictures	1
+Peter Edwards	1
+Roberto Baggio	1
+PEMBERTON	1
+Joseph Keter	1
+Salomon	1
+Tavarez	1
+Costis Stephanopoulos	1
+Adel	1
+Jose Offerman	1
+Arthur Yates and Co	1
+Pedro Martinez	1
+Nunung Subandoro	1
+Donje Ljupce	1
+Steady Eddie	1
+Jorge	1
+Fatima Cristina	1
+KIMBERLEY	1
+Ahmad Shah Masood	1
+Justice K.T. Thomas	1
+Moengo	1
+Peruvian	1
+Fatima Yussuf	1
+BATKIVSHCHYNA COLLECTIVE FARM	1
+Carl Fogarty	1
+Aronkasei	1
+Sicilian	1
+Erdmann	1
+CFDT	1
+S. Korean	1
+Louise Siebens	1
+Kathmandu Post	1
+Molata	1
+Kathy Rinaldi Stunkel	1
+Supreme Coordination Council alliance	1
+Bunge	1
+Al-Aqsa	1
+Witschge	1
+John Marzano	1
+Laxmi Poruri	1
+Liam Fox Fox	1
+VENTURA	1
+John Ridgeon	1
+Banja Luka	1
+El Hassane Lahssini	1
+Las Cruces	1
+Plymouth Argyle	1
+Chatichai Choonhavan	1
+Kiely	1
+Western Australian	1
+Bradys	1
+Edward Dmytryk	1
+Tamer El Sawy	1
+Richard Black	1
+Jennifer Capriati	1
+Near Eastern	1
+New Territories	1
+BARRY	1
+Tan Fook	1
+Claus Manne Nielsen	1
+RUF	1
+Erzincan	1
+Pokka	1
+Paul Gascoigne	1
+Gianluca Vialli	1
+Iranian Kurdistan	1
+Council	1
+Cheveley Park Stud	1
+BALANCE-Water Dist 1	1
+Prudential	1
+Van	1
+FORMULA SHELL	1
+John Kornblum	1
+Status Weekly	1
+Abdala Bucaram	1
+Drazen Beser	1
+Journal of the Royal College of Physicians	1
+Ratlam	1
+BALL	1
+BUNOL	1
+GOP	1
+Agricultural Statistics Service	1
+Michael Marsh	1
+Ann Mercken	1
+Borkus	1
+Nissan Kapeta	1
+Ben Ellwood	1
+Julian Wellings	1
+IMF-sponsored	1
+Joe Carter	1
+Irina Yatchenko	1
+Damein Fleming	1
+Gavin Featherstone	1
+Hiddink	1
+John Simon	1
+Marc Dollendorf	1
+Ainars Kiksis	1
+Arthur Levitt	1
+Zhanna Pintusevich	1
+Sam Victor Malu	1
+MANCHESTER CITY	1
+Syrian-Lebanese	1
+Catherine McKiernan	1
+Michael Andersson	1
+Tatyana Dmitrieva	1
+Majid Takht Ravanchi	1
+Sebastien Lareau	1
+EMBASSY	1
+Building	1
+Luminzu Shimaponda	1
+Gabi Rokmeier	1
+Maruyama	1
+Yehiel Amitai	1
+Kyoko Nagatsuka	1
+Jalalabad	1
+Aerostan	1
+David Skoch	1
+Tauranaga	1
+European Champions ' League	1
+Raphael Riel	1
+Dan Jenson	1
+Batigol	1
+Jolene Watanabe	1
+Adelbert Knobl	1
+Hoek Loos NV	1
+Shabir Ahmad Muhammad Jalil	1
+Matt Lawton	1
+CheckFree Corp	1
+Raymond Mabus	1
+Carlos Bianchi	1
+Barry Larkin	1
+Muttiah Muralitharan	1
+Ihlas	1
+Ballesteros	1
+Craig Stromme	1
+Mohammed Azharuddin	1
+Wally Whitehurst	1
+Gianluca Pozzi	1
+Mauritian	1
+HMG	1
+Schulz	1
+Stefano Zanini	1
+Glen Hoddle	1
+Oliver Ludwig	1
+Tokyo Soir Co Ltd	1
+Patsy Kensit	1
+Sui Northern Gas	1
+Garrington 4-8	1
+Kenny Rogers	1
+Vukasin Filipovic	1
+Miron Cozma	1
+Edouard Gritson	1
+EUROPEAN CUP	1
+Bob Willis	1
+Shane Drew	1
+Thierry Dehaan	1
+Issa Alloush	1
+Luis Figo	1
+U.S. Middle East	1
+Louis Booy	1
+Scor	1
+Frank Vandenbroucke	1
+Eduardo Bernini	1
+Kenny Dalglish	1
+Iltalehti	1
+Steve McManaman	1
+K. Brown	1
+Aryeh Shumer	1
+Suvit	1
+Biljana Plavsic	1
+Moussa	1
+Indra Wijaya	1
+Hassan al-Turabi	1
+Jean-Paul Bruwier	1
+Kleinova	1
+Tom Kiernan	1
+Johan Lisabeth	1
+Kabul-Salang	1
+Air Corps	1
+Yekaterina Podkopayeva	1

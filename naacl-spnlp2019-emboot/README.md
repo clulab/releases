@@ -1,6 +1,6 @@
 # Lightly Supervised Representation Learning with Global Interpretability
 
-
+This repository contains the data and code required to run Emboot.
 
 ## Installation notes for Emboot
 - install `miniconda`
