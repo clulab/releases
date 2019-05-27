@@ -10,10 +10,10 @@ import scala.io._
 object EmbootInterpretOutputProcessor extends App {
 
   //// ---------- TO CHANGE (Conll/Ontonotes) ----------------------------
-  //// TODO: Parameterize this
-  val interpretableOutputFile ="emboot/pools_output_interpretable.txt_interpretable_model.txt"
-  // TODO: not sure what this is...
-  val toScoreFileStratified = "emboot/Emboot_int"
+  // path to the interpretable model file you want to convert
+  val interpretableOutputFile ="../../../../../../emboot/pools_output_interpretable.txt_interpretable_model.txt"
+  // path to output file
+  val toScoreFileStratified = "../../../../../../emboot/Emboot_int"
 
   // Conll
    val categories = Array("PER", "ORG", "LOC", "MISC").sorted
@@ -32,7 +32,7 @@ object EmbootInterpretOutputProcessor extends App {
 //   "WORK_OF_ART").sorted
 
   // TODO: Only for Ontonotes runs of the Interpretable output
-  val file = "emboot/emboot_I_modpmi_logfreq.txt_interpretable_model.txt"
+  val file = "../../../../../../emboot/emboot_I_modpmi_logfreq.txt_interpretable_model.txt"
   val linesToWrite = Source.fromFile(interpretableOutputFile).getLines.toArray.grouped(2).toArray.map(m => s"${m(0)}${m(1)}")
 
   val writer = new FileWriter(new File(interpretableOutputFile))
