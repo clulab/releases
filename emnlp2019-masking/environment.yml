@@ -1,0 +1,21 @@
+name: hw4mithun
+channels:
+- pytorch
+- defaults
+dependencies:
+- blas=1.0=mkl
+- ca-certificates=2018.03.07=0
+- certifi=2018.4.16=py36_0
+- cudatoolkit=8.0=3
+- gitdb2=2.0.5=py36_0
+- gitpython=2.1.11=py36_0
+- intel-openmp=2018.0.3=0
+- mkl=2018.0.3=1
+- olefile=0.45.1=py36_0
+- pip=10.0.1=py36_0
+- setuptools=39.2.0=py36_0
+- smmap2=2.0.5=py36_0
+- wheel=0.31.1=py36_0
+- torchvision=0.2.1=py36_1
+prefix: /work/mithunpaul/miniconda3/envs/fever
+

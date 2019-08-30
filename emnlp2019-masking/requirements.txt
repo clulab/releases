@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+typing
+overrides
+tqdm
+nltk
+allennlp
+pytz
+git+git://github.com/j6mes/drqa@parallel
+git+git://github.com/sheffieldnlp/fever-scorer@master
+
+
+

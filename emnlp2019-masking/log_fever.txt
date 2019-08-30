@@ -1,0 +1,1 @@
+11-18 19:56 drqa.retriever.tfidf_doc_ranker INFO     Loading data/index/fever-tfidf-ngram=2-hash=16777216-tokenizer=simple.npz

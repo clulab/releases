@@ -1,0 +1,204 @@
+{
+   "uofa_params": {
+     "logger_details": {
+       "logger_mode": "DEBUG",
+       "log_file_base_name": "log_rte",
+       "log_folder": "logs/"
+     },
+
+     "datasets_to_work_on": [
+       "fnc"
+     ],
+
+     "list_of_runs": [
+       "dev"
+     ],
+     "fever_dataset_details": {
+       "train_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "data/fever-data-ann/train/",
+         "slice_percent": 100
+       },
+       "dev_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "data/fever-data-ann/dev/",
+         "slice_percent": 100,
+         "in_file_to_read_fever_dev_data": "data/fever/dev.ns.pages.p1.jsonl"
+       },
+       "test_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "/data/fever-data-ann/test/",
+         "slice_percent": 100
+       },
+       "annotation_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "/data/fever-data-ann/test/",
+         "slice_percent": 100
+       }
+     },
+     "fnc_dataset_details": {
+
+       "train_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "data/fnc-data-ann/train/",
+         "slice_percent": 100
+       },
+       "dev_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "data/fnc-data-ann/dev/",
+         "slice_percent": 100,
+         "label_dev_file": "fnc_dev_labels.csv",
+         "label_folder": "/data/labels/"
+       },
+       "test_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "/data/fnc-data-ann/test/",
+         "slice_percent": 100
+       },
+       "annotation_partition_details": {
+         "path_to_pyproc_annotated_data_folder": "/data/fnc-data-ann/dev/",
+         "slice_percent": 100
+       }
+     },
+     "max_sent": 5,
+     "max_page": 5,
+     "create_features": false,
+     "do_annotation_live": false,
+     "use_fevers_IR_code": false,
+     "path_to_baseline_tfidf_model": "data/index/fever-tfidf-ngram=2-hash=16777216-tokenizer=simple.npz",
+     "folder_where_files_to_annotate_is_kept": "data/fever-data/",
+     "serialization_dir": "logs/",
+     "name_of_trained_model_to_use": "sstag_plus_smartner_may142019.tar.gz",
+     "cuda_device": 0,
+     "path_to_saved_db": "data/fever/fever.db",
+     "read_random_seed_from_commandline": false,
+     "random_seed": 98467,
+     "path_to_trained_models_folder": "data/models/",
+     "type_of_classifier": "decomp_attention",
+     "features": [
+       "merge_smartner_supersense_tagging"
+     ],
+     "plain_NER_details": {
+       "person_c1": false,
+       "lower_case_tokens": false,
+       "update_embeddings": false
+     },
+     "smart_NER_details": {
+       "person_c1": false,
+       "lower_case_tokens": false,
+       "update_embeddings": false
+     },
+     "word_overlap_details": {
+       "person_c1": false,
+       "lower_case_tokens": false,
+       "update_embeddings": false
+     }
+   },
+   "dataset_reader":{
+      "type":"fever",
+      "sentence_level":true,
+      "token_indexers":{
+         "tokens":{
+            "type":"single_id",
+            "lowercase_tokens":true
+         }
+      },
+      "wiki_tokenizer":{
+         "type":"word",
+         "word_splitter":{
+            "type":"just_spaces"
+         },
+         "end_tokens":[
+            "@@END@@"
+         ]
+      },
+      "claim_tokenizer":{
+         "type":"word",
+         "word_splitter":{
+            "type":"simple"
+         },
+         "end_tokens":[
+            "@@END@@"
+         ]
+      }
+   },
+   "train_data_path":"data/fever/train.ns.pages.p1.jsonl",
+   //"validation_data_path":none,
+   "model":{
+      "type":"decomposable_attention",
+      "text_field_embedder":{
+         "tokens":{
+            "type":"embedding",
+            "projection_dim":200,
+            "pretrained_file":"data/glove/glove.6B.300d.txt.gz",
+            "embedding_dim":300,
+            "trainable":false
+         }
+      },
+      "attend_feedforward":{
+         "input_dim":200,
+         "num_layers":2,
+         "hidden_dims":200,
+         "activations":"relu",
+         "dropout":0.2
+      },
+      "similarity_function":{
+         "type":"dot_product"
+      },
+      "compare_feedforward":{
+         "input_dim":400,
+         "num_layers":2,
+         "hidden_dims":200,
+         "activations":"relu",
+         "dropout":0.2
+      },
+      "aggregate_feedforward":{
+         "input_dim":400,
+         "num_layers":2,
+         "hidden_dims":[
+            200,
+            4
+         ],
+         "activations":[
+            "relu",
+            "linear"
+         ],
+         "dropout":[
+            0.2,
+            0.0
+         ]
+      },
+      "initializer":[
+         [
+            ".*linear_layers.*weight",
+            {
+               "type":"xavier_normal"
+            }
+         ],
+         [
+            ".*token_embedder_tokens._projection.*weight",
+            {
+               "type":"xavier_normal"
+            }
+         ]
+      ]
+   },
+   "iterator":{
+      "type":"bucket",
+      "sorting_keys":[
+         [
+            "premise",
+            "num_tokens"
+         ],
+         [
+            "hypothesis",
+            "num_tokens"
+         ]
+      ],
+      "batch_size":32
+   },
+   "trainer":{
+      "num_epochs":140,
+      "patience":20,
+      "cuda_device":0,
+      "grad_clipping":5.0,
+      "validation_metric":"+accuracy",
+      "no_tqdm":true,
+      "optimizer":{
+         "type":"adagrad"
+      }
+   }
+}
