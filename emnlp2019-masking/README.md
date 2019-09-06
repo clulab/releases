@@ -1,6 +1,7 @@
 
 # UOFA- Fact Extraction and VERification
 
+# update: @ sep 5th 2019: we are still working on a clean version of this code. Will be released before EMNLP 2019- where this paper was accepted.
 
 ## Steps to install + run
 - install docker
