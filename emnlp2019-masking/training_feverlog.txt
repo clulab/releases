@@ -1,4 +1,0 @@
-11-27 21:42 allennlp.common.params INFO     uofa_params.dataset_to_work_on = fever,fever
-11-27 21:42 allennlp.common.params INFO     uofa_params.list_of_runs = train,dev
-11-27 21:42 allennlp.common.params INFO     uofa_params.fever_dataset_details.dev_partition_details.name_of_trained_model_to_use = log_plainner-fever_98467_100.tar.gz
-11-27 21:42 allennlp.common.params INFO     uofa_params.fever_dataset_details.dev_partition_details.path_to_pyproc_annotated_data_folder = /data/fever-data-ann/dev/

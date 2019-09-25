@@ -1,11 +1,7 @@
-*.log
-*.csv
-.idea/
+outputs/*
+outputs
+outputs
 .DS_Store
-__pycache__
-.ipynb_checkpoints/
-data/
-features/
-logs/
-models/
-venv/*
+data/*
+.idea
+output.jsonl

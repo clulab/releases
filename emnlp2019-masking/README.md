@@ -1,152 +1,260 @@
+# This code base has two pre-processing codes. Mostly to do with POS tagging, NER, Super sense tagging etc
 
-# UOFA- Fact Extraction and VERification
+## smart ner convertor
 
-# update: @ sep 5th 2019: we are still working on a clean version of this code. Will be released before EMNLP 2019- where this paper was accepted.
+This code takes a claim and evidence pairs, finds where all NER tags exist and replace them smartly. refer examples below. 
+This is being done to show the NN model that there is overlap between claim and evidence.
 
-## Steps to install + run
-- install docker
-- start your docker daemon
-- docker pull myedibleenso/processors-server:latest
-- docker run -d -e _JAVA_OPTIONS="-Xmx3G" -p 127.0.0.1:8886:8888 --name procserv myedibleenso/processors-server
-- conda create --name fever python=3.7
-- conda activate fever
-- conda install pytorch torchvision -c pytorch (might be different for your machine)
-- pip install -r requirements.txt
-- PYTHONPATH=src python run_fact_verif.py -p config/fever_nn_ora_sent_updateEmbeds.json
+```
+conda create --name meanteacher python=3
+source activate meanteacher
+pip install tqdm
+pip install clean-text
+pip install git+https://github.com/myedibleenso/py-processors.git
+```
 
-## Extra info
-This code is built on top of sheffield's fever baseline. So we assume you have installed all the required documents they mention in their [readme file](https://github.com/sheffieldnlp/fever-baselines)
+**note: we are using an in house tool called [pyprocessors](https://py-processors.readthedocs.io/en/latest/) to do annotation/NER/POS tagging etc. 
+We are using the jar option mentioned in the file to run pyprocessors server. However if you are adventurous enough to go the docker route, below are the commands you must use.
+**
 
-Apart from that you will need PyProcessors over Docker. After you have installed [Docker](https://www.docker.com/), do:
+commands to run:
 
+`source activate meanteacher`
 
-- `docker pull myedibleenso/processors-server:latest`
+`docker pull myedibleenso/processors-server:latest`
+` docker run myedibleenso/processors-server`
 
-- `docker run -d -e _JAVA_OPTIONS="-Xmx3G" -p 127.0.0.1:8886:8888 --name procserv myedibleenso/processors-server`
-
-note: the docker run command is for the very first time you create this container. 
-
-Second time onwards use: `docker start procserv`
+`docker run -d -e _JAVA_OPTIONS="-Xmx3G" -p 127.0.0.1:8886:8888 --name procserv myedibleenso/processors-server`
+or
 
 
-## In our project we are experimenting with fact verification but unlexicalized.
-## As of Nov 2018 there are two main lines of develpment
-1. With decomposable attention + hand crafted features of NER replacement
-2. With handcrafted features + SVM
+```docker start procserv``` (if you are using docker)
 
-# All code can be run with the below command (but with different config file values)
-`PYTHONPATH=src python run_fact_verif.py -p config/fever_nn_ora_sent_updateEmbeds.json`
-
-# details of config file entries
-- The name/path of the config file file is: config/fever_nn_ora_sent_updateEmbeds.json
-- Almost always/mostly you will have to change only two entries `datasets_to_work_on` and `list_of_runs`
-- With `datasets_to_work_on` you tell the machine which all data sets you want to work on. 
-- Combined with `list_of_runs` it is an indication of what kind of process to run on what type of data set.
-Eg: 
+If not using docker, run this command below (it should start the pyprocessors as a java server as mentioned [here](https://py-processors.readthedocs.io/en/latest/example.html) under `Option 1`):
 `
-"datasets_to_work_on": [
-"fnc"
-],
+python main.py --pyproc_port 8887 --use_docker False --convert_prepositions False --create_smart_NERs True --inputFile data/dev_fourlabels_new.jsonl
+`
+#### optional command line arguments"
+
+`--pyproc_port 8886` By default pyprocessors , the java version runs off port 8888. If you intend to change it/want to run it over another port, you can pass it as
+a command line argument like this.
+
+`--use_docker true` if you are using docker for pyprocessors (usually in laptops its easier to use a docker, where as in machines where you don't have
+root/sudo access use java processors server)
+
+
+#### Some sample conversions
+
+```
+hypothesis_before_annotation: Isis claims to behead US journalist
+hypothesis_ann: ORGANIZATION-c1 claims to behead LOCATION-c1 journalist
+premise_before_annotation: BREAKING : Islamic State , in video , beheads American journalist James Wright Foley who was kidnapped in 2012 - @BNONews
+premise_ann: BREAKING : ORGANIZATION-e1 , in video , beheads MISC-e1 journalist PERSON-e1 who was kidnapped in DATE-e1 - @BNONews
+
+['The', 'Boston', 'Celtics', 'play', 'their', 'home', 'games', 'at', 'TD', 'Garden', '.']
+
+['The', 'Celtics', 'play', 'their', 'home', 'games', 'at', 'the', 'TD', 'Garden', ',', 'which', 'they', 'share', 'with', 'the', 'National', 'Hockey', 'League', '-LRB-', 'NHL', '-RRB-', "'s", 'Boston', 'Bruins', '.']
+
+****['The', 'ORGANIZATION-c1', 'play', 'their', 'home', 'games', 'at', 'the', 'LOCATION-c1', ',', 'which', 'they', 'share', 'with', 'the', 'ORGANIZATION-e2', '-LRB-', 'ORGANIZATION-e3', '-RRB-', "'s", sed , '.']
+```
+
+# Super Sense Tagger
+
+Super sense tagging is when you can take a sentence and assign the abstract super sense to it. like NER but more abstract.
+Eg:
+
+Before tagging:
+
+`I do n't think he 's afraid to take a strong stand on gun control , what with his upbringing in El Paso .`
+
+After Tagging:
+```
+I do|`a n't think|cognition he 's|stative afraid to take_a_ strong _stand|cognition on gun_control|ARTIFACT , what_with his upbringing|ATTRIBUTE in El_Paso|LOCATION .
+```
+
+For more details on SS taggging refer Noah Schnieder's github [page](https://github.com/nschneid/pysupersensetagger)
+
+I have a folder `amalgram/` in this repo where the code and trained models are replicated
+
+#### Step 1: creating POS tags
+ 
+The SStagger needs as input the POS tag and the tokens of a given sentence, in a particular one line format.
+
+Eg:
+```Sounds	VBZ
+haunting	VBG
+,	,
+and	CC
+a	DT
+```
+Refer to Noah's code base above for more details.
+
+This code base of mine, which you are looking at, I am using to generate these tokens/tags in the required format for the claim evidence pairs from [FEVER1.0](http://fever.ai/2018/task.html) data set. To do that run the command below.:
+
+`python superSenseTag.py `
+`
+--write_pos_tags True --pyproc_port 8887 --use_docker True --inputFile data/fever_train_split_fourlabels.jsonl
 `
 
-- other options for value of datasets_to_work_on include: fever. Can add more than one like this: "fnc,fever" 
 
--
+Notes to self
+- on laptop and clara use conda environment `meanteacher` 
+steps
+    - check list before running pos tagging on server
+        - go to a new folder 
+         -remove outputs if exists 
+         -create outputs folder 
+        - git pull 
+        - verify the log -1
+        - start meanteacher conda env
+        - change port
+        - change input file
+        - change docker false
+        - verify atleast one claim file is written
+        - verify atleast one evidence file is written
+        - sort evidence files by size and pick the biggest one so far+ verify that a new line written after evidences    
+            
+Notes
+- classic fever data has only 3 classes/labels,. viz.,SUPPORTS, REFUTES, NOT ENOUGH INFO. Here we have already converted into 4 classes after that of [fnc](http://www.fakenewschallenge.org/), viz., AGREE, DISAGREE, DISCUSS, UNRELATED 
+- this command will create a huge number of files, one per each claim-evidence pair.
+- if you can get the docker to run for pyprocessors and then use `--use_docker true` that will be fastest way to run this code.``
+    - `turn on docker`
+    - `docker start procserv`
+    - open `localhost:8886` and confirm that the `pyprocessor` server is running
 
- `
-"list_of_runs": [
-"dev"
-],
-`       
-- here other options include: "test/train/dev". 
-- Can add more than one of these options together comma separated like this: "dev,test". 
-- Note that it means, corresponding data set and corresponding runs. i.e if you add "fever,fnc" in datasets and "train,dev" on runs, it means, it will run train on fever and dev on fnc.
-- If you had a training run, the trained model is usually stored in the path mentioned in `serialization_dir` in config file. Usually its timestamped inside the `logs` folder Eg: `logs/fever_train_100/model.tar.gz`.
-- Whenever you run dev or test (with or without train), make sure you copy the trained model to the `data/models/` folder. Also paste the name of the model file (`*.tar.gz`) to the variable `name_of_trained_model_to_use` .
-- note to self: In server the trained models are stored at: `mithunpaul@jenny:/data1/home/mithun/fever_fnc_all_pkl_json_files/fever/training/pickles`
+#### Step 2: running sstagger
 
-### Example:
+the above came these are the commands i used to combine multiple claim files to one
 
-So if you want to run just dev on fake news data set this is how your config will look like:
+steps 
+- move the output of pos tagging to input folder of ss tagging.
+    - note: dont do plain `mv * ../amalgram/pysupersensetagger-2.0/input_to_sstagger_output_from_pos_tagger/`. Linux will tell you argument list too long. Instead create a shell script like this:
+    ```for each in ./*;
+    do
+    mv $eachfile ../amalgram/pysupersensetagger-2.0/input_to_sstagger_output_from_pos_tagger/
+    done
+    ```
+- commands for create a conda run environment for running the actual sstagger    
 ```
-"datasets_to_work_on": [
-       "fnc"
-     ],
-     "list_of_runs": [
-       "dev"
-     ],
+ conda create -name py2_decompattn_nonallennlp python=2.7
+ source activate py2_decompattn_nonallennlp
+ pip install cython
+ pip install nltk
+ python
+ nltk.download('wordnet')
+ exit
 ```
-
-### Example:
-
-Instead if you want to first train the code on fever and then test on fnc,  your config will look like:
-```
-"datasets_to_work_on": [
-       "fever",
-       "fever"
-     ],
-     "list_of_runs": [
-       "train",
-       "dev"
-     ],
-```
-
-## Features
-
-everything above assumes that features are going to be generated on the fly Eg: create smartner tags.
-These can be specified as a list inside:  
-
-```
-"features": [
-       "fully_lexicalized",
-       "merge_smartner_supersense_tagging"
-     ],
-``` 
-
-## Load input files with features
+- remember to create a folder inside outputs dir if using xargs, and the output (the sstagged files)
+ will be written there.
  
- Instead if you have the neutered data written to disk and you just want to load it before training do:
+ Example:
  
-`create_features =false`
+ ``mkdir outputs_sstagged/input_to_sstagger_output_from_pos_tagger``
 
-## Logging
-Logs are written into `general_log.txt` in the home directory.
-A home directory is the one within fever-baselines folder Eg:`/work/mithunpaul/fever/dev_branch/fever-baselines/`
-So to keep an eye on the run you can do `tail -f general_log.txt`
+- Check two things. *.tags doesn't exist in input folder or output folder. Might be vestigial/left over from older runs, but yeah, that will be detrimental if a *.tags is provided as input. THe code will crash
+- open up predict.ssh and make sure the values of` --input_folder` points to where you generated the POS tagged
+   files from step1. and `--output_folder` exists. 
+- now run the below command from the place where the file `sst.sh` exists.
 
-## Annotation 
-means it will take a given data dump (eg:dev) and annotate it with `pyprocessors` to create lemmas, pos tags etc. This is inturn provided as input to the actual training code. Refer example below.
-##### Example:
-If you want to annotate the fever data set with pyprocessors your config will look like:
+`./sst.sh example`
+- example is a dummy input file left over for vestigial reasons,which will never be used
+- the logs and print statements will be written inside example.log.
 
+also here is a version of the same command that will run the above as multiple processses. i suggest avoiding it though.
+
+`find ./input_to_sstagger_output_from_pos_tagger/ -print0 | xargs -0 -n 1 -I{} -t -p ./sst.sh {}`
+ 
+Notes:
+- the xargs command will run the sst.sh on each input file from the folder: input_to_sstagger_output_from_pos_tagger
+- i have modified the python code to create output file with $inputfilename.pred.tags in the output folder mentioned above
+- P is the number of cores you can spare in your machine. 
+- this command will create the output (*.pred.tags) at exactly the same location as the input file. Which means, you must do `rm *.tags` before every run else it will
+start creating files like `*.pred.tags.pred.tags`
+
+#### Step 3: merging NER tags and ss tags
+
+In this phase, we need to do the smartner tagging plus ss tagging. Eg:
+
+`input: Daniel Craig was the longest serving James Bond`
+
+`output: PERSONc1 was the longest COGNITIONc1 PERSONc2`
+
+
+other examples
 ```
-do_annotation=true
+claim: 		'A 	seven 		time 		Formula 	       One 		     World 	Champion 	is 		Michael Shumacher 	.'
+combined: '	A 	NUMBERc1 	TIMEc1 		Foodc1 		Numberc2 	MISCc1 			stativec1 	PERSONc1 		O.'
 
-"datasets_to_work_on": [
-       "fever"
-     ],
-     "list_of_runs": [
-       "test"
-     ],
 
-```
-Note: the input file to annotate must be in the fever-data folder
-For example:
-`/work/mithunpaul/fever/dev_branch/fever-baselines/data/fever-data/test.json` 
-The annotated file will be written to the path specified by the config file variable `path_to_pyproc_annotated_data_folder`
-### Example:
 
-If you are developing code and don't want to train on the whole training dataset of fever
- which is 145k entries you can use small:
-```
-"datasets_to_work_on": [
-       "small"
-     ],
-     "list_of_runs": [
-       "annotation"
-     ],
-
+evidence: 'He 	is 		a 	seven-time 	Formula 	One 		World Champion 	and 	is 	widely 	regarded 	as one of the greatest Formula One drivers of all time .'
+combined:	'He 	stativee1 	a 	seven-time 	MISCc1 	Numberc2  	MISCc1 			and 	is 	widely      sociale1 	as NUMBERe2 of the greatest Foodc1 Numberc2 PERSONe1 of all time .'
 ```
 
-## version tracker is kept [here](https://github.com/mithunpaul08/fever-baselines/blob/master/versions.md)
+This can be run using
 
+`source activate meanteacher`
+
+`python main.py --use_docker true  --inputFile data/fever_train_split_fourlabels.jsonl --convert_prepositions False --create_smart_NERs False --merge_ner_ss True --input_folder_for_smartnersstagging_merging sstagged_files/ --outputFolder sstag_ner_merged_files --remove_punctuations False --log_level ERROR`                
+ on server:
+`python main.py --use_docker false  --inputFile data/fever_original_dev_our_test_partition.jsonl --convert_prepositions False --create_smart_NERs False --merge_ner_ss True --input_folder_for_smartnersstagging_merging amalgram/pysupersensetagger-2.0/outputs_sstagged/ --outputFolder sstag_ner_merged_files_fever_test --remove_punctuations False --log_level ERROR --pyproc_port 8886`
+
+## extra info 
+- for cleaning/removing punctuations i use [this](https://github.com/jfilter/clean-text)
+
+
+# notes to self/delete later 
+  
+- when you want to learn something, check if there is a course in stanford or berkeley that covers that topic
+    or google: ```xargs site:*.edu```
+
+
+ 
+ 
+checklist for merging runs
+        
+    - git pull
+    - source activate meanteacher
+    - make sure you are in the folder that you match the sstagged files with eg: neuter_ner_fever_training
+    - make sure input folder name is correct (eg:--input_folder_for_smartnersstagging_merging amalgram/pysupersensetagger-2.0/outputs_sstagged//)..
+    - make sure there are no .pred.tags.pred.tags file in the input_folder()
+    - make sure you are providing the same data/inputfile i.e plain text file (Eg:-inputFile data/fever_dev_split_fourlabels.jsonl)
+    - create output folder if that doesn't exist : `mkdir sstag_ner_merged_files`
+    - give a new pyproc port for every run
+    
+
+### for emnlp 2019-abstract submission on may 15th 2019 below corners were cut
+        - punctuations were left in.
+        - there was length mismatch between claim and evidence found while doing merging of super sense and ner tags. I 
+        told the code to skip those files and move on. Almost 1% of files were thus skipped in all 4 runs. Should ideally go back and figure out why there is a length mismatch
+        
+ ### todo for this project (as of today:may 15th 2019- before the actual paper deadline):
+ - generate pos tags for fnc-test
+ - generate ss tags for fnc-test
+ - merge ss and pos tags for fnc-test
+ - generate pos tags for fever-test
+ - generate ss tags for fever-test
+ - merge ss and pos tags for fever-test
+ - add tqdm
+ - at some point, get back to removing punctuations.
+ - comment this line or move it inside if punctuations:`if not (word.lower() in ["lrb","rrb","lcb","rcb","lsb","rsb"]):`
+        
+                
+            
+### Commonly encountered errors
+    - if you hit compile time error with text as
+    `ImportError: Building module discriminativeTagger failed: ["CompileError: command 'gcc' failed with exit status 1\n"]` it means you have a compilation error. Kill the command and scroll up to find the compilation error.
+    - if your code is not responding/hangs for more than a minute after you hit `./sst.sh logs` 
+    or hit a error which says cannot find compiled *.so files, do this:`rm ~/.pyxbld/lib.linux-x86_64-2.7/*.so`
+    - if it says package x not found, that means you haven't turned on conda. do `source activate py2`
+    - if nonoe of this works, i.e tmux window is not responding, get out of the tmux window and do `tmux kill-session -t 4`
+    - if you just want to check if a kind of file exists and if `ls *.tags` gives you error of `argument too long` you can try :` find amalgram/pysupersensetagger-2.0/outputs_sstagged/ -iname "one*"`
+    
+    
+### daily work log/diary
+- may 15th 2019:
+    - submitted abstract to emnlp2019
+    - still waiting on sandeep to do fnc-train-fever test using features from acl submission, plainlex, smartner etc
+    - have generated sstagged files also for all 4 partitions (fnc-fever-train-test). have uploaded them to gdrive [folder](https://drive.google.com/open?id=1QqbMDyGaao1fUIG3rbgS1xqlxwx8d-o4). sandeep still needs to run the same tests on them
+    - have started 2 runs for generating pos tags for fnc-test and fever-test. Details can be found [here](https://docs.google.com/spreadsheets/d/1nfewuq33Hxkwp9WaiLldN4LjRJo3vbVH2vxGHRHKKbI/edit?usp=sharing)
+ 
