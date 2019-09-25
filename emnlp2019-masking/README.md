@@ -1,6 +1,6 @@
-# This code base has two pre-processing codes. Mostly to do with POS tagging, NER, Super sense tagging etc
+# This is the code base which takes a given data file and tags it using our home made smart ner convertor (refer paper) and then further using Noah Schneiders Super sense tagging .
 
-## smart ner convertor
+## Step 1 installing smart ner convertor
 
 This code takes a claim and evidence pairs, finds where all NER tags exist and replace them smartly. refer examples below. 
 This is being done to show the NN model that there is overlap between claim and evidence.
