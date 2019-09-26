@@ -1,7 +1,7 @@
 
 # Fact Verification using Mean Teacher in PyTorch
 
-Here we will take the output of the tagging process and feed it as input to a decomposable attention.
+Here we will take the output of the tagging process and feed it as input to a [decomposable attention](https://arxiv.org/pdf/1606.01933.pdf) based neural network model.
 
  
 
@@ -41,4 +41,4 @@ python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_worde
  - The code expects to find the data in specific directories inside the data-local directory.  For example some sample training and dev is kept here: `pytorch/data-local/rte/fever/`. Also you will have to replace the sample data with the the actual [train](https://drive.google.com/open?id=1bA32_zRn8V2voPmb1sN5YbLcVFo6KBWf) and [dev](https://drive.google.com/open?id=1xb6QHfMQUI3Q44DQZNVL481rYyMGN-sR) files from google drive
 
 
- 
+ - The code for decomposable attention is forked from [here](https://github.com/libowen2121/SNLI-decomposable-attention)
