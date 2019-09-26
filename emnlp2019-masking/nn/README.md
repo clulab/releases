@@ -1,8 +1,8 @@
 
 # Fact Verification using Mean Teacher in PyTorch
 
-In this fork of the original mean teacher code, we replace the feed forward networks in a mean teacher setup with 
- a decomposable attention. Also the data input is that from FEVER 2018 shared task.
+Here we will take the output of the tagging process and feed it as input to a decomposable attention.
+
  
 
 # Pre reqs:
@@ -10,8 +10,8 @@ In this fork of the original mean teacher code, we replace the feed forward netw
  The code runs on Python 3. Install the dependencies and prepare the datasets with the following commands:
 
 ```
-conda create --name mean_teacher python=3 numpy scipy pandas nltk tqdm
-source activate mean_teacher
+conda create --name rte python=3 numpy scipy pandas nltk tqdm
+source activate rte
 pip install sklearn
 pip install jsonlines
 pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119
@@ -38,12 +38,7 @@ python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_worde
 
  - I personally like/trust `pip install ` instead of `conda install`  because the repos of pip are more comprehensive
 
- - The code expects to find the data in specific directories inside the data-local directory.  For example some sample training and dev is kept here:
-
-```
-pytorch/data-local/rte/fever/
-```
-You will have to also get the actual [train](https://drive.google.com/open?id=1bA32_zRn8V2voPmb1sN5YbLcVFo6KBWf) and [dev](https://drive.google.com/open?id=1xb6QHfMQUI3Q44DQZNVL481rYyMGN-sR) files from google drive
+ - The code expects to find the data in specific directories inside the data-local directory.  For example some sample training and dev is kept here: `pytorch/data-local/rte/fever/`. Also you will have to replace the sample data with the the actual [train](https://drive.google.com/open?id=1bA32_zRn8V2voPmb1sN5YbLcVFo6KBWf) and [dev](https://drive.google.com/open?id=1xb6QHfMQUI3Q44DQZNVL481rYyMGN-sR) files from google drive
 
 
  
