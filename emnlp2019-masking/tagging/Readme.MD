@@ -1,6 +1,6 @@
-# This code base has two pre-processing codes. Mostly to do with POS tagging, NER, Super sense tagging etc
+# This code base is the first phase/data pre-processing step. Here we use multiple kinds of pre processing step as mentioned in the emnlp 2019 paper
 
-## smart ner convertor
+## overlap aware ner convertor
 
 This code takes a claim and evidence pairs, finds where all NER tags exist and replace them smartly. refer examples below. 
 This is being done to show the NN model that there is overlap between claim and evidence.
@@ -202,59 +202,4 @@ This can be run using
 ## extra info 
 - for cleaning/removing punctuations i use [this](https://github.com/jfilter/clean-text)
 
-
-# notes to self/delete later 
-  
-- when you want to learn something, check if there is a course in stanford or berkeley that covers that topic
-    or google: ```xargs site:*.edu```
-
-
- 
- 
-checklist for merging runs
-        
-    - git pull
-    - source activate meanteacher
-    - make sure you are in the folder that you match the sstagged files with eg: neuter_ner_fever_training
-    - make sure input folder name is correct (eg:--input_folder_for_smartnersstagging_merging amalgram/pysupersensetagger-2.0/outputs_sstagged//)..
-    - make sure there are no .pred.tags.pred.tags file in the input_folder()
-    - make sure you are providing the same data/inputfile i.e plain text file (Eg:-inputFile data/fever_dev_split_fourlabels.jsonl)
-    - create output folder if that doesn't exist : `mkdir sstag_ner_merged_files`
-    - give a new pyproc port for every run
-    
-
-### for emnlp 2019-abstract submission on may 15th 2019 below corners were cut
-        - punctuations were left in.
-        - there was length mismatch between claim and evidence found while doing merging of super sense and ner tags. I 
-        told the code to skip those files and move on. Almost 1% of files were thus skipped in all 4 runs. Should ideally go back and figure out why there is a length mismatch
-        
- ### todo for this project (as of today:may 15th 2019- before the actual paper deadline):
- - generate pos tags for fnc-test
- - generate ss tags for fnc-test
- - merge ss and pos tags for fnc-test
- - generate pos tags for fever-test
- - generate ss tags for fever-test
- - merge ss and pos tags for fever-test
- - add tqdm
- - at some point, get back to removing punctuations.
- - comment this line or move it inside if punctuations:`if not (word.lower() in ["lrb","rrb","lcb","rcb","lsb","rsb"]):`
-        
-                
-            
-### Commonly encountered errors
-    - if you hit compile time error with text as
-    `ImportError: Building module discriminativeTagger failed: ["CompileError: command 'gcc' failed with exit status 1\n"]` it means you have a compilation error. Kill the command and scroll up to find the compilation error.
-    - if your code is not responding/hangs for more than a minute after you hit `./sst.sh logs` 
-    or hit a error which says cannot find compiled *.so files, do this:`rm ~/.pyxbld/lib.linux-x86_64-2.7/*.so`
-    - if it says package x not found, that means you haven't turned on conda. do `source activate py2`
-    - if nonoe of this works, i.e tmux window is not responding, get out of the tmux window and do `tmux kill-session -t 4`
-    - if you just want to check if a kind of file exists and if `ls *.tags` gives you error of `argument too long` you can try :` find amalgram/pysupersensetagger-2.0/outputs_sstagged/ -iname "one*"`
-    
-    
-### daily work log/diary
-- may 15th 2019:
-    - submitted abstract to emnlp2019
-    - still waiting on sandeep to do fnc-train-fever test using features from acl submission, plainlex, smartner etc
-    - have generated sstagged files also for all 4 partitions (fnc-fever-train-test). have uploaded them to gdrive [folder](https://drive.google.com/open?id=1QqbMDyGaao1fUIG3rbgS1xqlxwx8d-o4). sandeep still needs to run the same tests on them
-    - have started 2 runs for generating pos tags for fnc-test and fever-test. Details can be found [here](https://docs.google.com/spreadsheets/d/1nfewuq33Hxkwp9WaiLldN4LjRJo3vbVH2vxGHRHKKbI/edit?usp=sharing)
  
