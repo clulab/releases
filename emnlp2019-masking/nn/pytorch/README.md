@@ -1,16 +1,15 @@
 
-# Fact Verification using Mean Teacher in PyTorch
+# Fact Verification in PyTorch
 
-In this fork of the original mean teacher code, we replace the feed forward networks in a mean teacher setup with 
- a decomposable attention. Also the data input is that from FEVER 2018 shared task.
+In this NN for fact verification we use a decomposable attention. Also the data input is that from FEVER 2018 shared task.
  
 # Pre reqs:
  
  The code runs on Python 3. Install the dependencies and prepare the datasets with the following commands:
 
 ```
-conda create --name mean_teacher python=3 numpy scipy pandas nltk tqdm
-source activate mean_teacher
+conda create --name rte python=3 numpy scipy pandas nltk tqdm
+source activate rte
 pip install sklearn
 pip install jsonlines
 pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119
