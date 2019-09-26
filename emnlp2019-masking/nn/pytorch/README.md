@@ -1,7 +1,7 @@
 
 # Fact Verification in PyTorch
 
-In this task  we use a neural network called [decomposable attention](https://arxiv.org/abs/1606.01933) the code of which is taken from [here](https://github.com/libowen2121/SNLI-decomposable-attention) . Also the data input is that from FEVER 2018 shared task.
+In this task we feed the output of the tagger (which we call delexicalized files) into  a neural network called [decomposable attention](https://arxiv.org/abs/1606.01933) the code of which is taken from [here](https://github.com/libowen2121/SNLI-decomposable-attention) . Also the data input is that from FEVER 2018 shared task.
  # Pre reqs:
  
  The code runs on Python 3. Install the dependencies and prepare the datasets with the following commands:
