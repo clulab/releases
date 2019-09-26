@@ -2,43 +2,45 @@
 # Fact Verification in PyTorch
 
 In this task  we use a neural network called [decomposable attention](https://arxiv.org/abs/1606.01933) the code of which is taken from [here](https://github.com/libowen2121/SNLI-decomposable-attention) . Also the data input is that from FEVER 2018 shared task.
- 
-# Pre reqs:
+ # Pre reqs:
  
  The code runs on Python 3. Install the dependencies and prepare the datasets with the following commands:
 
 ```
-conda create --name rte python=3 numpy scipy pandas nltk tqdm
-source activate rte
+conda create --name mean_teacher python=3 numpy scipy pandas nltk tqdm
+source activate mean_teacher
 pip install sklearn
 pip install jsonlines
 pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119
 conda install pytorch-cpu torchvision-cpu -c pytorch *
 ```
-\* **note1**: for pytorch instinstallation get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
 
-* note 2: I personally like/trust `pip install *` instead of `conda install` * because the repos of pip are more comprehensive
-
-
-The code expects to find the data in specific directories inside the data-local directory. So do remember to 
- add the data before you run the code.
- 
- For example the data for RTE-FEVER is kept here:
-
-```
-pytorch/data-local/rte/fever/train/
-```
-Note that in this particular case the file train_full_with_evi_sents is a collection of all claims and the corresponding
- evidences in the training data of [FEVER](http://fever.ai/) challenge. This is not available in public unlike the FEVER data. 
- This is the output of the IR module of FEVER baseline [code](http://fever.ai/task.html).
 
 To train on FEVER, run the following command in the folder `pytorch/` :
 
 
 ``` 
-python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_wordemb true --update_pretrained_wordemb false --epochs 100 --run-name fever_transform --batch_size 32 --lr 0.005 --data_dir data-local/ --print_freq 1 --workers 0 --dev_input_file fever_dev_lex_3labels_100_no_lists_evidence_not_sents.jsonl --train_input_file fever_train_lex_3labels_400_smartner_3labels_no_lists_evidence_not_sents.jsonl --arch da_RTE --log_level DEBUG --use_gpu false --pretrained_wordemb_file data-local/glove/glove.840B.300d.txt --use_double_optimizers true --run_student_only true --labels 20.0 --consistency 1
+python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_wordemb true --update_pretrained_wordemb false --epochs 100 --run-name fever_transform --batch_size 32 --lr 0.005 --data_dir data-local/ --print_freq 1 --workers 0 --dev_input_file fever_dev_lex_3labels_100_no_lists_evidence_not_sents.jsonl --train_input_file fever_train_lex_3labels_400_smartner_3labels_no_lists_evidence_not_sents.jsonl --arch da_RTE --log_level INFO --use_gpu false --pretrained_wordemb_file data-local/glove/glove.840B.300d.txt --use_double_optimizers true --run_student_only true --labels 20.0 --consistency 1
 
 ```
+
+## Notes
+- for pytorch instinstallation get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
+
+- Note that in this particular case the file train_full_with_evi_sents is a collection of all claims and the corresponding
+ evidences in the training data of [FEVER](http://fever.ai/) challenge. This is not available in public unlike the FEVER data. 
+ This is the output of the IR module of FEVER baseline [code](http://fever.ai/task.html).
+ 
+ - The glove file kept at `data-local/glove/glove.840B.300d.txt` is a very small version of the actual glove file. You might want to replace it with the actual 840B [glove file](https://nlp.stanford.edu/projects/glove/)
+
+ - I personally like/trust `pip install ` instead of `conda install`  because the repos of pip are more comprehensive
+
+ - The code expects to find the data in specific directories inside the data-local directory.  For example some sample training and dev is kept here:
+
+```
+pytorch/data-local/rte/fever/
+```
+You will have to also get the actual [train](https://drive.google.com/open?id=1bA32_zRn8V2voPmb1sN5YbLcVFo6KBWf) and [dev](https://drive.google.com/open?id=1xb6QHfMQUI3Q44DQZNVL481rYyMGN-sR) files from google drive
 
 
 # explanation of command line parameters
@@ -132,182 +134,3 @@ Note:
 - the commands must be run at the folder level which has main.py eg:`mean-teacher/pytorch/main.py`
 - from the same level you can keep track of the logs by doing `tail -f meanteacher.log`
 - there will be a time delay of around 3 minutes while the vocabulary is created. The log file will have an entry just before that saying : `INFO:datasets:Done loading embeddings. going to create vocabulary ...`
-    
-#FAQ :
-*These are questions I had when i was trying to load the mean teacher project. Noting it down for myself and for the sake of others who might end up using this code.*
-
-#### Qn) What does transform() do?
-
-Ans: `transform` decides what kind of noise you want to add. 
-For example the class `RTEDataset` internally calls the function fever() in the file
-`mean_teacher/datasets.py` which in turn call `data.RandomPatternWordNoise` from the file `mean-teacher/pytorch/mean_teacher/data.py`
-Both the student and teacher will have different type of noise added. That is decided by transform.
-Bottom line is: I don't know how the function fever() is called by the class RTEDataset. It is some kind of internal pytorch thing am assuming. But the function
-fever() is where you specify what kinda tranformations you need. So if you want to turn on noise for your input data you uncomment:
-`#'train_transformation': data.TransformTwiceNEC(addNoise),` in dataset.py. Don't look at me, I just inherited this code from someone else.
-
-as of may 2019 the function fever() mentioned above can be found [here](https://github.com/mithunpaul08/mean-teacher/blob/add_decomp_attn/pytorch/mean_teacher/datasets.py#L22)
-
-```
-    def ontonotes():
-    if NECDataset.WORD_NOISE_TYPE in ['drop', 'replace']:
-        addNoise = data.RandomPatternWordNoise(NECDataset.NUM_WORDS_TO_REPLACE, NECDataset.OOV, NECDataset.WORD_NOISE_TYPE)
-    else:
-        assert False, "Unknown type of noise {}".format(NECDataset.WORD_NOISE_TYPE)
-
-    return {
-        'train_transformation': data.TransformTwiceNEC(addNoise),
-        'eval_transformation': None,
-        'datadir': 'data-local/nec/ontonotes',
-        'num_classes': 11
-    }
-    
-```
-
-#### Qn) What is ema? so the ema is teacher? and teacher is just a copy of student itself-but how/where do they do the moving average thing?
-
-Ans: Yes. ema is exponetial moving average. This denotes the teacher. So whenever you want to create a techer, just make ema=True in:
- ```
- model = create_model()
-    ema_model = create_model(ema=True)
-```
-
-#### Qn) I get this below error. What does it mean?
-
-```
- File "/anaconda3/envs/meanteacher/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 224, in default_collate
-    return torch.LongTensor(batch)
-TypeError: an integer is required (got type str)
-
-
-```
-
-Ans: you are passing labels as string. Create a dictionary to make it an int.
-
-#### Qn) what is `__getitem__`? who calls it?
-
-Ans: This is a pytorch internal function. The train function in main.py calls it as:
-
-`train(train_loader, model, ema_model, optimizer, epoch, dataset, training_log)`
-
-#### Qn) In the mean teacher paper I read that there is no backpropagation within the teacher. However, where exactly do they achieve it ? the teacher is looks like a copy of the same student model itself right?
-
-Ans: They do it in this code below in main.py
-
-```
-        if ema:
-            for param in model.parameters():
-                param.detach_() ##NOTE: Detaches the variable from the gradient computation, making it a leaf .. needed from EMA model
-
-
-
-```
-
-#### Qn) what does the below code in main.py do?
-```if args.run_student_only:```
-
-Ans: If you want to use the mean teacher as a simple feed forward network. Note that the
-main contribution of valpola et al is actually the noise they add. However if you just want
-to run the mean teacher as two parallel feed forward networks, without noise, but still with 
-consistency cost, just turn this on: `args.run_student_only`
-    
- 
-#### Qn) what models can the student/teacher contain? LSTM?
-
-Ans: it can have anything ranging from a simple feed forward network to an LSTM. In 
-the file `mean_teacher/architectures.py` look for the function class `FeedForwardMLPEmbed()`. That takes two inputs (eg:claim, evidence or entity, patterns) .
-Similarly the class `class SeqModelCustomEmbed(nn.Module):` does the same but for LSTM.
- 
- 
- #### Qn) what does the below code do in datasets.py?
- `if args.eval_subdir not in dir:`
-
-Ans: this is where you decide whether you want to do training or testing/eval/dev. Only difference
-between training and dev is that, there is no noise added in dev.
-
-**Qn) I see a log file is being created using `LOG = logging.getLogger('main')`. But I can't see any files. Where is the log file stored?**
-
-Ans: Its printed into `stdout` by default. Alternately there is this log file which is
-time stamped and logs all the training epoch parameters etc. It is done using `meters.update('data_time', time.time() - end)` in main.py
-It is stored in the folder `/results/main`.
-Update: found out that meters is just a dictionary. Its not printing anything to log file. 
-all the `meters.update` are simply feeding data into the dictionary. You can print it using log.info as shown below
-
-```
-LOG.info('Epoch: [{0}][{1}/{2}]\t'
-                    'ClassLoss {meters[class_loss]:.4f}\t'
-                    'Prec@1 {meters[top1]:.3f}\t'
-                    'Prec@2 {meters[top5]:.3f}'.format(
-                        epoch, i, len(train_loader), meters=meters))
-```
-
-
-
-
-**Qn) I see one of my labels is -1. I clearly marked mine from [0,1,2]?**
-
-Ans: Whenever the code removes a label  (for the mean teacher purposes) it assigns a label of -1
-
-**Qn) Why do I get an error at `assert_exactly_one([args.run_student_only, args.labeled_batch_size])` ?**
-
-Ans: If you are doing `--run_student_only true` i.e to run mean teacher as a simple feed forward supervised network
-with all data points having labels, you shouldn't pass any of these argument parameters which are meant for mean teacher.
-```
-
---labeled_batch_size 10
-```
-also make `--labels 100`
-
-
-Qn) what exactly is shuffling, batching, sampler, pin_memory ,drop_last etc?
-
-Ans: these are all properties of the pytorch dataloader class . 
-Even though the official   tutorial is 
-[this](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html) one I really liked the [the stanford tutorial on dataloader](https://stanford.edu/~shervine/blog/pytorch-how-to-generate-data-parallel)
-
-also look at the  [source code](https://pytorch.org/docs/stable/_modules/torch/utils/data/dataloader.html)
- and [documentation](https://pytorch.org/docs/0.4.0/data.html#torch.utils.data.DataLoader)
-  of dataloader class
-
-Qn) check what embedding is the libowen code (the code for decomposable attention) loading?
-
-Ans: he is  using glove. he just names it function w2v. i  also checked the
-    harvard code (the one which generates the hdf5 files which are inturn used by libowen). they use glove only to create hdf5
-    
-Qn)does libowen code have momentum? 
-  Ans: no
-    
-  
-**update: on april 12th 2019, becky suggested to match the batch size =20 that libowen was having, and guess what**
-###### I have a dev stable accuracy of around 83%
-
-```INFO:main:
-Dev Epoch: [30][754/755]      Dev Classification_loss:0.9863 (0.0000) Dev Prec_model: 50.000 (82.244)
-INFO:main:*************************
-dev_prec_cum_avg_method:82.24401160381268,
-dev_prec_accumulate_pred_method :82.65230004144219
-best_dev_accuracy_so_far:83.48114380439287,
-best_epoch_so_far:18
-
-training accuracy @epoch 30: 84.57166666666667,dev: 82.65230004144219
-```
-
-
-# commands_to_run
-##### Some linux versions of the start up command*
-
-Below is a version that runs the code as a **decomposable attention**  as **mean teacher** 
- on a mac command line- using this on aug 3rd 2019.
-
-```
-python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_wordemb true --update_pretrained_wordemb false --epochs 6 --run-name fever_transform --batch_size 10 --lr 0.005 --data_dir data-local/ --print_freq 1 --workers 0 --dev_input_file fever_dev_lex_3labels_100_no_lists_evidence_not_sents.jsonl --train_input_file fever_train_lex_3labels_400_smartner_3labels_no_lists_evidence_not_sents.jsonl --arch da_RTE --log_level DEBUG --use_gpu false --pretrained_wordemb_file data-local/glove/glove.840B.300d.txt --use_double_optimizers true --run_student_only true --labels 20.0 --consistency 1
- ```
-
-
-
-Below is a version that runs **Decomposable Attention** on linux command line (server/big memory-but with 120k training and 24k dev) student only -i.e: --run_student_only true
-use conda environment: meanteacher in clara **and gave 82% accuracy, highest so far**
-
-``` 
-python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_wordemb true --update_pretrained_wordemb false --epochs 100 --run-name fever_transform --batch_size 32 --lr 0.005 --data_dir data-local/ --print_freq 1 --workers 4 --train_input_file  fever_train_delex_smartner_119k_3labels_no_lists_evidence_not_sents.jsonl --dev_input_file fever_dev_delexicalized_3labels_26k.jsonl --arch da_RTE --run_student_only true  --run_student_only true --log_level INFO --use_gpu True --pretrained_wordemb_file /work/mithunpaul/glove/glove.840B.300d.txt --use_double_optimizers true  
-```
