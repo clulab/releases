@@ -13,8 +13,7 @@ pip install clean-text
 pip install git+https://github.com/myedibleenso/py-processors.git
 ```
 
-**note: we are using an in house tool called [pyprocessors](https://py-processors.readthedocs.io/en/latest/) to do annotation/NER/POS tagging etc. 
-We are using the jar option mentioned in the file to run pyprocessors server. However if you are adventurous enough to go the docker route, below are the commands you must use.
+**note: we are using an in house tool called [pyprocessors](https://py-processors.readthedocs.io/en/latest/) to do annotation/NER/POS tagging etc. We are using the jar option mentioned in the file to run pyprocessors server. However if you are adventurous enough to go the docker route, below are the commands you must use.
 **
 
 commands to run:
@@ -30,10 +29,9 @@ or
 
 ```docker start procserv``` (if you are using docker)
 
-If not using docker, run this command below (it should start the pyprocessors as a java server as mentioned [here](https://py-processors.readthedocs.io/en/latest/example.html) under `Option 1`):
-`
-python main.py --pyproc_port 8887 --use_docker False --convert_prepositions False --convert_NERs True --inputFile data/dev_fourlabels_new.jsonl
-`
+## If you not using docker, run this command below (it should start the pyprocessors as a java server as mentioned [here](https://py-processors.readthedocs.io/en/latest/example.html) under `Option 1`):
+`python main.py --pyproc_port 8887 --use_docker False --convert_prepositions False --convert_NERs True --inputFile data/dev_fourlabels_new.jsonl`
+
 #### optional command line arguments"
 
 `--pyproc_port 8886` By default pyprocessors , the java version runs off port 8888. If you intend to change it/want to run it over another port, you can pass it as
