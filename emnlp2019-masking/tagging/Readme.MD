@@ -12,6 +12,7 @@ pip install tqdm
 pip install clean-text
 pip install git+https://github.com/myedibleenso/py-processors.git
 mkdir outputs
+mkdir sstagged_files
 ```
 
 **note: we are using an in house tool called [pyprocessors](https://py-processors.readthedocs.io/en/latest/) to do annotation/NER/POS tagging etc. We are using the jar option mentioned in the file to run pyprocessors server. However if you are adventurous enough to go the docker route, below are the commands you must use.
