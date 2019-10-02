@@ -40,7 +40,7 @@ a command line argument like this.
 `--use_docker true` if you are using docker for pyprocessors (usually in laptops its easier to use a docker, where as in machines where you don't have
 root/sudo access use java processors server)
 
-- download data file from [here](http://clulab.cs.arizona.edu/data/emnlp2019-delex/http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_dev_lex_3labels_26k_no_lists_evidence_not_sents.jsonl)
+- download data file from [here](http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_dev_lex_3labels_26k_no_lists_evidence_not_sents.jsonl)
 
 
 #### Some sample conversions
