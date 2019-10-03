@@ -20,36 +20,43 @@ chmod 700 prereq.sh
 **note**: we are using an in house tool 
 called [pyprocessors]((https://py-processors.readthedocs.io/en/latest/)) (which inturn uses taggers like Stanford's CoreNLP)
 to do annotation/NER/POS tagging etc. 
-We are using the jar option mentioned 
-in the link above.
- However if you want 
-  to use docker instead for pyprocessors 
-  we are mentioning below the commands for that too.
+There are two ways of running pyprocessors: using a jar file and a docker.
+We suggest you use a docker. Nevertheleses we are providing commands for 
+both below.
 
 
-#### commands to run if you are using java server for pyprocessors:
 
-`
-python main.py --pyproc_port 8886 --use_docker False --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
-`
 #### commands to run if you are using docker for pyprocessors:
+
+(install and start [docker](https://www.docker.com/) if you haven't)
 
 `source activate delex`
 
 `docker pull myedibleenso/processors-server:latest`
-` docker run myedibleenso/processors-server`
+
+`docker run myedibleenso/processors-server`
 
 `docker run -d -e _JAVA_OPTIONS="-Xmx3G" -p 127.0.0.1:8886:8888 --name procserv myedibleenso/processors-server`
+
 or
 
 
 ```docker start procserv``` (if you already created a docker container)
 
 `
+python main.py --pyproc_port 8886 --use_docker True --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
+`
+
+Note: Also to verify that the pyprocessors server is running open a browser and type  `localhost:8886`. If you see an output
+which says "pyprocessors server" the server is running
+
+#### commands to run if you are using java server for pyprocessors:
+`
 python main.py --pyproc_port 8886 --use_docker False --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
 `
 
-#### Explanation of command line arguments"
+
+#### Explanation of command line arguments
 
 `--pyproc_port 8886` By default pyprocessors , the java version runs off port 8888. If you intend to change it/want to run it over another port, you can pass it as
 a command line argument like this.
@@ -57,6 +64,9 @@ a command line argument like this.
 `--use_docker true` if you are using docker for pyprocessors (usually in laptops its easier to use a docker, where as in machines where you don't have
 root/sudo access use java processors server)
 
+`--create_smart_NERs` Set this to `True` if you want simple smartner (also mentioned as overlap aware NER in the paper)
+
+`--convert_prepositions` By default prepositoins are ignored and not converted in the overlap aware NER. However set this instead to `True` if you want to.
 
 #### Some sample conversions
 

@@ -14,7 +14,7 @@ Output format (3 columns):
 
 sentID   annotated_sentence   {"words": [[word1,pos1],...], "labels": {"offset1": [word1,label1], "offset2": [word2,label2]}, "lemmas": [lemma1,lemma2,...], "tags": [tag1,tag2,...], "_": [[offset1,offset2],...], "~": [[offset1,offset2,offset3],...]}
 
-With the -l flag, show labels in annotated_sentence. 
+With the -gold_label flag, show labels in annotated_sentence.
 Otherwise, annotated_sentence will only contain the segmentation.
 
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
@@ -195,7 +195,7 @@ def convert(inF, outF=sys.stdout, labelsInRenderedAnno=False):
 
 if __name__=='__main__':
     args = sys.argv[1:]
-    if args and args[0]=='-l':
+    if args and args[0]=='-gold_label':
         labelsInRenderedAnno = True
         args = args[1:]
     else:

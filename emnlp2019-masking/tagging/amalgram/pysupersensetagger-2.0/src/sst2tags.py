@@ -15,7 +15,7 @@ Output is in the tab-separated format:
 offset   word   [lemma]   POS   tag   parent   strength   label   sentId
 
 Options:
-  -l: performs lemmatization. Otherwise, the lemma column will be left empty.
+  -gold_label: performs lemmatization. Otherwise, the lemma column will be left empty.
 
 @see: dataFeaturizer.SupersenseTrainSet
 
@@ -108,7 +108,7 @@ def convert(inF, outF=sys.stdout, stemmer=None):
 
 if __name__=='__main__':
     stem = None
-    if sys.argv[1]=='-l':
+    if sys.argv[1]=='-gold_label':
         from morph import stem
         del sys.argv[1]
     convert(fileinput.input(), stemmer=stem)

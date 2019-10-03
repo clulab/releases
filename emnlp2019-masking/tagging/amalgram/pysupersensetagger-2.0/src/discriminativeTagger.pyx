@@ -17,7 +17,7 @@ from labeledSentence import LabeledSentence
 import morph, tags2sst
 import os
 from pyutil.ds import features 
-
+import time
 import supersenseFeatureExtractor
 featureExtractor = None
 
@@ -1070,8 +1070,12 @@ def run_without_python_parallelization(args,evalData):
                 outputFileName=inputFile+".pred.tags"
                 outputFileFullPath=os.path.join(cwd,args.output_folder,outputFileName)
                 #print(f"outputFileFullPath file is{outputFileFullPath}")
+                start = time.time()
                 if not (os.path.isfile(outputFileFullPath)):
                     output=predict(args, _tagger_model,outputFileFullPath,featurized_dataset=evalData)
+                    end = time.time()
+                    if(end-start>100):
+                        continue;
 
 
 
@@ -1083,16 +1087,16 @@ def run_with_python_parallelization(args,evalData):
     jobs = []
     cwd=os.getcwd()
     files=os.listdir(args.input_folder)
-   # print("inside run_with_python_parallization")
+    print("inside run_with_python_parallization")
     for index,inputFile in enumerate(files):
                 fullpath_inputFile=os.path.join(cwd,args.input_folder,inputFile)
                 args.predict=fullpath_inputFile
                 outputFileName=inputFile+".pred.tags"
                 outputFileFullPath=os.path.join(cwd,args.output_folder,outputFileName)
-    #            print(fullpath_inputFile)
-     #           print(outputFileFullPath)
+                print(fullpath_inputFile)
+                print(outputFileFullPath)
                 if not (os.path.isfile(outputFileFullPath)):
-                #output=predict(args, _tagger_model,outputFileFullPath,featurized_dataset=evalData)
+                    output=predict(args, _tagger_model,outputFileFullPath,featurized_dataset=evalData)
                     jobs.append(pool.apply_async(predict, (args, _tagger_model,outputFileFullPath,evalData)))
                 for job in jobs:
                     job.get()
@@ -1100,7 +1104,11 @@ def run_with_python_parallelization(args,evalData):
 
 def run_with_xargs(args,evalData):
         inputFile=args.predict
+        print("name of input file is:")
+        print(inputFile)
         outputFileName=args.output_folder+"/"+inputFile+".pred.tags"
+        print("name of output file is:")
+        print(outputFileName)
         if not (os.path.isfile(outputFileName)):
             predict(args, _tagger_model,outputFileName,evalData)    
 
@@ -1120,7 +1128,6 @@ if __name__=='__main__':
     #import cProfile
     #cProfile.run('main()')
     try:
-        #print("inside main of discriminative tagger")
         main()
     except KeyboardInterrupt:
         raise

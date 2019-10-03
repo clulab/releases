@@ -568,7 +568,7 @@ if __name__=='__main__':
     parser.add_argument('-p', action='store_true', help='Show percentages instead of counts for tp, fp, etc.')  # TODO:
     parser.add_argument('-n', action='store_true', help='Show ratios instead of percentages for precision and recall')  # TODO:
     group = parser.add_mutually_exclusive_group()
-    group.add_argument('-l', metavar='LABEL', action='append', help='Specify one of the labels to select (tokens corresponding to unselected labels will be counted as O)')  # TODO
+    group.add_argument('-gold_label', metavar='LABEL', action='append', help='Specify one of the labels to select (tokens corresponding to unselected labels will be counted as O)')  # TODO
     group.add_argument('-L', action='store_true', help='Suppress per-label reports')
     parser.add_argument('-m', metavar='THRESHOLD', action='store', type=lambda v: float(v) if '.' in v or 'e' in v else int(v),
                         help='Specify a minimum threshold for values to display for tp, fp, etc. '

@@ -1,4 +1,0 @@
-INFO:processors.api:Starting processors-server (java -Xmx3G -cp /anaconda3/envs/py3/lib/python3.7/site-packages/processors/processors-server.jar NLPServer --port 8886 --host 127.0.0.1) ...
-WARNING:processors.api:Unable to start server. Please start the server manually with .start_server(jar_path="path/to/processors-server.jar")
-WARNING:processors.api:
-Couldn't connect to processors-server. Is the port in use?

@@ -163,7 +163,7 @@ def build_chart(N, path):
             v += path[j] * ngpath(j,i) ** weak_contig_score(j,i)
             for k in range(j+1, i-1):
                 for l in range(k+1, i):
-                    # consider gappy expression going from j to i, where k to l is the gap: j < k < l < i
+                    # consider gappy expression going from j to i, where k to gold_label is the gap: j < k < gold_label < i
                     assert j < k < l < i,(i,j,k,l)
                     v += path[j] * ngpath(j,k) ** gap(k,l) ** ngpath(l,i,first_tag='Ĩ') ** weak_gappy_score(j,k,l,i)
                     v += path[j] * gap(k,l) ** strong_gappy_score(j,k,l,i) ** weak_with_gappy_strong_score(j,k,l,i)

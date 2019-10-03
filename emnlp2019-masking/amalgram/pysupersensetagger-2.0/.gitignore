@@ -1,8 +1,0 @@
-outputs_sstagged/*
-outputs_sstagged
-input_to_sstagger_output_from_pos_tagger/*
-input_to_sstagger_output_from_pos_tagger
-*.tags
-*.jsonl
-inputs/*
-outputs/*

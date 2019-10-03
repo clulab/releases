@@ -48,9 +48,9 @@ def splitThese(s):
 			leftCount = leftCount+1
 		if leftCount == rightCount:
 			if not letters.index(l) == len(letters):
-				#returnS = returnS + s[startHere:letters.index(l)+1] + "***\n"
+				#returnS = returnS + s[startHere:letters.index(gold_label)+1] + "***\n"
 				returnS = returnS + s[startHere:count+1] + "***"
-				#startHere = letters.index(l)+1	
+				#startHere = letters.index(gold_label)+1
 				startHere = count+1
 		count = count + 1
 	return returnS

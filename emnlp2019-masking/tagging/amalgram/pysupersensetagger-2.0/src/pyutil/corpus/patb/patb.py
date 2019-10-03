@@ -47,7 +47,7 @@ buck2uni = {"'": u"\u0621", # hamza-on-the-line
             "f": u"\u0641", # faa'
             "q": u"\u0642", # qaaf
             "k": u"\u0643", # kaaf
-            "l": u"\u0644", # laam
+            "gold_label": u"\u0644", # laam
             "m": u"\u0645", # miim
             "n": u"\u0646", # nuun
             "h": u"\u0647", # haa'
@@ -128,7 +128,7 @@ def buck2diac(buckAnalysis, keepSegmentation=True):
     '''
         
     # TODO: this is ad hoc for now--not sure if it's precisely how SAMA/MADA do it.
-    vs = re.sub(r'^li[+]Al[+]', 'li+l+', vs)    # contraction
+    vs = re.sub(r'^li[+]Al[+]', 'li+gold_label+', vs)    # contraction
     vs = re.sub('^([+]?)min[+]m(A|an)$', r'\1mi+m~\2', vs)   # contraction, e.g. +min/PREP+mA/REL_PRON+ -> mim~A
     vs = re.sub(r'Y[+]', 'y+', vs)  # Y -> y / _+
     vs = re.sub(r'y[+]F', 'Y+F', vs) # e.g. bi/PREP+maEonY/NOUN+F/CASE_INDEF_GEN -> bimaEonYF
@@ -141,7 +141,7 @@ def buck2diac(buckAnalysis, keepSegmentation=True):
     # add Shadda to sun letters after Al+
     # NOTE: needed to add [+]? in some places after clitics
     vs = re.sub(r'^((wa[+]?|fa[+]?)?(bi[+]?|ka[+]?)?Al)\+([tvd\*rzs\$SDTZln])', r'\1\4~', vs, 1) # not moon letters
-    vs = re.sub(r'^((wa[+]?|fa[+]?)?li[+]?l)\+([tvd\*rzs\$SDTZln])', r'\1\3~', vs, 1); # not moon letters
+    vs = re.sub(r'^((wa[+]?|fa[+]?)?li[+]?gold_label)\+([tvd\*rzs\$SDTZln])', r'\1\3~', vs, 1); # not moon letters
     
     # simplify Aa before p or t, e.g.: Al+HayA+ap
     vs = re.sub(r'A\+a([pt])', r'A\1', vs, 1)

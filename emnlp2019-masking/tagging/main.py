@@ -131,7 +131,7 @@ def collapse_continuous_names_with_dashes(words_list, ner_list, ev_claim):
     list_of_indices_to_collapse=[]
     total_string_length=len(ner_list)
     #in this code, triggers happen only when a continuous bunch of nER tags end. Eg: PERSON , PERSON, O.
-    for index, (curr_ner, curr_word) in enumerate(zip(ner_list, words_list)):
+    for index, (curr_ner, curr_word) in enumerate((zip(ner_list, words_list))):
         # skip as many indices as we have already collapsed. This is because say if NEW YORK POST is collapsed into one entity, we don't want it to add post again to any of dictionaries or
         # new sentence words
         if index in (list_of_indices_to_collapse):
@@ -432,10 +432,15 @@ def create_parser():
                         help='name of the folder to write output to')
     parser.add_argument('--smart_ner_sstags_output_file_name', type=str, default='smartner_sstags_merged.jsonl',
                         help='name of the folder to write output to')
+    parser.add_argument('--smart_ner_output_file_name', type=str, default='smart_ner_output_file_name.jsonl',
+                        help='name of the folder to write output of overlap aware ner creation process to')
     parser.add_argument('--input_folder_for_smartnersstagging_merging', type=str, default='sstagged_files',
                         help='name of the folder where sstagged files will be read from')
     parser.add_argument('--log_level', type=str, default='INFO',
                         help='name of the folder where sstagged files will be read from')
+    parser.add_argument('--back_off_to_ner', default=False, type=str2bool,
+                        help='if you hit length mismatch in sstagging+smartner, just replace teh sentence with smartner tags alone',
+                        metavar='BOOL')
     print(parser.parse_args())
     return parser
 
@@ -462,24 +467,6 @@ def collapseAndCreateSmartTagsSSNer(claim_words, claim_ner_tags, evidence_words,
 
 
 
-def collapseAndReplaceWithNerSmartly(claim_words,claim_ner_tags, evidence_words, evidence_ner_tags):
-        ev_claim="c"
-        neutered_claim, dict_token_ner_newner_claims, dict_newNerBasedName_lemma = collapse_continuous_names(claim_words,
-                                                                                                      claim_ner_tags,
-                                                                                                      ev_claim)
-
-        ev_claim = "e"
-        new_sent_after_collapse, dict_tokenner_newner_evidence, dict_newner_token_ev = collapse_continuous_names(evidence_words, evidence_ner_tags, ev_claim)
-
-        neutered_evidence, found_intersection = check_exists_in_claim(new_sent_after_collapse,
-                                                                       dict_tokenner_newner_evidence, dict_newner_token_ev,
-                                                                      dict_token_ner_newner_claims)
-
-
-        claimn = " ".join(neutered_claim)
-        evidencen = " ".join(neutered_evidence)
-
-        return claimn,evidencen
 
 #whenever you see a preposition in this sentence, replace the NER tags of this sentence with PREP. This is
 #being done so that when we do neutering, the PREP also gets added in along with the NER tags. Just another
@@ -584,6 +571,13 @@ def remove_punctuations(word):
           replace_with_currency_symbol="<CUR>",
           lang="en"  # set to 'de' for German special handling
           )
+def add_to_dict(key,dict):
+    if key in dict.keys():
+        old_value=dict[key]
+        new_value=old_value+1
+        dict[key]=new_value
+    else:
+        dict[key]=1
 
 
 if __name__ == '__main__':
@@ -598,29 +592,73 @@ if __name__ == '__main__':
             if (args.log_level=="ERROR"):
                 LOG.setLevel(logging.ERROR)
 
+    filename = args.inputFile
+    cwd = os.getcwd()
+    input_file_full_path= os.path.join(cwd, filename)
+    assert (os.path.exists(input_file_full_path)is True)
+    all_claims, all_evidences, all_labels = read_rte_data(input_file_full_path, args)
+
     if(args.use_docker==True):
         API = ProcessorsBaseAPI(hostname="127.0.0.1", port=8886, keep_alive=True)
     else:
-        API = ProcessorsAPI(port=args.pyproc_port)
+        API = ProcessorsAPI(hostname="127.0.0.1", keep_alive=True,port=args.pyproc_port)
 
-    filename=args.inputFile
-    #if not (args.run_on_dummy_data):
-    all_claims, all_evidences, all_labels=read_rte_data(filename,args)
+
     all_claims_neutered=[]
     all_evidences_neutered = []
+
+    assert os.path.exists(args.outputFolder) is True
+    smart_ner_output_file_name = os.path.join(args.outputFolder, args.smart_ner_output_file_name)
+
+    with open(smart_ner_output_file_name, 'w') as outfile:
+        outfile.write('')
+    assert os.path.exists(smart_ner_output_file_name) is True
+
+    if (args.create_smart_NERs == True):
+        for claim,evidence,label in tqdm(zip(all_claims, all_evidences,all_labels),total=len(all_claims),desc="create_smart_NERs"):
+            claim_ann, ev_ann = annotate(claim, evidence, API)
+            assert(claim_ann) is not None
+            assert (ev_ann) is not None
+            claim_neutered, ev_neutered = collapseAndCreateSmartTagsSSNer(claim_ann.words, claim_ann._entities, ev_ann.words,
+                                                                           ev_ann._entities)
+            all_claims_neutered.append(claim_neutered)
+            all_evidences_neutered.append(ev_neutered)
+
+            with open(smart_ner_output_file_name, 'a+') as outfile:
+                write_json_to_disk(claim_neutered, ev_neutered, label, outfile)
+                args.create_smart_NERs = False
+                args.merge_ner_ss = True
+        sys.exit(1)
+
 
     merge_sstag_nertag_output_file = os.path.join(args.outputFolder, args.smart_ner_sstags_output_file_name)
     with open(merge_sstag_nertag_output_file, 'w') as outfile:
         outfile.write('')
-    # go through all the files that start with the word claim., split its name, find its unique id, create the name of the evidence_from_lexicalized_data file with this id, and open it.
+
+
+
     ss_claim_file_full_path= ""
     ssfilename_ev=""
     files_skipped=0
     files_read=0
+    gold_labels_of_data_points_skipped={"discuss":1,
+                                        "agree": 1,
+                                        "disagree": 1,
+                                        "unrelated": 1
+                                        }
     assert (os.path.isdir(args.input_folder_for_smartnersstagging_merging)is True)
+
+    '''
+            # This part is for merging smartner and ss tags.
+            # After SS tagging we had the converted files with name like claim_uniqueid
+            # go through all the files that start with the word claim., split its name, 
+            # find its unique id, create the name of the evidence_from_lexicalized_data file with this id, and open it.
+            '''
     for index,file in enumerate(listdir(args.input_folder_for_smartnersstagging_merging)):
+
                 LOG.info(f" index: {index}")
                 try:
+                    found_length_mismatch = False
                     file_full_path=join(args.input_folder_for_smartnersstagging_merging,file)
                     if isfile(file_full_path):
                         if file.startswith("claim"):
@@ -635,6 +673,7 @@ if __name__ == '__main__':
                             if not ss_claim_file_full_path:
                                 LOG.error("ss_claim_file_full_path is empty.skipping this datapoint")
                                 files_skipped = files_skipped + 1
+
                                 continue;
                             if not ssfilename_ev:
                                 LOG.error("ssfilename_ev is empty. skipping this datapoint")
@@ -648,6 +687,8 @@ if __name__ == '__main__':
                             LOG.info(f"*************************")
                             LOG.info(f"value of ss_claim_file_full_path is:{ss_claim_file_full_path}")
                             LOG.info(f"value of ssfilename_ev is:{ssfilename_ev}")
+                            for k,v in gold_labels_of_data_points_skipped.items():
+                                LOG.info(f"{str(k)}:,{str(v)}")
 
 
                             if (args.merge_ner_ss):
@@ -671,7 +712,7 @@ if __name__ == '__main__':
                                 dataPointId_int=int(dataPointId)
                                 claim_before_removing_punctuations = all_claims[dataPointId_int]
                                 evidence_from_lexicalized_data = all_evidences[dataPointId_int]
-                                l = all_labels[dataPointId_int]
+                                gold_label = all_labels[dataPointId_int]
                                 LOG.debug(f"value of evidence_from_lexicalized_data from lexicalized data:{evidence_from_lexicalized_data}")
                                 if(args.remove_punctuations==True):
                                     evidence_from_lexicalized_data=remove_punctuations(evidence_from_lexicalized_data)
@@ -699,18 +740,21 @@ if __name__ == '__main__':
                                 claim_ner_tags = claim_ann._entities
                                 ev_ner_tags= ev_ann._entities
 
+
+
                                 lcet = len(claims_sstags)
                                 lesst = len(claim_ner_tags)
                                 LOG.debug(f"value of len(claims_sstags) is :{lcet}")
                                 LOG.debug(f"value claim_ner_tags is :{lesst}")
                                 if not (lcet == lesst):
                                     LOG.error(
-                                        "value of len(claims_sstags) and len(claim_ner_tags) don't match ")
+                                        f"value of len(claims_sstags) and len(claim_ner_tags) don't match and the gold label is:{gold_label} ")
+                                    add_to_dict(gold_label,gold_labels_of_data_points_skipped)
                                     files_skipped = files_skipped + 1
                                     LOG.error(f"total files skipped so far is {files_skipped}")
                                     for x,y,z in zip(claims_sstags, claim_ner_tags,sstagged_claim_words):
                                         LOG.error(f"{x},{y},{z}")
-                                    continue
+                                        found_length_mismatch=True
 
 
                                 lcet = len(ev_sstags)
@@ -722,80 +766,96 @@ if __name__ == '__main__':
                                         "value of len(ev_sstags) and len(ev_ner_tags) don't match ")
                                     files_skipped = files_skipped + 1
                                     LOG.error(f"total files skipped so far is {files_skipped}")
+                                    add_to_dict(gold_label, gold_labels_of_data_points_skipped)
                                     for x,y,z in zip(ev_sstags, ev_ner_tags,sstagged_ev_words):
                                         LOG.error(f"{x},{y},{z}")
-                                    continue
+                                    found_length_mismatch = True
 
+                        else:
+                            continue
+                    else:
+                        continue
 
+                    if(found_length_mismatch==False):
+                                    claim_ner_ss_tags_merged = mergeSSandNERTags(claims_sstags, claim_ner_tags)
+                                    ev_ner_ss_tags_merged = mergeSSandNERTags(ev_sstags, ev_ner_tags)
+                                    LOG.debug(f"value of claim_ner_tags is:{claim_ner_tags}")
+                                    LOG.debug(f"value of ev_ner_tags is:{ev_ner_tags}")
+                                    LOG.debug(f"value of claims_sstags is:{claims_sstags}")
+                                    LOG.debug(f"value of ev_sstags is:{ev_sstags}")
+                                    LOG.debug(f"value of claim_ner_ss_tags_merged is:{claim_ner_ss_tags_merged}")
+                                    LOG.debug(f"value of ev_ner_ss_tags_merged is:{ev_ner_ss_tags_merged}")
 
-                                claim_ner_ss_tags_merged = mergeSSandNERTags(claims_sstags, claim_ner_tags)
-                                ev_ner_ss_tags_merged = mergeSSandNERTags(ev_sstags, ev_ner_tags)
-
-
-                                claim_pos_tags = claim_ann.tags
-                                ev_pos_tags = ev_ann.tags
-
-                                # LOG.debug(f"value of claim_pos_tags is:{claim_pos_tags}")
-                                # LOG.debug(f"value of ev_pos_tags is:{ev_pos_tags}")
-                                LOG.debug(f"value of claim_ner_tags is:{claim_ner_tags}")
-                                LOG.debug(f"value of ev_ner_tags is:{ev_ner_tags}")
-                                LOG.debug(f"value of claims_sstags is:{claims_sstags}")
-                                LOG.debug(f"value of ev_sstags is:{ev_sstags}")
-                                LOG.debug(f"value of claim_ner_ss_tags_merged is:{claim_ner_ss_tags_merged}")
-                                LOG.debug(f"value of ev_ner_ss_tags_merged is:{ev_ner_ss_tags_merged}")
-
-                                LOG.error(f"total files skipped so far is {files_skipped}")
-                                if(args.convert_prepositions==True):
-                                    claim_ner_ss_tags_merged, ev_ner_ss_tags_merged=replacePrepositionsWithPOSTags(claim_pos_tags, ev_pos_tags, claim_ner_ss_tags_merged, ev_ner_ss_tags_merged)
-
-                                if (args.create_smart_NERs == True):
-
-                                    claim_neutered, ev_neutered =collapseAndReplaceWithNerSmartly(claim_ann.words, claim_ner_ss_tags_merged, ev_ann.words, ev_ner_ss_tags_merged)
-
-
-
-                                if (args.merge_ner_ss == True):
-                                    lcet = len(claim_ann.words)
-                                    lesst = len(claim_ner_ss_tags_merged)
-                                    LOG.debug(f"value of len(claim_ann.words) is :{lcet}")
-                                    LOG.debug(f"value len(claim_ner_ss_tags_merged) :{lesst}")
-                                    if not (lcet == lesst):
-                                        LOG.error(
-                                            "value of len(claim_ann.words) and value len(claim_ner_ss_tags_merged) don't match ")
-
-
-                                        files_skipped = files_skipped + 1
-                                        LOG.error(f"total files skipped so far is {files_skipped}")
-                                        for x, y in zip(claim_ann.words, claim_ner_ss_tags_merged):
-                                            LOG.error(f"{x},{y}")
+                    else:
+                                if found_length_mismatch==True and args.back_off_to_ner == True:
+                                    args.create_smart_NERs = True
+                                    args.merge_ner_ss = False
+                                else:
+                                    if found_length_mismatch == True:
                                         continue
 
-                                    lcet = len(ev_ann.words)
-                                    lesst = len(ev_ner_ss_tags_merged)
-                                    LOG.debug(f"value of len(ev_ann.words) is :{lcet}")
-                                    LOG.debug(f"value len(ev_ner_ss_tags_merged) is :{lesst}")
-                                    if not (lcet == lesst):
-                                        LOG.error(
-                                            "value of len(ev_sstags) and len(ev_ner_tags) don't match ")
+                    claim_pos_tags = claim_ann.tags
+                    ev_pos_tags = ev_ann.tags
 
-                                        files_skipped = files_skipped + 1
-                                        LOG.error(f"total files skipped so far is {files_skipped}")
-                                        for x,y in zip(ev_ann.words, ev_ner_ss_tags_merged):
-                                            LOG.error(f"{x},{y}")
-                                        continue
+                    LOG.error(f"total files skipped so far is {files_skipped}")
 
 
+                    if(args.convert_prepositions==True):
+                        claim_ner_ss_tags_merged, ev_ner_ss_tags_merged=replacePrepositionsWithPOSTags(claim_pos_tags, ev_pos_tags, claim_ner_ss_tags_merged, ev_ner_ss_tags_merged)
 
-                                    claim_neutered, ev_neutered =collapseAndCreateSmartTagsSSNer(claim_ann.words, claim_ner_ss_tags_merged, ev_ann.words, ev_ner_ss_tags_merged)
+
+                    if (args.merge_ner_ss == True):
+                        lcet = len(claim_ann.words)
+                        lesst = len(claim_ner_ss_tags_merged)
+                        LOG.debug(f"value of len(claim_ann.words) is :{lcet}")
+                        LOG.debug(f"value len(claim_ner_ss_tags_merged) :{lesst}")
+                        if not (lcet == lesst):
+                            LOG.error(
+                                "value of len(claim_ann.words) and value len(claim_ner_ss_tags_merged) don't match ")
 
 
-                                with open(merge_sstag_nertag_output_file, 'a+') as outfile:
-                                    write_json_to_disk(claim_neutered, ev_neutered,l.upper(),outfile)
+                            files_skipped = files_skipped + 1
+                            LOG.error(f"total files skipped so far is {files_skipped}")
+                            add_to_dict(gold_label, gold_labels_of_data_points_skipped)
+                            for x, y in zip(claim_ann.words, claim_ner_ss_tags_merged):
+                                LOG.error(f"{x},{y}")
+                            continue
+
+                        lcet = len(ev_ann.words)
+                        lesst = len(ev_ner_ss_tags_merged)
+                        LOG.debug(f"value of len(ev_ann.words) is :{lcet}")
+                        LOG.debug(f"value len(ev_ner_ss_tags_merged) is :{lesst}")
+                        if not (lcet == lesst):
+                            LOG.error(
+                                "value of len(ev_sstags) and len(ev_ner_tags) don't match ")
+
+                            files_skipped = files_skipped + 1
+                            LOG.error(f"total files skipped so far is {files_skipped}")
+                            add_to_dict(gold_label, gold_labels_of_data_points_skipped)
+                            for x,y in zip(ev_ann.words, ev_ner_ss_tags_merged):
+                                LOG.error(f"{x},{y}")
+                            continue
+
+
+
+                        claim_neutered, ev_neutered =collapseAndCreateSmartTagsSSNer(claim_ann.words, claim_ner_ss_tags_merged, ev_ann.words, ev_ner_ss_tags_merged)
+
+
+                    with open(merge_sstag_nertag_output_file, 'a+') as outfile:
+                        write_json_to_disk(claim_neutered, ev_neutered, gold_label.upper(), outfile)
+                        args.create_smart_NERs = False
+                        args.merge_ner_ss = True
 
 
 
                 except IOError:
                     LOG.error('An error occured trying to read the file.')
+                    LOG.error(f"value of current datapoint is {dataPointId}")
+                    traceback.print_exc()
+                    continue
+
+                except IndexError:
+                    LOG.error('An index was out of range.')
                     LOG.error(f"value of current datapoint is {dataPointId}")
                     traceback.print_exc()
                     continue
