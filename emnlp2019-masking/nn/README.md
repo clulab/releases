@@ -15,8 +15,8 @@ source activate rte
 pip install sklearn
 pip install jsonlines
 mkdir outputs
-wget http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_train_lex_3labels_119k_smartner_3labels_no_lists_evidence_not_sents.jsonl data-local/rte/fever/train/
-wget http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_dev_lex_3labels_26k_no_lists_evidence_not_sents.jsonl data-local/rte/fever/dev/
+wget -O http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_train_lex_3labels_119k_smartner_3labels_no_lists_evidence_not_sents.jsonl data-local/rte/fever/train/
+wget -O http://clulab.cs.arizona.edu/data/emnlp2019-delex/fever_dev_lex_3labels_26k_no_lists_evidence_not_sents.jsonl data-local/rte/fever/dev/
 pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119 *
 conda install pytorch-cpu torchvision-cpu -c pytorch *
 
