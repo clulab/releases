@@ -14,10 +14,11 @@ conda create --name rte python=3 numpy scipy pandas nltk tqdm
 source activate rte
 pip install sklearn
 pip install jsonlines
-pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119
+pip install git+ssh://git@github.com/pytorch/vision@c31c3d7e0e68e871d2128c8b731698ed3b11b119 *
 conda install pytorch-cpu torchvision-cpu -c pytorch *
 ```
 
+*: for pytorch instinstallation get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
 
 To train on FEVER, run the following command in the folder `pytorch/` :
 
@@ -28,7 +29,7 @@ python -u main.py --dataset fever --arch simple_MLP_embed_RTE --pretrained_worde
 ```
 
 ## Notes
-- for pytorch instinstallation get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
+
 
 - Note that in this particular case the file train_full_with_evi_sents is a collection of all claims and the corresponding
  evidences in the training data of [FEVER](http://fever.ai/) challenge. This is not available in public unlike the FEVER data. 
