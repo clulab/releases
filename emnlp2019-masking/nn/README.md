@@ -20,7 +20,7 @@ conda install pytorch-cpu torchvision-cpu -c pytorch *
 
 ```
 
-*: for pytorch instinstallation get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
+*: These are for installing pytorch. You should get the right command from the pytorch [homepage](https://pytorch.org/) based on your OS and configs.
 
 To train on FEVER, run the following command in the folder `pytorch/` :
 
