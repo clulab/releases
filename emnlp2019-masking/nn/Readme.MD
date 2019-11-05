@@ -7,7 +7,7 @@ shared task.
 
  
 
-#### Testing:
+## Testing with AllenNLP:
 
 To test using Allennlp based code:
 
@@ -100,9 +100,9 @@ wget https://storage.googleapis.com/fact_verification_mithun_files/fnc_test_smar
 ```
 
 
-### To test without Allennlp
+## To test without Allennlp
  
-Here is a version of the same code which runs without AllenNLP. To install the dependencies and prepare the datasets 
+This particular version of Allennlp used above runs into compatibility issues every time a new pytorch version is released. If you'd rather work without AllenNLP, here is a version of the same code which runs without AllenNLP. To install the dependencies and prepare the datasets 
 do the following commands:
 
 ```
