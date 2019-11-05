@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="active-configuration" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="checkstyle-version" value="8.9" />
+        <entry key="copy-libs" value="false" />
+        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="location-2" value="LOCAL_FILE:/Users/sindhuja.sridharan/repositories/data-sync/config/checkstyle/checkstyle.xml:Reap" />
+        <entry key="property-2.com.puppycrawl.tools.checkstyle.checks.sizes.LineLength.ignorePattern" value="" />
+        <entry key="property-2.com.puppycrawl.tools.checkstyle.checks.sizes.LineLength.max" value="" />
+        <entry key="scan-before-checkin" value="false" />
+        <entry key="scanscope" value="JavaOnlyWithTests" />
+        <entry key="suppress-errors" value="true" />
+        <entry key="thirdparty-classpath" value="$USER_HOME$/repositories/data-sync/config/checkstyle/checkstyle.xml" />
+      </map>
+    </option>
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.19.0" />
+      </map>
+    </option>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+</project>
