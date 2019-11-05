@@ -184,5 +184,5 @@ python main.py --run_type train --database_to_train_with fever_delex
 - [fever_baseline_code](https://github.com/sheffieldnlp/fever-naacl-2018)
 - [fnc_baseline code](https://github.com/FakeNewsChallenge/fnc-1)
 
-##### Disclaimer: 
+##### Note: 
 Though we have tried our best, it is possible that there might be bugs or broken links. Please get in touch with **mithunpaul@email.arizona.edu** if you can't get something to run.
