@@ -9,6 +9,7 @@ This code has two steps:
 Please refer to the instructions in the respective folders.
 
 Citation:
+```
 
 @inproceedings{suntwal-etal-2019-importance,
     title = "On the Importance of Delexicalization for Fact Verification",
@@ -26,3 +27,4 @@ Citation:
     pages = "3404--3409",
     
 }
+```
