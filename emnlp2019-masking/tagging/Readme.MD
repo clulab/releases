@@ -20,7 +20,7 @@ mkdir -p sstagged_files
 ```
 
 **note**: we are using an in house tool 
-called [pyprocessors]((https://py-processors.readthedocs.io/en/latest/)) (which inturn uses taggers like Stanford's CoreNLP)
+called [pyprocessors](https://py-processors.readthedocs.io/en/latest/) (which inturn uses taggers like Stanford's CoreNLP)
 to do annotation/NER/POS tagging etc. 
 There are two ways of running pyprocessors: using a jar file and a docker.
 We suggest you use a docker if you can since that is faster. Nevertheleses we are providing commands for 
