@@ -65,11 +65,9 @@ python main.py --pyproc_port 8886 --use_docker False --convert_prepositions Fals
 
 #### Note:
 
-The code expects input file to be in data/file_to_delex.jsonl. You can use the below sample file from mnli.
+The code expects input file to be in data/ and of the same format as the sample file provided:`data/dev_fourlabels_new.jsonl`.
 
-`
-wget -O data/file_to_delex.jsonl https://storage.googleapis.com/fact_verification_mithun_files/mnli/mu_train.jsonl
-`
+
 
 #### Explanation of command line arguments
 
