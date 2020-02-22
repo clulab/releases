@@ -30,7 +30,7 @@ both below.
 
 #### commands to run if you are using docker for pyprocessors:
 
-Please install and start the java server as given in the [homepage](https://github.com/clu-ling/py-processors) of pyprocessors
+
 
 (install and start [docker](https://www.docker.com/) if you haven't)
 
@@ -55,6 +55,8 @@ Note: Also to verify that the pyprocessors server is running open a browser and 
 which says "pyprocessors server" the server is running
 
 #### commands to run if you are using java server for pyprocessors:
+
+Please install and start the java server as given in the [documentation](https://py-processors.readthedocs.io/en/latest/) of pyprocessors
 `
 python main.py --pyproc_port 8886 --use_docker False --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
 `
