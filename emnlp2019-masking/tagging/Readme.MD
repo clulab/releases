@@ -34,7 +34,7 @@ both below.
 
 (install and start [docker](https://www.docker.com/) if you haven't)
 
-`source activate delex`
+
 
 `docker pull myedibleenso/processors-server:latest`
 
