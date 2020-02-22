@@ -57,6 +57,13 @@ which says "pyprocessors server" the server is running
 python main.py --pyproc_port 8886 --use_docker False --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
 `
 
+#### Note:
+
+The code expects input file to be in data/file_to_delex.jsonl. You can use the below sample file from mnli.
+
+`
+wget -O data/file_to_delex.jsonl https://storage.googleapis.com/fact_verification_mithun_files/mnli/mu_train.jsonl
+`
 
 #### Explanation of command line arguments
 
