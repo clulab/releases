@@ -282,19 +282,9 @@ This can be run using
 python main.py --use_docker false  --inputFile data/fever_original_dev_our_test_partition.jsonl --convert_prepositions False --create_smart_NERs False --merge_ner_ss True --input_folder_for_smartnersstagging_merging amalgram/pysupersensetagger-2.0/outputs_sstagged/ --outputFolder sstag_ner_merged_files_fever_test --remove_punctuations False --log_level ERROR --pyproc_port 8886 --back_off_to_ner True
 ```
 
-## checklist to check before starting merging 
-        
-- git pull
-- source activate delex
-- make sure you are in the folder that you match the sstagged files with eg: neuter_ner_fever_training
-- make sure input folder name is correct (eg:`--input_folder_for_smartnersstagging_merging amalgram/pysupersensetagger-2.0/outputs_sstagged//`)..
-- make sure there are no .pred.tags.pred.tags file in the input_folder()
-- make sure you are providing the same data/inputfile i.e plain text file (Eg:-inputFile data/fever_dev_split_fourlabels.jsonl)
-- create output folder if that doesn't exist : `mkdir sstag_ner_merged_files`
-- give a new pyproc port for every run
-- you can check the total number of data points written by doing `wc -l sstag_ner_merged_files/smartner_sstags_merged.jsonl `
-- you can keep an eye on the number of files converted/skipped by doing `tail -f merging_sstag_smartnertag.log `
-
-
 ## extra info 
 - for cleaning/removing punctuations i use [this](https://github.com/jfilter/clean-text)
+
+## Contact
+
+please email `mithunpaul@email.arizona.edu` for questions.
