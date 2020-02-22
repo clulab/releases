@@ -51,7 +51,7 @@ or
 python main.py --pyproc_port 8886 --use_docker True --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
 `
 
-Note: Also to verify that the pyprocessors server is running open a browser and type  `localhost:8886`. If you see an output
+Note:  to verify that the pyprocessors server is running open a browser and type  `localhost:8886`. If you see an output
 which says "pyprocessors server" the server is running
 
 #### commands to run if you are using java server for pyprocessors:
@@ -65,7 +65,9 @@ python main.py --pyproc_port 8886 --use_docker False --convert_prepositions Fals
 
 #### Note:
 
-The code expects input file to be in data/ and of the same format as the sample file provided:`data/dev_fourlabels_new.jsonl`.
+- The code expects input file to be in data/ and of the same format as the sample file provided:`data/dev_fourlabels_new.jsonl`.
+
+- the output will be written to file `outputs/smart_ner_output_file_name.jsonl`
 
 
 
