@@ -45,7 +45,7 @@ both below.
 or
 
 
-```docker start procserv``` (if you already created a docker container)
+```docker start procserv``` (if you already created a docker container by name `procserv`)
 
 `
 python main.py --pyproc_port 8886 --use_docker True --convert_prepositions False --create_smart_NERs True --inputFile data/file_to_delex.jsonl
