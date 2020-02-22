@@ -30,6 +30,8 @@ both below.
 
 #### commands to run if you are using docker for pyprocessors:
 
+Please install and start the java server as given in the [homepage](https://github.com/clu-ling/py-processors) of pyprocessors
+
 (install and start [docker](https://www.docker.com/) if you haven't)
 
 `source activate delex`
