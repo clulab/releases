@@ -2,9 +2,12 @@
 
 ## overlap aware ner convertor
 
-This code takes a claim and evidence pairs, finds where all NER tags exist and replace them smartly. refer examples below. 
+This code takes a claim and evidence pairs, finds where all NER tags exist and replace them "smartly" (Refer examples below.) 
 This is being done to show the NN model that there is overlap between claim and evidence.
 
+### Steps:
+
+After downloading this code do:
 ```
 conda create --name delex python=3
 source activate delex
