@@ -11,10 +11,9 @@ source activate delex
 pip install tqdm
 pip install clean-text
 pip install git+https://github.com/myedibleenso/py-processors.git
-mkdir outputs
-mkdir sstagged_files
-chmod 700 prereq.sh
-./prereq.sh
+mkdir -p outputs
+mkdir -p sstagged_files
+
 ```
 
 **note**: we are using an in house tool 
