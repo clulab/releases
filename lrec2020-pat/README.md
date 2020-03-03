@@ -26,3 +26,14 @@ pip install networkx
 | BiLSTM hidden-size                     | 600       |
 | BiLSTM dropout                         | 0.3       |
 | MLP Hidden Layers                      | 500, 150  |
+
+Random seeds used:
+
+UD
+```
+1 2449 9959019
+```
+SD
+```
+1 2449 4973 3499854 9959019
+```
