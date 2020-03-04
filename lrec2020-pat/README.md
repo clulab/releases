@@ -10,12 +10,13 @@ pip install networkx
 ```
 
 ### Data
-We used Universal Dependencies 2.2
+We used Universal Dependencies 2.2.
 
 For each dataset, we filtered non-integer id and deleted the comments.
 
 ### Hyperparameters
 
+The parameters used for our 'un-tuned' version. This set of parameters were selected out of 100 possible configurations.
 | Parameter                              | Value     |
 |----------------------------------------|-----------|
 | Early stopping                         | 3         |
@@ -31,6 +32,29 @@ For each dataset, we filtered non-integer id and deleted the comments.
 | BiLSTM hidden-size                     | 600       |
 | BiLSTM dropout                         | 0.3       |
 | MLP Hidden Layers                      | 500, 150  |
+
+The parameters used for our 'tuned' version. For each language, we selected the best performing parameters from a search space of 12 configurations. Same search space was used for all languages.
+
+|         | Learning rate | Dropout | MLP Hidden Layers |
+|---------|---------------|---------|-------------------|
+| ar      | 0.0025        | 0.50    | 400, 150          |
+| bu      | 0.0025        | 0.50    | 400, 150          |
+| ca      | 0.0025        | 0.50    | 400, 150          |
+| cs      | 0.0020        | 0.50    | 500, 150          |
+| de      | 0.0020        | 0.55    | 500, 150          |
+| en      | 0.0020        | 0.60    | 500, 150          |
+| en (SD) | 0.0020        | 0.55    | 500, 150          |
+| es      | 0.0020        | 0.50    | 500, 150          |
+| et      | 0.0020        | 0.50    | 500, 150          |
+| fr      | 0.0020        | 0.60    | 500, 150          |
+| it      | 0.0020        | 0.55    | 500, 150          |
+| ja      | 0.0025        | 0.50    | 400, 150          |
+| nl      | 0.0025        | 0.50    | 400, 150          |
+| no      | 0.0020        | 0.55    | 500, 150          |
+| ro      | 0.0025        | 0.50    | 400, 150          |
+| ru      | 0.0020        | 0.50    | 500, 150          |
+
+The parameters not appearing in the table are kept the same as in 'un-tuned' version
 
 Random seeds used:
 
