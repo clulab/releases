@@ -14,6 +14,15 @@ We used Universal Dependencies 2.2.
 
 For each dataset, we filtered non-integer id and deleted the comments.
 
+### Architecture
+![Architecture](architecture.png)
+
+For each word, we predict 
+* relative position of the head
+* label
+
+We use a BiLSTM that operates over our token representation (BERT (without fine-tuning) + word Embedding + char-level embedding + part-of-speech embedding). The resulted hidden state is then passed into an MLP. The result is then used to predict the head. To predict the label, we concatenate the MLP outputs of the current token and its predicted head.
+
 ### Hyperparameters
 
 The parameters used for our 'un-tuned' version. This set of parameters were selected out of 100 possible configurations.
