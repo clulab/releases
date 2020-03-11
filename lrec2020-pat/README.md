@@ -1,11 +1,16 @@
 # Parsing as Tagging
 
 ## Table of Contents
-1. [Environment set-up](#environment_setup)
-2. [Data](#data)
-3. [Architecture](#architecture)
-4. [Hyperparameters](#hyperparameters)
-5. [Run](#run)
+1. [Highlights](#highlights)
+2. [Environment set-up](#environment_setup)
+3. [Data](#data)
+4. [Architecture](#architecture)
+5. [Hyperparameters](#hyperparameters)
+6. [Run](#run)
+
+<a name="highlights"></a>
+### Highlights
+Treat the dependency parsing problem as a tagging problem. For each token, the tag to be predicted is the relative position of the corresponding head. 
 
 <a name="environment_setup"></a>
 ### Environment set-up
