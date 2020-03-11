@@ -1,5 +1,13 @@
 # Parsing as Tagging
 
+## Table of Contents
+1. [Environment set-up](#environment_setup)
+2. [Data](#data)
+3. [Architecture](#architecture)
+4. [Hyperparameters](#hyperparameters)
+5. [Run](#run)
+
+<a name="environment_setup"></a>
 ### Environment set-up
 ```
 conda create -n pat python=3
@@ -9,11 +17,14 @@ pip install pytorch-pretrained-bert
 pip install networkx
 ```
 
+<a name="data"></a>
 ### Data
 We used Universal Dependencies 2.2.
 
 For each dataset, we filtered non-integer id and deleted the comments.
 
+
+<a name="architecture"></a>
 ### Architecture
 ![Architecture](architecture.png)
 
@@ -23,6 +34,8 @@ For each word, we predict
 
 We use a BiLSTM that operates over our token representation (BERT (without fine-tuning) + word Embedding + char-level embedding + part-of-speech embedding). The resulted hidden state is then passed into an MLP. The result is then used to predict the head. To predict the label, we concatenate the MLP outputs of the current token and its predicted head.
 
+
+<a name="hyperparameters"></a>
 ### Hyperparameters
 
 The parameters used for our 'un-tuned' version. This set of parameters were selected out of 100 possible configurations.
@@ -44,6 +57,9 @@ The parameters used for our 'un-tuned' version. This set of parameters were sele
 
 The parameters used for our 'tuned' version. For each language, we selected the best performing parameters from a search space of 12 configurations. Same search space was used for all languages.
 
+<details>
+  <summary>Long table with hyperparameters per language</summary>
+  
 |         | Learning rate | Dropout | MLP Hidden Layers |
 |---------|---------------|---------|-------------------|
 | ar      | 0.0025        | 0.50    | 400, 150          |
@@ -62,6 +78,7 @@ The parameters used for our 'tuned' version. For each language, we selected the 
 | no      | 0.0020        | 0.55    | 500, 150          |
 | ro      | 0.0025        | 0.50    | 400, 150          |
 | ru      | 0.0020        | 0.50    | 500, 150          |
+</details>
 
 The parameters not appearing in the table are kept the same as in 'un-tuned' version
 
@@ -75,3 +92,23 @@ SD
 ```
 1 2449 4973 3499854 9959019
 ```
+
+<a name="run"></a>
+### Run
+In order to run, you have to create the environment, as described in [Environment set-up](#environment_setup).
+The next step is cloning the repository:
+```
+git clone https://github.com/clulab/releases
+cd releases/lrec2020-pat
+```
+We provide the data we used for English as an archive in ```data/UD_2.2```. To be able to use it, you must first unzip it:
+```
+mkdir data/UD_2.2/en
+unzip data/UD_2.2/en.zip -d data/UD_2.2/en
+```
+
+Now everything is ready. You can run using the following command:
+```
+python train.py data/UD_2.2/en/en_ewt-ud-train.conllu data/UD_2.2/en/en_ewt-ud-train.conllu --output data/UD_2.2/en/       --bert --random-seed 1       --learning-rate 0.0020 --beta1 0.7 --beta2 0.99 --cnn-ce --which-cuda 0 --use-head --weight-decay 0.000010 --dropout 0.60 --bilstm-num-layers 3 --bilstm-hidden-size 600 --mlp-hidden-size 500 --mlp-output-size 150 --bilstm-dropout 0.3
+```
+
