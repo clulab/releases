@@ -10,7 +10,11 @@
 
 <a name="highlights"></a>
 ### Highlights
-Treat the dependency parsing problem as a tagging problem. For each token, the tag to be predicted is the relative position of the corresponding head. 
+Treat the dependency parsing problem as a tagging problem. For each token, the tag to be predicted is the relative position of the corresponding head. Using the current token and its predicted head, we then predict the label.
+This simple architecture performs well. For example, we obtain <b>92.69%</b> UAS and <b>90.25%</b> LAS on English, <b>92.95%</b> UAS and <b>89.87%</b> LAS on French, and <b>88.44%</b> UAS and <b>83.44%</b> LAS on German.
+
+
+Our trained models are available at [OSF PaT](https://osf.io/xpr27/), together with the data we used.
 
 <a name="environment_setup"></a>
 ### Environment set-up
@@ -28,6 +32,7 @@ We used Universal Dependencies 2.2.
 
 For each dataset, we filtered non-integer id and deleted the comments.
 
+The exact data we used is available at [OSF PaT](https://osf.io/xpr27/)
 
 <a name="architecture"></a>
 ### Architecture
@@ -120,4 +125,4 @@ You can predict using the following command:
 ```
 predict.py data/UD_2.2/en/pat data/UD_2.2/en/en_ewt-ud-test.conllu --which-cuda 0
 ```
-Alternatively, you may also add ```--no-cycles --no-cycles-strategy greedy``` or ```--no-cycles --no-cycles-strategy optimal```
+Additionally, you may also add ```--no-cycles --no-cycles-strategy greedy``` or ```--no-cycles --no-cycles-strategy optimal```
