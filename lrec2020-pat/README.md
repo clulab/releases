@@ -50,6 +50,10 @@ We use a BiLSTM that operates over our token representation (BERT (without fine-
 ### Hyperparameters
 
 The parameters used for our 'un-tuned' version. This set of parameters were selected out of 100 possible configurations.
+
+<details>
+  <summary>Long table with the hyperparameters used. Tuned only on English</summary>
+
 | Parameter                              | Value     |
 |----------------------------------------|-----------|
 | Early stopping                         | 3         |
@@ -65,7 +69,7 @@ The parameters used for our 'un-tuned' version. This set of parameters were sele
 | BiLSTM hidden-size                     | 600       |
 | BiLSTM dropout                         | 0.3       |
 | MLP Hidden Layers                      | 500, 150  |
-
+</details>
 The parameters used for our 'tuned' version. For each language, we selected the best performing parameters from a search space of 12 configurations. Same search space was used for all languages.
 
 <details>
