@@ -52,7 +52,7 @@ We use a BiLSTM that operates over our token representation (BERT (without fine-
 The parameters used for our 'un-tuned' version. This set of parameters were selected out of 100 possible configurations.
 
 <details>
-  <summary>Long table with the hyperparameters used. Tuned only on English</summary>
+  <summary>Long table with the hyperparameters used for 'un-tuned' version</summary>
 
 | Parameter                              | Value     |
 |----------------------------------------|-----------|
