@@ -1,3 +1,6 @@
 [submodule "lrec2020-masking/phase2"]
 	path = lrec2020-masking/phase2
 	url = https://github.com/mithunpaul08/lrec2020-nn-code
+[submodule "lrec2020-masking/phase1"]
+	path = lrec2020-masking/phase1
+	url = https://github.com/mithunpaul08/neuter_ner
