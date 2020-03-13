@@ -12,7 +12,7 @@
 ### Highlights
 Treat the dependency parsing problem as a tagging problem. For each token, the tag to be predicted is the relative position of the corresponding head. Using the current token and its predicted head, we then predict the label.
 
-This simple architecture performs well. For example, we obtain <b>92.69%</b> UAS and <b>90.25%</b> LAS on English, <b>92.95%</b> UAS and <b>89.87%</b> LAS on French, and <b>88.44%</b> UAS and <b>83.44%</b> LAS on German.
+This simple architecture performs well. For example, we obtain <b>92.69%</b> UAS and <b>90.25%</b> LAS on English, <b>92.95%</b> UAS and <b>89.87%</b> LAS on French, and <b>88.44%</b> UAS and <b>83.44%</b> LAS on German, by only tuning on English.
 
 
 Our trained models are available at [OSF PaT](https://osf.io/xpr27/), together with the data we used.
