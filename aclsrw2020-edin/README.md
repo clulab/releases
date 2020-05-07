@@ -1,17 +1,14 @@
 # Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder: 
 
-This is the accompanying code for our ACL SRW 2020 [paper]() 
+This is the accompanying code and data for our ACL SRW 2020 [paper]() 
 
-## Train:
-
-`python train.py [trainning_data_dir] [development_data_dir] `
-
-## Test:
-
-`python test.py [model] [trainning_data_dir] [testing_data_dir]`
 
 ## Data
 ```
+You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki)
+
+You may also need a pre-trained embedding file and replace the file claimed in train.py with it.
+
 We put our rule-based system extracted sliver data here.
 
 ph_events.json contains all the phosphorylation events we extracted, lo_events.json contains all the localization events we extracted and ge_events.json contains all gene expression events we extracted.
@@ -38,6 +35,15 @@ They are lists of JSON objects follow this format:
 
 We have put the rules we used here in rules.yml
 ```
+
+## Train:
+
+`python train.py [trainning_data_dir] [development_data_dir] `
+
+## Test:
+
+`python test.py [model] [trainning_data_dir] [testing_data_dir]`
+
 Citation:
 ```
 
