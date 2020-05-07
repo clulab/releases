@@ -4,13 +4,13 @@ This is the accompanying code and data for our ACL SRW 2020 [paper]()
 
 
 ## Data
-```
+
 You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki)
 
 You may also need a pre-trained embedding file and replace the file claimed in train.py with it.
 
 We put our rule-based system extracted sliver data here.
-
+```
 ph_events.json contains all the phosphorylation events we extracted, lo_events.json contains all the localization events we extracted and ge_events.json contains all gene expression events we extracted.
 
 They are lists of JSON objects follow this format:
