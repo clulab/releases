@@ -10,7 +10,7 @@ This is the accompanying code for our ACL SRW 2020 [paper]()
 
 `python test.py [model] [trainning_data_dir] [testing_data_dir]`
 
-##Data
+## Data
 We put our rule-based system extracted sliver data here.
 
 ph_events.json contains all the phosphorylation events we extracted, lo_events.json contains all the localization events we extracted and ge_events.json contains all gene expression events we extracted.
