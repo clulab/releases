@@ -1,6 +1,6 @@
 # Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder: 
 
-This is the accompanying code and data for our ACL SRW 2020 [paper]() 
+This is the accompanying code and data for our ACL SRW 2020 [paper](http://clulab.cs.arizona.edu/papers/aclsrw2020-edin.pdf) 
 
 
 ## Data
