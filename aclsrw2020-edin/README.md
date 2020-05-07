@@ -9,8 +9,9 @@ You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bion
 
 You may also need a pre-trained embedding file and replace the file claimed in train.py with it.
 
-We put our rule-based system extracted sliver data here.
 ```
+We put our rule-based system extracted sliver data here.
+
 ph_events.json contains all the phosphorylation events we extracted, lo_events.json contains all the localization events we extracted and ge_events.json contains all gene expression events we extracted.
 
 They are lists of JSON objects follow this format:
