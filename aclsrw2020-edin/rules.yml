@@ -1,0 +1,1118 @@
+rules:
+- name: AutoPhosphorylation_syntax_1_noun
+  priority: ${ priority }
+  example: "EGFR autophosphorylation."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/auto ?phosphorylation/ & !word=/(?i)^de/ & tag=/^N/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = nn
+
+
+- name: AutoPhosphorylation_syntax_2_noun
+  priority: ${ priority }
+  example: "The autophosphorylation of EGFR."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/auto ?phosphorylation/ & !word=/(?i)^de/ & tag=/^N/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = prep_of
+
+
+- name: AutoPhosphorylation_syntax_1_verb
+  priority: ${ priority }
+  example: "EGFR is autophosphorylated."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/auto ?phosphorylate/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = /^nsubj/
+
+
+- name: AutoPhosphorylation_syntax_2_verb
+  priority: ${ priority }
+  example: "EGFR phosphorylates itself."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/"phosphorylate"/ & !word=/(?i)^(de|auto)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (?= (dobj|agent|prep_by) [word=itself]) /^nsubj/
+
+
+- name: AutoPhosphorylation_token_inresponseto
+  priority: ${ priority }
+  example: "The ability of the ability of the exogenous ErbB3 receptor to be tyrosine phosphorylated in response to stimulation with either EGF or neuregulin (NRG)"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    /(?i)^the$/ ability of the? [tag=JJ | word=mutant | mention=Mutant]{,2} @theme:BioChemicalEntity /proteins?/?
+    to (become | be) @site:Site? (?<trigger> /auto ?phosphorylated/)
+    in response to (stimulation with either?)? @cause:BioChemicalEntity
+    ((","|[tag=CC]) @cause:BioChemicalEntity)*
+
+- name: Phosphorylation_syntax_1a_verb
+  priority: ${ priority }
+  example: "We further showed, in a combined enzymatic assay, that human deoxycytidine kinase and UMP CMP kinase together phosphorylated araC, dFdC, and 2',3' dideoxycytidine to their diphosphate forms."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (dobj | xcomp) /conj_(and|or|nor)|dep|cc|nn|prep_of/{,2} (>> [word=by]){,2}
+
+
+- name: Phosphorylation_syntax_1b_verb
+  priority: ${ priority }
+  example: "Akt phosphorylates Ser487 on AMPK alpha1"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj? /prep_(at|on)|nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Phosphorylation_syntax_2a_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is phosphorylated by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is phosphorylated in vitro by DNA PK. ... reveals that XRCC1 is phosphorylated by the co immunoprecipitated DNA PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = >nsubjpass prep_of? /conj_(and|or|nor)|nn|cc/{,2}
+
+
+- name: Phosphorylation_syntax_2b_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is phosphorylated by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is phosphorylated in vitro by DNA PK. ... reveals that XRCC1 is phosphorylated by the co immunoprecipitated DNA PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = <vmod /conj_(and|or|nor)|nn|cc/{,2}
+
+
+- name: Phosphorylation_syntax_3a_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Phosphorylation_syntax_3b_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Phosphorylation_syntax_3e_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Phosphorylation_syntax_3f_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Phosphorylation_syntax_4_verb
+  priority: ${ priority }
+  example: "Hence ASPP2 can be phosphorylated at serine 827 by MAPK1 in vitro."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (nsubjpass /conj_(and|or|nor)|nn/{,2})
+
+
+- name: Phosphorylation_syntax_5_verb
+  priority: ${ priority }
+  example: "IKK contains two catalytic subunits, IKKalpha and IKKbeta, both of which are able to correctly phosphorylate IkappaB.  Its many abnormal phenotypes can be rescued via overexpressing Ras, an XXX that specifically phosphorylates ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj /nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Phosphorylation_syntax_6_verb
+  priority: ${ priority }
+  example: "We measured transcription activation in the presence of ASPP2, which is phosphorylated by Ras."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(VBN|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (< /xcomp|rcmod|appos/){1,2} /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Phosphorylation_syntax_verb_underwent
+  priority: ${ priority }
+  example: "We found that endogenous K Ras and H Ras underwent mono ubiquitination in HEK293T cells."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [word=/(?i)underwent/ & tag=/VB/ & !mention=ModificationTrigger] [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Phosphorylation_syntax_7_verb_wrong
+  priority: ${ priority }
+  example: "EGF is tyrosine phosphorylateed."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & word=/ed$/]
+    theme:BioChemicalEntity = <amod nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+- name: Phosphorylation_syntax_7_verb_correct
+  priority: ${ priority }
+  example: "EGF is tyrosine phosphorylateed."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylate/ & word=/ed$/]
+    theme:BioChemicalEntity = /nsubj|nsubjpass/ /appos|nn|conj_(and|or|nor)|cc/{,2} # the parser incorrectly assigns nsubj here...
+
+
+- name: Phosphorylation_syntax_1a_noun
+  priority: ${ priority }
+  example: "... which includes phosphorylation of PKC isozymes by phosphoinositide dependent protein kinases.  Ras phosphorylation of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Phosphorylation_syntax_1b_noun
+  priority: ${ priority }
+  example: "... which includes phosphorylation of PKC isozymes by phosphoinositide dependent protein kinases.  Ras phosphorylation of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = (/prep_/ nn{,2}){1,2}
+
+
+- name: Phosphorylation_syntax_2_noun
+  priority: ${ priority }
+  example: "Overexpressed PRAS40 suppressed the phosphorylation of S6K1 and 4E BP1 at their rapamycin sensitive phosphorylation sites, and reciprocally, overexpression of S6K1 or 4E BP1 suppressed phosphorylation of PRAS40 (Ser(183)) and its binding to raptor."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/] # nominal predicate
+    theme:BioChemicalEntity = prep_of? appos? /conj_(and|or|nor)|cc|nn/{,2}
+
+
+- name: Phosphorylation_syntax_3_noun
+  priority: ${ priority }
+  example: "ERK  mediated serine phosphorylation of the GAB1 adaptor has been shown to ..."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/ & !outgoing=prep_by] # nominal predicate
+    theme:BioChemicalEntity = prep_of appos? /conj_(and|or|nor)|cc|nn/{1,2}
+
+
+- name: Phosphorylation_syntax_4_noun
+  priority: ${ priority }
+  example: " ... mediated by inter Rad53 phosphorylation.  ASPP1 and ASPP2 have two conserved putative MAPK2 phosphorylation sites in their C terminus."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/ & !outgoing=/prep_(by|of)/]
+    theme:BioChemicalEntity = </conj_(and|or|nor)/? /conj_(and|or|nor)|cc|nn|prep_of/{,2}
+
+
+- name: Phosphorylation_syntax_5_noun
+  priority: ${ priority }
+  example: "Interestingly, we observed two conserved putative MAPK phosphorylation sites in ASPP1 and ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = < nn > /prep_in/ /conj_(and|or|nor)|cc|nn/{,2}
+
+
+- name: Phosphorylation_syntax_6_noun
+  priority: ${ priority }
+  example: "... the transcriptional cofactor beta catenin is destabilized via phosphorylation of ASPP1 by protein kinase GSK3beta in complex with Axin family members"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = (<prep_via? /prep_(at|on)/? prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}){1,2} /prep_(on|at)/?
+
+
+- name: Phosphorylation_syntax_7_noun
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/ & !outgoing=prep_of]
+    theme:BioChemicalEntity = < nsubj dobj prep_of appos? /nn|cc|conj/{,2}
+
+
+- name: Phosphorylation_syntax_8_noun
+  priority: ${ priority }
+  example: "RAS plays no role in the phosphorylation of Mek."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]
+    theme:BioChemicalEntity = prep_of appos? /nn|cc|conj/{,2} [!outgoing="prep_by"]
+
+
+- name: Phosphorylation_token_1_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine phosphorylation on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) /of/ [!tag=/^(V|JJ)/]{,2}? @theme:BioChemicalEntity (/^(on|at)$/ @site:Site)?
+
+
+- name: Phosphorylation_token_2_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine phosphorylation on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) /of/ [!tag=/^(V|JJ)/]{,2}? @BioChemicalEntity [tag="CC"] @theme:BioChemicalEntity
+
+
+- name: Phosphorylation_token_3_noun
+  priority: ${ priority }
+  example: " ... , thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) (/^(on|at)$/ @site:Site)? (?! [lemma=of|lemma=site])
+
+
+- name: Phosphorylation_token_4_noun
+  priority: ${ priority }
+  example: "Experiments revealed phosphorylation at Lys residues 104 and 147 of K Ras."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) [!tag=/^(V|JJ)/]{,2}? "at" []{1,10} @site:Site [word=/^(of|for)/] @theme:BioChemicalEntity
+
+
+- name: Phosphorylation_token_5_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine phosphorylation on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) on [!tag=/^(V|JJ)/]{,2}? @site:Site []{,2}? of []{,2}? @theme:BioChemicalEntity
+
+- name: Phosphorylation_token_6_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine phosphorylation on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) on [!tag=/^(V|JJ)/]{,2}? @site:Site []{,2}? of []{,2}? and @theme:BioChemicalEntity
+
+- name: Phosphorylation_token_7a_noun
+  priority: ${ priority }
+  example: "The effects of phosphorylation on Ras are not isoform specific."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma="effect"] of [lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) on @theme:BioChemicalEntity (at [!tag=/^(V|JJ)/]{1,2} @site:Site)?
+
+- name: Phosphorylation_token_8a_noun
+  priority: ${ priority }
+  example: "ERK(K156/H204) phosphorylation (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4}? @site:Site? ([tag=/^,|CC/] @site:Site)* ")" (?<trigger>[lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) (?! "of" @BioChemicalEntity)
+
+
+- name: Phosphorylation_token_8b_noun
+  priority: ${ priority }
+  example: "ERK(K156M/H204M) phosphorylation (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4} @site:Site? ")" (?<trigger>[lemma=/phosphorylation/ & !word=/(?i)^(de|auto)/]) (?! "of" @BioChemicalEntity)
+
+
+- name: Phosphorylation_token_4_verb
+  priority: ${ priority }
+  example: "Under the same conditions, ASPP2 (693 1128) fragment phosphorylated by p38 SAPK had very low levels of incorporated 32P."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity (?<trigger> [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag="VBN" & !mention=ModificationTrigger]) (by @cause:BioChemicalEntity)? (/^(on|at)$/ @site:Site)? (?! [tag="DT" | mention="BioEntity"])
+
+
+- name: Phosphorylation_token_5_verb
+  priority: ${ priority }
+  example: ""
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger])
+    @theme:BioChemicalEntity
+    (fragment? by @cause:BioChemicalEntity)?
+    (/^(on|at)$/ @site:Site)?
+
+
+- name: Phosphorylation_token_6_verb
+  priority: ${ priority }
+  example: "JAK3 phosphorylates three HuR residues (Y63, Y68, Y200)"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (@cause:BioChemicalEntity)? (?<trigger> [lemma=/phosphorylate/ & !word=/(?i)^(de|auto)/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]) [!tag=/^(V|JJ)/ & !word=by]{,2}? @theme:BioChemicalEntity protein? at (@site:Site ("," | and | as well as){,2})* @site:Site
+
+
+- name: Phosphorylation_token_inresponseto
+  priority: ${ priority }
+  example: "the ability of the exogenous ErbB3 receptor to be tyrosine phosphorylated in response to stimulation with either EGF or neuregulin (NRG)"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (/(?i)^the$/ ability of the?)? [tag=JJ | word=mutant | mention=Mutant]{,2} @theme:BioChemicalEntity /proteins?/?
+    to (become | be) @site:Site? (?<trigger> "phosphorylated")
+    in response to (stimulation with either?)? @cause:BioChemicalEntity
+    ((","|[tag=CC]) @cause:BioChemicalEntity)*
+
+- name: Localization_syntax_1a_verb
+  priority: ${ priority }
+  example: "We further showed, in a combined enzymatic assay, that human deoxycytidine kinase and UMP-CMP kinase together detect|localiz|locat|releas|secret|translocatd araC, dFdC, and 2',3'-dideoxycytidine to their diphosphate forms."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (dobj | xcomp) /conj_(and|or|nor)|dep|cc|nn|prep_of/{,2} (>> [word=by]){,2}
+
+
+- name: Localization_syntax_1b_verb
+  priority: ${ priority }
+  example: "Akt detect|localiz|locat|releas|secret|translocats Ser487 on AMPK-alpha1"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj? /prep_(at|on)|nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Localization_syntax_2a_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is detect|localiz|locat|releas|secret|translocatd by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is detect|localiz|locat|releas|secret|translocatd in vitro by DNA-PK. ... reveals that XRCC1 is detect|localiz|locat|releas|secret|translocatd by the co-immunoprecipitated DNA-PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = >nsubjpass prep_of? /conj_(and|or|nor)|nn|cc/{,2}
+
+
+- name: Localization_syntax_2b_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is detect|localiz|locat|releas|secret|translocatd by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is detect|localiz|locat|releas|secret|translocatd in vitro by DNA-PK. ... reveals that XRCC1 is detect|localiz|locat|releas|secret|translocatd by the co-immunoprecipitated DNA-PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = <vmod /conj_(and|or|nor)|nn|cc/{,2}
+
+
+- name: Localization_syntax_3a_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Localization_syntax_3b_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Localization_syntax_3e_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Localization_syntax_3f_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+
+- name: Localization_syntax_4_verb
+  priority: ${ priority }
+  example: "Hence ASPP2 can be detect|localiz|locat|releas|secret|translocatd at serine 827 by MAPK1 in vitro."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (nsubjpass /conj_(and|or|nor)|nn/{,2})
+
+
+- name: Localization_syntax_5_verb
+  priority: ${ priority }
+  example: "IKK contains two catalytic subunits, IKKalpha and IKKbeta, both of which are able to correctly detect|localiz|locat|releas|secret|translocat IkappaB.  Its many abnormal phenotypes can be rescued via overexpressing Ras, an XXX that specifically detect|localiz|locat|releas|secret|translocats ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj /nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Localization_syntax_6_verb
+  priority: ${ priority }
+  example: "We measured transcription activation in the presence of ASPP2, which is phosphorylated by Ras."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(VBN|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (< /xcomp|rcmod|appos/){1,2} /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Localization_syntax_verb_underwent
+  priority: ${ priority }
+  example: "We found that endogenous K-Ras and H-Ras underwent mono-ubiquitination in HEK293T cells."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [word=/(?i)underwent/ & tag=/VB/ & !mention=ModificationTrigger] [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+
+# This captures incorrect syntax by the constituent parser
+- name: Localization_syntax_7_verb_wrong
+  priority: ${ priority }
+  example: "EGF is tyrosine detect|localiz|locat|releas|secret|translocated."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/${ verbalTriggerLemma}/ & word=/ed$/]
+    theme:BioChemicalEntity = <amod nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+# This captures the correct syntax for the rule above; this applies to the NN dep parser
+- name: Localization_syntax_7_verb_correct
+  priority: ${ priority }
+  example: "EGF is tyrosine detect|localiz|locat|releas|secret|translocated."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/${ verbalTriggerLemma}/ & word=/ed$/]
+    theme:BioChemicalEntity = /nsubj|nsubjpass/ /appos|nn|conj_(and|or|nor)|cc/{,2} # the parser incorrectly assigns nsubj here...
+
+
+- name: Localization_syntax_1a_noun
+  priority: ${ priority }
+  example: "... which includes detect|localiz|locat|releas|secret|translocat of PKC isozymes by phosphoinositide-dependent protein kinases.  Ras detect|localiz|locat|releas|secret|translocat of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}
+
+
+- name: Localization_syntax_1b_noun
+  priority: ${ priority }
+  example: "... which includes detect|localiz|locat|releas|secret|translocat of PKC isozymes by phosphoinositide-dependent protein kinases.  Ras detect|localiz|locat|releas|secret|translocat of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = (/prep_/ nn{,2}){1,2}
+
+
+- name: Localization_syntax_2_noun
+  priority: ${ priority }
+  example: "Overexpressed PRAS40 suppressed the detect|localiz|locat|releas|secret|translocat of S6K1 and 4E-BP1 at their rapamycin-sensitive detect|localiz|locat|releas|secret|translocat sites, and reciprocally, overexpression of S6K1 or 4E-BP1 suppressed detect|localiz|locat|releas|secret|translocat of PRAS40 (Ser(183)) and its binding to raptor."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/] # nominal predicate
+    theme:BioChemicalEntity = prep_of? appos? /conj_(and|or|nor)|cc|nn/{,2}
+
+
+- name: Localization_syntax_3_noun
+  priority: ${ priority }
+  example: "ERK- mediated serine detect|localiz|locat|releas|secret|translocat of the GAB1 adaptor has been shown to ..."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=prep_by] # nominal predicate
+    theme:BioChemicalEntity = prep_of appos? /conj_(and|or|nor)|cc|nn/{1,2}
+
+
+# Site pattern motivated by: "In contrast, the EGFR T669A mutant increased both basal EGFR and ERBB3 tyrosine phosphorylation that was not augmented by MEK inhibition."
+- name: Localization_syntax_4_noun
+  priority: ${ priority }
+  example: " ... mediated by inter-Rad53 detect|localiz|locat|releas|secret|translocat.  ASPP1 and ASPP2 have two conserved putative MAPK2 detect|localiz|locat|releas|secret|translocat sites in their C-terminus."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=/prep_(by|of)/]
+    theme:BioChemicalEntity = </conj_(and|or|nor)/? /conj_(and|or|nor)|cc|nn|prep_of/{,2}
+
+
+- name: Localization_syntax_5_noun
+  priority: ${ priority }
+  example: "Interestingly, we observed two conserved putative MAPK detect|localiz|locat|releas|secret|translocat sites in ASPP1 and ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = < nn > /prep_in/ /conj_(and|or|nor)|cc|nn/{,2}
+
+
+- name: Localization_syntax_6_noun
+  priority: ${ priority }
+  example: "... the transcriptional cofactor beta-catenin is destabilized via detect|localiz|locat|releas|secret|translocat of ASPP1 by protein kinase GSK3beta in complex with Axin family members"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = (<prep_via? /prep_(at|on)/? prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}){1,2} /prep_(on|at)/?
+    site:Site? = <prep_via? ( (prep_of /nn|conj_(and|or|nor)|cc/{,2}) | ( (agent|prep_by) /nn|conj_(and|or|nor)|cc/{,2}) )? /prep_(on|at)/
+
+
+- name: Localization_syntax_7_noun
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & !outgoing=prep_of]
+    theme:BioChemicalEntity = < nsubj dobj prep_of appos? /nn|cc|conj/{,2}
+
+
+- name: Localization_syntax_8_noun
+  priority: ${ priority }
+  example: "RAS plays no role in the detect|localiz|locat|releas|secret|translocat of Mek."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = prep_of appos? /nn|cc|conj/{,2} [!outgoing="prep_by"]
+    site:Site? = <prep_in <dobj? /prep_(at|on)|nn|conj_(and|or|nor)|cc/{,2}
+
+
+##################
+# surface patterns
+##################
+
+- name: Localization_token_1_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine detect|localiz|locat|releas|secret|translocat on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) /of/ [!tag=/^(V|JJ)/]{,2}? @theme:BioChemicalEntity (/^(on|at)$/ @site:Site)?
+
+
+# verbose, but nec. to handle coordination
+- name: Localization_token_2_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine detect|localiz|locat|releas|secret|translocat on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) /of/ [!tag=/^(V|JJ)/]{,2}? @BioChemicalEntity [tag="CC"] @theme:BioChemicalEntity
+
+
+- name: Localization_token_3_noun
+  priority: ${ priority }
+  example: " ... , thereby increasing ERBB3 detect|localiz|locat|releas|secret|translocat."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) (/^(on|at)$/ @site:Site)? (?! [lemma=of|lemma=site])
+
+
+# relies on EventSite modifications
+- name: Localization_token_4_noun
+  priority: ${ priority }
+  example: "Experiments revealed detect|localiz|locat|releas|secret|translocat at Lys residues 104 and 147 of K-Ras."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) [!tag=/^(V|JJ)/]{,2}? "at" []{1,10} @site:Site [word=/^(of|for)/] @theme:BioChemicalEntity
+
+
+# FIXME wait until the thread bundle bug is fixed
+- name: Localization_token_5_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine detect|localiz|locat|releas|secret|translocat on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) on [!tag=/^(V|JJ)/]{,2}? @site:Site []{,2}? of []{,2}? @theme:BioChemicalEntity
+
+# FIXME the additional pattern will go away when the odin bug related to thread bundles is truly fixed
+- name: Localization_token_6_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine detect|localiz|locat|releas|secret|translocat on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) on [!tag=/^(V|JJ)/]{,2}? @site:Site []{,2}? of []{,2}? and @theme:BioChemicalEntity
+
+# effects of patterns
+- name: Localization_token_7a_noun
+  priority: ${ priority }
+  example: "The effects of detect|localiz|locat|releas|secret|translocat on Ras are not isoform-specific."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma="effect"] of [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) on @theme:BioChemicalEntity (at [!tag=/^(V|JJ)/]{1,2} @site:Site)?
+
+# too specific?
+- name: Localization_token_8a_noun
+  priority: ${ priority }
+  example: "ERK(K156/H204) detect|localiz|locat|releas|secret|translocat (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4}? @site:Site? ([tag=/^,|CC/] @site:Site)* ")" (?<trigger>[lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) (?! "of" @BioChemicalEntity)
+
+
+# too specific?
+- name: Localization_token_8b_noun
+  priority: ${ priority }
+  example: "ERK(K156M/H204M) detect|localiz|locat|releas|secret|translocat (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4} @site:Site? ")" (?<trigger>[lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/]) (?! "of" @BioChemicalEntity)
+
+
+#- name: Localization_token_9_noun
+#  priority: ${ priority }
+#  example: "$There was evidence for EGFR and ERBB3 tyrosine { nominalTriggerLemma }."
+#  type1: token
+#  label: ${ label }
+#  action: ${ actionFlow }
+#  pattern: |
+#    (?<theme> [mention="BioChemicalEntity" & !incoming=/prep_of|dobj/])
+#    ("," @BioChemicalEntity)*
+#    "and"
+#    @BioChemicalEntity
+#    @site:Site?
+#    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/])
+#    (?! "of" @BioChemicalEntity)
+
+
+- name: Localization_token_4_verb
+  priority: ${ priority }
+  example: "Under the same conditions, ASPP2 (693-1128) fragment detect|localiz|locat|releas|secret|translocatd by p38 SAPK had very low levels of incorporated 32P."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag="VBN" & !mention=ModificationTrigger]) (by @cause:BioChemicalEntity)? (/^(on|at)$/ @site:Site)? (?! [tag="DT" | mention="BioEntity"])
+
+
+- name: Localization_token_5_verb
+  priority: ${ priority }
+  example: ""
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger])
+    @theme:BioChemicalEntity
+    (fragment? by @cause:BioChemicalEntity)?
+    (/^(on|at)$/ @site:Site)?
+
+
+# relies on EventSite modifications
+- name: Localization_token_6_verb
+  priority: ${ priority }
+  example: "JAK3 detect|localiz|locat|releas|secret|translocats three HuR residues (Y63, Y68, Y200)"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (@cause:BioChemicalEntity)? (?<trigger> [lemma=/detect|localiz|locat|releas|secret|translocat/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]) [!tag=/^(V|JJ)/ & !word=by]{,2}? @theme:BioChemicalEntity protein? at (@site:Site ("," | and | as well as){,2})* @site:Site
+
+
+# This is the only way to get this, due to horrible misparsing.
+- name: Localization_token_inresponseto
+  priority: ${ priority }
+  example: "the ability of the exogenous ErbB3 receptor to be tyrosine phosphorylated in response to stimulation with either EGF or neuregulin (NRG)"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (/(?i)^the$/ ability of the?)? [tag=JJ | word=mutant | mention=Mutant]{,2} @theme:BioChemicalEntity /proteins?/?
+    to (become | be) @site:Site? (?<trigger> "detect|localiz|locat|releas|secret|translocatd")
+    in response to (stimulation with either?)? @cause:BioChemicalEntity
+    ((","|[tag=CC]) @cause:BioChemicalEntity)*
+
+- name: Gene_expression_syntax_1a_verb
+  priority: ${ priority }
+  example: "We further showed, in a combined enzymatic assay, that human deoxycytidine kinase and UMP-CMP kinase together (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d araC, dFdC, and 2',3'-dideoxycytidine to their diphosphate forms."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (dobj | xcomp) /conj_(and|or|nor)|dep|cc|nn|prep_of/{,2} (>> [word=by]){,2}
+
+- name: Gene_expression_syntax_1b_verb
+  priority: ${ priority }
+  example: "Akt (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)s Ser487 on AMPK-alpha1"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj? /prep_(at|on)|nn|conj_(and|or|nor)|cc/{,2}
+
+- name: Gene_expression_syntax_2a_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d in vitro by DNA-PK. ... reveals that XRCC1 is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d by the co-immunoprecipitated DNA-PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = >nsubjpass prep_of? /conj_(and|or|nor)|nn|cc/{,2}
+
+- name: Gene_expression_syntax_2b_verb
+  priority: ${ priority }
+  example: "Human deoxycytidine kinase is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d by ASPP2 on serine 128. The BRCT1 domain of XRCC1 is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d in vitro by DNA-PK. ... reveals that XRCC1 is (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d by the co-immunoprecipitated DNA-PK"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = <vmod /conj_(and|or|nor)|nn|cc/{,2}
+
+- name: Gene_expression_syntax_3a_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+- name: Gene_expression_syntax_3b_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+- name: Gene_expression_syntax_3e_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+- name: Gene_expression_syntax_3f_verb
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & !outgoing=nsubjpass & tag=/^(V|JJ)/ & !mention=ModificationTrigger] # verbal predicate
+    theme:BioChemicalEntity = /pobj|prep_[^bt]|conj_(and|or|nor)|nn/{1,2}
+
+- name: Gene_expression_syntax_4_verb
+  priority: ${ priority }
+  example: "Hence ASPP2 can be (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)d at serine 827 by MAPK1 in vitro."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (nsubjpass /conj_(and|or|nor)|nn/{,2})
+
+- name: Gene_expression_syntax_5_verb
+  priority: ${ priority }
+  example: "IKK contains two catalytic subunits, IKKalpha and IKKbeta, both of which are able to correctly (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect) IkappaB.  Its many abnormal phenotypes can be rescued via overexpressing Ras, an XXX that specifically (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)s ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(V|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = dobj /nn|conj_(and|or|nor)|cc/{,2}
+
+- name: Gene_expression_syntax_6_verb
+  priority: ${ priority }
+  example: "We measured transcription activation in the presence of ASPP2, which is phosphorylated by Ras."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)/ & !word=/(?i)^de/ & tag=/^(VBN|JJ)/ & !mention=ModificationTrigger]
+    theme:BioChemicalEntity = (< /xcomp|rcmod|appos/){1,2} /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+- name: Gene_expression_syntax_verb_underwent
+  priority: ${ priority }
+  example: "We found that endogenous K-Ras and H-Ras underwent mono-ubiquitination in HEK293T cells."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [word=/(?i)underwent/ & tag=/VB/ & !mention=ModificationTrigger] [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+# This captures incorrect syntax by the constituent parser
+- name: Gene_expression_syntax_7_verb_wrong
+  priority: ${ priority }
+  example: "EGF is tyrosine (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)ed."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/${ verbalTriggerLemma}/ & word=/ed$/]
+    theme:BioChemicalEntity = <amod nsubj /appos|nn|conj_(and|or|nor)|cc/{,2}
+
+# This captures the correct syntax for the rule above; this applies to the NN dep parser
+- name: Gene_expression_syntax_7_verb_correct
+  priority: ${ priority }
+  example: "EGF is tyrosine (?i)^(concentrat|coproduc|detect|express|produce|produced|producing|staining|transfect|co-transfect)ed."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/${ verbalTriggerLemma}/ & word=/ed$/]
+    theme:BioChemicalEntity = /nsubj|nsubjpass/ /appos|nn|conj_(and|or|nor)|cc/{,2} # the parser incorrectly assigns nsubj here...
+
+- name: Gene_expression_syntax_1a_noun
+  priority: ${ priority }
+  example: "... which includes (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of PKC isozymes by phosphoinositide-dependent protein kinases.  Ras (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}
+
+- name: Gene_expression_syntax_1b_noun
+  priority: ${ priority }
+  example: "... which includes (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of PKC isozymes by phosphoinositide-dependent protein kinases.  Ras (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of ASPP2 increased."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = (/prep_/ nn{,2}){1,2}
+
+
+- name: Gene_expression_syntax_2_noun
+  priority: ${ priority }
+  example: "Overexpressed PRAS40 suppressed the (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of S6K1 and 4E-BP1 at their rapamycin-sensitive (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) sites, and reciprocally, overexpression of S6K1 or 4E-BP1 suppressed (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of PRAS40 (Ser(183)) and its binding to raptor."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/] # nominal predicate
+    theme:BioChemicalEntity = prep_of? appos? /conj_(and|or|nor)|cc|nn/{,2}
+
+- name: Gene_expression_syntax_3_noun
+  priority: ${ priority }
+  example: "ERK- mediated serine (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of the GAB1 adaptor has been shown to ..."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/ & !outgoing=prep_by] # nominal predicate
+    theme:BioChemicalEntity = prep_of appos? /conj_(and|or|nor)|cc|nn/{1,2}
+
+# Site pattern motivated by: "In contrast, the EGFR T669A mutant increased both basal EGFR and ERBB3 tyrosine phosphorylation that was not augmented by MEK inhibition."
+- name: Gene_expression_syntax_4_noun
+  priority: ${ priority }
+  example: " ... mediated by inter-Rad53 (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?).  ASPP1 and ASPP2 have two conserved putative MAPK2 (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) sites in their C-terminus."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/ & !outgoing=/prep_(by|of)/]
+    theme:BioChemicalEntity = </conj_(and|or|nor)/? /conj_(and|or|nor)|cc|nn|prep_of/{,2}
+
+- name: Gene_expression_syntax_5_noun
+  priority: ${ priority }
+  example: "Interestingly, we observed two conserved putative MAPK (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) sites in ASPP1 and ASPP2."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = < nn > /prep_in/ /conj_(and|or|nor)|cc|nn/{,2}
+
+- name: Gene_expression_syntax_6_noun
+  priority: ${ priority }
+  example: "... the transcriptional cofactor beta-catenin is destabilized via (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of ASPP1 by protein kinase GSK3beta in complex with Axin family members"
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = (<prep_via? /prep_(at|on)/? prep_of appos? /nn|conj_(and|or|nor)|cc/{,2}){1,2} /prep_(on|at)/?
+
+- name: Gene_expression_syntax_7_noun
+  priority: ${ priority }
+  example: ""
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/ & !outgoing=prep_of]
+    theme:BioChemicalEntity = < nsubj dobj prep_of appos? /nn|cc|conj/{,2}
+
+- name: Gene_expression_syntax_8_noun
+  priority: ${ priority }
+  example: "RAS plays no role in the (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) of Mek."
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    trigger = [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]
+    theme:BioChemicalEntity = prep_of appos? /nn|cc|conj/{,2} [!outgoing="prep_by"]
+
+##################
+# surface patterns
+##################
+
+- name: Gene_expression_token_1_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) /of/ [!tag=/^(V|JJ)/]{,2}? @theme:BioChemicalEntity (/^(on|at)$/ @Site)?
+
+
+# verbose, but nec. to handle coordination
+- name: Gene_expression_token_2_noun
+  priority: ${ priority }
+  example: " ... which blocks an inhibitory threonine (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) on the JM domains of EGFR and HER2"
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) /of/ [!tag=/^(V|JJ)/]{,2}? @BioChemicalEntity [tag="CC"] @theme:BioChemicalEntity
+
+
+- name: Gene_expression_token_3_noun
+  priority: ${ priority }
+  example: " ... , thereby increasing ERBB3 (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) (/^(on|at)$/ @Site)? (?! [lemma=of|lemma=site])
+
+
+# relies on EventSite modifications
+- name: Gene_expression_token_4_noun
+  priority: ${ priority }
+  example: "Experiments revealed (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) at Lys residues 104 and 147 of K-Ras."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) [!tag=/^(V|JJ)/]{,2}? "at" []{1,10} @Site [word=/^(of|for)/] @theme:BioChemicalEntity
+
+
+# FIXME wait until the thread bundle bug is fixed
+- name: Gene_expression_token_5_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) on [!tag=/^(V|JJ)/]{,2}? @Site []{,2}? of []{,2}? @theme:BioChemicalEntity
+
+# FIXME the additional pattern will go away when the odin bug related to thread bundles is truly fixed
+- name: Gene_expression_token_6_noun
+  priority: ${ priority }
+  example: "We hypothesized that MEK inhibition activates AKT by inhibiting ERK activity, which blocks an inhibitory threonine (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) on the JM domains of EGFR and HER2, thereby increasing ERBB3 phosphorylation."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) on [!tag=/^(V|JJ)/]{,2}? @Site []{,2}? of []{,2}? and @theme:BioChemicalEntity
+
+# effects of patterns
+- name: Gene_expression_token_7a_noun
+  priority: ${ priority }
+  example: "The effects of (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) on Ras are not isoform-specific."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    (?<trigger> [lemma="effect"] of [lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) on @theme:BioChemicalEntity (at [!tag=/^(V|JJ)/]{1,2} @Site)?
+
+# too specific?
+- name: Gene_expression_token_8a_noun
+  priority: ${ priority }
+  example: "ERK(K156/H204) (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4}? @Site? ([tag=/^,|CC/] @Site)* ")" (?<trigger>[lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) (?! "of" @BioChemicalEntity)
+
+
+# too specific?
+- name: Gene_expression_token_8b_noun
+  priority: ${ priority }
+  example: "ERK(K156M/H204M) (?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?) (Fig. 2)."
+  type1: token
+  label: ${ label }
+  action: ${ actionFlow }
+  pattern: |
+    @theme:BioChemicalEntity "(" [!tag=/^V/]{,4} @Site? ")" (?<trigger>[lemma=/(?i)^(co-transfection|expression|concentration|production|expression|knock-out|levels?|production|re-?expression|secretion|staining|synthesis|transfection|transfect(ing)?)/ & !word=/(?i)^de/]) (?! "of" @BioChemicalEntity)
+
+
