@@ -183,14 +183,14 @@ def check_events(line):
             return True
     return False
 
-def prepare_data(dirname, input_lang=Lang("1"), pos_lang=Lang("2"), 
+def prepare_data(dirname, event_type, input_lang=Lang("1"), pos_lang=Lang("2"), 
     char_lang=Lang("3"), rule_lang=Lang("4"), train=list(), valids=None, n_sample=0):
     raw_train = dict()
     if valids:
         vj = json.load(open(valids))
     else:
         vj = dict()
-    with open("rules/rules.json") as f:
+    with open("rules.json") as f:
         rules = json.load(f)
     maxl = 0
     for fname in glob.glob(os.path.join(dirname, '*.a1')):
@@ -212,10 +212,11 @@ def prepare_data(dirname, input_lang=Lang("1"), pos_lang=Lang("2"),
             for line in f:
                 line = line.strip()
                 if line.startswith('T'):
+                    print (line)
                     [id, data, text] = line.split('\t') 
                     [label, start, end] = data.split(' ')
                     entities[id] = (label, int(start), int(end), text)
-                if line.startswith('E') and check_events(line):
+                if line.startswith('E') and event_type in line:
                     [id, data] = line.split('\t')
                     temp = data.split(' ')
                     [tlbl, trigger] = temp[0].split(':')
@@ -396,109 +397,7 @@ def prepare_test_data(dirname, input_lang=Lang("1"), pos_lang=Lang("2"),
         char_lang.addSentence(w)
     return input_lang, pos_lang, char_lang, rule_lang, raw_test
 
-def parse_json_data():
-    triggers = dict()
-    valids = dict()
-    with open("lo_events.json") as f:
-        pubmed = json.load(f)
-        i = 0
-        for sentence in pubmed:
-            i += 1
-            with open("pubmed_loc/%d.txt"%i, "w") as txt:
-                txt.write(sentence)
-            j = 1
-            k = len(pubmed[sentence].keys())+1
-            l = 1
-            for eid in pubmed[sentence]:
-                entity = pubmed[sentence][eid]["entity"]
-                with open("pubmed_loc/%d.a1"%i, "a") as a1:
-                    a1.write("T%d\tProtein %d %d\t%s\n"%(j, entity[1][0], entity[1][1], entity[0]))
-                for event in pubmed[sentence][eid]["events"]:
-                    trigger = event["trigger"]
-                    rule = event["rule"]
-                    valids["pubmed_loc/%d/E%d"%(i, l)] = rule 
-                    with open("pubmed_loc/%d.a2"%i, "a") as a2:
-                        if "%s%d%d"%(trigger[0], trigger[1][0], trigger[1][1]) not in triggers:
-                            triggers["%s%d%d"%(trigger[0], trigger[1][0], trigger[1][1])] = k
-                            k += 1
-                        a2.write("T%d\tLocalization %d %d\t%s\n"%(triggers["%s%d%d"%(trigger[0], trigger[1][0], trigger[1][1])], trigger[1][0], trigger[1][1], trigger[0]))
-                        a2.write("E%d\tLocalization:T%d Theme:T%d\n"%(l, triggers["%s%d%d"%(trigger[0], trigger[1][0], trigger[1][1])], j))
-                    l += 1
-                j += 1
-    print (json.dumps(valids))
 
-
-# if __name__ == '__main__':
-#     # parse_json_data()
-
-#     input_lang = Lang("input")
-#     pl1 = Lang("position")
-#     char = Lang("char")
-#     rule_lang = Lang("rule")
-#     raw_train = list()
-#     input_lang, pl1, char, rule_lang, raw_train = prepare_data("BioNLP-ST-2013_GE_train_data_rev3", input_lang, pl1, char, rule_lang, raw_train)
-#     input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed_loc", input_lang, pl1, char, rule_lang, raw_train, "valids_loc.json")
-#     input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed_ge", input_lang, pl1, char, rule_lang, raw_train, "valids_ge.json")
-#     input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed2", input_lang, pl1, char, rule_lang, raw_train, "valids2.json")
-#     # # input_lang, pl1, char, rule_lang, raw_train2 = prepare_data("BioNLP-ST-2013_GE_devel_data_rev3")
-#     # trainning_set = []
-#     # i = j = 0
-#     print (input_lang.label2id)
-#     for datapoint in raw_train:
-#         print ([input_lang.label2id[l] for l in datapoint[4]])
-    #     if datapoint[3][0] != -1:
-    #         i += len(datapoint[3])
-    #         trainning_set.append(([input_lang.word2index[w] for w in datapoint[0]]+[1],
-    #             datapoint[1],#entity
-    #             datapoint[2],#entity position
-    #             datapoint[3],#trigger position
-    #             [input_lang.label2id[l] for l in datapoint[4]],#trigger label
-    #             [pl1.word2index[p] for p in datapoint[5]]+[0],#positions
-    #             [[char.word2index[c] for c in w] for w in datapoint[0]+["EOS"]],
-    #             [[rule_lang.word2index[p] for p in rule + ["EOS"]] for rule in datapoint[6]]))
-    #     else:
-    #         j += 1
-    #         trainning_set.append(([input_lang.word2index[w] for w in datapoint[0]]+[1],
-    #             datapoint[1],
-    #             datapoint[2],
-    #             datapoint[3], [0], 
-    #             [pl1.word2index[p] for p in datapoint[5]]+[0],
-    #             [[char.word2index[c] for c in w] for w in datapoint[0]+["EOS"]],
-    #             [rule_lang.word2index["EOS"]]))
-    #         print (datapoint)
-    # print(i,j)
-        # if (t[0] != raw_train2[i][0] and t[1]==raw_train2[i][1]):
-#             print (t[0])
-#             print (raw_train2[i][0])
-#             print (t[-1])
-#             print (raw_train2[i][-1])
-#             print (t[1], raw_train2[i][1], raw_train2[i][3])
-    
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument('datadir')
-#     args = parser.parse_args()
-#     input_lang, pos_lang, char_lang, train = prepare_data(args.datadir, "valids.json")
-#     print (len(train))
-#     input_lang, pos_lang, char_lang, rule_lang, train = parse_json_data(input_lang, pos_lang, char_lang, train)
-#     # print (load_embeddings("embeddings_november_2016.txt", input_lang))
-#     offset_dict = dict()
-    # for t in train:
-    #     if t[3] != -1:
-    #         print (t)
-    #         print (t[-1])
-    #         print (len(t[0]), len(t[-1]))
-    #         print (t[3])
-    #         print (t[0][t[3]], t[4])
-    #     if t[3] != -1:
-    #         print (t[2], t[3], t[-1][t[3]])
-    #         try:
-    #             offset_dict[t[-1][t[3]]] += 1
-    #         except KeyError:
-    #             offset_dict[t[-1][t[3]]] = 1
-    # with open("histogram.tsv", "w") as f:
-    #     for i in range(min(offset_dict.keys()), max(offset_dict.keys())+1):
-    #         l = offset_dict[i] if i in offset_dict else 0
-    #         f.write("%d\t%d\n"%(i,l)) 
 
 
 

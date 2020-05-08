@@ -13,10 +13,9 @@ if __name__ == '__main__':
     random.seed(1)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('datadir')
-    parser.add_argument('dev_datadir')
+    parser.add_argument('datadir') 
+    parser.add_argument('embedding')   
     parser.add_argument('outdir')
-    parser.add_argument('n_sample')
     args = parser.parse_args()
 
     input_lang = Lang("input")
@@ -25,20 +24,15 @@ if __name__ == '__main__':
     rule_lang = Lang("rule")
     raw_train = list()
 
-    if os.path.exists("indexes_all_2K2.pickle"):
-        input_lang, pl1, char, rule_lang, raw_train = pickle.load(open("indexes_all_2K2.pickle", "rb"))
+    if os.path.exists(args.datadir):
+        input_lang, pl1, char, rule_lang, raw_train   = pickle.load(open('%s/train'%args.datadir, "rb"))
+        input2_lang, pl2, char2, rule_lang2, raw_test = pickle.load(open('%s/dev'%args.datadir, "rb"))
     else:
-        input_lang, pl1, char, rule_lang, raw_train = prepare_data(args.datadir, input_lang, pl1, char, rule_lang, raw_train)
-        # input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed_ge", input_lang, pl1, char, rule_lang, raw_train, "valids_ge.json", n_sample=int(args.n_sample))
-        input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed_loc", input_lang, pl1, char, rule_lang, raw_train, "valids_loc.json", n_sample=int(args.n_sample))
-        input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed_ge", input_lang, pl1, char, rule_lang, raw_train, "valids_ge.json", n_sample=int(args.n_sample))
-        input_lang, pl1, char, rule_lang, raw_train = prepare_data("pubmed2", input_lang, pl1, char, rule_lang, raw_train, "valids2.json", n_sample=int(args.n_sample))
-        with open("indexes_all_2K2.pickle", "wb") as f:
-            pickle.dump((input_lang, pl1, char, rule_lang, raw_train), f)
-    # input_lang, pl1, char, rule_lang = pickle.load(open("indexes_%s_%s.pickle"%(args.label, args.n_sample), "rb"))
+        print ('Data file not found!')
+        exit()
 
-    input2_lang, pl2, char2, rule_lang2, raw_test = prepare_data(args.dev_datadir, valids="valids.json")
-    embeds = load_embeddings("embeddings_november_2016.txt", input_lang)
+    
+    embeds = load_embeddings(args.embedding, input_lang)
     model = LSTMLM(input_lang.n_words, char.n_words, 50, 50, 100, 200, pl1.n_words, 5, len(input_lang.labels), 
         100, 200, rule_lang.n_words, 200, 2, embeds)
     trainning_set = list()
