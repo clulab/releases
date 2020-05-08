@@ -28,7 +28,7 @@ Preprocess data and write in a pickle file:
 python prep_data.py BioNLP-ST-2013_GE_train_data_rev3/ [path_silver_processed_dir] BioNLP-ST-2013_GE_devel_data_rev3/ BioNLP-ST-2013_GE_test_data_rev1/ [event_type path_processed_dir]
 ```
 
-Train model on training and dev data in pickle file, write a model:
+Train model on training and dev data in pickle file, write a model, You also need a pre-trained embedding file \[embedding_file\] here:
 
 ```bash
 python train.py [path_processed_dir embedding_file model_dir]
