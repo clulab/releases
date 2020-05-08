@@ -14,7 +14,7 @@ You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bion
 
 ## Usage
 
-Get data and evaluation tool from the website of [BioNLP 2013 GE Task](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki) 
+Get the data and evaluation tool from the shared task website: [BioNLP 2013 GE Task](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki) 
 
 Preprocessed silver data:
 
@@ -40,18 +40,18 @@ Generate the predicted .a2p files:
 python brat.py [model_dir path_processed_dir] 
 ```
 
-You can rename all a2p files to a2 and upload them to the [online evaluation](http://bionlp-st.dbcls.jp/GE/2013/eval-test/)
+You can rename all a2p files to a2 and upload them to the BioNLP [online evaluation](http://bionlp-st.dbcls.jp/GE/2013/eval-test/).
 
 ## Silver Data
 
-You may also need a pre-trained embedding file and replace the file claimed in train.py with it.
+You may also need a pre-trained embedding file and replace the file claimed in train.py with it. TODO: unclear. what is this? Is this not needed before? Please explan.
+
+The silver data extracted by our rule-based system are also available in this repository.
+In particular: `ph_events.json` contains all the phosphorylation events we extracted, `lo_events.json` contains all the localization events we extracted, and, lastly, `ge_events.json` contains all gene expression events we extracted.
+
+All these files follow the same JSON format:
 
 ```
-We put our rule-based system extracted sliver data here.
-
-ph_events.json contains all the phosphorylation events we extracted, lo_events.json contains all the localization events we extracted and ge_events.json contains all gene expression events we extracted.
-
-They are lists of JSON objects follow this format:
 {
     "sentence": The sentence contains the event,
     "rule": The rule name of which find this event,
@@ -70,11 +70,11 @@ They are lists of JSON objects follow this format:
       ]
     ]
 }
-
-We have put the rules we used here in rules.yml
 ```
+
+The rules used to extract these statements are available in `rules.yml`.
 
 Citation:
 ```
-
+TODO: add .bib
 ```
