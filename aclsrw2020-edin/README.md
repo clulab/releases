@@ -6,7 +6,7 @@ You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bion
 
 ## Requirements
 
-- Python 3 (tested using version 3.6.9)
+- Python 3 
 - [DyNet](https://dynet.readthedocs.io/en/latest/) 
 - [NLTK](https://www.nltk.org/)
 - [NumPy](https://numpy.org/)
