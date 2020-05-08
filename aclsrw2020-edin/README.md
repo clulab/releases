@@ -72,7 +72,7 @@ All these files follow the same JSON format:
 
 The rules used to extract these statements are available in `rules.yml`.
 
-Citation:
+##Citation:
 ```
 @inproceedings{zheng-tang-2019-edin,
     title = "Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder",
