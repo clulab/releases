@@ -44,8 +44,6 @@ You can rename all a2p files to a2 and upload them to the BioNLP [online evaluat
 
 ## Silver Data
 
-You may also need a pre-trained embedding file and replace the file claimed in train.py with it. TODO: unclear. what is this? Is this not needed before? Please explan.
-
 The silver data extracted by our rule-based system are also available in this repository.
 In particular: `ph_events.json` contains all the phosphorylation events we extracted, `lo_events.json` contains all the localization events we extracted, and, lastly, `ge_events.json` contains all gene expression events we extracted.
 
@@ -76,5 +74,14 @@ The rules used to extract these statements are available in `rules.yml`.
 
 Citation:
 ```
-TODO: add .bib
+@inproceedings{zheng-tang-2019-edin,
+    title = "Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder",
+    author = "Tang, Zheng and Hahn-Powell, Gustave and Surdeanu, Mihai",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = jul,
+    year = "2020",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "http://clulab.cs.arizona.edu/papers/aclsrw2020-edin.pdf"
+}
 ```
