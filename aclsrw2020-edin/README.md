@@ -14,7 +14,7 @@ You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bion
 
 ## Usage
 
-Get data and evaluation tool from the website of [BioNLP 2013 GE Task]http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki) 
+Get data and evaluation tool from the website of [BioNLP 2013 GE Task](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki) 
 
 Make preprocessed silver data:
 
