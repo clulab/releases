@@ -123,7 +123,7 @@ if __name__ == '__main__':
             precision = [0,0,0]
             recall = [0,0,0]
             f1 = [0,0,0]
-            for j in range(3):
+            for j in range(1):
                 precision = tp[j]/s[j] if s[j]!= 0 else 0
                 recall = tp[j]/r[j]
                 f1 = 2*(precision*recall)/(recall+precision) if recall+precision != 0 else 0
