@@ -23,12 +23,16 @@ if __name__ == '__main__':
     input_lang, pl1, char, rule_lang, raw_train = prepare_data(args.datadir2, args.event, input_lang, pl1, char, rule_lang, raw_train, "%s/rule_mappings.json"%args.datadir2)
     
     input2_lang, pl2, char2, rule_lang2, raw_dev = prepare_data(args.dev_datadir, args.event, valids="rule_mappings.json")
-    input3_lang, pl3, char3, rule_lang3, raw_test = prepare_test_data(args.test_datadir)
+    
+    input3_lang, pl3, char3, rule_lang3, raw_test1 = prepare_test_data(args.dev_datadir)
+    input3_lang, pl3, char3, rule_lang3, raw_test2 = prepare_test_data(args.test_datadir)
     
     os.mkdir(args.outdir)
     with open('%s/train'%args.outdir, "wb") as f:
         pickle.dump((input_lang, pl1, char, rule_lang, raw_train), f)
     with open('%s/dev'%args.outdir, "wb") as f:
         pickle.dump((input2_lang, pl2, char2, rule_lang2, raw_dev), f)
-    with open('%s/test'%args.outdir, "wb") as f:
-        pickle.dump((input3_lang, pl3, char3, rule_lang3, raw_test), f)
+    with open('%s/test1'%args.outdir, "wb") as f:
+        pickle.dump((input3_lang, pl3, char3, rule_lang3, raw_test1), f)
+    with open('%s/test2'%args.outdir, "wb") as f:
+        pickle.dump((input3_lang, pl3, char3, rule_lang3, raw_test2), f)

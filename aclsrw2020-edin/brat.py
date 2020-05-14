@@ -5,7 +5,7 @@ import json
 import os
 import glob
 
-from proj_model import *
+from model_dy import *
 from bio_utils import *
 
 from nltk.translate.bleu_score import corpus_bleu
@@ -27,12 +27,12 @@ if __name__ == '__main__':
     rule_lang = Lang("rule")
     raw_train = list()
 
-    if os.path.exists(args.data):
+    if os.path.exists(args.datadir):
         input_lang, pl1, char, rule_lang, raw_train   = pickle.load(open('%s/train'%args.datadir, "rb"))
         if args.dev:
-            input2_lang, pl2, char2, rule_lang2, raw_test = pickle.load(open('%s/dev'%args.datadir, "rb"))
+            input2_lang, pl2, char2, rule_lang2, raw_test = pickle.load(open('%s/test1'%args.datadir, "rb"))
         else:
-            input2_lang, pl2, char2, rule_lang2, raw_test = pickle.load(open('%s/test'%args.datadir, "rb"))
+            input2_lang, pl2, char2, rule_lang2, raw_test = pickle.load(open('%s/test2'%args.datadir, "rb"))
     else:
         print ('Data file not found!')
         exit()
@@ -47,6 +47,8 @@ if __name__ == '__main__':
             [[char.word2index[c] if c in char.word2index else 2 for c in w] for w in datapoint[0]+["EOS"]],
             datapoint[4],
             datapoint[5]))
+
+    print (raw_test[0])
     prev_root = raw_test[0][-1]
     tcount = int(raw_test[0][-2][1:])
     phosphos = dict()
@@ -62,7 +64,7 @@ if __name__ == '__main__':
         ends = datapoint[6]
         text = raw_test[i][0]
         root = raw_test[i][-1]
-        pred_triggers, score, contexts, pred_rules = model.get_pred(sentence, pos, chars, entity)
+        pred_triggers, score, contexts, hidden, pred_rules = model.get_pred(sentence, pos, chars, entity)
         total += len(pred_triggers)
         if root == prev_root:
             if len(pred_triggers) != 0:
