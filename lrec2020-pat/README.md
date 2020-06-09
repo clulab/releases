@@ -125,7 +125,7 @@ unzip data/UD_2.2/en.zip -d data/UD_2.2/en
 
 Now everything is ready. You can train using the following command:
 ```
-python train.py data/UD_2.2/en/en_ewt-ud-train.conllu data/UD_2.2/en/en_ewt-ud-train.conllu --output data/UD_2.2/en/ --bert --random-seed 1 --learning-rate 0.0020 --beta1 0.7 --beta2 0.99 --cnn-ce --which-cuda 0 --use-head --weight-decay 0.000010 --dropout 0.60 --bilstm-num-layers 3 --bilstm-hidden-size 600 --mlp-hidden-size 500 --mlp-output-size 150 --bilstm-dropout 0.3
+python train.py data/UD_2.2/en/en_ewt-ud-train.conllu data/UD_2.2/en/en_ewt-ud-dev.conllu --output data/UD_2.2/en/ --bert --random-seed 1 --learning-rate 0.0020 --beta1 0.7 --beta2 0.99 --cnn-ce --which-cuda 0 --use-head --weight-decay 0.000010 --dropout 0.60 --bilstm-num-layers 3 --bilstm-hidden-size 600 --mlp-hidden-size 500 --mlp-output-size 150 --bilstm-dropout 0.3
 ```
 You can predict using the following command:
 ```
