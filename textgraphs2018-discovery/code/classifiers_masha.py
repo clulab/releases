@@ -37,7 +37,7 @@ def return_label_per_ytd(ytd, std, mean):
 
 
 def convert_years_to_discovery_to_class_labels(years_to_discovery, std, mean):
-    print("HERE: ", years_to_discovery, "<-")
+    # print("HERE: ", years_to_discovery, "<-")
     # std and mean could be calculated right here in the script?
     # classes are +- std from mean
     for ytd in years_to_discovery:
@@ -45,7 +45,7 @@ def convert_years_to_discovery_to_class_labels(years_to_discovery, std, mean):
         yield return_label_per_ytd(ytd, std, mean)
 
 
-X_train = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)
+X_train = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)#
 #X_train = np.loadtxt(open("train_dev.csv", "rb"), delimiter=",",usecols=(0,1,2,3,4))
 y_train = list(np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features.csv", "rb"), delimiter=",",dtype=int,usecols=23, skiprows=1))
 print(X_train)
@@ -93,9 +93,9 @@ with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStu
 
     names = [
             # "Neural Net",
-            # "AdaBoost"  #,
+            "AdaBoost"  #,
             # "Random Forest" #,
-             "SVM with linear kernel" #,
+             # "SVM with linear kernel" #,
 #             "SVM with polynomial kernel"
 
              # ,
@@ -108,9 +108,9 @@ with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStu
 
     classifiers = [
                   # MLPClassifier()
-                  # AdaBoostClassifier(DecisionTreeClassifier(max_depth=40,random_state=23,class_weight="balanced"))   #,
+                  AdaBoostClassifier(DecisionTreeClassifier(max_depth=40,random_state=23,class_weight="balanced"))   #,
                   # RandomForestClassifier(n_jobs=-1), #,
-                   LinearSVC(dual=False,fit_intercept=False, verbose=1)
+                   # LinearSVC(dual=False,fit_intercept=False, verbose=1)
 #                   SVC(kernel='poly')
 
                    #,
@@ -130,7 +130,7 @@ with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStu
                    # [{'hidden_layer_sizes':[(300,)],'early_stopping':[True], 'learning_rate': ['adaptive'], 'learning_rate_init':[1], 'max_iter': [10000000], 'momentum': [0.1], 'solver': ['sgd'],'random_state':[10008]}]
     #
                    #AdaBoostClassifier
-                  # [{'random_state':[10008],'n_estimators': [600]}]
+                  [{'random_state':[10008],'n_estimators': [600]}]
     #               ,
     #
     #               #RandomForestClassifier
@@ -138,7 +138,7 @@ with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStu
     #               ,
     #
                   # SVC(kernel='linear')
-                   [{'C': [0.025, 1, 10, 100],'class_weight':[None,'balanced'],'random_state':[10008], 'multi_class':['ovr']}]
+                   # [{'C': [0.025, 1, 10, 100],'class_weight':[None,'balanced'],'random_state':[10008], 'multi_class':['ovr']}]
     #               ,
     #
     #               #SVC(kernel='poly')
