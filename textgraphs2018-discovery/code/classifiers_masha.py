@@ -25,9 +25,14 @@ import string
 #from imblearn.metrics import make_index_balanced_accuracy as iba
 
 def stds_from_mean(ytd, std, mean):
-    direction = "+" if ytd > mean else "-"
-    dist_from_mean = str(int((ytd - mean)/std) + 1)
-    return direction + dist_from_mean
+    if ytd != "None":
+        direction = "+" if ytd > mean else "-"
+        dist_from_mean = str(int((ytd - mean)/std) + 1)
+        label = direction + dist_from_mean
+    else:
+        label = "None"
+
+    return label
 
 
 def return_label_per_ytd(ytd, std, mean):
@@ -45,9 +50,9 @@ def convert_years_to_discovery_to_class_labels(years_to_discovery, std, mean):
         yield return_label_per_ytd(ytd, std, mean)
 
 
-X_train = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)#
+X_train = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)#
 #X_train = np.loadtxt(open("train_dev.csv", "rb"), delimiter=",",usecols=(0,1,2,3,4))
-y_train = list(np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features.csv", "rb"), delimiter=",",dtype=int,usecols=23, skiprows=1))
+y_train = list(np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",dtype=int,usecols=23, skiprows=1))
 print(X_train)
 print(y_train)
 print(type(y_train))
@@ -69,18 +74,18 @@ print(labels)
 for label in labels:
     print(label, type(label))
 y_train = np.array(y_train)
-X_test = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)#
+X_test = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",usecols=(5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22), skiprows=1)#
 
 #X_test = np.loadtxt(open("test.csv", "rb"), delimiter=",",usecols=(0,1,2,3,4))
-y_test = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", "rb"), delimiter=",",dtype=int,usecols=23, skiprows=1)
+y_test = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",dtype=int,usecols=23, skiprows=1)
 
 y_test = list(convert_years_to_discovery_to_class_labels(y_test, std, mean))
 # node text; the delimeter tells the loader which columns to take into account; i dont have this yet
 # text_test= np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", "rb"), delimiter='"',dtype=str,usecols=(1,3,5), skiprows=1)
-A_idf = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", "rb"), delimiter=",",usecols=13, skiprows=1)
-C_idf = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", "rb"), delimiter=",",usecols=14, skiprows=1)
+A_idf = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",usecols=13, skiprows=1)
+C_idf = np.loadtxt(open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", "rb"), delimiter=",",usecols=14, skiprows=1)
 
-with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test.csv", 'r') as test:
+with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStudyGHPSpring2020/InfluenceGraph/paths/abc_1000_nodes_dict-based_paths-apr28_el_gato_with_all_features_test_with_negative_examples.csv", 'r') as test:
     # content = [t.rstrip("\n") for t in test]
     # r3_id_test = [x.split(' ')[-1] for x in content]
     # r3_label_test = [x.split('"')[-2] for x in content]
@@ -110,7 +115,7 @@ with open("/media/alexeeva/ee9cacfc-30ac-4859-875f-728f0764925c/storage/IndepStu
                   # MLPClassifier()
                   AdaBoostClassifier(DecisionTreeClassifier(max_depth=40,random_state=23,class_weight="balanced"))   #,
                   # RandomForestClassifier(n_jobs=-1), #,
-                   # LinearSVC(dual=False,fit_intercept=False, verbose=1)
+                   # LinearSVC(dual=False,fit_intercept=False, verbose=1) #todo: add the multiclass arg explicitly
 #                   SVC(kernel='poly')
 
                    #,
