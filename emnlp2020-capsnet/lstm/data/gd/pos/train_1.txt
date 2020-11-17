@@ -1,0 +1,76 @@
+ciamar ciamar Mood=Int ADV
+a a PartType=Vb|PronType=Rel PART
+chaidh rach Tense=Past VERB
+dhuibh do Number=Plur|Person=2 ADP
+an-diugh an-diugh _ ADV
+? ? _ PUNCT
+
+shin sin _ PRON
+agad agad Number=Sing|Person=2 ADP
+e e Gender=Masc|Number=Sing|Person=3 PRON
+
+an an Mood=Int|PartType=Vb|PronType=Int PART
+d’ d' Tense=Past PART
+fhuair faigh Tense=Past VERB
+sibh sibh Number=Plur|Person=2 PRON
+sgath sgath Case=Nom|Gender=Masc|Number=Sing NOUN
+giomaich giomach Case=Gen|Gender=Masc|Number=Sing NOUN
+? ? _ PUNCT
+
+tha bi Tense=Pres VERB
+agam-sa agam-sa Number=Sing|Person=1|PronType=Emp ADP
+ri ri _ PART
+dhol rach VerbForm=Vnoun NOUN
+a-staigh a-staigh _ ADV
+a a _ ADP
+dh’obair obraich VerbForm=Vnoun NOUN
+tràth tràth _ ADV
+a-màireach a-màireach _ ADV
+
+tha bi Tense=Pres VERB
+agam aig Number=Sing|Person=1 ADP
+ri ri _ PART
+bhith bi VerbForm=Vnoun NOUN
+a-staigh a-staigh _ ADV
+aig aig _ ADP
+a a PartType=Num PART
+naoi naoi _ NUM
+
+dè dè Mood=Int PRON
+tha bi Tense=Pres VERB
+a' ag _ PART
+dol rach VerbForm=Vnoun NOUN
+nuair nuair _ SCONJ
+a a PartType=Vb|PronType=Rel PART
+tha bi Tense=Pres VERB
+agaibh aig Number=Plur|Person=2 ADP
+ri ri _ PART
+dhol rach VerbForm=Vnoun NOUN
+a-staigh a-staigh _ ADV
+tràth tràth _ ADV
+? ? _ PUNCT
+
+ò ò _ INTJ
+àidh àidh _ INTJ
+àidh àidh _ INTJ
+tha bi Tense=Pres VERB
+mi mi Number=Sing|Person=1 PRON
+a' ag _ PART
+tuigsinn tuig VerbForm=Vnoun NOUN
+
+àidh àidh _ INTJ
+sin sin _ PRON
+agad agad Number=Sing|Person=2 ADP
+e e Gender=Masc|Number=Sing|Person=3 PRON
+
+tha bi Tense=Pres VERB
+duine duine Case=Nom|Gender=Masc|Number=Sing NOUN
+na na _ CCONJ
+dithis dithis Case=Nom|Gender=Fem|Number=Sing NOUN
+thall thall _ ADV
+'sa 'sa _ ADP
+bhunkhouse bhunkhouse Foreign=Yes X
+
+ò ò _ INTJ
+a a Mood=Int|PartType=Vb|PronType=Int PART
+bheil bi Tense=Pres VERB
