@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python 3_T5Small_Chaining_Prototype1_FormalResults.py 2
+
+python 3_T5Small_Chaining_Prototype1_FormalResults.py 0
+python 3_T5Small_Chaining_Prototype1_FormalResults.py 1

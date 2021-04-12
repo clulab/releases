@@ -1,0 +1,51 @@
+
+# ARGs:
+EXP_NUM = sys.argv[1]
+DATA_OPTION = sys.argv[2]
+DATA_DEPTH = sys.argv[3]
+TASK_NAME = sys.argv[4]
+TRAIN_AMOUNT = sys.argv[5]
+FACT_BUFFER_SIZE = sys.argv[6]
+RULE_BUFFER_SIZE = sys.argv[7]
+
+CONTROL_NN = sys.argv[8]
+FACT_NN = sys.argv[9]
+RULE_NN = sys.argv[10]
+
+# Experiment 1: baseline:
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 1 0 2 3nn 70k 5 3 c f r
+# correct: 96.7
+# proof correct: 16/21
+# time: 10s per instance
+
+# Experiment 2: single module
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 2 0 2 1nn 70k 5 3 s s s
+# correct: 100.0
+# proof correct: 17/21
+# time: 10s per instance
+
+# Experiment 3: large buffer
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 3 0 2 3nn 70k 20 10 c f r
+# correct: 100.0
+# proof correct: 17/21
+# time: 10s per instance
+# saved pickle good.
+
+# Experiment 4: 10k training:
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 4 0 2 3nn 10k 5 3 c f r
+# correct: 96.7
+# proof correct: 16/21
+# time: 10s per instance
+
+# Experiment 5: 30k training:
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 5 0 2 3nn 30k 5 3 c f r
+# correct: 96.7
+# proof correct: 16/21
+# time: 10s per instance
+
+# Experiment 6: baseline model on bird:
+/home/u15/zhengzhongliang/anaconda3/envs/t5/bin/python 4_T5Small_Chaining_FormalResults.py 6 1 2 3nn 70k 5 3 c f r
+# correct: 100.0
+# proof correct: 30/30
+# time: 7s per instance
+

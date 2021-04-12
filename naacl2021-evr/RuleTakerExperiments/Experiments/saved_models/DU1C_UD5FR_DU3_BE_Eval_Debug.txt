@@ -1,0 +1,139 @@
+DU3-0: DU1C and DU5RF, the literal generation is not good (query: circuit is complete).
+====================
+input the index of the instance to check:0
+facts:
+  fact 1: the switch is on.
+  fact 2: the circuit has the radio.
+rules:
+  rule 1: if the circuit has the switch and the switch is on then the circuit is complete.
+  rule 2: if the circuit does not have the switch then the circuit is complete.
+  rule 3: if the circuit is complete then the current runs through the circuit.
+  rule 4: if the current runs through the circuit and the circuit has the light bulb then the light bulb is glowing.
+  rule 5: if the current runs through the circuit and the circuit has the bell then the bell is ringing.
+  rule 6: if the current runs through the circuit and the circuit has the radio then the radio is playing.
+question and answer:
+  the radio is playing.    True
+/home/u15/zhengzhongliang/anaconda3/envs/t5/lib/python3.6/site-packages/transformers/tokenization_t5.py:184: UserWarning: This sequence already has </s>. In future versions this behavior may lead to duplicated eos tokens being added.
+  f"This sequence already has {self.eos_token}. In future versions this behavior may lead to duplicated eos tokens being added."
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to prove "the radio is playing".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether the facts can prove "the radio is playing". OR i want to judge whether the rules can prove "the radio is playing".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the facts can prove "the radio is playing".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether fact buffer 1 can prove "the radio is playing".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether fact buffer 1 can prove "the radio is playing".']
+  generated operation: GET( FACT_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, FACT_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether fact buffer 1 can prove "the radio is playing". fact 1: the switch is on. fact 2: the circuit has the radio. operator: RUN  </s>
+  generated answer:false, CWA.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the rules can prove "the radio is playing".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether rule buffer 1 can prove "the radio is playing". OR i want to judge whether rule buffer 2 can prove "the radio is playing".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 1 can prove "the radio is playing".']
+  generated operation: GET( RULE_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 1 can prove "the radio is playing". rule 1: if the circuit has the switch and the switch is on then the circuit is complete. rule 2: if the circuit does not have the switch then the circuit is complete. rule 3: if the circuit is complete then the current runs through the circuit. operator: RUN  </s>
+  generated answer:false
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 2 can prove "the radio is playing".']
+  generated operation: GET( RULE_BUFFER_2 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_2 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 2 can prove "the radio is playing". rule 4: if the current runs through the circuit and the circuit has the light bulb then the light bulb is glowing. rule 5: if the current runs through the circuit and the circuit has the bell then the bell is ringing. rule 6: if the current runs through the circuit and the circuit has the radio then the radio is playing. operator: RUN  </s>
+  generated answer:according to rule 6, i need to prove the current runs through the circuit and the circuit has the radio.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: according to rule 6, i need to prove the current runs through the circuit and the circuit has the radio.']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to prove "the current runs through the circuit". AND i want to prove "the circuit has the radio".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to prove "the current runs through the circuit".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether the facts can prove "the current runs through the circuit". OR i want to judge whether the rules can prove "the current runs through the circuit".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the facts can prove "the current runs through the circuit".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether fact buffer 1 can prove "the current runs through the circuit".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether fact buffer 1 can prove "the current runs through the circuit".']
+  generated operation: GET( FACT_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, FACT_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether fact buffer 1 can prove "the current runs through the circuit". fact 1: the switch is on. fact 2: the circuit has the radio. operator: RUN  </s>
+  generated answer:false, CWA.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the rules can prove "the current runs through the circuit".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether rule buffer 1 can prove "the current runs through the circuit". OR i want to judge whether rule buffer 2 can prove "the current runs through the circuit".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 1 can prove "the current runs through the circuit".']
+  generated operation: GET( RULE_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 1 can prove "the current runs through the circuit". rule 1: if the circuit has the switch and the switch is on then the circuit is complete. rule 2: if the circuit does not have the switch then the circuit is complete. rule 3: if the circuit is complete then the current runs through the circuit. operator: RUN  </s>
+  generated answer:according to rule 3, i need to prove the circuit is complete.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: according to rule 3, i need to prove the circuit is complete.']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to prove "the circuit is complete".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to prove "the circuit is complete".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether the facts can prove "the circuit is complete". OR i want to judge whether the rules can prove "the circuit is complete".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the facts can prove "the circuit is complete".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether fact buffer 1 can prove "the circuit is complete".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether fact buffer 1 can prove "the circuit is complete".']
+  generated operation: GET( FACT_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, FACT_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether fact buffer 1 can prove "the circuit is complete". fact 1: the switch is on. fact 2: the circuit has the radio. operator: RUN  </s>
+  generated answer:false, CWA.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the rules can prove "the circuit is complete".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether rule buffer 1 can prove "the circuit is complete". OR i want to judge whether rule buffer 2 can prove "the circuit is complete".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 1 can prove "the circuit is complete".']
+  generated operation: GET( RULE_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 1 can prove "the circuit is complete". rule 1: if the circuit has the switch and the switch is on then the circuit is complete. rule 2: if the circuit does not have the switch then the circuit is complete. rule 3: if the circuit is complete then the current runs through the circuit. operator: RUN  </s>
+  generated answer:according to rule 1, i need to prove the circuit has the switch and the switch is on )and( according to rule 2, i need to prove the circuit does not has the switch.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: according to rule 1, i need to prove the circuit has the switch and the switch is on )and( according to rule 2, i need to prove the circuit does not has the switch.']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to prove "the circuit has the switch". AND i want to prove "the switch is on". )AND( i want to prove "the circuit does not have the switch".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to prove "the circuit has the switch".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether the facts can prove "the circuit has the switch". OR i want to judge whether the rules can prove "the circuit has the switch".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the facts can prove "the circuit has the switch".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether fact buffer 1 can prove "the circuit has the switch".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether fact buffer 1 can prove "the circuit has the switch".']
+  generated operation: GET( FACT_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, FACT_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether fact buffer 1 can prove "the circuit has the switch". fact 1: the switch is on. fact 2: the circuit has the radio. operator: RUN  </s>
+  generated answer:false, CWA.
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether the rules can prove "the circuit has the switch".']
+  generated operation:  GENERATE_SUBGOALS 
+  generated subgoal:i want to judge whether rule buffer 1 can prove "the circuit has the switch". OR i want to judge whether rule buffer 2 can prove "the circuit has the switch".
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 1 can prove "the circuit has the switch".']
+  generated operation: GET( RULE_BUFFER_1 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_1 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 1 can prove "the circuit has the switch". rule 1: if the circuit has the switch and the switch is on then the circuit is complete. rule 2: if the circuit does not have the switch then the circuit is complete. rule 3: if the circuit is complete then the current runs through the circuit. operator: RUN  </s>
+  generated answer:false
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 2 can prove "the circuit has the switch".']
+  generated operation: GET( RULE_BUFFER_2 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_2 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 2 can prove "the circuit has the switch". rule 4: if the current runs through the circuit and the circuit has the light bulb then the light bulb is glowing. rule 5: if the current runs through the circuit and the circuit has the bell then the bell is ringing. rule 6: if the current runs through the circuit and the circuit has the radio then the radio is playing. operator: RUN  </s>
+  generated answer:false
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 2 can prove "the circuit is complete".']
+  generated operation: GET( RULE_BUFFER_2 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_2 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 2 can prove "the circuit is complete". rule 4: if the current runs through the circuit and the circuit has the light bulb then the light bulb is glowing. rule 5: if the current runs through the circuit and the circuit has the bell then the bell is ringing. rule 6: if the current runs through the circuit and the circuit has the radio then the radio is playing. operator: RUN  </s>
+  generated answer:false
+  --------------------
+  episodic buffer ['episodic buffer: there are 1 fact buffers and 2 rule buffers.', 'episodic buffer: i want to judge whether rule buffer 2 can prove "the current runs through the circuit".']
+  generated operation: GET( RULE_BUFFER_2 ) THEN RUN ( EPISODIC_BUFFER, RULE_BUFFER_2 )
+  buffer input:episodic buffer: there are 1 fact buffers and 2 rule buffers. episodic buffer: i want to judge whether rule buffer 2 can prove "the current runs through the circuit". rule 4: if the current runs through the circuit and the circuit has the light bulb then the light bulb is glowing. rule 5: if the current runs through the circuit and the circuit has the bell then the bell is ringing. rule 6: if the current runs through the circuit and the circuit has the radio then the radio is playing. operator: RUN  </s>
+  generated answer:false
+pred: False  label: True
+-----------------------
