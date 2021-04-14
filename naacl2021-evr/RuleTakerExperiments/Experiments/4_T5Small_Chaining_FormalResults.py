@@ -153,10 +153,10 @@ class NeuralBackwardChainer:
         #self.t5_c = torch.load("saved_models/20210407_t5_small_train_d5/task_3nn_module_c_amount_70k_fbs_5_rbs_3_seed_0")
         self.t5_c.to(device)
 
-        # self.t5_f = torch.load("saved_models/20201118_t5_small/task_"+TASK_NAME+"_module_"+FACT_NN+
-        #                        "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
-        self.t5_f = torch.load("saved_models/20210407_t5_small_train_d5/task_"+TASK_NAME+"_module_"+FACT_NN+
+        self.t5_f = torch.load("saved_models/20201118_t5_small/task_"+TASK_NAME+"_module_"+FACT_NN+
                                "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
+        # self.t5_f = torch.load("saved_models/20210407_t5_small_train_d5/task_"+TASK_NAME+"_module_"+FACT_NN+
+        #                        "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
 
         # This is for debugging on alix only:
         #self.t5_f = torch.load("saved_models/20201021_t5_small_ruletaker_multitask_type_f")
@@ -164,10 +164,10 @@ class NeuralBackwardChainer:
         #    "saved_models/20210407_t5_small_train_d5/task_3nn_module_f_amount_70k_fbs_5_rbs_3_seed_0")
         self.t5_f.to(device)
 
-        # self.t5_r = torch.load("saved_models/20201118_t5_small/task_"+TASK_NAME+"_module_"+RULE_NN+
-        #                        "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
-        self.t5_r = torch.load("saved_models/20210407_t5_small_train_d5/task_"+TASK_NAME+"_module_"+RULE_NN+
+        self.t5_r = torch.load("saved_models/20201118_t5_small/task_"+TASK_NAME+"_module_"+RULE_NN+
                                "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
+        # self.t5_r = torch.load("saved_models/20210407_t5_small_train_d5/task_"+TASK_NAME+"_module_"+RULE_NN+
+        #                        "_amount_"+TRAIN_AMOUNT+"_fbs_"+FACT_BUFFER_SIZE+"_rbs_"+RULE_BUFFER_SIZE+"_seed_0")
 
         # This is for debugging on alix only:
         #self.t5_r = torch.load("saved_models/20201111_t5_small_ruletaker_multitask_type_r")

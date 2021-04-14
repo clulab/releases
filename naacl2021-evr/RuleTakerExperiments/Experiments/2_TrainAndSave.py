@@ -66,7 +66,7 @@ def train_with_batch():
     if not os.path.exists("saved_models/"):
         os.mkdir("saved_models/")
 
-    save_folder_path = "saved_models/20210407_t5_small_train_d5/"
+    save_folder_path = "saved_models/20201118_t5_small/"
     if not os.path.exists(save_folder_path):
         os.mkdir(save_folder_path)
 
