@@ -3,6 +3,8 @@ This repo contains the code of the NAACL 2021 paper: Explainable Multi-hop Verba
 # Requirements:
 `python = 3.7`
 
+`numpy = 1.19.1`
+
 `torch = 1.6.0`
 
 `transformers = 3.0.2`
