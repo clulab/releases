@@ -27,7 +27,7 @@ This will write vocabulary and word vectors as a numpy matrix into the dir `data
 
 To train a graph convolutional neural network (GCN) model, run:
 ```
-bash python train.py --id 0 --seed 0 --prune_k 1 --lr 0.3 --rnn_hidden 200 --num_epoch 100 --pooling max --mlp_layers 2 --pooling_l2 0.003
+python train.py --id 0 --seed 0 --prune_k 1 --lr 0.3 --rnn_hidden 200 --num_epoch 100 --pooling max --mlp_layers 2 --pooling_l2 0.003
 ```
 
 Model checkpoints and logs will be saved to `./saved_models/00`.
