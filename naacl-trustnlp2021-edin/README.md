@@ -2,8 +2,6 @@
 
 This is the accompanying code and data for our NAACL TrustNLP 2020 [paper](http://clulab.cs.arizona.edu/papers/trustNLP2021_edin.pdf) 
 
-You can find the BioNLP 2013 GE Task data and evaluation tool [here](http://bionlp.dbcls.jp/projects/bionlp-st-ge-2013/wiki)
-
 ## Requirements
 
 - Python 3 (tested on 3.6.5)
