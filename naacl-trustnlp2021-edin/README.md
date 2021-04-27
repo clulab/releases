@@ -53,6 +53,6 @@ python train.py --load --model_file saved_models/01/best_model.pt --optim sgd --
 
 ## Related Repo
 
-The paper also includes comparisons to the GCN over pruned tree model for relation extraction. To reproduce the corresponding results, please refer to [this repo](https://github.com/qipeng/gcn-over-pruned-trees).
+The paper also includes comparisons to the GCN over pruned tree model for relation extraction, and our model is an extention of this model. To reproduce the corresponding results, please refer to [this repo](https://github.com/qipeng/gcn-over-pruned-trees).
 
 ## Citation
