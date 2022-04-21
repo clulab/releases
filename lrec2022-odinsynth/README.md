@@ -7,6 +7,12 @@ For pre-trained models and additional details about our model, please see the [d
 The code is not cleaned at the moment. For additional assistance, please contact the main author of the paper.
 
 
+## Demo
+[![Watch the video](https://user-images.githubusercontent.com/11160695/164539238-d4cd9d7b-ba39-4af9-af48-05bbce4da651.png)](https://www.youtube.com/watch?v=x27sciJJxv8)
+
+
+
+
 
 Rule Synthesis using Machine Learning
 
