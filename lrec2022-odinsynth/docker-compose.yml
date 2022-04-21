@@ -1,0 +1,66 @@
+# NOTE: download checkpoint from https://osf.io/mzgb3/?view_only=6bb25f1008804d9d8ff0e3f2fab914d2 and store as best.ckpt in ./data
+# NOTE: assumes index dir is in ./data/odinson/index
+version: "3.9"
+services:
+
+  # Next js app
+  ui:
+    # build:
+    #   context: ./frontend
+    #   dockerfile: ./frontend/Dockerfile
+    image: odinson/odinsynth-ui
+    container_name: odinsynth-ui
+    command: yarn run start -H 0.0.0.0 -p 3000
+    networks:
+      - odinsynth_network
+    env_file: .env
+    depends_on:
+      - backend
+    ports:
+      - 3000:3000
+    expose:
+      - 3000
+  # Play! app
+  backend:
+    # built via build-images -arch arm64
+    # built via build-images -arch amd64
+    image: odinson/odinsynth-backend
+    container_name: odinsynth-backend
+    networks:
+      - odinsynth_network
+    env_file: .env
+    depends_on:
+      - frontend
+    volumes:
+      - type: bind
+        # NOTE: assumes local copy of index 
+        # is at ./data/odinson/index
+        source: ./data/odinson
+        target: /data/odinson
+    # probably not needed, 
+    # unless we want to communicate with the backend directly
+    ports:
+      - 9000:9000
+    expose:
+      - 9000
+    # access host's localhost from within the container
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # NOTE: currently we're using a service running on machine with a GPU
+  # use port forwarding for GPU-accelerated inference
+  # ex. ssh -L 8000:localhost:<remoteport> rogue
+  # Pytorch + API server
+  # engine:
+  #   image: odinson/odinsynth-engine
+  #   networks:
+  #      - odinsynth_network
+  #   volumes:
+  #     - type: bind
+  #       source: ./data/best.ckpt
+  #       target: /data/checkpoints/best.ckpt
+
+
+networks:
+  odinsynth_network:
+    driver: bridge

@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+# TODO: add root route with instructions
+#GET     /                          controllers.OdinsynthController.root
+GET     /config                      controllers.OdinsynthController.configInfo
+GET     /search                     controllers.OdinsynthController.search(query: String)
+
+GET     /getOdinsonDocument         controllers.OdinsynthController.getOdinsonDocument(documentId: Int)
+POST    /generateRule               controllers.OdinsynthController.generateRule
+GET    /nextRule                    controllers.OdinsynthController.nextRule
+
+GET     /document/:documentId       controllers.OdinsynthController.getOdinsonDocument(documentId: Int)
+POST    /generate-rule              controllers.OdinsynthController.generateUnMaskedRule
+POST    /generate-rule/entity/masked       controllers.OdinsynthController.generateEntityMaskedRule
+POST    /generate-rule/relation/masked       controllers.OdinsynthController.generateRelationMaskedRule
+GET     /scorerVersion              controllers.OdinsynthController.scorerVersion
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /favicon.ico                controllers.Assets.at(path="/public", file="/images/favicon.ico")
+
+
+# Searcher
+POST    /isSolution     controllers.SearcherController.isSolution()
+GET    /test     controllers.SearcherController.test

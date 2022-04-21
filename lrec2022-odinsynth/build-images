@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+ARCH=$1
+
+if [ "$ARCH" != "amd64" ] && [ "$ARCH" != "arm64" ] ; then
+    echo "$ARCH is not a valid platform."
+    echo "Platform for must either be amd64 or arm64"
+    exit 1
+fi
+
+# build image for UI
+docker buildx build --build-arg BACKENDURL=http://localhost:9000/ --output=type=docker --platform=linux/$ARCH -f frontend/Dockerfile -t "odinson/odinsynth-ui:latest" frontend
+
+# build image for backend 
+( sbt dockerfile && cd webapp/target/docker/stage && docker buildx build --output=type=docker --platform=linux/$ARCH -f Dockerfile -t "odinson/odinsynth-backend:latest" . )
+
+# build image for engine 
+#docker buildx build --build-arg PLATFORM=$ARCH --output=type=docker --platform=linux/$ARCH -f python/Dockerfile -t "odinson/odinsynth-engine:latest" python 

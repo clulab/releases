@@ -1,0 +1,87 @@
+---
+title: Install using docker
+slug: "/docs/install-using-docker"
+---
+
+# Requirements
+
+- Docker
+- `docker-compose`
+
+On a Mac, simply use Docker Desktop:
+
+```brew
+brew install --cask docker
+```
+
+[On Linux, follow the official distro-specific instructions](https://docs.docker.com/engine/install/ubuntu/).
+
+### 0. Copy the data locally
+
+We'll need an index to run things locally.  The index should be stored under the `./data` from the project root under the `odinson` directory.  Your directory structure for `./data` (and directory names!) should mirror this output of `tree -L 2`:
+
+```bash
+data
+└── odinson
+    ├── docs
+    └── index
+```
+
+#### Options
+
+- 100K sample of UMBC: `/data/nlp/corpora/umbc/umbc_sample_100k.tar.gz`
+
+
+### 1. Build docker images
+
+#### Option a: build for ARM64 machines
+
+If you're running things on a Mac M1 or an ARM64-based machine, ...
+
+```bash
+./build-images arm64
+```
+
+#### Option b: build for Intel/AMD machines
+
+If you're running things on an Intel or AMD machine, ...
+
+```bash
+./build-images amd64
+```
+
+This will produce the following images:
+
+```bash
+odinson/odinsynth-ui:latest
+odinson/odinsynth-backend:latest
+```
+
+You can verify this by running `docker images`
+
+### 2. Port forwarding for GPU-accelerated inference
+
+Rather than run the program synthesis service locally on the CPU, we'll use a GPU-accelerated service running on a remote machine (ex. `rogue`).  In another terminal/tmux pane, run the following (replacing `<remoteport>` with the appropriate port on the remote):
+
+```bash
+ssh -L 8000:localhost:<remoteport> rogue
+```
+
+If you've done this correctly, running the following command in another window should return an array with three numbers:
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"sentences":[["San","Jose"]],"specs":[{"docId":"test-doc","sentId":0,"start":0,"end":2}],"patterns":["□ □","□?","□*","□+"],"current_pattern":"□"}' 127.0.0.1:8000/score
+```
+
+You should see a result like the following:
+
+```json
+[0.9998440742492676,0.00011766255192924291,0.00011426166020100936,0.00012613831495400518]
+```
+
+### 3. Launch the docker services
+
+```bash
+docker-compose up
+```
+

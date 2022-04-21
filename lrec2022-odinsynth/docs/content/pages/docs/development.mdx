@@ -1,0 +1,80 @@
+---
+title: Development
+slug: "/docs/development"
+---
+
+## Dependencies
+
+### Scala
+The Scala dependencies are captured in the `build.sbt` file. In particular, we used the `a35ef0090099df3799405f181832f700c0331c16` commit for Odinson.
+
+### Python
+We exported our environment in an `.yml` file.
+
+You can start the api with 
+```
+CHECKPOINT_PATH='8_512' ./bash_scripts/start_servers.sh 8000
+```
+
+## How to run
+
+Inside your repo type `sbt console`.
+
+Then import:
+
+```scala
+import java.io.File
+import ai.lum.common.FileUtils._
+import ai.lum.odinson._
+import org.clulab.odinsynth._
+```
+
+Create a new pattern and then parse it:
+
+```scala
+val pattern = s"$holeGlyph"
+val q = Parser.parseBasicQuery(pattern)
+```
+
+Playing with the search tree:
+
+```scala
+val json = new File("doc.json").readString()
+val doc = Document.fromJson(json)
+val s = new Searcher(Seq(doc), Set("word", "tag"))
+q.pattern
+s.nextStates(q).foreach(x => println(x.pattern))
+s.nextStates(q).flatMap(s.nextStates).foreach(x => println(x.pattern))
+s.nextStates(q).flatMap(s.nextStates).flatMap(s.nextStates).foreach(x => println(x.pattern))
+s.nextStates(q).flatMap(s.nextStates).flatMap(s.nextStates).flatMap(s.nextStates).foreach(x => println(x.pattern))
+```
+
+Assuming you have a Odinson json file named `doc.json`.
+
+# WebApp
+
+## Front-end
+
+To run the frontend you need NodeJS installed.
+Then go to `frontend` and run
+
+```bash
+npm install
+PORT=3000 npm start
+```
+
+And the front-end will be available at `http://localhost:3000`.
+Note: This does not work with versions of node greater than 17.
+
+## Back end
+
+Simply run `sbt webapp/run` or `sbt webapp/run -Dhttp.port=9001` to change the default port.
+
+Note: You might need to change the location of the index. This can be done with the following flag: `-Dodinson.dataDir="<odinson_index_path>"`
+
+Note: Changing the python API endpoint can be done with the following flat: `-Dodinsynth.scorer.endpoint=<endpoint>`
+
+Full command:
+```
+sbt webapp/run -Dhttp.port=9001 -Dodinson.dataDir="/data/nlp/corpora/umbc" -Dodinsynth.scorer.endpoint="http://localhost:8002"
+```

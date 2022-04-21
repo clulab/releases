@@ -1,0 +1,73 @@
+---
+title: Install locally on MacOS
+slug: "/docs/install-locally-on-macos"
+---
+
+# Running The Web app in your own MacBook
+
+To run the web app in macOS, the instructions are mostly the same as in README.md
+
+In order to be able to run locally, you need a copy of an `odinson` index and a checkpoint of the scorer.
+
+## Necessary files
+
+- Small index (100). Download and uncompress: https://drive.google.com/drive/folders/1Wu02GAUNUTQs77uW3Eejk8APKA6TrcZ8?usp=sharing
+- From clulab's servers, download the file using scp/sftp/rsync `/home/rvacareanu/projects/odinsynth/python/logs/odinsynth/version_933/checkpoints/best.ckpt` (BERT 8_512): `scp river:/home/rvacareanu/projects/odinsynth/python/logs/odinsynth/version_933/checkpoints/best.ckpt .` Store this file locally and replace `{CKPT_PATH}` with the local path below.
+
+## Environment
+
+If you're running this on macOS, create a conda environment with the following command:
+
+```
+conda env create -n odinsynth -f odinsynth_mac.yml
+```
+
+Once installed, activate it with:
+
+```
+conda activate odinsynth
+```
+
+
+Now install the node environment to run the front end:
+
+```
+cd frontend
+npm install
+```
+
+
+## Run the components
+
+There are _three_ components of the demo: `Pytorch API`, `Back end`, `Front end`
+
+### Pytorch API
+
+Run the following command replacing `{CKPT_PATH}` with your local path of the scorer checkpoint refered to in the previous section:
+
+```
+CHECKPOINT_PATH={CKPT_PATH} ./bash_scripts/start_servers.sh 8000
+```
+
+### Back end
+
+Replace `{INDEX_PATH}` with the location of your local copy:
+
+```
+sbt -Dodinson.dataDir="{INDEX_PATH}" webapp/run
+```
+
+I struggled making `Play!` work correctly because homebrew's `sbt` downloads and uses java version 17. If you have Oracle's JVM version 11 or 8 installed, you can enforce using it with the following variation:
+
+```
+sbt -java-home "$(/usr/libexec/java_home)" -Dodinson.dataDir="{INDEX_PATH}" webapp/run
+```
+
+### Front end
+
+Run the following commands and your browser will open the web interface of the demo:
+
+```
+cd frontend
+npm start
+```
