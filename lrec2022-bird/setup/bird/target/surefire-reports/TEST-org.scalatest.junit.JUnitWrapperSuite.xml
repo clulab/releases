@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="r1u04n1.puma.hpc.arizona.edu" name="org.scalatest.junit.JUnitWrapperSuite" tests="0" time="0.065" timestamp="2020-10-19T04:35:39">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property 
+    name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/amd64">
+</property>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property name="user.dir" value="/home/u13/marahimi/CSC900/dirt-preproc"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property 
+    name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment">
+</property>
+    <property name="basedir" value="/home/u13/marahimi/CSC900/dirt-preproc"/>
+    <property 
+    name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value=" "/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property 
+    name="java.library.path" value="/opt/ohpc/pub/apps/maven/3.6.3/lib:/opt/ohpc/pub/mpi/openmpi3-gnu8/3.1.4/lib:/opt/ohpc/pub/compiler/gcc/8.3.0/lib64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib">
+</property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"/>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="3.10.0-1127.13.1.el7.x86_64"/>
+    <property name="user.home" value="/home/u13/marahimi"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="marahimi"/>
+    <property 
+    name="java.class.path" value="/home/u13/marahimi/CSC900/dirt-preproc/target/test-classes:/home/u13/marahimi/CSC900/dirt-preproc/target/classes:/home/u13/marahimi/.m2/repository/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar:/home/u13/marahimi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/u13/marahimi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/u13/marahimi/.m2/repository/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar:/home/u13/marahimi/.m2/repository/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar:/home/u13/marahimi/.m2/repository/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar:/home/u13/marahimi/.m2/repository/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/u13/marahimi/.m2/repository/org/specs2/specs2-core_2.12/4.2.0/specs2-core_2.12-4.2.0.jar:/home/u13/marahimi/.m2/repository/org/specs2/specs2-matcher_2.12/4.2.0/specs2-matcher_2.12-4.2.0.jar:/home/u13/marahimi/.m2/repository/org/specs2/specs2-common_2.12/4.2.0/specs2-common_2.12-4.2.0.jar:/home/u13/marahimi/.m2/repository/org/specs2/specs2-fp_2.12/4.2.0/specs2-fp_2.12-4.2.0.jar:/home/u13/marahimi/.m2/repository/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/u13/marahimi/.m2/repository/org/specs2/specs2-junit_2.12/4.2.0/specs2-junit_2.12-4.2.0.jar:/home/u13/marahimi/.m2/repository/org/clulab/processors-corenlp_2.12/8.1.1/processors-corenlp_2.12-8.1.1.jar:/home/u13/marahimi/.m2/repository/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2.jar:/home/u13/marahimi/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/home/u13/marahimi/.m2/repository/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar:/home/u13/marahimi/.m2/repository/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar:/home/u13/marahimi/.m2/repository/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar:/home/u13/marahimi/.m2/repository/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar:/home/u13/marahimi/.m2/repository/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar:/home/u13/marahimi/.m2/repository/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar:/home/u13/marahimi/.m2/repository/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar:/home/u13/marahimi/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar:/home/u13/marahimi/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar:/home/u13/marahimi/.m2/repository/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar:/home/u13/marahimi/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/u13/marahimi/.m2/repository/com/google/protobuf/protobuf-java/3.2.0/protobuf-java-3.2.0.jar:/home/u13/marahimi/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/u13/marahimi/.m2/repository/javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.jar:/home/u13/marahimi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/home/u13/marahimi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.4.0-b180830.0438/jaxb-impl-2.4.0-b180830.0438.jar:/home/u13/marahimi/.m2/repository/edu/stanford/nlp/stanford-corenlp/3.9.2/stanford-corenlp-3.9.2-models.jar:/home/u13/marahimi/.m2/repository/org/clulab/processors-main_2.12/8.1.1/processors-main_2.12-8.1.1.jar:/home/u13/marahimi/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar:/home/u13/marahimi/.m2/repository/com/typesafe/config/1.3.1/config-1.3.1.jar:/home/u13/marahimi/.m2/repository/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar:/home/u13/marahimi/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar:/home/u13/marahimi/.m2/repository/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar:/home/u13/marahimi/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar:/home/u13/marahimi/.m2/repository/org/json4s/json4s-core_2.12/3.5.2/json4s-core_2.12-3.5.2.jar:/home/u13/marahimi/.m2/repository/org/json4s/json4s-ast_2.12/3.5.2/json4s-ast_2.12-3.5.2.jar:/home/u13/marahimi/.m2/repository/org/json4s/json4s-scalap_2.12/3.5.2/json4s-scalap_2.12-3.5.2.jar:/home/u13/marahimi/.m2/repository/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/home/u13/marahimi/.m2/repository/org/json4s/json4s-jackson_2.12/3.5.2/json4s-jackson_2.12-3.5.2.jar:/home/u13/marahimi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar:/home/u13/marahimi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/u13/marahimi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar:/home/u13/marahimi/.m2/repository/jline/jline/2.12.1/jline-2.12.1.jar:/home/u13/marahimi/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/u13/marahimi/.m2/repository/ai/lum/common_2.12/0.0.8/common_2.12-0.0.8.jar:/home/u13/marahimi/.m2/repository/de/bwaldvogel/liblinear/2.30/liblinear-2.30.jar:/home/u13/marahimi/.m2/repository/tw/edu/ntu/csie/libsvm/3.23/libsvm-3.23.jar:/home/u13/marahimi/.m2/repository/org/clulab/fatdynet_2.12/0.2.5/fatdynet_2.12-0.2.5.jar:/home/u13/marahimi/.m2/repository/org/antlr/antlr4-runtime/4.6/antlr4-runtime-4.6.jar:/home/u13/marahimi/.m2/repository/org/clulab/lemport/0.9.10/lemport-0.9.10.jar:/home/u13/marahimi/.m2/repository/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.jar:/home/u13/marahimi/.m2/repository/ch/qos/logback/logback-classic/1.0.10/logback-classic-1.0.10.jar:/home/u13/marahimi/.m2/repository/ch/qos/logback/logback-core/1.0.10/logback-core-1.0.10.jar:/home/u13/marahimi/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar:/home/u13/marahimi/.m2/repository/org/clulab/processors-models/0.1.2/processors-models-0.1.2.jar:/home/u13/marahimi/.m2/repository/org/clulab/glove-840b-300d-10f/1.0.0/glove-840b-300d-10f-1.0.0.jar:/home/u13/marahimi/.m2/repository/org/clulab/processors-odin_2.12/8.1.1/processors-odin_2.12-8.1.1.jar:/home/u13/marahimi/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/u13/marahimi/.m2/repository/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar">
+</property>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property 
+    name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre">
+</property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /home/u13/marahimi/CSC900/dirt-preproc/target/classes /home/u13/marahimi/CSC900/dirt-preproc/target/test-classes -j samples.AppTest -o -f /home/u13/marahimi/CSC900/dirt-preproc/target/surefire-reports/TestSuiteReport.txt -u /home/u13/marahimi/CSC900/dirt-preproc/target/surefire-reports/.">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property 
+    name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/ext:/usr/java/packages/lib/ext">
+</property>
+    <property 
+    name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64/jre/classes">
+</property>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
