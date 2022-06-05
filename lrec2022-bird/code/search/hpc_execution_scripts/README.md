@@ -1,4 +1,4 @@
-Before running an slurm file:
+Before running a slurm file:
 
 - In the slurm file, replace "your_pi_group" with your PI group. 
 
