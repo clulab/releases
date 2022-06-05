@@ -1,0 +1,1 @@
+The experimental results from the paper is included in the Excel spreadsheet file. The first sheet of the file contains the overall performance of each method for each question. The next sheets contain the details of the evaluation resutls (the found syntactic paths) for each question.
