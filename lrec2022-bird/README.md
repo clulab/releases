@@ -6,6 +6,6 @@ The contents of this directory are as follows:
 
 - setup: contains the instructions necessary to create the environment for executing the code.
 
-- code: contains the source code as well as the data
+- code: contains the source code as well as the data. The HPC execution scripts are also included.
 
-- results: contains the experimental results from the paper
+- results: contains the experimental results from the paper.
