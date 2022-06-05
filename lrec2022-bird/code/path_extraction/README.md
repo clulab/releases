@@ -1,4 +1,4 @@
-The path extraction phase have several steps that must be run sequentially. The details of each step is as follows:
+The path extraction phase has several steps that must be run sequentially. The details of each step is as follows:
 
 - Step 0: Some of the sentences in the corpus don't end with any kind of punctuations. In order for Stanford NLP parser to be able to make a distinction between separate sentences, a period character (.) is added to the end of the sentences that are not punctuated.
 
