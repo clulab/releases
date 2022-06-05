@@ -2,7 +2,7 @@ Before running the source code, you must set up the needed directory structure a
 
 1. The "bird" directory contains the maven and scala files required to compile the source code. Move this directory to your home directory (or anywhere that you would like). The "virenv_setup" script assumes that the bird directory is located at your home directory. If you want to put it somewhere else, you need to modify the "virenv_setup" script accordingly. 
 
-2. Place the provided "code" directory in "bird/src/main/scala/".
+2. Place the provided "code" directory (located in the parent directory of this directory) in "bird/src/main/scala/".
 
 3. On line 12 of "virenv_setup.slurm", replace "your_pi_group" with your PI group. 
 
