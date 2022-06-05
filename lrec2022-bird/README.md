@@ -4,7 +4,7 @@ Due to the heavy computational nature as well as huge amounts of memory required
 
 The contents of this directory are as follows:
 
-- setup: contains the instructions necessary to create the environment for executing the code.
+- setup: contains the instructions to create the environment for executing the code.
 
 - code: contains the source code as well as the data. The HPC execution scripts are also included.
 
