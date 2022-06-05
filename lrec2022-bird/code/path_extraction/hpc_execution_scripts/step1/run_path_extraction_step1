@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in {1..100}
+do 
+  cp path_extraction_step1.slurm path_extraction_step1_tmp.slurm
+  sed -i 's/partno/'$i'/g' path_extraction_step1_tmp.slurm
+
+  sbatch path_extraction_step1_tmp.slurm
+done

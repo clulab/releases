@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Don't forget to give this script execute permission
+# chmod +x call_create_BERTtoken_mappings
+
+# This file is supposed to be called by path_extraction_step2.scala
+# Usage: ./call_create_BERTtoken_mappings {virtual environment path} {BERT model name}
+
+# This script activates the appropriate virtual environment and then
+# calls "create_BERTtoken_mappings.py" which will create the tsv file
+# "sentence_chars_to_BERTtokens_indexes.tsv"
+
+source $1
+cd src/main/scala/code/path_extraction
+python3 -u create_BERTtoken_mappings.py $2
+cd ../../../../..
+deactivate
