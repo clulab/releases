@@ -1,3 +1,5 @@
+Before running the source code, you must set up the needed directory structure as well as creating a Python virtual environment. Here, we provide the Slurm script that we used to create the virtual environment. Follow the following steps to set up the directory structure as well as the virtual environment:
+
 1. The "bird" directory contains the maven and scala files required to compile the source code. Move this directory to your home directory (or anywhere that you would like). The "virenv_setup" script assumes that the bird directory is located at your home directory. If you want to put it somewhere else, you need to modify the "virenv_setup" script accordingly. 
 
 2. Place the provided "code" directory in "bird/src/main/scala/".
