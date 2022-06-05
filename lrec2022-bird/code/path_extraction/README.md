@@ -1,3 +1,5 @@
+The path extraction phase have several stesp that must be run sequentially. The details of each step is as follows:
+
 - step 0: Some of the sentences in the corpus don't end with any kind of punctuations. In order for Stanford NLP parser to be able to make a distinction between separate sentences, a period character (.) is added to the end of the sentences that are not punctuated.
 
 - step 1: This step annotates the corpus using FastNLPProcessor and serializes the resulting doc objects to files. Since this is a very time-consuming process, annotating the whole corpus is infeasible. Instead, we divided the corpus into 100 separate files (corpus_part001 ... corpus_part100) and each part is annotated independently. In this way, we are able to annotate all of the 100 files in parallel using separate HPC jobs and speed up the process. When all of the 100 HPC jobs are finished, there should be 100 doc files (doc_part001 ... doc_part100) in "data/docs" directory.
