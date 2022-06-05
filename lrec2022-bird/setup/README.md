@@ -10,4 +10,4 @@ Before running the source code, you must set up the needed directory structure a
 
 5. Now run the *virenv_setup.slurm* script to create the virtual environment directory required to execute BIRD. The directory will be called "bird_virenv" and it will be located inside the "bird" directory. On the University of Arizona Puma HPC cluster, you can run the script using the following command: *sbatch virenv_setup.slurm*
 
-If you don't want to create the Python virtual environment, you can download it (1.2GB) from [here](). Put the "bird" directory in home directory and the "bird_virenv" directory inside "bird". 
+Note: If you don't want to create the Python virtual environment, you can download it (1.2GB) from [here](). It contains the prebuilt "bird_virenv" directory. Put the "bird" directory in your home directory and the "bird_virenv" directory inside "bird".
