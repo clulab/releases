@@ -14,8 +14,6 @@ from statistics import mean
 
 from termcolor import colored
 
-# hide_relations = ["per:employee_of", "per:age", "org:city_of_headquarters", "org:country_of_headquarters", "org:stateorprovince_of_headquarters", "per:origin"]
-
 class DataLoader(object):
     """
     Load data from json files, preprocess and prepare batches.
@@ -23,7 +21,12 @@ class DataLoader(object):
     def __init__(self, filename, batch_size, opt, tokenizer, do_eval = True, tagging = None):
         self.batch_size = batch_size
         self.opt = opt
-        self.label2id = constant.LABEL_TO_ID
+        if "tacred" in self.opt["data_dir"]:
+            self.label2id = constant.LABEL_TO_ID_tacred
+            self.ENTITY_TOKEN_TO_ID = constant.ENTITY_TOKEN_TO_ID_tacred
+        else:
+            self.label2id = constant.LABEL_TO_ID_conll
+            self.ENTITY_TOKEN_TO_ID = constant.ENTITY_TOKEN_TO_ID_conll
         self.tokenizer = tokenizer
         self.do_eval = do_eval
 
@@ -71,10 +74,10 @@ class DataLoader(object):
             obj = []
             for i, t in enumerate(d['token']):
                 if i == ss:
-                    words.append("[unused%d]"%(constant.ENTITY_TOKEN_TO_ID['[SUBJ-'+d['subj_type']+']']+1))
+                    words.append("[unused%d]"%(self.ENTITY_TOKEN_TO_ID['[SUBJ-'+d['subj_type']+']']+1))
                     tagging_mask.append(0)
                 if i == os:
-                    words.append("[unused%d]"%(constant.ENTITY_TOKEN_TO_ID['[OBJ-'+d['obj_type']+']']+1))
+                    words.append("[unused%d]"%(self.ENTITY_TOKEN_TO_ID['[OBJ-'+d['obj_type']+']']+1))
                     tagging_mask.append(0)
                 if i>=ss and i<=se:
                     # for sub_token in self.tokenizer.tokenize(t):
@@ -105,14 +108,9 @@ class DataLoader(object):
             segment_ids = [0] * len(tokens)
             if self.do_eval:
                 processed += [(tokens, mask, segment_ids, tagging_mask, sum(tagging_mask)!=0, relation, origin)]
-            elif len([aa for aa in tokens if aa>0 and aa<20]) == 2:# or relation == 0) and d['relation'] not in hide_relations:
+            elif len([aa for aa in tokens if aa>0 and aa<20]) == 2:
                 processed += [(tokens, mask, segment_ids, tagging_mask, sum(tagging_mask)!=0, relation, origin)]
                 
-            # if sum(tagging_mask)!=0:
-            #     print (d['token'])
-            #     print (words)
-            #     print ([w for i,w in enumerate(d['token']) if i in tagged])
-            #     print ([w for i, w in enumerate(words) if tagging_mask[i]==1])
         return processed
 
     def gold(self):

@@ -7,7 +7,6 @@ import numpy as np
 from pytorch_pretrained_bert.modeling import BertModel
 
 from utils import constant, torch_utils
-from torch.nn import CrossEntropyLoss
 
 
 class BERTencoder(nn.Module):
@@ -38,8 +37,12 @@ class BERTclassifier(nn.Module):
 
     def forward(self, h, words, tags):
         pool_type = self.opt['pooling']
-        subj_mask = torch.logical_and(words.unsqueeze(2).gt(0), words.unsqueeze(2).lt(3))
-        obj_mask = torch.logical_and(words.unsqueeze(2).gt(2), words.unsqueeze(2).lt(20))
+        if "tacred" in self.opt["data_dir"]:
+            subj_mask = torch.logical_and(words.unsqueeze(2).gt(0), words.unsqueeze(2).lt(3))
+            obj_mask = torch.logical_and(words.unsqueeze(2).gt(2), words.unsqueeze(2).lt(20))
+        else:
+            subj_mask = torch.logical_and(words.unsqueeze(2).gt(4), words.unsqueeze(2).lt(9))
+            obj_mask = torch.logical_and(words.unsqueeze(2).gt(0), words.unsqueeze(2).lt(5))
         tag_mask = tags.unsqueeze(2).eq(1)
         cls_out = torch.cat([pool(h, tag_mask.eq(0), type=pool_type), pool(h, subj_mask.eq(0), type=pool_type), pool(h, obj_mask.eq(0), type=pool_type)], 1)
         cls_out = self.dropout(cls_out)

@@ -72,7 +72,10 @@ with open(opt['data_dir'] + '/tagging_{}.txt'.format(args.dataset)) as f:
         tagging.append(line)
 
 helper.print_config(opt)
-label2id = constant.LABEL_TO_ID
+if "tacred" in opt["data_dir"]:
+    label2id = constant.LABEL_TO_ID_tacred
+else:
+    label2id = constant.LABEL_TO_ID_conll
 id2label = dict([(v,k) for k,v in label2id.items()])
 
 predictions = []

@@ -51,7 +51,11 @@ parser.add_argument("--top", default=1, type=int)
 args = parser.parse_args()
 
 opt = vars(args)
-label2id = constant.LABEL_TO_ID
+if "tacred" in opt["data_dir"]:
+    label2id = constant.LABEL_TO_ID_tacred
+else:
+    label2id = constant.LABEL_TO_ID_conll
+    
 opt['num_class'] = len(label2id)
 
 torch.manual_seed(args.seed)
