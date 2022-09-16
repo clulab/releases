@@ -14,6 +14,7 @@ from statistics import mean
 
 from termcolor import colored
 
+# hide_relations = ["per:employee_of", "per:age", "org:city_of_headquarters", "org:country_of_headquarters", "org:stateorprovince_of_headquarters", "per:origin"]
 
 class DataLoader(object):
     """
@@ -97,14 +98,14 @@ class DataLoader(object):
             relation = self.label2id[d['relation']]
             tagging_mask = [0]+tagging_mask+[0]
             tokens = self.tokenizer.convert_tokens_to_ids(words)
-            # if len(tokens) > self.opt['max_length']:
-            #     tokens = tokens[:self.opt['max_length']]
-            #     tagging_mask = tagging_mask[:self.opt['max_length']]
+            if len(tokens) > self.opt['max_length']:
+                tokens = tokens[:self.opt['max_length']]
+                tagging_mask = tagging_mask[:self.opt['max_length']]
             mask = [1] * len(tokens)
             segment_ids = [0] * len(tokens)
             if self.do_eval:
                 processed += [(tokens, mask, segment_ids, tagging_mask, sum(tagging_mask)!=0, relation, origin)]
-            elif (len([aa for aa in tokens if aa>0 and aa<20]) == 2) or relation == 0:
+            elif len([aa for aa in tokens if aa>0 and aa<20]) == 2:# or relation == 0) and d['relation'] not in hide_relations:
                 processed += [(tokens, mask, segment_ids, tagging_mask, sum(tagging_mask)!=0, relation, origin)]
                 
             # if sum(tagging_mask)!=0:

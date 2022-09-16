@@ -114,7 +114,7 @@ class BERTtrainer(Trainer):
                     best = np.argmax(logits.data.cpu().numpy(), axis=0).tolist()[labels[i]]
                     loss += self.criterion(logits[best].unsqueeze(0), labels.unsqueeze(1)[i])
                 else:
-                    print (n, tag_cands)
+                    pass#print (n, tag_cands)
 
         loss_val = loss.item()
 
@@ -134,10 +134,8 @@ class BERTtrainer(Trainer):
         with torch.no_grad():
             h, b_out = self.encoder(inputs)
             tagging_output = self.tagger(h)
-            words = inputs[0]
-            ent_mask = torch.logical_and(words.unsqueeze(2).ge(0), words.unsqueeze(2).lt(9))
             tagging_mask = torch.round(tagging_output).squeeze(2)
-            tagging_max = np.argmax(tagging_output.masked_fill(ent_mask, -constant.INFINITY_NUMBER).squeeze(2).data.cpu().numpy(), axis=1)
+            tagging_max = np.argmax(tagging_output.squeeze(2).data.cpu().numpy(), axis=1)
             tagging = torch.round(tagging_output).squeeze(2)
             logits = self.classifier(h, inputs[0], tagging_mask)
             probs = F.softmax(logits, 1) * torch.round(b_out)
@@ -148,13 +146,9 @@ class BERTtrainer(Trainer):
         predictions = np.argmax(probs.data.cpu().numpy(), axis=1).tolist()
         tags = []
         for i, p in enumerate(predictions):
-            if p != 0:
-                t = tagging[i].data.cpu().numpy().tolist()
-                if sum(t) == 0:
-                    t[tagging_max[i]] = 1
-                tags += [t]
-            else:
-                tags += [[]]
+            # if p != 0:
+            t = tagging[i].data.cpu().numpy().tolist()
+            if sum(t) == 0:
+                t[tagging_max[i]] = 1
+            tags += [t]
         return predictions, tags, loss
-        
-

@@ -146,7 +146,7 @@ for epoch in range(1, opt['num_epoch']+1):
 
             # save
             if dev_score_history == [] or dev_score > max(dev_score_history):
-                model_file = model_save_dir + '/best_model_%d.pt'%epoch
+                model_file = model_save_dir + '/best_model.pt'
                 trainer.save(model_file)
                 print("new best model saved.")
                 file_logger.log("new best model saved at epoch {}: {:.2f}\t{:.2f}\t{:.2f}"\
