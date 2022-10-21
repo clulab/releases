@@ -1,0 +1,26 @@
+- name: per:title_1
+  label: per:title
+  priority: ${rulepriority}
+  sample: As a CEO, John is very rich.
+  pattern: |
+    trigger = [lemma=as]
+    subject: SUBJ_Person = <case <nmod nsubj
+    object: OBJ_Title = <case
+
+- name: per:title_2
+  label: per:title
+  priority: ${rulepriority}
+  sample: John is the CEO of Microsoft.
+  pattern: |
+    trigger = [lemma=be]
+    subject: SUBJ_Person = <cop ((>/.+/)|(</.+/))* nsubj
+    object: OBJ_Title = <cop
+
+- name: per:title_3
+  label: per:title
+  priority: ${rulepriority}
+  sample: John becomes the CEO of Microsoft.
+  pattern: |
+    trigger = [lemma=become]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Title = xcomp

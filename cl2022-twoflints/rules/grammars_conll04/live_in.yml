@@ -1,0 +1,26 @@
+- name: live_in_1
+  label: Live_In
+  priority: ${rulepriority}
+  sample: Tom lives in London.
+  pattern: |
+    trigger = [lemma=/live/]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Location = nmod
+
+- name: live_in_2
+  label: Live_In
+  priority: ${rulepriority}
+  sample: Tom was born in London.
+  pattern: |
+    trigger = [word=/born/]
+    subject: SUBJ_Person = nsubjpass
+    object: OBJ_Location = nmod
+
+- name: live_in_3
+  label: Live_In
+  priority: ${rulepriority}
+  sample: Tom is from London.
+  pattern: |
+    trigger = [lemma=/from/]
+    subject: SUBJ_Person = <case nsubj
+    object: OBJ_Location = <case

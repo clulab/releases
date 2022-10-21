@@ -1,0 +1,25 @@
+- name: located_in_1
+  label: Located_In
+  priority: ${rulepriority}
+  type: token
+  sample: Tom lives in London, England.
+  pattern: |
+    @subject: SUBJ_Location [word=/,/] @object: OBJ_Location
+
+- name: located_in_2
+  label: Located_In
+  priority: ${rulepriority}
+  sample: The ceremony at Tucson in Arizona.
+  pattern: |
+    trigger = [word=/in/]
+    subject: SUBJ_Location = <case <nmod
+    object: OBJ_Location = <case
+
+- name: located_in_3
+  label: Located_In
+  priority: ${rulepriority}
+  sample: The ceremony at Tucson in southern Arizona.
+  pattern: |
+    trigger = [word=/in/]
+    subject: SUBJ_Location = <case <nmod nmod
+    object: OBJ_Location = <case

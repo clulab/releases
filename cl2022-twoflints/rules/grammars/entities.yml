@@ -1,0 +1,116 @@
+# NE rules
+- name: "subj-person"
+  label: SUBJ_Person
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+   [entity=/SUBJ_PERSON/]+
+- name: "subj-org"
+  label: SUBJ_Organization
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="SUBJ_ORGANIZATION"]+
+
+- name: "obj-person"
+  label: OBJ_Person
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity=/OBJ_PERSON/]+
+- name: "obj-org"
+  label: OBJ_Organization
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_ORGANIZATION"]+
+- name: "obj-date"
+  label: OBJ_Date
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_DATE"]+
+- name: "obj-num"
+  label: OBJ_Number
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_NUMBER"]+
+- name: "obj-title"
+  label: OBJ_Title
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_TITLE"]+
+- name: "obj-country"
+  label: OBJ_Country
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_COUNTRY"]+
+- name: "obj-loc"
+  label: OBJ_Location
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_LOCATION"]+
+- name: "obj-city"
+  label: OBJ_City
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_CITY"]+
+- name: "obj-misc"
+  label: OBJ_Misc
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_MISC"]+
+- name: "obj-state"
+  label: OBJ_State_or_province
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_STATE_OR_PROVINCE"]+
+- name: "obj-dur"
+  label: OBJ_Duration
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_DURATION"]+
+- name: "obj-nation"
+  label: OBJ_Nationality
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_NATIONALITY"]+
+- name: "obj-caused"
+  label: OBJ_Cause_of_death
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_CAUSE_OF_DEATH"]+
+- name: "obj-crime"
+  label: OBJ_Criminal_charge
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_CRIMINAL_CHARGE"]+
+- name: "obj-religion"
+  label: OBJ_Religion
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_RELIGION"]+
+- name: "obj-url"
+  label: OBJ_Url
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_URL"]+
+- name: "obj-ideol"
+  label: OBJ_Ideology
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_IDEOLOGY"]+

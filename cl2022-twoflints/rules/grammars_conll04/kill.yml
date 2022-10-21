@@ -1,0 +1,27 @@
+- name: kill_1
+  label: Kill
+  priority: ${rulepriority}
+  sample: Tom killed Jerry.
+  pattern: |
+    trigger = [lemma=/kill|murder/]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Person = dobj
+
+- name: kill_2
+  label: Kill
+  priority: ${rulepriority}
+  sample: Tom who killed Jerry. Tom is the one who killed Jerry.
+  pattern: |
+    trigger = [lemma=/kill|murder/]
+    subject: SUBJ_Person = <acl:relcl nsubj?
+    object: OBJ_Person = dobj
+
+- name: kill_3
+  label: Kill
+  priority: ${rulepriority}
+  sample: Tom was sentenced to death for the assassination of Jerry.
+  pattern: |
+    trigger = [word=/assassination|murder/]
+    subject: SUBJ_Person = <nmod nsubjpass
+    object: OBJ_Person = nmod
+

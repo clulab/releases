@@ -1,0 +1,27 @@
+- name: ${label}_1
+  label: ${label}
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John t:[w]died in <>e2:[e=LOC]London in 1997.
+  pattern: |
+    trigger = [word=died]
+    subject: SUBJ_Person = nsubj
+    object: ${object_type} = nmod (?= case [word=in])
+
+- name: ${label}_1_extend
+  label: ${label}
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John t:[w]died in London, <>e2:[e=LOC]England in 1997.
+  pattern: |
+    trigger = [word=died]
+    subject: SUBJ_Person = nsubj
+    object: ${object_type} = nmod (?= case [word=in]) appos
+
+- name: ${label}_2
+  label: ${label}
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John $-LRB- t:[w]died $in <>e2:[e=LOC]London $-RRB-.
+  pattern: |
+    trigger = [word=died]
+    subject: SUBJ_Person =  (?= punct [word=/-LRB-/]) <dep
+    object: ${object_type} =  (?= punct [word=/-RRB-/]) nmod (?= case [word=in])
+

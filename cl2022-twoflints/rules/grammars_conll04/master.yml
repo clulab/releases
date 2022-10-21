@@ -1,0 +1,55 @@
+taxonomy:
+  - SUBJ_Person
+  - SUBJ_Organization
+  - SUBJ_Location
+  - SUBJ_Misc
+  - OBJ_Person
+  - OBJ_Organization
+  - OBJ_Location
+  - OBJ_Misc
+  - Relation:
+      - Work_For
+      - Kill
+      - OrgBased_In
+      - Live_In
+      - Located_In
+
+rules:
+  - import: grammars_conll04/entities.yml
+    vars:
+      # We need our entities before we can match events
+      # Here we make use of the ${rulepriority} variable
+      # used in the entities.yml rules
+      rulepriority: "1"
+
+  - import: grammars_conll04/foundedby.yml
+    vars:
+      rulepriority: "3+"
+
+  - import: grammars_conll04/employee.yml
+    vars:
+      job: "(p|P)resident|(E|e)x-president|ceo|CEO|(S|s)tar|(P|p)rofessor|(o|O)rganizer|(m|M)anager|(c|C)oach|(E|e)mployee|(n|N)egotiator|(m|M)inister|(H|h)ead|(E|e)mployee|(S|s)enator|(G|g)overnor|(F|f)ounder|(C|c)o-founder|(O|o)wner|(C|c)hancell?or|(V|v)ice-chancell?or|(M|m)ayor|(L|l)eader|(P|p)remier|(S|s)ecretary|(R|r)uler|(M|m)ember"
+      toptitle: "(e|E)xecutive|(c|C)hairman|(p|P)resident|(c|C)hief|(h|H)ead|(g|G)eneral|(c|C)(e|E)(o|O)|(o|O)fficer|(l|L)eader|(v|V)ice|(k|K)ing|(p|P)rince|(m|M)anager|(m|M)inister|(a|A)dviser|(b|B)oss|(c|C)hair|(a|A)mbassador|(s|S)tar|(g|G)overnor|(i|I)nvestor|(r|R)epresentative|(d|D)ean|(c|C)ommissioner|(c|C)ommander|(m|M)idfielder|(s|S)peaker|(R|r)esearcher|(e|E)ditor|(C|c)hancellor|(f|F)ellow|(l|L)eadership|(d|D)iplomat|(a|A)ssociate|(s|S)triker|(p|P)ilot|(c|C)aptain|(b|B)anker|(m|M)ayor|(p|P)remier|(p|P)roducer|(a|A)rchitect|(d|D)esigner|(m|M)ajor|(a|A)dvisor|(p|P)resident|(s|S)enator|(s|S)pecialist|(f|F)aculty|(c|C)hairwoman|(m|M)ediator|(p|P)rosecutor|(e|E)ntrepreneur|(c|C)reator|(s|S)uperstar|(c|C)ommentator|(p|P)rincipal|(o|O)perative|(b|B)usinessman|(p|P)eacekeeper|(i|I)nvestigator|(c|C)oordinator|(k|K)night|(l|L)awmaker|(j|J)ustice|(p|P)ublisher|(p|P)laymaker|(m|M)oderator|(n|N)egotiator|(D|d)irector|(J|j)ustice"
+      rulepriority: "3+"
+
+  - import: grammars_conll04/headquarters_location.yml
+    vars:
+     label: OrgBased_In
+     rulepriority: "3+"
+     object_type: OBJ_Location
+
+  - import: grammars_conll04/kill.yml
+    vars:
+      rulepriority: "3+"
+
+  - import: grammars_conll04/located_in.yml
+    vars:
+      rulepriority: "3+"
+
+  - import: grammars_conll04/live_in.yml
+    vars:
+      rulepriority: "3+"
+
+
+
+

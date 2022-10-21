@@ -1,0 +1,54 @@
+- name: per:spouse_1
+  label: per:spouse
+  priority: ${rulepriority}
+  sample: <>e1:[e=PERSON]John ’s t:[w=wife|husband]wife, <>e2:[e=PERSON]Mary , died in 1991.
+  pattern: |
+    trigger = [word=/wife|husband|spouse/]
+    subject: SUBJ_Person = nmod:poss (?= case [tag=POS])
+    object: OBJ_Person = appos
+
+# - name: per:spouse_1_reverse
+#   label: per:spouse
+#   priority: ${rulepriority}
+#   sample: <>e1:[e=PERSON]John ’s t:[w=wife|husband]wife, <>e2:[e=PERSON]Mary , died in 1991.
+#   pattern: |
+#     trigger = [word=/wife|husband|spouse/]
+#     subject: SUBJ_Person = appos
+#     object: OBJ_Person = nmod:poss (?= case [tag=POS])
+
+- name: per:spouse_2
+  label: per:spouse
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John is t:[w]married to <>e2:[e=PER]Mary.
+  pattern: |
+    trigger = [word=married]
+    subject: SUBJ_Person = nsubjpass
+    object: OBJ_Person = nmod (?= case [word=to])
+
+# - name: per:spouse_2_reverse
+#   label: per:spouse
+#   priority: ${rulepriority}
+#   sample: <>e1:[e=PER]John is t:[w]married $to <>e2:[e=PER]Mary.
+#   pattern: |
+#     trigger = [word=/married/]
+#     subject: SUBJ_Person = nmod (?= case [word=to])
+#     object: OBJ_Person = nsubjpass
+
+- name: per:spouse_3
+  label: per:spouse
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John t:[l]married <>e2:[e=PER]Mary„.
+  pattern: |
+    trigger = [lemma=marry]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Person = dobj
+
+# - name: per:spouse_3_reverse
+#   label: per:spouse
+#   priority: ${rulepriority}
+#   sample: <>e1:[e=PER]John t:[l]married <>e2:[e=PER]Mary„.
+#   pattern: |
+#     trigger = [lemma=marry]
+#     subject: SUBJ_Person = dobj
+#     object: OBJ_Person = nsubj
+

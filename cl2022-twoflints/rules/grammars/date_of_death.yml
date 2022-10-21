@@ -1,0 +1,30 @@
+- name: per:date_of_death_1
+  priority: ${rulepriority}
+  label: per:date_of_death
+  sample: <>e1:[e=PERSON]John t:[w]died in <>e2:[e=DATE]1943.
+  pattern: |
+    trigger = [word=died]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Date = nmod (?= case [word=/in|on/])
+
+- name: per:date_of_death_2
+  priority: ${rulepriority}
+  label: per:date_of_death
+  sample: <>e1:[e=PER]John was announced t:[w]dead in <>e2:[e=DATE]1943.
+  pattern: |
+    trigger = [word=dead]
+    subject: SUBJ_Person = <xcomp nsubjpass
+    object: OBJ_Date = <xcomp nmod (?= case [word=/in|on/])
+
+- name: per:date_of_death_3
+  priority: ${rulepriority}
+  label: per:date_of_death
+  sample: <>e1:[e=PER]John, an NLP scientist, t:[w]died <>e2:[e=DATE]1943.
+  pattern: |
+    trigger = [word=died]
+    subject: SUBJ_Person = nsubj
+    object: OBJ_Date = dobj
+
+
+
+

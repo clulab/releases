@@ -1,0 +1,27 @@
+
+- name: per:religion_1
+  label: per:religion
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John is a e2:[w={triggers}]Methodist Person.
+  pattern: |
+    trigger = [lemma=be]
+    subject: SUBJ_Person = <cop nsubj
+    object: OBJ_Religion = <cop amod
+
+- name: per:religion_2
+  label: per:religion
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]John is a e2:[w={triggers}]Jewis.
+  pattern: |
+    trigger = [lemma=be]
+    subject: SUBJ_Person = <cop nsubj
+    object: OBJ_Religion = <cop
+
+- name: per:religion_3
+  label: per:religion
+  priority: ${rulepriority}
+  sample: e2:[w={triggers}]Jewish <>e1:[e=PER]John is walking down the street.
+  pattern: |
+   trigger: OBJ_Religion
+   subject: SUBJ_Person = <amod
+

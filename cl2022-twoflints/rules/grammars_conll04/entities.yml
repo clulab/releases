@@ -1,0 +1,49 @@
+# NE rules
+- name: "subj-person"
+  label: SUBJ_Person
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+   [entity=/SUBJ_PERSON/]+
+- name: "subj-org"
+  label: SUBJ_Organization
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="SUBJ_ORGANIZATION"]+
+- name: "subj-misc"
+  label: SUBJ_Misc
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+   [entity=/SUBJ_MISC/]+
+- name: "subj-loc"
+  label: SUBJ_Location
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="SUBJ_LOCATION"]+
+- name: "obj-person"
+  label: OBJ_Person
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+   [entity=/OBJ_PERSON/]+
+- name: "obj-org"
+  label: OBJ_Organization
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_ORGANIZATION"]+
+- name: "obj-misc"
+  label: OBJ_Misc
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+   [entity=/OBJ_MISC/]+
+- name: "obj-loc"
+  label: OBJ_Location
+  priority: ${rulepriority}
+  type: token
+  pattern: |
+    [entity="OBJ_LOCATION"]+

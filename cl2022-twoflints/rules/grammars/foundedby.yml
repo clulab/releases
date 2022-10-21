@@ -1,0 +1,27 @@
+- name: org:founded_by_1
+  label: org:founded_by
+  priority: ${rulepriority}
+  sample: <>e1:[e=ORG]Microsoft t:[w]founder <>e2:[e=PER]Mary likes running.
+  pattern: |
+    trigger = [word=/founder/]
+    subject: SUBJ_Organization = <compound compound
+    object: OBJ_Person = <compound
+
+- name: org:founded_by_2
+  label: org:founded_by
+  priority: ${rulepriority}
+  sample: <>e2:[e=PER]Mary t:[w]founded <>e1:[e=ORG]Microsoft.
+  pattern: |
+    trigger = [word=founded]
+    subject: SUBJ_Organization = dobj
+    object: OBJ_Person = nsubj
+
+- name: org:founded_by_3
+  label: org:founded_by
+  priority: ${rulepriority}
+  sample: <>e1:[e=ORG]Microsoft was t:[w]founded $by <>e2:[e=PER]Mary.
+  pattern: |
+    trigger = [word=founded]
+    subject: SUBJ_Organization = nsubjpass
+    object: OBJ_Person = nmod (?= case [word=by])
+
