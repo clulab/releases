@@ -31,4 +31,4 @@ Run evaluation on the test set with:
 python eval.py saved_models/00 --device 0 --dataset train
 ```
 
-This will use the `best_model.pt` by default. Use `--model checkpoint_epoch_10.pt` to specify a model checkpoint file. Add `--out saved_models/out/test1.pkl` to write model probability output to files (for ensemble, etc.).
+This will use the `best_model.pt` by default. Use `--model checkpoint_epoch_10.pt` to specify a model checkpoint file.
