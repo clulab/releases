@@ -1,2 +1,2 @@
-# EC-RC
-Released codes for paper: It Takes Two Flints to Make a Fire: Multitask Learning of Neural Relation and Explanation Classifiers
+# Bootstrapping Neural Relation and Explanation Classifiers
+Released codes for paper: Bootstrapping Neural Relation and Explanation Classifiers
