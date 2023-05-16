@@ -1,0 +1,69 @@
+- name: per:origin_1
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]Mary is a <>e2:[e=MISC]Scottish professor.
+  pattern: |
+    trigger = [lemma=be]
+    subject: SUBJ_Person = <cop nsubj
+    object: OBJ_Country = <cop amod
+
+- name: per:origin_1_n
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]Mary is a <>e2:[e=MISC]Scottish professor.
+  pattern: |
+    trigger = [lemma=be]
+    subject: SUBJ_Person = <cop nsubj
+    object: OBJ_Nationality = <cop amod
+
+- name: per:origin_2
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]Mary, the <>e2:[e=LOC]US professor.
+  pattern: |
+   trigger: OBJ_Country
+   subject: SUBJ_Person = <compound <appos
+
+- name: per:origin_2_n
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e1:[e=PER]Mary, the <>e2:[e=LOC]US professor.
+  pattern: |
+   trigger: OBJ_Nationality
+   subject: SUBJ_Person = <compound <appos
+
+- name: per:origin_3
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e2:[e=MISC]Scottish <>e1:[e=PER]Mary is high.
+  pattern: |
+   trigger: OBJ_Country
+   subject: SUBJ_Person = <amod
+
+- name: per:origin_3_n
+  label: per:origin
+  priority: ${rulepriority}
+  sample: <>e2:[e=MISC]Scottish <>e1:[e=PER]Mary is high.
+  pattern: |
+   trigger: OBJ_Nationality
+   subject: SUBJ_Person = <amod
+
+# - name: per:origin_4
+#   label: per:origin
+#   priority: ${rulepriority}
+#   sample: <>e1:[e=PER]John is a e2:[w={triggers}]Jewis.
+#   pattern: |
+#     trigger = [lemma=be]
+#     subject: SUBJ_Person = <cop nsubj
+#     object: OBJ_Country = <cop
+
+# - name: per:origin_4_n
+#   label: per:origin
+#   priority: ${rulepriority}
+#   sample: <>e1:[e=PER]John is a e2:[w={triggers}]Jewis.
+#   pattern: |
+#     trigger = [lemma=be]
+#     subject: SUBJ_Person = <cop nsubj
+#     object: OBJ_Nationality = <cop
+
+

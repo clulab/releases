@@ -1,0 +1,27 @@
+- name: ${label}_1
+  label: ${label}
+  priority: ${rulepriority}
+  sample: John Doe, a professor at the <>e1:[e=ORG]Oxford <>in:[t=IN]in <>e2:[e=LOC]England likes running.
+  pattern: |
+    trigger = [lemma=/in|of|company/]
+    subject: SUBJ_Organization = <case <nmod
+    object: ${object_type} = <case
+
+- name: ${label}_2
+  label: ${label}
+  priority: ${rulepriority}
+  sample: <>e1:[e=ORG]Oxford, a leading <>t:[t=NN]company $in <>e2:[e=LOC]England.
+  pattern: |
+    trigger = [word=${ trigger }]
+    subject: SUBJ_Organization = <appos
+    object: ${object_type} = nmod (?= case [tag=IN])
+
+- name: ${label}_3
+  label: ${label}
+  priority: ${rulepriority}
+  sample: <>e2:[e=LOC]England pos:[t=POS]’s largest university is <>e1:[e=ORG]Oxford.
+  pattern: |
+    trigger = [tag=POS]
+    subject: SUBJ_Organization = <case <nmod:poss <nsubj
+    object: ${object_type} = <case
+

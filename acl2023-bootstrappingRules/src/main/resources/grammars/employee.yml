@@ -1,0 +1,62 @@
+- name: org:top_members/employees_1
+  label: org:top_members/employees
+  priority: ${rulepriority}
+  sample: John becomes the CEO of Microsoft.
+  pattern: |
+    trigger = [word=/${ toptitle }/]
+    object: OBJ_Person = <xcomp? nsubj
+    subject: SUBJ_Organization = nmod
+
+- name: org:top_members/employees_2
+  label: org:top_members/employees
+  priority: ${rulepriority}
+  sample: John, the CEO of Microsoft, is rich.
+  pattern: |
+    trigger = [word=/${ toptitle }/]
+    object: OBJ_Person = <appos
+    subject: SUBJ_Organization = nmod
+
+- name: org:top_members/employees_3
+  label: org:top_members/employees
+  priority: ${rulepriority}
+  sample: As the CEO of Microsoft, John is rich.
+  pattern: |
+    trigger = [word=/${ toptitle }/]
+    object: OBJ_Person = <nmod nsubj
+    subject: SUBJ_Organization = nmod
+
+- name: per:employee_of_1
+  label: per:employee_of
+  priority: ${rulepriority}
+  sample: John becomes the CEO of Microsoft.
+  pattern: |
+    trigger = [word=/${ toptitle }|${ job }/]
+    subject: SUBJ_Person = <xcomp? nsubj
+    object: OBJ_Organization = nmod
+
+- name: per:employee_of_2
+  label: per:employee_of
+  priority: ${rulepriority}
+  sample: John, the CEO of Microsoft, is rich.
+  pattern: |
+    trigger = [word=/${ toptitle }|${ job }/]
+    subject: SUBJ_Person = <appos
+    object: OBJ_Organization = nmod
+
+- name: per:employee_of_3
+  label: per:employee_of
+  priority: ${rulepriority}
+  sample: As the CEO of Microsoft, John is rich.
+  pattern: |
+    trigger = [word=/${ toptitle }|${ job }/]
+    subject: SUBJ_Person = <nmod nsubj
+    object: OBJ_Organization = nmod
+
+- name: per:employee_of_4
+  label: per:employee_of
+  priority: ${rulepriority}
+  sample: Joe is a research scientist working at IBM.
+  pattern: |
+    trigger = [lemma=/work|write|play|consult|serve/]
+    subject: SUBJ_Person = <acl? nsubj
+    object: OBJ_Organization = nmod
