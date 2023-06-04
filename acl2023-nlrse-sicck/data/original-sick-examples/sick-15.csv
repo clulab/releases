@@ -1,0 +1,21 @@
+Sno,SICK_id,Premise,Hypothesis,Flipped yes/no,SICK label,entailment_AB,entailment_BA
+1,129,an old man is sitting in a field,a man is sitting in a field,No,Entailment,A_entails_B,B_neutral_A
+2,273,A boy is standing in the cold water,A boy is standing in the water,No,Entailment,A_entails_B,B_neutral_A
+3,455,Two children are hanging on a large branch,Two children are climbing a tree,No,Entailment,A_entails_B,B_neutral_A
+4,129,a man is sitting in a field,an old man is sitting in a field,Yes,Possible Neutral,B_neutral_A,A_entails_B
+5,273,A boy is standing in the water,A boy is standing in the cold water,Yes,Possible Neutral,B_neutral_A,A_entails_B
+6,455,Two children are climbing a tree,Two children are hanging on a large branch,Yes,Possible Neutral,B_neutral_A,A_entails_B
+4,167,A boy is hitting a baseball,A child is hitting a baseball,No,Entailment,A_entails_B,B_neutral_A
+5,211,Two dogs are playing by a tree,Two dogs are playing by a plant,No,Entailment,A_entails_B,B_entails_A
+9,167,A child is hitting a baseball,A boy is hitting a baseball,Yes,Possible Neutral,B_neutral_A,A_entails_B
+10,211,Two dogs are playing by a plant,Two dogs are playing by a tree,Yes,Entailment,A_entails_B,B_entails_A
+6,116,A player is throwing the ball,Two teams are competing in a football match,No,Neutral,A_neutral_B,B_neutral_A
+7,130,A man is sitting in a field,A man is running in a field,No,Neutral,A_neutral_B,B_neutral_A
+8,212,Two dogs are playing by a tree,Two dogs are sleeping by a tree,No,Neutral,A_neutral_B,B_neutral_A
+9,342,A girl with a black bag is on a crowded train,A cramped black train is on the bag of a girl,No,Neutral,A_neutral_B,B_neutral_A
+10,443,A blond girl is riding the waves,A blond girl is looking at the waves,No,Neutral,A_neutral_B,B_neutral_A
+11,1131,The turtle is following the fish,The fish is following the turtle,No,Contradiction,A_contradicts_B,B_contradicts_A
+12,90,A man is jumping into an empty pool,A man is jumping into a full pool,No,Contradiction,A_contradicts_B,B_contradicts_A
+13,150,A deer is jumping over a fence,A deer isn't jumping over the fence,No,Contradiction,A_contradicts_B,B_contradicts_A
+14,168,A child is hitting a baseball,A child is missing a baseball,No,Contradiction,A_contradicts_B,B_contradicts_A
+15,751,A classroom is full of students,A classroom is empty,No,Contradiction,A_contradicts_B,B_contradicts_A
