@@ -1,0 +1,1462 @@
+Sno,SICK_id,Premise,Hypothesis,Modifier,Premise/Hypothesis/Both,Part of Premise/Hypothesis Modified,Modifier Type,"Ground Truth 
+(Total 7 Entailment Relations but also Includes multiple labels for some premise, hypothesis )","CompressedGT
+(FE, RE, Neutral & Contradiction)"
+0,90,a man is jumping into an empty pool,a man is jumping into a full pool,NONE,NONE,NONE,No Modifiers,Alternation,Contradiction
+1,90,every man is jumping into an empty pool,a man is jumping into a full pool,every,Premise,Subject,Universal,Alternation,Contradiction
+2,90,a man is jumping into an empty pool,every man is jumping into a full pool,every,Hypothesis,Subject,Universal,Negation,Contradiction
+3,90,every man is jumping into an empty pool,every man is jumping into a full pool,every,Both,Subject,Universal,Negation,Contradiction
+4,90,some man is jumping into an empty pool,a man is jumping into a full pool,some,Premise,Subject,Existential,Alternation,Contradiction
+5,90,a man is jumping into an empty pool,some man is jumping into a full pool,some,Hypothesis,Subject,Existential,Alternation,Contradiction
+6,90,some man is jumping into an empty pool,some man is jumping into a full pool,some,Both,Subject,Existential,Alternation,Contradiction
+7,90,at least man is jumping into an empty pool,a man is jumping into a full pool,at least,Premise,Subject,Existential,Alternation,Contradiction
+8,90,a man is jumping into an empty pool,at least man is jumping into a full pool,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+9,90,at least man is jumping into an empty pool,at least man is jumping into a full pool,at least,Both,Subject,Existential,Alternation,Contradiction
+10,90,not every man is jumping into an empty pool,a man is jumping into a full pool,not every,Premise,Subject,Negation,Neutral,Neutral
+11,90,a man is jumping into an empty pool,not every man is jumping into a full pool,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+12,90,not every man is jumping into an empty pool,not every man is jumping into a full pool,not every,Both,Subject,Negation,Neutral,Neutral
+13,90,exactly one man is jumping into an empty pool,a man is jumping into a full pool,exactly one,Premise,Subject,Existential,Alternation,Contradiction
+14,90,a man is jumping into an empty pool,exactly one man is jumping into a full pool,exactly one,Hypothesis,Subject,Existential,Alternation,Contradiction
+15,90,exactly one man is jumping into an empty pool,exactly one man is jumping into a full pool,exactly one,Both,Subject,Existential,Alternation,Contradiction
+16,90,all but one man is jumping into an empty pool,a man is jumping into a full pool,all but one,Premise,Subject,Existential,Neutral,Neutral
+17,90,a man is jumping into an empty pool,all but one man is jumping into a full pool,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+18,90,all but one man is jumping into an empty pool,all but one man is jumping into a full pool,all but one,Both,Subject,Existential,Neutral,Neutral
+19,90,everyone of man is jumping into an empty pool,a man is jumping into a full pool,everyone of,Premise,Subject,Universal,Negation,Contradiction
+20,90,a man is jumping into an empty pool,everyone of man is jumping into a full pool,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+21,90,everyone of man is jumping into an empty pool,everyone of man is jumping into a full pool,everyone of,Both,Subject,Universal,Negation,Contradiction
+22,90,no man is jumping into an empty pool,a man is jumping into a full pool,no,Premise,Subject,Negation,Neutral,Neutral
+23,90,a man is jumping into an empty pool,no man is jumping into a full pool,no,Hypothesis,Subject,Negation,Neutral,Neutral
+24,90,no man is jumping into an empty pool,no man is jumping into a full pool,no,Both,Subject,Negation,Neutral,Neutral
+25,90,green man is jumping into an empty pool,a man is jumping into a full pool,green,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+26,90,a man is jumping into an empty pool,green man is jumping into a full pool,green,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+27,90,green man is jumping into an empty pool,green man is jumping into a full pool,green,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+28,90,happy man is jumping into an empty pool,a man is jumping into a full pool,happy,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+29,90,a man is jumping into an empty pool,happy man is jumping into a full pool,happy,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+30,90,happy man is jumping into an empty pool,happy man is jumping into a full pool,happy,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+31,90,sad man is jumping into an empty pool,a man is jumping into a full pool,sad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+32,90,a man is jumping into an empty pool,sad man is jumping into a full pool,sad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+33,90,sad man is jumping into an empty pool,sad man is jumping into a full pool,sad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+34,90,good man is jumping into an empty pool,a man is jumping into a full pool,good,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+35,90,a man is jumping into an empty pool,good man is jumping into a full pool,good,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+36,90,good man is jumping into an empty pool,good man is jumping into a full pool,good,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+37,90,bad man is jumping into an empty pool,a man is jumping into a full pool,bad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+38,90,a man is jumping into an empty pool,bad man is jumping into a full pool,bad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+39,90,bad man is jumping into an empty pool,bad man is jumping into a full pool,bad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+41,90,a man is not jumping into an empty pool,a man is jumping into a full pool,not,Premise,Verb,Negation,Neutral,Neutral
+42,90,a man is jumping into an empty pool,a man is not jumping into a full pool,not,Hypothesis,Verb,Negation,Neutral,Neutral
+43,90,a man is not jumping into an empty pool,a man is not jumping into a full pool,not,Both,Verb,Negation,Neutral,Neutral
+44,90,a man is abnormally jumping into an empty pool,a man is jumping into a full pool,abnormally,Premise,Verb,Adjectives/Adverbs,Alternation,Contradiction
+45,90,a man is jumping into an empty pool,a man is abnormally jumping into a full pool,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Alternation,Contradiction
+46,90,a man is abnormally jumping into an empty pool,a man is abnormally jumping into a full pool,abnormally,Both,Verb,Adjectives/Adverbs,Alternation,Contradiction
+47,90,a man is elegantly jumping into an empty pool,a man is jumping into a full pool,elegantly,Premise,Verb,Adjectives/Adverbs,Alternation,Contradiction
+48,90,a man is jumping into an empty pool,a man is elegantly jumping into a full pool,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Alternation,Contradiction
+49,90,a man is elegantly jumping into an empty pool,a man is elegantly jumping into a full pool,elegantly,Both,Verb,Adjectives/Adverbs,Alternation,Contradiction
+50,90,a man is always jumping into an empty pool,a man is jumping into a full pool,always,Premise,Verb,Universal,Alternation,Contradiction
+51,90,a man is jumping into an empty pool,a man is always jumping into a full pool,always,Hypothesis,Verb,Universal,Alternation,Contradiction
+52,90,a man is always jumping into an empty pool,a man is always jumping into a full pool,always,Both,Verb,Universal,Alternation,Contradiction
+53,90,a man is never jumping into an empty pool,a man is jumping into a full pool,never,Premise,Verb,Universal,Neutral,Neutral
+54,90,a man is jumping into an empty pool,a man is never jumping into a full pool,never,Hypothesis,Verb,Universal,Neutral,Neutral
+55,90,a man is never jumping into an empty pool,a man is never jumping into a full pool,never,Both,Verb,Universal,Neutral,Neutral
+57,90,A man is jumping into an good empty pool,"A man is jumping into a full pool
+",good,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+58,90,A man is jumping into an empty pool,A man is jumping into a good full pool,good,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+59,90,A man is jumping into an good empty pool,A man is jumping into a good full pool,good,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+60,90,A man is jumping into all but one empty pool,"A man is jumping into a full pool
+",all but one,Premise,Object,Existential,Neutral,Neutral
+61,90,A man is jumping into an empty pool,A man is jumping into all but one full pool,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+62,90,A man is jumping into all but one empty pool,A man is jumping into all but one full pool,all but one,Both,Object,Existential,Alternation,Contradiction
+63,90,A man is jumping into every empty pool,"A man is jumping into a full pool
+",every,Premise,Object,Universal,Alternation,Contradiction
+64,90,A man is jumping into an empty pool,A man is jumping into every full pool,every,Hypothesis,Object,Universal,Alternation,Contradiction
+65,90,A man is jumping into every empty pool,A man is jumping into every full pool,every,Both,Object,Universal,Alternation,Contradiction
+66,90,A man is jumping into an bad empty pool,"A man is jumping into a full pool
+",bad,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+67,90,A man is jumping into an empty pool,A man is jumping into a bad full pool,bad,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+68,90,A man is jumping into an bad empty pool,A man is jumping into a bad full pool,bad,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+69,90,A man is jumping into an green empty pool,"A man is jumping into a full pool
+",green,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+70,90,A man is jumping into an empty pool,A man is jumping into a green full pool,green,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+71,90,A man is jumping into an green empty pool,A man is jumping into a green full pool,green,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+72,90,A man is jumping into an happy empty pool,"A man is jumping into a full pool
+",happy,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+73,90,A man is jumping into an empty pool,A man is jumping into a happy full pool,happy,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+74,90,A man is jumping into an happy empty pool,A man is jumping into a happy full pool,happy,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+75,90,A man is jumping into an abnormal empty pool,"A man is jumping into a full pool
+",an abnormal,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+76,90,A man is jumping into an empty pool,A man is jumping into an abnormal full pool,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+77,90,A man is jumping into an abnormal empty pool,A man is jumping into an abnormal full pool,an abnormal,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+78,90,A man is jumping into an sad empty pool,"A man is jumping into a full pool
+",sad,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+79,90,A man is jumping into an empty pool,A man is jumping into a sad full pool,sad,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+80,90,A man is jumping into an sad empty pool,A man is jumping into a sad full pool,sad,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+81,90,A man is jumping into no empty pool,"A man is jumping into a full pool
+",no,Premise,Object,Negation,Neutral,Neutral
+82,90,A man is jumping into an empty pool,A man is jumping into no full pool,no,Hypothesis,Object,Negation,Neutral,Neutral
+83,90,A man is jumping into no empty pool,A man is jumping into no full pool,no,Both,Object,Negation,Neutral,Neutral
+84,90,A man is jumping into some empty pool,"A man is jumping into a full pool
+",some,Premise,Object,Existential,Alternation,Contradiction
+85,90,A man is jumping into an empty pool,A man is jumping into some full pool,some,Hypothesis,Object,Existential,Alternation,Contradiction
+86,90,A man is jumping into some empty pool,A man is jumping into some full pool,some,Both,Object,Existential,Alternation,Contradiction
+87,90,A man is jumping into exactly one empty pool,"A man is jumping into a full pool
+",exactly one,Premise,Object,Existential,Alternation,Contradiction
+88,90,A man is jumping into an empty pool,A man is jumping into exactly one full pool,exactly one,Hypothesis,Object,Existential,Alternation,Contradiction
+89,90,A man is jumping into exactly one empty pool,A man is jumping into exactly one full pool,exactly one,Both,Object,Existential,Alternation,Contradiction
+90,90,A man is jumping into an elegant empty pool,"A man is jumping into a full pool
+",an elegant,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+91,90,A man is jumping into an empty pool,A man is jumping into an elegant full pool,an elegant,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+92,90,A man is jumping into an elegant empty pool,A man is jumping into an elegant full pool,an elegant,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+93,116,a player is throwing the ball,two teams are competing in a football match,NONE,NONE,NONE,No Modifiers,Neutral,Neutral
+94,116,every player is throwing the ball,two teams are competing in a football match,every,Premise,Subject,Universal,Neutral,Neutral
+95,116,a player is throwing the ball,every two teams are competing in a football match,every,Hypothesis,Subject,Universal,Neutral,Neutral
+96,116,every player is throwing the ball,every two teams are competing in a football match,every,Both,Subject,Universal,Neutral,Neutral
+97,116,some player is throwing the ball,two teams are competing in a football match,some,Premise,Subject,Existential,Neutral,Neutral
+98,116,a player is throwing the ball,some two teams are competing in a football match,some,Hypothesis,Subject,Existential,Neutral,Neutral
+99,116,some player is throwing the ball,some two teams are competing in a football match,some,Both,Subject,Existential,Neutral,Neutral
+100,116,at least player is throwing the ball,two teams are competing in a football match,at least,Premise,Subject,Existential,Neutral,Neutral
+101,116,a player is throwing the ball,at least two teams are competing in a football match,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+102,116,at least player is throwing the ball,at least two teams are competing in a football match,at least,Both,Subject,Existential,Neutral,Neutral
+103,116,not every player is throwing the ball,two teams are competing in a football match,not every,Premise,Subject,Negation,Neutral,Neutral
+104,116,a player is throwing the ball,not every two teams are competing in a football match,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+105,116,not every player is throwing the ball,not every two teams are competing in a football match,not every,Both,Subject,Negation,Neutral,Neutral
+106,116,exactly one player is throwing the ball,two teams are competing in a football match,exactly one,Premise,Subject,Existential,Neutral,Neutral
+107,116,a player is throwing the ball,exactly  two of teams are competing in a football match,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+108,116,exactly one player is throwing the ball,exactly  two of teams are competing in a football match,exactly one,Both,Subject,Existential,Neutral,Neutral
+109,116,all but one player is throwing the ball,two teams are competing in a football match,all but one,Premise,Subject,Existential,Neutral,Neutral
+110,116,a player is throwing the ball,all but  two of teams are competing in a football match,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+111,116,all but one player is throwing the ball,all but  two of teams are competing in a football match,all but one,Both,Subject,Existential,Neutral,Neutral
+112,116,everyone of player is throwing the ball,two teams are competing in a football match,everyone of,Premise,Subject,Universal,Neutral,Neutral
+113,116,a player is throwing the ball,everyone of two teams are competing in a football match,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+114,116,everyone of player is throwing the ball,everyone of two teams are competing in a football match,everyone of,Both,Subject,Universal,Neutral,Neutral
+115,116,no player is throwing the ball,two teams are competing in a football match,no,Premise,Subject,Negation,Neutral,Neutral
+116,116,a player is throwing the ball,no two teams are competing in a football match,no,Hypothesis,Subject,Negation,Neutral,Neutral
+117,116,no player is throwing the ball,no two teams are competing in a football match,no,Both,Subject,Negation,Neutral,Neutral
+118,116,green player is throwing the ball,two teams are competing in a football match,green,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+119,116,a player is throwing the ball,two green teams are competing in a football match,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+120,116,green player is throwing the ball,two green teams are competing in a football match,green,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+121,116,happy player is throwing the ball,two teams are competing in a football match,happy,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+122,116,a player is throwing the ball,two happy teams are competing in a football match,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+123,116,happy player is throwing the ball,two happy teams are competing in a football match,happy,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+124,116,sad player is throwing the ball,two teams are competing in a football match,sad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+125,116,a player is throwing the ball,two sad teams are competing in a football match,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+126,116,sad player is throwing the ball,two sad teams are competing in a football match,sad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+127,116,good player is throwing the ball,two teams are competing in a football match,good,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+128,116,a player is throwing the ball,two good teams are competing in a football match,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+129,116,good player is throwing the ball,two good teams are competing in a football match,good,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+130,116,bad player is throwing the ball,two teams are competing in a football match,bad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+131,116,a player is throwing the ball,two bad teams are competing in a football match,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+132,116,bad player is throwing the ball,two bad teams are competing in a football match,bad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+134,116,a player is not throwing the ball,two teams are competing in a football match,not,Premise,Verb,Negation,Neutral,Neutral
+135,116,a player is throwing the ball,two teams are not competing in a football match,not,Hypothesis,Verb,Negation,Neutral,Neutral
+136,116,a player is not throwing the ball,two teams are not competing in a football match,not,Both,Verb,Negation,Neutral,Neutral
+137,116,a player is abnormally throwing the ball,two teams are competing in a football match,abnormally,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+138,116,a player is throwing the ball,two teams are abnormally competing in a football match,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+139,116,a player is abnormally throwing the ball,two teams are abnormally competing in a football match,abnormally,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+140,116,a player is elegantly throwing the ball,two teams are competing in a football match,elegantly,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+141,116,a player is throwing the ball,two teams are elegantly competing in a football match,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+142,116,a player is elegantly throwing the ball,two teams are elegantly competing in a football match,elegantly,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+143,116,a player is always throwing the ball,two teams are competing in a football match,always,Premise,Verb,Universal,Neutral,Neutral
+144,116,a player is throwing the ball,two teams are always competing in a football match,always,Hypothesis,Verb,Universal,Neutral,Neutral
+145,116,a player is always throwing the ball,two teams are always competing in a football match,always,Both,Verb,Universal,Neutral,Neutral
+146,116,a player is never throwing the ball,two teams are competing in a football match,never,Premise,Verb,Universal,Neutral,Neutral
+147,116,a player is throwing the ball,two teams are never competing in a football match,never,Hypothesis,Verb,Universal,Neutral,Neutral
+148,116,a player is never throwing the ball,two teams are never competing in a football match,never,Both,Verb,Universal,Neutral,Neutral
+150,116,A player is throwing the good ball,"Two teams are competing in a football match
+",good,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+151,116,A player is throwing the ball,Two teams are competing in a good football match,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+152,116,A player is throwing the good ball,Two teams are competing in a good football match,good,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+153,116,A player is throwing all but one ball,"Two teams are competing in a football match
+",all but one,Premise,Object,Existential,Neutral,Neutral
+154,116,A player is throwing the ball,Two teams are competing in all but one football match,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+155,116,A player is throwing all but one ball,Two teams are competing in all but one football match,all but one,Both,Object,Existential,Neutral,Neutral
+156,116,A player is throwing every ball,"Two teams are competing in a football match
+",every,Premise,Object,Universal,Neutral,Neutral
+157,116,A player is throwing the ball,Two teams are competing in every football match,every,Hypothesis,Object,Universal,Neutral,Neutral
+158,116,A player is throwing every ball,Two teams are competing in every football match,every,Both,Object,Universal,Neutral,Neutral
+159,116,A player is throwing the bad ball,"Two teams are competing in a football match
+",bad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+160,116,A player is throwing the ball,Two teams are competing in a bad football match,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+161,116,A player is throwing the bad ball,Two teams are competing in a bad football match,bad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+162,116,A player is throwing the green ball,"Two teams are competing in a football match
+",green,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+163,116,A player is throwing the ball,Two teams are competing in a green football match,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+164,116,A player is throwing the green ball,Two teams are competing in a green football match,green,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+165,116,A player is throwing the happy ball,"Two teams are competing in a football match
+",happy,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+166,116,A player is throwing the ball,Two teams are competing in a happy football match,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+167,116,A player is throwing the happy ball,Two teams are competing in a happy football match,happy,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+168,116,A player is throwing the an abnormal ball,"Two teams are competing in a football match
+",an abnormal,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+169,116,A player is throwing the ball,Two teams are competing in a an abnormal football match,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+170,116,A player is throwing the an abnormal ball,Two teams are competing in a an abnormal football match,an abnormal,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+171,116,A player is throwing the sad ball,"Two teams are competing in a football match
+",sad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+172,116,A player is throwing the ball,Two teams are competing in a sad football match,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+173,116,A player is throwing the sad ball,Two teams are competing in a sad football match,sad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+174,116,A player is throwing no ball,"Two teams are competing in a football match
+",no,Premise,Object,Negation,Neutral,Neutral
+175,116,A player is throwing the ball,Two teams are competing in no football match,no,Hypothesis,Object,Negation,Neutral,Neutral
+176,116,A player is throwing no ball,Two teams are competing in no football match,no,Both,Object,Negation,Neutral,Neutral
+177,116,A player is throwing some ball,"Two teams are competing in a football match
+",some,Premise,Object,Existential,Neutral,Neutral
+178,116,A player is throwing the ball,Two teams are competing in some football match,some,Hypothesis,Object,Existential,Neutral,Neutral
+179,116,A player is throwing some ball,Two teams are competing in some football match,some,Both,Object,Existential,Neutral,Neutral
+180,116,A player is throwing exactly one ball,"Two teams are competing in a football match
+",exactly one,Premise,Object,Existential,Neutral,Neutral
+181,116,A player is throwing the ball,Two teams are competing in exactly one football match,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+182,116,A player is throwing exactly one ball,Two teams are competing in exactly one football match,exactly one,Both,Object,Existential,Neutral,Neutral
+183,116,A player is throwing the an elegant ball,"Two teams are competing in a football match
+",an elegant,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+184,116,A player is throwing the ball,Two teams are competing in a an elegant football match,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+185,116,A player is throwing the an elegant ball,Two teams are competing in a an elegant football match,an elegant,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+186,130,a man is sitting in a field,a man is running in a field,NONE,NONE,NONE,No Modifiers,Neutral,Neutral
+187,130,every man is sitting in a field,a man is running in a field,every,Premise,Subject,Universal,Negation,Contradiction
+188,130,a man is sitting in a field,every man is running in a field,every,Hypothesis,Subject,Universal,Negation,Contradiction
+189,130,every man is sitting in a field,every man is running in a field,every,Both,Subject,Universal,Negation,Contradiction
+190,130,some man is sitting in a field,a man is running in a field,some,Premise,Subject,Existential,Neutral,Neutral
+191,130,a man is sitting in a field,some man is running in a field,some,Hypothesis,Subject,Existential,Neutral,Neutral
+192,130,some man is sitting in a field,some man is running in a field,some,Both,Subject,Existential,Neutral,Neutral
+193,130,at least man is sitting in a field,a man is running in a field,at least,Premise,Subject,Existential,Neutral,Neutral
+194,130,a man is sitting in a field,at least man is running in a field,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+195,130,at least man is sitting in a field,at least man is running in a field,at least,Both,Subject,Existential,Neutral,Neutral
+196,130,not every man is sitting in a field,a man is running in a field,not every,Premise,Subject,Negation,Neutral,Neutral
+197,130,a man is sitting in a field,not every man is running in a field,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+198,130,not every man is sitting in a field,not every man is running in a field,not every,Both,Subject,Negation,Neutral,Neutral
+199,130,exactly one man is sitting in a field,a man is running in a field,exactly one,Premise,Subject,Existential,Neutral,Neutral
+200,130,a man is sitting in a field,exactly one man is running in a field,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+201,130,exactly one man is sitting in a field,exactly one man is running in a field,exactly one,Both,Subject,Existential,Neutral,Neutral
+202,130,all but one man is sitting in a field,a man is running in a field,all but one,Premise,Subject,Existential,Neutral,Neutral
+203,130,a man is sitting in a field,all but one man is running in a field,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+204,130,all but one man is sitting in a field,all but one man is running in a field,all but one,Both,Subject,Existential,Neutral,Neutral
+205,130,everyone of man is sitting in a field,a man is running in a field,everyone of,Premise,Subject,Universal,Negation,Contradiction
+206,130,a man is sitting in a field,everyone of man is running in a field,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+207,130,everyone of man is sitting in a field,everyone of man is running in a field,everyone of,Both,Subject,Universal,Negation,Contradiction
+208,130,no man is sitting in a field,a man is running in a field,no,Premise,Subject,Negation,Neutral,Neutral
+209,130,a man is sitting in a field,no man is running in a field,no,Hypothesis,Subject,Negation,Neutral,Neutral
+210,130,no man is sitting in a field,no man is running in a field,no,Both,Subject,Negation,Neutral,Neutral
+211,130,green man is sitting in a field,a man is running in a field,green,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+212,130,a man is sitting in a field,green man is running in a field,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+213,130,green man is sitting in a field,green man is running in a field,green,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+214,130,happy man is sitting in a field,a man is running in a field,happy,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+215,130,a man is sitting in a field,happy man is running in a field,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+216,130,happy man is sitting in a field,happy man is running in a field,happy,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+217,130,sad man is sitting in a field,a man is running in a field,sad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+218,130,a man is sitting in a field,sad man is running in a field,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+219,130,sad man is sitting in a field,sad man is running in a field,sad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+220,130,good man is sitting in a field,a man is running in a field,good,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+221,130,a man is sitting in a field,good man is running in a field,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+222,130,good man is sitting in a field,good man is running in a field,good,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+223,130,bad man is sitting in a field,a man is running in a field,bad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+224,130,a man is sitting in a field,bad man is running in a field,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+225,130,bad man is sitting in a field,bad man is running in a field,bad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+227,130,a man is not sitting in a field,a man is running in a field,not,Premise,Verb,Negation,Neutral,Neutral
+228,130,a man is sitting in a field,a man is not running in a field,not,Hypothesis,Verb,Negation,Neutral,Neutral
+229,130,a man is not sitting in a field,a man is not running in a field,not,Both,Verb,Negation,Neutral,Neutral
+230,130,a man is abnormally sitting in a field,a man is running in a field,abnormally,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+231,130,a man is sitting in a field,a man is abnormally running in a field,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+232,130,a man is abnormally sitting in a field,a man is abnormally running in a field,abnormally,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+233,130,a man is elegantly sitting in a field,a man is running in a field,elegantly,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+234,130,a man is sitting in a field,a man is elegantly running in a field,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+235,130,a man is elegantly sitting in a field,a man is elegantly running in a field,elegantly,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+236,130,a man is always sitting in a field,a man is running in a field,always,Premise,Verb,Universal,Neutral,Neutral
+237,130,a man is sitting in a field,a man is always running in a field,always,Hypothesis,Verb,Universal,Neutral,Neutral
+238,130,a man is always sitting in a field,a man is always running in a field,always,Both,Verb,Universal,Neutral,Neutral
+239,130,a man is never sitting in a field,a man is running in a field,never,Premise,Verb,Universal,Neutral,Neutral
+240,130,a man is sitting in a field,a man is never running in a field,never,Hypothesis,Verb,Universal,Neutral,Neutral
+241,130,a man is never sitting in a field,a man is never running in a field,never,Both,Verb,Universal,Neutral,Neutral
+243,130,A man is sitting in a good field,"A man is running in a field
+",good,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+244,130,A man is sitting in a field,A man is running in a good field,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+245,130,A man is sitting in a good field,A man is running in a good field,good,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+246,130,A man is sitting in all but one field,"A man is running in a field
+",all but one,Premise,Object,Existential,Neutral,Neutral
+247,130,A man is sitting in a field,A man is running in all but one field,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+248,130,A man is sitting in all but one field,A man is running in all but one field,all but one,Both,Object,Existential,Neutral,Neutral
+249,130,A man is sitting in every field,"A man is running in a field
+",every,Premise,Object,Universal,Neutral,Neutral
+250,130,A man is sitting in a field,A man is running in every field,every,Hypothesis,Object,Universal,Neutral,Neutral
+251,130,A man is sitting in every field,A man is running in every field,every,Both,Object,Universal,Neutral,Neutral
+252,130,A man is sitting in a bad field,"A man is running in a field
+",bad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+253,130,A man is sitting in a field,A man is running in a bad field,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+254,130,A man is sitting in a bad field,A man is running in a bad field,bad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+255,130,A man is sitting in a green field,"A man is running in a field
+",green,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+256,130,A man is sitting in a field,A man is running in a green field,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+257,130,A man is sitting in a green field,A man is running in a green field,green,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+258,130,A man is sitting in a happy field,"A man is running in a field
+",happy,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+259,130,A man is sitting in a field,A man is running in a happy field,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+260,130,A man is sitting in a happy field,A man is running in a happy field,happy,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+261,130,A man is sitting in a an abnormal field,"A man is running in a field
+",an abnormal,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+262,130,A man is sitting in a field,A man is running in a an abnormal field,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+263,130,A man is sitting in a an abnormal field,A man is running in a an abnormal field,an abnormal,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+264,130,A man is sitting in a sad field,"A man is running in a field
+",sad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+265,130,A man is sitting in a field,A man is running in a sad field,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+266,130,A man is sitting in a sad field,A man is running in a sad field,sad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+267,130,A man is sitting in no field,"A man is running in a field
+",no,Premise,Object,Negation,Neutral,Neutral
+268,130,A man is sitting in a field,A man is running in no field,no,Hypothesis,Object,Negation,Neutral,Neutral
+269,130,A man is sitting in no field,A man is running in no field,no,Both,Object,Negation,Neutral,Neutral
+270,130,A man is sitting in some field,"A man is running in a field
+",some,Premise,Object,Existential,Neutral,Neutral
+271,130,A man is sitting in a field,A man is running in some field,some,Hypothesis,Object,Existential,Neutral,Neutral
+272,130,A man is sitting in some field,A man is running in some field,some,Both,Object,Existential,Neutral,Neutral
+273,130,A man is sitting in exactly one field,"A man is running in a field
+",exactly one,Premise,Object,Existential,Neutral,Neutral
+274,130,A man is sitting in a field,A man is running in exactly one field,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+275,130,A man is sitting in exactly one field,A man is running in exactly one field,exactly one,Both,Object,Existential,Neutral,Neutral
+276,130,A man is sitting in a an elegant field,"A man is running in a field
+",an elegant,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+277,130,A man is sitting in a field,A man is running in a an elegant field,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+278,130,A man is sitting in a an elegant field,A man is running in a an elegant field,an elegant,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+279,150,a deer is jumping over a fence,a deer is n't jumping over the fence,NONE,NONE,NONE,No Modifiers,Negation|Alternation,Contradiction
+280,150,every deer is jumping over a fence,a deer is n't jumping over the fence,every,Premise,Subject,Universal,Negation,Contradiction
+281,150,a deer is jumping over a fence,every deer is n't jumping over the fence,every,Hypothesis,Subject,Universal,Negation,Contradiction
+282,150,every deer is jumping over a fence,every deer is n't jumping over the fence,every,Both,Subject,Universal,Negation,Contradiction
+283,150,some deer is jumping over a fence,a deer is n't jumping over the fence,some,Premise,Subject,Existential,Alternation,Contradiction
+284,150,a deer is jumping over a fence,some deer is n't jumping over the fence,some,Hypothesis,Subject,Existential,Alternation,Contradiction
+285,150,some deer is jumping over a fence,some deer is n't jumping over the fence,some,Both,Subject,Existential,Alternation,Contradiction
+286,150,at least deer is jumping over a fence,a deer is n't jumping over the fence,at least,Premise,Subject,Existential,Alternation,Contradiction
+287,150,a deer is jumping over a fence,at least deer is n't jumping over the fence,at least,Hypothesis,Subject,Existential,Alternation,Contradiction
+288,150,at least deer is jumping over a fence,at least deer is n't jumping over the fence,at least,Both,Subject,Existential,Alternation,Contradiction
+289,150,not every deer is jumping over a fence,a deer is n't jumping over the fence,not every,Premise,Subject,Negation,FE,FE
+290,150,a deer is jumping over a fence,not every deer is n't jumping over the fence,not every,Hypothesis,Subject,Negation,RE,RE
+291,150,not every deer is jumping over a fence,not every deer is n't jumping over the fence,not every,Both,Subject,Negation,Neutral,Neutral
+292,150,exactly one deer is jumping over a fence,a deer is n't jumping over the fence,exactly one,Premise,Subject,Existential,Alternation,Contradiction
+293,150,a deer is jumping over a fence,exactly one deer is n't jumping over the fence,exactly one,Hypothesis,Subject,Existential,Alternation,Contradiction
+294,150,exactly one deer is jumping over a fence,exactly one deer is n't jumping over the fence,exactly one,Both,Subject,Existential,Alternation,Contradiction
+295,150,all but one deer is jumping over a fence,a deer is n't jumping over the fence,all but one,Premise,Subject,Existential,FE,FE
+296,150,a deer is jumping over a fence,all but one deer is n't jumping over the fence,all but one,Hypothesis,Subject,Existential,RE,RE
+297,150,all but one deer is jumping over a fence,all but one deer is n't jumping over the fence,all but one,Both,Subject,Existential,Neutral,Neutral
+298,150,everyone of deer is jumping over a fence,a deer is n't jumping over the fence,everyone of,Premise,Subject,Universal,Negation,Contradiction
+299,150,a deer is jumping over a fence,everyone of deer is n't jumping over the fence,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+300,150,everyone of deer is jumping over a fence,everyone of deer is n't jumping over the fence,everyone of,Both,Subject,Universal,Negation,Contradiction
+302,150,a deer is jumping over a fence,no deer is n't jumping over the fence,no,Hypothesis,Subject,Negation,RE,RE
+303,150,no deer is jumping over a fence,no deer is n't jumping over the fence,no,Both,Subject,Negation,Negation,Contradiction
+304,150,green deer is jumping over a fence,a deer is n't jumping over the fence,green,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+305,150,a deer is jumping over a fence,green deer is n't jumping over the fence,green,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+306,150,green deer is jumping over a fence,green deer is n't jumping over the fence,green,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+307,150,happy deer is jumping over a fence,a deer is n't jumping over the fence,happy,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+308,150,a deer is jumping over a fence,happy deer is n't jumping over the fence,happy,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+309,150,happy deer is jumping over a fence,happy deer is n't jumping over the fence,happy,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+310,150,sad deer is jumping over a fence,a deer is n't jumping over the fence,sad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+311,150,a deer is jumping over a fence,sad deer is n't jumping over the fence,sad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+312,150,sad deer is jumping over a fence,sad deer is n't jumping over the fence,sad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+313,150,good deer is jumping over a fence,a deer is n't jumping over the fence,good,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+314,150,a deer is jumping over a fence,good deer is n't jumping over the fence,good,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+315,150,good deer is jumping over a fence,good deer is n't jumping over the fence,good,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+316,150,bad deer is jumping over a fence,a deer is n't jumping over the fence,bad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+317,150,a deer is jumping over a fence,bad deer is n't jumping over the fence,bad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+318,150,bad deer is jumping over a fence,bad deer is n't jumping over the fence,bad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+322,150,a deer is not jumping over a fence,a deer isn't not jumping over the fence,not,Both,Verb,Negation,Negation|Alternation,Contradiction
+323,150,a deer is abnormally jumping over a fence,a deer is n't jumping over the fence,abnormally,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+324,150,a deer is jumping over a fence,a deer isn't abnormally jumping over the fence,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+325,150,a deer is abnormally jumping over a fence,a deer isn't abnormally jumping over the fence,abnormally,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+326,150,a deer is elegantly jumping over a fence,a deer is n't jumping over the fence,elegantly,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+327,150,a deer is jumping over a fence,a deer isn't elegantly jumping over the fence,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+328,150,a deer is elegantly jumping over a fence,a deer isn't elegantly jumping over the fence,elegantly,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+329,150,a deer is always jumping over a fence,a deer is n't jumping over the fence,always,Premise,Verb,Universal,Negation|Alternation,Contradiction
+330,150,a deer is jumping over a fence,a deer isn't always jumping over the fence,always,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+331,150,a deer is always jumping over a fence,a deer isn't always jumping over the fence,always,Both,Verb,Universal,Negation|Alternation,Contradiction
+332,150,a deer is never jumping over a fence,a deer is n't jumping over the fence,never,Premise,Verb,Universal,FE,FE
+334,150,a deer is never jumping over a fence,a deer isn't never jumping over the fence,never,Both,Verb,Universal,Alternation,Contradiction
+336,150,A deer is jumping over a good fence,"A deer isn't jumping over the fence
+",good,Premise,Object,Adjectives/Adverbs,Alternation,Contradiction
+337,150,A deer is jumping over a fence,A deer isn't jumping over the good fence,good,Hypothesis,Object,Adjectives/Adverbs,Alternation,Contradiction
+338,150,A deer is jumping over a good fence,A deer isn't jumping over the good fence,good,Both,Object,Adjectives/Adverbs,Alternation,Contradiction
+339,150,A deer is jumping over all but one fence,"A deer isn't jumping over the fence
+",all but one,Premise,Object,Existential,FE,FE
+340,150,A deer is jumping over a fence,A deer isn't jumping over all but one fence,all but one,Hypothesis,Object,Existential,RE,RE
+341,150,A deer is jumping over all but one fence,A deer isn't jumping over all but one fence,all but one,Both,Object,Existential,Neutral,Neutral
+342,150,A deer is jumping over every fence,"A deer isn't jumping over the fence
+",every,Premise,Object,Universal,Negation|Alternation,Contradiction
+343,150,A deer is jumping over a fence,A deer isn't jumping over every fence,every,Hypothesis,Object,Universal,RE,RE
+344,150,A deer is jumping over every fence,A deer isn't jumping over every fence,every,Both,Object,Universal,Negation|Alternation,Contradiction
+345,150,A deer is jumping over a bad fence,"A deer isn't jumping over the fence
+",bad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+346,150,A deer is jumping over a fence,A deer isn't jumping over the bad fence,bad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+347,150,A deer is jumping over a bad fence,A deer isn't jumping over the bad fence,bad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+348,150,A deer is jumping over a green fence,"A deer isn't jumping over the fence
+",green,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+349,150,A deer is jumping over a fence,A deer isn't jumping over the green fence,green,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+350,150,A deer is jumping over a green fence,A deer isn't jumping over the green fence,green,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+351,150,A deer is jumping over a happy fence,"A deer isn't jumping over the fence
+",happy,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+352,150,A deer is jumping over a fence,A deer isn't jumping over the happy fence,happy,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+353,150,A deer is jumping over a happy fence,A deer isn't jumping over the happy fence,happy,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+354,150,A deer is jumping over a an abnormal fence,"A deer isn't jumping over the fence
+",an abnormal,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+355,150,A deer is jumping over a fence,A deer isn't jumping over the an abnormal fence,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+356,150,A deer is jumping over a an abnormal fence,A deer isn't jumping over the an abnormal fence,an abnormal,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+357,150,A deer is jumping over a sad fence,"A deer isn't jumping over the fence
+",sad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+358,150,A deer is jumping over a fence,A deer is not jumping over the sad fence,sad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+359,150,A deer is jumping over a sad fence,A deer is not jumping over the sad fence,sad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+362,150,A deer is jumping over no fence,A deer isn't jumping over no fence,no,Both,Object,Negation,Negation|Alternation,Contradiction
+363,150,A deer is jumping over some fence,"A deer isn't jumping over the fence
+",some,Premise,Object,Existential,Negation|Alternation,Contradiction
+364,150,A deer is jumping over a fence,A deer isn't jumping over some fence,some,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+365,150,A deer is jumping over some fence,A deer isn't jumping over some fence,some,Both,Object,Existential,Negation|Alternation,Contradiction
+366,150,A deer is jumping over exactly one fence,"A deer isn't jumping over the fence
+",exactly one,Premise,Object,Existential,Negation|Alternation,Contradiction
+367,150,A deer is jumping over a fence,A deer isn't jumping over exactly one fence,exactly one,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+368,150,A deer is jumping over exactly one fence,A deer isn't jumping over exactly one fence,exactly one,Both,Object,Existential,Negation|Alternation,Contradiction
+369,150,A deer is jumping over a an elegant fence,"A deer isn't jumping over the fence
+",an elegant,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+370,150,A deer is jumping over a fence,A deer isn't jumping over the an elegant fence,an elegant,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+371,150,A deer is jumping over a an elegant fence,A deer isn't jumping over the an elegant fence,an elegant,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+372,167,a boy is hitting a baseball,a child is hitting a baseball,NONE,NONE,NONE,No Modifiers,FE,FE
+373,167,every boy is hitting a baseball,a child is hitting a baseball,every,Premise,Subject,Universal,FE,FE
+374,167,a boy is hitting a baseball,every child is hitting a baseball,every,Hypothesis,Subject,Universal,RE,RE
+375,167,every boy is hitting a baseball,every child is hitting a baseball,every,Both,Subject,Universal,RE,RE
+376,167,some boy is hitting a baseball,a child is hitting a baseball,some,Premise,Subject,Existential,FE,FE
+377,167,a boy is hitting a baseball,some child is hitting a baseball,some,Hypothesis,Subject,Existential,FE,FE
+378,167,some boy is hitting a baseball,some child is hitting a baseball,some,Both,Subject,Existential,FE,FE
+379,167,at least boy is hitting a baseball,a child is hitting a baseball,at least,Premise,Subject,Existential,FE,FE
+380,167,a boy is hitting a baseball,at least a child is hitting a baseball,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+381,167,at least boy is hitting a baseball,at least a child is hitting a baseball,at least,Both,Subject,Existential,FE,FE
+382,167,not every boy is hitting a baseball,a child is hitting a baseball,not every,Premise,Subject,Negation,Neutral,Neutral
+383,167,a boy is hitting a baseball,not every child is hitting a baseball,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+384,167,not every boy is hitting a baseball,not every child is hitting a baseball,not every,Both,Subject,Negation,FE,FE
+385,167,exactly one boy is hitting a baseball,a child is hitting a baseball,exactly one,Premise,Subject,Existential,FE,FE
+386,167,a boy is hitting a baseball,exactly one child is hitting a baseball,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+387,167,exactly one boy is hitting a baseball,exactly one child is hitting a baseball,exactly one,Both,Subject,Existential,FE,FE
+388,167,all but one boy is hitting a baseball,a child is hitting a baseball,all but one,Premise,Subject,Existential,Neutral,Neutral
+389,167,a boy is hitting a baseball,all but one child is hitting a baseball,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+390,167,all but one boy is hitting a baseball,all but one child is hitting a baseball,all but one,Both,Subject,Existential,Neutral,Neutral
+391,167,every boy is hitting a baseball,a child is hitting a baseball,every,Premise,Subject,Universal,FE,FE
+392,167,a boy is hitting a baseball,every child is hitting a baseball,every,Hypothesis,Subject,Universal,Neutral,Neutral
+393,167,every boy is hitting a baseball,every child is hitting a baseball,every,Both,Subject,Universal,RE,RE
+394,167,no boy is hitting a baseball,a child is hitting a baseball,no,Premise,Subject,Negation,Neutral,Neutral
+395,167,a boy is hitting a baseball,no child is hitting a baseball,no,Hypothesis,Subject,Negation,Negation,Contradiction
+396,167,no boy is hitting a baseball,no child is hitting a baseball,no,Both,Subject,Negation,RE,RE
+397,167,green boy is hitting a baseball,a child is hitting a baseball,green,Premise,Subject,Adjectives/Adverbs,FE,FE
+398,167,a boy is hitting a baseball,green child is hitting a baseball,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+399,167,green boy is hitting a baseball,green child is hitting a baseball,green,Both,Subject,Adjectives/Adverbs,FE,FE
+400,167,happy boy is hitting a baseball,a child is hitting a baseball,happy,Premise,Subject,Adjectives/Adverbs,FE,FE
+401,167,a boy is hitting a baseball,happy child is hitting a baseball,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+402,167,happy boy is hitting a baseball,happy child is hitting a baseball,happy,Both,Subject,Adjectives/Adverbs,FE,FE
+403,167,sad boy is hitting a baseball,a child is hitting a baseball,sad,Premise,Subject,Adjectives/Adverbs,FE,FE
+404,167,a boy is hitting a baseball,sad child is hitting a baseball,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+405,167,sad boy is hitting a baseball,sad child is hitting a baseball,sad,Both,Subject,Adjectives/Adverbs,FE,FE
+406,167,good boy is hitting a baseball,a child is hitting a baseball,good,Premise,Subject,Adjectives/Adverbs,FE,FE
+407,167,a boy is hitting a baseball,good child is hitting a baseball,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+408,167,good boy is hitting a baseball,good child is hitting a baseball,good,Both,Subject,Adjectives/Adverbs,FE,FE
+409,167,bad boy is hitting a baseball,a child is hitting a baseball,bad,Premise,Subject,Adjectives/Adverbs,FE,FE
+410,167,a boy is hitting a baseball,bad child is hitting a baseball,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+411,167,bad boy is hitting a baseball,bad child is hitting a baseball,bad,Both,Subject,Adjectives/Adverbs,FE,FE
+413,167,a boy is not hitting a baseball,a child is hitting a baseball,not,Premise,Verb,Negation,Neutral,Neutral
+414,167,a boy is hitting a baseball,a child is not hitting a baseball,not,Hypothesis,Verb,Negation,Neutral,Neutral
+415,167,a boy is not hitting a baseball,a child is not hitting a baseball,not,Both,Verb,Negation,FE,FE
+416,167,a boy is abnormally hitting a baseball,a child is hitting a baseball,abnormally,Premise,Verb,Adjectives/Adverbs,FE,FE
+417,167,a boy is hitting a baseball,a child is abnormally hitting a baseball,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+418,167,a boy is abnormally hitting a baseball,a child is abnormally hitting a baseball,abnormally,Both,Verb,Adjectives/Adverbs,FE,FE
+419,167,a boy is elegantly hitting a baseball,a child is hitting a baseball,elegantly,Premise,Verb,Adjectives/Adverbs,FE,FE
+420,167,a boy is hitting a baseball,a child is elegantly hitting a baseball,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+421,167,a boy is elegantly hitting a baseball,a child is elegantly hitting a baseball,elegantly,Both,Verb,Adjectives/Adverbs,FE,FE
+422,167,a boy is always hitting a baseball,a child is hitting a baseball,always,Premise,Verb,Universal,FE,FE
+423,167,a boy is hitting a baseball,a child is always hitting a baseball,always,Hypothesis,Verb,Universal,Neutral,Neutral
+424,167,a boy is always hitting a baseball,a child is always hitting a baseball,always,Both,Verb,Universal,FE,FE
+425,167,a boy is never hitting a baseball,a child is hitting a baseball,never,Premise,Verb,Universal,Alternation,Contradiction
+426,167,a boy is hitting a baseball,a child is never hitting a baseball,never,Hypothesis,Verb,Universal,Negation,Contradiction
+427,167,a boy is never hitting a baseball,a child is never hitting a baseball,never,Both,Verb,Universal,FE,FE
+429,167,A boy is hitting a good baseball,"A child is hitting a baseball
+",good,Premise,Object,Adjectives/Adverbs,FE,FE
+430,167,A boy is hitting a baseball,A child is hitting a good baseball,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+431,167,A boy is hitting a good baseball,A child is hitting a good baseball,good,Both,Object,Adjectives/Adverbs,FE,FE
+432,167,A boy is hitting all but one baseball,"A child is hitting a baseball
+",all but one,Premise,Object,Existential,FE,FE
+433,167,A boy is hitting a baseball,A child is hitting all but one baseball,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+434,167,A boy is hitting all but one baseball,A child is hitting all but one baseball,all but one,Both,Object,Existential,FE,FE
+435,167,A boy is hitting every baseball,"A child is hitting a baseball
+",every,Premise,Object,Universal,FE,FE
+436,167,A boy is hitting a baseball,A child is hitting every baseball,every,Hypothesis,Object,Universal,Neutral,Neutral
+437,167,A boy is hitting every baseball,A child is hitting every baseball,every,Both,Object,Universal,FE,FE
+438,167,A boy is hitting a bad baseball,"A child is hitting a baseball
+",bad,Premise,Object,Adjectives/Adverbs,FE,FE
+439,167,A boy is hitting a baseball,A child is hitting a bad baseball,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+440,167,A boy is hitting a bad baseball,A child is hitting a bad baseball,bad,Both,Object,Adjectives/Adverbs,FE,FE
+441,167,A boy is hitting a green baseball,"A child is hitting a baseball
+",green,Premise,Object,Adjectives/Adverbs,FE,FE
+442,167,A boy is hitting a baseball,A child is hitting a green baseball,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+443,167,A boy is hitting a green baseball,A child is hitting a green baseball,green,Both,Object,Adjectives/Adverbs,FE,FE
+444,167,A boy is hitting a happy baseball,"A child is hitting a baseball
+",happy,Premise,Object,Adjectives/Adverbs,FE,FE
+445,167,A boy is hitting a baseball,A child is hitting a happy baseball,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+446,167,A boy is hitting a happy baseball,A child is hitting a happy baseball,happy,Both,Object,Adjectives/Adverbs,FE,FE
+447,167,A boy is hitting a an abnormal baseball,"A child is hitting a baseball
+",an abnormal,Premise,Object,Adjectives/Adverbs,FE,FE
+448,167,A boy is hitting a baseball,A child is hitting a an abnormal baseball,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+449,167,A boy is hitting a an abnormal baseball,A child is hitting a an abnormal baseball,an abnormal,Both,Object,Adjectives/Adverbs,FE,FE
+450,167,A boy is hitting a sad baseball,"A child is hitting a baseball
+",sad,Premise,Object,Adjectives/Adverbs,FE,FE
+451,167,A boy is hitting a baseball,A child is hitting a sad baseball,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+452,167,A boy is hitting a sad baseball,A child is hitting a sad baseball,sad,Both,Object,Adjectives/Adverbs,FE,FE
+453,167,A boy is hitting no baseball,"A child is hitting a baseball
+",no,Premise,Object,Negation,Alternation,Contradiction
+454,167,A boy is hitting a baseball,A child is hitting no baseball,no,Hypothesis,Object,Negation,Alternation,Contradiction
+455,167,A boy is hitting no baseball,A child is hitting no baseball,no,Both,Object,Negation,FE,FE
+456,167,A boy is hitting some baseball,"A child is hitting a baseball
+",some,Premise,Object,Existential,FE,FE
+457,167,A boy is hitting a baseball,A child is hitting some baseball,some,Hypothesis,Object,Existential,FE,FE
+458,167,A boy is hitting some baseball,A child is hitting some baseball,some,Both,Object,Existential,FE,FE
+459,167,A boy is hitting exactly one baseball,"A child is hitting a baseball
+",exactly one,Premise,Object,Existential,FE,FE
+460,167,A boy is hitting a baseball,A child is hitting exactly one baseball,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+461,167,A boy is hitting exactly one baseball,A child is hitting exactly one baseball,exactly one,Both,Object,Existential,FE,FE
+462,167,A boy is hitting a an elegant baseball,"A child is hitting a baseball
+",an elegant,Premise,Object,Adjectives/Adverbs,FE,FE
+463,167,A boy is hitting a baseball,A child is hitting a an elegant baseball,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+464,167,A boy is hitting a an elegant baseball,A child is hitting a an elegant baseball,an elegant,Both,Object,Adjectives/Adverbs,FE,FE
+465,168,a child is hitting a baseball,a child is missing a baseball,NONE,NONE,NONE,No Modifiers,Negation|Alternation,Contradiction
+466,168,every child is hitting a baseball,a child is missing a baseball,every,Premise,Subject,Universal,Negation,Contradiction
+467,168,a child is hitting a baseball,every child is missing a baseball,every,Hypothesis,Subject,Universal,Negation,Contradiction
+468,168,every child is hitting a baseball,every child is missing a baseball,every,Both,Subject,Universal,Negation,Contradiction
+469,168,some child is hitting a baseball,a child is missing a baseball,some,Premise,Subject,Existential,Negation|Alternation,Contradiction
+470,168,a child is hitting a baseball,some child is missing a baseball,some,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+471,168,some child is hitting a baseball,some child is missing a baseball,some,Both,Subject,Existential,Negation|Alternation,Contradiction
+472,168,at least child is hitting a baseball,a child is missing a baseball,at least,Premise,Subject,Existential,Negation|Alternation,Contradiction
+473,168,a child is hitting a baseball,at least child is missing a baseball,at least,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+474,168,at least child is hitting a baseball,at least child is missing a baseball,at least,Both,Subject,Existential,Negation|Alternation,Contradiction
+475,168,not every child is hitting a baseball,a child is missing a baseball,not every,Premise,Subject,Negation,Neutral,Neutral
+476,168,a child is hitting a baseball,not every child is missing a baseball,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+477,168,not every child is hitting a baseball,not every child is missing a baseball,not every,Both,Subject,Negation,Neutral,Neutral
+478,168,exactly one child is hitting a baseball,a child is missing a baseball,exactly one,Premise,Subject,Existential,Negation|Alternation,Contradiction
+479,168,a child is hitting a baseball,exactly one child is missing a baseball,exactly one,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+480,168,exactly one child is hitting a baseball,exactly one child is missing a baseball,exactly one,Both,Subject,Existential,Negation|Alternation,Contradiction
+481,168,all but one child is hitting a baseball,a child is missing a baseball,all but one,Premise,Subject,Existential,Negation,Contradiction
+482,168,a child is hitting a baseball,all but one child is missing a baseball,all but one,Hypothesis,Subject,Existential,Negation,Contradiction
+483,168,all but one child is hitting a baseball,all but one child is missing a baseball,all but one,Both,Subject,Existential,Negation,Contradiction
+484,168,everyone of child is hitting a baseball,a child is missing a baseball,everyone of,Premise,Subject,Universal,Negation,Contradiction
+485,168,a child is hitting a baseball,everyone of child is missing a baseball,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+486,168,everyone of child is hitting a baseball,everyone of child is missing a baseball,everyone of,Both,Subject,Universal,Negation,Contradiction
+487,168,no child is hitting a baseball,a child is missing a baseball,no,Premise,Subject,Negation,FE,FE
+488,168,a child is hitting a baseball,no child is missing a baseball,no,Hypothesis,Subject,Negation,Neutral,Neutral
+489,168,no child is hitting a baseball,no child is missing a baseball,no,Both,Subject,Negation,Negation,Contradiction
+490,168,green child is hitting a baseball,a child is missing a baseball,green,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+491,168,a child is hitting a baseball,green child is missing a baseball,green,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+492,168,green child is hitting a baseball,green child is missing a baseball,green,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+493,168,happy child is hitting a baseball,a child is missing a baseball,happy,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+494,168,a child is hitting a baseball,happy child is missing a baseball,happy,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+495,168,happy child is hitting a baseball,happy child is missing a baseball,happy,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+496,168,sad child is hitting a baseball,a child is missing a baseball,sad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+497,168,a child is hitting a baseball,sad child is missing a baseball,sad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+498,168,sad child is hitting a baseball,sad child is missing a baseball,sad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+499,168,good child is hitting a baseball,a child is missing a baseball,good,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+500,168,a child is hitting a baseball,good child is missing a baseball,good,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+501,168,good child is hitting a baseball,good child is missing a baseball,good,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+502,168,bad child is hitting a baseball,a child is missing a baseball,bad,Premise,Subject,Adjectives/Adverbs,Alternation,Contradiction
+503,168,a child is hitting a baseball,bad child is missing a baseball,bad,Hypothesis,Subject,Adjectives/Adverbs,Alternation,Contradiction
+504,168,bad child is hitting a baseball,bad child is missing a baseball,bad,Both,Subject,Adjectives/Adverbs,Alternation,Contradiction
+508,168,a child is not hitting a baseball,a child is not missing a baseball,not,Both,Verb,Negation,Negation|Alternation,Contradiction
+509,168,a child is abnormally hitting a baseball,a child is missing a baseball,abnormally,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+510,168,a child is hitting a baseball,a child is abnormally missing a baseball,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+511,168,a child is abnormally hitting a baseball,a child is abnormally missing a baseball,abnormally,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+512,168,a child is elegantly hitting a baseball,a child is missing a baseball,elegantly,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+513,168,a child is hitting a baseball,a child is elegantly missing a baseball,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+514,168,a child is elegantly hitting a baseball,a child is elegantly missing a baseball,elegantly,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+515,168,a child is always hitting a baseball,a child is missing a baseball,always,Premise,Verb,Universal,Negation|Alternation,Contradiction
+516,168,a child is hitting a baseball,a child is always missing a baseball,always,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+517,168,a child is always hitting a baseball,a child is always missing a baseball,always,Both,Verb,Universal,Negation|Alternation,Contradiction
+518,168,a child is never hitting a baseball,a child is missing a baseball,never,Premise,Verb,Universal,FE,FE
+519,168,a child is hitting a baseball,a child is never missing a baseball,never,Hypothesis,Verb,Universal,RE,RE
+520,168,a child is never hitting a baseball,a child is never missing a baseball,never,Both,Verb,Universal,Neutral,Neutral
+522,168,A child is hitting a good baseball,"A child is missing a baseball
+",good,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+523,168,A child is hitting a baseball,A child is missing a good baseball,good,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+524,168,A child is hitting a good baseball,A child is missing a good baseball,good,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+525,168,A child is hitting all but one baseball,"A child is missing a baseball
+",all but one,Premise,Object,Existential,FE,FE
+526,168,A child is hitting a baseball,A child is missing all but one baseball,all but one,Hypothesis,Object,Existential,RE,RE
+527,168,A child is hitting all but one baseball,A child is missing all but one baseball,all but one,Both,Object,Existential,Neutral,Neutral
+528,168,A child is hitting every baseball,"A child is missing a baseball
+",every,Premise,Object,Universal,Negation|Alternation,Contradiction
+529,168,A child is hitting a baseball,A child is missing every baseball,every,Hypothesis,Object,Universal,Negation|Alternation,Contradiction
+530,168,A child is hitting every baseball,A child is missing every baseball,every,Both,Object,Universal,Negation|Alternation,Contradiction
+531,168,A child is hitting a bad baseball,"A child is missing a baseball
+",bad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+532,168,A child is hitting a baseball,A child is missing a bad baseball,bad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+533,168,A child is hitting a bad baseball,A child is missing a bad baseball,bad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+534,168,A child is hitting a green baseball,"A child is missing a baseball
+",green,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+535,168,A child is hitting a baseball,A child is missing a green baseball,green,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+536,168,A child is hitting a green baseball,A child is missing a green baseball,green,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+537,168,A child is hitting a happy baseball,"A child is missing a baseball
+",happy,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+538,168,A child is hitting a baseball,A child is missing a happy baseball,happy,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+539,168,A child is hitting a happy baseball,A child is missing a happy baseball,happy,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+540,168,A child is hitting a an abnormal baseball,"A child is missing a baseball
+",an abnormal,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+541,168,A child is hitting a baseball,A child is missing a an abnormal baseball,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+542,168,A child is hitting a an abnormal baseball,A child is missing a an abnormal baseball,an abnormal,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+543,168,A child is hitting a sad baseball,"A child is missing a baseball
+",sad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+544,168,A child is hitting a baseball,A child is missing a sad baseball,sad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+545,168,A child is hitting a sad baseball,A child is missing a sad baseball,sad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+546,168,A child is hitting no baseball,"A child is missing a baseball
+",no,Premise,Object,Negation,FE,FE
+547,168,A child is hitting a baseball,A child is missing no baseball,no,Hypothesis,Object,Negation,RE,RE
+548,168,A child is hitting no baseball,A child is missing no baseball,no,Both,Object,Negation,Neutral,Neutral
+549,168,A child is hitting some baseball,"A child is missing a baseball
+",some,Premise,Object,Existential,Negation|Alternation,Contradiction
+550,168,A child is hitting a baseball,A child is missing some baseball,some,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+551,168,A child is hitting some baseball,A child is missing some baseball,some,Both,Object,Existential,Negation|Alternation,Contradiction
+552,168,A child is hitting exactly one baseball,"A child is missing a baseball
+",exactly one,Premise,Object,Existential,Negation|Alternation,Contradiction
+553,168,A child is hitting a baseball,A child is missing exactly one baseball,exactly one,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+554,168,A child is hitting exactly one baseball,A child is missing exactly one baseball,exactly one,Both,Object,Existential,Negation|Alternation,Contradiction
+555,168,A child is hitting a an elegant baseball,"A child is missing a baseball
+",an elegant,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+556,168,A child is hitting a baseball,A child is missing a an elegant baseball,an elegant,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+557,168,A child is hitting a an elegant baseball,A child is missing a an elegant baseball,an elegant,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+558,211,two dogs are playing by a tree,two dogs are playing by a plant,NONE,NONE,NONE,No Modifiers,FE,FE
+559,211,every two dogs are playing by a tree,two dogs are playing by a plant,every,Premise,Subject,Universal,FE,FE
+560,211,two dogs are playing by a tree,every two dogs are playing by a plant,every,Hypothesis,Subject,Universal,Neutral,Neutral
+561,211,every two dogs are playing by a tree,every two dogs are playing by a plant,every,Both,Subject,Universal,RE,RE
+562,211,some two dogs are playing by a tree,two dogs are playing by a plant,some,Premise,Subject,Existential,FE,FE
+563,211,two dogs are playing by a tree,some two dogs are playing by a plant,some,Hypothesis,Subject,Existential,FE,FE
+564,211,some two dogs are playing by a tree,some two dogs are playing by a plant,some,Both,Subject,Existential,RE,RE
+565,211,at least two dogs are playing by a tree,two dogs are playing by a plant,at least,Premise,Subject,Existential,FE,FE
+566,211,two dogs are playing by a tree,at least two dogs are playing by a plant,at least,Hypothesis,Subject,Existential,FE,FE
+567,211,at least two dogs are playing by a tree,at least two dogs are playing by a plant,at least,Both,Subject,Existential,FE,FE
+568,211,not every two dogs are playing by a tree,two dogs are playing by a plant,not every,Premise,Subject,Negation,Neutral,Neutral
+569,211,two dogs are playing by a tree,not every two dogs are playing by a plant,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+570,211,not every two dogs are playing by a tree,not every two dogs are playing by a plant,not every,Both,Subject,Negation,FE,FE
+571,211,exactly  two of dogs are playing by a tree,two dogs are playing by a plant,exactly one,Premise,Subject,Existential,FE,FE
+572,211,two dogs are playing by a tree,exactly  two of dogs are playing by a plant,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+573,211,exactly  two of dogs are playing by a tree,exactly  two of dogs are playing by a plant,exactly one,Both,Subject,Existential,FE,FE
+574,211,all but  two of dogs are playing by a tree,two dogs are playing by a plant,all but one,Premise,Subject,Existential,Neutral,Neutral
+575,211,two dogs are playing by a tree,all but  two of dogs are playing by a plant,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+576,211,all but  two of dogs are playing by a tree,all but  two of dogs are playing by a plant,all but one,Both,Subject,Existential,FE,FE
+577,211,everyone of two dogs are playing by a tree,two dogs are playing by a plant,everyone of,Premise,Subject,Universal,FE,FE
+578,211,two dogs are playing by a tree,everyone of two dogs are playing by a plant,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+579,211,everyone of two dogs are playing by a tree,everyone of two dogs are playing by a plant,everyone of,Both,Subject,Universal,FE,FE
+580,211,no two dogs are playing by a tree,two dogs are playing by a plant,no,Premise,Subject,Negation,Neutral,Neutral
+581,211,two dogs are playing by a tree,no two dogs are playing by a plant,no,Hypothesis,Subject,Negation,Negation,Contradiction
+582,211,no two dogs are playing by a tree,no two dogs are playing by a plant,no,Both,Subject,Negation,RE,RE
+583,211,two green dogs are playing by a tree,two dogs are playing by a plant,green,Premise,Subject,Adjectives/Adverbs,FE,FE
+584,211,two dogs are playing by a tree,two green dogs are playing by a plant,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+585,211,two green dogs are playing by a tree,two green dogs are playing by a plant,green,Both,Subject,Adjectives/Adverbs,FE,FE
+586,211,two happy dogs are playing by a tree,two dogs are playing by a plant,happy,Premise,Subject,Adjectives/Adverbs,FE,FE
+587,211,two dogs are playing by a tree,two happy dogs are playing by a plant,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+588,211,two happy dogs are playing by a tree,two happy dogs are playing by a plant,happy,Both,Subject,Adjectives/Adverbs,FE,FE
+589,211,two sad dogs are playing by a tree,two dogs are playing by a plant,sad,Premise,Subject,Adjectives/Adverbs,FE,FE
+590,211,two dogs are playing by a tree,two sad dogs are playing by a plant,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+591,211,two sad dogs are playing by a tree,two sad dogs are playing by a plant,sad,Both,Subject,Adjectives/Adverbs,FE,FE
+592,211,two good dogs are playing by a tree,two dogs are playing by a plant,good,Premise,Subject,Adjectives/Adverbs,FE,FE
+593,211,two dogs are playing by a tree,two good dogs are playing by a plant,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+594,211,two good dogs are playing by a tree,two good dogs are playing by a plant,good,Both,Subject,Adjectives/Adverbs,FE,FE
+595,211,two bad dogs are playing by a tree,two dogs are playing by a plant,bad,Premise,Subject,Adjectives/Adverbs,FE,FE
+596,211,two dogs are playing by a tree,two bad dogs are playing by a plant,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+597,211,two bad dogs are playing by a tree,two bad dogs are playing by a plant,bad,Both,Subject,Adjectives/Adverbs,FE,FE
+599,211,two dogs are not playing by a tree,two dogs are playing by a plant,not,Premise,Verb,Negation,Neutral,Neutral
+600,211,two dogs are playing by a tree,two dogs are not playing by a plant,not,Hypothesis,Verb,Negation,Negation|Alternation,Contradiction
+601,211,two dogs are not playing by a tree,two dogs are not playing by a plant,not,Both,Verb,Negation,RE,RE
+602,211,two dogs are abnormally playing by a tree,two dogs are playing by a plant,abnormally,Premise,Verb,Adjectives/Adverbs,FE,FE
+603,211,two dogs are playing by a tree,two dogs are abnormally playing by a plant,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+604,211,two dogs are abnormally playing by a tree,two dogs are abnormally playing by a plant,abnormally,Both,Verb,Adjectives/Adverbs,FE,FE
+605,211,two dogs are elegantly playing by a tree,two dogs are playing by a plant,elegantly,Premise,Verb,Adjectives/Adverbs,FE,FE
+606,211,two dogs are playing by a tree,two dogs are elegantly playing by a plant,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+607,211,two dogs are elegantly playing by a tree,two dogs are elegantly playing by a plant,elegantly,Both,Verb,Adjectives/Adverbs,FE,FE
+608,211,two dogs are always playing by a tree,two dogs are playing by a plant,always,Premise,Verb,Universal,FE,FE
+609,211,two dogs are playing by a tree,two dogs are always playing by a plant,always,Hypothesis,Verb,Universal,FE,FE
+610,211,two dogs are always playing by a tree,two dogs are always playing by a plant,always,Both,Verb,Universal,FE,FE
+611,211,two dogs are never playing by a tree,two dogs are playing by a plant,never,Premise,Verb,Universal,Neutral,Neutral
+612,211,two dogs are playing by a tree,two dogs are never playing by a plant,never,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+613,211,two dogs are never playing by a tree,two dogs are never playing by a plant,never,Both,Verb,Universal,Neutral,Neutral
+615,211,Two dogs are playing by a good tree,"Two dogs are playing by a plant
+",good,Premise,Object,Adjectives/Adverbs,FE,FE
+616,211,Two dogs are playing by a tree,Two dogs are playing by a good plant,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+617,211,Two dogs are playing by a good tree,Two dogs are playing by a good plant,good,Both,Object,Adjectives/Adverbs,FE,FE
+618,211,Two dogs are playing by all but one tree,"Two dogs are playing by a plant
+",all but one,Premise,Object,Existential,FE,FE
+619,211,Two dogs are playing by a tree,Two dogs are playing by all but one plant,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+620,211,Two dogs are playing by all but one tree,Two dogs are playing by all but one plant,all but one,Both,Object,Existential,Neutral,Neutral
+621,211,Two dogs are playing by a tree,Two dogs are playing by no plant,no,Hypothesis,Object,Negation,Negation|Alternation,Contradiction
+622,211,Two dogs are playing by no tree,Two dogs are playing by no plant,no,Both,Object,Negation,RE,RE
+623,211,Two dogs are playing by every tree,"Two dogs are playing by a plant
+",every,Premise,Object,Universal,FE,FE
+624,211,Two dogs are playing by a tree,Two dogs are playing by every plant,every,Hypothesis,Object,Universal,RE,RE
+625,211,Two dogs are playing by every tree,Two dogs are playing by every plant,every,Both,Object,Universal,RE,RE
+626,211,Two dogs are playing by a bad tree,"Two dogs are playing by a plant
+",bad,Premise,Object,Adjectives/Adverbs,FE,FE
+627,211,Two dogs are playing by a tree,Two dogs are playing by a bad plant,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+628,211,Two dogs are playing by a bad tree,Two dogs are playing by a bad plant,bad,Both,Object,Adjectives/Adverbs,FE,FE
+629,211,Two dogs are playing by a green tree,"Two dogs are playing by a plant
+",green,Premise,Object,Adjectives/Adverbs,FE,FE
+630,211,Two dogs are playing by a tree,Two dogs are playing by a green plant,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+631,211,Two dogs are playing by a green tree,Two dogs are playing by a green plant,green,Both,Object,Adjectives/Adverbs,FE,FE
+632,211,Two dogs are playing by a happy tree,"Two dogs are playing by a plant
+",happy,Premise,Object,Adjectives/Adverbs,FE,FE
+633,211,Two dogs are playing by a tree,Two dogs are playing by a happy plant,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+634,211,Two dogs are playing by a happy tree,Two dogs are playing by a happy plant,happy,Both,Object,Adjectives/Adverbs,FE,FE
+635,211,Two dogs are playing by a an abnormal tree,"Two dogs are playing by a plant
+",an abnormal,Premise,Object,Adjectives/Adverbs,FE,FE
+636,211,Two dogs are playing by a tree,Two dogs are playing by a an abnormal plant,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+637,211,Two dogs are playing by a an abnormal tree,Two dogs are playing by a an abnormal plant,an abnormal,Both,Object,Adjectives/Adverbs,FE,FE
+638,211,Two dogs are playing by a sad tree,"Two dogs are playing by a plant
+",sad,Premise,Object,Adjectives/Adverbs,FE,FE
+639,211,Two dogs are playing by a tree,Two dogs are playing by a sad plant,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+640,211,Two dogs are playing by a sad tree,Two dogs are playing by a sad plant,sad,Both,Object,Adjectives/Adverbs,FE,FE
+641,211,Two dogs are playing by no tree,"Two dogs are playing by a plant
+",no,Premise,Object,Negation,Neutral,Neutral
+642,211,Two dogs are playing by some tree,"Two dogs are playing by a plant
+",some,Premise,Object,Existential,FE,FE
+643,211,Two dogs are playing by a tree,Two dogs are playing by some plant,some,Hypothesis,Object,Existential,FE,FE
+644,211,Two dogs are playing by some tree,Two dogs are playing by some plant,some,Both,Object,Existential,FE,FE
+645,211,Two dogs are playing by exactly one tree,"Two dogs are playing by a plant
+",exactly one,Premise,Object,Existential,FE,FE
+646,211,Two dogs are playing by a tree,Two dogs are playing by exactly one plant,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+647,211,Two dogs are playing by exactly one tree,Two dogs are playing by exactly one plant,exactly one,Both,Object,Existential,FE,FE
+648,211,Two dogs are playing by a an elegant tree,"Two dogs are playing by a plant
+",an elegant,Premise,Object,Adjectives/Adverbs,FE,FE
+649,211,Two dogs are playing by a tree,Two dogs are playing by a an elegant plant,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+650,211,Two dogs are playing by a an elegant tree,Two dogs are playing by a an elegant plant,an elegant,Both,Object,Adjectives/Adverbs,FE,FE
+651,212,two dogs are playing by a tree,two dogs are sleeping by a tree,NONE,NONE,NONE,No Modifiers,Negation|Alternation,Contradiction
+652,212,every two dogs are playing by a tree,two dogs are sleeping by a tree,every,Premise,Subject,Universal,Negation,Contradiction
+653,212,two dogs are playing by a tree,every two dogs are sleeping by a tree,every,Hypothesis,Subject,Universal,Negation,Contradiction
+654,212,every two dogs are playing by a tree,every two dogs are sleeping by a tree,every,Both,Subject,Universal,Negation,Contradiction
+655,212,some two dogs are playing by a tree,two dogs are sleeping by a tree,some,Premise,Subject,Existential,Negation|Alternation,Contradiction
+656,212,two dogs are playing by a tree,some two dogs are sleeping by a tree,some,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+657,212,some two dogs are playing by a tree,some two dogs are sleeping by a tree,some,Both,Subject,Existential,Negation|Alternation,Contradiction
+658,212,at least two dogs are playing by a tree,two dogs are sleeping by a tree,at least,Premise,Subject,Existential,Negation|Alternation,Contradiction
+659,212,two dogs are playing by a tree,at least two dogs are sleeping by a tree,at least,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+660,212,at least two dogs are playing by a tree,at least two dogs are sleeping by a tree,at least,Both,Subject,Existential,Negation|Alternation,Contradiction
+661,212,not every two dogs are playing by a tree,two dogs are sleeping by a tree,not every,Premise,Subject,Negation,Neutral,Neutral
+662,212,two dogs are playing by a tree,not every two dogs are sleeping by a tree,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+663,212,not every two dogs are playing by a tree,not every two dogs are sleeping by a tree,not every,Both,Subject,Negation,Neutral,Neutral
+667,212,all but  two of dogs are playing by a tree,two dogs are sleeping by a tree,all but one,Premise,Subject,Existential,Neutral,Neutral
+668,212,two dogs are playing by a tree,all but  two of dogs are sleeping by a tree,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+669,212,all but  two of dogs are playing by a tree,all but  two of dogs are sleeping by a tree,all but one,Both,Subject,Existential,Neutral,Neutral
+670,212,everyone of two dogs are playing by a tree,two dogs are sleeping by a tree,everyone of,Premise,Subject,Universal,Negation,Contradiction
+671,212,two dogs are playing by a tree,everyone of two dogs are sleeping by a tree,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+672,212,everyone of two dogs are playing by a tree,everyone of two dogs are sleeping by a tree,everyone of,Both,Subject,Universal,Negation,Contradiction
+673,212,no two dogs are playing by a tree,two dogs are sleeping by a tree,no,Premise,Subject,Negation,Neutral,Neutral
+674,212,two dogs are playing by a tree,no two dogs are sleeping by a tree,no,Hypothesis,Subject,Negation,Neutral,Neutral
+675,212,no two dogs are playing by a tree,no two dogs are sleeping by a tree,no,Both,Subject,Negation,Neutral,Neutral
+676,212,two green dogs are playing by a tree,two dogs are sleeping by a tree,green,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+677,212,two dogs are playing by a tree,two green dogs are sleeping by a tree,green,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+678,212,two green dogs are playing by a tree,two green dogs are sleeping by a tree,green,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+679,212,two happy dogs are playing by a tree,two dogs are sleeping by a tree,happy,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+680,212,two dogs are playing by a tree,two happy dogs are sleeping by a tree,happy,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+681,212,two happy dogs are playing by a tree,two happy dogs are sleeping by a tree,happy,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+682,212,two sad dogs are playing by a tree,two dogs are sleeping by a tree,sad,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+683,212,two dogs are playing by a tree,two sad dogs are sleeping by a tree,sad,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+684,212,two sad dogs are playing by a tree,two sad dogs are sleeping by a tree,sad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+685,212,two good dogs are playing by a tree,two dogs are sleeping by a tree,good,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+686,212,two dogs are playing by a tree,two good dogs are sleeping by a tree,good,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+687,212,two good dogs are playing by a tree,two good dogs are sleeping by a tree,good,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+688,212,two bad dogs are playing by a tree,two dogs are sleeping by a tree,bad,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+689,212,two dogs are playing by a tree,two bad dogs are sleeping by a tree,bad,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+690,212,two bad dogs are playing by a tree,two bad dogs are sleeping by a tree,bad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+692,212,two dogs are not playing by a tree,two dogs are sleeping by a tree,not,Premise,Verb,Negation,Neutral,Neutral
+693,212,two dogs are playing by a tree,two dogs are not sleeping by a tree,not,Hypothesis,Verb,Negation,Neutral,Neutral
+694,212,two dogs are not playing by a tree,two dogs are not sleeping by a tree,not,Both,Verb,Negation,Neutral,Neutral
+695,212,two dogs are abnormally playing by a tree,two dogs are sleeping by a tree,abnormally,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+696,212,two dogs are playing by a tree,two dogs are abnormally sleeping by a tree,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+697,212,two dogs are abnormally playing by a tree,two dogs are abnormally sleeping by a tree,abnormally,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+698,212,two dogs are elegantly playing by a tree,two dogs are sleeping by a tree,elegantly,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+699,212,two dogs are playing by a tree,two dogs are elegantly sleeping by a tree,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+700,212,two dogs are elegantly playing by a tree,two dogs are elegantly sleeping by a tree,elegantly,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+701,212,two dogs are always playing by a tree,two dogs are sleeping by a tree,always,Premise,Verb,Universal,Negation|Alternation,Contradiction
+702,212,two dogs are playing by a tree,two dogs are always sleeping by a tree,always,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+703,212,two dogs are always playing by a tree,two dogs are always sleeping by a tree,always,Both,Verb,Universal,Negation|Alternation,Contradiction
+704,212,two dogs are never playing by a tree,two dogs are sleeping by a tree,never,Premise,Verb,Universal,Neutral,Neutral
+705,212,two dogs are playing by a tree,two dogs are never sleeping by a tree,never,Hypothesis,Verb,Universal,Neutral,Neutral
+706,212,two dogs are never playing by a tree,two dogs are never sleeping by a tree,never,Both,Verb,Universal,Neutral,Neutral
+708,212,Two dogs are playing by a good tree,"Two dogs are sleeping by a tree
+",good,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+709,212,Two dogs are playing by a tree,Two dogs are sleeping by a good tree,good,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+710,212,Two dogs are playing by a good tree,Two dogs are sleeping by a good tree,good,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+711,212,Two dogs are playing by all but one tree,"Two dogs are sleeping by a tree
+",all but one,Premise,Object,Existential,Neutral,Neutral
+712,212,Two dogs are playing by a tree,Two dogs are sleeping by all but one tree,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+713,212,Two dogs are playing by all but one tree,Two dogs are sleeping by all but one tree,all but one,Both,Object,Existential,Neutral,Neutral
+714,212,Two dogs are playing by every tree,"Two dogs are sleeping by a tree
+",every,Premise,Object,Universal,Negation|Alternation,Contradiction
+715,212,Two dogs are playing by a tree,Two dogs are sleeping by every tree,every,Hypothesis,Object,Universal,Negation|Alternation,Contradiction
+716,212,Two dogs are playing by every tree,Two dogs are sleeping by every tree,every,Both,Object,Universal,Negation|Alternation,Contradiction
+717,212,Two dogs are playing by a bad tree,"Two dogs are sleeping by a tree
+",bad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+718,212,Two dogs are playing by a tree,Two dogs are sleeping by a bad tree,bad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+719,212,Two dogs are playing by a bad tree,Two dogs are sleeping by a bad tree,bad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+720,212,Two dogs are playing by a green tree,"Two dogs are sleeping by a tree
+",green,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+721,212,Two dogs are playing by a tree,Two dogs are sleeping by a green tree,green,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+722,212,Two dogs are playing by a green tree,Two dogs are sleeping by a green tree,green,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+723,212,Two dogs are playing by a happy tree,"Two dogs are sleeping by a tree
+",happy,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+724,212,Two dogs are playing by a tree,Two dogs are sleeping by a happy tree,happy,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+725,212,Two dogs are playing by a happy tree,Two dogs are sleeping by a happy tree,happy,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+726,212,Two dogs are playing by a an abnormal tree,"Two dogs are sleeping by a tree
+",an abnormal,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+727,212,Two dogs are playing by a tree,Two dogs are sleeping by a an abnormal tree,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+728,212,Two dogs are playing by a an abnormal tree,Two dogs are sleeping by a an abnormal tree,an abnormal,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+729,212,Two dogs are playing by a sad tree,"Two dogs are sleeping by a tree
+",sad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+730,212,Two dogs are playing by a tree,Two dogs are sleeping by a sad tree,sad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+731,212,Two dogs are playing by a sad tree,Two dogs are sleeping by a sad tree,sad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+732,212,Two dogs are playing by no tree,"Two dogs are sleeping by a tree
+",no,Premise,Object,Negation,Negation|Alternation,Contradiction
+733,212,Two dogs are playing by a tree,Two dogs are sleeping by no tree,no,Hypothesis,Object,Negation,Negation|Alternation,Contradiction
+734,212,Two dogs are playing by no tree,Two dogs are sleeping by no tree,no,Both,Object,Negation,Negation|Alternation,Contradiction
+735,212,Two dogs are playing by some tree,"Two dogs are sleeping by a tree
+",some,Premise,Object,Existential,Negation|Alternation,Contradiction
+736,212,Two dogs are playing by a tree,Two dogs are sleeping by some tree,some,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+737,212,Two dogs are playing by some tree,Two dogs are sleeping by some tree,some,Both,Object,Existential,Negation|Alternation,Contradiction
+738,212,Two dogs are playing by exactly one tree,"Two dogs are sleeping by a tree
+",exactly one,Premise,Object,Existential,Negation|Alternation,Contradiction
+739,212,Two dogs are playing by a tree,Two dogs are sleeping by exactly one tree,exactly one,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+740,212,Two dogs are playing by exactly one tree,Two dogs are sleeping by exactly one tree,exactly one,Both,Object,Existential,Negation|Alternation,Contradiction
+741,212,Two dogs are playing by a an elegant tree,"Two dogs are sleeping by a tree
+",an elegant,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+742,212,Two dogs are playing by a tree,Two dogs are sleeping by a an elegant tree,an elegant,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+743,212,Two dogs are playing by a an elegant tree,Two dogs are sleeping by a an elegant tree,an elegant,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+744,455,two children are hanging on a large branch,two children are climbing a tree,NONE,NONE,NONE,No Modifiers,FE,FE
+745,455,every two children are hanging on a large branch,two children are climbing a tree,every,Premise,Subject,Universal,FE,FE
+746,455,two children are hanging on a large branch,every two children are climbing a tree,every,Hypothesis,Subject,Universal,Neutral,Neutral
+747,455,every two children are hanging on a large branch,every two children are climbing a tree,every,Both,Subject,Universal,FE,FE
+748,455,some two children are hanging on a large branch,two children are climbing a tree,some,Premise,Subject,Existential,FE,FE
+749,455,two children are hanging on a large branch,some two children are climbing a tree,some,Hypothesis,Subject,Existential,FE,FE
+750,455,some two children are hanging on a large branch,some two children are climbing a tree,some,Both,Subject,Existential,FE,FE
+751,455,at least two children are hanging on a large branch,two children are climbing a tree,at least,Premise,Subject,Existential,FE,FE
+752,455,two children are hanging on a large branch,at least two children are climbing a tree,at least,Hypothesis,Subject,Existential,FE,FE
+753,455,at least two children are hanging on a large branch,at least two children are climbing a tree,at least,Both,Subject,Existential,FE,FE
+754,455,not every two children are hanging on a large branch,two children are climbing a tree,not every,Premise,Subject,Negation,Neutral,Neutral
+755,455,two children are hanging on a large branch,not every two children are climbing a tree,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+756,455,not every two children are hanging on a large branch,not every two children are climbing a tree,not every,Both,Subject,Negation,FE,FE
+757,455,exactly  two of children are hanging on a large branch,two children are climbing a tree,exactly one,Premise,Subject,Existential,FE,FE
+758,455,two children are hanging on a large branch,exactly  two of children are climbing a tree,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+759,455,exactly  two of children are hanging on a large branch,exactly  two of children are climbing a tree,exactly one,Both,Subject,Existential,FE,FE
+760,455,all but  two of children are hanging on a large branch,two children are climbing a tree,all but one,Premise,Subject,Existential,Neutral,Neutral
+761,455,two children are hanging on a large branch,all but  two of children are climbing a tree,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+762,455,all but  two of children are hanging on a large branch,all but  two of children are climbing a tree,all but one,Both,Subject,Existential,FE,FE
+763,455,everyone of two children are hanging on a large branch,two children are climbing a tree,everyone of,Premise,Subject,Universal,FE,FE
+764,455,two children are hanging on a large branch,everyone of two children are climbing a tree,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+765,455,everyone of two children are hanging on a large branch,everyone of two children are climbing a tree,everyone of,Both,Subject,Universal,FE,FE
+766,455,no two children are hanging on a large branch,two children are climbing a tree,no,Premise,Subject,Negation,Neutral,Neutral
+767,455,two children are hanging on a large branch,no two children are climbing a tree,no,Hypothesis,Subject,Negation,Negation,Contradiction
+768,455,no two children are hanging on a large branch,no two children are climbing a tree,no,Both,Subject,Negation,RE,RE
+769,455,two green children are hanging on a large branch,two children are climbing a tree,green,Premise,Subject,Adjectives/Adverbs,FE,FE
+770,455,two children are hanging on a large branch,two green children are climbing a tree,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+771,455,two green children are hanging on a large branch,two green children are climbing a tree,green,Both,Subject,Adjectives/Adverbs,FE,FE
+772,455,two happy children are hanging on a large branch,two children are climbing a tree,happy,Premise,Subject,Adjectives/Adverbs,FE,FE
+773,455,two children are hanging on a large branch,two happy children are climbing a tree,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+774,455,two happy children are hanging on a large branch,two happy children are climbing a tree,happy,Both,Subject,Adjectives/Adverbs,FE,FE
+775,455,two sad children are hanging on a large branch,two children are climbing a tree,sad,Premise,Subject,Adjectives/Adverbs,FE,FE
+776,455,two children are hanging on a large branch,two sad children are climbing a tree,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+777,455,two sad children are hanging on a large branch,two sad children are climbing a tree,sad,Both,Subject,Adjectives/Adverbs,FE,FE
+778,455,two good children are hanging on a large branch,two children are climbing a tree,good,Premise,Subject,Adjectives/Adverbs,FE,FE
+779,455,two children are hanging on a large branch,two good children are climbing a tree,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+780,455,two good children are hanging on a large branch,two good children are climbing a tree,good,Both,Subject,Adjectives/Adverbs,FE,FE
+781,455,two bad children are hanging on a large branch,two children are climbing a tree,bad,Premise,Subject,Adjectives/Adverbs,FE,FE
+782,455,two children are hanging on a large branch,two bad children are climbing a tree,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+783,455,two bad children are hanging on a large branch,two bad children are climbing a tree,bad,Both,Subject,Adjectives/Adverbs,FE,FE
+785,455,two children are not hanging on a large branch,two children are climbing a tree,not,Premise,Verb,Negation,Neutral,Neutral
+786,455,two children are hanging on a large branch,two children are not climbing a tree,not,Hypothesis,Verb,Negation,Negation|Alternation,Contradiction
+787,455,two children are not hanging on a large branch,two children are not climbing a tree,not,Both,Verb,Negation,Neutral,Neutral
+788,455,two children are abnormally hanging on a large branch,two children are climbing a tree,abnormally,Premise,Verb,Adjectives/Adverbs,FE,FE
+789,455,two children are hanging on a large branch,two children are abnormally climbing a tree,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+790,455,two children are abnormally hanging on a large branch,two children are abnormally climbing a tree,abnormally,Both,Verb,Adjectives/Adverbs,FE,FE
+791,455,two children are elegantly hanging on a large branch,two children are climbing a tree,elegantly,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+792,455,two children are hanging on a large branch,two children are elegantly climbing a tree,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+793,455,two children are elegantly hanging on a large branch,two children are elegantly climbing a tree,elegantly,Both,Verb,Adjectives/Adverbs,FE,FE
+794,455,two children are always hanging on a large branch,two children are climbing a tree,always,Premise,Verb,Universal,Neutral,Neutral
+795,455,two children are hanging on a large branch,two children are always climbing a tree,always,Hypothesis,Verb,Universal,Neutral,Neutral
+796,455,two children are always hanging on a large branch,two children are always climbing a tree,always,Both,Verb,Universal,FE,FE
+797,455,two children are never hanging on a large branch,two children are climbing a tree,never,Premise,Verb,Universal,Neutral,Neutral
+798,455,two children are hanging on a large branch,two children are never climbing a tree,never,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+799,455,two children are never hanging on a large branch,two children are never climbing a tree,never,Both,Verb,Universal,RE,RE
+801,455,Two children are hanging on a good large branch,"Two children are climbing a tree
+",good,Premise,Object,Adjectives/Adverbs,FE,FE
+802,455,Two children are hanging on a large branch,Two children are climbing a good tree,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+803,455,Two children are hanging on a good large branch,Two children are climbing a good tree,good,Both,Object,Adjectives/Adverbs,FE,FE
+804,455,Two children are hanging on all but one large branch,"Two children are climbing a tree
+",all but one,Premise,Object,Existential,FE,FE
+805,455,Two children are hanging on a large branch,Two children are climbing all but one tree,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+806,455,Two children are hanging on all but one large branch,Two children are climbing all but one tree,all but one,Both,Object,Existential,Neutral,Neutral
+807,455,Two children are hanging on every large branch,"Two children are climbing a tree
+",every,Premise,Object,Universal,FE,FE
+808,455,Two children are hanging on a large branch,Two children are climbing every tree,every,Hypothesis,Object,Universal,Neutral,Neutral
+809,455,Two children are hanging on every large branch,Two children are climbing every tree,every,Both,Object,Universal,FE,FE
+810,455,Two children are hanging on a bad large branch,"Two children are climbing a tree
+",bad,Premise,Object,Adjectives/Adverbs,FE,FE
+811,455,Two children are hanging on a large branch,Two children are climbing a bad tree,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+812,455,Two children are hanging on a bad large branch,Two children are climbing a bad tree,bad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+813,455,Two children are hanging on a green large branch,"Two children are climbing a tree
+",green,Premise,Object,Adjectives/Adverbs,FE,FE
+814,455,Two children are hanging on a large branch,Two children are climbing a green tree,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+815,455,Two children are hanging on a green large branch,Two children are climbing a green tree,green,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+816,455,Two children are hanging on a happy large branch,"Two children are climbing a tree
+",happy,Premise,Object,Adjectives/Adverbs,FE,FE
+817,455,Two children are hanging on a large branch,Two children are climbing a happy tree,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+818,455,Two children are hanging on a happy large branch,Two children are climbing a happy tree,happy,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+819,455,Two children are hanging on an abnormal large branch,"Two children are climbing a tree
+",an abnormal,Premise,Object,Adjectives/Adverbs,FE,FE
+820,455,Two children are hanging on a large branch,Two children are climbing a an abnormal tree,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+821,455,Two children are hanging on an abnormal large branch,Two children are climbing a an abnormal tree,an abnormal,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+822,455,Two children are hanging on a sad large branch,"Two children are climbing a tree
+",sad,Premise,Object,Adjectives/Adverbs,FE,FE
+823,455,Two children are hanging on a large branch,Two children are climbing a sad tree,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+824,455,Two children are hanging on a sad large branch,Two children are climbing a sad tree,sad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+825,455,Two children are hanging on no large branch,"Two children are climbing a tree
+",no,Premise,Object,Negation,FE,FE
+826,455,Two children are hanging on a large branch,Two children are climbing no tree,no,Hypothesis,Object,Negation,Negation|Alternation,Contradiction
+827,455,Two children are hanging on no large branch,Two children are climbing no tree,no,Both,Object,Negation,Negation|Alternation,Contradiction
+828,455,Two children are hanging on some large branch,"Two children are climbing a tree
+",some,Premise,Object,Existential,FE,FE
+829,455,Two children are hanging on a large branch,Two children are climbing some tree,some,Hypothesis,Object,Existential,FE,FE
+830,455,Two children are hanging on some large branch,Two children are climbing some tree,some,Both,Object,Existential,FE,FE
+831,455,Two children are hanging on exactly one large branch,"Two children are climbing a tree
+",exactly one,Premise,Object,Existential,FE,FE
+832,455,Two children are hanging on a large branch,Two children are climbing exactly one tree,exactly one,Hypothesis,Object,Existential,FE,FE
+833,455,Two children are hanging on exactly one large branch,Two children are climbing exactly one tree,exactly one,Both,Object,Existential,FE,FE
+834,455,Two children are hanging on an elegant large branch,"Two children are climbing a tree
+",an elegant,Premise,Object,Adjectives/Adverbs,FE,FE
+835,455,Two children are hanging on a large branch,Two children are climbing a an elegant tree,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+836,455,Two children are hanging on an elegant large branch,Two children are climbing a an elegant tree,an elegant,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+837,273,a boy is standing in the cold water,a boy is standing in the water,NONE,NONE,NONE,No Modifiers,FE,FE
+838,273,every boy is standing in the cold water,a boy is standing in the water,every,Premise,Subject,Universal,FE,FE
+840,273,every boy is standing in the cold water,every boy is standing in the water,every,Both,Subject,Universal,FE,FE
+841,273,some boy is standing in the cold water,a boy is standing in the water,some,Premise,Subject,Existential,FE,FE
+842,273,a boy is standing in the cold water,some boy is standing in the water,some,Hypothesis,Subject,Existential,FE,FE
+843,273,some boy is standing in the cold water,some boy is standing in the water,some,Both,Subject,Existential,FE,FE
+844,273,at least boy is standing in the cold water,a boy is standing in the water,at least,Premise,Subject,Existential,FE,FE
+845,273,a boy is standing in the cold water,at least boy is standing in the water,at least,Hypothesis,Subject,Existential,FE,FE
+846,273,at least boy is standing in the cold water,at least boy is standing in the water,at least,Both,Subject,Existential,FE,FE
+847,273,not every boy is standing in the cold water,a boy is standing in the water,not every,Premise,Subject,Negation,Neutral,Neutral
+848,273,a boy is standing in the cold water,not every boy is standing in the water,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+849,273,not every boy is standing in the cold water,not every boy is standing in the water,not every,Both,Subject,Negation,FE,FE
+850,273,exactly one boy is standing in the cold water,a boy is standing in the water,exactly one,Premise,Subject,Existential,FE,FE
+851,273,a boy is standing in the cold water,exactly one boy is standing in the water,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+852,273,exactly one boy is standing in the cold water,exactly one boy is standing in the water,exactly one,Both,Subject,Existential,FE,FE
+853,273,all but one boy is standing in the cold water,a boy is standing in the water,all but one,Premise,Subject,Existential,Neutral,Neutral
+854,273,a boy is standing in the cold water,all but one boy is standing in the water,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+855,273,all but one boy is standing in the cold water,all but one boy is standing in the water,all but one,Both,Subject,Existential,FE,FE
+856,273,everyone of boy is standing in the cold water,a boy is standing in the water,everyone of,Premise,Subject,Universal,FE,FE
+857,273,a boy is standing in the cold water,everyone of boy is standing in the water,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+858,273,everyone of boy is standing in the cold water,everyone of boy is standing in the water,everyone of,Both,Subject,Universal,FE,FE
+859,273,no boy is standing in the cold water,a boy is standing in the water,no,Premise,Subject,Negation,Negation,Contradiction
+860,273,a boy is standing in the cold water,no boy is standing in the water,no,Hypothesis,Subject,Negation,Negation,Contradiction
+861,273,no boy is standing in the cold water,no boy is standing in the water,no,Both,Subject,Negation,RE,RE
+862,273,green boy is standing in the cold water,a boy is standing in the water,green,Premise,Subject,Adjectives/Adverbs,FE,FE
+863,273,a boy is standing in the cold water,green boy is standing in the water,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+864,273,green boy is standing in the cold water,green boy is standing in the water,green,Both,Subject,Adjectives/Adverbs,FE,FE
+865,273,happy boy is standing in the cold water,a boy is standing in the water,happy,Premise,Subject,Adjectives/Adverbs,FE,FE
+866,273,a boy is standing in the cold water,happy boy is standing in the water,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+867,273,happy boy is standing in the cold water,happy boy is standing in the water,happy,Both,Subject,Adjectives/Adverbs,FE,FE
+868,273,sad boy is standing in the cold water,a boy is standing in the water,sad,Premise,Subject,Adjectives/Adverbs,FE,FE
+869,273,a boy is standing in the cold water,sad boy is standing in the water,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+870,273,sad boy is standing in the cold water,sad boy is standing in the water,sad,Both,Subject,Adjectives/Adverbs,FE,FE
+871,273,good boy is standing in the cold water,a boy is standing in the water,good,Premise,Subject,Adjectives/Adverbs,FE,FE
+872,273,a boy is standing in the cold water,good boy is standing in the water,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+873,273,good boy is standing in the cold water,good boy is standing in the water,good,Both,Subject,Adjectives/Adverbs,FE,FE
+874,273,bad boy is standing in the cold water,a boy is standing in the water,bad,Premise,Subject,Adjectives/Adverbs,FE,FE
+875,273,a boy is standing in the cold water,bad boy is standing in the water,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+876,273,bad boy is standing in the cold water,bad boy is standing in the water,bad,Both,Subject,Adjectives/Adverbs,FE,FE
+878,273,a boy is not standing in the cold water,a boy is standing in the water,not,Premise,Verb,Negation,Neutral,Neutral
+879,273,a boy is standing in the cold water,a boy is not standing in the water,not,Hypothesis,Verb,Negation,Alternation,Contradiction
+880,273,a boy is not standing in the cold water,a boy is not standing in the water,not,Both,Verb,Negation,RE,RE
+881,273,a boy is abnormally standing in the cold water,a boy is standing in the water,abnormally,Premise,Verb,Adjectives/Adverbs,FE,FE
+882,273,a boy is standing in the cold water,a boy is abnormally standing in the water,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+883,273,a boy is abnormally standing in the cold water,a boy is abnormally standing in the water,abnormally,Both,Verb,Adjectives/Adverbs,FE,FE
+884,273,a boy is elegantly standing in the cold water,a boy is standing in the water,elegantly,Premise,Verb,Adjectives/Adverbs,FE,FE
+885,273,a boy is standing in the cold water,a boy is elegantly standing in the water,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+886,273,a boy is elegantly standing in the cold water,a boy is elegantly standing in the water,elegantly,Both,Verb,Adjectives/Adverbs,FE,FE
+887,273,a boy is always standing in the cold water,a boy is standing in the water,always,Premise,Verb,Universal,FE,FE
+888,273,a boy is standing in the cold water,a boy is always standing in the water,always,Hypothesis,Verb,Universal,Neutral,Neutral
+889,273,a boy is always standing in the cold water,a boy is always standing in the water,always,Both,Verb,Universal,FE,FE
+890,273,a boy is never standing in the cold water,a boy is standing in the water,never,Premise,Verb,Universal,Neutral,Neutral
+891,273,a boy is standing in the cold water,a boy is never standing in the water,never,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+892,273,a boy is never standing in the cold water,a boy is never standing in the water,never,FE,Verb,Universal,RE,RE
+894,273,A boy is standing in the good cold water,"A boy is standing in the water
+",good,Premise,Object,Adjectives/Adverbs,FE,FE
+895,273,A boy is standing in the cold water,A boy is standing in the good water,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+896,273,A boy is standing in the good cold water,A boy is standing in the good water,good,Both,Object,Adjectives/Adverbs,FE,FE
+897,273,A boy is standing in all but one cold water,"A boy is standing in the water
+",all but one,Premise,Object,Existential,FE,FE
+898,273,A boy is standing in the cold water,A boy is standing in all but one water,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+899,273,A boy is standing in all but one cold water,A boy is standing in all but one water,all but one,Both,Object,Existential,FE,FE
+900,273,A boy is standing in every cold water,"A boy is standing in the water
+",every,Premise,Object,Universal,FE,FE
+901,273,A boy is standing in the cold water,A boy is standing in every water,every,Hypothesis,Object,Universal,RE,RE
+902,273,A boy is standing in every cold water,A boy is standing in every water,every,Both,Object,Universal,RE,RE
+903,273,A boy is standing in the bad cold water,"A boy is standing in the water
+",bad,Premise,Object,Adjectives/Adverbs,FE,FE
+904,273,A boy is standing in the cold water,A boy is standing in the bad water,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+905,273,A boy is standing in the bad cold water,A boy is standing in the bad water,bad,Both,Object,Adjectives/Adverbs,FE,FE
+906,273,A boy is standing in the green cold water,"A boy is standing in the water
+",green,Premise,Object,Adjectives/Adverbs,FE,FE
+907,273,A boy is standing in the cold water,A boy is standing in the green water,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+908,273,A boy is standing in the green cold water,A boy is standing in the green water,green,Both,Object,Adjectives/Adverbs,FE,FE
+909,273,A boy is standing in the happy cold water,"A boy is standing in the water
+",happy,Premise,Object,Adjectives/Adverbs,FE,FE
+910,273,A boy is standing in the cold water,A boy is standing in the happy water,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+911,273,A boy is standing in the happy cold water,A boy is standing in the happy water,happy,Both,Object,Adjectives/Adverbs,FE,FE
+912,273,A boy is standing in an abnormal cold water,"A boy is standing in the water
+",an abnormal,Premise,Object,Adjectives/Adverbs,FE,FE
+913,273,A boy is standing in the cold water,A boy is standing in the an abnormal water,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+914,273,A boy is standing in an abnormal cold water,A boy is standing in the an abnormal water,an abnormal,Both,Object,Adjectives/Adverbs,FE,FE
+915,273,A boy is standing in the sad cold water,"A boy is standing in the water
+",sad,Premise,Object,Adjectives/Adverbs,FE,FE
+916,273,A boy is standing in the cold water,A boy is standing in the sad water,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+917,273,A boy is standing in the sad cold water,A boy is standing in the sad water,sad,Both,Object,Adjectives/Adverbs,FE,FE
+918,273,A boy is standing in no cold water,"A boy is standing in the water
+",no,Premise,Object,Negation,FE,FE
+919,273,A boy is standing in the cold water,A boy is standing in no water,no,Hypothesis,Object,Negation,Negation|Alternation,Contradiction
+920,273,A boy is standing in no cold water,A boy is standing in no water,no,Both,Object,Negation,RE,RE
+921,273,A boy is standing in some cold water,"A boy is standing in the water
+",some,Premise,Object,Existential,FE,FE
+922,273,A boy is standing in the cold water,A boy is standing in some water,some,Hypothesis,Object,Existential,FE,FE
+923,273,A boy is standing in some cold water,A boy is standing in some water,some,Both,Object,Existential,FE,FE
+924,273,A boy is standing in exactly one cold water,"A boy is standing in the water
+",exactly one,Premise,Object,Existential,FE,FE
+925,273,A boy is standing in the cold water,A boy is standing in exactly one water,exactly one,Hypothesis,Object,Existential,FE,FE
+926,273,A boy is standing in exactly one cold water,A boy is standing in exactly one water,exactly one,Both,Object,Existential,FE,FE
+927,273,A boy is standing in an elegant cold water,"A boy is standing in the water
+",an elegant,Premise,Object,Adjectives/Adverbs,FE,FE
+928,273,A boy is standing in the cold water,A boy is standing in the an elegant water,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+929,273,A boy is standing in an elegant cold water,A boy is standing in the an elegant water,an elegant,Both,Object,Adjectives/Adverbs,FE,FE
+930,751,a classroom is full of students,a classroom is empty,NONE,NONE,NONE,No Modifiers,Negation,Contradiction
+931,751,every classroom is full of students,a classroom is empty,every,Premise,Subject,Universal,Negation,Contradiction
+932,751,a classroom is full of students,every classroom is empty,every,Hypothesis,Subject,Universal,Negation,Contradiction
+933,751,every classroom is full of students,every classroom is empty,every,Both,Subject,Universal,Negation,Contradiction
+934,751,some classroom is full of students,a classroom is empty,some,Premise,Subject,Existential,Alternation,Contradiction
+935,751,a classroom is full of students,some classroom is empty,some,Hypothesis,Subject,Existential,Alternation,Contradiction
+936,751,some classroom is full of students,some classroom is empty,some,Both,Subject,Existential,Alternation,Contradiction
+937,751,at least classroom is full of students,a classroom is empty,at least,Premise,Subject,Existential,Negation|Alternation,Contradiction
+938,751,a classroom is full of students,at least classroom is empty,at least,Hypothesis,Subject,Existential,Alternation,Contradiction
+939,751,at least classroom is full of students,at least classroom is empty,at least,Both,Subject,Existential,Alternation,Contradiction
+940,751,not every classroom is full of students,a classroom is empty,not every,Premise,Subject,Negation,Neutral,Neutral
+941,751,a classroom is full of students,not every classroom is empty,not every,Hypothesis,Subject,Negation,FE,FE
+942,751,not every classroom is full of students,not every classroom is empty,not every,Both,Subject,Negation,Neutral,Neutral
+943,751,exactly one classroom is full of students,a classroom is empty,exactly one,Premise,Subject,Existential,Negation|Alternation,Contradiction
+944,751,a classroom is full of students,exactly one classroom is empty,exactly one,Hypothesis,Subject,Existential,Alternation,Contradiction
+945,751,exactly one classroom is full of students,exactly one classroom is empty,exactly one,Both,Subject,Existential,Alternation,Contradiction
+946,751,all but one classroom is full of students,a classroom is empty,all but one,Premise,Subject,Existential,Neutral,Neutral
+947,751,a classroom is full of students,all but one classroom is empty,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+948,751,all but one classroom is full of students,all but one classroom is empty,all but one,Both,Subject,Existential,Neutral,Neutral
+949,751,everyone of classroom is full of students,a classroom is empty,everyone of,Premise,Subject,Universal,Negation,Contradiction
+950,751,a classroom is full of students,everyone of classroom is empty,everyone of,Hypothesis,Subject,Universal,Negation,Contradiction
+951,751,everyone of classroom is full of students,everyone of classroom is empty,everyone of,Both,Subject,Universal,Negation,Contradiction
+952,751,no classroom is full of students,a classroom is empty,no,Premise,Subject,Negation,Neutral,Neutral
+953,751,a classroom is full of students,no classroom is empty,no,Hypothesis,Subject,Negation,Neutral,Neutral
+954,751,no classroom is full of students,no classroom is empty,no,Both,Subject,Negation,Neutral,Neutral
+955,751,green classroom is full of students,a classroom is empty,green,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+956,751,a classroom is full of students,green classroom is empty,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+957,751,green classroom is full of students,green classroom is empty,green,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+958,751,happy classroom is full of students,a classroom is empty,happy,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+959,751,a classroom is full of students,happy classroom is empty,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+960,751,happy classroom is full of students,happy classroom is empty,happy,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+961,751,sad classroom is full of students,a classroom is empty,sad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+962,751,a classroom is full of students,sad classroom is empty,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+963,751,sad classroom is full of students,sad classroom is empty,sad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+964,751,good classroom is full of students,a classroom is empty,good,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+965,751,a classroom is full of students,good classroom is empty,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+966,751,good classroom is full of students,good classroom is empty,good,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+967,751,bad classroom is full of students,a classroom is empty,bad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+968,751,a classroom is full of students,bad classroom is empty,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+969,751,bad classroom is full of students,bad classroom is empty,bad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+971,751,a classroom not is full of students,a classroom is empty,not,Premise,Verb,Negation,Neutral,Neutral
+972,751,a classroom is full of students,a classroom not is empty,not,Hypothesis,Verb,Negation,Neutral,Neutral
+973,751,a classroom not is full of students,a classroom not is empty,not,Both,Verb,Negation,Neutral,Neutral
+974,751,a classroom abnormally is full of students,a classroom is empty,abnormally,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+975,751,a classroom is full of students,a classroom abnormally is empty,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+976,751,a classroom abnormally is full of students,a classroom abnormally is empty,abnormally,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+977,751,a classroom elegantly is full of students,a classroom is empty,elegantly,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+978,751,a classroom is full of students,a classroom elegantly is empty,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+979,751,a classroom elegantly is full of students,a classroom elegantly is empty,elegantly,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+980,751,a classroom always is full of students,a classroom is empty,always,Premise,Verb,Universal,Negation|Alternation,Contradiction
+981,751,a classroom is full of students,a classroom always is empty,always,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+982,751,a classroom always is full of students,a classroom always is empty,always,Both,Verb,Universal,Negation|Alternation,Contradiction
+983,751,a classroom never is full of students,a classroom is empty,never,Premise,Verb,Universal,Neutral,Neutral
+984,751,a classroom is full of students,a classroom never is empty,never,Hypothesis,Verb,Universal,Neutral,Neutral
+985,751,a classroom never is full of students,a classroom never is empty,never,Both,Verb,Universal,Neutral,Neutral
+987,751,A classroom is full of good students,A classroom is empty,good,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+988,751,A classroom is full of bad students,A classroom is empty,bad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+989,751,A classroom is full of green students,A classroom is empty,green,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+990,751,A classroom is full of happy students,A classroom is empty,happy,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+991,751,A classroom is full of an abnormal students,A classroom is empty,an abnormal,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+992,751,A classroom is full of sad students,A classroom is empty,sad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+993,751,A classroom is full of an elegant students,A classroom is empty,an elegant,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+994,1131,the turtle is following the fish,the fish is following the turtle,NONE,NONE,NONE,No Modifiers,Negation,Contradiction
+995,1131,every turtle is following the fish,the fish is following the turtle,every,Premise,Subject,Universal,Negation|Alternation,Contradiction
+996,1131,the turtle is following the fish,every fish is following the turtle,every,Hypothesis,Subject,Universal,Negation|Alternation,Contradiction
+997,1131,every turtle is following the fish,every fish is following the turtle,every,Both,Subject,Universal,Negation,Contradiction
+998,1131,some turtle is following the fish,the fish is following the turtle,some,Premise,Subject,Existential,Negation|Alternation,Contradiction
+999,1131,the turtle is following the fish,some fish is following the turtle,some,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+1000,1131,some turtle is following the fish,some fish is following the turtle,some,Both,Subject,Existential,Negation|Alternation,Contradiction
+1001,1131,at least turtle is following the fish,the fish is following the turtle,at least,Premise,Subject,Existential,Negation|Alternation,Contradiction
+1002,1131,the turtle is following the fish,at least fish is following the turtle,at least,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+1003,1131,at least turtle is following the fish,at least fish is following the turtle,at least,Both,Subject,Existential,Negation|Alternation,Contradiction
+1004,1131,not every turtle is following the fish,the fish is following the turtle,not every,Premise,Subject,Negation,Neutral,Neutral
+1005,1131,the turtle is following the fish,not every fish is following the turtle,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+1006,1131,not every turtle is following the fish,not every fish is following the turtle,not every,Both,Subject,Negation,Neutral,Neutral
+1007,1131,exactly one turtle is following the fish,the fish is following the turtle,exactly one,Premise,Subject,Existential,Negation|Alternation,Contradiction
+1008,1131,the turtle is following the fish,exactly one fish is following the turtle,exactly one,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+1009,1131,exactly one turtle is following the fish,exactly one fish is following the turtle,exactly one,Both,Subject,Existential,Negation|Alternation,Contradiction
+1010,1131,all but one turtle is following the fish,the fish is following the turtle,all but one,Premise,Subject,Existential,Negation|Alternation,Contradiction
+1011,1131,the turtle is following the fish,all but one fish is following the turtle,all but one,Hypothesis,Subject,Existential,Negation|Alternation,Contradiction
+1012,1131,all but one turtle is following the fish,all but one fish is following the turtle,all but one,Both,Subject,Existential,Negation|Alternation,Contradiction
+1013,1131,everyone of turtle is following the fish,the fish is following the turtle,everyone of,Premise,Subject,Universal,Negation|Alternation,Contradiction
+1014,1131,the turtle is following the fish,everyone of fish is following the turtle,everyone of,Hypothesis,Subject,Universal,Negation|Alternation,Contradiction
+1015,1131,everyone of turtle is following the fish,everyone of fish is following the turtle,everyone of,Both,Subject,Universal,Negation,Contradiction
+1016,1131,no turtle is following the fish,the fish is following the turtle,no,Premise,Subject,Negation,Neutral,Neutral
+1017,1131,the turtle is following the fish,no fish is following the turtle,no,Hypothesis,Subject,Negation,Neutral,Neutral
+1018,1131,no turtle is following the fish,no fish is following the turtle,no,Both,Subject,Negation,Neutral,Neutral
+1019,1131,green turtle is following the fish,the fish is following the turtle,green,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1020,1131,the turtle is following the fish,green fish is following the turtle,green,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1021,1131,green turtle is following the fish,green fish is following the turtle,green,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1022,1131,happy turtle is following the fish,the fish is following the turtle,happy,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1023,1131,the turtle is following the fish,happy fish is following the turtle,happy,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1024,1131,happy turtle is following the fish,happy fish is following the turtle,happy,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1025,1131,sad turtle is following the fish,the fish is following the turtle,sad,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1026,1131,the turtle is following the fish,sad fish is following the turtle,sad,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1027,1131,sad turtle is following the fish,sad fish is following the turtle,sad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1028,1131,good turtle is following the fish,the fish is following the turtle,good,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1029,1131,the turtle is following the fish,good fish is following the turtle,good,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1030,1131,good turtle is following the fish,good fish is following the turtle,good,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1031,1131,bad turtle is following the fish,the fish is following the turtle,bad,Premise,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1032,1131,the turtle is following the fish,bad fish is following the turtle,bad,Hypothesis,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1033,1131,bad turtle is following the fish,bad fish is following the turtle,bad,Both,Subject,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1035,1131,the turtle is not following the fish,the fish is following the turtle,not,Premise,Verb,Negation,Neutral,Neutral
+1036,1131,the turtle is following the fish,the fish is not following the turtle,not,Hypothesis,Verb,Negation,Neutral,Neutral
+1037,1131,the turtle is not following the fish,the fish is not following the turtle,not,Both,Verb,Negation,Neutral,Neutral
+1038,1131,the turtle is abnormally following the fish,the fish is following the turtle,abnormally,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1039,1131,the turtle is following the fish,the fish is abnormally following the turtle,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1040,1131,the turtle is abnormally following the fish,the fish is abnormally following the turtle,abnormally,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1041,1131,the turtle is elegantly following the fish,the fish is following the turtle,elegantly,Premise,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1042,1131,the turtle is following the fish,the fish is elegantly following the turtle,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1043,1131,the turtle is elegantly following the fish,the fish is elegantly following the turtle,elegantly,Both,Verb,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1044,1131,the turtle is always following the fish,the fish is following the turtle,always,Premise,Verb,Universal,Negation|Alternation,Contradiction
+1045,1131,the turtle is following the fish,the fish is always following the turtle,always,Hypothesis,Verb,Universal,Negation|Alternation,Contradiction
+1046,1131,the turtle is always following the fish,the fish is always following the turtle,always,Both,Verb,Universal,Negation|Alternation,Contradiction
+1047,1131,the turtle is never following the fish,the fish is following the turtle,never,Premise,Verb,Universal,Neutral,Neutral
+1048,1131,the turtle is following the fish,the fish is never following the turtle,never,Hypothesis,Verb,Universal,Neutral,Neutral
+1049,1131,the turtle is never following the fish,the fish is never following the turtle,never,Both,Verb,Universal,Neutral,Neutral
+1051,1131,The turtle is following the good fish,"The fish is following the turtle
+",good,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1052,1131,The turtle is following the fish,The fish is following the good turtle,good,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1053,1131,The turtle is following the good fish,The fish is following the good turtle,good,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1054,1131,The turtle is following all but one fish,"The fish is following the turtle
+",all but one,Premise,Object,Existential,Neutral,Neutral
+1055,1131,The turtle is following the fish,The fish is following all but one turtle,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+1056,1131,The turtle is following all but one fish,The fish is following all but one turtle,all but one,Both,Object,Existential,Negation|Alternation,Contradiction
+1057,1131,The turtle is following every fish,"The fish is following the turtle
+",every,Premise,Object,Universal,Negation|Alternation,Contradiction
+1058,1131,The turtle is following the fish,The fish is following every turtle,every,Hypothesis,Object,Universal,Negation|Alternation,Contradiction
+1059,1131,The turtle is following every fish,The fish is following every turtle,every,Both,Object,Universal,Negation|Alternation,Contradiction
+1060,1131,The turtle is following the bad fish,"The fish is following the turtle
+",bad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1061,1131,The turtle is following the fish,The fish is following the bad turtle,bad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1062,1131,The turtle is following the bad fish,The fish is following the bad turtle,bad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1063,1131,The turtle is following the green fish,"The fish is following the turtle
+",green,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1064,1131,The turtle is following the fish,The fish is following the green turtle,green,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1065,1131,The turtle is following the green fish,The fish is following the green turtle,green,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1066,1131,The turtle is following the happy fish,"The fish is following the turtle
+",happy,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1067,1131,The turtle is following the fish,The fish is following the happy turtle,happy,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1068,1131,The turtle is following the happy fish,The fish is following the happy turtle,happy,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1069,1131,The turtle is following the an abnormal fish,"The fish is following the turtle
+",an abnormal,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1070,1131,The turtle is following the fish,The fish is following the an abnormal turtle,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1071,1131,The turtle is following the an abnormal fish,The fish is following the an abnormal turtle,an abnormal,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1072,1131,The turtle is following the sad fish,"The fish is following the turtle
+",sad,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1073,1131,The turtle is following the fish,The fish is following the sad turtle,sad,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1074,1131,The turtle is following the sad fish,The fish is following the sad turtle,sad,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1075,1131,The turtle is following no fish,"The fish is following the turtle
+",no,Premise,Object,Negation,Neutral,Neutral
+1076,1131,The turtle is following the fish,The fish is following no turtle,no,Hypothesis,Object,Negation,Neutral,Neutral
+1077,1131,The turtle is following no fish,The fish is following no turtle,no,Both,Object,Negation,Neutral,Neutral
+1078,1131,The turtle is following some fish,"The fish is following the turtle
+",some,Premise,Object,Existential,Negation|Alternation,Contradiction
+1079,1131,The turtle is following the fish,The fish is following some turtle,some,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+1080,1131,The turtle is following some fish,The fish is following some turtle,some,Both,Object,Existential,Negation|Alternation,Contradiction
+1081,1131,The turtle is following exactly one fish,"The fish is following the turtle
+",exactly one,Premise,Object,Existential,Negation|Alternation,Contradiction
+1082,1131,The turtle is following the fish,The fish is following exactly one turtle,exactly one,Hypothesis,Object,Existential,Negation|Alternation,Contradiction
+1083,1131,The turtle is following exactly one fish,The fish is following exactly one turtle,exactly one,Both,Object,Existential,Negation|Alternation,Contradiction
+1084,1131,The turtle is following the an elegant fish,"The fish is following the turtle
+",an elegant,Premise,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1085,1131,The turtle is following the fish,The fish is following the an elegant turtle,an elegant,Hypothesis,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1086,1131,The turtle is following the an elegant fish,The fish is following the an elegant turtle,an elegant,Both,Object,Adjectives/Adverbs,Negation|Alternation,Contradiction
+1087,443,a blond girl is riding the waves,a blond girl is looking at the waves,NONE,NONE,NONE,No Modifiers,Neutral,Neutral
+1088,443,every blond girl is riding the waves,a blond girl is looking at the waves,every,Premise,Subject,Universal,Neutral,Neutral
+1089,443,a blond girl is riding the waves,every blond girl is looking at the waves,every,Hypothesis,Subject,Universal,Neutral,Neutral
+1090,443,every blond girl is riding the waves,every blond girl is looking at the waves,every,Both,Subject,Universal,Neutral,Neutral
+1091,443,some blond girl is riding the waves,a blond girl is looking at the waves,some,Premise,Subject,Existential,Neutral,Neutral
+1092,443,a blond girl is riding the waves,some blond girl is looking at the waves,some,Hypothesis,Subject,Existential,Neutral,Neutral
+1093,443,some blond girl is riding the waves,some blond girl is looking at the waves,some,Both,Subject,Existential,Neutral,Neutral
+1094,443,at least blond girl is riding the waves,a blond girl is looking at the waves,at least,Premise,Subject,Existential,Neutral,Neutral
+1095,443,a blond girl is riding the waves,at least blond girl is looking at the waves,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+1096,443,at least blond girl is riding the waves,at least blond girl is looking at the waves,at least,Both,Subject,Existential,Neutral,Neutral
+1097,443,not every blond girl is riding the waves,a blond girl is looking at the waves,not every,Premise,Subject,Negation,Neutral,Neutral
+1098,443,a blond girl is riding the waves,not every blond girl is looking at the waves,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+1099,443,not every blond girl is riding the waves,not every blond girl is looking at the waves,not every,Both,Subject,Negation,Neutral,Neutral
+1100,443,exactly one blond girl is riding the waves,a blond girl is looking at the waves,exactly one,Premise,Subject,Existential,Neutral,Neutral
+1101,443,a blond girl is riding the waves,exactly one blond girl is looking at the waves,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+1102,443,exactly one blond girl is riding the waves,exactly one blond girl is looking at the waves,exactly one,Both,Subject,Existential,Neutral,Neutral
+1103,443,all but one blond girl is riding the waves,a blond girl is looking at the waves,all but one,Premise,Subject,Existential,Neutral,Neutral
+1104,443,a blond girl is riding the waves,all but one blond girl is looking at the waves,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+1105,443,all but one blond girl is riding the waves,all but one blond girl is looking at the waves,all but one,Both,Subject,Existential,Neutral,Neutral
+1106,443,everyone of blond girl is riding the waves,a blond girl is looking at the waves,everyone of,Premise,Subject,Universal,Neutral,Neutral
+1107,443,a blond girl is riding the waves,everyone of blond girl is looking at the waves,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+1108,443,everyone of blond girl is riding the waves,everyone of blond girl is looking at the waves,everyone of,Both,Subject,Universal,Neutral,Neutral
+1109,443,no blond girl is riding the waves,a blond girl is looking at the waves,no,Premise,Subject,Negation,Neutral,Neutral
+1110,443,a blond girl is riding the waves,no blond girl is looking at the waves,no,Hypothesis,Subject,Negation,Neutral,Neutral
+1111,443,no blond girl is riding the waves,no blond girl is looking at the waves,no,Both,Subject,Negation,Neutral,Neutral
+1112,443,green blond girl is riding the waves,a blond girl is looking at the waves,green,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1113,443,a blond girl is riding the waves,green blond girl is looking at the waves,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1114,443,green blond girl is riding the waves,green blond girl is looking at the waves,green,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1115,443,happy blond girl is riding the waves,a blond girl is looking at the waves,happy,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1116,443,a blond girl is riding the waves,happy blond girl is looking at the waves,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1117,443,happy blond girl is riding the waves,happy blond girl is looking at the waves,happy,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1118,443,sad blond girl is riding the waves,a blond girl is looking at the waves,sad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1119,443,a blond girl is riding the waves,sad blond girl is looking at the waves,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1120,443,sad blond girl is riding the waves,sad blond girl is looking at the waves,sad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1121,443,good blond girl is riding the waves,a blond girl is looking at the waves,good,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1122,443,a blond girl is riding the waves,good blond girl is looking at the waves,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1123,443,good blond girl is riding the waves,good blond girl is looking at the waves,good,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1124,443,bad blond girl is riding the waves,a blond girl is looking at the waves,bad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1125,443,a blond girl is riding the waves,bad blond girl is looking at the waves,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1126,443,bad blond girl is riding the waves,bad blond girl is looking at the waves,bad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1128,443,a blond girl is not riding the waves,a blond girl is looking at the waves,not,Premise,Verb,Negation,Neutral,Neutral
+1129,443,a blond girl is riding the waves,a blond girl is not looking at the waves,not,Hypothesis,Verb,Negation,Neutral,Neutral
+1130,443,a blond girl is not riding the waves,a blond girl is not looking at the waves,not,Both,Verb,Negation,Neutral,Neutral
+1131,443,a blond girl is abnormally riding the waves,a blond girl is looking at the waves,abnormally,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+1132,443,a blond girl is riding the waves,a blond girl is abnormally looking at the waves,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+1133,443,a blond girl is abnormally riding the waves,a blond girl is abnormally looking at the waves,abnormally,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+1134,443,a blond girl is elegantly riding the waves,a blond girl is looking at the waves,elegantly,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+1135,443,a blond girl is riding the waves,a blond girl is elegantly looking at the waves,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+1136,443,a blond girl is elegantly riding the waves,a blond girl is elegantly looking at the waves,elegantly,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+1137,443,a blond girl is always riding the waves,a blond girl is looking at the waves,always,Premise,Verb,Universal,Neutral,Neutral
+1138,443,a blond girl is riding the waves,a blond girl is always looking at the waves,always,Hypothesis,Verb,Universal,Neutral,Neutral
+1139,443,a blond girl is always riding the waves,a blond girl is always looking at the waves,always,Both,Verb,Universal,Neutral,Neutral
+1140,443,a blond girl is never riding the waves,a blond girl is looking at the waves,never,Premise,Verb,Universal,Neutral,Neutral
+1141,443,a blond girl is riding the waves,a blond girl is never looking at the waves,never,Hypothesis,Verb,Universal,Neutral,Neutral
+1142,443,a blond girl is never riding the waves,a blond girl is never looking at the waves,never,Both,Verb,Universal,Neutral,Neutral
+1144,443,A blond girl is riding the good waves,"A blond girl is looking at the waves
+",good,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1145,443,A blond girl is riding the waves,A blond girl is looking at the good waves,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1146,443,A blond girl is riding the good waves,A blond girl is looking at the good waves,good,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1147,443,A blond girl is riding all but one waves,"A blond girl is looking at the waves
+",all but one,Premise,Object,Existential,Neutral,Neutral
+1148,443,A blond girl is riding the waves,A blond girl is looking at all but one waves,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+1149,443,A blond girl is riding all but one waves,A blond girl is looking at all but one waves,all but one,Both,Object,Existential,Neutral,Neutral
+1150,443,A blond girl is riding every waves,"A blond girl is looking at the waves
+",every,Premise,Object,Universal,Neutral,Neutral
+1151,443,A blond girl is riding the waves,A blond girl is looking at every waves,every,Hypothesis,Object,Universal,Neutral,Neutral
+1152,443,A blond girl is riding every waves,A blond girl is looking at every waves,every,Both,Object,Universal,Neutral,Neutral
+1153,443,A blond girl is riding the bad waves,"A blond girl is looking at the waves
+",bad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1154,443,A blond girl is riding the waves,A blond girl is looking at the bad waves,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1155,443,A blond girl is riding the bad waves,A blond girl is looking at the bad waves,bad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1156,443,A blond girl is riding the green waves,"A blond girl is looking at the waves
+",green,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1157,443,A blond girl is riding the waves,A blond girl is looking at the green waves,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1158,443,A blond girl is riding the green waves,A blond girl is looking at the green waves,green,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1159,443,A blond girl is riding the happy waves,"A blond girl is looking at the waves
+",happy,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1160,443,A blond girl is riding the waves,A blond girl is looking at the happy waves,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1161,443,A blond girl is riding the happy waves,A blond girl is looking at the happy waves,happy,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1162,443,A blond girl is riding the an abnormal waves,"A blond girl is looking at the waves
+",an abnormal,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1163,443,A blond girl is riding the waves,A blond girl is looking at the an abnormal waves,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1164,443,A blond girl is riding the an abnormal waves,A blond girl is looking at the an abnormal waves,an abnormal,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1165,443,A blond girl is riding the sad waves,"A blond girl is looking at the waves
+",sad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1166,443,A blond girl is riding the waves,A blond girl is looking at the sad waves,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1167,443,A blond girl is riding the sad waves,A blond girl is looking at the sad waves,sad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1168,443,A blond girl is riding no waves,"A blond girl is looking at the waves
+",no,Premise,Object,Negation,Neutral,Neutral
+1169,443,A blond girl is riding the waves,A blond girl is looking at no waves,no,Hypothesis,Object,Negation,Neutral,Neutral
+1170,443,A blond girl is riding no waves,A blond girl is looking at no waves,no,Both,Object,Negation,Neutral,Neutral
+1171,443,A blond girl is riding some waves,"A blond girl is looking at the waves
+",some,Premise,Object,Existential,Neutral,Neutral
+1172,443,A blond girl is riding the waves,A blond girl is looking at some waves,some,Hypothesis,Object,Existential,Neutral,Neutral
+1173,443,A blond girl is riding some waves,A blond girl is looking at some waves,some,Both,Object,Existential,Neutral,Neutral
+1174,443,A blond girl is riding exactly one waves,"A blond girl is looking at the waves
+",exactly one,Premise,Object,Existential,Neutral,Neutral
+1175,443,A blond girl is riding the waves,A blond girl is looking at exactly one waves,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+1176,443,A blond girl is riding exactly one waves,A blond girl is looking at exactly one waves,exactly one,Both,Object,Existential,Neutral,Neutral
+1177,443,A blond girl is riding an elegant waves,"A blond girl is looking at the waves
+",an elegant,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1178,443,A blond girl is riding the waves,A blond girl is looking at an elegant waves,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1179,443,A blond girl is riding an elegant waves,A blond girl is looking at an elegant waves,an elegant,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1180,342,a girl with a black bag is on a crowded train,a cramped black train is on the bag of a girl,NONE,NONE,NONE,No Modifiers,Neutral,Neutral
+1181,342,every girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,every,Premise,Subject,Universal,Neutral,Neutral
+1182,342,a girl with a black bag is on a crowded train,every cramped black train is on the bag of a girl,every,Hypothesis,Subject,Universal,Neutral,Neutral
+1183,342,every girl with black bag is on a crowded train,every cramped black train is on the bag of a girl,every,Both,Subject,Universal,Neutral,Neutral
+1184,342,some girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,some,Premise,Subject,Existential,Neutral,Neutral
+1185,342,a girl with a black bag is on a crowded train,some cramped black train is on the bag of a girl,some,Hypothesis,Subject,Existential,Neutral,Neutral
+1186,342,some girl with black bag is on a crowded train,some cramped black train is on the bag of a girl,some,Both,Subject,Existential,Neutral,Neutral
+1187,342,at least  girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,at least,Premise,Subject,Existential,Neutral,Neutral
+1188,342,a girl with a black bag is on a crowded train,at least cramped black train is on the bag of a girl,at least,Hypothesis,Subject,Existential,Neutral,Neutral
+1189,342,at least girl with black bag is on a crowded train,at least cramped black train is on the bag of a girl,at least,Both,Subject,Existential,Neutral,Neutral
+1190,342,not every girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,not every,Premise,Subject,Negation,Neutral,Neutral
+1191,342,a girl with a black bag is on a crowded train,not every cramped black train is on the bag of a girl,not every,Hypothesis,Subject,Negation,Neutral,Neutral
+1192,342,not every girl with black bag is on a crowded train,not every cramped black train is on the bag of a girl,not every,Both,Subject,Negation,Neutral,Neutral
+1193,342,exactly one girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,exactly one,Premise,Subject,Existential,Neutral,Neutral
+1194,342,a girl with a black bag is on a crowded train,exactly one cramped black train is on the bag of a girl,exactly one,Hypothesis,Subject,Existential,Neutral,Neutral
+1195,342,exactly one girl with black bag is on a crowded train,exactly one cramped black train is on the bag of a girl,exactly one,Both,Subject,Existential,Neutral,Neutral
+1196,342,all but one girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,all but one,Premise,Subject,Existential,Neutral,Neutral
+1197,342,a girl with a black bag is on a crowded train,all but one cramped black train is on the bag of a girl,all but one,Hypothesis,Subject,Existential,Neutral,Neutral
+1198,342,all but one girl with black bag is on a crowded train,all but one cramped black train is on the bag of a girl,all but one,Both,Subject,Existential,Neutral,Neutral
+1199,342,everyone of the girls with black bag is on a crowded train,a cramped black train is on the bag of a girl,everyone of,Premise,Subject,Universal,Neutral,Neutral
+1200,342,a girl with a black bag is on a crowded train,everyone of cramped black trains is on the bag of a girl,everyone of,Hypothesis,Subject,Universal,Neutral,Neutral
+1201,342,everyone of girl with black bag is on a crowded train,everyone of cramped black trains is on the bag of a girl,everyone of,Both,Subject,Universal,Neutral,Neutral
+1202,342,no girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,no,Premise,Subject,Negation,Neutral,Neutral
+1203,342,a girl with a black bag is on a crowded train,no cramped black train is on the bag of a girl,no,Hypothesis,Subject,Negation,Neutral,Neutral
+1204,342,no girl with black bag is on a crowded train,no cramped black train is on the bag of a girl,no,Both,Subject,Negation,Neutral,Neutral
+1205,342,a green girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,green,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1206,342,a girl with a black bag is on a crowded train,green cramped black train is on the bag of a girl,green,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1207,342,a green girl with black bag is on a crowded train,green cramped black train is on the bag of a girl,green,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1208,342,a happy girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,happy,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1209,342,a girl with a black bag is on a crowded train,happy cramped black train is on the bag of a girl,happy,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1210,342,a happy girl with black bag is on a crowded train,happy cramped black train is on the bag of a girl,happy,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1211,342,a sad girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,sad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1212,342,a girl with a black bag is on a crowded train,sad cramped black train is on the bag of a girl,sad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1213,342,a sad girl with black bag is on a crowded train,sad cramped black train is on the bag of a girl,sad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1214,342,a good girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,good,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1215,342,a girl with a black bag is on a crowded train,good cramped black train is on the bag of a girl,good,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1216,342,a good girl with black bag is on a crowded train,good cramped black train is on the bag of a girl,good,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1217,342,a bad girl with black bag is on a crowded train,a cramped black train is on the bag of a girl,bad,Premise,Subject,Adjectives/Adverbs,Neutral,Neutral
+1218,342,a girl with a black bag is on a crowded train,bad cramped black train is on the bag of a girl,bad,Hypothesis,Subject,Adjectives/Adverbs,Neutral,Neutral
+1219,342,a bad girl with bad black bag is on a crowded train,bad cramped black train is on the bag of a girl,bad,Both,Subject,Adjectives/Adverbs,Neutral,Neutral
+1221,342,a girl with a black bag is not on a crowded train,a cramped black train is on the bag of a girl,not,Premise,Verb,Negation,Neutral,Neutral
+1222,342,a girl with a black bag is on a crowded train,a cramped black train is not on the bag of a girl,not,Hypothesis,Verb,Negation,Neutral,Neutral
+1223,342,a girl with a black bag is not on a crowded train,a cramped black train not is on the bag of a girl,not,Both,Verb,Negation,Neutral,Neutral
+1224,342,a girl with a black bag is abnormally on a crowded train,a cramped black train is on the bag of a girl,abnormally,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+1225,342,a girl with a black bag is on a crowded train,a cramped black train is abnormally on the bag of a girl,abnormally,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+1226,342,a girl with a black bag is abnormally on a crowded train,a cramped black train is abnormally on the bag of a girl,abnormally,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+1227,342,a girl with a black bag is elegantly on a crowded train,a cramped black train is on the bag of a girl,elegantly,Premise,Verb,Adjectives/Adverbs,Neutral,Neutral
+1228,342,a girl with a black bag is on a crowded train,a cramped black train is elegantly on the bag of a girl,elegantly,Hypothesis,Verb,Adjectives/Adverbs,Neutral,Neutral
+1229,342,a girl with a black bag is elegantly on a crowded train,a cramped black train is elegantly on the bag of a girl,elegantly,Both,Verb,Adjectives/Adverbs,Neutral,Neutral
+1230,342,a girl with a black bag is always on a crowded train,a cramped black train is on the bag of a girl,always,Premise,Verb,Universal,Neutral,Neutral
+1231,342,a girl with a black bag is on a crowded train,a cramped black train is always on the bag of a girl,always,Hypothesis,Verb,Universal,Neutral,Neutral
+1232,342,a girl with a black bag is always on a crowded train,a cramped black train is always on the bag of a girl,always,Both,Verb,Universal,Neutral,Neutral
+1233,342,a girl with a black bag is never on a crowded train,a cramped black train is on the bag of a girl,never,Premise,Verb,Universal,Neutral,Neutral
+1234,342,a girl with a black bag is on a crowded train,a cramped black train is never on the bag of a girl,never,Hypothesis,Verb,Universal,Neutral,Neutral
+1235,342,a girl with a black bag is never on a crowded train,a cramped black train is never on the bag of a girl,never,Both,Verb,Universal,Neutral,Neutral
+1237,342,A girl with a black bag is on a good crowded train,"A cramped black train is on the bag of a girl
+",good,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1238,342,A girl with a black bag is on a crowded train,A cramped black train is on the good bag of a girl,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1239,342,A girl with a black bag is on a good crowded train,A cramped black train is on the good bag of a girl,good,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1240,342,A girl with a black bag is on all but one crowded train,"A cramped black train is on the bag of a girl
+",all but one,Premise,Object,Existential,Neutral,Neutral
+1241,342,A girl with a black bag is on a crowded train,A cramped black train is on all but one bag of a girl,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+1242,342,A girl with a black bag is on all but one crowded train,A cramped black train is on all but one bag of a girl,all but one,Both,Object,Existential,Neutral,Neutral
+1243,342,A girl with a black bag is on every crowded train,"A cramped black train is on the bag of a girl
+",every,Premise,Object,Universal,Neutral,Neutral
+1244,342,A girl with a black bag is on a crowded train,A cramped black train is on every bag of a girl,every,Hypothesis,Object,Universal,Neutral,Neutral
+1245,342,A girl with a black bag is on every crowded train,A cramped black train is on every bag of a girl,every,Both,Object,Universal,Neutral,Neutral
+1246,342,A girl with a black bag is on a bad crowded train,"A cramped black train is on the bag of a girl
+",bad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1247,342,A girl with a black bag is on a crowded train,A cramped black train is on the bad bag of a girl,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1248,342,A girl with a black bag is on a bad crowded train,A cramped black train is on the bad bag of a girl,bad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1249,342,A girl with a black bag is on a green crowded train,"A cramped black train is on the bag of a girl
+",green,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1250,342,A girl with a black bag is on a crowded train,A cramped black train is on the green bag of a girl,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1251,342,A girl with a black bag is on a green crowded train,A cramped black train is on the green bag of a girl,green,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1252,342,A girl with a black bag is on a happy crowded train,"A cramped black train is on the bag of a girl
+",happy,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1253,342,A girl with a black bag is on a crowded train,A cramped black train is on the happy bag of a girl,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1254,342,A girl with a black bag is on a happy crowded train,A cramped black train is on the happy bag of a girl,happy,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1255,342,A girl with a black bag is on an abnormal crowded train,"A cramped black train is on the bag of a girl
+",an abnormal,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1256,342,A girl with a black bag is on a crowded train,A cramped black train is on an abnormal bag of a girl,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1257,342,A girl with a black bag is on an abnormal crowded train,A cramped black train is on an abnormal bag of a girl,an abnormal,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1258,342,A girl with a black bag is on a sad crowded train,"A cramped black train is on the bag of a girl
+",sad,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1259,342,A girl with a black bag is on a crowded train,A cramped black train is on the sad bag of a girl,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1260,342,A girl with a black bag is on a sad crowded train,A cramped black train is on the sad bag of a girl,sad,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1261,342,A girl with a black bag is on no crowded train,"A cramped black train is on the bag of a girl
+",no,Premise,Object,Negation,Neutral,Neutral
+1262,342,A girl with a black bag is on a crowded train,A cramped black train is on no bag of a girl,no,Hypothesis,Object,Negation,Neutral,Neutral
+1263,342,A girl with a black bag is on no crowded train,A cramped black train is on no bag of a girl,no,Both,Object,Negation,Neutral,Neutral
+1264,342,A girl with a black bag is on some crowded train,"A cramped black train is on the bag of a girl
+",some,Premise,Object,Existential,Neutral,Neutral
+1265,342,A girl with a black bag is on a crowded train,A cramped black train is on some bag of a girl,some,Hypothesis,Object,Existential,Neutral,Neutral
+1266,342,A girl with a black bag is on some crowded train,A cramped black train is on some bag of a girl,some,Both,Object,Existential,Neutral,Neutral
+1267,342,A girl with a black bag is on exactly one crowded train,"A cramped black train is on the bag of a girl
+",exactly one,Premise,Object,Existential,Neutral,Neutral
+1268,342,A girl with a black bag is on a crowded train,A cramped black train is on exactly one bag of a girl,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+1269,342,A girl with a black bag is on exactly one crowded train,A cramped black train is on exactly one bag of a girl,exactly one,Both,Object,Existential,Neutral,Neutral
+1270,342,A girl with a black bag is on an elegant crowded train,"A cramped black train is on the bag of a girl
+",an elegant,Premise,Object,Adjectives/Adverbs,Neutral,Neutral
+1271,342,A girl with a black bag is on a crowded train,A cramped black train is on an elegant bag of a girl,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1272,342,A girl with a black bag is on an elegant crowded train,A cramped black train is on an elegant bag of a girl,an elegant,Both,Object,Adjectives/Adverbs,Neutral,Neutral
+1273,129,an old man is sitting in a field,a man is sitting in a field,NONE,NONE,NONE,No Modifiers,FE,FE
+1274,129,every old man is sitting in a field,a man is sitting in a field,every,premise,subject,Universal,FE,FE
+1275,129,an old man is sitting in a field,every man is sitting in a field,every,hypothesis,subject,Universal,RE,RE
+1276,129,every old man is sitting in a field,every man is sitting in a field,every,Both,subject,Universal,RE,RE
+1277,129,some old man is sitting in a field,a man is sitting in a field,some,premise,subject,Existential,FE,FE
+1278,129,an old man is sitting in a field,some man is sitting in a field,some,hypothesis,subject,Existential,FE,FE
+1279,129,some old man is sitting in a field,some man is sitting in a field,some,Both,subject,Existential,FE,FE
+1280,129,at least old man is sitting in a field,a man is sitting in a field,at least,premise,subject,Existential,FE,FE
+1281,129,an old man is sitting in a field,at least man is sitting in a field,at least,hypothesis,subject,Existential,FE,FE
+1282,129,at least old man is sitting in a field,at least man is sitting in a field,at least,Both,subject,Existential,FE,FE
+1283,129,not every old man is sitting in a field,a man is sitting in a field,not every,premise,subject,Negation,Neutral,Neutral
+1284,129,an old man is sitting in a field,not every man is sitting in a field,not every,hypothesis,subject,Negation,Neutral,Neutral
+1285,129,not every old man is sitting in a field,not every man is sitting in a field,not every,Both,subject,Negation,FE,FE
+1286,129,exactly one old man is sitting in a field,a man is sitting in a field,exactly one,premise,subject,Existential,FE,FE
+1287,129,an old man is sitting in a field,exactly one man is sitting in a field,exactly one,hypothesis,subject,Existential,Neutral,Neutral
+1288,129,exactly one old man is sitting in a field,exactly one man is sitting in a field,exactly one,Both,subject,Existential,FE,FE
+1289,129,all but one old man is sitting in a field,a man is sitting in a field,all but one,premise,subject,Existential,FE,FE
+1290,129,an old man is sitting in a field,all but one man is sitting in a field,all but one,hypothesis,subject,Existential,RE,RE
+1291,129,all but one old man is sitting in a field,all but one man is sitting in a field,all but one,Both,subject,Existential,Neutral,Neutral
+1292,129,a bad old man is sitting in a field,a bad man is sitting in a field,bad,Both,subject,Adjectives/Adverbs,FE,FE
+1293,129,an old man is not sitting in a field,a man is sitting in a field,not,Premise,verb,Negation,Neutral,Neutral
+1294,129,an old man is sitting in a field,a man is not sitting in a field,not,Hypothesis,verb,Negation,Negation,Contradiction
+1295,129,an old man is not sitting in a field,a man is not sitting in a field,not,Both,verb,Negation,FE,FE
+1296,129,an old man is abnormally sitting in a field,a man is sitting in a field,abnormally,Premise,verb,Adjectives/Adverbs,FE,FE
+1297,129,an old man is sitting in a field,a man is abnormally sitting in a field,abnormally,Hypothesis,verb,Adjectives/Adverbs,Neutral,Neutral
+1298,129,an old man is abnormally sitting in a field,a man is abnormally sitting in a field,abnormally,Both,verb,Adjectives/Adverbs,FE,FE
+1299,129,an old man is elegantly sitting in a field,a man is sitting in a field,elegantly,Premise,verb,Adjectives/Adverbs,FE,FE
+1300,129,an old man is sitting in a field,a man is elegantly sitting in a field,elegantly,Hypothesis,verb,Adjectives/Adverbs,Neutral,Neutral
+1301,129,an old man is elegantly sitting in a field,a man is elegantly sitting in a field,elegantly,Both,verb,Adjectives/Adverbs,FE,FE
+1302,129,an old man is always sitting in a field,a man is sitting in a field,always,Premise,verb,Universal,FE,FE
+1303,129,an old man is sitting in a field,a man is always sitting in a field,always,Hypothesis,verb,Universal,Neutral,Neutral
+1304,129,an old man is always sitting in a field,a man is always sitting in a field,always,Both,verb,Universal,FE,FE
+1305,129,an old man is never sitting in a field,a man is sitting in a field,never,Premise,verb,Universal,Neutral,Neutral
+1306,129,an old man is sitting in a field,a man is never sitting in a field,never,Hypothesis,verb,Universal,Neutral,Neutral
+1307,129,an old man is never sitting in a field,a man is never sitting in a field,never,Both,verb,Universal,Neutral,Neutral
+1309,129,an old man is sitting in a good field,a man is sitting in a field,good,Premise,Object,Adjectives/Adverbs,FE,FE
+1310,129,an old man is sitting in a field,a man is sitting in a good field,good,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1311,129,an old man is sitting in a good field,a man is sitting in a good field,good,Both,Object,Adjectives/Adverbs,FE,FE
+1312,129,an old man is sitting in all but one field,a man is sitting in a field,all but one,Premise,Object,Existential,FE,FE
+1313,129,an old man is sitting in a field,a man is sitting in all but one field,all but one,Hypothesis,Object,Existential,Neutral,Neutral
+1314,129,an old man is sitting in all but one field,a man is sitting in all but one field,all but one,Both,Object,Existential,FE,FE
+1315,129,an old man is sitting in every field,a man is sitting in a field,every,Premise,Object,Universal,FE,FE
+1316,129,an old man is sitting in a field,a man is sitting in every field,every,Hypothesis,Object,Universal,Neutral,Neutral
+1317,129,an old man is sitting in every field,a man is sitting in every field,every,Both,Object,Universal,FE,FE
+1318,129,an old man is sitting in a bad field,a man is sitting in a field,bad,Premise,Object,Adjectives/Adverbs,FE,FE
+1319,129,an old man is sitting in a field,a man is sitting in a bad field,bad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1320,129,an old man is sitting in a bad field,a man is sitting in a bad field,bad,Both,Object,Adjectives/Adverbs,FE,FE
+1321,129,an old man is sitting in a green field,a man is sitting in a field,green,Premise,Object,Adjectives/Adverbs,FE,FE
+1322,129,an old man is sitting in a field,a man is sitting in a green field,green,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1323,129,an old man is sitting in a green field,a man is sitting in a green field,green,Both,Object,Adjectives/Adverbs,FE,FE
+1324,129,an old man is sitting in a happy field,a man is sitting in a field,happy,Premise,Object,Adjectives/Adverbs,FE,FE
+1325,129,an old man is sitting in a field,a man is sitting in a happy field,happy,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1326,129,an old man is sitting in a happy field,a man is sitting in a happy field,happy,Both,Object,Adjectives/Adverbs,FE,FE
+1327,129,an old man is sitting in a an abnormal field,a man is sitting in a field,an abnormal,Premise,Object,Adjectives/Adverbs,FE,FE
+1328,129,an old man is sitting in a field,a man is sitting in a an abnormal field,an abnormal,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1329,129,an old man is sitting in a an abnormal field,a man is sitting in a an abnormal field,an abnormal,Both,Object,Adjectives/Adverbs,FE,FE
+1330,129,an old man is sitting in a sad field,a man is sitting in a field,sad,Premise,Object,Adjectives/Adverbs,FE,FE
+1331,129,an old man is sitting in a field,a man is sitting in a sad field,sad,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1332,129,an old man is sitting in a sad field,a man is sitting in a sad field,sad,Both,Object,Adjectives/Adverbs,FE,FE
+1333,129,an old man is sitting in no field,a man is sitting in a field,no,Premise,Object,Negation,Neutral,Neutral
+1334,129,an old man is sitting in a field,a man is sitting in no field,no,Hypothesis,Object,Negation,Neutral,Neutral
+1335,129,an old man is sitting in no field,a man is sitting in no field,no,Both,Object,Negation,FE,FE
+1336,129,an old man is sitting in some field,a man is sitting in a field,some,Premise,Object,Existential,FE,FE
+1337,129,an old man is sitting in a field,a man is sitting in some field,some,Hypothesis,Object,Existential,FE,FE
+1338,129,an old man is sitting in some field,a man is sitting in some field,some,Both,Object,Existential,FE,FE
+1339,129,an old man is sitting in exactly one field,a man is sitting in a field,exactly one,Premise,Object,Existential,FE,FE
+1340,129,an old man is sitting in a field,a man is sitting in exactly one field,exactly one,Hypothesis,Object,Existential,Neutral,Neutral
+1341,129,an old man is sitting in exactly one field,a man is sitting in exactly one field,exactly one,Both,Object,Existential,FE,FE
+1342,129,an old man is sitting in a an elegant field,a man is sitting in a field,an elegant,Premise,Object,Adjectives/Adverbs,FE,FE
+1343,129,an old man is sitting in a field,a man is sitting in a an elegant field,an elegant,Hypothesis,Object,Adjectives/Adverbs,Neutral,Neutral
+1344,129,an old man is sitting in a an elegant field,a man is sitting in a an elegant field,an elegant,Both,Object,Adjectives/Adverbs,FE,FE

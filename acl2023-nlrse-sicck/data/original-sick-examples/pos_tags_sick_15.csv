@@ -1,0 +1,16 @@
+Premise,Premise POS Tags,Hypothess,Hypothesis POS Tags
+an old man is sitting in a field,DT JJ NN VBZ VBG IN DT NN,a man is sitting in a field,DT NN VBZ VBG IN DT NN
+A boy is standing in the cold water,DT NN VBZ VBG IN DT JJ NN,A boy is standing in the water,DT NN VBZ VBG IN DT NN
+Two children are hanging on a large branch,CD NNS VBP VBG IN DT JJ NN,Two children are climbing a tree,CD NNS VBP VBG DT NN
+A boy is hitting a baseball,DT NN VBZ VBG DT NN,A child is hitting a baseball,DT NN VBZ VBG DT NN
+Two dogs are playing by a tree,CD NNS VBP VBG IN DT NN,Two dogs are playing by a plant,CD NNS VBP VBG IN DT NN
+A player is throwing the ball,DT NN VBZ VBG DT NN,Two teams are competing in a football match,CD NNS VBP VBG IN DT NN NN
+A man is sitting in a field,DT NN VBZ VBG IN DT NN,A man is running in a field,DT NN VBZ VBG IN DT NN
+Two dogs are playing by a tree,CD NNS VBP VBG IN DT NN,Two dogs are sleeping by a tree,CD NNS VBP VBG IN DT NN
+A girl with a black bag is on a crowded train,DT NN IN DT JJ NN VBZ IN DT JJ NN,A cramped black train is on the bag of a girl,DT JJ JJ NN VBZ IN DT NN IN DT NN
+A blond girl is riding the waves,DT JJ NN VBZ VBG DT NNS,A blond girl is looking at the waves,DT JJ NN VBZ VBG IN DT NNS
+The turtle is following the fish,DT NN VBZ VBG DT NN,The fish is following the turtle,DT NN VBZ VBG DT NN
+A man is jumping into an empty pool,DT NN VBZ VBG IN DT JJ NN,A man is jumping into a full pool,DT NN VBZ VBG IN DT JJ NN
+A deer is jumping over a fence,DT NNS VBZ VBG RP DT NN,A deer is not jumping over the fence,DT NNS VBZ RB VBG RP DT NN
+A child is hitting a baseball,DT NN VBZ VBG DT NN,A child is missing a baseball,DT NN VBZ VBG DT NN
+A classroom is full of students,DT NN VBZ JJ IN NNS,A classroom is empty,DT NN VBZ JJ
