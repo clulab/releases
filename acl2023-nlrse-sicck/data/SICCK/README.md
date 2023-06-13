@@ -1,4 +1,4 @@
-# Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference
+# Sentences Involving Complex Compositional Knowledge (SICCK)
 Code and dataset for Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference
 
 ## Dataset : Sentences Involving Complex Compositional Knowledge (SICCK)
@@ -15,3 +15,4 @@ Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</
 The code was run on two different settings: Google Colab using python and Scala respectively. 
 - <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code">Colab Notebooks Code for SICCK dataset generation, annotations, zero-shot evaluation and finetuning of NLI models and evaluation</a>. 
 - The <a href="https://github.com/clulab/releases/tree/sushma/acl2023-nlrse-sicck/code/generating-modified-sentences/natlog"> scala code for generating modified object parts of sentences using Clulab Processors software </a>.
+
