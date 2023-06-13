@@ -10,11 +10,6 @@ SICCK data: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrs
 
 - original 15 sick examples and analysis for compositionality: <a href="https://github.com/clulab/releases/tree/master/acl2023-nlrse-sicck/data/original-sick-examples"> sick-15 </a>
 
-    'Contradiction': 0,
-    'Neutral': 1, 
-    'FE': 2, 
-    'RE': 2, 
-
 ## License 
 Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</a>
 
