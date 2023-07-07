@@ -10,7 +10,7 @@ Contents:
 4. Changelog
 
 
-1. Description:
+### 1. Description:
 
 This is a training and testing dataset for evaluating a neural classifier that identifies sentences that contain population subjective views (beliefs and attitudes).
 
@@ -19,8 +19,9 @@ The dataset is described in the following publication (TODO: adjust when full ci
 Annotating and Training for Population Subjective Views. M. Alexeeva, C. Hyland, K. Alcock, A.A. Beal Cohen, H. Kanyamahanga, I. K. Anni, M. Surdeanu. In Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis, 2023.
 ```
 
-2. Directory Structure:
+### 2. Directory Structure:
 
+```
 ├── wassa2023_data_final_version
 |   └── training_set
 │        ├── known_triggers (6 files) # data annotated by MTurk and quality-controlled by the team
@@ -29,12 +30,13 @@ Annotating and Training for Population Subjective Views. M. Alexeeva, C. Hyland,
 │   └── test_set
 │        ├── known_triggers (1 file) # data annotated by the team in collaboration with domain experts
 │        ├── unknown_triggers (1 file) # automatically sampled data containing no known triggers, annotated by the team; include a small set of sentences that are judged to be beliefs and include previously unknown belief triggers
+```
 
-
-3. File Structure
+### 3. File Structure:
 
 The data are stored in the `tsv` format. The following describes the header for the files in each directory
 
+```
 ├── training set, known trigger files
 |   └── uuid                          # data point unique ID
 |   └── file                          # file name (not searchable online)
@@ -54,7 +56,8 @@ The data are stored in the `tsv` format. The following describes the header for 
 |   └── title                         # title of the paper
 |   └── source                        # source of the paper (authors or organization)
 |   └── year                          # paper creation date
-
+```
+```
 ├── training set, unknown trigger files
 |   └── uuid                          # data point unique ID
 |   └── file                          # file name (not searchable online)
@@ -65,12 +68,14 @@ The data are stored in the `tsv` format. The following describes the header for 
 |   └── title                         # title of the paper
 |   └── source                        # source of the paper (authors or organization)
 |   └── year                          # paper creation date
-
+```
+```
 ├── training set, unknown_triggers_sample_used_for_experiments
 |   └── sentence                      # sentence used as a negative data point (assumed to not contain a belief based on the absence of a known belief trigger)
 |   └── paragraph                     # paragraph-length context of the negative data point sentence (automatically extracted)
 |   └── quality_controlled            # annotation used in training; all data points assumed to be negative
-
+```
+```
 ├── test set, known trigger files
 |   └── uuid                          # data point unique ID
 |   └── file                          # file name (some file names are searchable online if the extension is changed from `txt` to `pdf`)
@@ -83,8 +88,8 @@ The data are stored in the `tsv` format. The following describes the header for 
 |   └── title                         # title of the paper
 |   └── source                        # source of the paper (authors or organization)
 |   └── year                          # paper creation date
-
-
+```
+```
 ├── test set, unknown trigger files
 |   └── uuid                          # data point unique ID
 |   └── file                          # file name (some file names are searchable online if the extension is changed from `txt` to `pdf`)
@@ -96,7 +101,7 @@ The data are stored in the `tsv` format. The following describes the header for 
 |   └── title                         # title of the paper
 |   └── source                        # source of the paper (authors or organization)
 |   └── year                          # paper creation date
-
+```
 
 Please cite the following publication when using the dataset:
 
@@ -104,8 +109,6 @@ Please cite the following publication when using the dataset:
 TODO
 ```
 
-==========
-Changelog:
-==========
+### Changelog:
 
 06/26/2023 - document created (alexeeva)
