@@ -14,6 +14,9 @@ Derived from <a href="https://marcobaroni.org/composes/sick.html">SICK Dataset</
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
+## Note
+The results in this version differ from the results in the published paper due to: (a) minor bug fixes, and (b) averaging results across five different random seeds. Please note that the different results reported in this version do not change any of the observations in the published paper.
+
 ## Code
 
 Author: sushmaakoju@arizona.edu
