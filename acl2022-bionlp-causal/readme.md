@@ -1,7 +1,7 @@
 Code and data for paper causal event detection, BioNLP 2022. The current files are for the fine-tuning and distillation. The code and data for LSTM and BERT pre-training will be uploaded soon. 
 
 # Resources:
-Pubmed papers for pre-training: available through [huggingface hub]([zhengzhongliang/pubmed_causal_relation_pretrain_pure_text](https://huggingface.co/datasets/zhengzhongliang/pubmed_causal_relation_pretrain_pure_text/tree/main).
+Pubmed papers for pre-training: available through huggingface hub dataset [zhengzhongliang/pubmed_causal_relation_pretrain_pure_text](https://huggingface.co/datasets/zhengzhongliang/pubmed_causal_relation_pretrain_pure_text/tree/main).
 
 # Requirements
 `numpy==1.19.1` \
